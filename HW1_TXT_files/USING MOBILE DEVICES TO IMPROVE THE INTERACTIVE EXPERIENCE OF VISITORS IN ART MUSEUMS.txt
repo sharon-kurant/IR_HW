@@ -1,0 +1,255 @@
+USING MOBILE DEVICES TO IMPROVE THE
+INTERACTIVE EXPERIENCE OF VISITORS IN ART
+MUSEUMS 1
+J. A. Gallud, M. Lozano, R. Tesoriero, V. M. R. Penichet
+LoUISE Research Group – Computer Science Research Institute (I3A),
+Castilla-La Mancha University, 02071 Albacete, Spain
+[jgallud, mlozano, ricardo, vpenichet]@dsi.uclm.es
+
+Abstract. Many people use a PDA or a smart phone as a daily working tool.
+These devices allow us to communicate; to organize our life and so on. In this
+sense, the key question underlying this paper is if this new technology could be
+used to enrich our experience when we visit museums or other cultural spaces.
+Museums and art galleries are provided with some electronic guides in order to
+do more pleasant the visit to the exhibition. It is interesting to know how to use
+these new devices as a medium to guide and improve the visitors’ experience.
+In this paper we describe a real system deployed in an emblematic museum in
+Spain, called Cutlery Museum of Albacete. Our approach uses a PDA –offered
+to visitors– that work jointly with a wireless network to show additional information about old knives, jack-knives and scissors which are showed physically
+in the museum. The system supports four languages and incorporates special
+functions for disabled people. The users’ satisfaction results collected during
+the last 18 months demonstrate the validity of our proposal.
+
+1 Using mobile devices in cultural environments
+The application of new technologies in museums is modifying the concept of the
+traditional cultural environment visit. Users can now experience a modern and enriched way to visit museums and similar cultural spaces, thanks to the use of modern
+devices and sophisticated software.
+This paper describes our proposal based on the use of mobile devices like PDAs to
+improve the users’ experience in art and cultural spaces. Our previous experience in
+this field has been successfully proved [6, 11].
+There are several experiences that work in real cases with success. Technology is
+used to provide visitors with the ability of interacting with the museum [7]. In a typical scenario, the visitor can use his or her sense of touch (hearing and sight) to learn
+about the subject of the exhibition. Multimedia devices, 3D sound, DVD and other
+
+1
+
+This work was partially supported by the Spanish CICYT project TIN2004-08000-C03-01
+and the grant PCC05-005-1 from Junta de Comunidades de Castilla-La Mancha.
+
+systems are employed to make people enjoy in the museum. Emerging technologies
+as virtual reality or augmented reality are also being used in these scenarios [1].
+In this project we focused on the use of pocket computers (PDA) as a powerful
+tool to help visitors in their visit to the museum. The challenge was to find out if our
+system is a new barrier or a helpful tool in the museum, if the PDA technology would
+be useful to artists and their work of arts or if there are reasons for museums to avoid
+adopting this new advanced technology. They are not questions easy to answer reading former works, so we decided to define our conclusions building a complete system.
+There are several former projects that have tried to use wearable computers in museums. One of the most important references in this subject is the work developed by
+Ciavarella and Paternò [2, 3] in the Marble Museum of Carrara (Italy). This project is
+currently working and offers to users a PDA with all the information preloaded by
+means of memory cards. The PDA is able to detect when the user is entering in a
+room thanks to infrared devices located at the beginning of each room.
+Other Museums have already developed projects based on handled devices [10], as
+the Field Museum in Chicago, Herbert F. Johnson Museum of Art of New York or
+Kew Gardens outside London [5, 8]. Most of them use handled devices as a useful
+tool in the inventory process (see references). These projects are all prototypes and
+normal visitors do not use any PDA.
+The exhibitions are ideal scenarios for applying augmented reality or mixed reality. There are many HCI groups working in this area, as the work of Ciolfi [4] where
+an interactive museum is designed using PDA; or the work performed by Bernt
+Schiele [9] where a wearable computer is developed as an alternative to the traditional guides.
+The paper is organized in the following sections: section 2 describes the system architecture. In section 3 we describe how the art piece is managed in the system. Section 4 shows some of the results collected with the first implementation of the system.
+Finally the conclusions and future work are presented in section 5.
+
+2 Description of our mobile system approach for art museums
+The system we are working in has two different approaches or views. The first one
+was deployed three years ago and is our test bank because is running in a real museum with real users, the Cutlery Museum of Albacete (Spain).
+The first system is described in [6] and was organized in these subsystems:
+- A Web application
+- A mobile software based on PDA
+- A system to manage the database of the Museum and to organize the exhibits
+The second approach is being developed in our research laboratory and some new
+features have been added which are described here.
+When new functionality is going to be incorporated in the system, problems like
+components reuse or system scalability arise. If there are no components reused or if
+the system can not be easily scaled, one can conclude that the initial system has not
+been well designed. This is the situation we faced when we decided to incorporate
+
+new functionality and it is easy to understand, taking into account the rigorous deadlines.
+On the other hand, at the time that the system was released and deployed in the
+Cutlery Museum, we began to receive users’ satisfaction evaluation and a number of
+improve suggestions.
+The functionality desired for the system was almost the same with the addition of
+the automatic positioning of PDAs and the redefinition of the user interface in order
+to provide a richer experience. Additionally, we had to integrate our solution with the
+previous software running in the museum.
+Only our experience in mobile software for museums was useful in the design of
+the new system but we could not reuse any software component..
+In summary, we decided to redesign the system in order to support PDA automatic
+positioning, automatic database synchronization and, the most important fact, redefine the user interface.
+We are not going to describe the research aspects devoted to improve the user interface and the experience of visitors (with PDA) in the Museum. We focus on the
+functional requirements affecting the architecture. So we will focus on the first two
+main requirements that have been incorporated in the definition of the system: the
+positioning subsystem and the automatic database synchronization subsystem. Other
+important requirements we empathized were the following: modularity, technology
+independence and so on.
+
+Figure 1: Main subsystems
+
+The positioning subsystem is responsible of giving the PDA a specific location according to a coordinate system.
+The automatic database synchronization subsystem is responsible of maintaining
+the coherence between both the internal and external databases. As internal database
+we mean the database eventually installed in the museum. The external database refers to our specific database for supporting the positioning subsystem and the other
+requirements.
+Figure 2 shows a more detailed view of the components of the new system.
+
+Figure 2: System’s components diagram
+In the detailed view depicted in Figure 2 we can see the main components of the
+system and the specific nodes hosting each component.
+Both systems share a common functionality described as follows. A user with a
+PDA wants to visit a museum; so at the entrance lobby a specific software for muse-
+
+ums is provided to the user. In the first approach the user had to locate his or her
+position in the virtual map showed in the PDA. The new version of the system introduces an improvement by which the PDA is able to detect automatically the position
+of the user in the museum.
+The positioning system allows the system to provide users with an unknown experience when they are visiting an art museum offering location aware information.
+From the user point of view, the visitor experiencing this new way of interaction
+have the following advantages against traditional interaction methods: no specific
+interaction is explicitly required to access information that can be deduced from user
+position; information provided to users may be filtered according to user interests
+avoiding information overload. From the museum exhibitor point of view, it may
+provide information about visitor’s interests and their personal opinion about what
+the most interesting pieces are.
+From a technological point of view, we considered the most important techniques
+to solve the automatic positioning system and up to date, we have not closed the topic
+with a definitive conclusion. We have considered infrared, RFID, WIFI and mixed
+approaches.
+Actually, we can roughly divide positioning systems into two types, those that provide user position on space (i.e. GPS, Active RFID, so on) and those that may be used
+to provide a more precise position to identify an object on the space (i.e. Barcode,
+passive RFID, IrDA, etc.).
+The variety of positioning systems forced us to define the system separately from
+the hardware employed. The system is even prepared to be used with more than one
+positioning system simultaneously, increasing positioning flexibility and precision.
+Figures 1 and 2 show how the client is able to interact with the environment in order
+to know its position in the real building. The client program running on the PDA can
+receive information from the environment in different ways: infrared sensors, RFID
+tags, Bluetooth or WIFI devices or any other system available now or to appear in the
+future.
+Figure 2 also shows other components running on different nodes (a deployment
+view of the system).
+
+3 Managing the art piece
+Art piece information may be seen on two views: catalog information and environmental information.
+Catalog information is related to technical issues about pieces in the museum (i.e.
+maintenance dates, revisions, value, and so on) and is written on technical language.
+On the other hand, environmental information is intended for visitors (i.e. related
+audios and videos, contextual information, etc) and colloquial language is used in
+order to improve users’ experience and understandability.
+Although environmental information is provided to visitors in general; technical
+information may be extremely useful for users that are related or simply require more
+information about pieces on the museum.
+
+So, the person responsible for managing the art exhibition uses the Space Manager
+application to define spaces which will host art objects. The concrete art object is
+managed by means of a legacy software. This software is supposed to be in the museum before introducing the mobile solution based on PDA.
+The existence of legacy software introduces the need of a Synchronizer that will
+maintain the coherence between the External database and the internal one.
+The Catalog component is responsible of managing technical information of an art
+object with the information provided by the legacy database.
+
+Figure 3: Class diagram
+
+The Contents Provider provides the Client with the information to be showed and
+all the information needed to maintain the state.
+Figure 3 shows the class diagram of the entities we manage in our system. As we
+can see, the key entity is the piece, the art piece. This model has been defined according to national and international recommendations [12] [13] allowing us to easily
+deploy the system in different museums.
+
+4 Summarizing results
+A first version of the system has been running in the Cutlery Museum of Albacete,
+Spain since September 2004 and during these 3 years, the museum has received over
+15.000 visitors and over 3.000 visitors have used the system. An upgraded version of
+the system will be deployed in summer 2007.
+As we describe in detail in [11], the users’ satisfaction tests proved the validity of
+the first approach of our system. A summary of these results is described here. This
+section does not try to show all the results or their analysis but an overall view of the
+users’ opinion.
+We defined a typical usability opinion poll in which the different aspects evaluated
+were the following:
+- Personal opinion about the User Interface
+- Aesthetic of the User Interface
+- Organization of the interface
+- Interpretation: easiness of understanding
+- Acquisition: easiness of learning
+- Easiness to perform a particular task
+One of the most relevant results of the usability test was obtained from an expert
+group on new technologies, though we did several experiments described in [11]. In
+this group we collected 75 questionnaires with the next results:
+- 60% think the user interface was nice
+- 64% like the look and feel of the user interface
+- 70% like the graphics used in the system
+- 55% think the behavior was easy to understand
+- 85% think was nice to use the system
+- 85% think was very easy to select a language
+- 81% found easy to select a room
+- 92% found easy to select a show
+- 82% think was easy to select a piece
+- 80% think the system was usable
+This is the informal presentation of the data collected from the expert group that
+allow us to demonstrate the validity of the system . A formal and detailed report on
+the usability evaluation can be found in [11].
+
+5 Conclusions and future work
+In this paper we describe advanced mobile software based on PDA applied to art
+museums.
+This research is based on the idea that a PDA or pocket computer can be used in
+art museums to improve the users’ experience. We have applied the concepts to a
+particular museum, the Cutlery Museum of Albacete (Spain).
+The evolution of a real system has been described from the initial requirements to
+the current ones. The most important requirement that will be introduced in a new
+
+version of the system is a module for automatic positioning of PDA in the real building by using the available technology (infrared, RFID, etc).
+The first version of the system was deployed in the Cutlery Museum of Albacete
+two years ago and has been visited by over 15.000 people.
+The new system is being developed in the LoUISE research group and will be deployed in spring 2007.
+
+6 References
+[1] Baber, C., Bristow, H. Cheng, S-L, Hedley, A., Kuriyama, Y., Lien, M., Pollard, J. and
+Sorrell,
+P.
+2001.
+Augmenting
+Museums
+and
+Art
+Galleries.
+URL
+http://citeseer.ist.psu.edu/543180.html.
+[2] Ciavarella, C., Paternò, F. (2003). Design Criteria for Location-aware, Indoor, PDA Applications. Proceedings Mobile HCI 2003, LNCS 2795, Springer Verlag, 131-144.
+[3] Ciavarella, C., Paternò, F. (2004). The design of a handheld, location-aware guide for indoor environments. Personal and Ubiquitous Computing, Vol.8 N.2, Springer Verlag, 8291.
+[4] Ciolfi, L., Bannon, L. J. (2002). Designing Interactive Museum Exhibits: Enhancing visitor4curiosity through augmented artifacts. Eleventh European Conference on Cognitive Ergonomics.
+[5] Field Museum in Chicago, http://www.fmnh.org/
+[6] Gallud, J. A., Penichet, V. M. R., Argandoña, L. González, P., García J.A. 2005. Digital
+Museums: a multi-technological approach. HCI-International Conference 2005. Lawrence
+Erlbaum Associates (ISBN 0-8058-5807-5) Las Vegas (USA).
+[7] Grinter, R. E., Aoki, P. M., Hurst, A., Szymanski, Thornton, J. D., Woodruff, A. (2002).
+Revisiting the Visit: Understanding How Technology Can Shape the Museum Visit. Proceedings of CSCW’02, ACM, 16-20.
+[8] Herbert F. Johnson Museum of Art of New York, http://www.museum.cornell.edu/ Kew
+Gardens outside London, http://www.rbgkew.org.uk
+[9] Schiele, B., Jebara, T. and Oliver, N. (2001). Sensory Augmented Computing: Wearing the
+Museum's Guide. IEEE Micro 21 (3).
+[10] Steele B., Human-Computer Interaction Group tests systems for electronic guides, Computer Science, Cornell University, 2002 November 2005. ISBN-10: 0-596-00803-1. ISBN13: 9780596008031. URL http://designinginterfaces.com/.
+[11] Tesoriero R., Lozano M. D., Gallud J. A., Penichet V. M. R. 2007. Evaluating the users’
+experience of PDA-based software applied in art museums. WebIST 2007.
+[12]ICOM-CIDOC (1995). International Guidelines for Museum Object Information: The
+CIDOC Information Categories. International Committee for Documentation of the International
+Council
+of
+Museums.
+ISBN
+92-9012-124-6.
+URL
+http://www.willpowerinfo.myby.co.uk/cidoc/guide/guide.htm
+[13]Carretero A., Chinchilla M., Barraca de Ramos, P., Adellac M. D., Pesquera I., Alquézar E.
+(1996). Normalización documental de museos: Elementos par auna aplicación informática
+de gestión museográfica. Ministerio de educación y cultura. Dirección general de Bellas Artes y Bienes Culturales. Spain. ISBN: 84-818-148-3
+
+

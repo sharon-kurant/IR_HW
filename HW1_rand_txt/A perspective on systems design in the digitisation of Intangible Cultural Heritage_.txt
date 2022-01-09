@@ -1,0 +1,665 @@
+Aalborg Universitet
+
+A perspective on Systems Design in the Digitisation of Intangible Cultural Heritage
+Rodil, Kasper
+Published in:
+International Journal of Intangible Heritage
+
+Publication date:
+2017
+Document Version
+Publisher's PDF, also known as Version of record
+Link to publication from Aalborg University
+
+Citation for published version (APA):
+Rodil, K. (2017). A perspective on Systems Design in the Digitisation of Intangible Cultural Heritage.
+International Journal of Intangible Heritage, 12, 190-198.
+
+General rights
+Copyright and moral rights for the publications made accessible in the public portal are retained by the authors and/or other copyright owners
+and it is a condition of accessing publications that users recognise and abide by the legal requirements associated with these rights.
+? Users may download and print one copy of any publication from the public portal for the purpose of private study or research.
+? You may not further distribute the material or use it for any profit-making activity or commercial gain
+? You may freely distribute the URL identifying the publication in the public portal ?
+Take down policy
+If you believe that this document breaches copyright please contact us at vbn@aub.aau.dk providing details, and we will remove access to
+the work immediately and investigate your claim.
+Downloaded from vbn.aau.dk on: 11, 2021
+
+A Perspective on Systems Design in the Digitisation of
+Intangible Cultural Heritage
+
+Kasper Rodil
+
+Vol.12 2017 International Journal of Intangible Heritage 189
+
+Digitisation systems
+
+A Perspective on Systems Design in the
+Digitisation of Intangible Cultural
+Heritage
+Kasper Rodil,
+
+Department of Architecture, Design and Media Technology,
+Aalborg University, Denmark
+
+ABSTRACT
+My ambition for this shorter article is to add to an earlier
+discussion (see Rodil and Rehm, 2015) about the interplay of
+digital systems and the digitisation of intangible heritage. In
+particular, I wish to sketch some conceptualisations of what
+and how we can look at the digital systems (I refer to these
+as artefacts) as having certain inscribed perspectives.
+Meanwhile, providing some related literature, I show one
+possible road out of the complexity (with a co-responsible
+design known as Participatory Design), which emerges when
+certain cultures design and build artifacts together with the
+purpose of containing other cultures’ intangible heritage. At
+the end I provide some questions for reflection, if one is
+considering digitising intangible heritage.
+
+Keywords
+digitisation of ICH, Participatory Design, digital learning
+applications, virtual heritage, indigenous groups, southern
+Africa, Namibia
+
+Introduction
+What I propose in this article, based on and informed
+by long-term studies with indigenous groups across
+southern Africa, is the experience of the outcomes of
+design activities, and in particular of how collaborative
+design activities can make visible certain challenges
+when preserving and including ICH in the design of
+technical systems. The point here is not to suggest that
+there might be a ‘one-size-fits-all’ way to preserve ICH
+
+in digital form, nor do I criticise the current more
+traditional methods and long-term rationales, but
+rather I take an agnostic approach and seek to enhance
+the discourse on the various ways in which we can look
+at ICH and its preservation through digital means.
+As an academic I have an orientation towards
+technology and design, and share the UNESCO view of
+ICH as being vital for the communities where these
+
+190
+
+practices are performed, maintained and transferred to
+younger generations. Obviously, maintaining
+generations of accumulated knowledge and, for
+instance, capturing knowledge about sustainable
+interaction with the surrounding environment, will
+benefit humanity in general. Having a technological
+orientation means that I see ICH primarily as material
+which can be digitised, enabling future generations to
+benefit from it. While I explore how ICH can be handled
+in a digital domain, I also seek to find new ways in which
+this heritage can be performed and transferred, for
+instance as Virtual Heritage. To provide an example, I
+am currently engaged in transferring stories from
+indigenous communities in Namibia into government
+schools in the form of digital learning applications. The
+underlying question for that particular project is: Why
+should Namibian school children learn to read English
+by reading Snow White when there are more relevant
+and contextually fitting stories to tell?
+But, there is a schism between digital preservation
+and de facto systems design. The former concerns the
+past and current practices, whereas the latter is
+oriented towards preserving past and current practices
+but for a digital future. The digital future here reflects
+how the preserved material can become embedded into
+technical systems and how this material will be handled
+in future digital applications. When the ICH becomes
+digital, turned into bits and bytes, it undergoes a
+transformation from one form to another. This
+transformation, in my view, must be scrutinised and be
+a process involving curators and the communities
+where ICH is grounded.
+We (as a research group) always work in close
+partnership with the communities governing heritage
+and try to involve them actively in its management, as
+has been stipulated in the Ethical Principles and Article
+15 of the ICH Convention (UNESCO, 2003). First and
+foremost, we are concerned to evaluate continuously
+how ICH is altered when it becomes digital, but as I will
+go on to describe, there are more practical and political
+reasons for designing technology with the people
+currently safeguarding ICH than to treat a digital system
+as being a value-free place for digital content. The main
+aim of this article is to promote a critical stance towards
+the view of technical systems as value-free
+constructions. I plan to isolate several topics when
+
+‘going digital’ and provide examples of related work as
+well as work of my own, to support the perspectives
+presented.
+The strategy of this short article is to expand on a
+discussion started in this journal in 2015 (see Rodil and
+Rehm, 2015). We intend to continue this discussion in the
+future and cordially invite the readers of IJIH to join in.
+
+Challenges when going digital
+UNESCO promotes the following in Article 13, part C:
+foster scientific, technical and artistic studies, as well as
+research methodologies, with a view to effective
+safeguarding of the intangible cultural heritage, in
+particular the intangible cultural heritage in danger.
+While the ambition is sound, the actual
+implementation and use of technical systems in
+preservation is not a trivial task. But before blindly settling
+on any technical system as a tool to be used in
+preservation I here provide a critical perspective on the
+premises of such a system.
+I refer to these technical systems as artefacts because
+they are tangible products of software development. I wish
+to draw a distinction between tangible cultural artefacts,
+which are traditional artefacts blended and/or enhanced
+by digital means (such as the Digital Ayoyote Rattle in
+Martinez, 2011, or Story Beads in Reitsma et al., 2011),
+and more traditional computing systems such as desktop
+computers and mobile devices, where the software
+pertains to preserve, host and make ICH content
+accessible. An example of this could be the
+HomeSteadCreator (Rodil et al., 2012), where the focus
+was placed on re-contextualising recorded videos of
+various indigenous practices in a 3D modelled terrain, but
+on traditional systems such as laptops and mobile
+devices.
+Although I have a technical approach to ICH, I also have
+a political view underpinning the discourse on artefacts,
+which is that any artefact should be able to represent
+contemporary ICH fairly and for future use, and, in that
+case, introducing western technology may have
+consequences for local culture. By western technology I
+mean artefacts having an origin in a different context than
+that in which a particular element of ICH is performed and
+with a different intended use. An example could be to store
+
+Vol.12 2017 International Journal of Intangible Heritage 191
+
+Digitisation systems
+
+videos of indigenous wedding practices in databases not
+valorising the de facto locations of these rituals or how
+people engaged in parts of these practices are not always
+seen through the camera lens (for an example see, Rodil et
+al., 2014). It poses the questions: what are we in fact not
+recording? And how does that affect the understanding of
+what has been recorded? A way to answer such a question
+might begin by looking at the artefact in hand.
+Merritt and Bardzell (2011, p. 5) explain the possible
+consequences of introducing artefacts constructed from
+somewhere else in the following way:
+
+If daily life for a person in a developing—or less
+technologically developed - country operates
+according to familiar culture, then repeated,
+interactive experiences with a newly introduced
+Western-designed technology create new cultural
+
+components carried by the verbal and visual
+language embedded in that design. If the visual
+semiotics differ enough from the surrounding
+culture, the technology will either not be adopted or
+will force a user to leave his or her surrounding
+culture behind while interacting with the newly
+implemented technology.
+From a political perspective, this consequence as
+highlighted by Merritt and Bardzell, is in many cases not
+a desirable outcome. First and foremost this is because
+of acculturation, as indigenous people when using a
+technology should not adopt others’ ways of doing /
+thinking without being critical about the consequences
+thereof. But on a more practical level, the use and
+interaction with computers should be a meaningful
+experience - meaningful in the sense that the system
+should reflect local viewpoints and the ICH of the users.
+
+Plate 1
+System evaluation with members of the OvaHimba tribe in Northern Namibia – The author is sitting on the upper left. This field trip and
+documentation were funded and conducted with research colleagues from Namibia University of Science and Technology.
+Photo: Heike Winschiers-Theophilus, courtesy of Namibia University of Science and Technology. Photo taken in Ohandungu, 2 November 2013.
+
+192
+
+Artefacts as social constructs
+One way to look at these artefacts is from the
+perspective that they are socially constructed (see
+Hacking, 1999 and Leeds-Hurwitz, 2009). Floyd (1992, p.
+89) provided a way of looking at the issue: There is a
+given reality out there which we come across during
+software development. By analysing the facts of this
+reality we obtain requirements for the software. Floyd
+further commented on what could be interpreted as a
+particular mindset regarding ontology: Software
+production is based on models representing reality.
+Models should map reality correctly (ibid). And as Naur
+(1985) formulated; software development is theorybuilding. The fundamental question is whether these
+models, developers and artefacts can accurately map
+the experienced reality of indigenous people and the
+associated intangible material? Floyd (1992: p. 2)
+suggests … bringing about what we hold for real, which
+is the key to constructivist thinking.
+I recently published a book chapter (please see Rodil, 2015)
+describing many of these examples mostly pertaining to
+computer graphical visualisation of indigenous knowledge
+serving as a scaffold for community collected video material
+of ICH.
+I learned how (to me) seemingly unnecessary details and my
+own assumptions of mapping the real community context in
+the form of 3D modelled representations led to countless
+examples of my 3D construction being unaligned with the
+experienced reality of the indigenous project partners
+(OvaHerero and OvaHimba communities in Namibia). For
+instance, that constructs of space are not culturally neutral,
+as I would prioritise mapping what I could see in the
+community – not accommodating for or understanding the
+meta-physical space. Or that the community members’
+experienced distances between places (such as villages) are
+not necessarily possible to represent in metric units. The
+prototypes I developed did not include or accurately
+represent these facets of their experienced reality.
+Fortunately, the many indigenous people I have met since
+2010 (community members from the OvaHerero and
+OvaHimba tribes) have all been eager to teach me and assist
+in adapting prototypes we have been busy designing
+together.
+Many examples have shown me how useful it is to be
+able to ‘bring about what we hold for real’ thus enabling
+indigenous partners to be critical towards my
+
+understanding, yet it was also made clear to me that no
+matter how true or accurate I tried to be, my assumptions
+would always have to be checked.
+In this way, the developer’s viewpoints (my own) were
+inscribed (programmed) into the artefact and then, by
+construction, laid out in the open. Whether one sees the
+need to evaluate how an artefact prioritises certain
+perspectives or find the need to check the assumptions of
+the designer is a methodological decision. To me it is
+cardinal, how else might we find a respectful synergy
+between the intangible heritage and the computer?
+See (Plate 1) as an example where I evaluate a prototype
+with indigenous project partners. In this particular example I
+evaluate a system prototype for digital storytelling with
+members of the OvaHimba tribe in Northern Namibia.
+
+Conceptualisation
+The design and construction of artefacts is a multi-sided,
+cultural and complex process. Often the people responsible
+for, or engaged in developing artefacts do not share the
+ambition of the community of this journal to preserve ICH.
+The context for the use of artefacts tends to be different from
+the indigenous contexts in which ICH is performed and
+transferred. The technologies we can use for preservation
+
+Figure 1
+A simplified conceptualisation of an artefact and its user
+
+Vol.12 2017 International Journal of Intangible Heritage 193
+
+Digitisation systems
+
+are constructed in societies and contexts which do not
+innately prioritise indigenous viewpoints. Thus the ontology of
+an artefact reflects a certain view of the world, namely the
+view of its makers, whereas indigenous ontology and the
+practices associated with it have a different orientation.
+I suggest looking at this notion of an artefact a bit more
+holistically (see Figure 1) and considering the intended user of
+the artefact, how the user interacts with it, how the interface
+links the user to the content, and ultimately how this content
+is organised.
+Academics in disciplines related to technical development
+and ICH have conducted empirical work and provided findings
+from collaborations with indigenous people on how
+indigenous knowledge and intangible heritage become
+altered or inaccessible to indigenous people when becoming
+digital. The following examples are mostly to further point
+readers of this journal to publications which report on the
+challenges of when systems and intangible heritage meet.
+User: It has become customary to model and design in a
+way which enables users to have a meaningful experience
+with an artefact. The problem is, who or where do these
+models and findings come from? In many cases the data that
+lays the foundation for understanding the user comes from
+the behavioural sciences. But as suggested by Hendrich,
+Heine and Norenzayan (2010), much of this data comes from
+what they term WEIRD (Western, Educated, Industrialised,
+Rich and Democratic) societies. It thus becomes problematic
+if computing textbooks, empirical data and digital trends from
+certain populations are used across all populations with an
+assumption that they are equally meaningful.
+If the user is to be an indigenous person, perhaps with
+little digital literacy, one could begin by asking: how do we
+understand the user concept and how can we inform the
+design of the artefact with that user in mind?
+Interaction: While the use of touch screens and input
+devices such as a computer mouse, are, to frequent users
+considered almost ‘universally’ intuitive – these interaction
+protocols are programmed and learned through use. These
+protocols are not necessarily familiar or meaningful to
+indigenous communities or to the community context. An
+example of how the physical community context and
+considerations of what constitutes meaningful system
+interaction forced the change from input devices and personal
+
+computers to touch-based mobile devices is found in Rodil et
+al. (2012). To provide an example; starting in 2010 working
+with the OvaHerero in Eastern Namibia I used laptops for the
+prototypes, yet the Elders commented on how unnatural a
+computer mouse was to use, it was in fact making them not
+want to use the prototype. Furthermore, the laptop would
+suffer from the heat and the sand as local practice directed us
+to carry out studies outside. From that point our prototypes
+became touch-based and on tablets. One could ask, is the
+user-artefact interaction meaningful in relation to local
+practices and the local physical context?
+Interface: The interface of the artefact is responsible for
+connecting the user with the digitised ICH in ways that are
+meaningful to that user. As researchers and developers, we
+habitually interact with interfaces and have become
+accustomed to a dominant western orientation and use of
+metaphors still bearing the legacy of the office of the 1980s.
+These metaphors are contextual, cultural and not necessarily
+transferable to indigenous curators. The problem is that we
+have a tendency to take the recognition of these metaphors
+for granted. Several authors have provided support for
+re-thinking how we present and find information on interfaces
+linking indigenous users and indigenous content. Kapuire and
+Blake (2011) describe how indigenous community members
+were obstructed from finding their own recorded videos by a
+textual database search and developer defined meta-data.
+The interface did not allow the curators to find their own
+content in a way that was meaningful to them. Furthermore,
+the authors comment that even the concepts of ‘uploading’
+and ‘user login’ were not readily understood by indigenous
+community members.
+Another example is presented by Winschiers-Theophilus
+et al. (2008). The authors provide insights from usability
+studies of a bush encroachment decision-support system in
+Namibia with local rangeland managers. The authors report
+that the reason for its initial failure was:
+
+A highly effective and efficient system with an inference
+engine operating on rules originating from western-style
+paradigms, assuming a rational, logical, and abstract
+decision process, with a transparent rule justification was
+unacceptable for the local community. (ibid: p.2).
+Based on their studies, the authors promote the idea that
+community members should be involved from the beginning in
+the conceptualisation of any such system.
+
+194
+
+Content: How ICH content as data (such as video, text,
+coordinates, 3D points etc.) is organised might hinder use or
+violate the protocols of the community providing the data.
+Christie (2004, p. 1) makes the following point:
+Databases are not innocent objects. They carry within them
+particular culturally and historically contingent assumptions
+about the nature of the world, and the nature of knowledge;
+what it is, and how it can be preserved and renewed.
+One of the problems with data structures is that they
+might already be defined before any data is entered. As
+outsiders to these communities and their ICH, we cannot
+readily understand how this content should be structured. In
+particular, the use of meta-data has been criticised by
+several authors (see for example, Hughes and Dallwitz,
+2007; Verran et al., 2007). In our own work in Namibia with
+the OvaHerero Elders we attempted to organise videos
+spatially in a 3D terrain in the locations where the practices
+(and recordings) were performed, as these are highly
+location-specific (see for example Rodil, 2015). But as with
+other approaches, a visual-spatial form of organisation
+comes with its own set of challenges which have to be
+solved together with the indigenous community.
+These four elements (user, interaction, interface and
+content), in a rather simplistic conceptualisation, all make
+visible some of the challenges being submerged, yet are
+very influential when we look at the ‘culture’ of digital
+systems.
+
+Finding an approach to handle the digital
+challenge
+In our research group we have the following premise for
+our projects. If the current ICH curators are the rightful
+owners and future curators, they must be partners in the
+design of artefacts to ensure that the ICH is fairly handled by
+the system. But as they are to be future curators of this
+digitised ICH they must be considered users as well. If they
+are considered as users, surely the system must deliver a
+meaningful experience to them?
+We are able to develop artefacts useful in familiar
+contexts, but we cannot inform design from these familiar
+contexts when the context of use is in an indigenous setting.
+What is a meaningful system for people in indigenous
+contexts might contradict what is meaningful to us, as we
+
+do not belong to these communities. Instead of forcing
+indigenous people to adopt or unlearn their own
+perspectives, we should seek to adapt our own
+perspectives.
+Since an artefact can be viewed as a social construct and
+becomes a tangible product of the programmer’s
+interpretation of reality and the practices of the community
+he/she belongs to, the artefact becomes a manifestation from
+a certain perspective. But, how do we check our own
+assumptions and the perspectives embedded in the
+technology?
+This challenge, in our experience, can be handled by being
+careful when selecting the design methodology – essentially
+the processes, values and theoretical foundations for
+designing.
+As we argue (Rodil and Rehm, 2015), for the active
+inclusion of indigenous people as decision-making partners in
+the design and preservation processes, we seek to co-design
+artefacts carrying the local viewpoints rather than those of the
+developers. The design methodology we suggest using is
+called Participatory Design.
+
+Participatory Design
+Participatory Design is a design approach where
+developers engage in close partnerships with users in
+designing more suitable systems. This design approach can
+be viewed through the following three rationales (see for
+example Greenbaum and Halskov, 1993):
+· C
+ onstructivism as what we hold for real is the result of
+our personal and cultural interpretation of the world
+around us (Vrasidas, 2000).
+·T
+ ools and methods as approaches to make it possible for
+participants and researchers to work together on
+design. These methods and tools are characterised by
+being practical, accessible and usable for participants as
+they may be unable to program / use the tools of the
+professional (see for example Spinuzzi, 2005).
+· P
+ olitical standpoint it is a core value that participants
+should be empowered to shape their own digital
+futures and artefacts of which they will eventually
+become the users (Kensing and Blomberg, 1998).
+
+Vol.12 2017 International Journal of Intangible Heritage 195
+
+Digitisation systems
+
+It is a tenet of Participatory Design to carry out design
+activities in the users’ context as developers need to learn
+about the context in which they will be used (by
+ethnographic methods and contextual dialogues);
+meanwhile participants (termed co-designers) learn about
+the technology so they can become critical and influence
+the technological construction.
+For more recent works on Participatory Design in
+indigenous community settings, consider reading Sabiescu
+et al., (2014); Winschiers-Goagoses et al., (2012); Zaman et
+al., (2015); Winschiers-Theophilus et al., (2010); Puri et al.,
+(2004); Rodil, Winschiers-Theophilus and Jensen, (2012),
+and lipito Mendonca and Van Zyl (2014).
+These iterative design processes and interactions of
+design taking place in indigenous communities create a
+field of tension where perspectives literally meet on the
+digital interface between world-views.
+During our long commitment to indigenous
+communities in Namibia, I have experienced the way in
+which design has become an alternative approach to ICH,
+and the processes of carrying ICH into the design of
+artefacts becomes an act of preservation and
+understanding of the tacit knowledge surrounding
+practices (see for example Rodil et al., 2014). These
+experiences have also highlighted how our own cultural
+practices embedded in technology design contain hidden
+cultural assumptions that influence the design (see for
+example Rodil, 2015).
+Co-designing artefacts that no longer mimic
+western culture, community and society with the
+assistance of indigenous communities might be useful
+in other ways. The insights gained might in turn benefit
+those societies that usually create technology – namely
+the western world. While this is a positive by-product,
+the main objective is to construct artefacts which are
+meaningful to indigenous curators. I would claim that
+the inclusion of indigenous communities is (at least)
+two-fold:
+A: to make useful systems, developers need
+assistance from members of the indigenous
+communities - who best know their own world - to
+design systems relying on a local ontology.
+
+B: to promote access (see for example Dyson,
+2004) to digitised ICH for indigenous communities
+to be able to curate and digitise by themselves.
+Designing artefacts together becomes a dialogue
+between people with different view-points, as when we are
+co-designing we are laying on the table some of the tacit
+intangible properties which we each hold for real.
+
+Conclusion
+I do not have a perfect solution to these digital
+challenges, as all projects and the material to be preserved
+are highly contextual and situational. I would, as a starting
+point, suggest that when engaging in digitising ICH,
+researchers could reflect on the following questions:
+- Who is the artefact intended for, who is the user?
+-D
+ oes it prioritise certain perspectives at the expense
+of others?
+- Is the interaction and interface meaningful for the
+current curators of ICH?
+- How is the content organised? Is it accessible and
+does the organisation follow local protocols and
+values?
+-H
+ ow are the curators involved in, or prohibited from
+shaping their own digital future?
+With our approaches to digitising and preserving ICH
+for future generations, often for the benefit of the
+marginalised, we must be mindful about introducing
+artefacts which might run counter to our ambitions of fairly
+representing, collecting and ensuring curators’ own
+access to their own ICH. I propose a critical stance which
+might not only shed light on the particular perspectives
+these digital systems are ‘born’ with, but should also
+involve and invite in the expertise of the communities who
+are already performing and maintaining their own
+intangible heritage. Meanwhile, there is a tremendous
+potential in digitising and bringing back ICH into school
+curricula for indigenous populations in forms that appeal
+to young people interested in technology - perhaps in the
+form of stories and life perspectives, which might better
+resonate with indigenous world-views. One way to
+approach this challenge is to bring about what we hold for
+real by ensuring that we meet and start a dialogue.
+
+196
+
+REFERENCES
+·Christie, M., 2004. ‘Computer databases and aboriginal knowledge’ in International Journal of Learning in
+
+Social Contexts, 1: pp. 4-12.
+·Dyson, L. E., 2004. ‘Cultural issues in the adoption of information and communication technologies by
+indigenous Australians’ in Proceedings cultural attitudes towards communication and
+technology, Murdoch University Perth, pp. 58-71.
+·Ethical Principles for Safeguarding Intangible Cultural Heritage, Available from: ‘http://www.unesco.org/culture/
+ich/en/ethics-and-ich-00866’ [Accessed 11 April 2017)
+·Hacking, I., 1999. The social construction of what?, Harvard University Press.
+·Henrich, J., Heine, S. J., and Norenzayan, A., 2010. ‘The weirdest people in the world’ in Behavioral and Brain
+Sciences, 33 (2-3): pp. 61-83.
+·Hughes, M. and Dallwitz, J., 2007. ‘Ara irititja: Towards culturally appropriate IT best practice in remote
+indigenous Australia’ in Dyson, L., Hendriks, M., and Grant, S. (eds). Information Technology and
+Indigenous People. Hershey, PA: Information Science Publishing: pp. 146-158.
+·Iipito Mendonca, H. N. K. and Van Zyl, I., 2014. ‘Youth empowerment: The role of service design and mobile
+technology in accessing reproductive health information’ in Proceedings of the 13th Participatory
+Design Conference: Short Papers, Industry Cases, Workshop Descriptions, Doctoral Consortium
+Papers, and Keynote Abstracts, vol. 2, PDC '14, New York, NY, USA. ACM: pp. 103-106.
+·Kapuire, G. K. and Blake, E., 2011. ‘An attempt to Re-Organise digital indigenous knowledge representations
+to merge local and technological paradigms’ in IKTC 2011: pp. 72-78.
+·Kensing, F. and Blomberg, J., 1998. ‘Participatory design: Issues and concerns’ in Computer Supported
+Cooperative Work, 7 (3-4): pp. 167-185.
+·Leeds-Hurwitz, W., 2009. ‘Social construction of reality’ in Encyclopedia of communication theory, 2: pp. 891-894.
+·Martínez, C., 2011. ‘Digital ayoyote rattle: The design of a portable Low-Cost digital media system for a mediated
+XicanIndio resolana’ in IKTC 2011, Windhoek.
+·Puri, S. K., Byrne, E., Nhampossa, J. L., and Quraishi, Z. B., 2004. ‘Contextuality of participation in IS design: A
+developing country perspective’ in Proceedings of the Eighth Conference on Participatory Design:
+Artful Integration: Interweaving Media, Materials and Practices, vol. 1, PDC 04, New York, NY, USA.
+ACM, pp. 42-52.
+·Smith, A.,Reitsma, L., van den Hoven, E., Kotze, P., and Coetzee, L., 2011. ‘Towards preserving indigenous oral
+stories using tangible objects’ in Culture and Computing (Culture Computing), 2011 Second
+International Conference on, pp. 86-91.
+·Rodil, K. and Rehm, M., 2015. ‘A decade later: Looking at the past while sketching the future of ICH through
+the tripartite digitisation model’ in International Journal of Intangible Heritage, vol. 10, National Folk
+Museum of Korea, pp. 48-60.
+·Rodil, K., W
+ inschiers-Theophilus, H., and Jensen, K. L., 2012. ‘Enhancing cross-cultural participation through
+creative visual exploration’ in Proceedings of the 12th Participatory Design Conference: Research
+Papers, vol. 1, PDC '12, New York, NY, USA. ACM, pp. 81-90.
+·Rodil, K., Winschiers-Theophilus, H., Jensen, K. L., and Rehm, M., 2012. ‘Homestead creator: A tool for indigenous
+designers’ in Proceedings of the 7th Nordic Conference on Human-Computer Interaction: Making
+Sense Through Design, NordiCHI '12, New York, NY, USA. ACM, pp. 627-630.
+·Rodil, K., Winschiers-Theophilus, H., Kapuire, G. K., Stanley, C., and Kuria, S. C., 2014. ‘Participatory
+exploration of digitalizing cultural content: Getting married. are we ready?’ in Proceedings of the
+13th Participatory Design Conference: Short Papers, Industry Cases, Workshop Descriptions,
+Doctoral Consortium Papers, and Keynote Abstracts, vol. 2, PDC '14, New York, NY, USA. ACM, pp.
+93-97.
+
+Vol.12 2017 International Journal of Intangible Heritage 197
+
+Digitisation systems
+
+·Rodil, K., 2015. ‘Reflections on visualization in Cross-Cultural design’ in Bidwell, N. and WinschiersTheophilus, H. (eds), At the intersections of traditional and indigenous knowledges and technology
+
+design, Informing Science Press, pp. 319-341.
+·Sabiescu, A. G., David, S., van Zyl, I., and Cantoni, L., 2014. ‘Emerging spaces in community-based
+participatory design: reflections from two case studies’ in Proceedings of the 13th Participatory
+
+Design Conference: Research Papers, vol. 1, ACM, pp. 1-10.
+·Spinuzzi, C., 2005. ‘The methodology of participatory design’ in Technical Communication, 52 (2): pp.163-174.
+·UNESCO. The UNESCO Convention for the Safeguarding of the Intangible Cultural Heritage. Available from:
+http://www.unesco.org/culture/ich/en/convention/ [Accessed 29 December 2016].
+·Verran, H., Christie, M., Anbins-King, B., Van Weeren, T., and Yunupingu, W., 2007. ‘Designing digital
+knowledge management tools with aboriginal Australians’ in Digital Creativity, 18 (3): pp. 129-142.
+·Winschiers-Goagoses, N., Winschiers-Theophilus, H., Rodil, K., Koch Kapuire, G., and Jensen, K., 2012.
+‘Design democratization with communities’ in International Journal of Sociotechnology and
+
+Knowledge Development, 4 (4): pp. 32-43.
+·Winschiers-Theophilus, H., Fendler, J., Stanley, C., Joubert, D., Zimmermann, I., and Mukumbira, S., 2008. ‘A
+bush encroachment decision support system's metamorphosis’ in Proceedings of the 20th
+
+Australasian Conference on Computer-Human Interaction: Designing for Habitus and Habitat, OZCHI
+'08, New York, NY, USA. ACM, pp. 287-290.
+·Winschiers-Theophilus, H., Chivuno-Kuria, S., Kapuire, G. K., Bidwell, N. J., and Blake, E., 2010. ‘Being
+participated: a community approach’ in Proceedings of the 11th Biennial Participatory Design
+
+Conference, PDC '10, New York, NY, USA. ACM, pp. 1-10.
+·Zaman, T., Winschiers-Theophilus, H., Yeo, A. W., Ting, L. C., and Jengan, G., 2015. ‘Reviving an indigenous
+rainforest sign language: Digital oroo' adventure game’ in Proceedings of the Seventh International
+
+Conference on Information and Communication Technologies and Development, ICTD '15, New York,
+USA. ACM.
+
+198
+
+

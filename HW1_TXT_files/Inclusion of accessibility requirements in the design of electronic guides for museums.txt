@@ -1,0 +1,556 @@
+DRAFT VERSION
+Moreno, L., Gálvez, M. C., Ruiz, B., & Martínez, P. (2008). Inclusion of
+accessibility requirements in the design of electronic guides for museums. In
+Computers Helping People with Special Needs (pp. 1101-1108). Springer
+Berlin Heidelberg.
+
+Inclusion of accessibility requirements in the design of
+electronic guides for museums
+Lourdes Moreno1,2, Mª Carmen Gálvez2, Belén Ruiz1,2, Paloma Martínez1,2
+1
+
+2
+
+Computer Science Department, Universidad Carlos III de Madrid,
+Avda. Universidad 30, 28911 Leganés, Madrid, Spain
+The Spanish Centre of Captioning and Audio Description (CESyA)
+Avda del Mar Mediterráneo, 22, 28914 Leganés Madrid
+{lmoreno, bruiz, pmf }@inf.uc3m.es, mla@pa.uc3m.es
+
+Abstract. Technology can be an integrative tool with which to facilitate
+universal access to museums and their works via virtual guides that accompany
+the user making the visit more inclusive and accessible. With this aim it is
+necessary to keep in mind accessibility requirements which guide the design
+and development process. Since there are no clear procedures for defining and
+including these requirements, this paper presents a proposal for requirements
+capture and definitions of accessibility mechanisms which assure their
+integration, following studies and standards in the area of accessibility.
+Keywords: Universal design, accessibility, electronic guide, virtual guide,
+requirements, multimedia, caption, audio description, Sign Language, museums
+
+1 Introduction
+Access to museums and their works is a right for everyone. For this reason universal
+access should be offered to all; special needs should not be a barrier for any visitor.
+Nevertheless, there are barriers to access which for some groups are difficult to
+overcome, such as those who are hearing or visually impaired. In most of these cases
+a blind person cannot access a picture, nor can a deaf person follow the verbal
+explanations of a guide or the audio of the videos which are shown. Other difficulties
+for these visitors include problems moving about and finding their way through the
+rooms, communicating with museum personnel, or asking for help.
+In this respect technology plays an integrating role, offering alternatives for
+overcoming barriers to accessibility and integrating all types of visitors. With this in
+mind the GVAM (Spanish acronym for “Virtual Accessibility Museum Guides”)
+project was born. This project is an initiative for the design of accessible electronic
+guides which integrate all citizens in the application domain of Museums.
+The contribution of this article encompasses the requirements capture in the
+analysis phase. It presents the accessibility requirements which must be taken into
+account and the mechanisms needed to carry out the project.
+
+The GVAM is a project1 of the Spanish Ministry of Industry carried out by The
+Spanish Centre of Captioning and Audio Description (CESyA)2, in collaboration with
+Carlos III University of Madrid3 and the CNSE Foundation4. As a specific
+application domain the Spanish museum, the Museo del Traje (The Costume
+Museum)5, was used, but the aim is to obtain solutions which are easily adaptable to
+different types of museums.
+Section 2 discusses related work. Section 3 describes the case study, indicating the
+requirements considered to guarantee the basic objectives of the project (accessibility
+and universal access) and how to include the requirements in the development
+process. Finally, we offer some conclusions and areas for future research.
+
+2 Related work
+Currently, many museums, both public and private have set up initiatives to create
+portable devices which make museum visits accessible to visitors with different types
+of needs. These devices are of a diverse nature and they enrich the visitor’s
+experience, though this is not their primary purpose. Although the examples in use do
+not have all the features of an Accessible Virtual Guide, based on a universal design,
+they generate a framework for work and innovation.
+On the international scene, the Tate Modern Multimedia Tour of the Tate Modern
+in London deserves mention. Its experimental phase was begun in November, 2003.
+The Tate Modern BSL Tour was the first museum guide that included sign language,
+and reflects the intention to facilitate access to all users. The PDA includes video clips
+of the most outstanding pieces in the collection, as well as a visual presentation of
+interactive contents, such as games and opinion surveys.
+Along these same lines can be found the initiative of the Museo Nacional Centro
+de Arte Reina Sofía de Madrid (The Reina Sofia National Museum) and the Museo
+Guggenheim de Bilbao (The Guggenheim Museum in Bilbao), which has
+incorporated a PDA support system using Windows Mobile, which gives visitors a
+guided tour with LSE (Spanish sign language) and subtitles.
+Works of interest in the domain of Museums which stand out are which proposes
+adapting the museum’s own webpage to include a useful multimedia Accessible
+Museum Guide which visitors can access from mobile devices [1], the use of voice
+synthesizers applied to situation maps for the visually impaired in the Museum [2] or
+interaction interfaces with the audio contents of a museum [3] which by means of left
+or right turns, and together with a location system, allow users to navigate the
+different audio contents found throughout the museum. The most advanced
+technological application is that of gesture detection in the guide which uses a PDA
+support allowing the user’s movements to be detected and, depending on their
+
+1
+
+FIT-350300-2007-45 Spanish Ministry of Science and Technology
+www.cesya.es
+3 www.uc3m.es
+4 http://www.fundacioncnse.org/
+5 http://museodeltraje.mcu.es/
+2
+
+2
+
+direction or speed, translated into actions of selection, navigation or activation in the
+user’s interface [4].
+On the one hand, guaranteeing the accessibility and usability of the device requires
+the extrapolation of concepts included in legislation, standards and other
+recommendations regarding the standardization of requirements adapting them to the
+context and specific domain of museums. On the other hand, they must also take into
+account all those experiences of users which can clearly define the principal needs to
+be considered in the design.
+Regarding international regulations, the design takes into account the “ISO TS
+16071-2003 for software accessibility” [5], in Spain the technical standards: “UNE
+139801:2003. Requirements for software accessibility” [6], “UNE 139802:2003.
+Requirements for hardware accessibility” [7] and “UNE 139803:2004. Requirements
+for Web Page accessibility” [8], this last following the current legislation in Spain,
+similar to the Web Content Accessibility Guidelines (WCAG 1.0) [9]. More
+specifically in the application of alternative contents for predicting accessibility such
+as subtitling, audio descriptions and Sign Language the UNE 153010:2003[10], UNE
+153020:2005 [11] and UNE 139804:2007 [12] norms were followed.
+Usability criteria [13] and principles of Universal Design [14] were considered and
+for standardization documents, the W3C as Web Content Accessibility Guidelines
+(WCAG 1.0 and 2.0) [15] from WAI [16], and MWBP flip cards of best practices for
+mobile Webs [17]. Relevant documents from the NCAM (National Center for
+Accessible Media) were also reviewed as to their relation with multimedia
+accessibility in multimedia [18] and self-navigation menus [19], among others works
+as [20] [21].
+
+3 Case Study
+The objectives of the GVAM project are to create technological solutions via an
+accessible portable device (Virtual Guide) which can be used by any museum visitor
+and will include a museum positioning system. For the design and development of the
+virtual guide, the study was approached from two perspectives: the requirements the
+physical device hardware must fulfill to be accessible according to the Universal
+Design principles, and the software accessibility requirements of the application
+(interface and all its multimedia contents) which we will call the electronic guide.
+This paper presents part of the results of the analysis of accessibility requirements for
+electronic guides.
+The methodology used in the design and development of the electronic guide
+employed a user centered design methodology with inclusion that considers an
+iterative development process with a continuous evaluation of the resulting artifacts
+from each of the phases (analysis, design, and implementation), obtaining increments
+of accessibility to feed back into the development process. These evaluations are
+carried out using different techniques, but with the condition that the users play a
+leading role and their opinions are decisive. To do this, the research work of
+requirements capture presented in this paper was carried out in the form of interviews
+
+with users and associations for the disabled, both to capture requirements as well as to
+validate them.
+This study follows the methodological framework Accessibility for Web
+Applications (AWA), currently in its experimental phase. Although it is focused on
+Web environments, due to its modular structure and universal treatment of
+accessibility from the point of view of Requirements Engineering it can be applied in
+this project. AWA works with accessibility in terms of both functional and nonfunctional requirements. Through the use of different techniques, all the Components
+affected by accessibility directly or indirectly during the development process are
+detected in the entire life cycle of the application. The aim is to detect and avoid
+resulting accessibility problems which these affected components may cause and to
+define and prepare Accessibility mechanisms as a tool. AWA aims to provide a
+framework of technical support for dealing with accessibility in the process of design
+and development from an Engineering perspective.
+Thus, in the case of the electronic guide, we have detected different types of
+Components: human, technological and interaction affected by accessibility.
+Functional and non-functional requirements have also been included along with those
+already contemplated in the system; for the achievement and traceability of these
+requirements, Accessibility Mechanisms were defined which will be discussed later.
+3.1.- Initial requirements of the project
+The initial requirement is the design and development of a virtual guide in the domain
+of the museum which comprises a software application (electronic guide) to be
+installed in a hardware device (portable hardware device) and which displays the
+museum contents in an accessible way.
+The Costume Museum provides specific information such as features, contents,
+thematic tours, etc. which it wished to offer visitors in the electronic guide. The
+physical device was developed starting from optimization, in terms of ergonomic
+accessibility, of a standard device such as the Samsung Q1 which includes a precise
+positioning system and wireless connection.
+In the next section additional requirements which were obtained for the electronic
+guide are discussed.
+3.2.- Accessibility requirements
+To carry out the requirements capture, research must be carried out and all factors
+intervening in the accessibility in a virtual museum environment must be considered.
+A set of dependent components have been taken into account such as (A) Human
+factors, that is, considering the entire public including those with special needs, (B)
+Technological factors, related to what technology to use and related accessibility
+guidelines to contribute accessibility to the electronic guide and digital contents, and
+(C) User interaction with the virtual guide in the environment (museum), that is, what
+criteria can be included to favor the accessibility of the rest of the components
+indicated.
+
+4
+
+Human Factors
+Many different aspects of the museum-visiting public must be taken into account as
+well as ways to ensure their access to the electronic guide and its contents. We are
+faced with a wide spectrum of the types of access that need to be covered: people with
+sensory disabilities (hearing impairment, deafness, visual impairment, blindness) who
+need alternative contents such as subtitles and videos in sign language for the deaf,
+and audio descriptions in the videos or audio navigation for user instructions and
+navigation menus in the guides for the blind.
+In order to undertake such a diverse type of study always keeping accessibility in
+mind, in the requirements capture the technique of Scenarios with characters was
+used. With this technique it could be seen that certain solutions for avoiding barriers
+to accessibility according to different groups of users were repeated. From there,
+those common solutions were extracted and an approach was adopted to prepare the
+mechanisms for accessibility which serve as way to “access options” in the guide
+instead of offering different accessibility tools according to the “user group”. Thus,
+functional diversity is achieved, with the clear approach of adapting the device to the
+user.
+Technological factors
+According to the above analysis, “access options” for the guide and its contents were
+defined. These accesses were organized according to the accessibility barriers found
+when the visual and auditory bands of the guide cannot be used. From this, the
+following access options were established as the most important:
+1. Access with audio description in videos and audio navigation.
+2. Access with subtitles in the videos and visual alerts before audio events.
+3. Access with sign language in videos and visual alerts before audio events.
+Other access with accessibility tools: high contrast models for the presentation, use of
+magnifiers, attention to cognitive disabilities offering adapted contents, etc.
+Additionally, there will be common criteria to apply to the different interface
+elements and application contents regardless of the access that is activated, such as:
+− Offering alternative text for images following accessibility and usability criteria.
+− Criteria for accessibility and usability on how to design navigation menus (in the
+top right corner, options from left to right).
+− Adequate contrast of colors in the interface presentation and multimedia contents.
+− Type of font to be used following studies which aid accessibility.
+− Use of clear and simple language in the contents, which avoids reading-writing
+cognitive barriers.
+− Use of graphic elements and icons to represent and identify contents, application
+features.
+− Simplification in the navigation and data entry.
+− Others.
+Thus, the method used was to capture requirements and offer accessibility
+mechanisms to apply throughout the development process; these mechanisms were
+based on standards, regulations and relevant studies enumerated in section 2.
+The user must be able to compatibilize the different access options and the
+configuration should be usable and accessible. To do this, there are different
+
+alternatives as to how to design and code it, for example, adaptable interfaces,
+offering all the access possibilities in a configuration menu in the interface by
+choosing the access desired. In both cases it was recommended that the application
+have an underlying data model with meta-information of “Access for all” based on
+standards [22] such as those used in e-learning applications.
+Visitor-guide-museum interaction factors
+There are accessibility aspects that must be kept in mind in the interaction with the
+guide. One to point out is the positioning system (see Figure 2) of the device and the
+wireless networks in the museums, providing the opportunity to help visitors in any
+part of the museum, as well as offering a navigation system of the contents which,
+though restricted, allows access to the great majority of the application’s contents.
+This is a way to have a totally automatic visit according to the position of the visitor.
+Various types of technology have been studied, and one proposal still in its
+experimental and validation phase is the use of ZigBee technologies [23].
+
+Fig. 2. Prototype of a graphic interface indicating the location of the user
+
+Other internal aspects of the museum must be included as well, such as signposting
+and publicity where these guides are distributed, where museum staff need to be
+familiar with both the potential needs of users, the guide itself and its configuration
+options.
+3.3. – Accessibility mechanisms for the electronic guide
+Table 1 shows the principal components affected by accessibility in the application,
+and in relation with the different accesses defined which Accessibility Mechanisms to
+prepare and their sources of reference. The abovementioned relevant studies on
+standardization describe the guidelines for applying, list best practices for writing
+subtitles, audio descriptions, self-navigation and sign language, and discuss how to
+integrate them into the different application domains.
+With all of these accessibility requirements, meetings were again organized with
+personnel from the Museo del Traje (The Costume Museum), users and associations
+representing them, in order to obtain an initial validation and begin the Design Phase.
+
+6
+
+These requirements continue to be validated and fed back into the following design
+phases.
+Table 1. Summary table of accessibility mechanisms for the design of electronic guides.
+ACCESS WITH AUDIO DESCRIPTION
+AND AUDIO NAVIGATION.
+
+Components
+affected by
+accessibility
+
+Accessibility
+mechanisms
+
+Normative,
+standards, guides
+
+ACCESS WITH CAPTION
+Accessibility
+mechanisms
+
+ACCESS WITH SIGN LANGUAGE
+
+Normative,
+standards, guides
+
+Accessibility
+mechanisms
+
+Normative,
+standards, guides
+
+Image
+
+Alternative text
+
+WCAG 1.0
+(Guideline 1,
+checkpoint 1.1)[9]
+NCAM-Guideline A
+[18]
+UNE 153020:2005
+[11]
+
+Alternative text,
+use of clear and
+simple language
+
+WCAG 1.0 (Guideline
+1, checkpoint 1.1) [9]
+NCAM-Guideline A
+[18]
+Usability criteria
+
+Alternative text, use
+of clear and simple
+language
+Sign language
+
+WCAG 1.0
+(Guideline 1,
+checkpoint 1.1) [9]
+Usability criteria
+
+Text
+
+Audio
+
+WCAG 1.0
+(Guideline 14) [9]
+
+Use the clear and
+simple language
+
+WCAG 1.0 (Guideline
+14) [9]
+
+Use the clear and
+simple language
+Sign language
+
+WCAG 1.0
+(Guideline 14) [9]
+Guidelinescwa14835/ [20]
+
+Audio
+
+Audio
+
+UNE 153020:2005
+[11]
+WCAG 2.0
+(Guideline 1.2 ; 1.2.3
+success criteria) [15]
+NCAM-Guideline H
+[18]
+
+Caption
+
+UNE
+153010:2003:[10]
+NCAM-Guideline H
+[18]
+
+Sign language
+
+Guidelinescwa14835/ [20]
+WCAG 2.0
+(Guideline 1.2 ; 1.2.5
+success criteria) [15]
+
+Video
+
+Audio description
+
+UNE 153020:2005
+[11]
+WCAG 2.0 Guideline
+1.2 (1.2.3 success
+criteria) [15]
+
+Caption
+
+UNE 153010:2003
+[10]:
+
+Sign language
+
+Guidelinescwa14835/ [20]
+WCAG 2.0
+(Guideline 1.2 ; 1.2.3
+success criteria) [15]
+
+Navigation
+menu
+
+Audio navigation
+
+UNE 153020:2005
+[11]
+NCAM Guide talking
+menu [19]
+WCAG 1.0
+(Guideline 1) [9]
+
+Specific icons to
+achieve clarity in
+navigation.
+Visual alerts
+
+WCAG 1.0 (Guideline
+1,14) [9]
+Cognitive
+Ergonomics Group.
+UGR [21]
+
+Specific icons to
+achieve clarity in
+navigation.
+Visual alerts
+
+WCAG 1.0
+(Guideline 1,14) [9]
+Cognitive
+Ergonomics Group.
+UGR [21]
+
+4. - Some conclusions and future work
+This paper presents a proposal of accessibility requirements to consider in the design
+and development of an electronic guide in the application domain of museums based
+on standards, regulations and solid studies.
+Future foreseeable research will include testing and evaluating the prototype that is
+being developed. Furthermore, it would be desirable to prepare an expert’s report with
+the collaboration of the organizations representing the disabled to be published and
+distributed to museums and institutions. This report would be presented as a guide
+with recommendations and best practices for including accessibility requirements in
+Virtual Guides in the museum domain.
+
+Referencias
+1.
+
+Colazzo, S.; Garzotto F.; Paolini P.. “Let's Go Mobile! Design Issues In Multichannel
+‘Accessible’ Applications For Cultural Heritage”. Museums and the Web 2005, Toronto,
+http://www.archimuse.com/mw2005/papers/colazzo/colazzo.html
+
+2.
+
+Daunys, G. y Lauruska, V. “Sonification System of Maps for Blinds” .En Stephanidis,
+Constatine (ED.) UAHCI 2007, 4th International Conference on Universal Access in
+Human-Computer Interaction, Proceedings, Part II. Serie: LNCS , Vol. 4555.
+Wakkary, R., Hatala M. “Situated play in a tangible interface and adaptive audio museum
+guide” en Personal and Ubiquitous Computing, Vol. 11, Nº 3, pp. 171. 2006.
+http://www.springerlink.com/content/p1623t74xp6h861m
+Santoro C., Paternò F., Ricci G., Leporini B. ” A Multimodal Mobile Museum Guide for
+All” (2007). Mobile Interaction with the Real World (MIRW 2007). 2007.
+http://www.medien.ifi.lmu.de/mirw2007/papers/MGuides2007_Santoro.pdf
+International Organization for Standardization, ISO TS 16071-2003 refer to software
+accessibility.
+AENOR, Spanish technical standards. Standard UNE 139802:2003: Requirements for
+software accessibility. http://www.aenor.es
+AENOR, Spanish technical standards. UNE 139801:2003: Requirements for hardware
+accessibility, http://www.aenor.es
+AENOR, Spanish technical standards. Standard UNE 139803:2004: Requirements for
+WebPages accessibility. http://www.aenor.es
+W3C, Web Content Accessibility Guidelines 1.0 (WCAG 1.0), 1999,
+http://www.w3.org/WAI/intro/wcag.php
+AENOR, Spanish technical standards. Standard UNE 153010:2003: Subtitled through
+teletext. http://www.aenor.es
+AENOR, Spanish technical standards. Standard UNE 153020:2005: Requirements for
+audio description. http://www.aenor.es
+AENOR, Spanish technical standards. Standard UNE 139804:2007 Requirements for the
+use of Spanish Sign Language on computer networks. http://www.aenor.es
+Nielsen,
+J,
+List
+of
+Usability
+Heuristic.
+1994,
+http://www.useit.com/papers/heuristic/heuristic_list.html
+Connell, B. R, Jones, M., Mace, R., Mueller, J., Mullick, A., Ostroff, E., Sanford, J.,
+Steinfeld, E., Story, M., and Vanderheiden, G. "Principles of Universal Design." North
+Carolina State University, The Center for Universal Design, 1997.
+http://www.design.ncsu.edu/cud/univ_design/princ_overview.htm
+W3C, Web Content Accessibility Guidelines 2.0 (WCAG 2.0), 2008,
+http://www.w3.org/WAI/intro/wcag.php
+W3C, Web Accessibility Initiative (WAI), http://www.w3.org/WAI/intro/accessibility
+W3C, Mobile Web Best Practices and MWBP Flip Cards http://www.w3.org/Mobile/
+NCAM, Freed G. and Rothberg M., Accessible Digital Media, Design Guidelines for
+Electronic
+Publications,
+Multimedia
+and
+the
+Web,
+2006,
+http://ncam.wgbh.org/cdrom/guideline/
+NCAM, Schmidt, C. y Wlodkowski T.(2003). "A developer's Guide to Creating Talking
+Menus
+for
+Set-top-Boxes
+and
+DVDs",
+http://ncam.wgbh.org/resources/talkingmenus/all_print.html
+Guidelines for making information accessible through sign language on the web (2003).
+EUROPEAN
+COMMITTEE
+FOR
+STANDARDIZATION,
+in
+ftp://cenftp1.cenorm.be/PUBLIC/CWAs/e-Europe/DFA/cwa14835-00-2003-Sep.pdf
+Fajardo I., Cañas J. J., Salmerón L., Abascal J.: Towards a Cognitive Accessibility
+Guideline based on Empirical Evidences of Deaf Users Web Interaction. HCI International
+2003. Crete (Greece)
+DC-AWG, 2005. ISO JTC1 SC36 WG7, AccessForAll: an Accessibility Framework ,
+Dublin Core Accessibility Working Group, IMS Accessibility Working Group,
+http://dublincore.org/accessibilitywiki/AccessForAllFramework
+Gislason, D. 2007 Zigbee Wireless Networking. CMP Books. ISBN:1578201357
+
+3.
+
+4.
+
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+
+15.
+16.
+17.
+18.
+
+19.
+
+20.
+
+21.
+
+22.
+
+23.
+
+8
+
+

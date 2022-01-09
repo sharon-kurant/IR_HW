@@ -1,0 +1,403 @@
+Supporting Small Groups in the Museum
+by Context-Aware Communication Services
+Tsvi Kuflik, Julia Sheidin, Sadek Jbara,
+Dina Goren-Bar, Pnina Soffer
+The University of Haifa
+Mount Carmel, Haifa, Israel
+{tsvikak,jsheidin,sjbara,dgb,spnina}@is.haifa.ac.il
+ABSTRACT
+
+two such services, specifically targeted for sharing the
+museum experience, namely intra-group communication
+and system-visitors communication.
+
+Visitors often tend to visit museums in groups, mainly with
+family or friends, yet most of the today mobile museum
+guides focus on supporting the individual visitor. The
+technology described in this paper allows supporting groups
+of visitors in addition to individuals by providing contextaware services aimed at supporting the whole group. These
+include context-aware communication and alerting services
+that are provided by the museum visitor’s guide system
+developed in the framework of the PIL (PEACH-Israel)
+project, as an example case of a larger variety of possible
+context-aware services.
+
+MUSEUM VISITORS’ GUIDES APPLICATIONS
+
+Museum visitors’ guides have evolved from providing
+information about the exhibits on demand to personalized,
+location aware systems that at best are able to provide a
+coherent presentation during the visit (see for instance [8]).
+The next step is to take into account the small group (e.g. a
+family or a group of friends) that the visitor may be part of,
+and facilitate interaction among members to stimulate
+further interest.
+What we discuss in this paper is an initial step toward the
+ambitious goal of having technology stimulating
+conversation about the museum contents within the group,
+during and after the visit. In fact, according to [6]
+conversation is a key factor for enhancing learning and the
+quality of the museum experience in general. Specifically
+regarding communication services, it is worth mentioning
+that some experimental museum visitor’s guide systems
+were extended to also provide means of communication
+among visitors. One example is the “Guide” project,
+developed in the city of Lancaster, UK, that provided an
+electronic handheld guide enabling visitors to Lancaster to
+access information about the city, to create tailored tours of
+the city, to access interactive services, to send and receive
+messages to/from their companions, to let other members of
+their group know their location and to leave virtual stickon notes at specific locations in the city so they can share
+their experiences with other tourists [1]. Another example
+is the “guidebook” in the Exploratorium in San Francisco.
+The guidebook prototype combined the functions of
+informing, suggesting and remembering. The researchers
+concluded that their remembering service may have value
+for personal and social uses. They also concluded that
+people seem to enjoy helping each other and discussing the
+exhibits, and this seemed to encourage additional
+interaction with the exhibits [3].
+It seems that the above examples combined some means of
+communication as part of the application, assuming and
+concluding that this may improve the visit experience.
+
+ACM Classification: H5.2 Interaction styles, Screen design.
+General terms: Design, Human Factors
+Keywords: Context-Aware Communication
+Multimedia Museum Visitor’s Guide.
+
+Oliviero Stock, Massimo Zancanaro
+ITC/irst
+Via Sommarive 18, Povo, Trento, Italy
+{stock,zancana}@itc.it
+
+services,
+
+INTRODUCTION
+
+Many visitors tend to visit museums in small groups,
+mainly with family or friends [9]. The learning experience
+that takes place in museums nowadays is free-choice. It
+tends to be personal; it is self-motivated, self-paced, and
+exploratory by nature. The visitor chooses what, where and
+when to learn [2]. In this context, interaction among visitors
+may increase learning in the museum environment [2]. New
+tools for communication may increase interaction and
+hence contribute to the visit experience. Various museum
+visitors
+guide
+applications
+provide
+means
+of
+communication among visitors [4], but without an
+underlying systematic approach. This work proposes a
+framework for context-aware communication services
+integrated with the presentation capabilities. The paper
+presents a museum visitors’ guide system augmented with
+Permission to make digital or hard copies of all or part of this work for
+personal or classroom use is granted without fee provided that copies are
+not made or distributed for profit or commercial advantage and that copies
+bear this notice and the full citation on the first page. To copy otherwise,
+or republish, to post on servers or to redistribute to lists, requires prior
+specific permission and/or a fee.
+IUI’07, January 28–31, 2007, Honolulu, Hawaii, USA.
+Copyright 2007 ACM 1-59593-481-2/07/0001...$5.00.
+
+305
+
+by the system using the sender’s and receiver’s states (e.g.
+if the receiver has already been to the place, the system
+notifies the sender about that). A visitor may leave a virtual
+“post-it” to a colleague at a certain point, and the system
+will notify the visitor in case his/her partner already visited
+that place. The visitor may also send a message suggesting
+meeting at the cafeteria (or taking a break, scheduling the
+visit, etc.).
+
+A different example is the InfoRadar project. It provided a
+novel radar interface for accessing messages, desktop-like
+temporal storage for messages, location-independent
+message threading, filtering functionality, contextual
+audience addressing, multimedia messaging, social activity
+indicator, and voting. InfoRadar attempted to combine both
+public and in-group messaging into one system [7]. The
+researchers concluded that such services have an enormous
+contribution to the visitor’s experience while touring.
+The unique aspects of our work are that a) communication
+with members of the group is integrated with presentations
+while the focus is mainly kept on the exhibit and the system
+presentations; b) the communication is context-aware,
+taking into account at least some information about
+positions, models and state of other members of the group.
+THE PIL MUSEUM VISITOR’S GUIDE SYSTEM
+
+The PIL museum visitors guide is a first step to extend the
+research results of the PEACH project (http://peach.itc.it.)
+from the individual to the group level. A museum visitors’
+guide system has been developed (using PEACH
+technology) for demonstrating and experimenting intergroup communication and overall group visit support.
+
+Figure 1: PIL museum visitors guide architecture.
+
+Figure 1 presents the core parts of our museum visitor’s
+guide multi-agent system. Several components interact by
+exchanging messages through channels; this kind of
+architecture is very effective to experiment with flexible
+system (for detailed description of the underlying
+technology see [5]). The system contains a user-modeling
+component that keeps track of visitor’s preferences based
+on their behavior (and also keeps track of the history of
+events each visitor was involved in), a spatial information
+broker reports visitor’s position periodically, integrating
+positioning information from different sources (currently IR
+and in the near future also WiFi), a presentation composer
+provides presentations to the visitor, based on current
+location and taking into account visitor’s inferred
+preferences. The novel addition is the services agent that
+provides communication and alerting services for both
+individuals and groups. This component keeps track of the
+state of the individual visitors and abstracts the information
+to an overall group state.
+
+Anther set of services is time based alerting. Usually,
+visitors have a limited period of time for their visit. We are
+experimenting with services that help visitors get the most
+from their time by exploiting the group dimension.
+We consider that people generally do not want to miss the
+most important exhibits (there is nothing that can take the
+place of being in front of the real object). But if time is
+limited, presentations, up to a point can be complementary,
+and people can integrate what has been presented to them
+by talking to the other members of the group later.
+One case is when the system acts differently at the last
+phase of the visit. It sends a message to visitors suggesting
+them to see the “must see” exhibits. In this case the system
+takes an overall look of the group, making sure that
+individuals in the group visit all important exhibits and get
+a variety of relevant presentations, so they have
+complementary information to be possibly discussed and
+shared later after the visit. In this situation the user model
+that influences the material proposed by the system to the
+individual in the general modality, is less important in this
+phase, because the state of the group prevails.
+
+Regarding communication services, the initiator of
+messages may be the individual visitor or the system.
+Messages can be addressed to a specific visitor, to a group
+or to everybody. Messages can be delivered immediately or
+when certain conditions are satisfied. A general contextaware
+communication
+service
+should
+support
+communication with various addressees, based on
+contextual conditions (and as a result, offering a variety of
+services). For initial demonstration of the above, the
+services include context-aware immediate message (SMSlike) and context-aware virtual “post-it”. The messages are
+sent either among visitors or by the system to the visitors. A
+visitor may send a “come here” or “you must see this”
+message to a partner; the message is being contextualized
+
+The PIL context-aware, personalized menu-driven user
+interface was developed applying user-centered design.
+Context-aware communication services were integrated
+into the system in a way that they do not interfere with
+normal use of the guide. This means for instance that
+communication activities are available to the visitor only
+when no multimedia presentation is being played (e.g. only
+when moving around/approaching an exhibit or between
+presentations in a certain position).
+
+306
+
+name of the exhibit and by attaching the relevant picture
+(Fig. 4). It may happen that the addressee has already been
+at that location; in this case the system will notify the
+sender about that.
+
+Let us use the following scenario for illustrating the overall
+system and the integration of the new features into a mobile
+museum visitors’ guide. The scenario envisioned relates to
+a small group of visitors (three – four friends or a family)
+that visits the exhibitions and listens to presentations, each
+visitor at his/her own pace. The system identifies the
+visitor’s location and accordingly provides her/him with the
+relevant position illustration. The visitor chooses an exhibit
+and accordingly the system provides her/him the relevant
+menu (the order of the menu items is personalized). The
+visitor selects and views a presentation (Fig. 2, left to
+right).
+
+Figure 4: Sending and reading a message.
+
+When the system enters into the “little time available”
+modality, there is a high priority to see the “crucial exhibits
+for a visitor” at the museum. In this scenario the system
+also addresses a social context. It sends “don’t miss
+messages” to the visitors. Different messages are sent to
+different visitors regarding the nearest “must see exhibit”,
+that seems to be of interest to him/her, that he/she has not
+seen yet. When the visitor approaches the “must see
+exhibit”, the presentations recommended by the system for
+that exhibit are those that seem of interest but not yet
+presented to any other group member, instead of being
+those recommended only according to her/his specific user
+model.
+
+Figure 2: Museum visit guide interface.
+
+During the visit, the visitors are possibly moving on
+different paths, and may communicate with other members
+of their group. They can send predefined messages about
+some exhibits they find especially impressing, or leave
+post-its on some exhibit that they would like the others to
+eventually see (see Fig. 3 on the left, message creating
+icons).
+
+PRELIMINARY AND PLANNED EVALUATION
+
+As already mentioned, the system’s user interface was
+developed applying user-centered design. Thus, several
+rounds of formative evaluation were performed to provide
+feedback to the development team. We have also checked
+in pilot studies that users understand, interact and like the
+current user interface.
+The experimental evaluation (that is currently at an initial
+phase) focuses on various aspects of the system (including
+individual oriented aspects: interface usability, comparing
+adaptive and non adaptive interfaces; contribution of the
+multimedia presentations to individual learning). Specific
+evaluation is going to take place for the contribution of the
+communicational activities to the overall visit experience.
+We expect that the integration of the presentation and the
+communication capabilities will make the interface easy to
+use and especially that the social interaction between
+members during the museum visit will enhance and deepen
+the visitors’ interest in the exhibits.
+
+Figure 3: Selectable communication services.
+
+Once the visitor gets a message, a relevant button becomes
+enabled (see Fig. 3 on the right, message reading icons).
+Sending and reading a message is an example of contextawareness. Let us assume that the content of a message
+was: “Come here”. The system uses the contextual position
+information for translating it by giving the exact name of
+the exhibit and attaching the relevant picture.
+Another example is leaving a post it message with the
+content: “You must see this exhibit”. The system uses the
+contextual information for interpreting it by giving the
+
+CURRENT WORK
+
+The context-aware communication services provide initial
+means of intra-group interaction. To further encourage the
+
+307
+
+group interaction and let the whole group members share
+their experience, we are currently developing visualization
+support for a post visit group discussion. Sitting for
+instance in the cafeteria, during or after the visit, visitors
+will be able to become aware of the parts of the museum
+visited by other group members, of places that have been of
+special interest to a member (with images of the relevant
+exhibits) as reflected by messages sent, and by personal
+notes for remembering points that were of particular
+interest.
+
+services (getting directions to specific places, group
+members relative positions) and more.
+ACKNOWLEDGMENTS
+
+PIL was developed as part of the collaboration between
+ITC/irst and the University of Haifa and experimentation is
+conducted at the Hecht museum at the University of Haifa.
+REFERENCES
+
+1. Davies N. Cheverst K. Mitchell K. Efrat A. Using
+and determining location in a context-sensitive tour
+guide. Computer 34, 8, (Aug. 2001), pp. 35- 41.
+
+This part requires appealing graphics and good quality
+images of the relevant exhibits and will be provided on a
+good-quality large display.
+
+2. Falk, H. J. and Dierking, L. D. Learning from Museums:
+Visitor Experience and the Making of Meaning.
+Rowman & Littlefield, New-York.Klemmer, 2000.
+
+Interactive functionalities will include re playing (now to
+all group members at the same time) presentation that has
+been seen in connection to a given exhibit, and access to
+external information.
+
+3. Fleck M., Frid M., Kindberg T., O’Brien-Strain E.,
+Rajani R. and Spasojevic M. From Informing to
+Remembering: Ubiquitous Systems in Interactive
+Museums, Pervasive computing, 1, 2, (April – June,
+2002), pp. 13-21.
+
+We expect the visual context of the key points of the group
+visits per se will be a favorable background for discussing
+the exhibits and presentations seen by the group members.
+A novel round of experiments will be set to evaluate the
+overall setting.
+
+4. Grinter, R. E., Aoki, P. M., Hurst, A., Szymanski,
+M. H., Thornton, J. D. and Woodruff, A.. Revisiting the
+visit: Understanding how technology can shape the
+museum visit. In Proceedings of ACM Conference on
+Computer Supported Cooperative Work, New Orleans,
+Louisiana, USA, (2002) pp. 146 – 155.
+
+CONCLUSIONS AND FUTURE WORK
+
+The communication services implemented are only a small
+part of possible communication services. For the moment
+we decided not to enter free text or speech, to avoid
+problems of usability in a museum, but additional
+communication services may include writing memories
+(personal or to be shared), taking notes, pictures, and more.
+Such services can be generalized to a set of general
+communication services, where all may have in common a
+sender, an addressee, a set of contextual conditions for
+delivery and content to be sent. In fact, context-awareness
+may be an attribute common to other services, as
+demonstrated also by the alerting service, that can be
+regarded as a composition of time service (alarm clock)
+with the communication service (when time trigger fires, a
+message is sent by the system). Of course, this latter simple
+service can potentially be integrated with a more
+sophisticated personal or group oriented advice. In the next
+step we plan a generic context-aware information broker
+that will provide the required contextual information to
+different services. Such services will include, besides the
+communication services and time-based alerting services,
+additional alerting services (such as helping the visitors
+plan the visit and avoid crowded places), navigation
+
+5. Kuflik, T., Albertini, A., Busetta, P., Rocchi, C., Stock,
+O. and Zancanaro M. An Agent-Based Architecture for
+Museum Visitor’s Guide Systems - IFITT’s Global
+Travel & Tourism Technology and eBusiness Forum
+(ENTER 2006), January 2006, Lausanne, CH.
+6. Leinhardt G. and Knutson K., Listening In On Museum
+Conversations. Altamira Press Walnut Creek, CA. USA,
+2004.
+7. Rantanen M., Oulasvirta A., Blom J., Tiitta S., Mäntylä
+M. InfoRadar: Group and Public Messaging in the
+Mobile Context. In Proceedings of NordiCHI 2004,
+Tampere, Finland, ACM Press (2004), pp. 131-140.
+8. Stock, O.and Zancanaro M. (eds.) PEACH: Intelligent
+Interfaces for Museum Visits. Cognitive Technologies
+Series, Springer, Berlin, in press
+9. Woodruff A., Aoki P. M., Hurst A. and Szymanski M.
+H. The Guidebook, the Friend, and the Room: Visitor
+Experience in a Historic House. In: Human Factors in
+Computing Systems: Proceedings of the CHI’01
+Conference, Seattle, Washington, (2001) pp. 273 – 274.
+
+308
+
+

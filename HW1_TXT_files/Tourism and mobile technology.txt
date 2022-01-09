@@ -1,0 +1,878 @@
+K. Kuutti, E. H. Karsten, G. Fitzpatrick, P. Dourish, and K. Schmidt (eds.). Proceedings of the
+Eighth European Conference on Computer-Supported Cooperative Work, 14-18 September 2003,
+Helsinki, Finland
+© 2003 Kluwer Academic Publishers. Printed in the Netherlands
+
+Tourism and mobile technology
+Barry Brown and Matthew Chalmers
+Computing Science, University of Glasgow, Glasgow, G12 8QQ, United Kingdom
+barry@dcs.gla.ac.uk, matthew@dcs.gla.ac.uk
+
+Abstract. While tourism presents considerable potential for the use of new mobile
+technologies, we currently have little understanding of how tourists organise their
+activities or of the problems they face. This paper presents an ethnographic study of city
+tourists’ practices that draws out a number of implications for designing tourist
+technology. We describe how tourists work together in groups, collaborate around maps
+and guidebooks, and both ‘pre-’ and ‘post-visit’ places. Implications are drawn for three
+types of tourist technology: systems that explicitly support how tourists co-ordinate,
+electronic guidebooks and maps, and electronic tour guide applications. We discuss
+applications of these findings, including the Travelblog , which supports building
+travel–based web pages while on holiday.
+
+Introduction
+In recent years, interest in CSCW has expanded to include the use of
+technology in non-work settings, for example, the organisation of households
+(Hughes et al., 2000), teenagers’ use of mobile phones (Grinter and Eldridge,
+2001) and music listening (Brown et al., 2001). These studies have shown both
+the applicability of CSCW methods to these new contexts, and the relevance of
+findings from these contexts to core CSCW issues.
+In this paper we discuss a study of city tourists, examining the problems they
+encounter as they move between and visit new places. Tourism has been a
+popular area for mobile information systems, in particular the Lancaster GUIDE
+system (Cheverst et al., 2000), and other PDA based systems (Abowd et al., 1997;
+Fesenmaier et al., 2000; Woodruff et al., 2001). Indeed, as mobile phones and
+other portable devices becoming more advanced, tourism is one obvious
+application area. However, commercial technologies in this area have had only
+
+335
+
+limited success. There has also been little work that has studied tourism and
+drawn implications specifically for the design of these mobile technologies.
+Here we present an ethnographic study of tourists’ practices, based on a wide
+range of data, including observations of tourists, ‘video diaries’ of days out with
+tourists, and video recordings of tourists in public. We draw from this a number
+of design implications for how we could build better tourist technology. In
+particular, we focus on the collaborative nature of the tourist experience—the
+ways in which tourism is a richly social activity. The paper starts by discussing
+how tourists work together in groups, negotiating and arranging their activities,
+and co-ordinating their locations when separated. We then discuss how tourists
+collaborate around maps and guidebooks, focusing on the problems that tourists
+have in ‘putting the guidebook in its place’ i.e. moving from printed publications
+to specific attractions. Lastly, we look at how tourists both ‘pre-visit’ and ‘postvisit’ places. Tourists spend considerable time planning their activities, both
+before they visit and on the visit itself. However, tourists deliberately make plans
+that are not highly structured and specific, so that they can take advantage of
+changing circumstances.
+We argue that systems need to better support this collaborative nature of
+tourism, even if this support is as simple as better links with paper maps which
+allow tourists to interact around a wider surface than a PDA’s small screen. We
+also suggest how technologies could help tourists to move between the guidebook
+and planning their activity, such as maps that show some of the ‘social structure’
+of cities, and guides that better support the flexible nature of tourists’ plans. We
+are currently applying these recommendations within the City project and the
+Equator collaboration (www.equator.ac.uk), as we develop experimental tourist
+systems, extend a system to support ‘co–visiting’ between local and remote
+visitors to a museum (Brown et al., 2003), and explore theoretical issues such as
+the interdependence of new and old media in city life (Chalmers 2003).
+
+Tourism in the literature
+Tourism is an activity of great importance both economically and in terms of
+the pleasure it gives to holidaymakers worldwide. Nearly all individuals in the
+western world take some sort of holiday away from home every year, although
+the number of days differs across and within different countries. Tourism is also
+an activity that can divide rich and poor, through a negative or parasitical effect
+that damages places: ‘touristification’ (Apostolopoulos et al., 1996). As one
+would expect, there is a large body of literature that explores these issues from
+economic, cultural, environmental and other perspectives (Pearce, 1995; Urry,
+1995; Tribe, 1999). Given this large body of existing work, one obvious question
+is what could CSCW offer to studying tourists.
+
+336
+
+Previous tourism studies have noted that insufficient attention has been paid to
+the experience and practices of the tourist. Instead, most work has focused on the
+effects of tourism. Fodness and Murray comment that “detailed knowledge of the
+basis of actual tourist behaviour [is] lacking” (Fodness and Murry, 1997), and
+Aramberri argues that much tourism research “does not help to explain the nature
+of modern mass tourism” (Aramberri, 2001). The work that has looked in most
+detail at tourist practice has been the “tourist information seeking” literature
+(Snepenger et al., 1990; Moore et al., 1995). This literature has tended to avoid
+detailed qualitative description, focusing more on broad categorisations of tourist
+practice and questionnaire–based studies (Riley and Love, 1999).
+This lack of detailed observations presents a number of problems for the
+design of technologies. Specifically, there is a lack of understanding of the
+methods tourists use to choose and arrange their various activities. This motivated
+our choice of ethnographic methods to look in depth at how tourists arrange their
+activities, rather than concentrating on the effects of tourism, as is more
+traditional. In doing this, our approach is similar to recent studies of museum
+visitors (vom Lehn et al., 2001), interactions between local people and tourists
+(Lee and Watson, 1993; Munro, 1998), and tourist information centres (Crabtree,
+1999). In these cases a focus on the ‘how’ of ordinary activities, such as looking
+at a shared museum exhibit, can lead to findings useful for the design of
+technologies. Looking at tourism also presents an opportunity to explore leisure
+activities within CSCW and the particularly the sociality of leisure. As the growth
+in online gaming shows, many leisure technologies take on a new life when
+designed for group or social interaction. This presents opportunities for CSCW
+research, not least in understanding how technology can support existing rich
+social bonds.
+
+Studying tourism
+In this study, we combined video with conventional ethnographic observational
+work. We used small cameras to videotape activities in which we were
+participants and observers. We collected four main pieces of qualitative data. Five
+days were spent studying tourists in Edinburgh and Glasgow, combining
+observation with videoing their activities. A focus of this work was the
+documents that tourists used, such as maps, guidebooks, train timetables and so
+on. Our observations were conducted around major tourist areas: the main train
+stations, hostels, luxury hotels, Glasgow’s main city square, and an historic street
+in Edinburgh called the Royal Mile. We combined these with five ‘video diaries’,
+made by accompanying tourists while sightseeing on a day in the city. We
+recruited groups of visitors to the city from friends and family of our university’s
+staff. We then followed these visitors around for a day, videoing them as they
+chose what to do, arranged their visit and navigated their way around the city. We
+
+337
+
+supplemented these observations with twelve interviews with tourists, which were
+tape recorded and later transcribed. Lastly, we conducted a five day ethnography
+in the Glasgow tourist information centre, collecting data from the activities of
+both staff and tourists asking for information1.
+The data collected was diverse, but it allowed us to think about and explore
+what tourists do in a number of different ways, while remaining close to what
+tourists do. In analysing this diverse range of data we aimed to produce an
+ethnographic understanding of tourism; that is to say one that reflected the
+pressures, viewpoints and feelings of tourists as much as cataloguing their
+activities. In describing our analysis, we have therefore attempted to communicate
+our understandings of the tourist predicament, as much as describing specific
+fieldwork incidents.
+The cities that we studied, Edinburgh and Glasgow, are the second and third
+most popular cities for tourists to visit in the U.K., after London (Star-UK, 2000).
+Summer is a particularly busy time of the year for both cities, with the Edinburgh
+Festival (as well as the better weather) a major tourist attraction. This influenced
+the type of tourists that we found. The tourists that we spoke to and studied were
+predominantly independent travellers, who had mostly arranged their own travel
+although some used the assistance of a travel agency. While the package tour
+market is obviously a very important part of tourism (31% in the case of leisure
+visitors to the US), we focus more on tourists who arrange their activities
+themselves, since this group suffers more acutely from problems of organisation.
+While a major proportion of independent travellers are ‘backpackers’, young
+people travelling for a prolonged period of time before entering paid employment
+(Loker-Murphy and Pearce, 1995), independent travellers are a diverse group
+with a wide age range. In our case it encompassed older travellers (so called
+‘Peter Pan’ travellers), those on short city breaks, and travellers with a specific
+sporting interest—most prominently hill-walking and golf.
+In thinking about what tourists do, we found it useful to consider tourist
+‘problems’ and ‘solutions’. One example from the fieldwork is that tourists often
+need to use public transport to get between places. To do this they need to solve a
+number of practical problems, such as finding where bus stops are, finding out
+which bus to get, and so on. Discussing tourist activity in this way gave us a
+focus on practical activities: the most important part of tourism for the purposes
+of designing new tourism systems. This emphasises the decisions that tourists
+make and the information they use to make these decisions. However, we must be
+careful not to become too focused on utility, as tourists’ problems are not like
+work problems. Solving these problems is actually part of the enjoyment of being
+
+1
+
+One additional source of data was our own experiences as tourists during the time we conducted the
+study. While we did not collect this data as systematically as the other sources, field notes were taken
+during four tourist trips by the authors.
+
+338
+
+a tourist. In deciding what to do and how to do it, a tourist learns about the place
+they are visiting. As the old saying goes: “getting there is half the fun”.
+We discuss our fieldwork and its implications in three sections. First is a
+general discussion of the problems which tourists face, and the decisions that
+tourists have to make. Second, we look at the solutions tourists use and in
+particular the resources that they bring to bear on these problems. This includes
+working with others, guidebooks, maps and plans. Lastly, we discuss the
+possibilities for the design of new tourist technologies, and outline two prototype
+systems informed by our studies and currently under development.
+
+Tourist problems
+We start by outlining the problems which tourists face on their holidays.
+Although these observations come from our fieldwork, we will refrain from
+discussing the fieldwork in depth until the next section. The first, seemingly
+straightforward, problem which tourists face in an unfamiliar place is what to do.
+Unlike work, where tasks are often determined (in part) by an overall goal or by
+other people’s plans, tourism is much more open-ended. Tourism encompasses a
+broad range of activities such as sightseeing, relaxing, shopping, visiting friends
+and visiting family. Indeed, since tourism can be part of business travel, the
+boundary between work and leisure is often blurred. Yet whatever tourists do,
+they must at least make some sort of decision about what to do, often in advance.
+This decision must take into account the time it takes to get to different places, as
+well as balancing the attraction of different sites. Even when one arrives at a
+tourist ‘attraction’ this problem reappears at a different scale, e,g. which parts of a
+large museum to visit?
+Along with the question of what to do, tourists need to work out how they are
+going to do these different activities. When one reaches a tourist site one has to be
+careful about how one acts, since behavioural norms can be different in different
+countries. Ignorance about local customs is an oft mocked feature of tourists.
+Even straightforward activities such as buying goods can be organised differently
+in different countries, compounded with the problems of working with a new
+currency, and avoiding being exploited, or just ‘looking stupid’.
+Along with what and how, tourists have to manage when they do different
+activities. Tourism is usually constrained in time, because of the need to return
+home. Time is also a problem in that tourists work with organisations that provide
+services: opening times must be co-ordinated with the times of public transport,
+such as trains or buses. This is compounded by the ‘pre–booking problem’. Many
+facilities require pre–booking, so decisions need to be made before one has been
+to a place.
+These two problems in turn interact with our third tourist problem: finding
+where things are. In visiting a city many of the attractions are distributed around
+
+339
+
+the city. There is therefore a need to avoid spending too much time travelling
+between places, understand what one might see and do along the way, and group
+together attractions which are close together. In doing so tourists must also
+navigate public transport, often with limited information, or unfamiliar road
+systems.
+Lastly, an important part of a holiday is sharing that holiday with others who
+are at home. Although the tourist fascination with taking photos or videos has
+been often criticised (Bourdieu, 1990), it displays how visitors are not isolated
+individuals but are part of a social group. Tourists record and represent
+experiences in the form of photos and stories, to remind themselves of the visit
+and to share with others after they return home. This is a valuable part of tourism.
+The most successful tourist technology is the camera, specifically designed for
+this ‘taking the visit back home’. The popularity of Internet cafés for tourists also
+suggests that email sent back home is becoming a significant part of the tourist
+experience.
+
+Tourist solutions
+We emphasise again that these ‘problems’ are not a negative part of tourism.
+Travelling and finding out where to go is part of the very enjoyment of tourism.
+Tourism transforms what might seem mundane activities into something
+enjoyable or even romantic. Train journeys, for example, are a common resource
+for the travel writer, and bus and underground travel can have their own pleasures
+(such as the smell of the train’s tires in the Parisian metro, or the electronic
+sounds of the Tokyo subway). Particularly in city visits, walking between places
+is an important part of being in a place, with ‘street life’ being one of the easiest
+ways to access the natural life of locals (chapter vii, De Certeau, 1984). These
+pleasures are a whimsical yet crucial part of the enjoyment of tourism.
+So, in solving these problems tourists are not simply looking for some optimal
+solution. Instead, solving these problems is part of the enjoyment of the
+experience; finding a nice café or reading a map, for example, is enjoyable in
+itself. Accordingly, the solutions that tourists have to these problems are often
+finely tuned to both the problem and the enjoyment of working through the
+problem.
+
+Sharing the visit with others
+One method that tourists use to solve their problems is sharing the visit with
+other tourists. Tourism is very much a social activity. A tourist generally travels
+with others, e.g. as part of a family group, and statistics from the US show that
+79% of leisure visits involve groups of two or more (USDTI, 1999). Since leisure
+travel is predominantly group-based, there is considerable intra-group interaction
+and collaboration. For example, Figure 1 shows some frames taken from a video
+
+340
+
+of two tourists who have just arrived at Edinburgh’s main train station. The first
+tourist holds an “A to Z” street guide to Edinburgh, and is looking through it.
+While the second tourist glances around the railway station, the first tourist finds
+the correct page of the map. Then the second tourist takes out her glasses to look
+
+at the map, glances at the map and then points at an exit sign in the train station
+that names the street to which the exit leads. They then give the street guide a last
+look, pick up their bags and leave the station.
+Figure 1: Tourists at a train station
+
+Even in this simple excerpt one can see a division of labour between the two
+tourists. The second tourist looks around the station to find the exit, while the first
+tourist tries to find the correct page on the map. She holds the map so as to make
+both the map and her progress in using it available to her companion. On finding
+the station, she describes the location of the station to her friend, and the friend
+adds the name of the street reached via the exit. With these two items of
+information, they now know where they are on the map, where the exit will take
+them and how to proceed to their destination. Reading the map is done here in
+such a way that it can be ‘checked’ by the first tourist’s companion. If she makes
+a mistake (which is easy to do), or if they later find themselves lost, the
+companion can intervene. The job of remembering the route is thus shared by the
+two tourists. Together they use the environment to move between the map and a
+course of activity. The sign in the station is used to link the map with where the
+station exit leads.
+
+341
+
+Along with these collaborative advantages of working together, visiting with
+others is not without its own overheads. With the collaborative ‘working out’ in
+this clip there is also an implicit negotiation going on. The two tourists are
+deciding what they are going to do as well as how. Visiting with others involves
+considerable co-ordination in this way. The desire to visit different attractions, or
+simply to see different museum exhibits, means that tourist groups often split up
+and then need to co-ordinate getting back together. This can present considerable
+challenges since tourists are highly mobile. It is in these situations that mobile
+phones become a useful tool, in that calls can be made between individuals or
+sub-groups2. A more local form of this co-ordination problem also takes place in
+particular sites where individuals go to different rooms, or different exhibits, and
+they need to locate their travelling companions. This is particularly the case for
+tourists with children, since children sometimes run off, and must be carefully
+watched to see that they come to no harm. In the incidents we observed, mothers
+spent considerable time shepherding children around museums, in particular,
+collecting all the children together before leaving the museum. For these parents
+a large part of their holiday was ‘managing’ the group and making sure that
+nobody got lost.
+A second way in which visits are shared is through meeting other tourists
+(Loker-Murphy et al., 1995). The standard jokes about holiday romances displays
+something of the way that meeting other people is an integral part of many tourist
+experiences. In part, these opportunities come from the lowered barriers to social
+contact. Individuals are ‘on holiday’ from many of their home commitments. The
+facilities that tourists use, such as hostels, trains and buses, also can also afford
+social contact. One reason behind these social contacts, and certainly a common
+conversation topic, is the exchange of stories and advice on where to go and what
+to visit. In our interviews this advice was given great value, greater even than
+information given by guidebooks or tourist information staff. This ‘word of
+mouth’ sharing allows tourists to exchange information on sites that have
+changed, as well as informal information about different places and facilities,
+such as their friendliness. However, these meetings and conversations are not just
+forums for the exchange of information. They provide a ‘ticket to talk’ (Sacks,
+1992) with other tourists: an excuse and a basis for more general conversation.
+The social contact that these conversations initiate may be of more value than the
+exchange of information—they are as much platforms for establishing other
+(possibly temporary) social bonds, or simply enjoying the company of new
+people.
+
+2
+
+With many mobile phone charging systems these are the most expensive calls possible with the cost as
+high as two international calls to connect a call between two foreign mobile-phones in the same
+country.
+
+342
+
+Putting guidebooks in their place
+A second way tourists solve their problems is the use of published information.
+The two most quintessential tourist publications are the guidebook and the map.
+These are often used in combination when tourists navigate and find out about
+what to do in different places and how to get between them. While both have been
+subject to computerisation, this has had only limited success. For example, we did
+not observe any use of digital maps or guidebooks in our observations. In part,
+this limited success can be put down to a lack of knowledge about how maps and
+guidebooks are actually used by tourists. Studying the use of these conventional
+paper publications can reveal to us some of the advantages of paper publications
+and how to better design their digital equivalents.
+Guidebooks come in many different forms, from free handouts to Michelin and
+Baedeker guides. One reason why guidebooks are so useful to tourists is that they
+catalogue, in a structured and relatively standardised form, relevant aspects of the
+places that tourists visit. They list accommodation (with phone numbers),
+attractions (with opening times), recommended bars and restaurants, and so on.
+This standardisation can make strange places feel considerably safer to tourists by
+reducing their uncertainty.
+Guidebooks also offer short ‘guides to action’, highlighting differences in
+everyday activities that might cause embarrassment. In use, however, this
+information needs considerable interpretation—guidebooks need to be ‘put in
+their place’. What the guidebook says has to be combined with other information,
+in particular information on maps, or advice from locals. We frequently found
+tourists holding a map and a guidebook, and using these in combination. In
+particular, guidebooks were collaborative artefacts, conversation would take place
+around the guidebook with tourists pointing at the guidebook, and then pointing
+either at a map or in a direction, so as to link together the establishments being
+discussed with their position.
+Indeed, finding something from a guidebook can be a challenge even when it is
+very close by. In the following extract (figure 2), a group of tourists are looking
+for a particular historic house. The confusion of the tourists here is apparent, and
+the volunteered assistance of the researcher (B) is only partially helpful. The
+conversation takes place here around a map contained in a guidebook and a page
+of text describing different attractions. The tourists talk about an old house they
+are looking for, point at its location on a map in the guidebook and then attempt
+to find that location on the street. As can be seen from this extract the guidebook
+is a rich collaborative artefact—it supports a group working around the book,
+pointing at different items and solving their problems together. Yet even though
+they are only a few metres from the house, navigating with the map and the
+guidebook together causes some confusion. A GPS positioning system here
+would have been of little help; the tourists’ problem is in moving from the
+guidebook to the street they are on. Although they find the house on a map, its
+
+343
+
+street name (“Lawnmarket”) is not enough for them to find the house without
+some work. The street they are on is labelled “Lawnmarket”, it is often simply
+called “the High Street” by locals since it is a continuation of that street.
+Confusingly, “Castle Hill Street” is very close by too:
+A: Maybe it’s down there it could be down there Fran
+B: Are you looking for a street? *1*
+A: Nooo it’s a (.5) a very old house is it Gladstone
+or Livingstone. (.5) Very old place. I think it’s to
+the left of Deacon Brodie’s ehh
+C: Gladstones Land? ↑Gladstones Land?Ø(walks over) *2*
+A: Uhh I think
+
+C: Gladstones land is number *3* six. *4 *
+A: Wheres six?
+C: Six is (.5) fifteen. Five. Six. Castle hill
+(1.5) hill street
+B: Castle hill is [just there]
+C:
+[iddsh] well it has a
+description lets see what it says *5*
+C: it’s a six story home and look at the year
+1620
+B: its on the lawn market
+A: Yeah
+C: Where does it say, oh lawn market Oh. He said it
+was on the high street
+A: Maybe they’ve got it .. ok
+B: Lawnmarket’s just here
+C: ↑OhØ ohhh whats this street called is this Lawnmarket too?
+B: This is Lawnmarket. [It becomes High Street] ermm
+A:
+[This is Lawnmarket]
+C: Ohhhh
+A: So 477.
+
+C: So where does it become High Street (1.0)
+C: oohhh it’s across the street right over there.
+the old one, lets go and look
+
+It’s probably
+
+Figure 2: Tourist using a guidebook to find a historic house
+
+The tourists go through a number of descriptions of where the house is and what
+it is like to help them find it (“to the left of Deacon Brodies”, “very old”, “six
+story”, “477”) with eventually the age helping them to find the house “its
+probably the old one” (on this sort of activity see (Schlegoff, 1972)). These
+descriptions help the tourists to find the house, along with informing them about
+what they are visiting. Even with a map, a guidebook, and the assistance of a
+local, the tourists need to work the guidebook to ‘place’ the old house on the
+street they are actually on, and overcome some of the confusions of streets which
+change name, the difference between how a street is named on a map and a name
+that locals use. In this way, tourists take the information held in guidebooks and
+combine this with information they find from particular places, such as street
+
+344
+
+Figure 3: A tourist reads a guidebook
+but keeps his finger on another page,
+so that he can quickly go back.
+
+Figure 4: Multiple publications are
+laid out on the counter of the Tourist
+Information Centre
+
+names or train timetables in a railway station. This is how guidebooks are ‘put in
+their place’.
+In designing technologies for tourism we should also pay attention to a second
+aspect of guidebooks: their physical form. The photographs attached to the last
+extract, and Figures 3 and 4, all show how the physical form of the guidebook
+plays a role in its use. Pages in guidebooks can be easily bookmarked by placing
+one’s fingers into the pages at multiple points in the book, and opening the book
+on a particular page (Figure 3). While this might seem a trivial operation, it
+supports jumping between different pages quickly so as to compare and combine
+information, with the fingers acting as bookmarks. This is important, since much
+of the work of tourists is this very comparison and combination—as in combining
+information on maps with descriptions. Different publications can also be
+arranged so that they are in the visual field at the same time. Conversations over
+accommodation at the TIC would often take place with the guides laid across the
+serving desk, with staff helping visitors through the guides to show where
+different sorts of accommodation in the city were (Figure 4). In this way, the
+format of the paper guide allowed both staff and visitor to interact around the
+guide (see also (Sellen and Harper, 2001)).
+
+Moving with maps
+The second popular tourist publication that we saw widely used in our
+observations was the map. Maps have of course been a well–researched artefact
+in fields as widespread as cognitive psychology and cultural studies. The specific
+topic of way-finding has been explored in depth (MacEachren, 1995; Hunt and
+Waller, 1999). One finding from these studies is that map users are significantly
+better at tasks that involve configuration information (such as how far one
+landmark is from another) than those without maps, sometimes better even than
+local people with years of knowledge of a place (Lloyd, 1989).
+However, perhaps surprisingly, there is little work that has examined the
+in–situ, non–experimental use of maps. As Cornell and Heth argue, there is a need
+
+345
+
+for work which studies “humans navigating real world routes” (Cornell and Heth,
+2000) since little work has looked at the ‘naturalistic’ use of maps: how they are
+used in situ without an experimental task3.
+Looking at our data on map use shows many different uses of maps, which
+differs from the notion of maps as a straightforward tool for planning a route
+between points A and B. We observed tourists using maps in situations where
+they did not know exactly where they are going, but only had an idea of a
+particular area that they were heading towards. This was usually because they
+believed that they would find something interesting in that area, although they
+had no specific attraction in mind. Alternatively, tourists used maps to go towards
+a specific type of attraction, such as a café, but with no specific café in
+mind—they would head towards a street where they thought there would be cafés.
+Tourists also often only had a rough idea of where they were, and would use a
+map to locate or orient themselves so as to head in a ‘roughly correct’ direction,
+rather than along a specific route. So, in using a map, tourists might not know
+where they were, might have little idea about their orientation, might not know
+where they were going, and might even be unsure about what they were looking
+for. So, map use is often less about explicit route planning and more about
+wandering a city in a ‘roughly correct’ manner. The routes that tourists used were
+more directional than specific, with tourists frequently stopping en route, using
+the map to find the direction to walk in, and then setting off again.
+A second feature of map use is their combination with guidebooks. A key
+aspect of this is how tourists combine characteristics and geography in an attempt
+to simultaneously solve the problems of where things are and what things there
+are. One way of doing this that we observed exploits the ‘social zoning’ of cities.
+As any frequent traveller will know, one of the most effective ways to find a
+restaurant in an unfamiliar city is to simply wander around a central area.
+Although by no means a perfect way of finding particular amenities, walking
+around exploits the tendency of certain facilities (such as bars and restaurants) to
+be clustered in particular area4. In this way, one can also judge establishments by
+their appearance and menu, as one walks past.
+These ‘clusters’ are exploited in tourists’ use of maps. When choosing where
+to go to, it is often safer to pick an area with more than one potential facility. We
+observed tourists heading towards a ‘restaurant zone’ of a city, often with one
+restaurant in mind, but with the flexibility to go elsewhere should that restaurant
+prove to be busy or unsuitable. By combining maps and guidebooks, tourists can
+look for ‘clusters’ of facilities in particular areas and go towards these particular
+areas rather than (or in addition to) heading towards a specific establishment.
+This is not to say that maps are never used for working out how to get to
+specific places or attractions, but our observations showed some of the problems
+3 Alternatively, in CSCW, maps have also been discussed as resources for guiding activity (Schmidt, 1997).
+4 Although this is a tendency of smaller or denser cities: Manhattan rather than Los Angeles.
+
+346
+
+that tourists had in doing this. Following a route on a map involves considerable
+interpretation as one moves around a city (Smith, 1996). A tourist has to link
+between the map and what they see of streets and landmarks. Our observations
+showed many tourists pointing or turning their bodies towards different places to
+help them work out where to go (Figures 5 and 6).
+
+Figure 5: tourists point at a place and
+a map to link them together
+
+Figure 6: two tourists turn around to
+orientate themselves
+
+Even though the places that these tourists were going to were not visible, they
+turned so as to see where they were going. This is our embodied sense of position
+and location (Jonsson, 2002), how we see and understand where things are in and
+beyond our visual field. Indeed, when staff in the tourist information centre gave
+directions, they combined two different methods. One set of directions was given
+by drawing a line on a map—a portable and abstract version that can be used by a
+tourist to find their destination. Staff combined this with ‘showing’ in physical
+space where the destination was and how to get there: saying “it’s behind us on
+Argyle Street” while using an arm movement to point in a specific direction.
+A last point about maps’ use concerns how they are frequently read in advance
+of getting to the place the map describes. This was a common use of maps we
+observed. Indeed, this pointed us towards a much–neglected aspect of using
+maps: their educational function. A major aim of using a map is to learn about a
+place sufficiently that one can get around without using a map, learning about a
+place by looking at where the streets go, the names of the streets and potential
+landmarks. We observed one tourist who spent over twenty minutes at a Glasgow
+train station reading a map of a popular mountain walk. In looking at the map,
+this tourist was learning about his walk. While not explicitly finding his way, he
+was learning about things that would help him when on the walk, such as the
+distances between places and what landmarks and sights there are around the
+area. When we use maps in situ by the process of travelling around, we are also
+learning about sites and streets in such a way that if we return we will have more
+idea of our location and how to get around. If, technologically, we just support
+wayfinding then we will neglect this crucial function. Maps provide an overview
+and allow us to fit our observations and our travelling together.
+
+347
+
+Pre- and Post-visiting
+The last solution we will discuss concerns how tourists use ‘pre-visiting’ and
+‘post-visiting’ of places to manage their holiday. While our focus so far has been
+on the visit, considerable work is done by tourists before they travel, in gathering
+information and planning what to do. Tourists pre-visit a place by reading about
+it before they go there. Through arranging information and reading about a place
+before travelling, a tourist can do some of the organising activity for the holiday
+before the holiday. As with many of the other solutions outlined above, previsiting is not only practical; it is enjoyable. It extends the excitement of the
+holiday and builds anticipation as well as giving the visitor some sort of idea of
+what they are visiting before they get there.
+Pre-visiting also happens while on the holiday itself, with tourists gathering
+information about places and planning what they are going to do. One important
+aspect of tourist planning is that it is ‘satisficing’ (Simon, 1955), in that plans are
+‘good enough’ rather than detailed plans of activity. Indeed, tourists’ plans are
+often deliberately ambiguous so that they can take into account future
+contingencies. As Suchman argues, plans often do not determine behaviour but
+rather are used flexibly in deciding what to do (Suchman, 1987). This
+acknowledges that decisions are often easier to make when one is actually in a
+particular place. For example, when planning a route, planning the complete
+route in advance using a map is often quite difficult. An alternative approach is to
+plan an ambiguous route in advance, and then picking specific roads by using
+road signs when one is driving.
+In this way, tourist plans are often deliberately designed to be only as specific
+as necessary. A number of the tourists we interviewed talked about allocating
+days to particular places before they travelled. This sort of planning leaves a lot
+unspecified: when each day is, and what activities are done in each place, for
+example. Yet this sort of planning acknowledges that these sort of details are
+better kept flexible until closer to the time, as they will be dependent on local
+transport details, and can be adjusted in the face of other local contingencies, such
+as changing weather. Indeed, a stereotypical bad holiday is one that is excessively
+planned, in that changing circumstances are not be taken into account.
+A second interesting aspect of tourist plans is how they follow or copy plans
+provided by others. A popular example of this is the package holiday, but even on
+package holidays not all of one’s time is structured: many activities (such as
+choosing a restaurant) still involve some planning during the visit. For the tourists
+we followed, bus tours were frequently used to help structure the visit in this way.
+One group we followed took the tour bus on the first day they visited the city, so
+as to obtain an ‘overview’ of the city that they used on later days to organise the
+rest of their visit. While on the bus, one passenger drew a line on his map as the
+bus travelled around the city, letting him record where he had been for later
+recollection, and helping him to link the different sights together. In this way
+
+348
+
+these bus tours had a role as an ‘organising device’ for a city visit, providing
+information about the key streets and attractions and allowing one to visit these
+again at leisure. The tours thus provided information and structure about the city,
+as much as being a strict plans or activity to follow in themselves.
+If pre-visiting is about planning, then post-visiting is about reminiscing and
+sharing. Tourists often get together in groups to talk through their holidays, or to
+talk about their holidays to others who were not there (Frohlich et al., 2002).
+Photographs are very important for this activity in that they provide a framework
+around which stories can be told and experiences shared. Talking through the visit
+with photographs can take place both with those who were present on holiday and
+those who were not; in one form it is reminiscence, in another it allows the
+holiday to be shared. The combination of talk and interaction around pictures
+supports both these activities.
+Post-visiting is thus a powerful way of extending the enjoyment of a tourist
+visit out beyond the visit itself. It also acts as a recommendation mechanism for
+different places – it allowing us to see ‘what places are like’ through our friends,
+and outside the commercially produced views of brochures and television (Crang,
+1999). Indeed, some tourists who are on longer holidays go to the point of
+creating rich travelogues of their holiday, involving photographs, videos and text
+that are brought together to tell the story of their holiday. These travelogues
+usually exist in the form of photo albums, although a number of travelogues do
+exist on the Internet. However, there are considerable barriers to creating
+travelogues online—crafting web pages can take considerable time, and access to
+a PC and the Internet can be difficult while on holiday.
+
+Leisure and pleasure
+While we have described the experiences of tourists in terms of their
+‘problems’ and ‘solutions’, we must not lose sight of the pleasurable nature of
+tourism, and how much of tourism involves activities that are not goal–oriented.
+That is to say, tourism is often nebulous with only tentative arrangements—we
+were struck by how the tourist experience was often not about finding the best
+restaurant, attraction or hotel, but in finding suitable attractions that allowed
+enjoyable experiences with travelling companions. These enjoyable experiences
+can range from the aesthetic (seeing a beautiful building), to the mundane (getting
+confused in a shop), to the social (spending time with a friend or family member
+whom one seldom sees). Tourism can thus be characterised as hedonic and
+emotional (Goosens, 2000), an experience typified by “wandering”, where we
+attempt to enjoy the city environment and chance upon things of interest, rather
+than “optimising”.
+Learning how to design for these sorts of activities is one future challenge for
+CSCW, as interest extends from worksites to other environments. Interfaces may
+succeed as much for their playful nature as their usability. The popularity of
+
+349
+
+games like ‘geo-caching’ even suggests opportunities for threading games into the
+tourist experience. CSCW may have much to learn from games, in particular
+online games (Dyck et al., 2003) and games that interact with travellers’ changing
+environments (Runnberg and Juhlin, 2003).
+
+Designing technologies for tourists
+Although tourism presents a number of barriers to introducing new technology in particular the need for devices to be sufficiently mobile - tourists have already
+adopted many new technologies, e.g. the web, mobile phones and digital cameras.
+This suggests that there are opportunities for new tourist systems that fit tourist
+practice. We now move on to discussing the implications from our study for
+designing better tourist technologies.
+
+Sharing the visit
+As emphasised above, an important part of tourism is sharing the visit with
+others. One problem that tourists face is co-ordinating their activities while they
+are separated—in particular getting groups back together again. One application
+that would assist this is a handheld or phone–based system that allowed tourists to
+communicate their locations to each other. So, if a group splits into two, they
+could choose to ‘tie’ their locations together so that each subgroup would be able
+to see where the other was. ‘Tying’ in this way could support synchronous
+awareness without running into difficult privacy problems. In addition,
+technology could support tourists showing the routes they took and things they
+did when they meet up again. This could allow them to make recommendations
+to their companions and also to other tourists whom they meet.
+A second aspect of sharing visits is collaboration between tourists who do not
+know each other. One recommendation here is for technology to support sharing
+comments and reviews on different tourist attractions. However, it is important
+here to make this an interactive experience between tourists; as we discussed
+above, exchange of information is as much about meeting other tourists as it is
+exchanging information. This could be supported by using public machines or
+message walls where tourists can meet as they exchange information, or by
+enhancing existing sights where tourists meet, such as on city tours.
+
+Electronic guides and maps
+As discussed above, electronic guidebooks and maps have been a popular
+application area for mobile technology, with existing system generally following
+a similar format to paper guidebooks, augmented with GPS (for example
+TomTom CityMaps). Our fieldwork implies a number of limitations with this
+design. One innovation that electronic guidebooks could support is in making
+
+350
+
+connections between where attractions are and what they are. Electronic
+guidebooks should explicitly support the comparison of information, allowing
+users to quickly move between related pieces of information. Partly due to the
+limited screen size, mobile systems seldom offer this feature. Pocket Internet
+Explorer, for example, only allows the user to load one web page at a time. One
+solution to this could be paper maps and electronic guidebooks that are designed
+to be used together. This would remove some of the disadvantages of the small
+screen by allowing users to juxtapose the PDA and the map in their visual field.
+More direct coupling is also feasible, e.g. through the PDA’s sensing of printed
+glyphs and barcodes.
+Mapping systems could also support more of the ‘wandering’ behaviour of
+tourists; for example, showing at a glance whether a tourist is going in the right
+direction rather than simply supporting a pre-determined route. Indicators could
+show nearby attractions, cafés, areas or main streets to support serendipitous
+discovery. This sort of representation moves beyond supporting wayfinding to
+supporting the broader range of tasks that tourists undertake when navigating. So,
+such a representation would support going between one shopping district and
+another, while looking for a café. In cases like this it is not the exact route that is
+important, although walking in the right direction is important, but a more general
+sense of learning about the city as one wanders around. Maps themselves could
+also show more of the ‘social zoning’ of different places, such as what areas are
+good for shopping, going out, or eating.
+
+Supporting pre and post- visiting
+Distinct from guidebooks, electronic tour guide systems attempt to offer
+information about a visitor’s current location, and suggestions of where they
+might want to go next. These systems, such as the Lancaster GUIDE system, and
+more recently the EU funded “m-toGuide” system (http://www.mtoguide.org/),
+have generally been based around a ‘walk-up pop-up’ model where information
+(voice and text) is pushed at users based on their current location. Our
+observations suggest some limitations with this model. We observed that tourists
+frequently used maps and guides before visiting a place—an activity we call
+‘pre–visiting’. Presenting information to tourists while they are actually at an
+attraction may have limited utility, since at that point the environment is likely to
+contain richer sources of information than can be provided by a PDA. Our
+fieldwork also showed that tourists often do not follow tours in a straightforward
+way. Tours instead act as structures through which tourists can learn about the
+place being visited, and can use to build their own, more ad hoc plans. Systems
+should therefore present tours and attractions to tourists in such a way as to allow
+them to browse and learn from the tours rather than strictly following them, and
+to be aware of ‘official’ tourist attractions without being restricted to them.
+Viewing tours in advance would allow tourists to ‘pre-visit’ and judge different
+
+351
+
+places and make their own plans about what to do rather than only following an
+official tour.
+Lastly, our fieldwork emphasised the importance of post-visiting for tourists,
+allowing them to communicate and discuss their visit when they got home. We
+have been experimenting with support for this with the ‘travelblog’ system. This
+system allows tourists to build web–based travelogues describing their travels.
+These entries consist of pictures, videos and text captured on a Nokia 7650
+camera-phone. These entries are then emailed from the phone to a server that
+automatically builds a web log combining the images and text. While some
+travelblogs are already on the Internet, created through increasingly popular weblogging software, our system also supports users replying to entries and having
+these messages forwarded via SMS to the tourist. Although this mechanism is
+very simple, it supports travellers updating their travelblog from anywhere in the
+world and extends the value of weblogs to the travelling tourist.
+
+Conclusion: Building technologies for leisure
+In this paper we have explored some important aspects of tourism, presenting
+an ethnographic study and design implications for tourist technologies. Using the
+metaphor of ‘tourist problems’ we explored the solutions that tourists use to
+arrange their visits. These solutions covered how tourists worked with other, used
+maps and guidebooks, and both pre- and post-visited places. We drew
+implications from this fieldwork for new technologies for tourists such as systems
+for remote co–visiting, and electronic guides and maps.
+Designing technologies for tourists presents a number of specific challenges.
+Good tourist technologies are not only those that make tourists more efficient, but
+that also make tourism more enjoyable. As we discussed above, much of what is
+enjoyable about leisure is that it provides an opportunity to spend time with
+friends or family. In some senses, the leisure activity itself is less important than
+the fact that time is spent with significant others. Technologies that are woven
+into this sociality are likely to be used in preference to those that are not. Yet
+supporting sociality, sharing time and experiences together as part of friendships,
+may involve different technologies than those that support collaboration. One
+example of a system that does this is the Sotto Voce system, which allows visitors
+to an historic house to share a spoken commentary (Woodruff et al., 2001). The
+City project’s system also addresses this, with support for co-visiting between
+groups of tourists and their friends at home.
+In closing we would argue that support for leisure is both a new area of interest
+for CSCW and an area that is amenable to the methods and approaches developed
+in CSCW. As attention extends beyond the realm of work, and beyond
+technologies that support collaboration, it is the social aspect of leisure that may
+be the most important yet most challenging to support.
+
+352
+
+Acknowledgements
+We would like to thank Areti Galani and Eric Laurier for conversations around
+the issues discussed here. Ian MacColl helped build the travelblog system, and
+Jon Hindmarsh and Carl Gutwin gave useful comments on earlier drafts. We
+would also like to thank the very patient tourists who suffered our investigations,
+and to acknowledge our funding by the UK Engineering and Physical Sciences
+Research Council.
+
+References
+Abowd, G. D., et al. (1997): 'Cyberguide: A mobile context-aware tour guide', ACM Wireless
+Networks, vol. 3, no. 3, pp. 421-433.
+Apostolopoulos, Y., et al., Eds. (1996): The sociology of tourism: theoretical and empirical
+investigations, Routledge.
+Aramberri, J. (2001): 'The host should get lost: paradigms in tourism theory', Annals of Tourism
+Research, vol. 28, no. 3, pp. 738-761.
+Bourdieu, P. (1990): Photography: a middlebrow art, Polity Press, London.
+Brown, B., et al. (2001): 'Music sharing as a computer supported collaborative application', in W.
+Prinz (Ed.) Proceedings of ECSCW 2001. Bonn, Kluwer, pp. 179-198.
+Brown, B., et al. (2003): 'Lessons from the Lighthouse: Collaboration in a shared mixed reality
+system', in Proceedings of CHI 2003. Fort Lauderdale, ACM Press, pp. 577–584.
+Chalmers, M. (2003): 'Awareness, representation and interpretation', J. CSCW, vol. 11, no. 3–4,
+pp. 389–409.
+Cheverst, K., et al. (2000): 'Developing a Context-aware Electronic Tourist Guide: Some Issues
+and Experiences', in Proceedings of CHI 2000. The Hague, ACM Press, pp. 17-24.
+Cornell, E. H. and C. D. Heth (2000): 'Route learning and navigation', in R. Kitchin and S.
+Freundschuh (Eds.): Cognitive mapping: past, present and future. Routledge, pp. 66-83.
+Crabtree, A. (1999): The tourist information centre study: eSCAPE Deliverable 4.2, The Tourist
+Physical Electronic Landscape Demonstrator: 3-12.
+http://www.mrl.nott.ac.uk/~axc/PDF/eSCAPE%20D4.2.pdf.
+Crang, M. (1999): 'Knowing, tourism and the practices of vision', in D. Crouch (Ed.)
+Leisure/tourism geographies: practices and geographical knowledge. London,
+Routledge, pp. 238-256.
+De Certeau, M. (1984): The practice of everyday life, University of California Press, Berkeley.
+Dyck, J., et al. (2003): 'Learning from Games: HCI Design Innovations in Entertainment
+Software'. To appear in Proceedings of Graphics Interface 2003.
+Fesenmaier, D., et al., Eds. (2000): Information and communication technologies in tourism,
+Springer.
+Fodness, D. and B. Murry (1997): 'Tourist information search', Annals of Tourism Research, vol.
+24, no. 3, pp. 503-523.
+Frohlich, D. M., et al. (2002): 'Requirements for photoware', in Proceedings of CSCW '02. New
+York, ACM Press.
+Goosens, C. (2000): 'Tourist information and pleasure motivation', Annals of Tourism Research,
+vol. 27, no. 3, pp. 301-321.
+Grinter, R. E. and M. Eldridge (2001): 'y do tngrs luv 2 txt msg?', Proceedings of ECSCW 2001.
+Bonn, Kluwer, pp. 219-238.
+
+353
+
+Hughes, J., et al. (2000): 'Patterns of Home Life: Informing Design For Domestic Environments',
+Personal Technologies (Handheld and Ubiquitous Computing), vol. 4, no. 3, pp. 11-39.
+Hunt, E. and D. Waller (1999): Orientation and wayfinding: A review, ONR technical report
+N00014-96-0380. Arlington, VA, Office of Naval Research.
+Jonsson, E. (2002): Inner Navigation, Scribner.
+Lee, J. R. E. and D. R. Watson (1993): Final Report to the Plan Urbain: Public Space as an
+Interactional Order. Manchester, Department of Sociology, University of Manchester.
+Lloyd, R. (1989): 'Cognitive maps: encoding and decoding information', Annals of the Association
+of American Geographers, vol. 79, no. 3, pp. 101-124.
+Loker-Murphy, L. and P. L. Pearce (1995): 'Young budget travellers: backpackers in Australia',
+Annals of Tourism Research, vol. 22, no. 3, pp. 819-843.
+MacEachren, A. M. (1995): How maps work, Guilford Press, New York.
+Moore, K., et al. (1995): 'Behavioural conceptualization of tourism and leisure', Annals of Tourism
+Research, vol. 22, no. 3, pp. 67-85.
+Munro, A. (1998): Fringe benefits: an ethnographic study of social navigation at the Edinburgh
+Festival. Stockholm, Sweden, SICS, Persona deliverable 2.1.1.
+Pearce, D. (1995): Tourism today: a geographical analysis, Longman Scientific & Technical,
+Harlow.
+Riley, R. and L. Love (1999): 'The state of qualitative tourism research', Annals of Tourism
+Research, vol. 27, no. 3, pp. 164-187.
+Runnberg, L. and O. Juhlin (2003): 'Movement and Spatiality in a Gaming Situation - Boosting
+Mobile Computer Games with the Highway Experience'. To appear in: Proceedings of
+Interact 2003.
+Sacks, H. (1992): Lectures on conversation, Basil Blackwell, Oxford.
+Schlegoff, E. (1972): 'Notes on a conversational practice: Formulating place', in D. Sudnow (Ed.)
+Studies in Social Interaction. New York, Free Press, pp. 75-119.
+Schmidt, K. (1997): 'Of maps and scripts: The status of formal constructs in cooperative work', in
+Proceedings of Group'97. Phoenix, ACM Press, pp. 138–147.
+Sellen, A. and R. Harper (2001): The myth of the paperless office, MIT Press.
+Simon, H. A. (1955): 'A Behavioural Model of Rational Choice', Quarterly Journal of Economics,
+vol. 69, no. 3, pp. 99-118.
+Smith, D. E. (1996): 'Telling the truth after postmodernism', Symbolic Interaction, vol. 19, no. 3,
+pp. 171-202.
+Snepenger, D. J., et al. (1990): 'Information search strategies by destination-naive tourists',
+Journal of Travel Research, vol. 29, no. 3, pp. 13-16.
+Star-UK (2000): United Kingdom Tourism Survey. London, UK, Star UK - statistics on tourism
+and research. http://www.staruk.org.uk//default.asp?ID=468&parentid=469.
+Suchman, L. (1987): Plans and situated actions: The problem of human-machine communication,
+Cambridge University Press, Cambridge.
+Tribe, J. (1999): Economics of Leisure and Tourism, Butterworth-Heinemann, London.
+Urry, J. (1995): Consuming Places, Routledge, London.
+USDTI (1999): Survey of international air travelers: Profile of Overseas Travellers to the U.S, US
+department for Tourism Industries. http://www.tinet.ita.doc.gov/view/f-1999-07-001/.
+vom Lehn, D., et al. (2001): 'Exhibiting Interaction: Conduct and Collaboration in Museums and
+Galleries', Symbolic Interaction, vol. 24, no. 3, pp. 189-216.
+Woodruff, A., et al. (2001): 'Electronic Guidebooks and Visitor Attention' in Proc. 6th Int'l
+Cultural Heritage Informatics Meeting. Archives and Museum Informatics, pp. 437-454.
+
+354
+
+

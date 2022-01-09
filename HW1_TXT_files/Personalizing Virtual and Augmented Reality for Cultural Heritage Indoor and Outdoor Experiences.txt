@@ -1,0 +1,811 @@
+The 9th International Symposium on Virtual Reality, Archaeology and Cultural Heritage, VAST (2008)
+
+Personalizing Virtual and Augmented Reality for Cultural
+Heritage Indoor and Outdoor Experiences
+F. Liarokapis1, S. Sylaiou2, D. Mountain3
+
+2
+
+1
+Coventry University, Coventry, UK
+Aristotle University of Thessaloniki, Greece
+3
+City University, London, UK
+
+Abstract
+Most cultural heritage exhibitions, both indoor and outdoor, could benefit from context-aware and personalized
+museum guides. Although, technological advancements in digitization, digital storage, visualisation and interaction
+have evolved rapidly, the current generation of museum exhibition and mobile guides offer systems with restricted
+capabilities and content, for example user selected audio guides and interactive touch screen kiosks. This paper
+presents solutions for both museum exhibitions and mobile guides moving towards a unifying framework based on open
+standards. This can offer more customisable experiences attracting and engaging a broader spectrum of users. Our
+solution takes into account the diverse needs of visitors to heritage and mobile guide exhibitions allowing for
+multimedia representations of the same content but using diverse interfaces including a web, a map, a virtual reality
+and an augmented reality domain. Different case studies illustrate the majority of the capabilities of the multimodal
+interfaces used and also how personalisation and customisation can be performed in both kiosk and mobile guide
+exhibitions to meet user needs.
+Categories: Virtual and augmented reality, personalized heritage visits, mobile guides, location-aware.
+
+1
+
+Introduction
+
+Museums and other cultural institutions try to
+communicate the theme of their exhibitions and attract
+the visitors’ attention by presenting audio-visual
+information in a number of different ways. As a result,
+traditional museum exhibitions have evolved from
+passive presentations of artefacts to interactive displays,
+such as pre-recorded audio guides and static information
+kiosks [VI*02]. However even if some technological
+advances have been adopted by current museum and
+mobile exhibitions, they provide very simplistic
+presentations compared to the potential of the current
+Information Technologies. Occasionally, experimental
+prototypes have emerged from universities and research
+institutions but there is still need to offer support to
+cultural heritage exhibitions mainly because the resulted
+prototypes are too complex for the visitors and thus can
+not meet their needs. It is therefore essential to provide a
+unifying framework that can be highly customisable,
+user-friendly and intuitive to use in order to engage a
+broad spectrum of users and take into account the
+diverse needs of museum visitors. The proposed
+
+© The Eurographics Association 2008
+
+framework is focused on open-standards for easy
+adaptation of content and presentation across different
+media and hardware including desktop and portable
+devices.
+For indoor exhibitions, some of the most characteristic
+technologies will be presented to demonstrate how
+multi-modal presentations and interactions of threedimensional heritage environments can provide
+enhanced support in practice. Examples from virtual
+museum exhibitions are combined with virtual and
+augmented reality collections of artefacts through the
+use of a web-based interface. Initial user studies
+concluded that new technologies like virtual and
+augmented reality can be used successfully within
+museum environments [LA*03]. They are in effect
+empowering tools in the hands of the experts working
+towards ensuring that the museums’ goals materialise
+successfully not only because of their popularity, but
+also because they offer an innovative, appealing and
+cost-effective way of presenting cultural information
+and provide an enhanced experience to the virtual
+visitors. However, it is essential to introduce
+personalization in virtual museum exhibitions to provide
+the users with a variety of options, offer accessibility for
+
+F. Liarokapis et al / Personalizing Virtual and Augmented Reality for Cultural Heritage Indoor and Outdoor Experiences
+
+people with special needs, like the disabled and elderly,
+and permit them to choose according to their
+preferences and desires. The information provided shall
+not be the same for all. Specific interests and
+characteristics of various user groups must be taken into
+consideration and allow creating usable, useful and
+attractive applications with differentiated access to
+information and services according to the visitor profile.
+On the other hand, for mobile personalised applications
+like on-site visits, a highly customisable mobile
+framework illustrates how personalized visits to openair heritage sites can be performed. Navigation within
+the open-air locations is based on the calculation of
+position and orientation information through global
+positioning system (GPS) and digital compass
+respectively. Presentation can be delivered in a twodimensional domain (digital map), a three-dimensional
+domain (VR map) or an augmented reality domain
+(textual information). These tools can provide an
+intelligent mobile guide, allowing users to define routes
+through sites that best satisfy their information needs,
+and take account of their declared interests to ensure
+that they do not miss any particular exhibit. Users can
+perform advanced searches that take into account spatial
+location and personal interest. Users can also act as
+generators of content, adding placemarks that can be
+shared with other visitors using any of the above
+visualization domains. Evaluation as part of the LOCUS
+project [Loc*08] indicates that the combination of threedimensional information has a beneficial impact for
+users engaged in the tasks of navigation and exploration.
+The paper is structured as follows. First, an overview of
+the information needs is presented including both
+museum user needs and mobile user needs. Moreover,
+the challenges for personalisation in museum
+environments and heritage institutions as well as an
+overview of the most characteristic cultural heritage
+exhibitions and mobile guides are provided. After that,
+the architecture of the proposed multimodal
+customisable framework and each major component
+(kiosk environments for museum environments and
+mobile guides for outdoor exhibitions) are briefly
+explained including the technologies used. Finally, for
+each category two case studies including initial
+evaluation results and the conclusions drawn from the
+undertaken research are illustrated.
+2
+
+Information Needs
+
+2.1. What are the current museum user needs?
+Current researches have shown that the World Wide
+Web enhanced by 3D visualization tools such as the
+promising virtual reality (VR) [PC*00] that signifies a
+simulated environment created by a computer that a user
+can get interact with or manipulate it, Augmented
+
+2
+
+Reality (AR) [Lia07] that signifies computer generated
+2D or 3D virtual worlds superimposed on the real world
+and Web3D technologies may facilitate the
+preservation, dissemination and presentation of cultural
+artefacts in museums’ collections [LA*03]. As stated by
+MacDonald and Alsford [MA97], “…museums cannot
+remain aloof from technological trends if they wish to
+attract 21st century audiences”. The availability of these
+advanced technologies creates new opportunities for
+enhancing the museum experience. Museums explored
+these new possibilities and consequently shifted their
+interest from the objects of their collections to the users’
+needs; they become more user-centred than collectioncentred. In order to create meaningful and engaging
+Virtual and Augmented Reality experiences for Cultural
+Heritage Indoor and Outdoor applications the museum
+user needs for interactivity, accessibility and learning
+must be taken into account.
+Interactivity has been defined as explorative,
+manipulative, and contributive [PP01]. A virtual
+museum exhibition tends to be more dynamic and
+interactive rather than static in nature and authoritative
+[Wor97]. According to research the key features of an
+online interactive exhibit are: (a) multiplicity of contexts
+for the users to connect with the exhibit in a seamless
+manner, (b) good instructional design, (c) pro-active
+learning contexts, (d) good balance between learning
+and leisure and (e) no text-heavy pages to interfere with
+the learning experience [TSA03]. Interactivity enables
+participation of the users that are not anymore passive
+viewers of static exhibits, but are transformed to
+participants of the museum experience by use of
+interactive interfaces. Museum visitors use and interact
+with the virtual museum environment via a constructive
+dialogue that provide them with access to thematic
+information and explanations about the museum
+objects’ context with the level of information and the
+amount of detail they prefer. They shift their focus from
+the high-quality presentation of collections to the
+making of meaning from the artefacts and their
+interpretation. Interactivity can also provide a strong
+effect upon conceptual learning that is connected with
+the deeper transferable understanding of abstract
+knowledge and the logical thinking, the formation of
+stories, concepts, associations, perspectives and
+strategies [Gam01], [RS05].
+Web technologies with their ubiquitous and global
+nature can enable access to virtual museum exhibitions
+to anyone from almost anywhere beyond national and
+cultural barriers. They are used not only because of their
+popularity, but also because they provide an enhanced
+experience to various user-groups of virtual visitors.
+They can provide accessibility to virtual visitors
+including elderly people with functional limitations,
+people with physical impairments, such as people with
+visual, acoustic, learning, speech and motor disabilities
+that according to the Disability Discrimination Act
+
+F. Liarokapis et al / Personalizing Virtual and Augmented Reality for Cultural Heritage Indoor and Outdoor Experiences
+
+(DDA) people have equal rights of ‘access to goods,
+facilities and services’ [DDA08]. The increased
+efficiency of Internet connections makes it possible to
+transmit significant media files for content-rich virtual
+exhibitions in a multimodal way with user-friendly, high
+quality presentations in an innovative appealing and
+cost-effective way. By combining the capabilities of
+multimedia technologies, web-based systems can
+become a powerful communication channel that may be
+a virtual ‘direct’ experience. They can disrupt linear
+sequences and provide usable and accessible in
+technology, content, navigation solutions for all people,
+irrespective of their age or abilities. However, there is a
+constant need for virtual museums to reach out and
+attract larger and more diverse audiences and find ways
+to understand visitor expectations and experiences,
+address the needs of diverse user groups and be
+responsive to various communities’ interests and needs.
+Museums can be considered as educational institutions
+that contribute to informal learning. Their effectiveness
+relies on the ability to convey information in an
+engaging way, communicate information about the
+museum artefacts context, since Falk and Dierking
+[FD00] define learning in terms of how users are able to
+comprehend the presented information.
+2.2. What are the current mobile user needs?
+When considering the information needs of a mobile
+device (i.e. users visiting cultural heritage sites) the
+information needs of mobile users should be taken into
+account. Users of portable mobile devices are quite
+distinct from their desktop counterparts [MM07]. Whilst
+desktop users tend to work in a familiar, static
+environment, mobile users tend to explore dynamic,
+often unknown environments. Mobile users are more
+likely to be distracted by this external environment, and
+to be interacting with it, for example navigating through
+it, or finding out information about it. This external
+influence places a load on the mobile user, which may
+reduce his/ her capacity to assimilate information from
+the mobile device. Research has shown that mobile
+users have a different pattern of usage when compared
+to desktop users [ADN08]. This also offers an
+opportunity for mobile computing: the device can
+retrieve information relevant to the physical
+environment while the user is moving, and provide
+assistance to satisfy the information needs.
+Whilst desktop usage is characterised by a small number
+of long sessions per day (often for hours at a time),
+mobile users access their device more times per day, but
+each session tends to be just a few minutes in duration.
+Mobile devices present constraints in terms of hardware.
+They have smaller screens, leaving little room for the
+visualizing information. These factors suggest that there
+is a need to filter information for mobile users, to reduce
+the quantity of information presented, and ensure that
+only the most relevant information is presented
+
+3
+
+[MM07]. One approach to filtering information is to
+ensure the information is personalised, to take into
+account of the preferences of the particular user. An
+alternative strategy is to filter information according by
+spatial proximity to the user, to make sure that it is
+relevant to the device user’s current physical
+environment. A study conducted as part of the WebPark
+EU project [Mou05] suggests that 50% of mobile
+individual’s queries have some spatial component, most
+frequently linked implicitly to their current location.
+These queries tend to be characterised by people asking
+questions such as ‘What is this?’, ‘What is the way
+to…?’ and ‘Where do I find…?’.
+3
+
+Personalisation
+
+Personalization, an important design element [Mat97],
+is the ability of a virtual museum system to alter and
+customize its output environment according to the
+characteristics of the various user groups. Its importance
+is widely recognized by museums [RAS06]. This
+process especially useful for web-based applications has
+the potential to target various user groups, provide
+efficient access to virtual museum information and offer
+an experience in line with the different user’s age,
+interests, background knowledge (expert, student,
+tourist), computer knowledge, educational background
+and life-style, motivations, language skills, special
+needs, different bandwidth constraints.
+The information provided to the user through any of the
+above techniques can be adapted at three different
+levels: content, navigation and presentation [BN04].
+Personalized systems help to recreate the human
+element that ‘listens to the visitor’ and ‘understands
+him’ by offering a personal touch; the museum
+monologue turns into a dialogue [BF04]. In addition to
+this, personalization improves the usability of the virtual
+museum environment, because it provides to visitors the
+ability to interactively choose their preferred style of
+navigation, to determine the order of presented
+information and an in-depth search by demand. Thus, it
+encourages the involvement and allows them to actively
+participate to the virtual museum experience,
+strengthens the visitor's ability to explore and reduces
+the time and effort to find relevant information. Besides
+this, it improves the comprehension and facilitates the
+critical thinking and the meaning-making. There are two
+ways to collect data for personalizing virtual museum
+interfaces including explicit and implicit data collection.
+In explicit data collection, the virtual visitors can
+manually submit information about their preferences
+and interests by various ways (e.g. fill-in questionnaires;
+ranking). This method provides “high quality” profile
+information, but spending time and effort for submitting
+data sometimes discourages users [KFM*04]. On the
+other hand, in implicit data collection, virtual visitors
+
+F. Liarokapis et al / Personalizing Virtual and Augmented Reality for Cultural Heritage Indoor and Outdoor Experiences
+
+4
+
+preferences are extracted from monitored interactions
+with the system (e.g. web usage mining; cookies;
+collaborative filtering; visits to links; time spent for
+viewing it; image zooming; accessing by search). The
+advantage of collecting profile data this way is that the
+user is relieved of the burden of having to supply and
+keep up-to-date the necessary information. However the
+data that come from implicit methods are considered as
+of “lower quality" than data extracted from explicit
+methods [Nic97]. Implicit measures and explicit ratings
+can of course be used in conjunction with one another to
+provide a more accurate user profile [KT03].
+The most common methods for analyzing the data for
+personalizing virtual museum interfaces include: (a)
+content-based methods track user behaviour and
+preferences, which are based on the common features of
+the content a virtual museum user visited and
+recommend items with similar characteristics, (b)
+collaborative filtering methods [Nic97], [MCS00] that
+compares user’s preferences with those of others to
+personalise based on the behaviour of other similar
+virtual museum users, (c) rule-based filtering methods
+that create rules based on static or dynamic profiles to
+affect the content provided to a virtual museum user
+[MCS00] and (d) web usage mining which is used in
+virtual museum websites and uses statistical and datamining methods to the Web server log data, to specify
+patterns of users' navigational behaviours [BF04].
+4
+
+Multimodal Framework for Heritage Guides
+
+Multimodal interfaces are relatively new types of
+communication between users and computing systems.
+They cay vary greatly depending on the delivery method
+as well as the interaction techniques employed. This
+section presents the adaptable architecture, which is
+based on common technologies and can be adjusted
+according to the application as well as the user needs.
+Our personalised heritage solution uses the capabilities
+of client-server architectures with two basic elements:
+the information server and the client, which are in
+essence the two multimodal heritage systems (kiosk or
+mobile guide). The information server holds multimedia
+objects, such as metadata and textual information,
+images and maps, 3D models [Loc*08], [Arc*08].
+However, the description of the server side is out of the
+scope of this paper and the emphasis has been given in
+the multimodal client systems and the way they present
+information to users. Figure 1 illustrates the
+personalised multimodal framework that provides
+customisable solutions for both indoor and outdoor
+heritage exhibitions.
+
+Figure 1: Personalised architecture for both kiosk
+and mobile heritage exhibitions
+Each multimodal system is based on a different software
+and hardware infrastructure for presenting customisable
+content to users in a compelling and intuitive manner,
+but both systems use open standards. The kiosk system
+is focused for museums and other heritage exhibitions
+that want to give the freedom to their visitors to choose
+the information (i.e. galleries, artefacts) they want to
+visualise and interact. The mobile guide is designed for
+visitors than want to perceive location-aware
+information (maps, routes, etc) anywhere and anytime
+using accurate position and orientation information. A
+brief description of both systems is provided in the next
+two sections.
+4.1. Kiosk Framework
+There are many museums throughout Europe that hold
+archives of various-sized artefacts which they cannot
+exhibit in an efficient and low cost manner. Multimodal
+kiosk interfaces for museum environments and other
+indoor exhibitions can be exploited effectively to offer
+several different and interesting types of exhibitions
+[WP*07]. The main advantage over static kiosk
+presentations is that multimodal technologies allow
+users select depending on their preferences or needs to
+switch between three different types of visualization and
+interaction environments. A highly customisable and
+adaptable framework for such environments was
+derived through some of the results of two EU projects
+[Arc*08], [Epo*08]. The aim of the kiosk framework is
+to provide customisable solutions for virtual cultural
+heritage visualisation and interaction so that it can meet
+diverse user needs. An overview of some of the most
+characteristic technologies employed in the multimodal
+mixed reality kiosk system is presented in Figure 2.
+
+F. Liarokapis et al / Personalizing Virtual and Augmented Reality for Cultural Heritage Indoor and Outdoor Experiences
+
+5
+
+Figure 2: Kiosk framework [WP*07]
+
+Figure 3: Mobile framework
+
+The multimodal kiosk interface allows visitors to select
+the best visualization mode for a particular application
+scenario. The fundamental idea behind this is based on
+the concepts of two previously implemented separate
+interfaces: a multimodal interface for safely visualizing
+museum artefacts [WP*07] and an interactive
+Web3D/AR interface for virtual museums [Lia07]. The
+seamlessly integration of these interfaces allows users to
+transfer 3D artefacts together with metadata over the
+internet and superimpose them on an indoor AR
+environment as well as interact with the artefacts in a
+number of different ways using several types of
+interaction device. Integrating the two systems together
+can easily be achieved by treating them as two separate
+but communicating interfaces through the use of XML
+technologies.
+
+As the user navigates inside the urban environment, the
+position and orientation is consciously computed from
+external hardware devices such as GPS and digital
+compass and the camera pose is updated respectively.
+Then depending on the user needs, a map and/or a
+virtual reality interface presents two different navigation
+options. The mobile guide uses client-server
+technologies and it specifically designed for mobile
+devices such as PDAs and smartphones. The main
+objective of the multimodal system is to provide
+location-based services to mobile users delivered
+through a web-browser interface (i.e. Pocket Internet
+Explorer). In terms of functionality, it offers software
+libraries for integrating positional and orientation
+information, via Bluetooth, to provide navigational
+information about the surrounding environment as well
+as 'mobile search' options.
+
+4.2. Mobile Framework
+5
+The mobile framework uses the capabilities of the
+LOCUS system [Loc*08], which was developed on top
+of a mobile platform specifically designed to provide
+digital guides for tourism [Cam*08]. The novelty of the
+system is that it allows users to switch rendering modes
+between the traditional digital map guide, a virtual guide
+and an augmented guide. This allows mobile visitors to
+select the most appropriate presentation type according
+to their needs. Additionally, the system provides both
+position and orientation tracking in mobile devices
+operating anywhere in the word. A high-level
+architectural diagram illustrating the major visualisation
+domains taking place in the mobile multimodal guide
+framework is presented in Figure 3.
+
+Case Studies
+
+5.1. Kiosk Guide
+In terms of presentation, the multimodal kiosk offers a
+web domain in the traditional way, a web3D domain, a
+VR domain and an AR domain. This allows users to
+select relevant information and combine it into the same
+presentation environment. To test the functionality of
+the web-client, two virtual museum exhibitions have
+been designed: one for Sussex Past respectively and
+another one for Victoria & Albert museum. The web
+client is a customised web-browser interface, which
+communicates with server visualise the heritage
+repository. The retrieved digital content can be rendered
+initially on the web browser and then on the AR
+tabletop environment.
+The VR domain consists of two approaches: one using
+pure VR and another using web-based VR. The pure VR
+solution can operate as a stand-alone component and
+can work within a museum environment in a dedicated
+PowerStation. On the other hand the web-based solution
+takes advantage of the client-server functionality and
+
+F. Liarokapis et al / Personalizing Virtual and Augmented Reality for Cultural Heritage Indoor and Outdoor Experiences
+
+can access heritage information not only from a
+museum environment but from user’s homes. The
+differences between the pure VR solution and the webbased solution are in realism, accessibility and
+personalisation. The latter can take advantage of the
+latest communication technologies (i.e. broadband,
+WiFi, etc) and provide a web-based VR presentation
+that can be accessed from anywhere and at anytime. In
+addition it very easy to customise and personalise the
+content of the VR-based presentation since everything is
+controlled via server technologies. However, because
+the underlying technology used for rendering is VRML,
+it lacks of advanced rendering capabilities and thus
+realism. On the contrary, the pure VR solution, offers a
+much better representation of the virtual artefacts
+because it uses computer graphics algorithms for the
+generation of soft and hard shadows, reflections and
+advanced lighting and texturing techniques [Lia07].
+
+6
+
+entertaining experience offered by the kiosk system.
+Qualitatively analysis grouped the evaluators’
+comments into the main categories of positive
+comments, usability flaw characteristics and
+remarks/suggestions [SE*08]. For the usability
+evaluation of the system two approaches have been
+employed: a questionnaire-based survey and a Cognitive
+Walkthrough session by museum curators as domain
+experts and usability experts. Cognitive walk-through
+methods [Nie94] involve the ‘walk-through’ of a
+number of tasks, exploring the systems’ characteristics,
+locating and identifying potential problems and their
+causes. The research results uncovered the usability
+problems of the interface and compared the assessments
+of the two different evaluators’ groups concluding that
+in complex interfaces double experts (usability and
+domain experts) are inevitable for reliable and valid
+results [SE*08].
+5.2. Mobile Guide
+A location-aware mobile cultural guide was
+implemented in the Swiss National Park: Switzerland’s
+only National Park, and a site of great natural and
+cultural importance. Visitors are attracted to the
+dramatic, mountainous scenery, the rare flora and fauna,
+and the history of human influence on the park. In this
+case study, the map was chosen as the primary interface
+for the system, and all information stored in the
+information database was spatially-referenced, allowing
+it to be placed on a map, relative to the device user’s
+location.
+
+Figure 4: Kiosk AR presentation [Lia07]
+In Figure 4, users can manipulate freely the marker
+cards in 3D space to receive a different perception of the
+AR exhibition. By using the configuration setting of the
+collaboration in the AR interface, visitors can use
+HMDs and obtain a completely immersed view. In a
+different customisation, users can see more than one
+object in the kiosk environment. This can be easily
+achieved by just adding another marker into the kiosk
+and augmenting another 3D object on it. The
+augmentation can be extended to as many markers as
+long as the camera can detect them within the optical
+field-of-view. It is worth-mentioning, that the realism of
+the visualisation highly depends on the 3D modelling
+procedure. Also, one of the most important goals of
+modern archaeological applications is to present
+museum artefacts in a more attractive manner such as in
+an AR environment. In this way, museum visitors and
+especially small children could become more interested
+in cultural heritage.
+A combinatory usability evaluation, in which
+participated museum curators, as domain specialists and
+end-users representing the museum visitors, has been
+undertaken to investigate the educational and
+
+Figure 5: Distribution of red deer (darker brown,
+more likely to find red deer), relative to user’s
+current location (the red cross)
+To allow visitors to access general personalised maps,
+information was structured according to the activities
+that visitors participated in (e.g. hiking), frequently
+
+F. Liarokapis et al / Personalizing Virtual and Augmented Reality for Cultural Heritage Indoor and Outdoor Experiences
+
+asked questions about facilities and access (service /
+tips), visitors’ main interests (fauna and flora, habitats)
+and other themes, based upon current exhibitions at the
+park. By drilling down into these categories and
+choosing to display the information on a map, the
+visitors could generate a bespoke map based upon their
+personal interest and current location, for example, the
+locations of the sites of lime kilns in the park, the extent
+of the range of red deer, or places where the flower,
+edelweiss, is likely to be found.
+An evaluation study of the system was conducted with
+87 participants in the Swiss National Park. Selected
+visitors were provided with a mobile guide on arrival at
+the Park information centre, given brief instructions on
+its use, and asked to return in the evening and fill in a
+questionnaire assessing the usefulness of the mobile
+guide [KA04]. The main strength of this method was the
+adaptability of the testing scenario since the mobile
+guide was used in the field as required, unsupervised
+without any intervention from the project team. On the
+contrary, the main flaw was that it could not be
+guaranteed that all users would utilise all of the system
+functionality.
+Overall the user reaction to the guide was very positive.
+Considering the quality of the information presented by
+the device, three-quarters of people rated this as either
+‘very good’ or ‘good’. Some two-thirds considered the
+ease of information provision to be ‘very good’ or
+‘good’. Crucially, the approach of personalising the
+information presented to the user by filtering it
+according to the user’s position appears to have been a
+valued strategy: over 40% of participants considered
+this filtered information retrieved to be ‘very relevant’
+compared with 12% when the information was
+unfiltered. As an example, the ‘search around me’ filter
+was provided the most relevant information with two
+thirds of the respondents saying that this provided
+‘extremely relevant’ results, and over 90% claiming that
+results were either ‘extremely relevant’ or ‘relevant’. .
+Finally, presenting information over a map appeared to
+meet the needs of visitors: 85% of participants found the
+maps showing information retrieved following
+personalised searches to be ‘beneficial’ or ‘very
+beneficial’.
+6
+
+Conclusions and Future Work
+
+This work has presented how personalisation of mixed
+reality multi-modal interfaces can be used for targeting
+the needs of visitors for both kiosk exhibitions and
+mobile guides. We showed the importance of a unifying
+framework for heritage exhibitions especially if it can
+be highly customisable, user-friendly and intuitive to
+engage a broad spectrum of users. The proposed
+framework is focused on open-standards for easy
+adaptation of content and presentation across different
+media and hardware including desktop and portable
+devices and takes into account the diverse needs of
+
+7
+
+visitors to exhibitions. The multi-modal functionality
+allows delivery of a multimedia presentation and
+provides different modes of interaction functions
+depending on the user needs.
+For indoor exhibitions like museum kiosks, a
+combination of Web3D, VR and AR provides a very
+powerful interface that can be used successfully within
+any museum environment. Personalisation of the
+presentation: provides museum visitors with a variety of
+options; offers accessibility to various groups of people;
+permits them to choose according to their preferences
+and desires. For outdoor exhibitions, such as mobile
+guides, the presentation of map, VR map and AR map
+can give assistance to a wide range of users. The use of
+position and orientation information is essential for
+mobile presentations. Visitors can perform advanced
+searches taking into account the spatial location and
+personal interest using any of the presentation domains.
+Acknowledgments
+Part of the work presented in this paper was conducted
+within the EU FP5 ARCO project as well as the LOCUS
+project, funded by EPSRC, and the EU FP5 WebPark
+project. The digital maps used are copyrighted by the
+Ordnance Survey/EDINA supplied service.
+References
+[ADN08] ACCESS DEVELOPER NETWORK.: Available
+http://www.accessdevnet.com/,
+(last
+at:
+accessed: 27/07/2008.
+[Arc*08] ARCO.: Augmented Representation of
+Cultural
+Objects.:
+Available
+at:
+http://www.arco-web.org/, Accessed at: 20/07/2008.
+[BF04] BOWEN J.P. AND FILIPPINI-FANTONI S.:
+Personalization and the Web from a Museum
+Perspective, In Museums and the Web 2004: Selected
+Papers, Archives & Museum Informatics, David
+Bearman and Jennifer Trant (eds.), (2004), 63-78.
+[BN04] BRUSILOVSKY P. AND NEJDL W.: Adaptive
+Hypermedia and Adaptive Web, In Practical
+Handbook of Internet Computing, M. Singh (Ed.),
+CRC Press, (2004).
+[Cam*08] CAMINEO.: The digital guide for tourism,
+Available at: http://www.camineo.com/, Accessed at:
+20/07/2008.
+[DDA08]
+DISABILITY DISCRIMINATION ACT 2005.:
+Available
+at:
+http://www.direct.gov.uk/en/DisabledPeople/, (last
+accessed: 27/07/2008.
+[Epo*08] EPOCH.: The European Research Network of
+Excellence in Open Cultural Heritage, Available at:
+http://www.epoch-net.org/, Accessed at: 20/07/2008.
+[FD00] FALK J.H.
+
+AND
+
+DIERKING L.D.: The museum
+
+F. Liarokapis et al / Personalizing Virtual and Augmented Reality for Cultural Heritage Indoor and Outdoor Experiences
+
+experience, Walnut Creek, CA: Alta Mira Press,
+(2000).
+[Gam01] GAMMON B.: Assessing Learning in Museum
+Environments: a Practical Guide for Museums
+Evaluators, London: Science Museum, (2001).
+[KA04] KRUG K. AND ABDERHALDEN W.: Report on
+testing and validation, (2004).
+[KFM*04] KEENOY K., DE FREITAS S., LEVENE M., ET
+AL.: Personalised Trails and Learner Profiling within
+E-Learning Environments, Personalised and
+Collaborative Trails of Digital and Non-Digital
+Learning Objects D22 (4.1), (2004), 1-43.
+[KT03] KELLY D. AND TEEVAN J.: Implicit Feedback
+for Inferring User Preference: A Bibliography, SIGIR
+Forum 37, 2, (2003), 18-28.
+[LA*03] LUCRÉDIO D., ALMEIDA E.S., ET AL.: Orion –
+A Component Based Software Engineering
+Environment, Journal of Object Technology, Special
+Issue: TOOLS USA 2003 3, 4, (April 2004), 51-74.
+[Lia07] LIAROKAPIS F.: An Augmented Reality
+Interface for Visualizing and Interacting with Virtual
+Content, Virtual Reality 11, 1, Springer, (March
+2007), 23-43.
+[Loc*08] LOCUS.: Development of Location-context
+Tools for UMTS Mobile Information Services,
+Available at: http://www.locus.org.uk/, Accessed at:
+20/07/2008.
+[MA97] MACDONALD G.F., ALSFORD S.: Towards the
+Meta Museum, The Wired Museum: Emerging
+technology and changing paradigms, Jones-Garmil
+K. (ed.), Washington DC: American Association of
+Museums, (1997).
+[Mat97] MATEAS M.: An Oz-Centric Review of
+Interactive Drama and Believable Agents, Technical
+report
+CMU-CS-97-156,
+Computer
+Science
+Department, Carnegie Mellon University, (1997).
+[MCS00] MOBASHER B., COOLEY R. AND SRIVASTAVA
+J.: Automatic Personalization Based on Web Usage
+Mining, Communications of the ACM 43, 8, (2000),
+42-151.
+[MM07] MOUNTAIN D. AND MACFARLANE A.:
+Geographic Information Retrieval in a Mobile
+Environment: Evaluating the Needs of Mobile
+Individuals, Journal of Information Science 33, 5,
+SAGE Publications, (October 2007).
+[Mou05] MOUNTAIN D.: Exploring mobile trajectories:
+An investigation of individual spatial behaviour and
+geographic filters for information retrieval, PhD
+Thesis, Information Science, City University, (2005).
+[Nic97] NICHOLS D.M.: Implicit Ratings and Filtering,
+In Proc. of the 5th DELOS Workshop on Filtering
+
+8
+
+and Collaborative Filtering, Hungary, (1997), 31-36.
+[Nie94] NIELSEN J.: Heuristic evaluation, In Usability
+Inspection Methods, Nielsen, J., and Mack, R.L.
+(Eds.), John Wiley & Sons, New York, NY, (1994).
+[PC*00] PLETINCKX D., CALLEBAUT D., KILLEBREW
+A.E., SILBERMAN N.A.: Virtual-Reality Heritage
+Presentation at Ename, IEEE Multimedia 7, 2, IEEE
+Computer Society, (April-June 2000), 45-48.
+[PP01] PARES N., PARES R.: Interaction-Driven Virtual
+Reality Application Design (A Particular Case: El
+Ball del Fanalet or Lightpools), PRESENCE:
+Teleoperators and Virtual Environments 10, 2, MIT
+Press, (March 2001), 236-245.
+[RAS06] RUTLEDGE L., AROYO L. AND STASH N.:
+Determining User Interests about Museum
+Collections, In Proc. of the 15th Int’l Conference on
+World Wide Web, ACM Press, New York, (2006),
+855-856.
+[RS05] ROUSSOU M. AND SLATER M.: A Virtual
+Playground for the Study of the Role of Interactivity
+In Virtual Learning Environments, In M. Slater (ed.)
+Presence 2005: The 8th Annual Int’l Workshop on
+Presence, England, (September 2005), 245-254.
+[SE*08] SYLAIOU S., ECONOMOU M., KAROULIS A. AND
+WHITE M. The evaluation of ARCO: a lesson in
+curatorial competence and intuition with new
+technology, Computers in Entertainment 6, 2, article
+23, (2008).
+[TSA03] TAN WEE HIN L., SUBRAMANIAM R.,
+AGGARWAL A.K.: Virtual Science Centers: A New
+Genre of Learning in Web-based Promotion of
+Science Education, In Proc. of the 36th Annual
+Hawaii Int’l Conference on System Sciences, (Jan
+2003), 156-166.
+[VI*02] VLAHAKIS V., IOANNIDIS N., ET AL.:
+Archeoguide: An Augmented Reality Guide for
+Archaeological Sites, Computer Graphics and
+Applications 22, 5, IEEE Computer Society, (2002),
+52-60.
+[Wor97] WORDEN S.: Thinking Critically about Virtual
+Museums, In Proc. of Museums and the Web,
+Archives and Museum Informatics, (1997), 93-109.
+[WP*07] WHITE M., PETRIDIS P., LIAROKAPIS F.,
+PLECINCKX D.: Multimodal Mixed Reality Interfaces
+for Visualizing Digital Heritage. International
+Journal of Architectural Computing, Special
+Issue on Cultural Heritage 5, 2, Multi-Science
+Publishing Co Ltd, (June 2007), 322-337.
+
+

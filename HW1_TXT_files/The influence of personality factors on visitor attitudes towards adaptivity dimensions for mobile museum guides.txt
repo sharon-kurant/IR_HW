@@ -1,0 +1,2131 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/220116442
+
+The inﬂuence of personality factors on visitor attitudes
+towards adaptivity dimensions for mobile museum
+guides
+Article in User Modeling and User-Adapted Interaction · March 2006
+DOI: 10.1007/s11257-006-9004-7 · Source: DBLP
+
+CITATIONS
+
+READS
+
+54
+
+222
+
+4 authors, including:
+Dina Goren Bar
+
+Fabio Pianesi
+
+Afeka Tel-Aviv Academic College of Engineering
+
+Fondazione Bruno Kessler
+
+51 PUBLICATIONS 969 CITATIONS
+
+205 PUBLICATIONS 4,872 CITATIONS
+
+SEE PROFILE
+
+SEE PROFILE
+
+Massimo Zancanaro
+Fondazione Bruno Kessler
+250 PUBLICATIONS 4,093 CITATIONS
+SEE PROFILE
+
+Some of the authors of this publication are also working on these related projects:
+
+Design Exploration of Wearable Devices for Learning to Climb View project
+
+Psychometric Attribute Prediction from Digital Data View project
+
+All content following this page was uploaded by Massimo Zancanaro on 09 August 2018.
+
+The user has requested enhancement of the downloaded file.
+
+User Model User-Adap Inter (2006) 16: 31–62
+DOI 10.1007/s11257-006-9004-7
+O R I G I NA L PA P E R
+
+The influence of personality factors on visitor attitudes
+towards adaptivity dimensions for mobile museum
+guides
+Dina Goren-Bar · Ilenia Graziola · Fabio Pianesi ·
+Massimo Zancanaro
+
+Received: 18 June 2005 / Accepted in revised form:
+16 April 2006 / Published online: 5 July 2006
+© Springer Science+Business Media B.V. 2006
+
+Abstract In this work, we present a study on adaptation in a mobile museum guide,
+investigating the relationships between personality traits, and the attitudes towards
+some basic dimensions of adaptivity. Each participant was exposed to two simulated
+systems—one adaptive, the other not—on each of the dimensions investigated. The
+study showed that the personality traits relating to the notion of control (conscientiousness, neuroticism/emotional stability, Locus of Control) have a selective effect
+on the acceptance of the adaptivity dimensions.
+Keywords Adaptivity · Mobile Information Presentation · HCI · Human Factors
+User Evaluation
+1 Introduction
+This work addresses people’s attitudes towards dimensions of adaptivity for a mobile
+museum guide. In doing so, we studied whether and how those attitudes are affected
+by personality traits.
+Many research projects are exploring new presentation possibilities for the
+museum setting that personal digital assistants (PDAs) make possible (see among
+others Cigliano and Monaci 2003; Grinter et al. 2002). The value of multimedia for
+a mobile museum guide is discussed by Proctor and Tellis (2003), who present an
+extended user study conducted at Modern Tate in 2002. In our own work (Alfaro
+et al. 2004), we showed that the application of cinematography rules to multimedia
+presentations played on a mobile museum guide helps to decrease cognitive overload.
+An important research area focuses on personalization, context aware computing
+and adaptivity; these issues are recognized as forming one of the three challenges for
+ubiquitous computing (Abwod and Mynatt 2000). Many studies have investigated
+D. Goren-Bar (B) · I. Graziola · F. Pianesi · M. Zancanaro
+Institute for Scientific and Technological Research – ITC-irst
+38050 Povo, Italy
+e-mail: gorenbar@itc.it
+
+32
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+these topics in the context of museum guides. For example, the GUIDE system
+presented in (Cheverst et al. 2002) adapts web-like presentations by adding information about nearby attractions that might be interesting for the visitor of a city. The
+HIPPIE system proposes personalized tours in a museum by maintaining a model
+of user interests and knowledge (Oppermann and Specht 2000). The REAL system
+(Baus et al. 2002) adapts route descriptions according to the actual user position, the
+limited technical resources of the device, and the cognitive resources of the user. In
+our own work (Rocchi et al. 2004), we experimented with adaptive video presentations which are dynamically composed by the system by adding or removing shots
+in order to provide background information, detailed descriptions and comparisons,
+according to user interest and the history of the visit.
+For the GUIDE system, an observational study was conducted to assess visitor
+acceptance of the prototype as a whole (Cheverst et al. 2002), with interesting findings about the perceived values of the features proposed. The HIPPIE system was
+evaluated by domain experts and educators (Oppermann and Specht 2000), with very
+positive results. For the HyperAudio adaptive system, a pervasive survey was conducted to elicit user preferences regarding personalization (Petrelli and Not 2005);
+the authors mainly focused on user modeling, concluding that user profiles should
+be abandoned in favor of visit types as a basis for adaptation in museums. A somewhat different approach is to look for insights about the importance of more abstract
+dimensions in a principled way, and then use prototypes and user evaluations as tools
+to support the discussion, such as in the seminal work of Horvitz (1999). A comprehensive survey of the evaluation techniques used for adaptive systems in general can
+be found in (Gena 2005).
+In all these cases, with the possible exception of Horvitz (1999), efforts targeted
+specific systems, or parts thereof. Less attention has been paid so far to investigating
+the attitudes and dispositions of (potential) users towards the very idea of adaptivity,
+or abstract/basic dimensions thereof. Admittedly, the study of the acceptability of
+adaptation is not an easy task, especially if conducted by having subjects use real
+systems. Even with a low-fi mockup (Preece et al. 2002), in fact, the results will always
+be tied to that particular implementation, and be subject to noise due to intervening
+factors. Moreover, the fact of being involved in direct interaction with the system
+often makes it difficult for the subjects to perceive and assess certain aspects that are
+of a more holistic nature such as, e.g., content adaptation with respect to the history
+of the interaction.
+Adaptivity is a technological approach whereby systems monitor and manipulate
+personal needs and interests. Because of its very nature, it is expected that personal
+differences play an important role in explaining adaptivity acceptance and, more generally, people’s attitude towards it. There are findings in the literature that provide
+some initial support to this view. For instance, it is often emphasized and recommended that users be allowed to have the feeling of being in control of the interaction
+(Shneiderman 1998). According to Norman (1998), (the feeling of being in) control
+over the interaction is an important component of people’s comfort with technologies. Several studies have discussed these issues in the context of adaptive systems
+(Wexelblat and Maes 1997; Jameson and Schwarzkopf 2002), all of them pointing to
+the opportunity of increasing the controllability of all aspects of system adaptation.
+While discussing the ways in which learners can be given control over learner-adapted
+teaching systems, Kay (2001) observes that some users may have less desire for control
+than others. She also suggests that those users might find the exercise of too much
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+33
+
+control distracting or a waste of time, and negatively react to systems that they find too
+demanding in these respects. Thus, control is not only a crucial issue for understanding
+the adaptive/non-adaptive continuum, but seems to be sensitive to personality difference. As a first, rough working hypothesis, one might expect that the more people care
+about control issues, the more they exhibit a negative attitude/disposition towards, or
+lower acceptance of, adaptivity.
+In this work, we investigate the attitudes towards adaptivity dimensions in a mobile
+museum guide setting, and the role that personality factors play in affecting and
+determining them. As a working framework, we used the Computer as a Social Agent
+(CASA). CASA has demonstrated that personality factors can determine the way
+people place themselves along the so-called “computing technology continuum of perspective” (Johnson et al. 2001, 2006; Falaleeva and Johnson 2002; Marakas et al. 2000),
+and that these factors affect people’s sensitivity to the social nature of technologies.
+The results show that some of the personality factors considered here affect the way
+our subjects perceive adaptivity, and do so in a selective manner. Interestingly, these
+traits—Locus of Control (Rotter 1966), and conscientiousness, neuroticism/emotional
+stability, as captured by the Big Five model (McCrae and John 1992; De Raad
+2000)—all relate to the broad notion of control.
+These results confirm the expectations of the CASA framework, and specify them
+with respect to adaptive technologies. In particular, people who are highly sensitive to the social facets of technology because of their external Locus of Control
+(LoC) and/or their neuroticism tend to reject adaptivity, either globally (LoC) or on
+specific dimensions (content adaptation on the basis of interest for low emotionally
+stable people), in both cases preferring the less social, more traditional (probably
+more reassuring) non-adaptive technology. Similarly, people who have good control
+of their own impulses tend to dislike delegating the start of a presentation to the
+system on the basis of location awareness, and also dislike content adaptation on the
+basis of interest.
+Beyond the general interest of these findings for the purpose of better understanding the relationship between users and adaptive systems, an important practical consequence is that any evaluation of actual mobile guides can be systematically biased
+unless the personality of the users is explicitly controlled for, or otherwise taken into
+account. Concerning their importance for design practices and guidelines, as discussed
+in section 2 and section 6, more research is needed to investigate the relationships
+between attitudes and behaviour before this can be done (see for example Goren-Bar
+et al. 2005a, b). It is possible, however, to envisage systems that can discover user personality traits from very early interactions, and then use this knowledge to dynamically
+increase or decrease its own control over the relevant dimensions of adaptivity.
+This paper is structured as follows: in Sect. 2 we lay down the empirical and
+theoretical framework for our research, focusing on personality and attitudes. While
+acknowledging our debt to many of them, we will argue that addressing the acceptability of the very idea of adaptivity, as articulated in basic dimensions, can be profitably
+pursued by means of an attitudinal approach. We then go on articulating the notion of
+attitudes and attitudinal study, and introduce the framework for studying the effects
+of personality. In Sect. 3, we present the adaptivity dimensions and their rationale.
+Sect. 4 describes the study in detail, discussing the design, the material and the procedure we used. In Sect. 5, results are reported, while Sect. 6 discusses them and looks at
+the limitations of this study. Finally, Sect. 7 draws conclusions and points to interesting
+future research paths.
+
+34
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+2 Understanding adaptive systems—the effect of personality on attitudes
+In a review study on evaluation of adaptive systems, Chin (2001) reported more than
+30 papers addressing, in one way or another, the empirical evaluation of adaptive
+hypermedia and hypertext, student modeling systems, and other related technologies.
+Evaluation criteria included both quantitative and qualitative methods; yet, all the
+approaches were similar in their aim to evaluate a specific adaptive system, focusing
+on overall user performance and the user satisfaction.
+According to the “layered evaluation framework” (Totterdell and Boyle 1990;
+Brusilovsky et al. 2004), the success of adaptation can be addressed at two distinct
+layers, reflecting the main phases of the adaptation processes, namely, user modeling and adaptive decision making. Although the two phases are both important for
+the success of adaptation, they are also independent because the same user modeling outcomes may result in significantly different adaptation decisions. Hence, separate evaluations can contribute to the generalization and re-use of the results across
+different applications.
+Our study aims to contribute to an (as general as possible) model of user attitude
+towards adaptivity in the domain of audio-video guides. In particular, we study the
+effects of some personality traits on attitudes towards some general dimensions of
+adaptivity that fit into the adaptive decision making layer. In doing so, we focus on the
+logic of adaptation rather than on any specific mechanism realizing those dimensions.
+Our approach exploits, at least partly, Bandura’s (1997) suggestion that a triadic relationship exists in which personal traits, the situation context, and behavior interact
+and affect each other. Here, the focus is on the relationship between personal traits
+and attitudes towards technology; the relationships between the latter and behavior
+are not considered (see Sect. 2.2). This section discusses the frameworks adopted for
+personality, Sect. 2.1, and for attitudes, Sect. 2.2. The dimensions of adaptivity are
+discussed in Sect. 3.
+
+2.1 Personality
+Personality is a crucial factor in the acceptance or rejection of technology, as many
+studies have shown e.g., Agarwal and Karahanna (2000) and Falaleeva and Johnson
+(2002) for web technologies, Webster and Martocchio (1995) for the effect of personality on the state of flow with computing technologies, etc.
+Of particular relevance to our topic (adaptive technologies) is the work carried
+out within the CASA framework which aimed at understanding the role played by
+personality factors in determining the way people place themselves along the socalled “computing technology continuum of perspective” (CP; Johnson et al. 2001).
+For instance, Locus of Control measures whether causal attribution (Heider 1957) for
+one’s behavior or beliefs is made to oneself or to external events or circumstances.
+People who feel they are the source or cause of their own attitudes and behaviors
+(internal LoC), tend to see the computer as a tool that they can control and use
+to extend their capabilities (the so-called locally simplex perspective in the CP; see
+Johnson et al. 2006; Falaleeva and Johnson 2002; Marakas et al. 2000). On the other
+hand, those who attribute their own behavior or attitudes to external factors (external
+LoC) are much more prone to regard computers as an autonomous, social entity with
+which they are forced to interact (the so-called globally complex perspective).
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+35
+
+The personality trait of neuroticism (and its opposite, emotional stability), too,
+has been shown to affect the CP, with more neurotic (less emotionally stable) people
+being more sensitive to the social nature of computing technologies, hence prompter
+to a globally complex perspective (Johnson et al. 2006).
+Despite their importance, the specific import of these, and similar, findings on the
+acceptance of specific computing technologies (or classes thereof), or on the choice
+between alternative technologies, is not a straightforward matter. Consider adaptive
+technologies: they are proactive, monitoring and appropriately reacting to user preferences and behavior, while requiring that s/he delegate to technology much of the
+control of the interaction. In other words, plenty of social/agentive traits that have
+been extensively studied by CASA theorists. The CASA theory predicts that people
+with an external LoC or a lower emotional stability will be more sensitive to those
+aspects than people with a more internal orientation and/or a higher emotional stability. Still, these predictions are not directly informative about the specific ways in which
+acceptability of adaptive technologies is affected by the relevant trait. For example,
+will externally oriented people accept adaptivity more or less than internally oriented
+ones? They are not informative about the kind of preferences that can be manifested
+when comparing adaptive and non-adaptive technologies: for example, will more neurotic people prefer adaptive systems over non-adaptive ones? Nor can they directly
+contribute to the debate about the opportunity of letting people feel in control of the
+interaction (Shneiderman 1998; Norman 1998; Wexelblat and Maes 1997; Jameson
+and Schwarzkopf 2002), especially in view of Kay’s (2001) observations discussed
+above. For this to be possible, we need a more direct understanding of the personality
+constellations that are more sensitive to or require a greater feeling of control.
+This study takes the first steps in that direction by (a) considering the hypothesis
+that some personality traits (LoC, neuroticism/emotional stability, conscientiousness
+and creativity, see below) affect people’s perception of adaptive technologies, and
+(b) investigating the way such an effect, if any, unfolds.
+In practical terms, we define causal attribution operationally by means of LoC scale
+which measures to what degree subjects locate internally or externally the control over
+their own beliefs and actions. A high internal value corresponds to the thought that
+the subject him/herself is the controller; an external LoC, in turn, signals that external
+events are seen as substantially independent from the subject’s influence, and capable
+of determining the subject’s beliefs and behavior.
+Neuroticism (and its opposite, emotional stability) is a key ingredient of many factor-based models, which organize personality into underlying dimensions or factors.
+Among these, the Big Five model has gained much popularity (McCrae and John
+1992; Howard 1994; De Raad 2000; Perugini and Di Blas 2002; Wiggins 1996). In one
+of its most used versions (Costa and McCrae 1992; McCrae and John 1992) the Big
+Five posits the following five factors:
+•
+•
+•
+
+Extraversion: This refers to the quantity and intensity of one’s interpersonal
+reactions, sociability and emotional expressiveness.
+Agreeableness: This reflects individual differences with respect to cooperation and
+social harmony. It includes the quality of compassion, altruism, trust,
+modesty, pro-social attitudes or antagonism in one’s interpersonal interactions.
+Conscientiousness: This relates to the way we control and direct our impulses. It
+includes such traits as orderliness, dutifulness, achievement striving, etc.
+
+36
+
+•
+
+•
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+Emotional Stability: This refers to the way we react emotionally in response to
+external stimuli. At one extreme, it covers negative emotions such as anxiety, sadness and irritability. At the other, we find people who are less easily upset and less
+emotionally reactive (neuroticism).
+Creativity: This consists of openness to, and proactive seeking and appreciation of
+new experiences.
+
+The Big Five includes a factor (conscientiousness) that addresses an important
+facet of the notion of control that is not (directly) covered by the LoC. Whereas the
+latter targets (an aspect of) causal attribution (where the individual thinks that control over his/her actions/beliefs is located), conscientiousness focuses on the degree
+of control exercised over one’s impulses and the way this interacts/interferes with the
+pursuance of one’s goals and with task accomplishment. We expect that besides LoC,
+this trait too affects acceptance of a technology that, as with adaptivity, purports to
+understand user preferences for supporting the accomplishment of his/her goals.
+Other traits that can be relevant to our attempt at characterizing the interplay
+between acceptance of adaptive technology and personality are those relating to
+innovativeness. For instance, Agarwal and Prasad (1998) have studied personal innovativeness in the domain of information technology (PIIT); this trait reflects the willingness to try out new technologies, and has been shown to play an important, though
+indirect, role in affecting people’s intention to use them (Agarwal and Karahanna
+2000). PIIT is a more specific version of the Big Five’s creativity, which addresses general openness to new experiences. Since no Italian version of the instrument proposed
+by Agarwal and Prasad was available, we maintained the broader Big Five factor.
+The remaining two Big Five factors, extraversion and agreeableness, are
+characterized by facets such as friendliness, gregariousness, assertiveness, activity
+level, excitement seeking, and cheerfulness and trust, morality, altruism, cooperation,
+modesty, and sympathy, respectively. As far as we know, very few studies have addressed the effects of these two factors on the perception of computing technology. For
+example, extraversion was found to positively correlate with low levels of computer
+anxiety and anticipatory stress (Giannoutsos 2004). No relevant researches could be
+found that involved agreeableness. Lacking evidence to the contrary, we hypothesize
+that these two traits do not affect the attitudes towards adaptivity.
+2.2 Attitudes
+Acceptance of a given object, idea, concept, event, etc., relates to the notion of
+attitude as used in social psychology: “an individual’s disposition to react with a
+certain degree of favorableness or unfavorableness to an object or behavior” (Ajzen 1993). Attitudinal studies have sometimes been applied to the investigation of
+technology acceptance, as in (Alpert et al. 2003) where user attitudes regarding adaptation in e-commerce web sites are investigated. In that work, a mixture of simulation
+and working prototypes were used to present stimuli concerning the 13 adaptivity
+features identified by the authors as relevant in the e-commerce scenario.
+In our case, we could not maintain the same set-up as Alpert et al. We wanted, in
+fact, to reach a degree of abstraction from implementation details sufficient for our
+findings to (hopefully) be generalizable to an as wide as possible class of adaptive systems. In particular, it seemed important that the subjects not interact with any form
+of an actual system. Many attitudinal studies can easily avoid exposing subjects to
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+37
+
+any realization or instance of the object (or other) the measured attitudes are about,
+under the reasonable assumption that subjects already have some kind of beliefs,
+hence attitudes, towards it. This is the case of classical studies about attitudes towards
+race, abortion, political and social matters of various kinds, and also of the many works
+(some of which are cited above) that have considered attitudes towards the World
+Wide Web. The acquaintance with the relevant object that supports the attitude can
+be very indirect—e.g., gathered through the media, or talks with friends—but still be
+enough for the target (the attitudes) to be there.
+Clearly, for our study we could not rely on any form of direct or indirect acquaintance with adaptivity: this is a new, emerging technology and no system built along
+such lines is available to the wide public; hence, no one but specialists can be expected
+to have any attitudes at all towards it.
+To resolve this tension between the quest for generality, which prevented us from
+having subjects interact with a specific instantiation of the technology, and the absence
+of spontaneous attitudes towards adaptivity, we decided to elicit attitudes by showing
+our subjects stimulus situations (in the form of video clips) where a very stylized agent
+was portrayed while interacting with two realizations (an adaptive and a non-adaptive
+one) of an audio–video guide, see section 4.2. The idea is that the observation of the
+video clips is enough for the subjects to form attitudes towards the shown technology.
+Moreover, as we will see below, since only the details of the technology that were
+relevant to our study were shown to the subject, the attitudes so formed should not
+reflect (or would do so to a negligible extent) implementation details, but only general beliefs about adaptivity. Finally, the stimuli were conceived so as to prevent the
+subject from identifying themselves to the agent, avoiding that their replies reflect
+their perception of the agent’s attitudes rather than their own.
+Support for the idea that the observation of the video clips is enough for the
+subjects to form the relevant attitudes comes from the framework of vicarious learning (Bandura 1977), a process by which we learn and form beliefs about, hence
+attitudes towards, a given object and/or behavior by observing other people acting
+on the object or executing the relevant behavior. Closely related notions are that
+of “vicarious experience” that Lester and Brown (2004) proved to be a determinant
+of computer self-efficacy; and of ‘vicarious usability’, whereby a user forms beliefs
+about the usability of a system by observing other users, as discussed by Mayes and
+Fowler (1999). These works show that the observation of other people’s (and fictional
+agents’) behavior induces beliefs and attitudes towards the relevant objects, and that
+those beliefs and attitudes can be articulated enough to cover areas such as usability,
+perceived usefulness, and, we argue, technology acceptability.
+The proposed approach has some resemblance to techniques for early user interface evaluation (Preece et al. 2002), especially those where subjects are asked to
+express their liking/disliking of simulations or mock-ups of systems, even pen-andpaper ones, and the experimenter provides them with (verbal or other) descriptions
+of how the functionalities are expected to unfold. It has been shown (Nielsen 1990;
+Virzi et al. 1996) that these kinds of studies permit detection of most of the usability
+problems of a system.
+This and related procedures for early usability studies do not follow a ‘vicarious-X’
+paradigm (subjects are not exposed to the behavior of real or fictional agents). Moreover, they all target actual systems, whereas we aim to investigate adaptivity features
+that are as general as possible. Nevertheless, they share with our approach the aim of
+eliciting (indirect) experience in the subjects by investigating the ensuing beliefs and
+
+38
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+attitudes. In a way, our use of video-clips where subjects are shown agents interacting
+with the technology extends these techniques, while availing of vicarious learning as
+a theoretical framework.
+A natural issue that arises when considering the attitude of people towards technology concerns their relationships with people’s actual behavior. Quite generally,
+attitudes are seen as important determinants of behavior; hence, by gaining insights
+about attitudes towards a given object, one hopes to be in a better position to forecast (or otherwise understand) actual behavior involving that object. In our case, by
+studying the attitudes towards dimensions of adaptivity, it should be easier to forecast
+and understand the behavior of people using actual adaptive systems.
+The attitude–behavior relationship is a complex one, though. For instance, after
+reviewing correlation studies, Wicker (1969) skeptically dismisses the idea that attitudes are good predictors of behavior: “taken as whole, these studies suggest that it
+is considerably more likely that attitudes will be unrelated or only slightly related to
+overt behaviors than that attitudes will be closely related to actions”. But his skepticism can be resisted. As remarked by Ajzen (1993), the attitude–behavior relationship
+can well be indirect, with many intervening or ‘mediating’ factors that make the search
+for direct relationships harder or even useless. Moreover, methodological faults can
+at least partially explain the failure to observe attitude–behavior relationships. The
+investigation needs to be conducted in such a way as to respect the basic compatibility
+between the target, action, context and time elements addressed in the attitudinal
+study and those addressed in the behavioral ones. Once these methodological caveats are observed, evidence of statistically significant attitude–behavior relationships
+starts emerging (Ajzen 1993).1
+We acknowledge the importance of the attitude–behavior relationship, and accept
+the conclusions above. Still, this study does not attempt to address if and how attitudes towards adaptivity we investigated can be related to actual behaviors with
+actual systems. This is of the utmost interest, but has to await further studies. Here, we
+simply mean to contribute toward modeling people’s attitudes towards adaptivity in
+audio–video guides, a goal that can be pursued independently of the attitude–behavior
+relation.
+Before concluding, notice that in this case, as in others, simple figures concerning
+favorableness or unfavorableness towards a given dimension of adaptivity might not
+be very informative. Knowing that the mean score for one of them is, e.g., 4 on a 1–5
+Likert scale does not tell us much, unless we can compare this value to some reference. The obvious reference in our case is the set of attitudes towards non-adaptive
+systems. Such a control condition was realized by means of video clips identical to
+those introduced above, but presenting our subjects with the stylized visitor using a
+traditional, menu-based, system, see Sect. 3 and Sect. 4.2 for details.
+In conclusion, the present study attempts to model subjects’ attitudes towards
+(as much as possible) abstract dimensions of adaptivity for museum video-guides,
+1 This discussion extend only partially to models that, like the Technology Acceptance Model (TAM;
+Davis 1989, 1993), target behavior through the mediation of the attitudinal dimension of ‘intention to
+use’ the relevant technology; the latter, in turn, is explained by further attitudinal/belief variables such
+as perceived usefulness and perceived easy of use. The fact that often behavior is measured in terms of
+self-reported frequency of use, or other coarse-grained variables, makes the whole issue of behavior
+measurement, and the search for relationships with attitudinal/belief related variables, easier. Still, in
+many studies (including those quoted above) the strength of the relationship between the behavioral
+and the attitudinal (intention to use) variable is not very high, though statistically significant.
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+39
+
+trying to avoid mixing them with behavior-related issues. The observed attitudes are
+systematically related to personality traits (the LoC and the Big Five traits) which
+are expected to affect the acceptance/rejection of the adaptivity dimensions. Besides
+testing these expectations, we also try to characterize the way these effects unfold.
+
+3 Dimensions of adaptivity
+Adaptivity or personalization refers to the capability of a system to (acquire and)
+maintain a model of some characteristics of its users in order to provide them with
+information in a way that best suites their needs (Negroponte 1995; Brusilovsky and
+Maybury 2002). In this work, we focus on that particular type of adaptation that
+consists in tailoring information presentation (Jameson 2003).
+In discussing adaptation in web-based hypermedia, Brusilovsky (2001) distinguished between content adaptation, i.e., modifications in the content of the web
+pages, from adaptation of link structure. In our study, we investigate multimedia presentations, delivered on a PDA, that describe artworks. What we call a “presentation”
+is a multimedia equivalent to a web page. Yet a presentation typically does not contain
+text, but rather a verbal comment on a visual animation of parts of the artwork (see
+Alfaro et al. 2004, and Rocchi and Zancanaro 2004 for more details).
+Our adaptive presentations are structured around four dimensions: location awareness (henceforth Location), follow-ups (henceforth FU), content adaptation with
+respect to user interests (Interest), and content adaptation with respect to history of
+interaction (History). Location awareness refers to the capability of the system to
+automatically start a presentation whenever the user approaches a relevant object.
+The FU dimension consists of the automatic selection of additional material. Interest and History address the addition of more details about a given topic, and the
+automatic construction of comparisons and cross-references, respectively.
+Location adaptation has been applied in many domains including wireless advertising (Hristiva and Ohare 2004), mobile information retrieval from centralized information systems (Sharifi et al. 2004), recommendation systems such as location-based
+services for recommending a specific store, restaurant or hotel (Butz 2004), navigation systems combining different technologies to determine the user’s location and
+adapting the user interface to diverse user contexts (Baus et al. 2002; Kruger et al.
+2004), and in mobile adaptive tourist guides (Cheverst et al. 2000; Oppermann and
+Specht 2000).
+Usually, location adaptation is combined with other adaptive dimensions such as
+content adaptation. For example, in the domain of adaptive tourist guides, Gena and
+Torre (2004) evaluated MastroCARONTE, an adaptive system which provides tourist information onboard cars. MastroCARONTE personalizes tourism suggestions
+regarding hotels, restaurants, and places of interest, adapts their presentation, and
+modifies its own behavior according to a model of the user (based on interest and
+capabilities) and a model of the context of interaction (e.g., time, location, and driving
+conditions). The HyperAudio project (Petrelli et al. 1999) and the PEACH project
+(Rocchi and Zancanaro 2004) combined Location with content adaptation, whereby
+the content of the presentation changes according to the visitor model inferred by the
+system. Content adaptation was performed both with respect to the visitor’s inferred
+interests and with respect to the visitor’s actual movements in the museum. Adaptation with respect to the visitor’s interests included adding more details on a specific
+
+40
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+topic; adaptation with respect to actual movements mainly consisted of comparisons
+with exhibits already seen, or suggestions to move to nearby exhibits.
+In our case, visitor location is used to automatically trigger a presentation for the
+relevant exhibit as well as to contextualize the presentation (for example, by means
+of appropriate referring expressions such as “in front of you”).
+The FU dimension was initially investigated in the context of the ILEX project
+(Intelligent Labeling Explorer; Hitzeman et al. 1997; Oberlander et al. 1997). This
+system aimed to provide intelligent labels for the description of the jewel collection
+available on a museum’s Web site. It used natural language generation techniques, to
+provide descriptions that took into consideration both the level of knowledge of the
+user and the history of the interaction. Web pages for each object in the museum’s
+collection were generated as the visitor navigated around the system’s Web site. In our
+case, the visitor was allowed to express his/her interest in the current presentation; the
+system would then present more or less material according to the visitors’ expression
+of interest (see Goren-Bar et al. 2005b).
+Interest and History refer to the possibility of changing the content to reflect actual
+visitor interests (inferred interests and not explicitly stated ones, as with FU) and what
+s/he has actually seen. These two dimensions mainly concern linguistic adjustments
+and comparisons with exhibits that have already been seen, and suggestions as to what
+might be visited next. These types of content adaptation were initially investigated in
+the context of ILEX and HyperAudio.
+In our study, the presentations were meant as stimulus situations. They consisted
+of simulations of the adaptive and the non-adaptive systems as used by an idealized
+user (our fictional character, see below) and presented to the subjects on a computer
+screen. The simulations were to a certain extent idealized, and purposely so, for the
+goal was to detect and assess attitudes towards adaptivity dimensions, abstracting away
+as much as possible from concrete realizations. However, the description of an actual
+system that implements all the four dimensions can be found in (Rocchi et al. 2004).
+
+4 The study
+4.1 Objectives
+Our study aimed to comparatively assess the attitudes towards the four adaptivity
+dimensions, through two simulated video museum guides, an adaptive (AD) and a
+non-adaptive (NAD) one.
+The main expectations were that (a) subjects would prefer the adaptive video guide
+over the non adaptive one in the four dimensions; (b) subjects would have an overall
+preference towards the adaptive video guide; (c) subject attitudes towards adaptivity would be affected by their personality traits, in particular those relating to the
+control issue.
+4.2 Design
+The design was a crossover within study where each participant was exposed to both
+versions of the system. Half of the visitors started with AD and the other half with
+NAD. Forty (40) subjects participated in this study, 28 females and 12 males. Most of
+the subjects were students in psychology at the University of Trento, Italy. The rest
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+41
+
+were students in humanities or social sciences departments. Most of the students were
+in their twenties, with an average age of 25.1 and SD = 5.76.
+4.3 Material
+For each adaptivity dimension, two videos based on Macromedia Flash presentations
+were prepared, one illustrating the AD system, and the other the NAD one.
+On the right side, each video featured an animated character moving in Torre
+Aquila, a room in the Castello del Buonconsiglio (Trento) whose four walls are
+decorated in the upper part with a cycle of frescos illustrating the months of year.
+The character was kept as simple as possible, it was shown at a distance (from high
+above the ground). To avoid any possible influence of the character’s appearance on
+the subject, no gender, age-related characteristics, or facial expressions were visible
+to the subjects.
+The left side of each video featured a PDA showing the actions performed by the
+fictional character. The AD system consisted of a simple interface with just two buttons, one to stop the current presentation and the other to request more information
+on a given topic. The NAD video presented a standard, menu based interface which
+allowed selection of a presentation for each fresco. Every action (selection, clicking,
+stopping, etc.) was shown as performed by a pencil (operated by the character).
+In designing these videos, we stressed the contrast between a system to which the
+human delegates the initiative (AD) and a system that delegates the initiative to the
+human, letting the user to be in control (NAD).
+In the video illustrating the AD system for Location, the presentation automatically
+starts when the character approaches a fresco, while in the NAD version for the same
+dimension, a pencil is shown as it selects the appropriate presentation from the menu.
+For the adaptive FU dimension, the fictional character pressed a “wow” button
+when the system—while describing the January fresco—was mentioning the Castel
+Stenico. There is no immediate reaction to the “wow” button other than the visual
+effect of its pressure but the system automatically starts a presentation that elaborates
+on that topic just after the completion of the current presentation. In the NAD condition, after the presentation about the January fresco, the system just displays the list
+of the other available presentations and the fictional character selects the one about
+Castel Stenico.
+In the videos illustrating the two dimensions of Interest and History, the NAD
+versions are pretty similar to the corresponding AD with the difference that in the
+latter contain cross-referencing to details that the fictional character has already seen.
+All the videos were non-interactive; that is, the subjects could not choose or suggest any actions for the character to execute. Subjects were simply asked to watch
+the videos and then express their attitudes toward what they had seen. The duration
+of each video was around 1 min. Figures 1 and 2 illustrate a snapshot of one of the
+non-adaptive and adaptive videos used respectively. All the videos are accessible at
+http://peach.itc.it/attitudinalstudy05/
+Regarding user modeling, in our study we assumed the basic functionalities of tracking user movements and the information already presented, and a simple
+ontology of the domain. The way user interest is initialized is not relevant for the
+study; all that our subjects needed to know was that the adaptive system is aware
+of the user’s interests. For an example of a prototype of a system similar to the one
+illustrated in the videos, see Goren-Bar et al. (2005b).
+
+42
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+Fig. 1 A snapshot of one of the non-adaptive videos used in the study
+
+Fig. 2 A snapshot of one of the adaptive videos used in the study
+
+4.4 Procedure
+Each session was divided into three parts: the pre-test, the actual test, and the post-test.
+The participants were tested individually.
+During the pre-test, the participant completed a questionnaire on his/her computer literacy, familiarity with the most common museum technologies, frequency of
+museum visits, and knowledge of the Torre Aquila. They also filled two personality
+questionnaires: the Big Five Marker Scales (BFMS) for Italian (Perugini and Di Blas
+2002) and the Italian version (Farma and Cortinovis 2000) of Craig’s Locus of Control
+of Behavior (LCB) scale (Craig et al. 1984).
+At the beginning of the test phase, the experimenter informed the subject about the
+study and explained the differences between the two guides. A single subject participated in each session of the experiment. In order to reduce the possibility of biasing
+the subjects, a very detailed protocol was used (see Appendix A). This protocol was
+assessed in a pilot study with 10 subjects.
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+43
+
+The following procedures were then carried out for each of the four adaptivity
+dimensions:
+•
+•
+•
+
+The experimenter first explained the relevant dimension, and introduced the two
+video clips.
+The subject watched two presentations (AD and NAD) (the order being
+randomized).
+At the end of the second video, the subject (a) indicated which system s/he
+preferred, (b) indicated on a 1–5 Likert scale how much they liked them (1 = I did
+not like it at all, 5 = I liked it very much). Care was taken that the subjects’ scores
+were consistent with the preference expressed at step (a) by asking first to score
+the system that the subject preferred the most and then the other. (c) The subject
+was asked to explain the reasons for his/her preferences, providing pros and cons
+for each system.
+
+Once all dimensions were addressed, subjects were asked which system they preferred overall (Global Preference). The videos for the different dimensions were not
+randomized, given that they had a natural order.
+The post-test phase was meant to assess the subjects’ attitudes towards adaptivity by
+abstracting even more than before from any specific realization. They had to (a) order
+the four basic dimensions according to their importance; (b) choose AD between
+NAD again, this time considering optimal realizations of the relevant functionalities.
+
+5 Results
+5.1 Descriptive features of the sample
+As stated before, the average age of our sample was 25.1 years (sd = 5.76). The means
+and standard deviations for the raw scores at the BFMS are reproduced in Table 1
+and compared with those of the population, as reported by Perugini and Di Blas
+(2002). As can be seen, they are largely mutually consistent. Finally, the mean value
+for the LoC is 25.1 (sd = 9.9), again consistent with the population mean 27 (sd = 9.2)
+reported by Farma and Cortinovis (2000).
+Table 2 reports the correlations (Pearson coefficient) between the various
+personality dimensions we use. In our sample there is a significant positive relationship
+between extraversion and creativity, and conscientiousness and stability. These results
+are consistent with those reported in the literature about the Big Five by, e.g., Digman
+(1997), John and Srivastava (1999) and Becker (2002). The Locus of Control is inversely related to conscientiousness and stability, meaning that people with a higher
+internal orientation (lower scores on the LoC) tend to be high on conscientiousness
+(strong control over one’s impulses) and on emotional stability (conversely, low on
+neuroticism).
+In the following, we use T-standard scores (mean = 50, sd = 10) for BFMS and
+LoC. The BFMS’s T-scores were computed from orthogonalised scores, according to
+the procedure suggested in Perugini and Di Blas (2002), using z-scores based on the
+population means and standard deviations reported in Table 1. The orthogonalized
+scores directly refer to the underlying factor-analytic latent variables; they are more
+reliable measures of personality traits targeted by the BFMS, which are also expected
+to have zero cross-correlations.
+
+44
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+Table 1 Means and SDs for the BFMS
+Males
+
+Females
+>25
+
+25<
+
+>25
+
+25<
+
+mean
+
+sd
+
+mean
+
+sd
+
+mean
+
+sd
+
+mean
+
+sd
+
+Sample
+Extraversion
+Agreeableness
+Conscientiousness
+Stability
+Creativity
+
+43.3
+50.1
+42.1
+40.4
+41.4
+
+7.9
+6.5
+8.3
+5.3
+11
+
+42.6
+47.8
+42.4
+36.8
+51
+
+11.9
+8.9
+7.3
+5.1
+5.4
+
+45.6
+54
+48.1
+35.9
+47.9
+
+13.5
+6.2
+10.1
+4.6
+6.9
+
+47.8
+50.8
+41.6
+37
+47.6
+
+10.2
+8.4
+7.4
+8.4
+5.6
+
+Population
+Extraversion
+Agreeableness
+Conscientiousness
+Stability
+Creativity
+
+43.2
+49.1
+42.5
+39.5
+50.1
+
+10
+8.7
+10.7
+9.1
+7.1
+
+44.8
+50.9
+49.3
+39.8
+48.7
+
+10.4
+7.7
+9.2
+9
+7.6
+
+45.2
+52.6
+44.5
+33.2
+49.3
+
+12.3
+7.5
+10.9
+8.8
+7.7
+
+44.7
+54.4
+50.2
+36.3
+48
+
+10.9
+7.7
+9.7
+9.7
+8.6
+
+Table 2 Correlations between the personality indices
+
+Extraversion
+Agreeableness
+Conscientiousness
+Stability
+Creativity
+Locus_of_Control
+
+Extra
+
+Agree
+
+Consc
+
+Stab
+
+Crea
+
+LoC
+
+1
+
+0.135
+1
+
+−0.280
+0.182
+1
+
+−0.076
+0.083
+0.333*
+1
+
+0.396*
+0.078
+−0.146
+−0.168
+1
+
+0.122
+0.055
+−0.398*
+−0.356*
+0.094
+1
+
+∗ p < 0.05
+
+Concerning computer literacy (CL), we computed the average score for each subject on the relevant items of the questionnaire, obtaining a summary score between 1
+(= completely computer-illiterate) to 5 (= good computer literacy). The same procedure was applied to ‘familiarity with museum technologies’ (FMT). The sample mean
+values were 3.69 (sd = 0.76) and 2.82 (sd = 0.83) for CL and FMT, respectively.
+To complete the descriptive characterization of our sample, we analyzed the relationships between the personality traits on the one hand, and CL and FMT on the
+other, by running two regression analyses with CL and FMT as dependent variables, and the personality traits (BFMS + LoC) as independent ones. Table 3 presents
+the results for the most economical fitting models (backward elimination); only the
+regression variables that enter in the two most economical models are reported.
+In our sample, computer literacy is inversely related to extraversion and creativity,
+and directly related to conscientiousness; the other personality traits are ineffective.
+The same relationships hold for the familiarity with museum technologies, with the
+exception of conscientiousness that is now ineffective.
+5.2 The four basic dimensions
+Table 4 reports the counts of the preferences for each system, on each dimension,
+together with the average score assigned to the two systems. The last two kinds of
+
+User Model User-Adap Inter (2006) 16: 31–62
+Table 3 Regression analysis
+for computer literacy (CL) and
+familiarity with museum
+technology (FMT)
+
+∗ p < 0.05; ∗∗ p < 0.01
+
+45
+Stand. coeff
+
+0th order corr
+
+CL
+Extraversion
+Conscientiousness
+Creativity
+
+−0.360*
+0.407**
+−0.402*
+
+−0.180
+0.517
+−0.244
+
+FMT
+Extraversion
+Creativity
+
+−0.490*
+−0.434*
+
+−0.231
+−0.141
+
+Table 4 Preference counts, mean score and standard deviations for the two simulated conditions on
+the adaptive dimensions
+Location*
+
+Interest
+
+FU
+
+History*
+
+Global
+
+NAD
+
+freq
+mean score
+SD
+
+27
+4.05
+0.85
+
+25
+3.81
+0.98
+
+15
+3.53
+1.04
+
+3
+2.98
+1.02
+
+23
+–
+–
+
+AD
+
+freq
+mean score
+SD
+
+13
+3.58
+0.91
+
+15
+3.69
+1.1
+
+25
+3.98
+1.04
+
+37
+4.52
+0.67
+
+17
+–
+–
+
+∗ (p < 0.05)
+
+data are not available for Global, since we did not ask our subject to score the two
+systems at the global level.
+The choices on the five dimension are different (Cochran test for related samples:
+Q = 43.022, df = 4, p < 0.01), showing that at least some dimensions elicit different
+responses from our subjects. Starting from this, we performed statistical analysis on
+each dimension. Statistically significant differences between AD and NAD choices
+could be found only for Location (exact probabilities on binomial test, p < 0.05;
+power = 0.64 with α = 0.05 and power = 0.76 with α = 0.1) and History (exact probabilities on binomial test, p < 0.001; power > 0.95 with α = 0.05). Hence, our subjects
+tend to prefer NAD on Location and AD on History. The result for Location should
+be taken with some caution given the low power attained, but this is in accordance with
+observations in Jameson and Schwarzkopf (2002). The second result is much more
+robust: interestingly, perceiving and appreciating content adaptation with respect to
+the history of the presentations is a difficult task, for it involves a typical holistic
+dimension; however, it seems that subjects managed to do so, with a quite uniform
+preference for AD over NAD.
+Besides knowing about the preferences of our subjects, we also wanted to be
+informed about the strength of the choice—that is, how strongly the subjects preferred one alternative over the other. We used the absolute value of the difference
+between the scores assigned to each alternative version as a measure of the strength
+of the preferences on a given dimension. The idea is that the greater the difference
+between the score assigned to AD and NAD, the greater the determinacy of the
+subjects in making their choices. Table 5 reports the mean values with their standard
+deviations.
+Strength scores were analyzed through a repeated measure multivariate analysis of
+variance, using the four adaptivity dimensions plus ‘global’ as a within factor (that is,
+
+46
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+Table 5 Mean values and SD for the strength of the choices
+
+Mean
+SD
+
+Location
+
+Interest
+
+FU
+
+History
+
+Global
+
+1.335
+0.626
+
+1.613
+0.828
+
+1.628
+0.915
+
+1.868
+0.917
+
+1.170
+0.645
+
+the dimensions were treated as five different occasions on which subjects performed
+the same task). A significant effect was found (Willk’s Lambda = 0.513, F = 8.539,
+Hypothesis df = 4, error df = 36, p < 0.0001, observed power = 0.997), showing that
+the strength of the preference is affected by the dimension being assessed. Pairwise
+comparisons between the averages (with Bonferroni adjustment for multiple comparisons to a global p < 0.05) showed that our subjects were significantly more
+determined in their choices for History than for Location, and much less determined
+on Global than on all the other dimensions with the exception of Location. A multivariate ANOVA with the type of choice (AD or NAD) as a second factor failed to
+show any effect of it, or interaction with the five dimensions. Hence, the strength of
+the preference was related to the adaptivity dimension, but not to the specific choice
+(AD or NAD) made.
+In conclusion, our sample indicated a preference for the NAD version on Location,
+and for the AD version on History. Choice strength differed on these two dimensions,
+with subjects more determined in their choosing AD on History, but much less so
+when preferring NAD on Location. Finally, Global had the subject less determined
+in their choices with respect to most of the other dimensions, a datum that could be
+related to the difficulty of providing judgments on whole adaptive and non-adaptive
+systems starting from the single dimensions.
+
+5.2.1 Effect of descriptive variables
+No effect of gender on any relevant adaptivity dimension was detected (Pearson’s
+chi-square, Fisher exact test, Cochran’s Mantel–Haenszel’s test). Similarly, neither
+computer literacy nor the familiarity with the technology in the museums had any
+effect on any variable, as tested through logistic regression (Agresti 2002).
+
+5.2.2 Effect of personality traits
+The effect of personality traits (BFMS and LoC) was tested through both discriminant
+analysis and logistic regression. The results were always concordant, and are discussed
+with reference to logistic regression; see Agresti (2002) for details. For each dependent variable (preference on Location, Interest, FU, History and Global), we ran a
+separate logistic regression with the five dimensions of BFMS plus the LoC as independent variables treated as covariates. For each dependent variable, the fitting of the
+model was first measured through the scaled deviance G2 (M0|M1), where M0 refers
+to the simplest, constant model (only intercept) and M1 to the full regression model.
+Only those models where the scaled deviance test was significant at a level p < 0.05
+were retained; in particular, the model for History was discarded and not considered
+any further. The main effects of each independent variable were tested by means of
+the G2 (M0|M1) statistics, with M1 referring now to the full fitted regression model,
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+47
+
+Table 6 Summary of regression analyses results
+BFMS
+Extravers.
+Location
+Interest
+
+Agreeabl.
+
+Conscien.
+
+Stability
+
+G2 = 3.885*
+β = −0.098*
+G2 = 6.141*
+β = −0.142*
+
+G2 = 8.837**
+β = 0.163
+
+Creativity
+
+LoC
+
+FU
+Global
+
+G2 = 6.276*
+β = −0.126*
+
+G2 = 7.476**
+β = −0.136*
+
+∗ p < 0.05; ∗∗ p < 0.01
+
+and M0 to the reduced model obtained from it by omitting the variable under study.
+This procedure provides an estimate of the contribution of the relevant independent
+variable to the overall variation of the dependent one. When significant effects were
+detected, the corresponding parameters in the regression model informed about the
+way the effect unfolds, in terms of AD to NAD odds. See Agresti (2002) for further
+details.
+Table 6 reports the results for the significant G2 tests, along with the values of the
+regression parameters.
+Conscientiousness appears to affect Location, Interest and Global. The sign of the
+parameters suggests that in all cases, higher values of conscientiousness increase the
+odds for NAD. Hence, more conscientious people tend to prefer NAD over the AD
+on Location, Interest, and at a Global level. Stability increases the odds for AD on
+Interest, so that more emotionally stable people seem to prefer the AD version. The
+other BFMS traits did not produce any significant effect on any dimensions. Finally,
+the Locus of Control has an effect on Global, with people having a more external
+(higher score) LoC favoring the NAD over the AD.
+In summary, the dimensions that seem most sensitive to personality traits are Location, Interest and Global. The most effective BFMS traits are conscientiousness, and
+stability. The former strengthens the tendency of subjects to prefer NAD (on Location, Interest and Global); the second correlates with a tendency to prefer AD (on
+Interest). Creativity, which we consider as subsuming the more specific trait of personal innovativeness (PIIT), has no effect on AD vs. NAD preferences. Finally, higher
+LoC (external locus of control) affects the odds in favor of NAD on Global.
+5.2.3 Characterizing the subjects over the dimensions
+We investigate now whether it is possible to find any interesting partition of our sample which could help us better understand the overall disposition towards AD versus
+NAD, and confirm, by means of different statistical analyses, the results discussed in
+the previous section.
+A two-step cluster analysis was run; the variables were the preferences expressed
+along the various dimensions by our subjects. (We excluded History because almost all
+our subjects—37 out of 40, see Table 2—chose AD over NAD.) The analysis singled
+out three groups, see Table 7.
+
+48
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+Table 7 Groups from cluster analysis—bold figures correspond to dimensions that significantly
+contribute to the relevant group
+Group1
+
+Location
+Interest
+FU
+Global
+
+Group2
+
+Group3
+
+AD
+
+NAD
+
+AD
+
+NAD
+
+AD
+
+NAD
+
+13
+12
+13
+10
+
+4
+5
+4
+7
+
+–
+–
+12
+7
+
+12
+12
+–
+5
+
+–
+3
+–
+–
+
+11
+8
+11
+11
+
+Personality profiles of cluster groups
+60
+
+group1
+50
+
+group2
+group3
+
+Lo
+C
+
+cr
+ea
+t iv
+it y
+
+lity
+st
+ab
+i
+
+co
+ns
+cie
+nt
+io
+us
+ne
+ss
+
+n
+ex
+tr a
+ve
+rs
+io
+
+ag
+re
+ab
+le
+ne
+ss
+
+40
+
+Fig. 3 Personality Profiles for the cluster groups
+
+We attempted to characterize the three groups in two ways: first of all, by studying
+if and how each of them differs from the whole sample in the preferences expressed
+along the various dimension; secondly, by studying each group’s personality profile.
+The first goal was pursued by means of a series of χ 2 tests to assess the contribution of each dimension to cluster formation; Bonferroni adjustment for multiple
+comparison to a global level of p < 0.05 was applied. The results (see the bold figures
+in Table 7) were that Group 1 had a stronger tendency than the whole sample to favor
+AD on Location and Interest, and Group 2 a stronger tendency to choose NAD on
+Interest and AD on FU; finally, Group 3 included people who more neatly prefer
+NAD on Global and FU.
+The personality profiles of the three groups are reported in Fig. 3. They are based
+on the mean values for each personality trait, and can be compared to the whole
+sample profile, represented by the horizontal straight line intersecting the Y-axis at
+the value of 50.
+A multivariate ANOVA with the cluster groups as a factor, and the BFMS plus
+LoC as dependent variables showed a significant effect of the group variable (Willk’s
+lambda = 0.492, F = 2.273, Hyp-df = 12, error-df = 64, p < 0.05, observed power =
+0.922), with an effect on conscientiousness (F = 3.296, df1 = 2, df2 = 37, p < 0.05),
+stability (F = 3.28, df1 = 2, df2 = 37, p < 0.05) and LoC (F = 5.769, df1 = 2,
+df2 = 37, p < 0.01). The analysis of contrasts revealed that: the mean value of conscientiousness for Group 1 is lower than that of sample mean (p < 0.05), whereas the
+corresponding value for Group 2 is higher (p < 0.05); the value of stability is lower
+in Group 3 than in the whole sample (p < 0.05); the mean value of LoC is lower in
+
+User Model User-Adap Inter (2006) 16: 31–62
+Table 8 Characterization of
+the three groups with respect
+to sample means
+
+Group 1
+Group 2
+Group 3
+
+49
+Conscientiousness
+
+Stability
+
+LoC
+
+Lower
+Higher
+Average
+
+Average
+Average
+Lower
+
+Average
+Lower
+Higher
+
+Group 2, and higher in Group 3 than in the whole sample (p < 0.05). These results
+are summarized in Table 8.
+In conclusion, three clusters were identified. The first, Group 1, prefers AD on
+Location and Interest, and has a low score on conscientiousness. The third cluster,
+Group 3, stably chooses NAD, in particular on FU and Global; personality-wise, it has
+a low emotional stability and a stronger external LoC. Group 2 is somehow intermediate: it prefers NAD on Interest and AD on FU, has a high score on conscientiousness
+and a strong internal orientation on LoC.
+These results, obtained by means of different statistical tools from those exploited
+in the previous section, provide an important, even if partial, confirmation of findings
+obtained therein. Limiting our discussion to converging results, we can say that conscientiousness is positively related to the NAD preference on Location and Interest;
+stability is positively related to the AD preference on Interest; and, finally, people
+with a more, external locus of control tend to globally favor NAD. We can, therefore,
+give a first, although partial, answer to the question concerning the role of the two
+control-related personality factors and of neuroticism/stability in the acceptability
+of adaptivity: LoC seems to affect the way adaptivity is seen as a whole, whereas
+conscientiousness and neuroticism/stability tend to influence two specific dimensions:
+Location and Interest. As to the direction of the effect, the thought that the environment has a strong control on one’s actions/beliefs (external LoC), and the capability of
+controlling one’s impulses are both associated with a preference for the non-adaptive
+over alternative, as is neuroticism.
+5.2.4 Reasons for the choices
+After a subject had indicated his/her preference for one of the two systems, s/he was
+asked to explain the reasons for the choice in the form of an open answer, providing as
+many reasons as s/he wanted. The explanations the subjects provided were classified
+into five groups:
+1.
+2.
+
+3.
+4.
+
+5.
+
+Easiness: It refers to reasons related to some kind of costs/benefits evaluation.
+E.g., ‘it is simpler/easier to use/operate’;
+Transparency (of the functioning): It considers the understandability of the way
+the system works. E.g. ‘it is easier to understand the way it works/what you have
+to do’;
+Understandability and memorisability of the contents: E.g., ‘the presentations are
+more understandable/easier to remember’;
+Control: It refers to the perceived degree of control over the interaction the
+two versions afford to the users. E.g., ‘it allows more/ a better control of the
+interaction’;
+Similarity to a human guide: E.g., ‘it is like a human guide’ (i.e. predictability of
+system behaviour).
+
+50
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+Table 9 Reasons for users preferences on the adaptivity dimensions
+Easiness
+
+Transparency
+
+Understandability/
+Memorisability
+
+Control
+
+Human Like
+
+Location
+
+AD
+NAD
+
+100%
+19%
+
+15%
+15%
+
+8%
+15%
+
+0%
+85%
+
+31%
+0%
+
+Interest
+
+AD
+NAD
+
+47%
+16%
+
+0%
+4%
+
+47%
+32%
+
+0%
+84%
+
+13
+0%
+
+FU
+
+AD
+NAD
+
+80%
+47%
+
+16%
+20%
+
+32%
+60%
+
+0%
+40%
+
+8%
+0%
+
+History
+
+AD
+NAD
+
+57%
+0%
+
+5%
+0%
+
+81%
+67%
+
+0%
+33%
+
+14%
+0%
+
+Table 9 reports the results. As an example, the 100% figure in the cell for Location–AD–Easiness means that all the subjects who chose AD on Location mentioned
+Easiness as reason for doing so, whereas the 15% figure in the cell Location–
+AD–Transparency means that only 15% of those subjects mentioned ‘transparency’
+as a reason for their choice. No statistical analyses were performed on those data, so
+the following discussion has a more qualitative flavor.
+As can be seen, ‘Control’ is never mentioned as a reason for choosing AD on
+any dimensions, but it is among the main reasons for NAD preference, especially
+on Location and Interest. That is, the subjects (correctly) perceive that NAD allows
+for a greater control over the interaction, and this is a major reason for preferring
+it over the alternative, cf. (Jameson and Schwarzkopf 2002). On the other hand, a
+frequent motivation for choosing AD was its highest perceived easiness (Location
+and FU), and the higher understandability of the content provided (History). Among
+the remaining motivations, ‘similarity to the human guide’ does not seem to play a
+relevant role. This is of some interest, for it shows that the choice between AD and
+NAD was mostly based on the direct appreciation of the respective strengths and
+weaknesses, and was not mediated by indirect comparisons with the human guide.
+Finally, it is worth noting that more than half of the subjects who preferred NAD on
+FU did so because they found that the NAD system provides more understandable
+content (‘understandability and memorisability’).
+In conclusion, the importance of the control issue is confirmed: those who choose
+the non-adaptive version most often do so because of the greater perceived control it
+provides. On the other hand, ease of use and memorizability/understandability were
+the main reasons behind the choice of the adaptive system.
+5.2.5 The relationship among the dimensions of adaptivity
+Similarity across dimensions can be measured in terms of identical choices
+(e.g., AD–AD) by means of the Cramer’s V association index. Only in two cases
+were the figures significant (p < 0.05): between Location and Interest (V = 0.35)
+and between FU and Global (V = 0.46). The solutions to a multidimensional (two
+dimensions) scaling analysis yielded coordinates compatible with those results: Location (1.42, 0.30), Interest (1.42, 0.36), FU (−0.72, −0.55), History (−2.088, 0.47),
+global (−0.03, −0.58).
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+51
+
+Hence, our subjects tended to behave in a similar manner when expressing their
+preferences on Location-Interest and FU-Global. History does not pattern with any
+other dimensions. Of some interest is the low degree of similarity between Interest
+and FU, showing that our subjects did not perceive the two dimensions as related,
+despite their conceptual and implementation relationships.
+5.3 Post-test questionnaire
+The post-test questionnaire aimed to assess the subjects’ attitudes towards the dimensions of adaptivity in a more direct manner by asking them to order the dimensions
+according to their importance for an ideal adaptive audio-video guide. The resulting orderings were converted into ranks on an ordinal scale from 1 to 4 (1 lower, 4
+higher). Table 10 displays the results; each cell reports the percentage of times the
+relevant dimension was assigned the relevant rank. The last row reports the mean
+ranks. Figure 4 plots the cumulative distributions for the four dimensions.
+The overall differences in ranking are statistically significant (Friedman test:
+χ 2 = 12.510, df = 3, p < 0.05). Pairwise contrasts are significant for History versus FU, History versus Interest and Location versus Interest. No effect of personality
+traits was found through ordinal logistic regression. Hence, History is uniformly seen
+by our sample as more important than FU and Interest, and Location is felt as more
+important than Interest. Finally, the distribution of the rankings for Location is relatively uniform.
+
+Table 10 Importance rank of
+the adaptivity dimensions for a
+hypothetical personalised
+guide
+
+1
+2
+3
+4
+Mean rank
+
+Location
+
+Interest
+
+FU
+
+History
+
+25%
+25%
+22.5%
+27.5%
+3.05
+
+30%
+40%
+25%
+5%
+2.53
+
+30%
+17.5%
+37.5%
+15%
+2.38
+
+15%
+17.5%
+15%
+52.5%
+2.05
+
+100
+
+75
+
+location
+interest
+
+50
+
+FU
+history
+
+25
+
+0
+1
+
+2
+
+3
+
+4
+
+Fig. 4 Importance rank of the adaptivity dimensions—Cumulative distributions
+
+52
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+Table 11 Mean values and comparisons among distributions for rankings split according to the
+AD/NAD responses
+Location
+AD
+Rank
+Statistics
+
+3.2
+
+NAD
+
+2.2
+11.568*
+
+Interest
+AD
+2.3
+
+NAD
+1.9
+3.289
+
+FU
+AD
+2.8
+
+NAD
+
+1.7
+11.79*
+
+History
+AD
+
+NAD
+
+3.14
+1.3
+6.695**
+
+∗ p < 0.01 on χ 2 test; ∗∗ p < 0.05 on Fisher’s exact test
+
+The relationships between the importance rankings of adaptivity dimensions and
+the preferences expressed for the AD or the NAD versions on each dimension were
+investigated by first splitting the rankings according to the preferences. The resulting two distributions for each dimension were compared by means of the χ 2 , or the
+Fisher’s exact test, depending on whether the conditions for the former (each cell
+having an expected frequency not lower than 5) were met. The results are reported in
+Table 11 along with the mean ranks.
+In all cases except Interest, those who expressed a preference for the AD version of
+the guide ranked the relevant dimension higher than those who chose NAD. Hence,
+Interest is not only the lowest ranked dimension, but its low appreciation is common
+both to those who chose AD and to those who chose the NAD versions.
+The last question we asked subjects concerned whether they would choose AD or
+NAD, in case of an optimal realization of both systems. In other words, if the systems
+the subject had seen were realized in an optimal manner, with all their functionalities
+optimally implemented which system would the subject use?
+Most of the subjects, 31 (78%) indicated AD, and the remaining 9 (22%) NAD.
+This is good news: at that point of the session, the subjects had been exposed to
+the various videos and had time enough to think about the problem of adaptivity in
+mobile guides. Hence, the fact that 78% of the subjects would use AD if the system
+had optimal characteristics seems to reliably capture a real preference/interest for
+adaptivity. On the other hand, there is a relatively large portion of people who are
+not attracted by adaptivity.
+
+6 Discussion and limitations
+This work has attempted to contribute to modeling the effects of some personality
+traits on the acceptance of adaptivity in audio–video guides. Our initial hypotheses
+were that conscientiousness, creativity and neuroticism/emotional stability from the
+BFMS, and the Locus of Control affect the acceptability of adaptive technology, when
+this is compared with non-adaptive one. Moreover, we wanted to investigate the way
+these effects unfold.
+The hypotheses were tested by means of an observational/correlational approach.
+The independent variables were not controlled for at sample-formation time, but their
+values were directly measured on the sample, along with those of the dependent variables. Logistic regression and related techniques for categorical data were the major
+analytic tools we exploited, treating the independent variables (BFMS and LoC) as
+continuous covariates, rather than as factors, and limiting our attention to the main
+effects. Interactions among independent variables were not pursued because of the
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+53
+
+difficulty in making sense of them when they are treated as continuous covariates. This
+might have limited the explanatory power of our analyses somewhat; for instance, in
+no case was the rate of correct classification for our logistic regressions higher than
+78–80%. Those are good values, but it is possible that the consideration of interactions
+could have yielded higher figures.
+The use of cluster-based analyses with the ensuing possibility of resorting to more
+standard approaches (multivariate analysis of variance—MANOVA) was meant to
+complement the results of the regression analyses, making the whole more robust.
+Three groups were identified on the basis of the preference expressed on the various
+dimensions by our subjects. The groups were then studied by analyzing how each
+of them differed from the whole sample on the preferences expressed on the various dimensions, according to their personality profiles. Eventually, we retained the
+results on which the two analyses agreed, the regression-based one and the cluster/
+MANOVA-based one.
+Whenever possible, the power of the test performed was reported. Cases of low
+power occurred, as with the AD versus NAD preference on Location discussed in
+Sect. 5; this can be imputed to the joint action of the intrinsic low power of the
+exploited statistical test (binomial or χ 2 tests) and the size of the sample. The results
+were always included in the discussion, but they need to be confirmed by other studies. As to categorical regression analysis, no accepted, standard approaches exist for
+computing power (or, at least, they are not available on most common statistical packages, e.g., SPSS); this was yet another reason to complement these analyses with ones
+(MANOVA) for which standard approaches to power computation are available.
+Table 12 summarizes the main findings of this work.
+Our sample expressed a preference for content adaptation with respect to the history of the interaction, while dismissing adaptation on the basis of location-awareness.
+The delegation of the initiative to start a presentation on the basis of Location seems
+to be a controversial feature, as is also shown by the low strength of the choices made,
+and by the fact that, in a hypothetical adaptive system, its importance ranking has
+a uniform distribution. The main reason our subjects provided for this non-positive
+attitude is the lack of control. Indeed, even the subjects who chose location awareness
+remarked that some more ‘control’ would be useful, e.g., in the form of a request to
+the user for the permit to start the presentation.
+The neat choice in favor of AD for the History-based adaptation is interesting. In
+fact, this subtle and holistic feature is difficult to perceive when the subject interacts
+directly with an actual system since it requires the explicit appreciation of links to
+previous information. Yet the indices we have considered, including the strength of
+the choice and the importance, all point towards the conclusion that subjects were able
+to understand this dimension, which turned out to be the most valuable among those
+
+Table 12 Summary of the main findings
+
+Location
+Interest
+FU
+History
+Global
+
+Preference
+
+Strength
+
+Importance
+
+Affected by
+
+NAD
+–
+–
+AD
+–
+
+Low
+Medium
+Medium
+High
+Very low
+
+Medium
+Very low
+Medium
+High
+Not relevant
+
+Conscientiousness
+Conscientiousness,Stability
+–
+–
+LoC
+
+54
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+considered here. The choices were motivated mainly by the greater understandability
+and memorizability of the contents provided by the AD version in this case.
+The two dimensions relating to user modeling (Interest and FU) have a sort of
+intermediate status. Both fail to elicit clear-cut choices from our sample, and receive
+low importance rankings. Moreover, despite being closely related both conceptually
+and implementation-wise (the ‘wow’ button directly affects the user model; hence the
+way the system adapts the presentation to the user’s interests), our subjects failed to
+perceive such a relationship, and often behaved differently on these two dimensions,
+cf. Sect. 5.2.5.
+There are effects of personality traits on the AD/NAD choices. Two of the Big Five
+factors, conscientiousness and stability, seem to affect the AD versus NAD choices,
+confirming our expectations. According to the converging results from the regression and the cluster analyses, more conscientious people tend to dislike adaptivity
+on Location, and on the content adaptation with respect to Interest. People who are
+more emotionally stable, on the other hand, appreciate content adaptation on Interest. The locus of control, in turn, affects global judgment about AD/NAD, with more
+externally-oriented people tending to praise the very idea of non-adaptive over that
+of adaptive systems. As to FU, our data did not allow us to establish any significant
+relationship with any personality dimension. Finally, we could not prove that creativity, as an indicator of openness to novelty, has any effect on the acceptance of adaptive
+technologies.
+Conscientiousness (De Raad 2000; Howard 2000; Costa and McCrae 1992) is described as being concerned with the way we control, regulate and direct our impulses,
+and articulates into facets such as competence (self-efficacy), orderliness, dutifulness,
+achievement-striving, self-discipline and cautiousness. People high on conscientiousness have a good control on their own impulses, are confident in their ability to accomplish things, are well organized, have a clear sense of their duties and obligations and
+do not discourage easily. According to our analyses, these subjects tend to dislike
+delegating the start of a presentation to the system on the basis of location-awareness,
+and dislike adaptivity with respect to the user model (Interest).
+Emotional stability refers to the way people react to stressful situations: emotionally stable people are at ease most of the time, usually calm and not easily upset,
+free from persistent negative feelings and rapidly rebounding in time. At the other
+extreme, low stability (Neuroticism) correlates with strong emotional reactions: anxiety and anger, and sense of vulnerability. According to our data, emotionally stable
+subjects have a positive attitude towards content adaptation with respect to the user
+model (Interest).
+The Locus of Control is sensitive to where people feel the control over one’s beliefs
+and actions is located. When internal, the subject feels that s/he is the controller; an
+external LoC signals that the subject’s beliefs and actions are substantially independent from his/her own influence. Rotter (1966) showed that people who feel in control
+of their own beliefs/actions pay more attention to the environmental features that can
+orient their future behavior; are more active towards the environment; more interested in their own abilities, more worried about their own deficiencies; and try to
+oppose external attempts to influence their behavior. According to our data, these
+people have a general positive attitude towards adaptivity, as our results on the Global
+dimension show; they do not seem to be afraid to delegate some control, probably
+because they feel confident that they can always recover it. The subjects with a more
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+55
+
+external orientation, on the other hand, seem more interested in maintaining a direct
+control on the device, and praised non-adaptivity.
+Most of the expectations concerning personality traits have been born out: those
+relating to the issue of control broadly conceived (internal/external LoC, control over
+own emotional reactions (stability) and over own impulses (conscientiousness)) do
+seem to affect the way people perceive adaptive/non-adaptive technologies. The findings from studies conducted within the CASA framework (Johnson et al. 2001, 2006;
+Falaleeva and Johnson 2002; Marakas et al. 2000) are both confirmed and made more
+specific with respect to the topic of this work (adaptive technologies): people who are
+highly sensitive to the social facets of technology because of their external LoC and/or
+their neuroticism tend to reject AD, either globally (LoC) or on specific dimensions
+(content adaptation on the basis of interest for low emotionally stable people), in
+both cases preferring the less social, more traditional (and probably more reassuring)
+NAD technology.
+Finally, a high degree of control over one’s impulses (conscientiousness) positively
+correlates with NAD choices on location-awareness and Interest. This finding, if confirmed by further studies, is less easy to interpret than the other two, apparently
+contrasting with them. With LoC and emotional stability, in fact, it is the low-control
+end of the scale (external LoC, neuroticism) that correlates with a preference for
+NAD (and a high sensitivity to the social characteristics of technology), whereas with
+conscientiousness it is the high-control end that favors NAD.
+A possible explanation for the this contrast is of a factorial (psychometric) nature:
+conscientiousness and stability, as used in the discussion, are orthogonalized factors of
+the Italian version of the BFMS; as such, they represent ‘pure’ underlining personality
+traits, and their correlations are (close to) zero. LoC is not part of the same factorial
+structure, and maintains a significant negative correlation with both conscientiousness
+(ρ = −0.4 p < 0.01) and stability (ρ = −0.036, p < 0.05). The (apparent) contradiction might be due to a common factor between LoC and stability that is disjointed
+from the factors accounting for the results with conscientiousness.
+Another possibility is that there is no contrast at all. As far as we know, conscientiousness has not received the same attention as LoC and neuroticism from the
+CASA’s theorists, and we do not know whether, or how, it correlates with Johnson
+et al.’s (2001) CP. Should it turn out that conscientiousness positively correlates with
+sensitivity to the social aspects of technology, then the contradiction would disappear
+in favor of the unified view that high sensitivity to the social aspects of technology
+determines a preference for NAD technologies.
+Be it as it may, the results discussed above are consistent with the explicit concerns
+about control expressed by our subjects when motivating their choices, and with the
+findings in the literature discussed in section 2. With respect to the latter, however, our
+analysis provides a more articulated picture by examining the relationships between
+control and personality traits, and pinpointing when and how it is detrimental for
+adaptivity acceptance.
+An expectation that was not borne out concerns the role of creativity, which we
+hypothesized would affect acceptance of adaptive technologies. This trait describes
+a dimension of cognitive style, distinguishing imaginative and creative people from
+down-to-earth ones. Usually, more creative people are intellectually curious and sensitive to innovation. A more specific version of this trait, the ‘innovativeness in the
+domain of information technology’ (PIIT; Agarwal and Prasad 1998), has been shown
+to play an important, though indirect, role in affecting people’s intention to use
+
+56
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+technologies (Agarwal and Karahanna 2000). As long as creativity includes and subsumes PIIT, it must be concluded that this dimension was irrelevant to the NAD/AD
+choices, perhaps because both guides were seen as equal on innovation value. It should
+also be recalled that, in Sect. 5.1, creativity was seen to be inversely related to familiarity with technologies; hence, it is possible that in our sample more creative people
+were not of the kind sensitive to technology and innovation, possibly orienting their
+intellectual curiosity towards other aspects. Whether the first or the second (or any
+other) reason accounts for the absence of effects of creativity on NAD versus AD
+choices can only be revealed through further studies.
+The other two BFMS personality traits, extraversion and agreeableness, were, as
+expected, mostly ineffective.
+This study has attempted to contribute to a general model of the attitudes towards
+adaptivity in video-guides. It can be seen as a weakness that we resorted to elicited
+attitudes, whose relationship with ‘true’ ones is unclear. We concede that this can be a
+weakness. But consider what the term ‘true attitudes’ means: the only useful sense is
+that involving people living in a society where adaptive technology is available, such
+that they either have accessed it, or know (indirectly) about it. We know, however,
+that we are not going to have this benchmark for some time. In the meanwhile, we
+can only do our best to explore the field with the means available. In these respects,
+we believe that the methodology we exploited here is on no worse a footing than
+others, e.g., not with respect to studies targeting the attitudes of people who have
+accessed a specific, often experimental, technology, often using it on a single occasion.
+As argued in Sect. 1 and 2, these studies are too bound up with the peculiarities of
+the relevant piece of technology to help in generalizing towards models of attitudes
+towards adaptivity.
+Finally, this study has not addressed the relationships between attitudes and
+behavior. As pointed out in Sect. 2, this is a complex topic, involving both subtle
+theoretical and methodological issues. In our case, things are made even more difficult by the fact that we are studying a new technology. People do not have any
+experience of adaptive technologies, hence they do not have any beliefs or attitudes
+towards it, nor can they be asked about, e.g., frequency of use, a common measure of
+actual behavior in models such as TAM (Technology Acceptance Model; Davis 1989,
+1993). The first problem (beliefs/attitudes) was circumvented by exposing our subjects
+to stimulus situations portraying a fictional character using the technology, trying to
+maintain even indirect exposure to the implementation aspect as low as possible. As
+to the second, a possibility to start addressing it consists in replicating a study like the
+present one, followed by actual practice with an adaptive guide with a measurement
+of actual behavior.
+
+7 Conclusions
+This study showed that personality traits selectively affect the attitudes of people
+towards adaptivity, especially those relating to the notion of control. The first important consequence is that any evaluation of actual mobile guides can be systematically
+biased unless the personality of the users is explicitly controlled for or taken into
+account. As to the consequences of design and development, this is an entirely different topic with respect to those we have addressed here, and one that deserves much
+more investigation. At present we can point at two possibilities: (a) once adaptive
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+57
+
+audio-video guides are spread enough for users to have formed stable attitudes towards them (incorporating the effect of their personality traits), simply let users choose
+between adaptive and non-adaptive guides. (b) A much more intriguing alternative is
+to enable the system to quickly find out about the user’s personality traits (especially
+those related to the control issue) from the very first interactions, and then let it use
+this knowledge to dynamically increase or decrease user control over the relevant
+dimensions of adaptivity in order to accommodate the selective effects of personality
+traits. The main relevant research issue, here, is that of devising techniques for rapidly
+profiling the user’s personality from just a few interactions.
+As usually happens, it is not yet obvious that the results of this study will be replicated if similar tests are performed with different users groups or in slightly different
+contexts. Yet we think this investigation brought some interesting empirical evidence
+to the debate about personalization. We think, furthermore that the dimensions investigated are general enough to foresee that the results can be, to some extent, generalized to any situation of personalized information presentation in a mobile setting,
+such as, for example, the scenario of a mobile shopping assistant (see for example,
+Bohnenberger et al. 2002).
+Acknowledgements This research was partially funded by the Provincia Autonoma di Trento under
+the project PEACH: Personal Experience of Active Cultural Heritage http://peach.itc.it . We would
+like to thank all the other researchers involved in the project and in particular Oliviero Stock, Tsvika
+Kuflik and Cesare Rocchi for the fruitful discussions around the topics discussed in this paper.
+
+Appendix A
+Information sheet (translated from Italian)
+The video clips you are going to see concern a hypothetical visitor during a visit to
+Castello del Buonconsiglio, and more specifically, to Torre Aquila. The four walls of
+the tower’s room are decorated in the upper part with frescos depicting the Cycle of
+the Months.
+You will be shown our hypothetical visitor in two alternative situations. In the first,
+he will use a guide, call it guide1, that takes the initiative in selecting and proposing him the contents. In the other situation, he uses a guide, call it guide2, which he
+explicitly tells what to do by means of menu-based systems. In both cases, the resulting
+contents presented to the visitors are identical.
+To emphasise some characteristics (which will be better explained later on) we
+have divided the two alternative visits into four parts each. Hence, the video clips
+are structured into four portions, in each of which the corresponding parts of the two
+visits will be shown one after the other. For instance, during the first portion you will
+see the first part of the first visit and the first part of the second visit, and so on. At
+the end of each portion you will be asked some questions concerning what you have
+just seen.
+Both visits start with the visitor arriving in Torre Aquila’s room.
+Information concerning the various portions
+
+58
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+Location
+In this first portion the two visits differ because:
+•
+•
+
+In the first the system can detect the position of the visitor in the room and the
+fresco he is facing, and use this information to start the presentation about that
+fresco.
+In the second, it is the visitor who starts the presentation about the fresco he is
+facing.
+
+In both cases, if the user does not find the presentation interesting, he can interrupt
+it. At this point:
+•
+•
+
+Guide1 chooses the following presentation
+With guide2, it is the user who chooses the next topics.
+
+Interest
+Our visitor is particularly interested in the agricultural techniques used in the past.
+•
+•
+
+Guide1 knows about the visitor’s interests, and adapts the content of the presentation to them.
+With guide2, the visitor can choose the topic he is most interested in from a
+structured list.
+
+Follow-ups
+In the next portion, the visitor’s interest is captured when the system mentions Castel
+Stenico, made by the system, and he wants to know more about this topic.
+•
+
+•
+
+With guide1, the visitor signals his interest for Castel Stenico by clicking the ‘wow’
+button, placed on the right upper part of the display. In response, the system
+assembles a presentation consisting of the material that it had already planned to
+present, followed by in-depth information about Castel Stenico.
+With guide2, once the presentation is finished, the visitor can choose the topic
+‘Castel Stenico’ form the menu.
+
+History
+The visitor is now almost at the end of the visit. In both situations, and with both systems, he has seen the same frescos in the same order, and gathered the same amount
+of information about the same topics. In this last portion:
+•
+•
+
+Guide1 keeps track of the visit, and of the contents shown. When presenting the
+last fresco, it uses this knowledge to emphasize the continuity and the links with
+what the visitor has already seen.
+With guide2, the visitor can maintain the continuity by himself, by choosing (when
+he finds it appropriate) to listen again to topics concerning the previous fresco.
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+59
+
+References
+Abwod, G.D., Mynatt, E.D.: Charting past, present and future research in ubiquitous computing.
+ACM Trans. Comp. Hum. Interact. 7(1), 41–57 (2000)
+Agarwal, R., Karahanna, E.: Time flies when you’re having fun: cognitive absorption and beliefs about
+information technology usage. MIS Q. 24(4), 665–694 (2000)
+Agarwal, R., Prasad, J.: A conceptual and operational definition of personal innovativeness in the
+domain of information technology. Inf. Syst. Res. 9(2), 204–215 (1998)
+Agresti, A.: Categorical Data Analysis. John Wiley and Sons, New York (2002)
+Ajzen, I.: Attitude theory and the attitude–behavior relation. In: Krebs, Schmidt (eds.) New Directions
+in Attitude Measurment, pp. 41–57. deGruyter, Berlin (1998)
+Alfaro, I., Nardon, M., Pianesi, P., Stock, O., Zancanaro, M.: Using cinematic techniques on mobile
+devices for cultural tourism. Inf. Technol. Tourism 7(2), 223–230 (2004)
+Alpert, S.R., Karat, J., Karat, C.-M., Brodie, C., Vergo, J.G.: User attitudes regarding a user-adaptive
+eCommerce web site. User Model. User-Adap. Interact. 13(4), 373–396 (2003)
+Bandura, A.: Social Learning Theory. Prentice-Hall, Englewood Cliffs, N.J (1977)
+Bandura, A.: Self Efficacy: The Exercise of Control. W.H. Freeman, New York (1977)
+Baus, J., Krüger, A., Wahlster, W.: A resource-adaptive mobile navigation system. In: Proceedings of
+the 7th International Conference on Intelligent User Interfaces (IUI’02), pp. 15–22. San Francisco,
+CA (2002)
+Becker, P.: The four-plus-X factor model as a framework for the description of normal and disordered
+personality. A pilot study. Trier Psuchol Berichte Band29, Heft 1. University of Trier (2002)
+Bohnenberger, T., Jameson, A., Krueger, A., Butz, A.: Location-aware shopping assistance: evaluation of a decision-theoretic approach, pp. 159–169. In: Proceedings of Mobile-HCI-02, Pisa, Italy
+(2002)
+Brusilovsky, P.: Adaptive hypermedia. User Model. User Adapt. Inter. Ten Year Anniversary Issue
+(Alfred Kobsa ed.) 11(1/2), 87–110 (2001)
+Brusilovsky, P., Maybury, M.T.: From adaptive hypermedia to the adaptive web. Commun. ACM.
+45(5), 30–33 (2002)
+Brusilovsky, P., Karagiannidis, C., Sampson, D.: Layered evaluation of adaptive learning systems. Int.
+J. Continuing Eng. Educ. Lifelong Learn. 14(4/5), 402–421 (2004)
+Butz, A.: Between location awareness and aware locations: where to put the intelligence. Appl. Artif.
+Intell. (Special Issue on AI in Mobile Systems) 18(6), 501–512 (2004)
+Cheverst, K., Davies, N., Mitchell, K.: The role of adaptive hypermedia within a context-aware
+tourist GUIDE. Commun. ACM (Special Issue on adaptive Web-based Systems and Adaptive
+Hypermedia) 45(5), 47–51 (2002)
+Chin, D.N.: Empirical evaluation of user model and user-adaptive system. User Model User-Adap.
+Interact. 11(1–2), 181–194 (2001)
+Cigliano, E., Monaci, S.: Multimuseum: a multichannel communication project for the National Museum of Cinema of Turin. In: Proceedings of Museum and the Web 2003. Charlotte, NC, USA
+(last http://www.archimuse.com/mw2003/papers/monaci/monaci.html) (2003)
+Costa, P.T., McCrae, R.R.: NEO PI-R: professional manual. Psychological Assessment Resources.
+Odessa, FL (1992)
+Craig, A.R., Franklin, J.A., Andrews, G.: A scale to measure locus of control of behaviour. Br. J. Med.
+Psychol. 41, 397–404 (1984)
+Davis, F.D.: Perceived usefulness, perceived ease of use, and user acceptance of information
+technology. MIS Q. 13(3), 319–340 (1989)
+Davis, F.D.: User acceptance of information technology: system characteristics, user perceptions and
+behavioural impacts. Int. J. Man-Mach. Stud. 38(3), 475–587 (1993)
+De Raad, B.: The Big Five Personalità Factors: The Psycholexical Approach to Personalità. Hogrefe
+& Huber Publishers, Göttingen (2000)
+Digman, J.M.: Higher-order factors of the Big Five. J. Pers. Soc. Psychol. 73, 1246–1256 (1997)
+Farma, T., Cortinovis, I.: Un questionario sul “locus of control”: suo utilizzo nel contesto Italiano
+(A questionnaire on the ‘locus of control”: its use in the Italian context). Ricerca in Psicoterapia,
+vol. 2, Edizioni La Vita Felice/Tempo Libro srl, Milano (2000)
+Falaleeva, N.G., Johnson R.D.: Influence of individual psychological traits on attribution toward
+computing technology. In: Proceedings of Eighth Americas Conference on Information Systems.
+ACIS 2002. Dalias, Texas, USA. pp. 1028–1033 (2002)
+Gena, C.: Methods and techniques for the evaluation of user-adaptive systems. The Knowl. Eng. Rev.
+20(1), 1–37 (2005)
+
+60
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+Gena, C., Torre, I.: The importance of adaptivity to provide onboard services: a preliminary evaluation
+of an adaptive tourist information service onboard vehicles. Appl. Artif. Intell. (Special Issue on
+AI in Mobile Systems) 18(6), 549–580 (2004)
+Giannoutsos, V.: Stress, attitudes and personality in computing. In: Proceedings of ETHICOMP 2004,
+Syros, Gr. (2004)
+Goren-Bar, D., Graziola, I., Rocchi, C., Pianesi, F., Stock, O., Zancanaro, M.: Designing and redesigning an affective interface for an adaptive museum guide. In: Proceedings of Affective Computing
+and Intelligent Interaction: First International Conference, October 22–24, 2005, pp. 939–946
+(2005a) Beijing, China
+Goren-Bar, D., Graziola, I., Kuflik, T., Pianesi, F., Rocchi, C., Stock, O., Zancanaro, M.: I like it: an
+affective interface for a multimodal museum guide. In: Proceedings of Workshop on Affective
+Interaction, January 9, pp. 21–26, San Diego, U.S.A. (2005b)
+Grinter, R.E., Aoki, P.M., Hurst, A. Szymanski, M.H., Thornton, J.D., Woodruff, A.: Revisiting the
+visit: understanding how technology can shape the museum visit. In: Proceedings of the ACM
+Conference on Computer Supported Cooperative Work, CSCW 2002, pp. 146–155. New Orleans,
+LA. (2002)
+Heider, F.: The Psychology of Interpersonal Relations. Wiley, New York (1957)
+Hitzeman, J., Mellish, C., Oberiander, J.: Dynamic generation of museum web pages: The intelligent
+labelling explorer. Arch. Museum Inform. 11, 107–115 (1997)
+Horvitz, M.: Principles of mixed-initiative user interfaces. In: Proceedings of CHI 99, ACM SIGCHI
+Conference on Human Factors in Computing Systems, Pittsburgh, pp. 159–166 PA, ACM Press.
+(1999)
+Howard, P.: The Owner’s Manual for the Brain. Bard Press, Austin, TX 1999 (2nd Edition), 2006 (3rd
+edition) (1994)
+Howard, P.J.: The Owner’s Manual for the Brain: Everyday Applications from Mind-Brain Research.
+Bard Press. Austin, TX (2000)
+Hristova, N., O’Hare, G.M.P.: Ad-me: wireless advertising adapted to the user location, device and
+emotions. In: Proceedings of the 37th Hawaii International Conference on System Sciences –
+2004, vol. 9, p. 90285c (2004)
+Jameson, A.: Adaptive interfaces and agents. In: Jacko, J., Sears, A. (eds.) Human-Computer Interaction Handbook, pp. 305–330 Erlbaum, Mahwah, NJ (2003)
+Jameson, A., Schwarzkopf, E.: Pros and cons of controllability: an empirical study. In: Brusilovsky,
+P., Conejo, E. (eds.) Adaptive Hypermedia and Adaptive Web-based Systems: Proceedings of
+AH2002, pp. 193–202 Malaga, Spain. (2002)
+John, O.P., Srivastava, S.: The big five trait taxonomy: history, measurement, and theoretical perspectives. In: Pervin, L. A., John, O.P. (eds.) Handbook of Personality. Theory and Research, 2nd edn.,
+pp. 102–138. Guilford, New York (1999)
+Johnson, R.D., Marakas, G.M., Palmer, J.W., Tool or social actor? Factors contributing to differential
+social attributions toward computing technology, University of Central Florida Working Paper,
+Orlando, FL (2001)
+Johnson, R.D., Marakas, G.M., Palmer, J.W.: Differential social attributions toward computing technology: An empirical investigation Int. J. Human-Comput. Stud. 64(5), 446–460 (2006)
+Kay, J.: Learner control. User Model. User-Adap. Interact. 11(1–2), 111–127 (2001)
+Kruger, A., Butz, A. Muller, Ch., Stahl, Ch., Wasinger, R., Steinberg, K.E., Dirschl, A.: The connected
+user interface: realizing a personal situated navigation service. In: Proceedings of Intelligent User
+Interfaces (IUI2004), pp. 161–168 Madeira, Portugal (2004)
+Lester, C.Y., Brown, M.: Proposing CAPS as a link in the bridge across the divide. In: Proceedings of
+Grace Hopper Celebration – Women in Computing 2004, Chicago (2004)
+Marakas, G.M., Johnson, R.D., Palmer, J.W.: A theoretical model of differential social attributions
+toward computing technology: When the metaphor becomes the model. Int. J. Human-Comput.
+Stud. 52(4), 719–750 (2000)
+Mayes, J.T., Fowler, C.J.H.: Learning technology and usability: a framework for understanding courseware. Interact. Comput. 11, 485–497 (1999)
+McCrae, R.R., John, O.P.: An introduction to the five-factors model and its applications. J. Pers. 60,
+175–215.
+Negroponte, N.: Being Digital. Vintage Books (1995)
+Nielsen, J.: Paper versus computer implementations as mockup scenarios for heuristic evaluation. In:
+Proceedings of 3rd IFIP Conf. Human-Computer Interaction - INTERACT 90, 27–31 Aug, 1990,
+pp. 315–320 Cambridge, U.K. (1990)
+Norman, D.A.: The Invisible Computer. MIT Press, pp. 23–50, 185–202 (1998)
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+61
+
+Oberlander, J., Mellish, C., O’Donnell, M., Knott, A.: Exploring a gallery with intelligent labels.
+In: Proceedings of the Fourth International Conference on Hypermedia and Interactivity in
+Museums, pp. 153–161. Paris, September, (1997)
+Oppermann, R., Specht, M.: A context-sensitive nomadic information system as an exhibition guide.
+In: Proceedings of the Handheld and Ubiquitous Computing Second International Symposium,
+HUC 2000, pp. 127–142 Bristol, UK. (2000)
+Petrelli, D., Not, E., Sarini, M., Stock, O., Strapparava, C., Zancanaro, M.: HyperAudio: locationawareness + adaptivity. In: Proceedings of International Conference on Computer-Human Interaction CHI 99. pp. 21–22 Pittsburgh, Pennsylvania (1999)
+Petrelli, D., Not, E.: User-centred design of flexible hypermedia for a mobile guide: reflections on
+the hyperaudio experience. User Model. User-Adap. Interac. J. Personalization Res. 15(3–4),
+303–338. http://dx.doi.org/10.1007/s11257–005–8816–1 (2005)
+Perugini, M., Di Blas, L.: Analyzing personality-related adjectives from an eticemic perspective: the
+big five marker scales (BFMS) and the Italian AB5C taxonomy. In: De Raad, B., Perugini, M.
+(eds.) Big Five Assessment. Hogrefe und Huber Publishers, pp. 281–304 Göttingen (2002)
+Preece, J., Rogers, Y., Sharp, H.: Interaction Design: Beyond Human-Computer Interaction. Wiley
+(2002)
+Proctor, N., Tellis, C.: The state of the art in museum handhelds in 2003. In: Proceedings of Museums
+and the Web. Charlotte, NC, U.S.A. (last http://www.archimuse.com/mw2003/papers/proctor/proctor.html) (2003)
+Rocchi, C., Stock, O., Zancanaro, M., Kruppa, M., Krüger, A.: The museum visit: generating seamless
+personalized presentations on multiple devices. In: Proceedings of Intelligent User Interfaces
+(IUI2004), pp. 316–318 Madeira, Portugal (2004)
+Rocchi, C., Zancanaro, M.: Rhetorical patterns for adaptive video documentaries. In: Proceedings of
+Adaptive Hypermedia Conference, pp. 324–327 Eindhoven, Holland (2004)
+Rotter, J.B.: Generalized expectancies for internal versus external control of reinforcement. Psychol.
+Monogr. 80 (1, Whole N. 609) (1966)
+Sharifi, G., Vassileva, J., Deters, R.: Seamless communication and access to information for mobile
+users in a wireless environment. In: Proceedings ICEIS2004 International Conference on Enterprise Information Systems, pp. 122–130 Porto (2004)
+Shneiderman, B.: Eight golden rules for interface design. In: Designing the User Interface, 3rd edn.
+Addison Wesley, U.S.A. (1998)
+Totterdell, P., Boyle, E.: The evaluation of adaptive systems. In: Browne, D., Totterdell, P., Norman,
+M. (eds.) Adaptive User Interfaces, pp. 161–194. Academic Press, London (1990)
+Virzi, R.A., Sokolov, J.L., Karis, D.: Usability problem identification using both low- and high-fidelity prototypes. In: Proceedings of International Conference on Human Factors in Computing
+Systems – CHI’96. Vancouver, pp. 236–243 British Columbia, Canada (1996)
+Wexelblat, A., Maes, P.: Issues for Software Agent UI. Unpublished manuscript, available from
+http://wex.www.media.mit.edu/people/wex/. (1997).
+Wicker, A.W.: Attitudes versus actions: the relationship of verbal and overt behavioral responses to
+attitude objects. J. Soc. Iss. 25, 41–78. (1969)
+Wiggins, J.S.: The Five-Factor Model of Personality. Guilford Press New York, NY (1996)
+
+Author’s Vitae
+Dr. Dina Goren-Bar ITC-irst, via Sommarive 18, 38050 Povo (Tn), Italy. Dr. Goren-Bar is a Lecturer
+in the Department of Information Systems Engineering at Ben-Gurion University of the Negev, BeerSheva, Israel. She received a PhD. in Computers and Information Systems from Tel-Aviv University,
+Israel, and an MA in Psychology from the Hebrew University at Jerusalem, Israel. She is a Certified
+Educational Psychologist and Certified System Analyst. Her research interests focus on multi-modal
+interaction design, functional evaluation and user studies of intelligent applications applied mainly to
+telemedicine and entertainment. She has published numerous articles, and owns several patents in the
+fields of Intelligent User Interfaces and Personalized Information Visualization. She was appointed
+to a number of program and organizing committees of conferences and workshops. The present work
+has been carried out while she was a visiting researcher at the Center for Scientific and Technological
+Research – ITC-irst and at the Center for Evaluation of Language and Communication Technologies,
+located in Trento, Italy.
+Ilenia Graziola ITC-irst, via Sommarive 18, 38050 Povo (Tn), Italy. Ilenia Graziola is studying Cognitive Psychology in Italy and has been at the ITC in Trento, Italy since 2004, working on evaluation,
+
+62
+
+User Model User-Adap Inter (2006) 16: 31–62
+
+text authoring and adaptivity for multimedia museum guide. In particular she is working on various
+research aspects related to the development and evaluation of Intelligent User Interfaces, Context
+Awareness and Content Preparation. This work is conducted in the framework of the collaboration
+between the University of Haifa, Israel and ITC-irst. Her contribution is based on experiences gained
+both from her degree thesis work as well as her current research.
+Dr. Fabio Pianesi ITC-irst, via Sommarive 18, 38050 Povo (Tn), Italy. Dr. Pianesi is Head of the
+Cognitive and Communication Division of ITC-irst, which he joined in 1988 after working as a clinical
+neuropsychologist. Dr. Pianesi is Chairman of CELCT (Centre for the Evaluation of Language and
+Communication Technology). He teaches Cognitive Ergonomics at the University of Trento and is
+a member of the Coordinating Committee of the Information and Communication Doctoral School
+of the University of Trento. Dr. Pianesi received his ‘Laurea’ degree in Psychology from the University of Rome, and a Specialization degree in Computer Science from the same University. He
+has publications in theoretical linguistics, formal ontology and logics, natural language processing,
+machine translation, and human computer interaction. He has authored over ninety technical papers
+and published two books.
+Dr. Massimo Zancanaro ITC-irst, via Sommarive 18, 38050 Povo (Tn), Italy. Massimo Zancanaro has
+been working as a researcher in the Cognitive and Communication Technologies Division at ITC-irst
+since 1994. He received is Laurea Degree in Computer Science from the University of Milano in 1992.
+His primary interest is in the field of Intelligent Interfaces and in particular language-based interfaces.
+He was appointed to a number of program and organizing committees of conferences and workshops
+in this area. Since 2004, he has taught a course on Computer-Human Interaction at the International
+PhD in Telecomunications at the University of Trento.
+
+View publication stats
+
+

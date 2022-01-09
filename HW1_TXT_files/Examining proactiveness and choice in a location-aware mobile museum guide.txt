@@ -1,0 +1,1360 @@
+Accelerat ing t he world's research.
+
+Examining proactiveness and choice
+in a location-aware mobile museum
+guide
+Tsvi Kuflik, Joel Lanir
+Interacting with Computers
+
+Cite this paper
+
+Downloaded from Academia.edu 
+
+Get the citation in MLA, APA, or Chicago styles
+
+Related papers
+
+Download a PDF Pack of t he best relat ed papers 
+
+Examining Fact ors Influencing t he Disrupt iveness of Not iﬁcat ions in a Mobile Museum Cont ext
+Tsvi Kuflik, Joel Lanir
+
+Applying Int errupt Management Concept s in t he Museum
+Tsvi Kuflik
+T he Influence of a Locat ion-Aware Mobile Guide on Museum Visit ors' Behavior
+Tsvi Kuflik
+
+Interacting with Computers xxx (2011) xxx–xxx
+
+Contents lists available at ScienceDirect
+
+Interacting with Computers
+journal homepage: www.elsevier.com/locate/intcom
+
+Examining proactiveness and choice in a location-aware mobile museum guide
+Joel Lanir a,⇑, Tsvi Kuflik a, Alan J. Wecker a, Oliviero Stock b, Massimo Zancanaro b
+a
+b
+
+Department of Information Systems, University of Haifa, Mount Carmel, Israel
+Fondazione Bruno Kessler (FBK-irst), Trento, Italy
+
+a r t i c l e
+
+i n f o
+
+Article history:
+Received 14 November 2010
+Received in revised form 14 March 2011
+Accepted 31 May 2011
+Available online xxxx
+Keywords:
+Amount of information
+Choice
+Context-aware computing
+Cultural heritage
+Mobile guide
+Proactiveness
+
+a b s t r a c t
+Cultural heritage is an area that has recently drawn research attention, especially for exploring ways to
+harness novel mobile technologies for supporting visitors. The main benefit of these novel technologies is
+their ability to provide personalized, context-aware information services to their users. However, the use
+of context-awareness is connected to a fundamental issue of proactiveness – should the system keep the
+user in control all the time and only respond to user requests, or should the system take initiative and
+propose its services when needed? Proactiveness of mobile visitors’ guides brings with it a possibility
+for better service to the user at the cost of taking control out of the user’s hand. The amount of choice
+given to visitors is another key issue. With the vast amount of information available for each exhibit,
+adaptation of the amount of information by limiting the number of content items, could be warranted
+to filter the information according to the visitors needs. However, it is not clear how reducing choice
+in terms of the number of content items that are presented to the visitor affects visitor behavior and satisfaction. We examined these issues in a controlled user study conducted with actual museum visitors;
+comparing usage, behavior patterns, and attitudes of visitors using three versions of a location-aware
+mobile museum guide.
+Ó 2011 Elsevier B.V. All rights reserved.
+
+1. Introduction
+Context-aware mobile applications have become common in
+our daily lives. These programs and services react to the environment and adapt their behavior to anticipate users’ needs. Dey
+and Abowd (2000) define a context-aware system as a system that
+‘‘uses context to provide relevant information and/or services to
+the user, where relevancy depends on the user’s task’’. Thus, context-aware systems capture contextual attributes (such as the
+user’s location and current environment) to better understand
+what services or information to provide the users. The presentation
+of these services or information brings with it the issue of proactiveness – should the system initiate the presentation of information or should it wait for the user to request information. The first
+goal of the present work is to better understand how varying the
+level of proactivity in a context-aware system affects users in a real
+world scenario, i.e. a location-aware mobile museum guide. The
+second goal of this study is to examine the effect that varying
+the number of choices has on users. We examine this in terms to
+the number of content items provided to users. We examine these
+two related issues by empirically comparing different versions of a
+location-aware mobile multimedia guide.
+
+⇑ Corresponding author. Tel.: +972 54 9133993; fax: +972 4 8288181.
+E-mail addresses: ylanir@is.haifa.ac.il (J. Lanir), tsvikak@is.haifa.ac.il (T. Kuflik),
+ajwecker@gmail.com (A.J. Wecker), stock@fbk.eu (O. Stock), zancana@fbk.eu (M.
+Zancanaro).
+
+Dey and Abowd (2000) list three categories of features that
+context-aware systems might support: (1) presentation of information and services to the user; (2) automatic execution of a service; and (3) tagging of context to information for later retrieval.
+Focusing on the first two, other researchers have also distinguished between systems that passively notify the user of contextual information or services and systems that proactively initiate
+services. Barkhuus and Dey (2003) define the first category as passive context-awareness and the second as active context-awareness.
+In their example, a mobile phone that automatically changes its
+time when the phone enters a new time zone employs active
+context-awareness while a phone that prompts the user with
+information about the time zone change and lets the user change
+the time employs passive context-awareness. Similarly, Tennenhouse (2000) distinguishes between proactive and interactive
+computing. Proactive systems use sensors and actuators to
+monitor and to shape their surroundings, anticipate users’ needs
+and act on their behalf (Want et al., 2003). Interactive systems,
+on the other hand, are human-centered and human-controlled.
+Schilit et al. (1994) categorize context-aware systems into two
+orthogonal dimensions: whether the task at hand is getting information or doing a command, and whether it is done manually or
+automatically. In this paper, we follow the definition of Barkhuus
+and Dey of active and passive context-awareness, replacing the
+term ‘‘active’’ with ‘‘proactive’’ to describe a system that initiates
+action, since it better fits our way of initiating information
+presentation.
+
+0953-5438/$ - see front matter Ó 2011 Elsevier B.V. All rights reserved.
+doi:10.1016/j.intcom.2011.05.007
+
+Please cite this article in press as: Lanir, J., et al. Examining proactiveness and choice in a location-aware mobile museum guide. Interact. Comput. (2011),
+doi:10.1016/j.intcom.2011.05.007
+
+2
+
+J. Lanir et al. / Interacting with Computers xxx (2011) xxx–xxx
+
+Proactiveness simplifying the task while taking control out of
+the user’s hand, usually by adapting the user interface according
+to the context. However, adaptive user interfaces may violate
+many important usability guidelines such as user control, predictability, and transparency (Höök, 2000). Retaining user control over
+the system is an important guideline in interactive interfaces. It is
+emphasized that most users have strong desire to sense that they
+are in charge of the interaction and that the interface responds to
+their actions (Shneiderman and Plaisant, 2009; Jameson and
+Schwarzkopf, 2006; Norman, 1999). Predictability of the interface
+means that it always gives the same response given the same input. Transparency means that the user can understand something
+of its inner working. Thus, an important question when designing
+context-aware adaptive user interfaces is how much should we
+go toward anticipating users needs while taking away control from
+the users, and how much control of the interface is better left in the
+hands of users.
+A possible way of dealing with loss of control in adaptive systems is to give users control over how the system adapts (Jameson
+and Schwarzkopf, 2006; Kay, 2001). However, it may be difficult
+for the users to understand the adaptivity model and therefore
+know how to configure it. Also, few users spare the time to customize their systems, let alone change the adaptivity parameters.
+Adaptive systems therefore usually utilize either passive or proactive context-awareness to adapt their interface. To try to maintain
+as much user control of the interface as possible, it might be plausible to consider employing passive rather than active contextaware methods. However, maximizing user control in an adaptive
+system might not be as important as it seems from the design
+guidelines. While users indeed feel a lack of control when using active context-aware systems (Barkhuus and Dey, 2003), many users
+prefer active context-aware system because of the benefits that
+such systems provide (Barkhuus and Dey, 2003; Jameson and
+Schwarzkopf, 2006). Furthermore, users would be more willing
+to give up control when the system’s actions are predictable and
+transparent (Höök, 2000).
+Mobile guides are one of the most commonly used examples
+and test-beds to investigate context-aware computing (Dey,
+2001). Users of mobile guides move around and are interested in
+receiving information that is related to their current location. A
+location-aware mobile guide takes into account the visitors’ spatial
+location, and adapts its interface in order to provide the visitor
+with location-related information (Cheverst et al., 2000; Stock
+et al., 2007; Abowd et al., 1997). Adaptation of the user interface
+is also often done for personalization purposes. Information presentation can be personalized to suit different types of visitors
+according to the specific needs and characteristics of the visitors
+such as age, interest, familiarity with the museum, cultural level
+and more. Personalizing the information can be achieved using a
+user model that represents the user interests and behavior based
+on their past interactions with the multimedia guide and on their
+past contextual information (Cheverst et al., 2000; Stock et al.,
+2007; Kuflik et al., 2011; Petrelli and Not, 2005). Using a user
+model in conjunction with the current context, the system can
+filter information, and present relevant personalized information
+for each location.
+One aspect of personalization is the number of content items (or
+choices) presented to the user, which usually affects the amount of
+information available. Various types of visitors may require different granularity and different amounts of information (Bowen and
+Filippini-Fantoni, 2004). For example, a domain expert would probably prefer a guide that provides as much information as possible;
+both in depth and breadth. An advantage of a mobile multimedia
+guide is its ability to offer visitors access to large amounts of information on every point of interest. However, merely, providing more
+choice is not always beneficial. Visitors in museums and cultural
+
+heritage sites can be overwhelmed by the choice of information
+available for selection – much of which may be of little interest to
+them (Gammon and Burch, 2008). There is only a limited amount
+of time available to hold visitor’ attention in the museum and
+visitors often do not read all information available, even when it is
+relatively short (Serrell, 1997). Personalized guides aim to filter
+the information to suit the specific interests of each visitor. However, the number of choices, presented to the visitor, as well as
+the quality of the personalization, may affect the way the visitor visits the museum and the overall visitor engagement and satisfaction.
+In this study, we examine the issues of proactive vs. passive
+context-awareness and choice via number of content items in a
+controlled user study. We look at actual usage, user behavior and
+users’ attitudes using three versions of a mobile museum guide:
+(1) A passive menu-based system that allows visitors to choose
+from a list of presentations to view related to an exhibit. (2) A passive simple system that allows visitors to view only one presentation per exhibit, and (3) A proactive system that automatically
+presents information (multiple presentations) as the user enters
+the vicinity of the exhibit. We conducted the user study in realworld settings in a museum with actual visitors. The paper is structured as follows: in Section 2 we describe the background work
+done in relevant areas in context-aware computing and mobile
+guide research. Section 3 describes the museum mobile guide
+and the three interfaces that we have used in the user study. We
+then go on describing the methodology of the user study in Section 4. Section 5 describes the results of the study followed by a
+discussion of the results and its limitations in Section 6 and concluding remarks in Section 7.
+2. Related work
+Table 1 shows a categorization of mobile guides according to
+the two main themes of this paper: context awareness (passive
+vs. proactive) and amount of content choice the interface provides
+(simple vs. multiple). Quadrant I includes guides that have only
+one (audio or visual) presentation per location and are not proactive. Most museum audio guides today are of this kind. Quadrant
+II includes guides that have a simple interface and are proactive.
+Quadrant III includes guides that are more complex in terms of
+having more content and therefore offer choice of content and have
+passive context-awareness while quadrant IV includes complex
+proactive guides. In this paper, we compare interfaces of quadrants
+I, III and IV.
+2.1. Passive and proactive context-awareness in mobile guides
+A location-aware mobile guide is a canonical context-aware
+application and is a perfect mean of investigating issues of context-aware applications (Dey, 2001). The users’ location is one of
+the most common contextual details to be used to characterize a
+person in an interaction (Dey and Abowd, 2000; Want et al.,
+Table 1
+Mobile guides according to type of context-awareness and number of choices
+provided by the guide (area II is not covered in this study).
+Context-awareness
+
+Choice
+Simple
+
+Multiple
+
+Passive
+
+Proactive
+
+I
+Simple guide (audio guides, simple
+multimedia guide)
+
+II
+Context-aware simple
+proactive guide
+
+III
+Menu-based Multimedia guide
+
+IV
+Proactive multimedia
+guide
+
+Please cite this article in press as: Lanir, J., et al. Examining proactiveness and choice in a location-aware mobile museum guide. Interact. Comput. (2011),
+doi:10.1016/j.intcom.2011.05.007
+
+J. Lanir et al. / Interacting with Computers xxx (2011) xxx–xxx
+
+2003; Chen and Kotz, 2000). Indeed, most context-aware mobile
+guides use location to provide visitors with contextualized information (Cheverst et al., 2000; Abowd et al., 1997; Oppermann
+and Specht, 2000; Stock and Zancanaro, 2007; Ghiani et al.,
+2009). In many context-aware mobile guides, location is often used
+in combination with other forms of context. For example, HyperAudio (Petrelli et al., 2001) uses the amount of time spent in a certain location, knowledge of previous locations, and knowledge
+gained from an initial questionnaire to personalize information.
+In Cyberguide (Abowd et al., 1997) Knowledge of past locations
+was used to provide information in indoor and outdoor settings.
+The GUIDE system (Cheverst et al., 2000) provides localized
+information according to visitor’s interests, the visitor’s current
+location and locations already visited as well as the time of day
+and knowledge of opening hours of tourist attractions. In the current study, we use location-awareness as a mean to examine issues
+in context-aware applications.
+There have been different methods of providing information to
+visitors in context-aware guides ranging from passive to active
+information provisioning. Systems supporting passive contextaware information services claim that it is important to keep the
+visitor in full control of the interface. Systems such as Cyberguide
+(Abowd et al., 1997), GUIDE (Cheverst et al., 2000), PIL (Kuflik et al.,
+2011) and others use user location information to perform minor
+changes in the user interface. The user then interacts with the
+interface to request information specific to the location he or she
+is at. For example, Hippie (Oppermann and Specht, 2000) signals
+the availability of new information by displaying a blinking icon
+and playing a short indicator sound alert. Information is then delivered by pressing the icon.
+Systems supporting proactive context-aware information services are based on the assumption that in an environment such
+as museums, focusing on interacting with the guide’s interface is
+contradictory to the experience and relationship with the artifacts
+and the environment. Based on their observations that interacting
+with technology in the museum is not a favored activity, Petrelli
+and Not (2005) stated that in a museum most of the visitor’s attention is devoted to the exhibit and not to the guide system. Interactions with the guide are therefore recommended to be reduced to a
+minimum. A guide that automatically decides what to do is therefore expected to have a greater appeal than one that asks for user
+assistance. As they point out, this has also been supported in the
+evaluation of GUIDE (Cheverst et al., 2000) in which the majority
+of users did not want to navigate for information retrieval. The
+HyperAudio system (Petrelli et al., 2001) was therefore designed
+to support proactive context-awareness by implementing some
+reactive components. A general audio commentary was automatically played when a visitor entered a new location. After hearing
+the audio commentary, several links to elaborate on the topic were
+available on the device for the visitor to actively choose from. Time
+spent in a location was also considered. For example, if the presentation has finished and the user has not moved for two seconds
+from a location, another presentation automatically started. Similarly, the Ubicicero guide (Ghiani et al., 2009) had an option to proactively start an introductory explanation when users approach an
+exhibit, with more information available through the guide’s interface. ec(h)o Wakkary and Hatala, 2006 is another example of a proactive system. During the visit the visitor’s movement creates a
+dynamic soundscape of ambient sounds. As the visitor approaches
+an exhibit, the soundscapes fades away and the visitor is presented
+with three audio prefaces in sequence. The visitor chooses the
+audio preface using a wooden cube. The choice for audio preface
+is an example of a passive service the ec(h)o system provides,
+while the soundscape and the presentation of three audio prefaces
+that are being automatically played are examples of active contextawareness. PEACH (Stock et al., 2007) is another example of a
+
+3
+
+system that proactively presents automatically generated adaptive
+video documentaries. As visitors first approach a stationary device,
+animated characters on the screen initiate a dialog with the visitor.
+Similarly, when users approach an exhibit, a presentation automatically starts. However, PEACH used IrDA technology in which the
+user actively needs to point the device toward the IR emitter. In
+this sense, the user actively requests information similar to a passive context-aware system. LISTEN (Zimmermann and Lorenz,
+2008) takes the proactive approach to the extreme. In order for
+technology to be invisible to the user, LISTEN users do not directly
+interact with a device and carry only headphones. It provides museum visitors with audio presentations, adapted to the user’s context. The visitor moves freely in the museum and once the user
+reaches and faces an exhibit, the attached acoustic information
+and simulation of a moving sound source is proactively activated.
+The only way the visitor can (implicitly) control the audio presentations is by moving or changing head orientation.
+2.2. Degrees of choice in mobile guides
+Most interface experts advocate designing simple interfaces for
+interactive systems in order to enhance system usability because it
+may reduce redundant and unnecessary functionality (Nielsen,
+1993). This enables users to achieve their goals more efficiently
+and effectively, and therefore may enhance their satisfaction. However, there is evidence to believe that users, although it might not
+always be in their best interest, prefer having more options and
+having more choice (Norman, 2007). In any case, deciding on the
+number of content items to provide to users is different than deciding on the interface that presents this information. In a classical
+museum guide such as a simple audio guide, the user usually types
+in the location and there is only one general explanation on the
+specified location. However, one of the benefits of today’s handheld devices is their ability to hold multiple and large amounts
+of content for each exhibit. Nevertheless, people cannot cope with
+too much information. There is only a limited amount of time
+available to hold visitor’ attention in the museum (Serrell, 1997),
+and studies have shown that visitors allocate only a few minutes
+to each exhibit (Gammon and Burch, 2008). The question then is
+how much content, both in terms of choice and volume, should
+be provided to the visitor, and how does this affect visitor behavior
+(satiation, satisfaction, etc.). Should we provide information to visitors to choose from or should we adapt the guide to provide less,
+but personalized and desired information. Many research prototypes today provide multiple information pieces per location
+(Cheverst et al., 2000; Stock et al., 2007; Abowd et al., 1997; Kuflik
+et al., 2011).
+2.3. Comparison of context-aware systems
+While various studies examine issues of context-aware computing by examining and evaluating novel context-aware systems
+such as novel museum guides, few comparison studies have been
+conducted to empirically investigate issues in context-aware systems. Barkhuus and Dey (2003) have examined users’ perception
+of context-aware computing systems. They compared between
+three types of systems: passive context-awareness, active context-awareness and personalization (in which the user customizes
+the interface as needed). They examined users’ responses on ‘pretended’ future services that might exist on a mobile phone that
+exemplify aspects of the three conditions. They concluded that
+people felt less in control when using context-aware applications.
+The more autonomous the service was, the less users felt in control. Participants did not have preference between active and passive context-awareness but preferred both over personalization.
+These results should be taken with caution since it is difficult to
+
+Please cite this article in press as: Lanir, J., et al. Examining proactiveness and choice in a location-aware mobile museum guide. Interact. Comput. (2011),
+doi:10.1016/j.intcom.2011.05.007
+
+4
+
+J. Lanir et al. / Interacting with Computers xxx (2011) xxx–xxx
+
+conclude actual attitudes using an imaginary approach. These findings are supported by a study conducted by Jameson and Schwarzkopf (2006). In a laboratory study, controlled (similar to passive
+context-awareness approach) and automatic (similar to active context-aware approach) adaptation of the user interface were compared to look at how they affect controllability of the interface.
+Similar to (Barkhuus and Dey, 2003), they found that in a controlled adaptation the user’s feeling of control with the system
+was enhanced. No distinct preference of one interface over the
+other was found. Goren-Bar et al. (2006) examined the influence
+of personality factors on attitude toward adaptivity in mobile
+guides. In a controlled user study, they examined how personality
+traits affect attitudes of two systems: (1) a system to which the
+human delegates the initiative to the system and presentations
+are shown automatically when a user approaches an exhibit and
+(2) a system that delegates the initiative to the human, leaving
+the human in control via a menu to choose the presentation. They
+found that people with internal locus of control have a general
+positive attitude towards adaptivity while people with external
+locus of control preferred non-adaptive user interfaces. However,
+similar to (Barkhuus and Dey, 2003), the study was conducted in
+a laboratory setting, and the systems were exemplified with
+mock-ups and a ‘pretended’ usage scenario.
+As we can see, few studies have compared between different
+types of context-aware systems. Even fewer studies have compared different interfaces of mobile guides to see how differences
+in interface affect actual user behavior and attitudes. This study
+is a first attempt to compare between different types of contextaware systems and different user interfaces of a mobile guide in
+a real-world setting. While field evaluations of mobile guides in
+real-world settings exist (Cheverst et al., 2000; Aoki et al., 2002),
+these evaluations mainly provide feedback and insights on the features used with each guide. By comparing similar versions of the
+same guide using the same population in the same environment,
+we have maximum control over the examined independent variables. By conducting the experiment in a real-world setting, we
+can examine issues of context-awareness that are difficult or too
+artificial to examine in a laboratory setting. A real world-setting
+also allowed us to examine actual user behavior (not only attitude)
+and how it is affected by the intervening factors (i.e. proactiveness
+and number of content items).
+
+illustrative graphics using different cinematographic techniques
+such as pan, zoom and fade.
+Three versions of the user interface adapted from the original
+one were designed for the study:
+(1) In the menu-based interface, when the visitor approaches an
+exhibit she is prompted with a frontal image. Exhibits where
+information is available are marked with rectangles (Fig. 1a).
+After the visitor chooses an exhibit by pressing the rectangle,
+the system presents a list of available presentations concerning the chosen exhibit. The presentations are represented by
+questions that aim at initiating a dialogue with the visitor
+based on the content of the presentation, and trigger the visitor to think and select the most interesting one to be
+answered (Fig. 1b). The visitor can then select and view a
+presentation (Fig. 1c).
+(2) In the simple interface, when the visitor approaches an exhibit she is prompt with the same image as in the menu-based
+interface. However, in the simple interface only one exhibit
+(marked by a rectangle) is available per location. Pressing
+the exhibit triggers a general presentation on the exhibit
+(Fig. 1c). Only one (the general) presentation is available
+per location, so step described by Fig. 1b is skipped.
+(3) In the proactive interface, when the visitor approaches an
+exhibit a presentation automatically starts (Fig. 1c). At the
+end of each presentation (as well as during the presentation
+itself), the visitor can choose either to continue and view the
+next presentation or to stop. Presentations are ordered in
+the same order they appear in the list of presentations in
+the menu-based interface. After the visitor stops a presentation, or when a visitor returns a second time to the exhibit,
+the interface returns to the position illustration screen
+(Fig. 1a). From there, the visitor can replay the presentations
+in the same sequential order.
+In all interfaces, although not explicitly marked so, the first presentation was a general presentation giving general information on
+the chosen exhibit. In the menu-based interface, this presentation
+was the first in the list, followed by other more specific presentations on relevant topics. In the simple interface, the general presentation was the only one available. In the proactive interface, it
+was the first one to be automatically played, while the others were
+ordered as they appear in the list in the menu-based interface.
+
+3. The museum guide interface
+The study was carried out at the Hecht museum, an established
+archaeological museum located at the University of Haifa campus.
+The museum offers a number of exhibitions related to the archaeology of University of Haifa going back to 4500 BCE. Participants of
+the study were visitors that used the PIL museum guide, a locationaware mobile museum guide providing a personalized multimedia
+tour of the Hecht museum. The museum is equipped with a Radio
+Frequency (RF) based positioning system based on a wireless sensor network (WSN). Twenty-six locations of interests were covered
+by RF-based beacons in the museum in four exhibition rooms providing visitors carrying mobile wearable RF tags with contextual
+information seen on their museum guide as soon as they enter
+the vicinity of the location. We describe here the basic functionality of museum guide and the three user interfaces used in the
+study. For a complete description of The PIL project see (Kuflik
+et al., 2011).
+The PIL museum guide allows visitors to move freely around the
+exhibitions while the system identifies the visitor’s location and
+accordingly provides the visitor with relevant information. Information is shown in the form of multimedia presentations, consisting of a narrated text over a set of selected images enhanced with
+
+4. Methodology
+4.1. Research questions
+The study aimed to comparatively assess the attitudes and
+empirically examine system interaction and visit behavior patterns
+of museum visitors on two dimensions: proactiveness of the guide
+and choice (i.e. the number of content items the guide provides per
+exhibit). To examine the differences when users use a proactive vs.
+a passive context-aware guide, we compare between the menubased interface and the proactive interface. While we expect that
+most users would prefer being in control, we posit that at least
+some of them would prefer the proactive interface. We would also
+like to examine if the proactiveness of information affect users’
+behavior in the museum in terms of time spent at different locations, and number of locations visited. To examine to which extent
+people actually benefit from having more choice of information in
+the museum, we compare between the simple and the menu-based
+interfaces. We are interested in looking at how visitors use more
+information, and how providing more information to visitors affects their visit.
+
+Please cite this article in press as: Lanir, J., et al. Examining proactiveness and choice in a location-aware mobile museum guide. Interact. Comput. (2011),
+doi:10.1016/j.intcom.2011.05.007
+
+J. Lanir et al. / Interacting with Computers xxx (2011) xxx–xxx
+
+5
+
+Fig. 1. The museum guide interface. In the menu-based interface, when the visitor arrives to a new position, the system provides the relevant position illustration. After
+choosing an exhibit, a list of questions about the exhibit is presented. The visitor then chooses a question which triggers a multimedia presentation related to the question.
+
+Our main research questions were:
+a. Would visitors feel less ‘‘in control’’ when using a proactive
+context-aware interface than when using a passive contextaware interface?
+b. In general, would users prefer the menu-based interface
+guide that leaves them in control and provides more
+information?
+c. Would users’ visit behavior be affected by the interface they
+used, especially when comparing the menu-based interface
+with the simple interface?
+d. Would first time visitors prefer the simple interface in which
+there is only a general explanation of each location, while
+returning visitors of the Hecht museum prefer the menubased interface which provides more choice of information?
+4.2. Experimental design
+The study design was a between-subject design in which each
+participant used one interface only. We had three study groups
+according to the three types of interfaces that were used as described in Section 3. The main variable examined was interface
+type: Menu-based, simple and proactive.
+4.3. Procedure
+Visitors of the Hecht museum were approached at the entrance
+of the museum and were invited to participate in our user study.
+Participants were offered the free use of the mobile museum visitor’s guide. Participants were randomly assigned to one of the
+three study groups and were given the corresponding mobile
+guide. They were first given a short explanation on how to use
+the guide and were then asked to visit the museum on their own
+pace, using the guide as they wished. Locations in the museum
+on which information was available in the mobile guide were
+clearly marked. Upon finishing the visit, visitors were asked to fill
+a short questionnaire regarding their experience. Visitors were
+then shown the other two interfaces (the ones that they have not
+used) and were asked to rate which interface they preferred: the
+one that they used or the alternative one as shown and explained
+to them. In addition, log files with detailed information of the visits
+were recorded.
+
+events during the visit. These tools correspond to measuring visitors’ attitudes and measuring visitors’ behaviors, both often measured in museum studies (Bitgood, 2009).
+The questionnaire was divided into three parts: The first part of
+the questionnaires consisted of general demographic information.
+The second part asked about participants’ attitude toward a number of constructs. Questionnaire constructs were operationalized
+using multiple items that participants scaled. Most items but one
+consisted of statements to which participants expressed their
+agreement on a 7-point Likert scale to indicate how much they
+agreed with each statement, ranging from strongly disagree (1)
+to strongly agree (7). The only exception was the perceived control
+construct which was used by Pianesi et al. (2009) and taken from
+Novak et al. (2003). This consisted of semantic differential items
+in which participants were asked to scale their attitude toward
+the guide from one extreme to the other (1 if they felt dominant,
+7 if the felt submissive). Two items were inverted (‘‘It was difficult
+to understand how to use the guide’’) to avoid having automatic
+answers. However, when reporting the results, we inverted them
+back to simplify the readability of the results. Most of the constructs were taken from Pianesi et al. (2009) who gathered them
+from different sources and adapted most of them for the museum
+environment. Additional constructs that we believed could be affected by the interface type were added. Table 2 shows the different constructs used in the study along with references to their
+sources when available. Because visitor’s time filling the questionnaire was limited (due to using actual visitors), we used simplified
+versions for most of these constructs which included one or two
+items only for each construct. An exception for this was the construct of control. Because we felt that control is an important construct that might be related to interface type, especially with
+respect to the proactive interface, we decided to redundantly
+examine it both with a statement (the control construct in Table 1)
+and with the semantic differential items used at (Novak et al.,
+2003) and (Pianesi et al., 2009).
+Visit logs were used to unobtrusively assess participants’
+behavior using the guide in the museum. The number of locations
+visited and time spent in each of the locations was recorded by the
+positioning system. All interactions with the guide including
+selecting and listening to a presentation, stopping a presentation,
+giving feedback to a presentation’s quality, etc., were recorded in
+the museum guide’s server as log events in system logs and later
+analyzed.
+
+4.4. Measures
+4.5. Participants
+For analyzing and evaluating visit experience, we used two
+complementary tools: a questionnaire that the visitors filled at
+the end of the visit and logs of the visit where the system logged
+
+Participants were regular museum visitors. Because we thought
+that a minimum time is required to properly experience the
+
+Please cite this article in press as: Lanir, J., et al. Examining proactiveness and choice in a location-aware mobile museum guide. Interact. Comput. (2011),
+doi:10.1016/j.intcom.2011.05.007
+
+6
+
+J. Lanir et al. / Interacting with Computers xxx (2011) xxx–xxx
+Table 2
+Questionnaire scales.
+Construct
+
+Reference
+
+Items
+
+Intention of use
+Satisfaction
+
+Davis, 1989
+Bailey and Pearson, 1983
+
+I would like to use such a guide in future visits
+I was discontent with the usage of the mobile guide
+Using the guide helped improve my museum experience
+
+Effect on visit time
+Usefulness
+Number of content items
+
+Davis, 1989
+
+Using the guide caused me to extend my visit time
+The guide was useful for me during the visit
+I would prefer getting more presentations in each location
+I would prefer that there would be less content in the guide
+
+Learning
+Ease of use
+
+Using the guide made me learn about the exhibits more than a visit without a guide
+Davis, 1989
+
+It was difficult to understand how to use the guide
+Using the guide was easy and intuitive
+
+Novak et al., 2003
+
+Dominant/submissive
+Influenced/influential
+Guided/autonomous
+
+Control
+Perceived control
+
+During the visit I felt that I control what I see and hear
+
+Table 3
+Number of times participants have visited cultural heritage sites in the last year.
+Times in CH sites in the last year
+
+Number of responses
+
+0
+1
+Between 2 and 5
+Between 6 and 10
+More
+
+4
+8
+29
+10
+6
+
+system, only participants who used the guide for at least 30 min
+were included in the study. A total of sixty-one (61) visitors that
+matched this criterion participated in the study out of a total of
+65 that used the system. Four (4) visitors out of the 61 did not fill
+in the questionnaires at the end (for various reasons, the main one
+being they were in a hurry to go elsewhere). We included these visitors in our log analysis because although not filling out the questionnaires, their system usage and visit behavior is still valid.
+Therefore, the log analysis included 61 participants (menu-based:
+21, proactive: 20 and simple: 20), while the questionnaire analysis
+included 57 participants (menu-based: 19, proactive: 19 and simple: 19).
+Out of the 57 participants 30 were males and 27 were females.
+The age of the visitors ranged from 18 to 76 with an average of
+41.1 years (SD = 18.6). Twenty-one (21) of the visitors have visited
+the Hecht museum before while for 36 it was their first visit. Most
+visitors were interested in archeology (m = 5.39; SD = 1.3 on a
+7-point Likert scale asking about interest in archeology). Table 3 presents the distribution of responses to the number of times visitors
+visited in cultural heritage sites. As can be seen, most participants
+indicated they have visited two or more sites. Only four have visited
+none. Answering about experience with technology in museums,
+most of the visitors rated a medium to low level of experience with
+audio guides in museum (m = 3.05; SD = 1.17 on a 7-point Likert
+scale), and even lower level of knowledge of multimedia guides
+(m = 2.5; SD = 1.34) or multimedia stations (m = 2.83; SD = 1.34).
+5. Results
+We first report on the analysis of system usage and user
+behavior in the museum stemming from the log visits data. We
+then report on results of visitors’ attitudes as analyzed from the
+questionnaires.
+5.1. Visitor behavior analysis
+For most of the analyses in this section we performed a
+one-way analysis of variance (ANOVA) with interface type
+
+(menu-based, proactive, simple) as the between-subjects variable.
+Whenever ANOVA resulted in significant F-values (p < 0.05), a post
+hoc analysis using the Bonferroni adjustment was conducted to see
+from which pairs this result stemmed from. In addition to reporting statistical significance we report effect size, partial eta-squared
+(g2), which is a measure of the magnitude of the effect of a difference that is independent of sample size. Landauer (1997) notes
+that effect size is often more appropriate than statistical significance in applied research in Human–Computer Interaction. The
+metric for interpreting eta-squared is: .01 is a small effect, .06 is
+medium, and .14 is large.
+5.1.1. Total visit time
+The total visit time varied with a minimum visit time of
+30.7 min and a maximum visit time of 200.2 min. The average visit
+time was 52.3 min (SD = 28.0 min). No significant effect was found
+for interface type on total time spent in the museum.
+5.1.2. Total number of presentation seen
+Fig. 2 presents the number of presentations seen per interface
+type. Because visit time varied widely between visitors, we normalized results over time in respect to a 1-h visit. To examine
+the effect of interface type on number of presentations seen, we
+performed a one-way ANOVA with interface type (menu, proactive,
+simple) as an independent variable. No significant differences were
+found, F(2, 59) = 1.72, p = 0.227. Visitors that used the menu-based
+interface (m = 17.0) and visitors that used the proactive interface
+(m = 17.9) have seen slightly more presentations per hour than visitors that used the simple interface (m = 14.7).
+5.1.3. Number of locations visited
+Fig. 3 shows the total number of locations visited for each interface type. On the bottom (in blue) we see the total number of locations in which visitors have seen presentations in. Added to that on
+the top (in red) are the locations in which visitors were detected in,
+but did not view a presentation. For visitors using the proactive
+interface, the presentation automatically started as they were detected in a location, and therefore for them, the total number of
+locations visited was equal to the number of locations with presentations viewed.
+Looking at the total number of locations with viewed presentations (in blue), visitors who used the simple interface visited more
+locations than visitors who used the proactive systems who visited
+more locations than visitors who used the menu-based interface.
+This effect was significant, F(2, 59) = 5.42, p = 0.008, g2 = 0.16.
+Post-hoc analysis using the Bonferroni adjustment indicates significant difference for number of locations visited between the simple
+and the menu-based groups. Visitors using the simple interface
+
+Please cite this article in press as: Lanir, J., et al. Examining proactiveness and choice in a location-aware mobile museum guide. Interact. Comput. (2011),
+doi:10.1016/j.intcom.2011.05.007
+
+J. Lanir et al. / Interacting with Computers xxx (2011) xxx–xxx
+
+7
+
+the proactive group were stopped in the first 10 s of the
+presentation.
+
+Fig. 2. Number of presentations seen per interface normalized over a 1-h visit. Error
+bars display 95% confidence interval.
+
+Fig. 3. Total number of locations with and without presentations viewed. Error bars
+display 95% confidence interval of total number of location visited.
+
+have been in significantly more locations (m = 15.21) than visitors
+using the menu-based interface (m = 9.76), p = 0.015. Differences
+between the simple and proactive groups (m = 13.85) were not significant. Looking at the total number of locations in which visitors
+were detected it (blue + red), significant results were found indicating a main effect of interface type on number of locations,
+F(2, 59) = 3.54, p = 0.021, g2 = 0.11. Post-hoc analysis indicates significant difference between the simple and the menu-based groups
+and between the simple and the proactive groups. Visitors using
+the simple interface have been in significantly more locations in
+(m = 19.2) than visitors using the proactive interface (m = 13.85),
+p = 0.023, or visitors using the menu-based interface (m = 14.04),
+p = 0.002.
+
+5.1.4. Stopped presentations
+It is interesting to look at the number of presentations per hour
+that were stopped by visitors using each interface (i.e. – the visitor
+has pressed the stop button before the end of the presentation).
+There was a strong main effect for interface type on stopped presentations, F(2, 59) = 15.47, p < 0.001, g2 = 0.34. Post-hoc analyses
+indicate that participants in the proactive group (m = 6.10) stopped
+more presentations than both the menu-based (m = 2.50), p < 0.001
+and the simple (m = 1.33), p < 0.001 groups. This difference in
+stopped presentations between visitors using the proactive and
+the menu-based interfaces can help to explain the difference in
+number of locations with presentations viewed as seen in Fig. 3:
+although using the proactive interface, visitors were in more locations with viewed presentations, they immediately stopped many
+of these presentations. Indeed, 40.9% of stopped presentations in
+
+5.1.5. Average time in a location
+Fig. 4 shows the average time spent in a location per interface
+type. Visitors using the menu-based interface (m = 131.0 s) spent
+on average more than visitors who used the proactive system
+(m = 103.2) that spent on average more time in a location than visitors who used the simple interface (m = 85.3 s). To examine the effect of interface type on average time in a location, we performed a
+one-way ANOVA with interface type as a between-subject variable.
+Results indicated a significant effect of interface type on time in
+location, F(2, 59) = 4.856, p = 0.011, g2 = 0.14. Post-hoc analysis
+using the Bonferroni adjustment indicates significant difference
+between the menu-based and the simple groups. Visitors using
+the menu-based interface stayed on average significantly longer
+in a location than visitors using the simple interface, p = 0.003.
+Post-hoc analysis of pro-active vs. menu-based yielded marginally
+significant results, p = 0.069. It is interesting to note that the standard deviation of the menu-based condition’s average time in a
+location is approximately twice as much (SD = 28.3) as the proactive (SD = 15.3) or the simple (SD = 14.0) conditions. This may suggest that average time in a location for visitors using the menubased interface varied widely between visitors who stayed long
+periods of times in locations and visitors who stayed for shorter
+periods. We examine this further when we look at first time vs.
+returning visitors.
+5.1.6. Feedback
+Participants were asked to provide feedback after each presentation seen. Feedback was elicited using a dedicated screen that
+appeared after each presentation and asked participants to rate
+how much they liked the content and relevance of each presentation. Feedback was given on 5-point scale that was marked by a
+smiley face to be pressed if the presentation was liked or a sad face
+if the presentation was deemed bad. The buttons were then translated to a scale of 2 (dislike) to +2 (like). In general, visitors liked
+the presentations. The average feedback given was 1.13
+(SD = 0.41). Not surprisingly (because ratings were given on the
+quality of the presentations themselves, which were the same in
+each interface), there was no significant difference between the
+groups concerning the feedback to the presentations,
+F(2, 59) = 0.070, p = NS.
+5.1.7. Presentations per location
+On average, visitors using the menu-based interface watched
+2.31 presentations per location. Visitors using the proactive interface watched 2.05 presentations per location. Analysis of the difference between these two versions did not yield a significant
+difference, F(1, 40) = 0.61, p = NS. In the case of the simple
+
+Fig. 4. Average time in seconds spent in a location per interface type. Error bars
+display 95% confidence interval.
+
+Please cite this article in press as: Lanir, J., et al. Examining proactiveness and choice in a location-aware mobile museum guide. Interact. Comput. (2011),
+doi:10.1016/j.intcom.2011.05.007
+
+8
+
+J. Lanir et al. / Interacting with Computers xxx (2011) xxx–xxx
+
+interface, where only one presentation was available per location,
+visitors watched on average 1.1 presentations per location. This
+is slightly higher than one due to some people seeing the same
+presentation twice.
+5.1.8. Menu choosing patterns
+To better compare between the menu-based and the proactive
+interfaces, we wanted to understand the ‘‘choosing patters’’ –
+how visitors choose presentations when they used the menu-based
+interface. For example, do visitors always choose the first item first
+and then continue on sequentially (and then our proactive interface would make more sense), or maybe their choice of items is different. Results of the analysis indicate that in 71.3% of the cases,
+visitors have chosen the first presentation when arriving to a
+new location. Fig. 5 shows the distribution of presentations chosen
+in the menu-based interface according to their order in the menu.
+As can be seen, most presentations chosen were either in the first,
+second, or third position. This is explained by the fact that there
+were three menu items per screen, so item #4 starts on the second
+screen. Only 7 of the 20 participants went beyond the first screen
+to choose a presentation. This is similar to Web-based search in
+which it is reported that over 75% of the searches do not go beyond
+the first page results (Jansen and Spink, 2006).
+5.2. Visitors’ attitude
+Following the visit, we presented visitors with a set of statements and asked them to use a 7-point Likert scale to indicate
+how much they agreed with each statement, ranging from strongly
+disagree (1) to strongly agree (7). Table 4 shows these statements
+and visitors’ responses. With ranked ordinal data and a relatively
+small sample size it is recommended to use a non-parametric
+statistical test (Huck et al., 1974). We therefore used the
+Kruskal–Wallis non-parametric test to examine differences in
+ranking between the groups, followed by post hoc Mann–Whitney
+U tests for pair-wise comparisons.
+As can be seen in Table 4, visitors that used the simple interface
+preferred getting more content (m = 6.05) over those that used the
+menu-based or the proactive interfaces. These differences were
+significant, H(2) = 6.78, p = 0.034. Post-hoc analysis made with
+the Mann–Whitney U test reveal that the simple interface had
+higher ratings than that of the proactive (U = 116, p = 0.007) or
+the menu-based (U = 118, p = 0.046). The meaning is that while
+the menu-based interface and the proactive interface provided
+additional content and satisfied the visitors, the simple interface
+
+Fig. 5. Distribution of menu item pressed according to order presented (only in the
+menu-based condition). There were three items per page.
+
+did not do that, resulting in a higher ranking for the need of additional content items.
+The different interfaces differed significantly on the reported
+control of the visitors, H(2) = 7.29, p = 0.026. Post-hoc analysis with
+the Mann–Whitney U test showed that this difference stems from
+participants that used the proactive interface rating the feeling of
+being in control significantly lower than those who used the
+menu-based interface (U = 85, p = 0.009) and those who used the
+simple interface (U = 107, p = 0.048).
+The perceived control showed significant values for the submissive/dominant, H(2) = 7.45, p = 0.024, and guided/autonomous,
+H(2), p = 0.022, scales. In the submissive/dominant scale post hoc
+analysis revealed a significant difference between the menu-based
+and the proactive interfaces (U = 74, p = 0.005), indicating that participants felt relatively more dominant using the menu-based
+interface and more submissive using the proactive interface. In
+the guided/autonomous scale post hoc analyses showed a significant difference between the menu-based and the proactive interfaces (U = 67, p = 0.007), indicating that participants using the
+menu-based interface felt more autonomous than participants
+using the proactive interface (who felt more guided). It is interesting to visually compare these three scales side by side (Fig. 6). We
+see that in all four statements, the proactive interface was perceived as allowing the least control. The simple interface scored
+higher than the proactive interface in all four statements. Interestingly, we see that the simple interface scored lower in all statements than the menu-based interface, meaning that visitors
+perceived to have less control in the simple interface than in the
+menu-based interface. We should be cautious here: although this
+seems like a trend that spanned all four statements, no significant
+differences were identified between the simple and menu-based
+interfaces, or between the simple and proactive interfaces other
+than in the control statement.
+5.2.1. First-time vs. returning visitors
+We looked at the differences between visitors who previously
+visited the Hecht museum and first-time visitors, to examine the
+difference in attitudes toward the museum guide. We hypothesized that returning visitors (visitors who already visited the Hecht
+museum), who are usually more interested in archeology, would
+prefer the menu-based or proactive interfaces rather than the simple one. We also hypothesized that first-time visitors of the Hecht
+museum, would prefer the simple guide that provides only general
+information for each location.
+We first examined the general effect of first-time visit (yes/no)
+over the different constructs. Results of the analysis revealed significant differences between returning and first-time visitors on
+two measures. Returning visitors rated significantly higher on the
+intention-of-use (they would like to use such a guide in the future)
+scale (m = 6.57) than first-time visitors (m = 5.68), U = 251,
+p = 0.030. Returning visitors also rated significantly higher on user
+satisfaction (m = 6.35) than first-time visitors (m = 5.28), U = 211,
+p = 0.009, indicating they were more satisfied with the guide than
+the first-time users.
+To examine our hypothesis that visitors with experience would
+prefer the menu-based interface while first-time visitors would
+prefer the simple interface we looked at the interaction of visitexperience and group. A significant interaction effect would indicate that the effect of experience on attitudes differs depending
+on the interface used. This is necessary to support our hypothesis.
+However, no interaction effect was found for the examined constructs on visit-experience and group. We therefore cannot conclude that differences in experience affect attitudes toward the
+guide interface.
+Finally, we compared visit behavior patterns of first-time and
+returning visitors. Results indicate that on average, returning
+
+Please cite this article in press as: Lanir, J., et al. Examining proactiveness and choice in a location-aware mobile museum guide. Interact. Comput. (2011),
+doi:10.1016/j.intcom.2011.05.007
+
+9
+
+J. Lanir et al. / Interacting with Computers xxx (2011) xxx–xxx
+
+Table 4
+Visitors’ average ratings (and standard deviation) per interface group (menu, proactive, simple) on a 7-point Likert scale of the different constructs listed in Table 2. Kruskal–
+Wallis p-values are shown in the ‘‘significant’’ column (N = 57).
+Construct
+
+Menu-based
+
+Proactive
+
+Simple
+
+Significant (p)
+
+Intention of use
+Satisfaction
+Effect on visit time
+Usefulness
+Number of content items – prefer to have more items
+Number of content items – prefer to have less items
+Learning
+Ease of use
+Control
+Perceived control: submissive/dominant
+Influenced/influential
+Guided/autonomous
+
+6.10
+5.77
+5.15
+5.66
+4.67
+2.47
+6.10
+5.23
+5.90
+4.00
+4.05
+5.33
+
+6.00
+5.59
+5.81
+5.56
+4.62
+2.06
+5.75
+4.90
+4.50
+2.87
+3.31
+3.56
+
+5.95
+5.69
+5.42
+6.14
+6.05
+2.00
+6.00
+5.09
+5.57
+3.47
+3.84
+4.47
+
+NS
+NS
+NS
+NS
+p = 0.034
+NS
+NS
+NS
+p = 0.026
+P = 0.024
+NS
+p = 0.022
+
+(1.44)
+(1.34)
+(2.11)
+(1.52)
+(1.79)
+(1.80)
+(0.85)
+(1.74)
+(1.09)
+(1.02)
+(1.39)
+(1.32)
+
+(1.36)
+(1.64)
+(1.87)
+(1.67)
+(2.27)
+(1.38)
+(1.73)
+(1.65)
+(1.71)
+(1.02)
+(1.35)
+(1.99)
+
+(1.53)
+(1.35)
+(1.87)
+(1.52)
+(1.07)
+(1.51)
+(2.00)
+(1.54)
+(1.24)
+(1.66)
+(1.34)
+(1.83)
+
+Fig. 7 displays the aggregated results disregarding the knowledge of which interface each visitor used. We see that generally,
+visitors preferred the menu-based interface over both the simple
+and the proactive interfaces. Direct preference between the simple
+and the proactive interfaces is not clear from the results. However,
+we should look at these results warily. Because of our betweensubject methodology, visitors experienced only one interface,
+while the other interfaces were demonstrated to them. This makes
+it difficult for visitors to actually assess their full interaction with
+the interfaces they have not used.
+
+6. Discussion
+
+Fig. 6. Subjective ratings of the control statements for the different study groups.
+
+visitors spent more time per location (m = 128.7) than first time
+visitors (m = 95.18), F = 5.98, p = 0.018, g2 = 0.10. Returning visitors
+also visited fewer locations per hour (m = 17.7) compared to first
+time visitors (m = 14.5) although these results were only marginally significant, F = 2.82, p = 0.087.
+
+5.2.2. Preference of interface
+In order to elicit visitor preference, after participants finished
+filling the questionnaire we demonstrated them the interfaces they
+have not used. For example, if a participant has used the menubased interface during her visit, we showed her the proactive
+and the simple interfaces and asked her two questions: did she
+prefer the interface she used (menu) or the simple interface, and
+did she prefer the interface she used or the proactive interface.
+Table 5 shows results of preferences in terms of how many visitors
+preferred each interface compared to the one they used.
+
+We found that users’ feel of control decreased as the proactiveness and the autonomy of the system increased. This supports previous works who found similar attitudes toward proactiveness
+(Barkhuus and Dey, 2003; Cheverst et al., 2001). This is not surprising. In the proactive interface, presentations start automatically as
+the visitor approaches a location, taking some control away from
+the visitor. This decreased feeling of control, however did not affect
+visitors’ satisfaction, intention to use the system, or other subjective opinions of the system on which reported ratings did not differ
+between interfaces. Indeed, Bailey and Pearson (1983) examining
+the effect that 36 different factors had on user satisfaction found
+feeling of control to be one of the least important factors affecting
+user satisfaction. Nevertheless, when examining visit behavior, we
+found that more presentations were stopped with the proactive
+interface compared to the two other interfaces. Looking at the
+number of locations visited (Fig. 3), we see that with the menubased and simple interfaces, users did not view presentations in
+every location. There were locations in which visitors visited yet
+chose not to use the guide in. It is likely that the difference in
+stopped presentations stem from these type of locations. The proactive guide caused presentations to start automatically as soon as
+the visitor enters the location area. In a museum scenario, a visitor
+
+Table 5
+Preference data. Each cell displays the results of the comparison (in terms of number of people preferring) of the guide
+visitors used vs. an alternative guide (N = 57).
+Guide used
+
+Compared to
+Menu-based
+
+Simple
+
+Menu-based (n = 19)
+
+–
+
+Menu
+17
+
+Simple (n = 19)
+
+Simple
+5
+
+Menu
+14
+
+–
+
+Proactive (n = 19)
+
+Proactive
+6
+
+Menu
+13
+
+Proactive
+9
+
+Proactive
+Simple
+2
+
+Simple
+10
+
+Menu
+15
+
+Proactive
+4
+
+Simple
+7
+
+Proactive
+12
+
+–
+
+Please cite this article in press as: Lanir, J., et al. Examining proactiveness and choice in a location-aware mobile museum guide. Interact. Comput. (2011),
+doi:10.1016/j.intcom.2011.05.007
+
+10
+
+J. Lanir et al. / Interacting with Computers xxx (2011) xxx–xxx
+
+Fig. 7. Subjective comparisons between interfaces. Visitors were asked to choose
+which interface they prefer: the one they used or the alternative interfaces.
+
+might approach a new location and first wish to examine the artifact, read the labels, continue a talk with a friend, or simply pass
+by. The immediate triggering of information solely according to
+location may therefore not always be preferred. Hence, when using
+proactivity with a mobile guide, a more subtle approach than the
+one used in this study might be preferred. For example, proactivity
+can be used to trigger engagement and awareness of the location
+by a short message (instead of a long presentation) followed by
+more information that requires user interaction if the user wishes
+to continue, similar in approach to that taken in Ghiani et al.
+(2009), Petrelli et al. (2001). Alternatively, other types of contextaware information other than location (e.g. knowledge of when
+the user is talking) might be used to better understand when to
+utilize proactiveness.
+The number of content items (or number of choices) presented
+to visitors greatly affected their visit behavior patterns in the museum. When receiving less information, visitors spent less time in
+each location but visited more locations. When receiving more
+information and being able to choose what to view, visitors visited
+fewer locations yet spent more time in each location. However,
+there was no significant difference between the total number of
+presentations seen in the different groups. It seems that in general,
+visitors have a set amount of content that they view during their
+visit time. Changing the number of content items per location,
+thereby changing the amount of content, simply changed their
+behavior and movement in the museum. This has strong implications for designers of mobile guides, museum curators and
+museum content providers. Designing a system with less information per location, (e.g. a simple audio guide), may cause visitors to
+get a wider, broader view of the museum. On the other hand,
+allowing more information using a more sophisticated guide,
+may allow visitors to get more in-depth information on specific
+locations, at expense of the broader view. Moreover, this may serve
+as a trigger for returning visits in the future. When personalizing
+the interface, designers first need to understand the broader motivations and goals of the visitor, in terms of depth vs. breadth of visit, and accordingly decide on how many content items to present.
+Regarding the optimal number of choices in an interface, our results are not conclusive. We have shown that the number of
+choices given affects behavior, but it is difficult to set rules for an
+ideal number of choices. We estimate that this number would depend on many factors including type of visitor (i.e. how the visitor
+visits the museum, see (Falk and Dierking, 1992) for example of
+visitor types), personal characteristics of the visitor (Goren-Bar
+et al., 2006), other interface characteristics, the specific museum
+setting and more. Further research would be needed to examine
+
+variables that affect ideal amount of choice. Deciding how to divide
+a set amount of content, that is whether to prefer numerous short
+items over fewer lengthier items, is also subject to future research.
+We hypothesized that First-time visitors would prefer the simple interface over the other interfaces since first-time visitors are
+often not interested in details and prefer general information (Petrelli and Not, 2005). Similarly, we hypothesized that returning visitors would prefer the menu-based interface. Our results did not
+provide significant results to support this hypothesis. However,
+our results revealed two other interesting findings. First, results
+showed that returning visitors rated the guide higher on satisfaction and intention to use the guide in the future than first-time visitors. While unexpected, this could be explained by the fact that
+returning visitors have already been in the museum without the
+guide and therefore have a higher appreciation of its advantages.
+Second, our results indicated that returning visitors spent more
+time per exhibit than first-time visitors. Returning visitors also visited fewer locations than first-time visitors (although this was only
+marginally significant). According to Falk and Dierking (1992), the
+main difference between first-time and returning visitors’ behavior
+is a long ‘‘cruising’’ period that usually consumes the greatest portion of first-time visitors’ time in the museum. For many first-time
+visitors, seeing the entire museum is a significant part of the
+museum agenda. Therefore, in the ‘‘cruising’’ period the visitor
+skims the contents and rapidly moves through the exhibitions
+occasionally stopping on a point of interest. Returning visitors,
+on the other hand, know what they want to see and do not feel
+compelled to view the entire museum in one visit (Falk and
+Dierking, 1992), pp. 58–62]. It is therefore reasonable that firsttime visitors because of the ‘‘cruising’’ period, stayed a shorter time
+per location in order to be able to view the entire museum. This
+may indicate that first-time visitors indeed use the guide to get a
+more ‘‘broader’’ view of the museum, while returning visitors use
+it for an ‘‘in-depth’’ view of locations, similar to the differences
+observed between the usage of the menu-based and the usage of
+the simple interfaces.
+Both the proactive and the simple interfaces provide an alternative to the more ‘‘conventional’’ approach (the menu-based interface) that leaves the visitor in control and provides the visitor
+with all the options to choose from. In a sense, they are providing,
+each from a different perspective, simpler interaction means with
+the guide by reducing choice and complexity. The simple interface
+simplifies the interaction by providing less choice. The proactive
+interface provides simplified interaction by automating the initiation of actions and by sequencing the order of presentations. However, this reduction of choice was not liked by most visitors who
+preferred the menu-based interface over the other two. A possible
+explanation is that people often prefer a more complex interface
+with more choice options, even if they do not necessarily need
+these options. Studies have shown that although complex interfaces might overcomplicate users’ tasks, people usually prefer
+them over simper ones (Norman, 2007).
+The objective of this study was not to evaluate the three specific
+designs but rather we used the three prototypes as a way to compare the two broad paradigms of pro-activeness and choice. Nevertheless, we think that our study may also contribute to highlight
+some implications for the design of mobile multimedia presentations in the museum setting. We have discussed above that the
+menu interface makes visitors see less locations while exposing
+them to more presentations. If the goal of a guide is to foster learning, the menu interface might be the one to better achieve this
+goal. Similarly, if the goal of the guide is to get an overview or general knowledge of the museum, the simple interface would be best.
+The proactive version might be best for visitors who wish to have
+an ambient experience and do not wish to handle the guide’s interface. However, for many visitors, the feeling of losing control
+
+Please cite this article in press as: Lanir, J., et al. Examining proactiveness and choice in a location-aware mobile museum guide. Interact. Comput. (2011),
+doi:10.1016/j.intcom.2011.05.007
+
+J. Lanir et al. / Interacting with Computers xxx (2011) xxx–xxx
+
+observed when using the proactive interface may eventually reduce the quality of experience which is an important component
+of a museum visit.
+One possibility to resolve the decision of which interface to provide each visitor with is to allow the visitor to choose his or her
+interface. Technically, this is possible by implementing all interfaces and allowing the visitor to choose between interfaces from
+a configuration or setting screen. However, users do not always
+know ahead of time which interface they would prefer, and do
+not always understand the model of the configuration (Kay,
+2001). Furthermore, few users spare the time to customize their
+systems especially with systems such as museum mobile guides
+which are often used for only one session. Another possibility is
+to have the system decide which interface to offer to a particular
+user based on the characterization of the user and situation. This
+can be based on explicit user feedback (stating the type of visit
+rather than choosing an interface) or implicit system
+understanding.
+Finally, we would like to reflect on the methodology we have
+chosen. Performing the user study in a real world setting posed
+some constraints on what we could and could not do. For example,
+because we used real visitors we had to keep the questionnaire
+short so visitors would be able to complete it within five minutes.
+Specifically, we did not include the locus of control questionnaire
+that includes 13 items. The results of Goren-Bar et al. (2006) show
+that the attitude toward an adaptation may depend on the personality traits of the specific visitor rather than being a generic disposition. Adding this questionnaire could have given us information
+whether personality traits might also affect the type of contextawareness and personalization of content used. Performing the
+study with actual visitors also forced us to perform a between-subject design which limited our information of user preference and
+made it more difficult to reach results that have statistical
+significance.
+
+7. Conclusions
+As location-aware applications on mobile devices become more
+popular, researchers need to better understand how to design such
+applications in order to best provide information and services to
+their users. This study examined two major issues related to location-aware systems: proactiveness and choice (via the number of
+content items provided) using as a testbed three types of systems:
+simple, menu-based, proactive. To date, comparison between proactive and passive interfaces has been largely theoretical. This
+study allowed us to compare these design alternatives in the
+context of an actual software application with users carrying out
+normal tasks in a real-world environment.
+Revisiting our research questions, results indicate that (a)
+Visitors felt less in control when using the proactive interface
+than when using a passive context-aware interface. (b) In general, users preferred the menu-based interface guide. (c) Users
+visit behavior was affected by the interface they used, specifically, visitors receiving less content choice visited more locations
+and spent less time in a location than visitors that receive more
+content choice. Thus the number of choices of content items may
+therefore be correlated with the depth of the learning experience
+of the user. (d) Results do not indicate an effect of experience of
+visitors on preference of interface. However, results indicate that
+returning visitors appreciate the guide more and spent more
+time per exhibit than first-time visitors. Returning visitors also
+visited fewer locations than first-time visitors. These trends suggest that returning visitors’ use the guide for an ‘‘in-depth’’ view
+while first-time visitor use the guide to get a ‘‘broader’’ view of
+the museum.
+
+11
+
+Future research may focus on identifying different types of visitors, their preferences and needs and try and suggest an ‘‘optimal’’
+number of presentations offered to them, as well as the preferred
+duration of the presentations.
+
+References
+Abowd, G.D., Atkeson, C.G., Hong, J., et al., 1997. Cyberguide: a mobile contextaware tour guide. Wireless Networks 3, 421–433.
+Aoki, P.M., Grinter, R.E., Hurst, A., Szymanski, M.H., Thornton, J.D., Woodruff, A.,
+2002. Sotto voce: exploring the interplay of conversation and mobile audio
+spaces. In: Proceedings of the SIGCHI Conference on Human Factors in
+Computing Systems: Changing Our World, Changing Ourselves, pp. 438–
+446.
+Bailey, J.E., Pearson, S.W., 1983. Development of a tool for measuring and analyzing
+computer user satisfaction. Manage. Sci. 29, 530–545.
+Barkhuus, L., Dey, A., 2003. Is context-aware computing taking control away from
+the user? Three levels of interactivity examined. Ubicomp 2003. Ubiquitous
+Comput., 149–156.
+Bitgood, S., 2009. Museum fatigue: a critical review. Visitor Studies 12, 93–111.
+Bowen, J.P., Filippini-Fantoni, S., 2004. Personalization and the web from a museum
+perspective. Museums Web, 63–78.
+Chen, G., Kotz, D., 2000. A survey of context-aware mobile computing research.
+Cheverst, K., Davies, N., Mitchell, K., Friday, A., 2000. Experiences of developing and
+deploying a context-aware tourist guide: the GUIDE project. In: Proceedings of
+the 6th annual international conference on mobile computing and networking,
+pp. 20–31.
+Cheverst, K., Mitchell, K., Davies, N., 2001. Investigating context-aware information
+push vs. information pull to tourists. In: Proceedings of Mobile HCI.
+Davis, F.D., 1989. Perceived usefulness, perceived ease of use, and user acceptance
+of information technology. MIS Quart. 13, 319–340.
+Dey, A.K., 2001. Understanding and using context. Personal Ubiquitous Comput. 5,
+4–7.
+Dey, A.K., Abowd, G.D., 2000. Towards a better understanding of context and
+context-awareness, CHI 2000 workshop on the what, who, where, when, and
+how of context-awareness, pp. 1–6.
+Falk, J.H., Dierking, L.D., 1992. The museum experience. Howells House.
+Gammon, B., Burch, A., 2008. Designing Mobile Digital Experiences. Digital
+Technologies and the Museum Experience: Handheld Guides and Other
+Media, p. 35.
+Ghiani, G., Paterano, F., Santoro, C., et al., 2009. UbiCicero: a location-aware, multidevice museum guide. Interact. Comput. 21, 288–303.
+Goren-Bar, D., Graziola, I., Pianesi, F., et al., 2006. The influence of personality factors
+on visitor attitudes towards adaptivity dimensions for mobile museum guides.
+User Model. User-Adapt. Interact. 16, 31–62.
+Höök, K., 2000. Steps to take before intelligent user interfaces become real. Interact.
+Comput. 12, 409–426.
+Huck, S.W., Cormier, W.H., Bounds Jr., W.G., 1974. Reading Statistics and Research.
+HarperCollins Publishers.
+Jameson, A., Schwarzkopf, E., 2006. Pros and cons of controllability: an empirical
+study. Adapt. Hypermedia Adapt. Web-based Syst., 193–202.
+Jansen, B.J., Spink, A., 2006. How are we searching the world wide web? A
+Comparison of Nine Search Engine Transaction Logs. Informat. Process. Manage.
+42, 248–263.
+Kay, J., 2001. Learner Control. User Model. User-Adapt. Interact. 11, 111–127.
+Kuflik, T., Stock, O., Zancanaro M., Gorfinkel, A., Jbera, S., Katz S., Sheidin, J., Kashtan,
+N., 2011. A visitor’s guide in an active museum: Presentations, communications,
+and reflection. JOCCH 3, 11.
+Landauer, T., 1997. Behavioral research methods in human–computer interaction.
+In: M.G. Helander, T.K. Landauer, P.V. Prabhu (Eds.), Handbook of Human–
+Computer Interaction, second ed. Elsevier Science B.V., Amsterdam, pp. 203–
+227 (Chapter 9).
+Nielsen, J., 1993. Noncommand user interfaces. Commun. ACM 36, 83–99.
+Norman, D.A., 1999. The Invisible Computer. MIT press, Cambridge, MA, London.
+Norman, D.A., 2007. Simplicity is highly overrated. Interactions 14, 40–41.
+Novak, T.P., Hoffman, D.L., Duhachek, A., 2003. The influence of goal-directed
+and experiential activities on online flow experiences. J. Consumer Psychol.,
+3–16.
+Oppermann, R., Specht, M., 2000. A context-sensitive nomadic exhibition guide.
+Handheld Ubiquitous Comput., 31–54.
+Petrelli, D., Not, E., 2005. User-centred design of flexible hypermedia for a mobile
+guide: reflections on the hyperaudio experience. User Model. User-Adapt.
+Interact. 15, 303–338.
+Petrelli, D., Not, E., Zancanaro, M., et al., 2001. Modelling and adapting to context.
+Personal Ubiquitous Comput. 5, 20–24.
+Pianesi, F., Graziola, I., Zancanaro, M., et al., 2009. The motivational and control
+structure underlying the acceptance of adaptive museum guides – an empirical
+study. Interact. Comput. 21, 186–200.
+Schilit, B., Adams, N., Want, R., 1994. Context-aware computing applications. In:
+First Workshop on Mobile Computing Systems and Applications. WMCSA 1994,
+pp. 85–90.
+Serrell, B., 1997. Paying attention: the duration and allocation of visitors’ time in
+museum exhibitions. Curator Museum J. 40, 108–113.
+
+Please cite this article in press as: Lanir, J., et al. Examining proactiveness and choice in a location-aware mobile museum guide. Interact. Comput. (2011),
+doi:10.1016/j.intcom.2011.05.007
+
+12
+
+J. Lanir et al. / Interacting with Computers xxx (2011) xxx–xxx
+
+Shneiderman, B., Plaisant, C., 2009. Designing the user interface. Addison-Wesley
+Reading, MA.
+Stock, O., Zancanaro, M., 2007. PEACH: Intelligent Interfaces for Museum Visits.
+Springer-Verlag, New York Inc.
+Stock, O., Zancanaro, M., Busetta, P., et al., 2007. Adaptive, intelligent presentation of
+information for the museum visitor in PEACH. User Model. User-Adapt. Interact.
+17, 257–304.
+Tennenhouse, D., 2000. Proactive computing. Commun. ACM 43, 43–50.
+
+Wakkary, R., Hatala, M., 2006. ec(h)o: Situated play in a tangible and audio museum
+guide. In: Proceedings of the 6th Conference on Designing Interactive systems,
+pp. 281–290.
+Want, R., Pering, T., Tennenhouse, D., 2003. Comparing autonomic and proactive
+computing. IBM Syst. J. 42, 129–135.
+Zimmermann, A., Lorenz, A., 2008. LISTEN: a user-adaptive audio-augmented
+museum guide. User Model User-Adapt. Interact. 18, 389–416.
+
+Please cite this article in press as: Lanir, J., et al. Examining proactiveness and choice in a location-aware mobile museum guide. Interact. Comput. (2011),
+doi:10.1016/j.intcom.2011.05.007
+
+

@@ -1,0 +1,555 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/323240057
+
+Exploring Cultural Heritage Using Virtual Reality
+Article in Lecture Notes in Computer Science · February 2018
+DOI: 10.1007/978-3-319-75826-8
+
+CITATIONS
+
+READS
+
+3
+
+1,567
+
+3 authors, including:
+Laurent Debailleux
+
+Natacha Duroisin
+
+Université de Mons
+
+Université de Mons
+
+9 PUBLICATIONS 25 CITATIONS
+
+83 PUBLICATIONS 166 CITATIONS
+
+SEE PROFILE
+
+SEE PROFILE
+
+Some of the authors of this publication are also working on these related projects:
+
+Faciliter la transition primaire-secondaire en géométrie par le recours à la visualisation non iconique View project
+
+Apprentissages, Cognition & Espace View project
+
+All content following this page was uploaded by Natacha Duroisin on 19 February 2018.
+The user has requested enhancement of the downloaded file.
+
+Reference of this article :
+Debailleux, L., Hismans, G. & Duroisin, N. (2018). Exploring Cultural Heritage
+Using Virtual Reality. In M., Ioannides (Ed.). Digital Cultural Heritage.
+Lecture notes in Computer Science, Springer International Publishing.
+
+Exploring Cultural Heritage Using Virtual Reality
+Laurent Debailleux1*, Geoffrey Hismans1*, Natacha Duroisin2*
+2
+
+1 University of Mons, Polytechnique Faculty, Mons, Belgium
+University of Mons, Department of Methodology and Training, Mons, Belgium (INAS)/
+Charles de Gaulle University – Lille (PSITEC)
+
+laurent.debailleux@umons.ac.be
+natacha.duroisin@umons.ac.be
+
+Abstract. Virtual modelling featuring realistic, constructed environments has
+progressed significantly over the last decade and is largely used for scientific,
+educational and recreational purposes. Helped by gaming industry advances, 3D
+engines are continuously pushing the technological frontiers by providing more
+and more realistic environments, which allows increased interactions with users.
+In this context, a head-mounted display, such as Oculus Rift, facilitates interactivity allowing more realism in an immersive experience.
+This paper presents an innovative use of Oculus Rift, without any other connected
+device, in order to allow virtual mobility without constrained navigation. It also
+meant that visual item selection or information requests in a 3D scene could be
+done using a virtual pointer. This innovation brings an added value to the existing
+virtual reality experience by making it possible to streamline the interaction between the user and the model while valuing the intuitiveness and spontaneity of
+actions. The system might therefore be easy to handle even for a non 3D expert
+user.
+The main square of the city of Mons (Belgium), European Capital of Culture in
+2015, was chosen as a case study to put the project into practice. The historical
+centre of the city has many architectural heritage buildings from the gothic and
+classical periods which constitute an ideal heritage site to work on. The virtual
+model was built with Rhino software and later imported into the Unity 3D real
+time engine to perform the animations and enable the 3D environment to interact
+with the Oculus Rift.
+The project proposes a virtual tour of the historical town centre where each building is described through audio storytelling. Each audio description informs the
+user about the cultural heritage value of the building under scope. The gaming
+experience has been tested by a group of children aged between 9 and 12. Although free to take a virtual walk around the main square, each user has to follow
+audio instructions and listen to indications in order to make the visit in a particular order. The assessment of the virtual tour through the learning outcome of the
+users is evaluated and discussed in this paper.
+Keywords: Virtual Reality, Virtual Heritage, Oculus Rift, 3D Visualisation,
+Spatial Cognition, Learning Space, Information and Communication Technology, Cognitive Psychology.
+
+2
+
+1
+
+Introduction
+
+Using virtual environments as a space simulator has shown its effectiveness and potential in gaining various spatial and informational knowledge and in analysing the cognitive and behavioral skills of people.
+The advances in the IT field allow today to navigate in virtual environments without
+behavioural interfaces (i.e. joystick). This research study shows an example of a device
+that can be used to discover an environment without motor interfaces.
+This research study assesses three different aspects. First, the authors study the efficiency of the software from the learning outcomes of the cultural heritage of the city.
+Then, spatial knowledge after navigating across the city is evaluated by recognition of
+landmarks and construction of mental maps. Finally, the perceptions of the users after
+the virtual tour are considered.
+In a first part, the authors define spatial cognition and present a specific model (L-R-S)
+for understanding how a person develops a representation of his environment. The role
+of virtual reality for spatial cognition studies is also discussed in this section. In a second part, the authors present the software used to build a realistic 3D model of the city
+centre of Mons. The technical solutions for navigating and selecting interactive information buttons about different buildings in the main square are detailed as well. In a
+third part (the experimental plan), the results and conclusion of the research study are
+presented.
+This research study is an original contribution combining works in architecture, computer science and spatial cognition- a specific field of Cognitive Psychology.
+
+2
+
+Research aims
+
+The first part of the research study is dedicated to a technical approach in which the
+virtual experience is made more intuitive by using a unique virtual helmet to move and
+interact with a realistic 3D model. In this context, the effectiveness and possible benefit
+of these new functionalities are assessed. The second phase of the project consists in
+evaluating the spatial representation of the virtual built environment through the mental
+map depiction of users. The third phase explores the possible use of virtual reality as a
+tool for learning in a built context that embodies significant cultural heritage values.
+
+3
+
+Spatial cognition and virtual reality
+
+3.1
+
+Spatial cognition: a concept at the crossroads of disciplines
+
+Defined by Neisser [1] as the act of knowing, acquisition, organisation and use of
+knowledge, cognition is a complex process that relies on the interaction of sensorimotor
+
+3
+
+structures and neurological systems of a person. Without being exhaustive, the few definitions presented define the term "spatial cognition" and account for the variety of its
+meanings. As Peruch & Corazzini [2] point out, "the study of spatial cognition has its
+origins [...] in psychology, [...] in the geography of perception, urbanism and architecture ". In the field of architecture, Lynch's work [3] entitled "The image of the city" is
+an unavoidable reference. In his writing, the author clearly demonstrates that the mental
+images that individuals make of a city differ from their own experiences. He has proposed a categorization of mental images based on the notions of markers (point elements), paths and boundaries (linear elements allowing to connect the point elements
+and delimiting an area), and nodes (junction elements between the channels). Lynch
+(ibid.) has inspired all spatial cognition researchers (geographers, cognitivists and
+neuro-cognitivists) in the field of spatial cognition for the analysis and understanding
+of the mental images of a given space.
+According to Hart & Moore [4], spatial cognition “is the knowledge and internal or
+cognitive representation of the structure, entities, and relations of space; […] the internalized reflection and reconstruction of space in thought.” Spatial cognition is therefore
+described here as a spatial representation of the environment, its content and the organization of spatial knowledge necessary for the handling and processing of spatial information. In other words, spatial cognition can be viewed as a process by which somebody perceives, stores, recalls, edits, and communicates spatial images. Barowsky &
+Freksa [5] insist that the mobilised environments may be of a different nature and describe spatial cognition as « acquisition, organisation, utilisation, and revision of
+knowledge about spatial environments be it real or abstract, human or machine ». In
+addition, Freksa [6] states that spatial cognition also refers to "the ways in which humans, animals or machines think of space, how they act and interact in space, how they
+can exploit spatio-temporal structures through computational processes". From the
+point of view of research, space is therefore no longer just an object that one learns (at
+school in particular) and that someone uses on a daily basis, but is also a means to
+apprehend and understand the cognitive processes involved in various activities. It is in
+this sense that spatial cognition has been and is still considered by researchers in the
+cognitive sciences in particular. Whether research is carried out on animals (rodents,
+dogs ...) or on humans (with or without pathologies), one of the main objectives pursued
+by research in cognitive psychology is to understand how ospatial information is organised in memory to be reused later in similar or new situations. This is why there is
+an interest in "representations (...) and in the processing of information that allows us
+to talk about the reconstruction of reality" [7]. Indeed, to understand the way in which
+an individual apprehends a given space, two major solutions are open to the researcher.
+On the one hand, it can be based on data derived from neurophysiology (see Bohbot
+and Duroisin work's for more information); on the other hand, it can resort to the observable behaviour of an individual (i.e. the external representations that it produces
+according to its own internal representations).
+
+4
+
+3.2
+
+L-R-S Model
+
+The spatial knowledge taxonomy was developed by Thorndyke & Hayes-Roth [8].
+More commonly known as L-R-S, this taxonomy defines three types of interrelated
+knowledge that are essential to any complete mental representation of a given environment. The first type is "landmark knowledge" (L). While Vinson [9] indicates that any
+object that provides direction information may be a landmark, other authors point out
+that points of reference are objects perceived and recognised by an individual given
+their specific characteristics (forms, structures and / or socio-cultural meanings) and
+their visibility. For Lynch [3], the landmark is an external physical object that acts as a
+reference point. This author indicates that the peculiarity and the personal meaning of
+an object are two complementary reasons which make it a point of reference.
+In general, a landmark can be considered as an object which, due to its intrinsic qualities
+and taking into account the extrinsic characteristics defined by a given observer, makes
+it possible to be differentiated from the environment in which it is located and to serve
+as a point of reference.
+Landmarks can have a directional function, constitute decision-making aids (where
+to turn), or have a marker function (the presence of such a marker indicates that I am in
+an exact place). The landmarks are considered as anchor points from which the individual is able to locate objects more precisely or to develop a more complete mental
+map, a part of its environment. The landmark knowledge is considered as declarative
+knowledge and Darken, Allard & Achille [10] insist on its static nature. Points of reference are identified and recognised by someone as existing objects or places, but the
+latter cannot move from one object or place to another because of the ignorance of the
+paths that separate each point of the landmarks. To get from one place to another, people must acquire a second type of knowledge: route knowledge.
+As Bovy & Stern [11] point out, the most universal way of learning about space is to
+travel through it.
+This type of knowledge involves learning sequences of landmarks, segments of angles and actions performed while navigating through an environment. Knowledge of
+the route can be defined as a form of procedural knowledge. This type of knowledge is
+acquired through personal experience in a given environment, with reference to an egocentric framework, and depends on visual memorisation. It is by navigating the environment that individuals perceive and record the stimuli encountered, such as landmarks, location of landmarks, relationships between landmarks, etc.
+Using the allocentric (or exocentric) frame of reference, the third type of knowledge
+is that of the configuration. The coding of spatial information in an allocentric repository is carried out with respect to an external arbitrary repository. This type of coding
+makes it possible to evaluate the distances and to judge the relative relations between
+two objects external to the individual. The calculation of distances and angles takes
+place independently of the position of the individual. Thus, it is not necessary to carry
+out the updating of the positions of the objects during each actual or simulated displacement of the individual. The position of the objects and the distances separating the objects composing a given environment therefore define the knowledge of the configuration.
+
+5
+
+3.3
+
+Using virtual reality to evaluate spatial knowledge
+
+Based on engineering (graphical computer science, real-time computation, software engineering, robotics ...), virtual reality allows the presentation of selected stimuli in a
+defined context. For instance, virtual reality makes it possible to create environments
+(a city, for example) that are more or less enriched by stimuli of various forms (buildings, vehicles, pedestrians).
+Building on the field of human sciences, the use of virtual reality makes it possible
+to explore a person’s behavioural, cognitive and motor dimensions simultaneously.
+From a technical point of view, virtual reality can be defined as a "scientific and technical domain exploiting computing and behavioural interfaces in order to simulate in a
+virtual world the behaviour of 3D entities” [12]. Designed to perform specific actions
+in a given space, virtual environments require the use of human-computer interaction
+(HCI). In virtual reality, HCI is a determining element assured by different interfaces
+based on the use of the sensory and motor channels. In this perspective, Fuchs & Moreau [13] discuss two types of behavioural interfaces: sensory interfaces and motor interfaces. Klinger et al. [14] point out that the individual who perceives stimuli from his
+senses through the sensory interfaces acts on the virtual environment through actions
+he carries out via motor interfaces. The actions performed by the individual are then
+transmitted to the computer, which, in response, modifies the environment. The interfaces aim at particular sensory modalities and it is the quality and the degree of sensorial
+coverage offered to the user that reinforce (or do not reinforce) the immersive character
+of the device. In order to guarantee fluidity and a real interaction between the man and
+the computing device, it is important that the reaction times of the machine are similar
+to the updating time of the corresponding real environment.
+Questions about spatial learning, spatial sense, orientation, and the like are not recent. However, since the advent of new technologies such as virtual reality, spatial cognition research has multiplied [15,16]. While it is not possible to exert precise control
+over all the variables of a real environment, or even to carry out all the operations necessary to answer the questions related to a particular spatial skill, this has become
+achievable through virtual reality. The use of virtual reality also allows activities to be
+carried out in safe conditions.
+The use of virtual reality thus makes it possible to replicate a study on a large number
+of subjects without introducing bias into the results. In addition, virtual reality captures,
+in real time, the activity and the performance of the individual according to behavioural,
+cognitive, motor and / or physiological components. The majority of the actions performed by the subject can be quantified simultaneously, precisely and naturally, without the subject being aware of it. Virtual environments thus appear to be useful assessment tools for studying behaviour and cognition in the field of space learning [17, 18].
+
+6
+
+4
+
+Virtual reality implementation tools
+
+4.1
+
+Virtual environment
+
+As stated by Champion [19], virtual heritage may be viewed as an attempt to convey
+not just the appearance but also the meaning and significance of cultural artefacts.
+Therefore, virtual reconstructions should not be achieved without following guidelines.
+In this respect, the London Charter states that virtual reconstruction is justified and
+recommended when it is the most adequate means to communicate, learn or document
+as long as enough information is available. Indeed, in the field of cultural heritage,
+virtual models used for education and learning purpose should not be confused with
+video games which are mostly appropriate for recreation. The border between these
+approaches is more and more tenuous as the gaming industry also provides innovative
+developments and tools able to develop learning skills through edutainment, which is
+entertainment that is designed to be educational.
+Rhino 3D software was used as a surface modeller to build up a realistic 3D model.
+Detailed 3D models are composed of millions of polygons and high resolution images,
+making it very difficult for common computers to process them. Therefore, technical
+issues, such as editing time, can limit real-time displacement in a virtual environment
+due to the management of large polygonal datasets. As a result, virtual environments
+are usually modelled in low poly with a loss of quality with regard to the details, although the rendering may remain visually realistic. For the purpose of the research
+study, a cadastral map and ortho-photos of the building’s facades were used for the
+virtual reconstruction of the main square. This information is considered sufficient to
+build a realistic 3D model since an exact survey with a higher level of detail would not
+increase the realism of the virtual environment (Figure 1).
+
+Fig. 1. Example of facade modelled with Rhino 3D and textured with picture
+
+7
+
+4.2
+
+Virtual head set and interactivity
+
+Emerging technologies in the field of Virtual Reality are opening new opportunities
+which improve heritage education [20]. Within the specific context of this research
+study, interactivity with the virtual environment is brought off by the use of the Oculus
+Rift [21] which is a virtual reality head-mounted display, developed by Oculus VR
+initially in order to make the gaming experience more immersive, as it duplicates the
+movements of the user’s head within the virtual reality environment.
+Past research has been dedicated to interactivity within a virtual cultural heritage
+environment [22-24]. Recently, Jiménez Fernández-Palacios, et al. [25] combined a
+head-mounted display with a Kinect (depth sensor for user interaction) thereby enabling
+the user to explore the complexity of an archaeological site, and to get access to informative content. From an educational point of view, historical metadata linked to the
+model constitute added value for an interactive and immersive learning experience.
+For the purposes of this project, the Oculus Rift is used as a unique device to view and
+interact with the 3D model. Available since 2012, this virtual helmet has two Oled
+screens with a resolution of 1080x1200 pixels allowing a vision at 110 degrees in real
+time. Although its first function is a 3D viewer, it also enables movements with controllers within a 3D scene by means of a gyroscope with built-in accelerometer and an
+infrared camera. Based on the current possibilities offered by the Oculus, the research
+study presents a new development for moving, changing direction and operating the
+selection of interactive zones.
+The interaction between the user, his head set and the virtual environment is carried
+out by importing the 3D model into Unity software. This game engine is widely used
+in the video game industry and allows the animation of 3D virtual environments in real
+time using C # Sharps or Unity scripts.
+In the frame of the research, a software application developed in Unity generates a virtual pointer centred in the 3D view. The pointer allows movements and interactions by
+the user within the virtual model. As such, it substitutes the traditional control devices
+as no joystick or hand movements are required. The pointer is represented by a red dot
+on the user’s screen and refers to a coordinate system (x,y,z) within the virtual environment. A downward head movement between 20 and 30° of the user is interpreted as a
+forward moving action which can be combined with head tilts to turn left or right. The
+pointer also allows the selection of interactive buttons located above the buildings. A
+selection is operated when the pointer overlays one of these spots for sufficient time in
+order to reveal historical documents such as photographs and prints. Head movement
+to left or right is also used to scroll through the image library.
+The discovery of the virtual cultural heritage environment is constructed around
+story telling by means of audio descriptions which give information about particular
+buildings. For the purpose of the study, the virtual tour is set in such a way that the user
+has to follow audio instructions to reach a subsequent destination. The soundtrack starts
+when the user is sufficiently close to his destination, in front of the indicated building.
+
+8
+
+4.3
+
+Case study
+
+The city of Mons (Belgium), a historical centre and European Capital of Culture in
+2015, was chosen as a case study to put the project into practice. In particular, the main
+square of the city is a tourist attraction with many architectural heritage buildings which
+give a magnificent architectural panorama from the 15th century to the present day. The
+city is also famous for the legendary battle between St George and the Dragon which
+takes place in the main square on Trinity Sunday.
+A total of 10 buildings surrounding the main square have been selected for the project. Among them, the gothic town hall is probably the most impressive. Topped by a
+Baroque bell tower, the construction was unfinished as an upper storey had initially
+been planned. Near the main entrance, the statue of a little monkey is the mascot of the
+city. It is believed that stroking his head with your left hand will bring you a year of
+happiness. Along with the great theatre (inaugurated in 1843), the Hotel of the Crown
+is one of the neoclassical buildings on the square with the distinction of having hosted
+Mozart during one of his travel around Europe. The building called “blanc levrier” belongs to the gothic period and features beautiful carved stones. Some astonishing buildings no longer exist, but thanks to historical documentation, a number of them can be
+virtually reconstructed. One of these buildings has been studied as part of this project
+and added to the virtual tour. Built in 1589, it was used as a Slaughter House and occupied the greater part of one side of the main square until it was destroyed in 1842.
+(Figure 2).
+
+Fig. 2. Original drawing of an old building belonging to the main square (slaughter house); the
+3D reconstruction and the current building.
+
+9
+
+5
+
+Experimentation
+
+5.1
+
+Methodology
+
+The virtual model was evaluated with 19 children aged between 9 and 12. The purpose
+of the test was threefold, namely to evaluate first, the efficiency of the software based
+on the learning outcomes of the cultural heritage of the city; second, the spatial
+knowledge after navigating across the city, and third the perceptions of the user after
+the virtual tour.
+The main square of the historical city of Mons and its related 3D model was used for
+the experiment (Figure 3 and Figure 4). The test was preceded by questioning all the
+children to gather information about their age, their ability to recognise colours, their
+sense of direction, and previous experience with games and virtual reality. It was noted
+that only four children had a previous experience with a virtual headset while all of
+them were familiar with computer gaming.
+
+Fig. 3. 3D modelling of the main square of Mons city centre seen from the west.
+
+10
+
+Fig. 4. 3D modelling of the main square of Mons city centre seen from the south.
+
+Each participant was asked to try a demo version first in order to familiarise himself
+with the use of the headset so as to navigate in a basic virtual environment and interact
+with objects. The great majority of them has already been to the main square although
+this is not a frequent occurrence. During the test itself, each child was invited to take a
+virtual tour around the main square of the city by following audio instructions which
+gave historical or architectural descriptions of remarkable buildings. At the end of each
+audio sequence, the user was asked to head for another location, helped by directions
+and/or a visual characteristic of the façade. A total of 10 buildings were listed along a
+predefined itinerary and no time limit was set for the test (Figure 5).
+
+Fig. 5. Virtual tour around the main square of the city.
+
+11
+
+Immediately after the test, each participant was questioned about his mental perception of the environment and his opinion about the functionality and ease of operation
+of the virtual headset. The mental perception of the environment was evaluated in two
+steps. First, each user was asked to select the shape which corresponded the most to his
+mental representation of the main square from among six such shapes proposed (Figure
+6). The exact outline was then revealed to the candidate and used as a map to locate
+images of buildings presented to him subsequently, i.e. a total of 15 images including
+4 intruders, 10 buildings belonging to the main square and a duplicate in black and
+white. He was then asked whether each image of a building belongs to the virtual tour,
+and if so, what was its name and its location on the map. Finally, could the child quote
+any information it heard about it.
+
+Fig. 6. Alternative proposal for the presumed shape of the main square of the city.
+
+Learning outcomes
+Two of the 19 participants were removed to establish the results of the test. One withdrew from the experiment very quickly because she was not well, and the other was
+clearly not serious and gave wrong answers on purpose. The recognition rate of the
+exact shape of the main square, basically constituted by the combination of two rectangles, is six of seventeen (35%). According to five children, the main square corresponds
+to a circular or hexagonal shape, while four were sure it was rectangular. Two children
+saw a more complex polygonal shape.
+The perception of the built environment is shown in Figure 7. For all the images, the
+recognition rate is up to 60% with a maximum of 100% for three buildings, namely the
+façade with stained glass windows, a neoclassical building surmounted by a crown and
+the sculpture of a monkey which is the mascot of the city. The town hall, which is the
+most impressive building of the main square, where the visit started, as well as the 3D
+model of a demolished neoclassical building received the least votes. The influence of
+the colour pattern on the pictures shown does not seem to be noticeable, as black and
+white or colour pictures of a same gothic building have a substantially similar rate of
+recognition. In addition, intruders were correctly identified with an average of three out
+of four facades.
+
+12
+
+Fig. 7. Evaluation of the built environment by the children.
+
+The results concerning the accuracy of the building’s location show much lower
+rates compared to recognition, ranging between three and eleven out of seventeen, i.e.
+17% and 59% respectively. An indicated location is considered to be correct for the
+statistical results if it actually belongs to one of the six corners of the main square.
+In addition, the results tend to indicate that there is a link between the recognition
+and location rates, indicating that mostly recognised buildings are also more correctly
+located. This might be explained by the fact that best recognised buildings have more
+characteristic features that were emphasised during the storytelling of the visit. Distinctive elements of a building such as a flag, a sign or its function also helped the children
+to retain a mental picture of the built environment. An image of a bank, in particular,
+used as an intruder, created confusion, although its architectural style was different.
+The experiment was also intended to assess what the children learned from the virtual tour. All along the visit, historical or architectural audio descriptions presented as
+anecdotes were part of the storytelling. All this information was adapted for children,
+so elaborate depictions were avoided. Figure 8, illustrates the distribution rates of the
+anecdotes mentioned by the children for all the buildings. The results indicate that the
+statue and the neoclassical building are the most cited (24% and 23% respectively),
+followed by the main hall (18%) and the theatre (13.6%). It is interesting to note that
+the virtual reconstruction of a neoclassical building did not leave a mark on the children’s memory (only 1.5%).
+The difficulty of concentrating on the audio information rather than enjoying the
+game was also reported. However, all in all, it can be said that the virtual tour was
+effective in its ability to teach children, as more than 75% of the information concerned
+the most important buildings.
+
+13
+
+Fig. 8. Distribution rates of the anecdotes cited by children.
+
+5.2
+
+Perceptions and functionality test
+
+More than 70% of the children found the virtual environment very realistic because of
+its level of detail that reproduces the reality of the main square environment. On this
+point, it was interesting to note the remaining habits of natural responses when the users
+interact with their arms to protect themselves from collisions with walls or urban furnishings or try to catch artefacts.
+Almost 60% of the children had no difficulty using the virtual headset and its pointer
+to interact and navigate in the 3D environment while the rest of the group found it easy
+enough with sufficient practice.
+The great majority of the users stood during the test. Almost half of them did not lose
+their balance, but the others could hardly stand at least during the first minutes, while
+two children had to sit down on a chair which they found more comfortable.
+
+6
+
+Conclusion
+
+This research presents recent achievements in the field of virtual reality and cultural heritage
+learning. Oculus Rift is used as a unique device to interpret user’s head movements, allowing
+real-time interactions with a realistic 3D model. In this context, the virtual model is considered
+as a support for information by means of a virtual tour with audio descriptions of the historical
+
+14
+
+city center of Mons (Belgium). This virtual experience was assessed through the spatial representation of the virtual built environment and learning outcome of young users.
+Results indicate that a 3D model of the main square constitutes a relevant support for exploring cultural heritage while its realism a user frendly interface reinforces the immersive experience. The use of Oculus Rift as a tool to operate visual selections and navigate within a virtual
+environment proved its effectiveness for the great majority of users. In addition, it was also reported that interacting with the environment by using head movements is very easy and natural
+while it also expands the feeling of reality.
+The possible benefit of a virtual tour was also examined in the scope of spatial cognition and
+learning space. The spatial representation of the virtual built environment was evaluated through
+the mental map depiction of users and the recognition of landmarks. About the mental map, the
+results showed that that few children succeed in determining the shape of the great square. This
+is due to the changement of spatial frame of reference. Indeed, the child has navigating on the
+main square using an egocentric frame of reference while the task required (recognition of the
+shape of the main square) presupposes an allocentric frame of reference. About the landmarks,
+the tests reveal that the great majority of children correctly identifies and localizes the historical
+buildings but also recognize intruders, although all of them present similar architectural characteristics compared to city buildings. In addition, it is interesting to note that children also withhold
+most tourist information given through audio descriptions. Although, it was also observerved that
+visual details concerning buildings and their architecture play an important role compared to
+historical facts. This may be explained by the young ages of the users. In addition, it was also
+reported that the virtual tour was so realistic and impressive that it may also disturb the user's
+concentration.
+In view of these preliminary results, a virtual and realistic environment combined with virtual
+headset may provide an added value compared to traditional tourist web sites. Such a tool seems
+relevant to explore and learn about the cultural heritage values of sites. In addition, such innovation could allow people to remotely discover historical sites through virtual environments with a
+reinforced immersive experience.
+Future research will cover the assesment of the project with older people such as students with
+architectural and historical backgrounds. In addition such experience might be also evaluated
+with people with sensory-motor handicap in order to discuss possible benefit offered by the developments of this research.
+
+References
+1. Neisser, U.: Cognition and Reality: Principles and Implications of Cognitive Psychology.:
+WH Freeman and Company, New York (1976).
+2. Péruch, P. & Corazzini, L. : Se déplacer et naviguer dans l’espace. In : Fuchs, P., Moreau,
+G., Berthoz, A. & Vercher ; J.-L. (eds.), Le traité de la réalité virtuelle, Vol. 1., pp. 189204. Les Presses des Mines de Paris, Paris (2006).
+3. Lynch, K.: The image of the City. MIT Press, Cambridge (1960).
+4. Hart, T. & Moore, G.: The Development of Spatial Cognition: A Review. In: Downs, R. &
+Stea, D. (eds.), Image and Environment, pp. 246–288. Aldine Press, Chicago (1973).
+
+15
+
+5. Barkowsky, T. & Freksa, C.: Transregional Collaborative Research Center SFB/TR 8 Spatial Cognition: Reasoning - Action - Interaction. In : Proceedings of EuroCogSci 03, pp.
+453-458. Lawrence Erlbaum, Mahwah, NJ (2003).
+6. Freksa, C. : Spatial Cognition an AI perspective. In : Proceedings of ECAI 2004. IOS Press,
+Amsterdam (2004).
+7. Depeau, S. : De la représentation sociale à la cognition spatiale. Revue Travaux et Documents de l'UMR ESO, 25, 7-17 (2006).
+8. Thorndyke, P. & Hayes-Roth, B. : Differences in Spatial Knowledge Acquired from Maps
+and Navigation. Cognitive Psychology, 14, 560-589 (1982).
+9. Vinson, N. : Design Guidelines for Landmarks to Support Navigation in Virtual Environments. In : CHI’99 Conference Proceedings, CHI, Pittsburgh (1999).
+10. Darken, R., Allard, T. & Achille, L. : Spatial Orientation and Wayfinding in Large-Scale
+Virtual Spaces. Presence: Teleoperators and Virtual Environments, 8(6), 3-6 (1999).
+11. Bovy, P. & Stern, E. : Route Choice: Wayfinding in Transport Networks. Studies in Operational Regional Science. Kluwer Academic Publishers, Dordrecht (1990).
+12. Arnaldi, B., Fuchs, Ph. & Guitton, P. : Les applications de la réalité virtuelle – Présentation
+des applications de la réalité. In Fuchs, P. (Ed.), le Traité de la réalité virtuelle, vol. 4, pp.1623. Presses de l’Ecole des Mines, Paris (2006).
+13. Fuchs, P. & Moreau, G. : Le traité de la réalité virtuelle. Paris : Presse de l'Ecole des Mines
+de Paris (2003).
+14. Klinger, E., Marie, R.-M. & Fuchs, P. : Réalité virtuelle et sciences cognitives Applications
+en psychiatrie et neuropsychologie. Cognito, 3 (2), 1-31 (2006).
+15. Farran, E, Cranwell, M, Alvarez, J., Franklin, A. : Colour Discrimination and Categorisation in Williams Syndrome. Research in Developmental Disabilities, 34 (2013).
+16. Wallet, G., Sauzéon, H., Larrue, F. & N'Kaoua, B.: Virtual/Real Transfer in a Large-Scale
+Environment: Impact of Active Navigation as a Function of the Viewpoint Displacement
+Effect and Recall Tasks. Advances in Human-Computer Interaction, 1-7 (2013).
+17. Duroisin, N. : Quelle place pour les apprentissages spatiaux à l’école ? Etude expérimentale
+du développement des compétences spatiales des élèves âgés de 6 à 15 ans. Thèse de doctorat. Presses de l’Université de Mons, Belgique (2015).
+18. Duroisin, N., Demeuse, M.. : Impact of the spatial structuring of virtual towns on the navigation strategies of children aged 6 to 15 years old. PsychNology Journal, 13, 1, 75-99
+(2015).
+19. Duroisin, N., Demeuse, M., Bohbot, V. : Apprendre l'espace à l'école. Cahiers Pédagogiques, 527, 48-49 (2016).
+20. Champion, E.: Entertaining the similarities and distinctions between serious games and virtual heritage projects. In: Nakatsu, R., Rauterberg, M. (eds.) Entertainment Computing, vol.
+14, pp. 67–74, Elsevier, Amsterdam (2016).
+21. Mendoza, R., Baldiris, S., Fabregat, R.: Framework to Heritage Education using Emerging
+Technologies. In: Agresti, Wm., Aje, J. O., Baek, S., Bojanova, I., Bouthillier, F., Cantú
+Ortiz, F. J., Carswell, A., Casas, I., Darkazalli, G., Edmonds, E. A., Ghezzi, C., Khan, R.,
+Koval, M., Levy, M., Lin, B., McCarthy, R. V. (eds.) International Conference on Virtual
+and Augmented Reality in Education. Procedia Computer Science, vol. 75, pp. 239–249.
+Elsevier, Amsterdam (2015). doi: 10.1016/j.procs.2015.12.244
+22. Goradia, I., Doshi, J., Kurup, L.: A review paper on Oculus Rift & Morpheus. In: Mhatre,
+D. (eds.) International Journal of Current Engineering and Technology, vol. 4(5), Impressco
+(2014).https://scholar.google.com/scholar?q=Goradia%2C%20I.%2C%20Doshi%2C%20J.
+%2C%20Kurup%2C%20L.%3A%20A%20Review%20Paper%20on%20Oculus%20Rift%20%26%20Project%20Morpheus
+
+16
+
+23. Fernández-Palacios, B. J., Nex, F., Rizzi, A., Remondino, F.: ARCube-the augmented reality
+cube for archaeology. In: Pollard, M., Reiche, I., Walton, M., Artioli, G., Batt, C. (eds.),
+Archaeometry, 57(S1), pp. 250-262. University of Oxford and Wiley (2014).doi:
+10.1111/arcm.12120
+24. Barceló, J. A.: Visualizing what might be. An introduction to virtual reality in archaeology
+visualizing archaeological data. In: Barcelo, J.A., Forte, M., Sanders, D. (eds.), Virtual Reality in Archaeology, pp. 9-36, Archeo Press (2000).
+25. Papagiannakis, G., Schertenleib, S., O'Kennedy, B., Arevalo-Poizat, M., Magnenat-Thalmann, N., Stoddart, A., Thalmann, D.: Mixing virtual and real scenes in the site of ancient
+Pompeii. In: Magnenat Thalmann, N., Thalmann, D. (eds.), Computer Animation & Virtual
+Worlds, vol. 16(1), pp. 11-24, Wiley (2005). doi: 10.1002/cav.53
+26. Fernández-Palacios, B. J., Morabito, D., Remondino, F.: Access to complex reality-based
+3D models using virtual reality solutions. In: Tomasin, P. (eds.), Journal of Cultural Heritage, vol. 23, pp. 40–48. Elsevier, Amsterdam (2017). doi: 10.1016/j.culher.2016.09.003
+
+View publication stats
+
+

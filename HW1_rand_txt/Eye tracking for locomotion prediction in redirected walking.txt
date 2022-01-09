@@ -1,0 +1,1368 @@
+Eye Tracking for Locomotion Prediction in Redirected Walking
+
+Markus Zank∗
+
+Andreas Kunz†
+
+Innovation Center Virtual Reality - IWF - ETH Zurich
+
+ABSTRACT
+
+Model predictive control was shown to be a powerful tool for Redi-
+rected Walking when used to plan and select future redirection tech-
+niques. However, to use it effectively, a good prediction of the
+user’s future actions is crucial. Traditionally, this prediction is made
+based on the user’s position or current direction of movement. In
+the area of cognitive sciences however, it was shown that a person’s
+gaze can also be highly indicative of his intention in both selection
+and navigation tasks.
+
+In this paper, this effect is used the ﬁrst time to predict a user’s
+locomotion target during goal-directed locomotion in an immersive
+virtual environment. After discussing the general implications and
+challenges of using eye tracking for prediction in a locomotion con-
+text, we propose a prediction method for a user’s intended locomo-
+tion target. This approach is then compared with position based
+approaches in terms of prediction time and accuracy based on data
+gathered in an experiment.
+
+The results show that, in certain situations, eye tracking allows
+an earlier prediction compared approaches currently used for redi-
+rected walking. However, other recently published prediction meth-
+ods that are based on the user’s position perform almost as well as
+the eye tracking based approaches presented in this paper.
+
+Keywords: Tracking, locomotion, eye tracking, prediction, redi-
+rected walking, virtual reality.
+
+Index Terms: H.5.1 [Information Interfaces and Presentation]:
+Multimedia Information Systems—Artiﬁcial, augmented, and vir-
+I.3.7 [Computer Graphics]: Three-Dimensional
+tual realities;
+Graphics and Realism—Virtual reality
+
+1 INTRODUCTION
+
+Walking is our natural way of navigating in our surroundings and
+for this reason it is also the most natural and intuitive means of nav-
+igation in virtual environments. It was shown in a number of studies
+that users perform better in a variety of tasks the closer the interac-
+tion is to the real-world counterpart. In the context of navigation,
+this means that any interaction using keyboard and mouse is out-
+performed by navigation methods that allow the user to naturally
+turn his head to look around. The performance increases further if
+the user can also physically walk in the virtual environment. This
+typically requires a large scale tracking space that meets the high la-
+tency and precision requirements necessary to avoid cyber-sickness.
+Howver, the size of the virtual environment will still be limited to
+the size of this tracking space.
+
+To overcome this limitation, Razzaque et al. introduced the con-
+cept of redirected walking [20]. By scaling the user’s physical turns
+in the virtual environment, he can be tricked into turning 180◦ in the
+physical world while only turning 90◦ in the virtual world. In this
+way, a larger virtual space can be compressed into a limited tracking
+space.
+
+∗e-mail: zank@iwf.mavt.ethz.ch
+†e-mail: kunz@iwf.mavt.ethz.ch
+
+IEEE Symposium on 3D User Interfaces 2016
+19–20 March, Greenville, SC, USA
+978-1-5090-0842-1/16/$31.00 ©2016 IEEE
+
+In the following years, a number of additional techniques for
+redirection were introduced: curvature gains, which add additional
+curvature [23], velocity gains, which scale the user’s speed in move-
+ment direction [7, 27] and resets or reorientations, that force the
+user to execute speciﬁc actions [19, 28]. Usually only one of
+these techniques was applied, sometimes in combination with an
+immersion-breaking reset in case the user was about to leave the
+tracking space. However, to guarantee maximal immersion, all
+techniques should be used to their fullest potential and exactly in
+the situations where they are optimal.
+
+To this end, Zmuda et al. [31] introduced the idea of using prob-
+abilistic planning to redirected walking. Nescher et al. [14] con-
+tinued in this direction and formulated the selection of the optimal
+technique to be applied as a model predictive control problem. This
+allows applying the minimal amount of redirection required to pre-
+vent the user from leaving the tracking space. However, in most
+cases it is not known in advance what a user will do or where he will
+go and therefore it is unclear which redirection technique would be
+best in the long run. In order to solve this problem, a prediction of
+the user’s future path is required.
+
+1.1 Prediction for Redirected Walking
+
+In the past, prediction for redirected walking was done by estimat-
+ing a single future path which was then transformed to keep the
+user inside the tracking space [5, 16, 22, 24]. These predictions
+were made based on the user’s current viewing direction, direction
+of movement, past movement or a combination thereof. The result-
+ing prediction is a single straight line path with the exception of Su
+et al. [24] who ﬁtted a curved path based on the user’s past path.
+However, a model predictive control planner for redirected walking
+can consider multiple branching paths in its planning process, and
+to take full advantage of its potential we require a prediction that
+provides multiple future paths together with their respective proba-
+bility.
+
+As Nitzsche et al. [16] already discussed, there are predictions
+on different time scales and with different knowledge of the envi-
+ronment and models of human behavior. All methods presented and
+discussed in this paper work on a medium timescale. This timescale
+is longer than the immediate next step and therefore the predictors
+are not meant to predict or detect sudden changes in direction such
+as stopping and turning 90◦ (however, they should be able to re-
+cover and change the prediction immediately after such an event).
+On the other hand, the prediction will be limited to areas that are
+currently visible to the user and there are no cognitive or behav-
+ioral models included in the prediction. In addition, all methods re-
+quire discrete target positions the user is expected to walk to. These
+can either be points of interest or landmarks in the environment or
+points that are important in the environment’s layout such as choke
+points or junctions.
+
+All predictors used in this paper are formulated to include
+Bayesian priors and while they need to be determined experimen-
+tally for every new environment and can potentially improve the
+prediction performance, they are not required and can be replaced
+by a uniform distribution. In this paper, we will use data gathered
+in one condition of the user experiment to determine the priors and
+then evaluate the performance of the predictors on data from an-
+other condition.
+
+49
+
+2 RELATED WORK
+
+The prediction of a person’s future movements has a wide range
+of applications and research on this topic has produced a number of
+different approaches. While prediction of human actions has gained
+increased importance in the robotics community (e.g., [9, 29]), the
+requirements and restrictions differ from the ones suitable for an ap-
+plication in virtual reality. In a collision avoidance application, the
+robot itself carries most of the sensors and has to deal with multiple
+humans moving around it. Therefore, most methods for prediction
+have an exocentric perspective on the human and often use camera-
+based approaches. However, in an immersive virtual environment
+there is only one person and at least the head position is already
+tracked in order to control the point of view in the virtual environ-
+ment which makes this an egocentric problem not usually found in
+other areas. For this reason, we focus on prediction approaches that
+already use the egocentric formulation.
+
+Both Zmuda et al. [31] and Nescher et al. [14] used graph repre-
+sentations of their respective virtual environments. This graph rep-
+resentations are predeﬁned and consist of nodes and edges connect-
+ing two nodes. On this graph, they used a probabilistic approach
+to predict the user’s future path. For prediction, the edge closest
+to the user’s current position is found and predeﬁned probabilities
+for the edges connected to the next node are used. However, this
+does not include any data on how the user actually behaves in the
+environment over time. In order to use this additional information,
+a number of prediction approaches based on the user’s movement
+were developed. Su et al. proposed a prediction for telepresence
+motion-compression by using linear regression of the user’s past
+path to extrapolate his movements into the future [24]. Nescher et
+al. used a double exponential smoother instead of the regression
+to smooth the gait-induced head movements and to estimate the in-
+tended movement direction [15].
+
+Zank et al. extended this concept for the case in which pre-
+deﬁned locomotion targets are available in the environment [30].
+By using standard models of human locomotion [1, 2], it is pos-
+sible to obtain an expected reference path to each of the targets.
+Once the user starts moving, the observed movement can be com-
+pared to the simulated reference trajectories and a prediction can
+be made. For this, they use standard methods like Dynamic Time
+Warping and also proposed a new cost-based comparison method
+that evaluates the amount of “wasted” movement towards each of
+the potential target points.
+
+However, all these approaches are based on the user’s path or
+location which means that if the paths to two possible targets are
+identical at this point, there is no way of telling which of the two
+targets is the correct one. Examples for such situations could be a
+T-maze, where a long corridor splits up into two opposite paths, or
+a situation where a person has not yet begun to walk.
+
+However, predicting a person’s action is interesting not only in
+the context of locomotion in virtual reality. It was shown in con-
+sumer and cognitive science research that a person’s gaze can be
+highly predictive of future actions in selection tasks. Various re-
+searchers found that if people are asked to make a decision between
+a number of options, there is a signiﬁcant gaze bias towards the cho-
+sen option for a short time period before the decision is announced
+[3, 17, 25, 26]. It is also known that the gaze direction leads the
+walking direction by a few seconds [6] and the same holds true for
+driving [8, 12]. For a comprehensive summary of eye tracking in
+various tasks including reading, walking and sandwich-making, see
+Land et al. [11]. In addition, this leading behavior occurs not only
+for the eyes. It has also been observed that the head direction usu-
+ally leads the torso and body orientation when walking on a curved
+path [4].
+
+This prior research leads to the conclusion that a person’s gaze
+could offer beneﬁts over traditional position based approaches
+when predicting a person’s locomotion target. In the following sec-
+
+tions, we will discuss the challenges and risks of eye tracking as a
+prediction method. Then we present a prediction approach using
+eye tracking and assess its performance in a user experiment.
+
+3 EYE TRACKING
+
+It was shown in the past, that our gaze leads future movements when
+walking or driving. In this context, it seems obvious to use it as a
+means of predicting future actions. However, other research has
+shown that gaze is also directed to regions that contain information
+relevant to the current task [18, 21, 25] which is in line with obser-
+vations made in the driving context. We assume that since driving
+is usually the primary task, gaze is mostly controlled by the require-
+ments of steering and therefore a lot of time is spent looking at the
+intended driving target, especially in the often artiﬁcial experimen-
+tal context this data was gathered in. However, for data gathered
+on the road, the gaze will already be distributed between steering
+along the road, watching other trafﬁc participants, and the scenery
+[10].
+
+But in the context of real walking in virtual environments, walk-
+ing around might not even be the primary task. Consider for exam-
+ple a virtual art gallery, it is very likely that a person’s gaze will be
+directed towards the paintings, since this is usually the primary rea-
+son for being in an art gallery. However, it is reasonable to assume
+that the visitor will not walk to each of them. But he will still look
+at most of them, at least to determine if it is worth to walk there.
+A similar situation occurs for a search task, there will be a lot of
+scanning the environment and a decision for a new locomotion tar-
+get will only be made if there is new information visible. In these
+situations, it is possible that eye tracking alone cannot provide suf-
+ﬁcient data for a stable prediction, but it might be able to support
+an unsure decision based on a position based prediction.
+
+At this point, we have to make a distinction between locomo-
+tion and wayﬁnding. Following the deﬁnitions by Montello [13],
+locomotion is the physical movement of the body through the en-
+vironment, whereas wayﬁnding is the cognitive task of planning a
+future movement. Together, they are involved in navigation which
+he deﬁnes as “goal-directed movement through the environment”.
+In the cases described above, it becomes difﬁcult to distinguish eye
+movements used for wayﬁnding from those used without locomo-
+tion intention. However, we hypothesize that there is a point where
+we need our vision for locomotion in order to make a certain turn or
+avoid obstacles, similar to the behavior observed for driving a car.
+At this point, eye tracking should be able to provide evidence for a
+prediction, but it is unclear how much time can be gained compared
+to traditional approaches.
+
+4 METHODS
+
+The prediction method presented in the following section assumes
+that there is a set of target points representing a person’s possible
+future targets. Automatically detecting these points from the envi-
+ronments is beyond the scope of this paper and it is assumed that
+the location of these points is known.
+
+The goal is to estimate the probability P(τ), which is the prob-
+ability of τ being the intended locomotion target, for each target
+τ ∈ T given the user’s current behavior. T is the set of all avail-
+able targets and in this paper we assume that it contains all possible
+targets (meaning there are no targets we don’t know about). In the
+following, we present a method to use eye tracking data to achieve
+this goal and compare it with prediction approaches based on the
+user’s position.
+
+It can be assumed that there is a gaze bias towards a person’s
+intended locomotion target τ. Additionally, it can be assumed that
+there is a relation between the user’s location in the environment R
+and the point in the environment he is looking at G given a certain
+target. For this reason, we propose to use a probability distribution
+for G that is conditional on the user’s location and his locomotion
+
+50
+
+target. Equation (1) follows from Bayes’ theorem and describes
+the probability of a certain target being the one the user intends to
+walk to P(τi|R, G) as a function of P(R, G|τi) which has to be deter-
+mined experimentally. However, it might be possible in the future
+to automatically generate them based on the virtual environment,
+if a bottom-up model based on the environment’s local geometry
+and saliency is viable.
+If this is not the case, a data driven ap-
+proach could be more promising. P(τ), on the other hand, contains
+a prior probability and allows bringing in prior knowledge about
+the probabilities of all targets. However, these values are highly
+environment-, task- and knowledge-dependent which makes them
+difﬁcult to determine but they can potentially be a powerful tool for
+highly stereotyped or scripted tasks. This could for example be the
+case in a training scenario where the correct sequence of tasks is
+known and the user is supposed to follow it.
+
+P(τi|R, G) =
+
+P(R, G|τi) · P(τi)
+∑∀τ j∈T P(R, G|τ j) · P(τ j)
+
+(1)
+
+Please note that even though P(R, G|τ) is formulated as a multi-
+modal probability distribution, it merely serves as a fully complete
+example in this section, while the formulations evaluated in this pa-
+per will be discussed in Section 6.1. G and R are points in 3D space,
+but for a virtual environment that does not allow vertical movement,
+it is sufﬁcient to use a 2D position for both. The probability is real-
+ized as a discrete probability distribution, where the resolution can
+be chosen according to the requirements and the amount of avail-
+able data.
+
+A second approach is to look at differences in the temporal dis-
+tribution of G. The hypothesis is that there is a signiﬁcant bias
+towards the selected target similar to the one observed by Wiener
+et al. [25]. From their work and other work on eye tracking dur-
+ing decisions, we hypothesize that there are two areas or time in-
+tervals in which the bias could occur: First, when the decision is
+made, and second when gaze is used for steering. The ﬁrst occur-
+rence should be inﬂuenced by prior knowledge of the environment
+and task-speciﬁc circumstances, while the second one should de-
+pend more on the local geometry (sharp turn, narrow passage, door,
+etc.). Since both aspects are directly related to the environment’s
+geometry, we will consider the problem more from a spatial rather
+than a temporal perspective and will therefore focus on distances
+and zones in space rather than time intervals in the evaluation.
+
+5 EXPERIMENT
+
+5.1 General Considerations
+In order to gather data to determine P(R, G|τ) and to compare eye
+tracking based prediction with position based prediction, a user
+study was conducted. Since prior knowledge and task can play a
+major role for eye movements, it was decided to conduct a user
+experiment without a task that could strongly inﬂuence eye move-
+ments. Such a task could be a search task where a user would natu-
+rally use their eyes to look for whatever they need to ﬁnd.
+
+To be able to evaluate the eye tracking and path data, it is im-
+portant to know the user’s intended target. Other work that demon-
+strated the potential of eye tracking for prediction often used se-
+lection tasks, where the selection can be performed almost instan-
+taneously after the user’s decision. However, for walking there is
+an inherent delay between the choice of a target and the time when
+the target is reached.
+It is therefore possible that multiple deci-
+sions occurred during the walking process, for example if a person
+can’t decide between two targets or changes his mind. In such a
+case the prediction should show an alternating prediction. How-
+ever, without any additional insight on the participant’s cognitive
+process (e.g., through a think-aloud protocol), we would assume
+poor prediction performance, even though it was actually correct.
+Therefore, it is necessary for the user to know where he wants to
+
+(a) Y-room, left condition. The right condition
+is mirrored.
+
+(b) T-maze, all conditions
+
+Figure 1: The main layouts. The user enters from one of the two
+elevators on the left (marked with S), approaches the door with the
+instruction (red line) and walks to one of the elevators on the right.
+The elevators take him to the respective elevator (marked with E)
+on the next ﬂoor. All distances are in meters.
+
+Figure 2: Y-room, free choice condition. Due to space restrictions,
+the layout for the free choice condition in the Y-room is slightly
+different from the left and right conditions. All distances are in
+meters.
+
+go to be able to properly determine the predictors performance in
+a post-hoc evaluation. For this, it was decided to give the partici-
+pants clear instructions on what to do and not let them explore an
+unknown environment or make too many decisions on their own.
+
+5.2 Design
+In the ﬁnal design, the users were placed in a virtual environment
+of a multi-story building and instructed to reach the top ﬂoor by
+following arrows located in the environment and using a series of
+elevators for vertical movement. Every condition in the experiment
+was located on a single ﬂoor, each of which had two exits or eleva-
+tors leading to the next ﬂoor. In this way, any number of conditions
+and repetitions can be done using the maximum available track-
+ing space without redirection or interaction from the experimenter,
+while providing enough narrative to the user to behave naturally.
+
+As already discussed by Zmuda et al. [31], we can expect dif-
+ferent behavior from people in a narrow maze-like environment in
+comparison to wide, open spaces. Prediction is also potentially eas-
+ier in the second case because the traveled path will diverge earlier
+compared to a narrow maze, since humans generally follow short
+and smooths trajectories to their target. For this reason, two main
+
+51
+
+SSE1.461.44.92.90.92.31.4SESE9.261.42.31.4SSEE61.41.44.91.52.30.11.9Figure 3: View in the Y-room “free choice” condition from the start-
+ing door towards the exits.
+
+(a) Go left
+
+(b) Free choice
+
+Figure 4: Instruction symbols. They appear as holograms on the
+currently closed door.
+
+layout types were included in the study: A room with two exits
+side-by-side on the opposite wall (Y-room, Figure 1a) and a cor-
+ridor with two exits to the left and right (T-maze, Figure 1b). In
+both cases, the layouts have two exits that are located symmetri-
+cally with respect to the room’s main axis. To avoid any changes in
+visibility while the participant is moving through the environment,
+a door was added at the beginning of the ﬂoor. This door is initially
+closed and only opens once the user is standing in front of it for two
+seconds.
+
+Each layout was paired with one of three instructions: “Go left”,
+“go right” or “free choice”. The “go left” and “go right” condi-
+tions simulate a participant with knowledge of the environment and
+a clear target in mind. This can be either task-related, or because the
+participant wants to go to a certain location in the environments. In
+the “free choice” condition, the participant does not have a prede-
+ﬁned target, this can either represent a search task, an unknown en-
+vironment, or a situation where both decisions lead to the intended
+target. For space reasons the layout for the “free choice” Y-room
+has a smaller distance between the exits (see Figures 2 and 3), the
+layout for the T-maze is identical for all conditions. Participants
+were instructed of their task on the individual ﬂoors with arrows
+that appear as holograms on the closed door at the beginning of the
+ﬂoor (see Figure 4). Once the door opened, the icon disappeared.
+This allows a comparison with the other two conditions to see how
+the gaze-patterns changes from the forced conditions.The left and
+right conditions appeared three times each, together with two free
+choice conditions for each of the room layouts.
+
+In addition, there were a number of “museum” ﬂoors. Here, the
+users were shown sets of three paintings, symbols or numbers and
+had to indicate which of them does not ﬁt with the others by stand-
+ing in a circle in front of it (see Figure 5 for an example). This task
+was included to keep the users engaged and also to distract from the
+experiment’s actual purpose. Therefore, the sets were deliberately
+designed to be non-trivial with potentially more than one answer
+that could be argued for. Such a “museum” ﬂoor was inserted after
+every other study ﬂoor. This results in a total of 25 ﬂoors with 16
+
+52
+
+Figure 5: View from the entrance to the three symbols on the 12th
+ﬂoor
+
+study layouts, seven “museum” ﬂoors, a start and an end ﬂoor.
+
+Prior to the experiment, the participants had the opportunity to
+walk around in a virtual environment of a small apartment in order
+to familiarize themselves with the system. Afterwards, they were
+instructed about their task for the experiment with a short example.
+This example used the same geometries and arrows, but a differ-
+ent “museum” ﬂoor. After they ﬁnished the experiment, they were
+offered the opportunity to try another virtual environment.
+
+5.3 Setup
+
+The setup (depicted in Figure 6) consists of an Oculus DK2 head-
+mounted display1 with an integrated SMI eye tracker2. The track-
+ing system is an Intersense IS-1200 attached to the HMD provid-
+ing 6 DOF position tracking at 180 Hz. The system is powered
+by a backpack-mounted laptop and the virtual environment runs in
+Unity3D3. The environment was optimized to run constantly at the
+display’s maximum framerate (75 Hz).
+
+The eye tracker was calibrated using a 5 point calibration and
+runs at 60 Hz. The gaze vector given by it was intersected with the
+geometry in real time and both the original vector and the resulting
+3D position were recorded. The data from the position tracker was
+recorded at 180 Hz, but was subsampled to match the eye tracker’s
+update rate.
+
+Additionally, the users wore headphones and heard music and
+sounds from the doors and elevators in the environment in order to
+dampen the sounds in the real environment.
+
+6 RESULTS
+
+14 participants were recruited among the student body. The average
+age was 25 (± 4.1) years and average height was 177 (± 7) cm.
+The data was then cut into individual paths on each ﬂoors, resulting
+in 224 study-ﬂoors. The beginning of each path is the ﬁrst eye-
+tracking data point that is beyond the initial doors. The path ends
+when the participant enters one of the target zones. The data from
+the start and end ﬂoors as well as the “museum” ﬂoors was recorded
+but not used in this evaluation. 24 ﬂoors were excluded from the
+evaluation, because users went to the wrong elevator either because
+they forgot the instruction or they were curious to see what is there.
+
+1http://www.oculusvr.com
+2http://www.smivision.com/en/
+
+gaze-and-eye-tracking-systems/products/
+eye-tracking-hmd-upgrade.html
+
+3http://unity3d.com
+
+(a) T-maze, all conditions
+
+(b) Y-room, left
+
+(c) Y-room, free choice
+
+Figure 7: Target zones (hatched area) and target locations (red and blue circles) for all conditions. The red vertical lines represent the doors
+at the beginning of the environment, the blue vertical lines mark the location where the environment opens up to the side (see Figures 12-15).
+
+gaze distribution when the user approaches the decision point. The
+probability is deﬁned in equation (3).
+
+P(τi|G, Rx) =
+
+P(G ∈ G j|Ri ≤ Rx < Ri+1, τ) · P(τi)
+∑∀τ j∈T P(G ∈ G j|Ri ≤ Rx < Ri+1, τ j) · P(τ j)
+for Ri = f · i, Ri ∈ [0, 20]
+
+(3)
+
+The range [0, 20] is chosen to completely cover the layouts used
+while the resolution f can be chosen depended on the available
+data. The methods proposed so far cannot capture behavior over
+time such as a user looking at a single target for a long time. To
+account for this, we propose a combination of the single frame pre-
+diction deﬁned in equations (2) and (3) over a deﬁned time period
+T, where t0 is the time of the prediction. By tuning T it is possible
+to trade responsiveness and the maximal conﬁdence. For example
+a predictor with a very small T will react quickly if the user looks
+somewhere else, but there is also a upper limit for P(τi,t0)T . A
+larger T allows P(τi,t0)T to go to 1 if the user looks at a target long
+enough, but the predictor is not as responsive.
+
+P(τi,t0)T =
+
+∏
+
+t0−T
+t=t0
+∑∀τ j∈T ∏
+
+P(τi,t)
+t0−T
+t=t0
+
+P(τ j,t)
+
+(4)
+
+The next method is based on the gaze bias towards the chosen
+target that was expected based on the literature. The user is ex-
+pected to look at the intended target for a longer period overall,
+but not necessarily in the last time. Instead of using the previous
+method with a very large T , we consider the expected distribution
+of stays in different target zones. Tspent (i) is the total time the user
+was looking at Gi so far. P(T ≥ Tspent (i)|τi) is the probability that a
+person would look at Gi for at least Tspent given that i is the intended
+target.
+
+P(τi|Tspent ) =
+
+P(T ≥ Tspent (i)|τi) · P(τi)
+∑∀τ j∈T P(T ≥ Tspent ( j)|τ j) · P(τ j)
+
+(5)
+
+The main metric for comparing prediction methods is the time
+between the time a reliable prediction and the time the predicted ac-
+tion (in this case turn left or right) occurs. However, since this time
+depends on the user’s walking speed, the predictions are compared
+based on the distance between the point where a reliable prediction
+can be made and the wall opposite of the door through which the
+user entered the room projected on the room’s x-axis. The axes and
+origins for the respective layouts are deﬁned in Figure 7.
+
+6.2 Statistical Analysis
+
+In the following section, the observed user behavior is analyzed sta-
+tistically. In the “free choice” condition, participants chose the left
+path in the T-maze condition in 14 cases, while the right path was
+
+53
+
+Figure 6: Virtual reality simulator setup
+
+6.1 Eye Tracking Realization
+For the evaluation of the presented user experiment, three realiza-
+tions of the eye tracking concept in Section 3 are used. As men-
+tioned before the probability that are conditional on τ are discrete
+probability distribution and their resolution is limited by the amount
+of available data. For the eye tracking data, we propose a discretiza-
+tion that only allows one bin per target plus one additional bin that
+is not associated with any target. We will refer to these areas as
+target zones G , since they correspond to a physical area around the
+target points. While this is a very rough discretization, it is very
+easy to determine them automatically for a new environment given
+the targets’ locations. Figure 7 deﬁnes the target zones used deﬁned
+the layouts used for the experiment.
+
+The ﬁrst version is a purely eye tracking based approach that
+does not take the user’s position in space or changes over time into
+account. From the gathered data , we calculate P(G ∈ Gi|τi) (see
+Table 1) and determine the probability as deﬁned in equation (2).
+
+P(τi|G) =
+
+P(G ∈ G j|τi) · P(τi)
+∑∀τ j∈T P(G ∈ G j|τ j) · P(τ j)
+
+(2)
+
+The second method that was considered takes the user’s posi-
+tion in the room and the eye tracking position into account. In the
+general case, the user’s position in 2D space should be considered.
+However, because the layouts used in this study have one main di-
+rection of travel, it is acceptable to only consider the user’s position
+in this direction (x-axis). This allows capturing the changes in the
+
+XYXYXYIntended Target Other Target Off Target
+
+Condition
+T-maze Left
+T-maze Right
+T-maze Free
+Y-maze Left
+Y-maze Right
+Y-maze Free
+
+0.58
+0.50
+0.46
+0.65
+0.67
+0.48
+
+0.19
+0.23
+0.28
+0.12
+0.11
+0.12
+
+0.23
+0.27
+0.26
+0.23
+0.22
+0.40
+
+Table 1: Relative overall stay time is in a certain target-zone
+
+chosen also chosen 14 times. For the Y-room the left path was cho-
+sen 12 times, the right path was chosen 15 times. 4 participants
+chose the same option in both T-maze conditions while 7 partici-
+pants chose the same option in both Y-room conditions. Since there
+is practically no task in this study, it is possible that there is an in-
+ﬂuence of the previous ﬂoor’s layout.
+
+Figure 8 and Figure 9 show the duration of the stays in different
+target-zones. In this context a “stay” is considered to be the pe-
+riod during which the participant looks at one speciﬁc target zone.
+There can be multiple ﬁxations within one zone, meaning that mul-
+tiple points can be focused on within the same target zone, but it
+still counts as one stay. Both the number of stays and the duration
+of the individual stay is signiﬁcantly higher for the zone of the in-
+tended target (p < 0.01). Table 1 shows the relative stay time in the
+zone they eventually entered, in the other zone and in neither of the
+zones for the different conditions and layouts. For the “free choice”
+conditions this was assigned based on the ﬁnal decision. Even when
+people were free to choose, there is a bias towards the target-zone
+that was entered at the end.
+
+6.3 Single Sample Evaluation
+In the following, the data is analyzed looking at only a single data
+point or a pair of data points from position and eye tracker. Figure
+11a shows all the sampled user positions in the xy-plane. Figure
+11b shows the gaze direction (as deﬁned in equation (6) and Fig-
+ure 10) along the users’ paths through the environment. Every line
+corresponds the path traveled by a single participant on one ﬂoor.
+
+ϕ = tan−1 (cid:16) Gy − Ry
+Rx − Gx
+
+(cid:17)
+
+(6)
+
+In general, both position and gaze direction show a highly stereo-
+typical behavior without any fundamental differences in behavior
+between people. However, as expected there are some cases when
+people look around or scan the alternative corridor before looking
+in the intended walking direction causing the outliers in Figure 11b.
+For the Y-room condition, the behavior is different as shown in
+Figure 12. Due to the wide space available, the users’ paths diverge
+around 5 meters in front of the opposite wall which is exactly at the
+
+point the room widens. This aligns nicely with the principle un-
+derlying many locomotion models that humans try to keep the path
+traveled as smooth as possible. Since ϕ takes the y-position into ac-
+count when calculating the angle, the gaze direction differs during
+the steering motion around 4-5 meters in front of the opposite wall
+and goes back to zero afterwards.
+
+6.4 Position Based Prediction
+
+In order to determine if and to what extent an eye tracking allows
+an earlier prediction compared to approaches based purely on the
+user’s position, the approach previously presented in this paper is
+compared with previously published methods.
+
+The compared approaches are the one used by Nescher et al. [14]
+for redirected walking, the two cost-based approaches and one ap-
+proach using Dynamic Time Warping (DTW) by Zank et al. [30].
+The approach by Nescher et al. uses a graph representation of the
+environment consisting of straight line segments and arc segments
+with 0.8m radius. The prediction is done by ﬁnding the graph seg-
+ment closest to the current position and following the graph along
+the direction of movement. When a node is reached, predeﬁned
+probabilities are used for all possibilities.
+
+The three predictors by Zank et al. are centered around the
+idea that human locomotion trajectories are optimal to some de-
+gree, meaning that humans usually walk on smooth and short paths
+to their target. They propose to use a model of human locomotion
+to generate a set of reference trajectories to all possible targets the
+moment the user starts to walk and then compare the observed tra-
+jectory to them while the user walks. In the following evaluation
+the models by Arechavaleta et al. [1] and Fink et al. [2] are used
+to generate these reference trajectories. In addition, they presented
+different schemes for comparing the observed path to the reference
+trajectories, the most promising ones are based on Dynamic Time
+Warping (DTW) and the cost-based method. Here, they use a cost
+function to calculate the amount of movement that was “wasted”
+if the user wanted to reach a speciﬁc target. Based on the differ-
+ence in “wasted” movement towards different targets, they calcu-
+late a probability distribution. The combination of the path model
+by Arechavaleta et al. with the cost-based predictor (“Arechavaleta,
+cost”) as well as the model by Fink et al. with both the cost-based
+( “Fink, cost”) and the Dynamic Time Warping ( “Fink, DTW”)
+predictors are included in the evaluation.
+
+The approaches by Nescher et al. and Zank et al. need distinct
+points in the environment as target points, they are manually deﬁned
+as depicted in Figure 7. The predictors by Zank et al. use the ﬁrst
+position sample on the path as a starting point, the approach by
+Nescher et al. uses an additional node in the middle of the door.
+For the following evaluation, both targets were considered by the
+predictors. Even for the “go left” and “go right” condition, the
+predictors were not aware that the user had no choice. Otherwise,
+
+(a) Left
+
+(b) Right
+
+(a) Left
+
+(b) Right
+
+Figure 8: Distribution of the stay time between the left target-zone
+(red) and the right target-zone (blue) for the conditions T-maze go
+left (a), and T-maze go right (b)
+
+Figure 9: Distribution of the stay time between the left target-zone
+(red) and the right target-zone (blue) for the conditions Y-maze go
+left (a), and Y-maze go right (b)
+
+54
+
+More than 50% classiﬁed at [m] (x-axis)
+Avg. # correct
+# class
+Max. # correct
+# class
+Mean overall performance
+Std dev. overall performance
+
+T / Y Arech., cost
+6.3
+9.6
+0.75
+0.48
+0.93
+0.64
+0.73
+0.48
+0.24
+0.36
+
+Fink, cost
+6.6
+9.4
+0.76
+0.59
+0.94
+0.99
+0.78
+0.59
+0.20
+0.17
+
+Fink, DTW Nescher Graph
+
+-
+1.00
+1.00
+0.50
+0.01
+
+3.9
+0.92
+1.00
+0.71
+0.09
+
+1.1
+0.99
+1.00
+0.51
+0.00
+
+4.9
+0.88
+1.00
+0.81
+0.08
+
+P(τ|G)0.25
+6.5
+8.2
+0.78
+0.69
+0.97
+0.86
+0.78
+0.62
+0.22
+0.22
+
+P(τ|Tspent )
+4.1
+3.2
+0.79
+0.77
+1.00
+0.88
+0.70
+0.58
+0.14
+0.10
+
+Table 2: Characteristic performance for predictors for the forced T-maze condition in the ﬁrst column under each method and the forced
+Y-room condition in the second column. The two best performing and earliest predictors are highlighted for each layout.
+
+6.5 Comparison
+
+The eye tracking based predictors were evaluated in a leave-one-
+out cross-validation scheme. The prediction for each user was done
+based on the conditional probabilities calculated with the data from
+the remaining participants. The combination of measurements over
+a certain time period as deﬁned in equation (4) was evaluated for
+T = (0, 1). There is an increase performance for larger T , but the
+increase levels off for T > 0.25 and since this also increases latency,
+T = 0.25 was chosen for the following evaluation.
+
+Both the P(τ|G, Rx)0.25 and P(τ|G)0.25 predictors (equations (2)
+and (3)) were evaluated, but the difference in performance was
+small and not signiﬁcant (p = 0.72). As a result, only P(τ|G)0.25
+will be included in detail in the following evaluation.
+
+To compare the different prediction methods, we assume that
+a prediction is considered reliable when the maximum probability
+reaches 66%. Then we look at the user’s position along the x-axis
+when a reliable prediction is made. Figures 13 and 14 show the ra-
+tio of correct, incorrect and undecided samples for the the T-maze
+and Y-room conditions against the user’s current position along the
+x-axis. This visualizes how the prediction develops as the users
+progress through the respective environments.
+
+Table 2 summarizes the predictors’ characteristic performance
+ﬁgures, namely the largest distance from the opposite wall at which
+more than 50% of all users’ paths were classiﬁed (correctly or in-
+
+Figure 10: Projection of the gaze vector on the ground plane. ϕ is
+the angle between the gaze direction and the room’s main axis.
+
+all predictors used in the evaluation would give a probability of 1
+for the correct target.
+
+(a) 2D position of the participant
+
+(a) 2D position of the participant
+
+(b) Gaze direction and x-position of all participants according to the
+deﬁnition in Figure 10
+
+(b) Gaze direction and x-position of all participants according to the
+deﬁnition in Figure 10
+
+Figure 11: Position and gaze angle for the “go left” (red) and “go
+right” (blue) conditions for the T-maze layout.
+
+Figure 12: Position and gaze angle for the “go left” (red) and “go
+right” (blue) conditions for the Y-room layout.
+
+55
+
+Xϕ YGRFigure 13: Distribution of prediction performance along the x-axis
+for the selected predictors for the T-maze layout. The plots show
+the ratio of correct (white), incorrect (black) and undecided (gray)
+data points along the room’s x-axis as well as the location of the
+initial door (red vertical line) and the opening into a wider space
+(blue vertical line).
+
+Figure 14: Distribution of prediction performance along the x-axis
+for the selected predictors for the Y-room layout. The plots show
+the ratio of correct (white), incorrect (black) and undecided (gray)
+data points along the room’s x-axis as well as the location of the
+initial door (red vertical line) and the opening into a wider space
+(blue vertical line).
+
+correctly) and the maximum and average ratio between the number
+correctly classiﬁed samples to the overall number of classiﬁed sam-
+ples. The performance of a single path is deﬁned to be the average
+of the probability of the correct target equation (7) where L is the
+overall length of the path. The predictor’s overall performance is
+the average performance of all recorded paths for the “go left” and
+“go right” conditions of one layout.
+
+E =
+
+P(τcorrect )dx
+
+1
+L
+
+(cid:90) L
+
+0
+
+(7)
+
+For the following evaluation, the performance of all individual
+paths is compared using ANOVA. Results are considered to be sig-
+niﬁcant if p < 0.05. Since the predictors were tested in a pair-
+wise fashion and the results were Bonferroni-corrected for multi-
+ple comparisons. Overall, P(τ|G)0.25 has the highest performance
+and is signiﬁcantly better than the predictors “Arechevaleta, cost”
+(p < 0.01), “Fink, DTW” (p < 0.01) and P(τ|Tspent ) (p = 0.037).
+The “Fink, cost” predictor is also signiﬁcantly better than “Fink,
+DTW” (p < 0.01), while “Nescher Graph” is not signiﬁcantly dif-
+ferent from any other predictor.
+
+For the T-maze condition, P(τ|G)0.25 also signiﬁcantly better
+than “Arechevaleta, cost” (p = 0.049), “Fink, DTW” (p < 0.01),
+“Nescher Graph” (p < 0.01) and P(τ|Tspent ) (p < 0.01). The “Fink,
+cost” and the P(τ|Tspent ) predictor are also signiﬁcantly better than
+“Fink, DTW” and “Nescher Graph” (p < 0.01 for all combina-
+tions).
+
+For the Y-room condition, P(τ|G)0.25 is signiﬁcantly better than
+“Fink, cost” (p = 0.034) and the P(τ|Tspent ) (p = 0.027). The
+
+“Nescher Graph” predictor is also better than both of them (p <
+0.01).
+
+To compare which predictor offers an early prediction, we look
+at the point where a decision has been made for at least 50% of all
+users. This corresponds to a position along the environments x-axis
+and is stated in Table 2. The “Fink, DTW” predictor is excluded
+for the T-maze, because it never gives a prediction for the majority
+of users.
+It can be seen that “Arechavaleta, cost” is the earliest
+predictor for the T-maze condition, “Fink, cost” is only 0.2 meters
+later. The best eye tracking based predictor is P(τ|G)0.25 which is
+1.4 meters behind. For the Y-room condition, “Fink, cost” offers
+the earliest prediction, followed by P(τ|G)0.25 and “Arechavaleta,
+Cost”. The remaining predictors are signiﬁcantly later.
+
+The initial hypothesis was that there should be two zones where
+eye tracking should work best. First, when the environment is ini-
+tially seen and the user orients himself and a second time when gaze
+is used for steering. The vertical red lines in Figures 13 and 14 show
+the location of the door whereas the point at which the room opens
+up to the side is marked with a blue line (also see Figure 7).
+
+For P(τ|G)0.25, the advantages of the eye tracking prediction can
+be seen. For both conditions, there is a number of path that can
+be predicted correctly even before the participant has passed the
+initial door (red vertical line). The cost-based predictors show a
+similar behavior. The predictor using the closest point on the graph
+(Nescher Graph) and the “Fink, DTW” predictor are not able to give
+a prediction that early.
+
+For the Y-room conditions on the other hand, the “Fink, DTW”
+predictor and graph based approach both perform well with a very
+small number of wrong predictions, but they are both later than the
+
+56
+
+T maze
+0.46 (-0.01)
+Arech., cost
+0.55 (-0.04)
+Fink, Cost
+Fink, DTW 0.50 (-0.00)
+0.51 (-0.00)
+0.52 (-0.10)
+0.55 (-0.02)
+
+Nescher Graph
+P(τ|G)0.25
+P(τ|Tspent )
+
+Y room
+0.66 (-0.07)
+0.71 (-0.07)
+0.61 (-0.11)
+0.69 (-0.12)
+0.74 (-0.06)
+0.67 (-0.03)
+
+overall
+0.56 (-0.04)
+0.63 (-0.05)
+0.55 (-0.05)
+0.60 (-0.06)
+0.63 (-0.08)
+0.61 (-0.03)
+
+Table 3: Performance of the predictors for the “free choice” con-
+ditions. In parentheses is the difference to the “forced” condition.
+Signiﬁcant changes are highlighted.
+
+Arech., cost
+Fink, Cost
+Fink, DTW
+Nescher Graph
+P(τ|G)0.25
+P(τ|Tspent )
+
+T maze
+9.54 (-0.02)
+9.01 (-0.36)
+- (-)
+1.05 (-0.05)
+4.93 (-3.24)
+3.28 (0.05)
+
+Y room
+5.16 (-1.18)
+6.55 (-0.02)
+3.29 (-0.60)
+4.06 (-0.83)
+6.59 (0.10)
+6.55 (2.42)
+
+Table 4: Difference for more than 50% classiﬁed [m]. In parenthe-
+ses is the difference to the “forced” condition. Notable changes are
+highlighted.
+
+cost-based and the P(τ|G)0.25 predictor. For the T-maze condition,
+they are only capable of providing a good prediction after the par-
+ticipant has walked into the side corridors (marked by the vertical
+blue line). This is a serious limitation, on the other hand they have
+the smallest number of wrong classiﬁcations for both conditions
+which could be very useful when combining multiple predictors.
+
+6.6 Free Choice Conditions
+In the following section, the prediction is evaluated for the “free
+choice” condition. The Bayesian priors are determined based on
+the position and eye tracking data from the “go left” and “go right”
+conditions and resulting probability distributions.
+
+As in the previous section, the conditions are compared based on
+their performance as deﬁned in equation (7). For every predictor,
+the performance for the free “free choice” condition is compared
+with the performance of the same predictor for the forced condition.
+Table 3 summarizes the performance of the predictors and shows
+the difference when compared to the “forced” condition.
+
+While the two cost-based predictors show no signiﬁcant differ-
+ence between the free and forced conditions, the DTW and graph-
+based predictor shows a difference for the Y-room condition (both
+p < 0.01). From the eye tracking predictors only P(τ|G)0.25 shows
+a signiﬁcantly worse performance in the T-maze condition (p =
+0.03), which is mainly caused by a worse performance in the be-
+ginning. There is no difference for the Y-room and the P(τ|Tspent )
+predictor. Looking at the change in prediction distance shown in ta-
+ble 4, there is little change with two exceptions. P(τ|G)0.25 is 3.24
+meters later than in the “forced” condition whereas P(τ|Tspent ) is
+2.42 meters earlier than in the “forced” condition
+
+7 DISCUSSION
+In general, eye tracking based prediction preforms well compared
+to recent position based approaches using path models. However,
+both the Y-room and T-maze conditions the “cost” predictors are
+capable of giving a prediction earlier than the eye tracking based
+predictors, but they also make more wrong predictions. On the
+other hand, compared to the “Fink, DTW” and “Nescher, Graph”
+predictors which have a lowest number of wrong predictions, eye
+tracking allows a prediction much earlier.
+
+Looking at the changes in the prediction’s certainty (number of
+either correct or incorrect samples to number of undecided sam-
+
+ples) in relation to key geometrical points in Figures 13 and 14, we
+can distinguish a number different behaviors. In some cases, there
+is an initial increase immediately after the door opens (marked by
+the red vertical line). This is the case for both eye tracking and
+both cost-based predictors. The second increase happens when the
+geometry opens up and allows paths to diverge (blue vertical line).
+Some predictors (like “Nescher Graph” for the Y-room and “Fink,
+cost” for the T-maze) are able to detect this development well be-
+fore the user actually reaches this point while others (“Fink, DTW”
+for both conditions) have an increase in certainty immediately af-
+terwards, resulting in a steep slope in the classiﬁed to unclassiﬁed
+sample ratio. It is noteworthy that the “Arechevaleta, cost” predictor
+behaves more like the eye tracking based predictors in this respect.
+It shows an initial increase in prediction certainty but than levels off
+and is not capable of taking advantage of the diverging paths in the
+Y-room condition. While it still exhibits good performance in the
+Y-room, for the T-maze this results in a high certainty, high error
+output.
+
+For the T-maze condition, the P(τ|G)0.25 predictor and the cost-
+based predictors both perform signiﬁcantly better than the the ap-
+proach by Nescher et al. However, in the Y-room condition, this
+approach performs very well and while it can not predict as early as
+the eye tracking and cost-based approaches, it has an exceptionally
+good right-to-wrong classiﬁcation ratio. This suggests that different
+predictors perform well under certain circumstances and combining
+them dependent on the environment or in a voting scheme should
+be considered in the future.
+
+However, the problems with the independence of gaze and move-
+ment intention discussed in the beginning might be a problem for
+the use of eye tracking based prediction. Even in the simple and
+clean environment used in this experiment, there was a high vari-
+ance between participants in the eye tracking data especially when
+compared to the highly stereotypical path behavior. This could also
+be the reason that the single sample eye tracking predictors per-
+formed poorly and only when averaging over time, the prediction
+was stable enough for prediction. This problem can be expected
+to intensify in a more visually distractive or busy environment that
+will be found in a real world application for Redirected Walking.
+In this case, it will probably be necessary to model the gaze behav-
+ior to differentiate the baseline gaze behavior from subtle changes
+dependent on the intended target, similar to the path models and
+comparison in [30].
+
+8 CONCLUSIONS AND FUTURE WORK
+
+The results show that eye tracking is indeed capable of providing
+an early prediction of a person’s intended locomotion target. While
+the performance in the Y-room condition with a lot of open space
+is comparable to the top position based predictors, eye tracking of-
+fers a clear advantage for the narrow T-maze layout where it of-
+fers a prediction as early as the ”cost” based predictors, but with
+a much higher number of correct predictions. It is also capable of
+providing a prediction 6.6 meters before the previously used graph-
+based approach by Nescher et al. can. However, it never achieves
+their 100% correct result, mainly because a number of participants
+peeked in the opposite direction while turning at the end of the T-
+maze. This is one of the main problems with using eye tracking
+data, even in the very clean and empty environment used in this
+study, some people looked around to orient themselves and explore
+the environment resulting in a relatively high percentage of wrong
+predictions.
+
+The second problem with the current formulation of the eye
+tracking based predictors is the use of conditional probabilities.
+However, since the predictions conditional on the user’s position
+did not perform better than the ones depending only on the gaze,
+the only remaining dependency is between gaze and target. It is
+likely that this is inﬂuenced by the number and visibility of the
+
+57
+
+available targets, but the data in Table 1 shows a very strong bias
+towards the intended target. It might therefore be possible to ﬁnd
+a environment-independent approximation in which case all condi-
+tional probabilities can be determined in advance. In addition, it
+should be possible to learn the conditional probabilities over time
+by gathering data from users in the respective environment.
+
+To increase the prediction performance in general, a majority
+or conﬁdence vote should be added in the future to be able use
+multiple predictors simultaneously and combine their predictions.
+This could be done by either using a simple voting scheme or by
+using different predictors in different zones along the user’s path.
+
+While the eye tracking based prediction has demonstrated good
+performance in this experiment, it is necessary to further evaluate
+its performance in more visually cluttered environments.
+If per-
+formance can be conﬁrmed in realistic scenarios, eye tracking can
+offer egocentric prediction of locomotion in environments where
+position tracking is not available such as applications like pedes-
+trian navigation.
+
+In the future, the beneﬁt of the improved prediction on Redi-
+rected Walking needs to be evaluated as well. The number of re-
+sets required per time should be reduced with improved prediction,
+however it is not immediately clear how much improvement can be
+achieved with a prediction on this time scale. In order to use the
+proposed prediction more easily, it is also necessary to extract the
+target points, gaze zones, and paths automatically from the virtual
+environment.
+
+ACKNOWLEDGEMENTS
+
+The authors wish to thank the Swiss National Science Foundation,
+project number 205121 153243, for funding this work.
+
+REFERENCES
+
+[1] G. Arechavaleta, J.-P. Laumond, H. Hicheur, and A. Berthoz. An op-
+timality principle governing human walking. IEEE Transactions on
+Robotics, 24(1):5–14, 2008.
+
+[2] P. W. Fink, P. S. Foo, and W. H. Warren. Obstacle avoidance dur-
+ing walking in real and virtual environments. ACM Transactions on
+Applied Perception, 4(1):2, 2007.
+
+[3] K. Gidl¨of, A. Wallin, R. Dewhurst, and K. Holmqvist. Using eye
+tracking to trace a cognitive process: Gaze behaviour during decision
+making in a natural environment. Journal of Eye Movement Research,
+6(1):1–14, 2013.
+
+[4] R. Grasso, P. Pr´evost, Y. P. Ivanenko, and A. Berthoz. Eye-head co-
+ordination for the steering of locomotion in humans: an anticipatory
+synergy. Neuroscience Letters, 253(2):115–118, 1998.
+
+[5] H. Groenda, F. Nowak, P. R¨oßler, and U. D. Hanebeck. Telepres-
+ence techniques for controlling avatar motion in ﬁrst person games. In
+Intelligent Technologies for Interactive Entertainment, pages 44–53.
+Springer, 2005.
+
+[6] M. A. Hollands, A. Patla, and J. Vickers.
+
+look where youre going!:
+gaze behaviour associated with maintaining and changing the direc-
+tion of locomotion. Experimental Brain Research, 143(2):221–230,
+2002.
+
+[7] V. Interrante, B. Ries, and L. Anderson. Seven league boots: A new
+metaphor for augmented locomotion through moderately large scale
+immersive virtual environments. In IEEE Symposium on 3D User In-
+terfaces. IEEE, 2007.
+
+[8] A. Jain, H. S. Koppula, B. Raghavan, and A. Saxena. Know before
+you do: Anticipating maneuvers via learning temporal driving models.
+arXiv preprint arXiv:1504.02789, 2015.
+
+[9] S. Koo and D.-S. Kwon. Recognizing human intentional actions from
+the relative movements between human and robot. In The 18th IEEE
+International Symposium on Robot and Human Interactive Communi-
+cation, pages 939–944. IEEE, 2009.
+
+[10] M. F. Land. The visual control of steering. Vision and action, pages
+
+163–180, 1998.
+
+[11] M. F. Land. Eye movements and the control of actions in everyday
+life. Progress in retinal and eye research, 25(3):296–324, 2006.
+
+58
+
+[12] M. F. Land and D. N. Lee. Where do we look when we steer. Nature,
+
+369(6483):742–744, 1994.
+
+[13] D. R. Montello. The Cambridge handbook of visuospatial thinking,
+chapter Navigation, pages 257–294. Cambridge University Press,
+2005.
+
+[14] T. Nescher, Y.-Y. Huang, and A. Kunz. Planning redirection tech-
+niques for optimal free walking experience using model predictive
+control. IEEE Symposium on 3D User Interfaces, 2014.
+
+[15] T. Nescher and A. Kunz. Using head tracking data for robust short
+term path prediction of human locomotion. In Transactions on Com-
+putational Science XVIII: Special Issue on Cyberworlds. Springer,
+2013.
+
+[16] N. Nitzsche, U. D. Hanebeck, and G. Schmidt. Motion compression
+for telepresent walking in large target environments. Presence: Tele-
+operators and Virtual Environments, 13(1):44–60, 2004.
+
+[17] D. Novak, X. Omlin, R. Leins-Hess, and R. Riener. Predicting tar-
+gets of human reaching motions using different sensing technolo-
+IEEE Transactions on Biomedical Engineering, 60(9):2645–
+gies.
+2654, 2013.
+
+[18] J. L. Orquin and S. M. Loose. Attention and choice: A review on eye
+movements in decision making. Acta psychologica, 144(1):190–206,
+2013.
+
+[19] T. Peck, M. Whitton, and H. Fuchs. Evaluation of reorientation tech-
+niques for walking in large virtual environments. In VR ’08: Proceed-
+ings of the IEEE Conference on Virtual Reality, pages 121–127. IEEE,
+2008.
+
+[20] S. Razzaque, Z. Kohn, and M. C. Whitton. Redirected walking. In
+
+Proceedings of EUROGRAPHICS, volume 9, pages 105–106, 2001.
+
+[21] C. A. Rothkopf, D. H. Ballard, and M. M. Hayhoe. Task and context
+
+determine where you look. Journal of vision, 7(14), 2007.
+
+[22] F. Steinicke, G. Bruder, L. Kohli, J. Jerald, and K. Hinrichs. Taxonomy
+and implementation of redirection techniques for ubiquitous passive
+haptic feedback. In International Conference on Cyberworlds, pages
+217–223. IEEE, 2008.
+
+[23] F. Steinicke, G. Bruder, T. Ropinski, and K. Hinrichs. Moving towards
+generally applicable redirected walking. In Proceedings of the Virtual
+Reality International Conference, pages 15–24, 2008.
+
+[24] J. Su. Motion compression for telepresence locomotion. Presence:
+Teleoperators and Virtual Environments, 16(4):385–398, 2007.
+[25] J. M. Wiener, O. De Condappa, and C. H¨olscher. Do you have to look
+where you go? gaze behaviour during spatial decision making.
+In
+Proceedings of the 33rd Annual Conference of the Cognitive Science
+Society, pages 1583–1588, 2011.
+
+[26] J. M. Wiener, C. H¨olscher, S. B¨uchner, and L. Konieczny. Gaze be-
+haviour during space perception and spatial decision making. Psycho-
+logical research, 76(6):713–729, 2012.
+
+[27] B. Williams, G. Narasimham, T. P. McNamara, T. H. Carr, J. J. Rieser,
+and B. Bodenheimer. Updating orientation in large virtual environ-
+ments using scaled translational gain. In Proceedings of the 3rd sym-
+posium on Applied perception in graphics and visualization, pages
+21–28. ACM, 2006.
+
+[28] B. Williams, G. Narasimham, B. Rump, T. P. McNamara, T. H. Carr,
+J. Rieser, and B. Bodenheimer. Exploring large virtual environments
+with an hmd when physical space is limited. In Proceedings of the
+4th symposium on Applied perception in graphics and visualization,
+pages 41–48. ACM, 2007.
+
+[29] H. C. Yen, H. P. Huang, and S. Y. Chung. Goal-directed pedestrian
+model for long-term motion prediction with application to robot mo-
+tion planning. In IEEE Workshop on Advanced robotics and Its Social
+Impacts, pages 1–6. IEEE, 2008.
+
+[30] M. Zank and A. Kunz. Using locomotion models for estimating walk-
+ing targets in immersive virtual environments. In International Con-
+ference on Cyberworlds, pages 229–236, 2015.
+
+[31] M. Zmuda, J. L. Wonser, E. R. Bachmann, E. Hodgson, et al. Opti-
+mizing constrained-environment redirected walking instructions using
+search techniques. IEEE Transactions on Visualization and Computer
+Graphics, 19(11):1872–1884, 2013.
+
+

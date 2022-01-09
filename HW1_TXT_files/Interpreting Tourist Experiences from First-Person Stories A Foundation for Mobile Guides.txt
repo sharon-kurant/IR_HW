@@ -1,0 +1,582 @@
+CORE
+
+Metadata, citation and similar papers at core.ac.uk
+
+Provided by AIS Electronic Library (AISeL)
+
+Association for Information Systems
+
+AIS Electronic Library (AISeL)
+ECIS 2007 Proceedings
+
+European Conference on Information Systems
+(ECIS)
+
+2007
+
+Interpreting Tourist Experiences from First-Person
+Stories: A Foundation for Mobile Guides
+I. Tussydiah
+Temple University, iist@temple.edu
+
+D. Fesenmaier
+Temple University, drfez@temple.edu
+
+Follow this and additional works at: http://aisel.aisnet.org/ecis2007
+Recommended Citation
+Tussydiah, I. and Fesenmaier, D., "Interpreting Tourist Experiences from First-Person Stories: A Foundation for Mobile Guides"
+(2007). ECIS 2007 Proceedings. 104.
+http://aisel.aisnet.org/ecis2007/104
+
+This material is brought to you by the European Conference on Information Systems (ECIS) at AIS Electronic Library (AISeL). It has been accepted
+for inclusion in ECIS 2007 Proceedings by an authorized administrator of AIS Electronic Library (AISeL). For more information, please contact
+elibrary@aisnet.org.
+
+INTERPRETING TOURIST EXPERIENCES FROM FIRSTPERSON STORIES: A FOUNDATION FOR MOBILE GUIDES
+Iis P. Tussyadiah
+
+Daniel R. Fesenmaier
+
+National Laboratory for Tourism & eCommerce, School of Tourism & Hospitality Management,
+Temple University {iist,drfez}@temple.edu
+
+Abstract
+This netnographic study explores first-person stories from online personal travel reports to gain an
+understanding of tourist experiences. This study uses these stories in order to model tourist spatiotemporal movement at the destination within the context of their tourist-activated networks. The
+stories provide information about the behavior of tourists on the move with respect to their problems,
+critical moments, information needs, knowledge gain, and the perceived value of overall travel
+experiences. The results offer several implications are drawn for designing mobile technology that
+enhance tourist experiences. This study contributes to the practical and theoretical development of
+tourism and information systems in two ways. First, this study shows that online communities such as
+travel journals can be used as reliable sources of tourist behavior. Second, the results of this study
+support further development of a theoretical framework for designing mobile technology that supports
+the traveler experience.
+Keywords: Tourist Experiences, Movement, Network, Mobile Guides.
+
+1. INTRODUCTION
+Numerous studies on innovations in mobile technology and its application to tourism highlight various
+projects and introduce specific mobile tourist guides and tourism decision support systems (Ardissono
+et al., 2003; Poslad, 2003; Maruyama et al., 2004), emphasizing the evaluation of basic features,
+capabilities, and architecture (Kray & Baus, 2003). However, there are extremely limited in the sense
+that they fail to recognize that tourists’ experiences should be considered that foundation for the
+design of mobile technology. An exception is a study by Brown and Chalmers (2003) who conducted
+an ethnographic study of city tourists’ practices with a series of video-diaries, observations, and
+interviews to draw implications in designing mobile technology for tourists. In this study, they
+examined the extent to which tourists search information in order to decide how and when they might
+do, where things are, and how to share their experiences with others. Brown and Chalmer (2003)
+concluded that there are many opportunities for designing better technology for tourists. More
+recently, the European project called CRUMPET (Creation of User-friendly Mobile Services
+Personalized for Tourism) recommended a number of services to support location-sensed tourist
+attractions, interactive maps, and multimedia information about tourist attractions (Poslad, 2003).
+Mobile guides that include context/location based systems can assist tourists to create a richer
+experience. In a spatial sense, mobile guides can assist tourists in finding locations of possible
+attractions to visit. In a temporal sense, mobile guides assist tourists in estimating the time of arrival,
+length of stay, and departure time from one attraction to another. Tourists might encounter critical
+moments when information is needed right away such as when they try to find the schedule of public
+transportation, the schedule of events, etc. Difficulties in finding information to satisfy time-critical
+and spontaneous needs can cause frustration to tourists. Thus, it is posited that mobile technology can
+create value by satisfying these time-critical and spontaneous needs, thus helping tourists save time,
+save money for search efforts and avoid overall trip displeasure.
+
+2259
+
+2. LITERATURE REVIEW
+2.1
+
+The Tourist Experience
+
+The term “tourist experience” is a socially constructed term and is associated with multiple
+interpretations from social, environmental, and activities components of the overall experience.
+Several writers have attempted to chronologically and temporally define the term tourist experience
+(Jennings, 2006). According to Graburn (1989), temporality is central to tourism experience. The
+tourism process begins with the “ordinary,” progresses to “heightened” moments, and returns to the
+ordinary. The chronological and temporal definition of tourist experience is based on the notion that
+the experience includes various phases: anticipatory, experiential, and reflective (Craig-Smith &
+French, 1994). However, several other writers interpret tourist experience beyond the chronological
+dimension (Jennings, 2006). Cary (2004) suggested the term tourist moment, referring to the highest of
+the Graburn’s heightened moments whereas Urry (1990, 2000, 2001) introduced the term tourist gaze
+as a “gaze” through which a tourist objectifies and interprets the place that s/he visits.
+Beeton, Bowen, and Santos (2006) argue that the tourist experience is becoming more and more
+mediated through the advent of the Internet. The terms mediation and brokerage in the tourism setting
+refer to an active attempt by an individual to mediate the tourism experiences of another individual.
+Jennings and Weiler (2006) argue that mediators of the tourist experience can be personal (e.g., other
+tourists, tourist providers, governments, and host communities) and non-personal (e.g., signage,
+design, aesthetic, and settingscape). An example of an on-site experience mediator is a professional
+tour guide, who is responsible for linking tourists to attractions, facilities, and hosts. Recent studies
+indicate that the Internet, however, has the potential to have substantial impact of tourist experiences
+whereby tourists use multimedia features including text, images, video streaming, and virtual reality to
+enhance and/or reinterpret their tourism experiences.
+2.2 Tourists’ Spatio-Temporal Movement
+Tourist experiences can be interpreted chronologically from their movement through space and time
+whereby tourists move from one destination to another during a certain time interval (Xia, Ciesielski,
+& Arrowsmith, 2005). This movement can be seen as a dynamic process which is characterized by
+spatial, temporal references and attributable components (i.e., the nature of place visited). In addition,
+because at any point in time a tourist’s location position can be derived, tourists’ travel patterns can be
+conceptualized as spatial movement within a network. In this system, the nodes of the network are
+attractions or other points where tourists stop and the edges of the network are the routes that tourists
+choose to travel between the two places. Lew and McKercher (2006) argue that travelers follow two
+basic patterns (linear and territorial) of movement while visiting a destination. From this, they
+classified territorial tourist movements into no movement, convenience-based movement, concentric
+exploration, and unrestricted destination-wide movement; linear movements were classified into pointto-point patterns, circular patterns, and complex patterns (Lew & McKercher, 2006).
+
+3. METHODOLOGY
+3.1
+
+Netnography and Purposive Sampling
+
+This study used tourists’ stories to obtain insight into tourist experiences at a destination. The
+approach used in this study is similar to Brown and Chalmers (2003), except that this study used travel
+stories provided in an online environment. This method is labeled as netnography by Kozinets (2002)
+and has been used for diverse studies in online communities and individual blogs (Kozinets 2002;
+
+2260
+
+Woodside, Cruickshank & Dehuang, 2005). It is argued that netnography is faster, simpler, and less
+expensive than traditional ethnography and it is more naturalistic and less obtrusive than focus groups
+or interviews (Kozinets 2002). Tourists usually write travel reports after the trip ends (e.g., at the end
+of the day or after getting back home), so their travel activities are not affected by observation (no
+uneasiness from being monitored, watched, or interviewed). The online medium also enables people to
+casually write their personal problems and experiences during travel without being strained to follow
+certain criteria for publication. As a result, it is argued that blogs are appropriate sources for obtaining
+information on real travel experiences.
+This particular study is based on first-person stories published on the Internet that contained detailed
+information about travel experiences in Philadelphia. Philadelphia is relatively large U. S. city that is
+rich in culture and heritage. The data were collected by purposive sampling that included blog entries
+containing travel reports on Philadelphia. The search for blog entries was conducted on Google using
+combinations of the following keywords: “Philadelphia,” “Philly,” “Travel,” “Trip,” and “Blog.” The
+Google search efforts resulted in several journal entries posted in travel blogs (e.g., travelblog.org,
+globenotes.com, blog.realtravel.com, and travelpost.com), general blogs (e.g., blogger.com,
+multiply.com), blog sections in independent personal websites, and real travelers’ stories published on
+official tourism board websites. The results were further selected based on the following
+considerations: (1) the stories must be based on the writer’s personal experiences (e.g., excluding
+stories with “My sister spent 10 days in Philadelphia and she said…”), and (2) the stories must contain
+descriptions of spatio-temporal movements (e.g., excluding stories with “We drove to Philly to see
+Indepe(n)dence Hall, the Liberty Bell and ot(h)er historical sites… then we drove to New York.”).
+This selection process resulted in nine journal entries that provide a detailed description of their travel
+experiences in Philadelphia; analyses were conducted of one day from each of the respective journal
+entries.
+3.2
+
+Identification of Spatio-Temporal Movement Sequences
+
+The definition of tourist movement in this study is the movement from one attraction district to
+another during a single day. Unfortunately, it was impossible to identify the travelers’ exact arrival
+times at each attraction based upon the journal entries. The solution to this problem was to simplify the
+time points into a visit sequence. The temporal sequence of visitor movement was based on three time
+intervals: (1) morning (denoted as 1), (2) afternoon (denoted as 2), and (3) evening (denoted as 3).
+Time references in the journal entries were identified by finding (1) exact matching words (e.g., “in
+the morning,” “in the afternoon”), (2) words designating a point in time (e.g., “at 9:00 am”), and (3)
+words with reference to other activities or situations (e.g. “after lunch,” “right when the store is
+opened”).
+For this study, spatial movement was based on travel between nine districts within the Philadelphia
+area: Old City/Historic District (denoted as A), Washington Square (B), Convention Center District
+(C), South Street Area (D), City Hall (E), Logan Square (F), Art Museum Area (G), South
+Philadelphia/Italian Market (H), and Greater Philadelphia (I). A spatial sequence was developed from
+the journal entries by finding: (1) exact matching words describing the districts (e.g., “in Old City”),
+(2) words mentioning names of the roads (e.g., “at 5th and Market”), and (3) words mentioning names
+of sites (e.g., “Betsy Ross House,” “at Pat’s and Geno’s”). This study examines the movement
+between districts including the network edges and transportation modes used while visiting the city.
+3.3
+
+Interpretation of Positive and Negative Experiences
+
+This paper analyzes the travel experiences by interpreting the positive and negative feelings of the
+writers from the journal entries. For example, words such as “sad,” “bad,” and “uneasy” represent
+negative feelings toward the experience while “good,” “delicious,” and “fantastic” describe positive
+feelings. In some cases, bloggers also used cynical words to express negative feelings (e.g.,
+
+2261
+
+“spectacular mood”). Several aspects were considered such as general statements about satisfaction,
+the quality of attractions visited and facilities used, the level of information available to make
+decisions on the itinerary and scheduling, and knowledge gained from visiting the various Philadelphia
+attractions.
+Interpretation of the negative and positive feelings from different stories was then followed by an
+examination of major problems causing the feelings. For instance, the opening of a travel story below
+leads to the discussion of major problems that caused the negative experience:
+“The city had lots of promise for us.… So we had a great outlook on things when we pulled
+into downtown Philadelphia. The area looked neat, too. However, things kind of went
+downhill once we parked the car.”
+
+4. TOURISTS’ SPATIO-TEMPORAL MOVEMENT PATTERNS
+Nine stories were analyzed in order to map the spatio-temporal movement of the writers while they
+were touring the city; seven of them are summarized in this section.
+Experienced Traveler. Robert is a young married American male who spent three days in Philadelphia
+with his family (including children). The first day was spent becoming familiar with the city (as a
+primer to the next day’s schedule), the second day for touring the city, and the third day for touring
+around in the suburbs. Figure 1 illustrates their movement on the second day. The family started the
+tour after breakfast, visiting the National Constitution Center, where they had a 20-minute
+introductory presentation about the site and then visited the museum area. During this time interval,
+they moved around the historic district to visit several other attractions, such as the Christ Church
+Cemetery and the Betsy Ross House. During the second time interval, they were still located in the
+same district, but after some time, they moved to South Philadelphia and the Art Museum Area. They
+used a car for movement between districts, but walked when moving around inside the district. The
+temporal sequence of this family’s movement can be categorized as 122 (one district visited in the first
+time interval, and two districts visited in the second time interval), while the spatial sequence is AHG;
+i.e., spending more time in the first district (Old City/Historic District) and ending the day trip in the
+Art Museum District.
+The AG Networks. Two travelers, Novel and Edward, share movements which have the same spatial
+sequence: the trip started in the Old City/Historic District and ended in the Art Museum District (AG).
+Novel is a young American female who went on a one-day organized trip to Philadelphia with her
+friends. Her temporal sequence is 12, meaning that she spent the entire morning in the Old
+City/Historic District and the afternoon in the Art Museum area. She had arranged activities in the
+morning (i.e., visiting the National Constitution Center and touring Independence Hall) but found
+some extra time to visit an exhibit in the area. However, her visit to the Art Museum can be
+categorized as a spontaneous activity, as she had free time to spend before her tour bus left. Novel
+used the Philly Phlash, a bus connecting Philadelphia downtown attractions, to move from the Historic
+District to the Art Museum Area and then to return to her tour bus.
+Edward is a young American male who took a one-day trip to Philadelphia with his wife. Different
+from Novel, his temporal sequence is 11; he spent the morning in the Old City/Historic District and
+then moved to the Art Museum Area before noon. Edward intended to visit more attractions than what
+he eventually visited; he moved around in the Historic District and decided to drive to the Art Museum
+Area after visiting only one attraction (the Liberty Bell).
+Christie’s Half Day Tour. Christie was traveling to Philadelphia to attend a conference. She is a young
+married American female, and was traveling with her family (including children). Figure 1 illustrates
+her movement on her last day in Philadelphia, where she spent the time touring the city with her
+family. The tour started with a Philly cheese steak lunch at Pat’s in the South Philadelphia Area. After
+finishing the lunch, they moved to the Historic District and moved around there, visiting several
+
+2262
+
+attraction sites. Their tour ended after they decided to drive out of the city to Delaware and, finally, to
+the airport in the evening. The temporal sequence of this family’s movement can be categorized as 22
+(two districts visited in the second time interval), while the spatial sequence is HA.
+Ora’s Four Nodes Network. Ora, a young, single, Middle-Eastern female, made a network connecting
+four nodes on her one-day trip to Philadelphia. She traveled by train with her friend, and started with
+the Historic District in the morning. Ora moved around in the district to visit several attractions before
+changing her position to the neighboring district, the Washington Square District. After moving
+around in the area, she changed her position again to the Convention Center District. Her last node
+was the Logan Square District, which she visited after lunch. Ora’s temporal sequence is 1122 (she
+changed positions in both time intervals) and her spatial sequence is ABCF. Like the previous
+travelers, Ora also started the trip from the Historic District and then made her move west.
+Jennifer’s Network. Different from the previous patterns, Jennifer, a young, single, Dutch female,
+started her trip with City Hall and its surrounding areas in the morning, made her move to the Museum
+Area, had lunch, and ended her trip in the Historic District, with a tour of Independence Hall. Jennifer
+visited Philadelphia with her friends for two days. The movement pattern, illustrated in the figure, is
+from her second day. She spent the first day going around with her host, a friend who’s originally from
+Philadelphia, to familiarize herself with the city before a tour the next day. On the second day of her
+trip, Jennifer’s temporal sequence is 112; she arrived at two districts during the first time interval and
+then moved to another district during the second time interval. The spatial network activated by
+Jennifer’s trip is EGA.
+Gay-Friendly Network? Philadelphia is one city that has taken initiatives to attract gay and lesbian
+vacationers. The city has become famous for its gay-friendly attractions and gay-friendly environment.
+To get an insight on trips taken by a gay traveler, we analyzed the movement pattern of Frank, a young
+American male who spent the weekend in the city with his friends. All previous patterns included the
+Historic District in their networks, but Frank’s network does not have the Historic District in it. Frank
+and his friends started their trip outside the downtown area, visiting the Barnes Foundation. They
+spent the entire morning at the site and then changed positions to the Italian Market to grab their lunch
+at Pat’s and Geno’s. The trip continued to the South Street District, where they spent the afternoon and
+evening. Frank’s spatial network is IHD, and the temporal sequence is 122.
+Summary of the Network. Most travelers included the Historic District/Old City in their itinerary
+(except Frank). Furthermore, most of them stayed or moved around in the district for the entire
+interval of time, usually during the morning, (or during the early afternoon), before changing positions
+to the other districts. Most travelers had the city’s famous food, the Philly Cheese Steak, for lunch
+(mostly at Pat’s or Geno’s in the Italian Market). Most travelers connected two or three districts in the
+network; only one traveler connected four districts into a network. Most travelers used cars for
+movement between districts (one traveler used the bus) and walked when moving inside a district.
+Although most travelers do not state the exact route they take during traveling, the movements can be
+categorized as either concentric movements or unrestricted destination-wide movements. The latter
+category describes tourists who have a high level of information about their destinations (e.g., Robert),
+while the former is for tourists who are initially uncertain about what to do at the destination (e.g.,
+Christie) or are confined to the proximity of their original spot (e.g., Novel). In terms of the linear
+paths model, all movements can be categorized as touring point-to-point movements. The types of
+attractions visited by the travelers (especially those traveling with spouse and children) are mostly
+historic sites (the National Constitution Center, Independence Hall, the Liberty Bell, etc.), museums
+(the Museum of Art, the Barnes Foundation, Mummer Museum, the Franklin Institute, etc.) and
+exhibits. Only one traveler (Frank) combined museums with entertainment (in South Street).
+
+2263
+
+Figure 1.
+
+Tourists’ Spatio-Temporal Movement Patterns in Philadelphia
+
+5. INFORMATION NEEDS AND TRIP EXPERIENCES
+5.1
+
+Critical Information Needs upon Arrival
+
+Arrival is a critical moment for tourists (especially first-time tourists). Upon arrival, most tourists
+unfamiliar with the destination need timely information to find locations of hotels they reserved, how
+
+2264
+
+to get to the location, and other information. The following quotes describe the tourists’ problems
+upon arrival in Philadelphia:
+“When I got into the city and I surfaced from the train, I was a bit uneasy. I had asked
+questions on how to get to the hotel. You know “left, left then straight, two blocks” I never get
+these right.” – Meadow (a middle-aged, married American male)
+“…got to Philadelphia at about 14:00 to discover I couldn't get into the hostel till 16:30
+which put me in a spe(c)tacular mood as I had to lug my rucksack around…” – Phil (a
+young, single, English male)
+
+Meadow questioned the accuracy of the information he got from local people about the direction to his
+hotel, and Phil was disappointed about being unaware of the check-in time at his hostel. Their negative
+feelings from not being well informed, expressed by the words “uneasy” and “in a spectacular mood,”
+might lead to frustration and could reduce travel satisfaction. It is important to provide timely
+information for travelers upon arrival, especially information about directions and public
+transportation schedules.
+5.2
+
+Spontaneous Trips
+
+Some tourists might plan a trip carefully before visiting a destination, but some trips can be fairly
+spontaneous. The spontaneous trip appears to happen when a traveler realizes that there is a certain
+interval of time for him or her to be at the destination, and he or she decides to use the time for tourist
+activities. These quotes explain the situation:
+“It turns out that I forgot we had booked a later flight so we could have some more free time
+in Philadelphia.” – Christie
+“…we had 4 hours of free time.” – Novel
+
+In deciding a spontaneous trip, the main task for the tourists is to find out what is available, within
+reach, for the available time interval. Timely information on attractions, accessibility, operating hours,
+and estimated length of stay at each attraction is important for tourists at this stage.
+5.3
+
+On-Site Information Needs
+
+When tourists are at a particular attraction, they search information to gain a better knowledge of the
+site. However, there are some problems for tourists at this stage, causing them not to get the
+information they need. One of the problems can be the informational source; either there is no
+informational source, or the available sources provide insufficient information. These problems were
+expressed in the following quotes:
+“We had to practically beg them to explain anything to us at the Franklin sites” – Christie
+“…no one was available to tell me the price of the hot Egyptian earrings in the window. I was
+sad and didn't want to leave but we did.” – Ora
+“We found out later that the reason we couldn't see it was because it wasn't there. It was just
+next door at the Library. So much for the helpful guy at the information booth…” – Edward
+
+Another problem could arise from the content of the information and the manner of delivery. This
+problem can be found in the following quote:
+“He kept making these jokes that were supposed to be really funny… but they kind of annoyed
+me. I wasn't there to hear stories about how the Yankees won the series in 1776… I was there
+to see the real historical stuff.” – Novel
+
+The problems of not getting the desired information on-site resulted in dissatisfaction of the tourists,
+which is expressed by the words “annoyed” and “sad,” which could reduce the perceived quality of
+the travel experience.
+
+2265
+
+5.4
+
+The Overall Experiences
+
+The overall quality of the travel experience of each tourist can be interpreted from their statements of
+satisfaction, number of attractions visited, the level of activities at each attraction, and the knowledge
+gained from the trip. Based on the data, a tourist’s satisfaction with particular tourism products or
+services is determined by the perceived quality of the trip experience. Satisfaction is expressed in the
+following statements:
+“I got excited. I mean...this is an important place!” – Novel
+“My lobster pot pie was delicious.”– Robert
+“…the view is indeed really nice.”– Jennifer
+
+There were substantial differences in the level of activities by tourists at attraction sites. This variation
+can be interpreted from expressions such as “toured briefly” and “checked out the gift store.” The level
+of activities also related to the duration or length of stay at the attractions. Christie, who was spending
+half a day at two districts, describes her experiences as follows: “…walked around and saw it through
+the window,” “I took some pictures of Ind(e)pendence Hall,” and “walked by the US Mint.” The level
+of activities affects the knowledge that the tourists could gain from the attraction. Certainly, there are
+differences in the knowledge gained between tourists who only took pictures of a particular site,
+compared with others who managed to join a guided tour exploring the site.
+The tourist-activated network generated from the journals and the overall satisfaction of the trip
+experiences is described in Fig.2. The size of the nodes represents the popularity of each district in the
+samples (the frequency of being visited); the type and color of the paths represent the movement of
+different tourists. Some of the nodes are not connected with their neighboring nodes (e.g., E, F, and
+D), resulting in broken networks.
+
+Figure 2.
+
+Tourist-Activated Network and Overall Trip Experiences
+
+2266
+
+6. IMPLICATIONS FOR MOBILE TECHNOLOGY
+Tourist movements through space and time at a local destination have important implications for
+destination planning, development of tourism products, and management of the economic, sociocultural, and environmental impacts on tourism (Lew & McKercher, 2006). Tourists on the move
+activate a network consisting of different interrelated nodes. Modeling past travelers’ movements is
+important in terms of recommendations for future tourists to activate a richer network and gain a more
+valuable experience. Development of mobile guides can assist this effort.
+The main function of mobile guides should be to assist the travelers in their spatio-temporal movement
+at the destination. It appears that mobile guides should have features that enable tourists to design their
+itinerary and schedule, decide what to visit, find where and how to get there (route and mode choice),
+decide when is the best time to arrive, and estimate how long it will take to get there and how long to
+be at each site before moving to the next. Based on the analysis of the traveler experiences to
+Philadelphia, mobile guides should be designed to cater specific features as follows:
+• Critical informational needs upon arrival. Mobile guides should provide features that enable
+tourists (especially first-time visitors) to get self-orientation, search specific locations, and get
+navigation to the desired location without frustration. When mobile guides are not available for
+travelers immediately upon arrival, the destination could provide the first assistance by
+broadcasting important information to travelers’ mobile phones upon arrival at the airport or
+stations. Travelers would get a message on their mobile phones, consisting of information on, for
+example, phone numbers or mobile websites that would provide immediate assistance.
+• Spontaneous Trips. Mobile guides should provide sufficient and inspirational information about
+what to do and where to visit during the given period of time. Inspirational features of different
+attractions within reach (relevant in space and time) are necessary to enable travelers to design trip
+itineraries and timely schedules, which requires location-awareness and time-awareness
+applications. Images, or short video streaming, can augment the inspirational features of mobile
+guides for tourists on unplanned or spontaneous trips.
+• Knowledge Gain. Tourists should benefit from gaining knowledge of the destination from the
+context-based features of mobile guides. Mobile guides should provide a choice of in-depth
+information on each attraction. However, it is also important to give freedom to the users to choose
+the type and depth of the knowledge. The guides can be designed to provide short and general
+information or messages, and provide commands at the end of the message offered to the visitors, if
+they would like to explore more detailed information; for example, “if you would like to know more
+about Degas, press 32.”
+• Desired Content of Information and Delivery. Mobile guides should provide personalized, in-depth
+knowledge of destinations, with a personalized manner of delivery.
+• Richer Networks. In order to stimulate visitors to develop richer networks within the destination,
+mobile guides should provide a recommendation system that includes nearby districts or en route
+attractions in the network. For example, mobile guides can broadcast information or pop-up
+advertisements of nearby attractions (sites or events) and best deals (restaurants or shopping) at the
+location during a certain period of time. Mobile guides can also provide suggestions, consisting of
+different alternative attractions to see next from a specific location (“visit also” features) and
+proactive travel tips.
+Fig.3 illustrates how the features of mobile guides can enrich tourist experience, taking the case of
+Edward’s movement. Edward had planned his visit to the Old City, Art Museum, and South
+
+2267
+
+Philadelphia in advance. However, facing problems at nearly all attraction sites he intended to visit,
+Edward only briefly visited the Old City and Art Museum before heading to New York. While Edward
+was at the Old City District, a mobile guide could have assisted him to gain richer information in a
+personalized manner of delivery. A mobile guide could have recommended various routes to take him
+from the Old City to the next planned attraction in the Art Museum District, and, simultaneously,
+suggested other nodes to visit en route to the Art Museum District. By taking the recommended routes
+(noted as R1, R2, and R3 in the figure); i.e., visiting other nodes en route to the next planned
+attraction, the activated network would have been richer, compared to the actual movement.
+Moreover, to avoid the dissatisfaction of not finding the necessary information, the mobile guide
+would have enabled Edward to browse information about the desired subjects while on the move. A
+location-based pop-up advertisement, broadcast to tourists while on the move, can be effective in
+changing the actual route to the recommended one(s). After the last planned visit, a mobile guide
+could have recommended time-based additional sites (e.g., restaurants) to visit (noted as A1, A2, and
+A3 in the figure).
+
+Personalized Information
+Content & Delivery
+Info on Neighboring Attractions
+
+Location-Based Pop-up
+Recommendation
+Downloadable Information
+
+Personalized Information
+Content & Delivery
+Info on Neighboring Attractions
+Route Planner
+
+A1
+G
+
+F
+
+A3
+
+E
+
+C
+
+A2
+
+Actual Movement
+
+R3
+
+A
+
+R2
+R1
+
+H
+
+D
+
+B
+
+Recommended Paths
+
+Districts:
+A: Historic Area/Old City B: Washington Square C: Convention Center D: South Street E: City Hall
+F: Logan Square G: Art Museum H: South Philadelphia
+
+Figure 3. Potential Mobile Technology that Enhance Tourist Experience: Edward’s Case
+
+7. CONCLUDING REMARKS
+This study contributes to the practical and theoretical development of tourist oriented information
+systems in two ways. First, this study shows that online communities such as travel blogs can be used
+to understand how people experience places. This study explores the stories from real travelers and
+interprets the stories to map their movements through space and time. Furthermore, this study analyzes
+the overall value of the travel experience by interpreting the overall satisfaction, problems, and
+knowledge gained from the trip. Second, the results of this study establish a foundation for identifying
+potential mobile technologies for supporting visitor experiences. For example, it is clear that mobile
+guides that are enriched with location-based and context-based information will enable tourists to get a
+list of attractions and services, give assistance in finding locations, and support tourists with
+navigation within an area. Furthermore, mobile guides enable tourists to take advantage of the most
+useful services for a given location by sending advertisements relevant to their time and space. The
+spatial and temporal nature of tourist activities can be facilitated by the mobile guides. As a result, the
+use of mobile technology could create value by enhancing tourists’ experiences in situ. Also, location
+
+2268
+
+aware applications of mobile guides enable tourists to easily plan their itinerary, route, and schedule
+for a day trip. Once tourists get to a particular attraction, they benefit from the possibility of gaining
+in-depth knowledge about the attraction, and experience more varied activities, through personalized,
+context-based information provided by mobile guides. Furthermore, a mobile guide system can
+provide proactive travel tips and advertise time-space-significant information with a broadcast-based
+system. Tourist experiences are enhanced by gaining deeper knowledge of attractions, experiencing
+more spontaneous activities, visiting different places of interests, and taking advantage of the best
+services at the location.
+
+References
+Ardissono, L. et al. (2003). INTRIGUE: Personalized recommendation of tourist attractions for
+desktop and handset devices. Applied Artificial Intelligence: Special Issue on Artificial Intelligence
+for Cultural Heritage and Digital Libraries 17(8-9), pp. 687-714.
+Beeton, S., H.E. Bowen, and C.A. Santos (2006). State of knowledge: Mass media and its relationship
+to perceptions of quality. In Jennings, G. and N. P. Nickerson (eds.). Quality Tourism Experiences.
+Oxford: Elsevier Butterworth-Heinemann.
+Brown, B. and Chalmer, M. (2003). Tourism and mobile technology. In Proceedings of the Eight
+European Conference on Computer Supported Cooperative Work (Kuutti, K. and Karsten, E. H.
+Eds.), Helsinki, Finland, 14-18 September 2003, Kluwer Academic Press.
+Burigat S., Chittaro L., De Marco L. (2005). Bringing Dynamic Queries to Mobile Devices: A visual
+preference-based search tool for tourist decision support. In Proceedings of INTERACT 2005: 10th
+IFIP International Conference on Human-Computer Interaction, Springer Verlag, Berlin,
+September 2005, pp. 213-226.
+Craig-Smith, S. and C. French (1994). Learning to Live with Tourism. Melbourne: Pitman.
+Graburn, N. (1989). Tourism: The sacred journey. In Hosts and Guests: The Anthropology of Tourism,
+V. Smith, ed., pp. 21-36. Philadelphia: University of Pennsylvania.
+Jansson, A. (2002). Spatial phantasmagoria: The mediatization of tourism experience, European
+Journal of Communication 17(4): 429-443.
+Jennings, G. (2006). Perceptions on quality tourism experience: An introduction. In Jennings, G. and
+N. P. Nickerson (eds.). Quality Tourism Experiences. Oxford: Elsevier Butterworth-Heinemann.
+Jennings, G. and B. Weilder (2006). Mediating meaning: Perspectives on brokering quality tourism
+experiences. In Jennings, G. and N. P. Nickerson (eds.). Quality Tourism Experiences. Oxford:
+Elsevier Butterworth-Heinemann.
+Kozinets, Robert V. (2002), “The Field behind the screen: Using netnography for marketing research
+in online communities,” Journal of Marketing Research, 39 (February), 61-72.
+Kray, C. and Baus, J. (2003). A survey of mobile guides. Retrieved September 19, 2006 from
+www.comp.lancs.ac.uk/~kray/pub/2003_mguides.pdf
+Lew, A. and McKercher, B. (2006). Modeling tourist movements: A local destination analysis. Annals
+of Tourism Research 33(2), 403-423.
+Lu, J., Yao, J. E., and Yu, C. (2005). Personal innovativeness, social influences and adoption of
+wireless Internet services via mobile technology. Journal of Strategic Information Systems 14,
+245–268
+Maruyama, A., et al. (2004). P-TOUR: A personal navigation system for tourism. Proceedings of the
+11th World Congress on ITS, vol. 2, pp. 18-21, 2004
+Schwabe, G. and Prestipino, M. (2005) "How Tourism Communities can change travel information
+quality", 13th European Conference on Information Systems (ECIS) 2005.
+Urry, J. (1990). The Tourist Gaze. London: SAGE Publication.
+Urry, J. (2001). Globalising the Tourist Gaze. Retrieved November 12, 2006 from
+http://www.comp.lancs.ac.uk/sociology/papers/Urry-Globalising-the-Tourist-Gaze.pdf.
+Xia, J., Ciesielski, V. and Arrowsmith, C. (2005). Data mining of tourists spatio-temporal movement
+patterns: A case study on Phillip Island. In Yichun Xie and Daniel Brown, editors, Proceedings of
+
+2269
+
+the Eighth d International Conference on GeoComputation, p.1-15. University of Michigan, August
+2005.
+Woodside, A.G., Cruickshank, B.F., and Dehuang, N. (2007). Stories visitors tell about Italian cities as
+destination icons. Tourism Management 28 (2007): 162–174.
+
+2270
+
+

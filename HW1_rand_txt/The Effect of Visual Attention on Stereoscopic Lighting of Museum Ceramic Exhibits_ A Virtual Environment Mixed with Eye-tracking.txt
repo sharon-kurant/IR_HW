@@ -1,0 +1,2653 @@
+https://doi.org/10.31449/inf.v45i5.3454 
+
+Informatica 45 (2021) 713–729  713 
+
+The Effect of Visual Attention on Stereoscopic Lighting of Museum 
+Ceramic Exhibits: A Virtual Environment Mixed with Eye-tracking 
+
+Xiaoqun Ai 
+College of Mechanical Engineering and Automation, Huaqiao University, Xiamen, China 
+College of Architecture, The Central Academy of Fine Arts, Beijing, China 
+E-mail: axq777@gmail.com 
+ 
+Zhendong Wu (corresponding author), Ting Guo, Jiayan Zhong, Nan Hu and Chunliu Fu 
+College of Mechanical Engineering and Automation, Huaqiao University, Xiamen, China 
+E-mail: wudesigner@gmail.com, 530060210@qq.com, 1206054699@qq.com, 442004560@qq.com, 
+
+1085889746@qq.com 
+
+Keywords: stereoscopic lighting, immersive virtual environment, eye-movement tracking, ceramic exhibit  
+
+Received: May 11, 2021 
+
+Stereoscopic lighting is one of the influencing visual quality factors improving the visual presentation of 
+ceramic  exhibits.  However,  the  current  research  only  has  a  specific  definition,  and  there  is  no  clear 
+measurement  and  evaluation  method.  This  research  adopted  the  method  of  bidirectional  verification: 
+psychophysical experiment and immersive virtual reality (VR) with eye-movement tracking. We proposed 
+a  standard  questionnaire  for  the  stereoscopic  visual  experience.  The  eye-tracking  data  show  that  the 
+visible  fixation  duration  with  stereoscopic  lighting  is  (M  =  5.18  s),  and  the  number  of  fixation  points 
+accounted  for  63.48%  of  the  whole  number.  Both  indexes  were  higher  than  the  situation  without 
+stereoscopic lighting. The result shows that the accuracy of finding the detail changes with or without 
+stereoscopic  lighting  was  12.5%  through  the  comparison  of  visual  identification  tasks,  and  finding 
+modeling changes was 11.5%. In the situation with stereoscopic lighting, the first identification frequency 
+increased by 15.9% for small pattern changes of exhibits, as local modeling changes increased by 19%. 
+These results indicated that the stereoscopic lighting set according to the exhibits' volume could effectively 
+improve the viewer's visual guide, strengthen the visual attention of the details, and model elements of the 
+exhibits to achieve the optimal appreciation. 
+Povzetek: Pri stetoskopskem osvetljevanju muzejskih objektov so ugotavljali primerne rešitve za najboljši 
+vtis na obiskovalcih. 
+
+ 
+
+1  Introduction 
+
+1.1  Stereoscopic lighting 
+Museum  display 
+lighting  requires  excellent  colour 
+rendering  performance,  better  presentation  of  the  shape 
+and texture of the exhibits, and avoiding glare. The design 
+is  divided  into  nine  main directions,  namely uniformity, 
+contrast,  visual  adaptation,  apparent  colour,  colour 
+three-
+rendering, 
+dimensionality,  accent  lighting  [1].  These  factors  also 
+affect the visual salience and cognitive processing of the 
+exhibit during viewing. 
+
+background, 
+
+exhibit 
+
+glare, 
+
+The  stereoscopic  lighting  of  modeling  contains  two 
+meanings:  one  is  to  show  the  third-dimensional  shape. 
+Another is to play a role in highlighting some features or 
+shielding local shortcomings according to the exhibition's 
+needs. For museum display lighting, the performance of 
+the shadow has a pivotal role in the ornamental value. If 
+only the directional spotlight was used, the shadows will 
+be  too  strong,  making  the  exhibits  too  structured  and 
+strengthening  the  exhibits’  stereoscopic  lighting.  If  we 
+only use the floodlight, the dim shadows would make the 
+
+exhibits  comply,  giving  people  relaxation.  Therefore, 
+museum  display  lighting  should  make  the  exhibits  have 
+proper  stereoscopic  lighting  and  enable  the  details  of 
+exhibits to be fully displayed. 
+
+In the China national standard of lighting design [2], 
+the  exhibits'  stereoscopic  lighting  should  be  expressed 
+through  the  combination  of  directional  lighting  and 
+diffused  lighting.  There  is  not  a  clear  indicator  or  even 
+definition that how to quantify the stereoscopic lighting of 
+exhibits. In Japan, the illuminance ratio is set between 1/3 
+and 1/5 for the scope of stereoscopic lighting. Due to the 
+diverse modeling of exhibits, it is difficult to specify the 
+stereoscopic lighting of all exhibits by only one formula 
+and  index  range,  because  the  actual  workload  and  time 
+costs are tremendous. Therefore, this study tries to study 
+stereoscopic  quantification  for  a  certain  kind  of  exhibit. 
+The  results  can be  applied  and  promoted  in  this  kind  of 
+exhibit to achieve refining standards. Three formulas were 
+used to express the stereoscopic lighting. 
+
+In  this  study,  the  second  formula  was  used  as  a 
+reference  index  for  the  museum  showcase's  lighting 
+stereoscopic  lighting.  In  the  current  ceramic  exhibition 
+area, most light sources use the floodlight and directional 
+spotlight  to  gather  light.  Because  of  the  unique  bottom 
+
+714 
+
+Informatica 45 (2021) 713–729 
+
+A. Xiaoqun et al.  
+
+shrinkage modeling of ceramic exhibits, most light can not 
+
+Using  stereoscopic  lighting  to  strengthen  visual 
+
+The formula of stereoscopic lighting 
+
+Application and Characteristics 
+
+vector /scalar（𝐸⃗  ∕ 𝐸） 
+
+Cuttle in The UK presented this formula in 1967, and this ratio has been 
+proved to play a role in " quantification ". Yun Si and Gongxia Yang (1980) 
+[3] also studied the visual environment of museum galleries, and drew the 
+conclusion of lighting conditions according to the exhibits with specific 
+modeling. It is generally believed that the figure is between in 1.2 and 1.8, 
+and the stereoscopic lighting of face is relatively great. 
+
+Average cylindrical 
+illuminance/horizontal illuminance（
+𝐸𝑐/𝐸ℎ） 
+
+Wenqing zhang (2007) [4] and Zhonglin chen (2009) [5] used this formula 
+to study the stereoscopic lighting index of urban lighting, and estimated 
+which index could better reflect the reality of objects and people. 
+
+Vertical illuminance/horizontal 
+illuminance（𝐸𝑣 ∕ 𝐸ℎ） 
+
+This is the simplest indicator of showing illumination directional effect and 
+stereoscopic lighting, but it is not accurate because it takes too few factors 
+into account. 
+
+Table 1: Indicators for evaluating the stereoscopic lighting of modeling. 
+
+irradiate  to  the  exhibits'  shrinking  part.  It  resulted  in  a 
+visual effect that the upper part is bright and the lower part 
+is  dark,  making  it  impossible  to  see  the  patterns  on  the 
+exhibits' side. A formula (𝐸𝑐 ∕ 𝐸ℎ) was used to solve this 
+problem  and  obtaining  a  specific  stereoscopic  lighting 
+ratio.  According  to  this  ratio,  the  experiment  was 
+conducted with different volumes of exhibits. It can help 
+designers  obtain  suitable  stereoscopic  lighting  ratio  and 
+provide  new 
+types’  stereoscopic 
+for  other 
+experiments. 
+
+ideas 
+
+1.2  Effects of illumination on visual 
+
+saliency and cognitive processing 
+As  people  perceived  objects  and  captured  information, 
+visual  attention  focused  on  specific  areas  that  were 
+distinctly different from their surroundings in the scanned 
+environment. When there was a more salient response to 
+these environments, this feature was called visual saliency 
+[6]. Specific features - such as brighter object surfaces  - 
+tended  to  increase  consistent  visual  behavior  between 
+observers  [7].  Features  such  as  brightness,  contrast,  and 
+colour  may 
+influenced  object  saliency,  attentional 
+guidance, and the identification of search cues, and several 
+scholars  had  proposed  saliency-based  approaches  to 
+modeling attention [8-9]. 
+
+The  non-visual  effects  of  illumination  were  for 
+cognitive processing. Studies by Scheer and Buijs confirm 
+the arousal effect of illumination brightness on the brain 
+[10]. Romine stated that a dynamic light environment with 
+high colour temperature and frequency helped to improve 
+attention [11]. Juslén et al. found that worker productivity 
+increased  significantly  when  higher  colour  temperatures 
+were  used  and  that  lighting  also  worked  by  increasing 
+visual  sensitivity  [12].  The  effect  of  illumination  on 
+memory  was  related  to  task  difficulty,  with  illumination 
+levels  having  no  significant  impact  on  more  difficult 
+working memory tasks and a significant facilitation effect 
+on easier tasks [13-14]. 
+
+contrast  to  enhances  the  viewer's  memory  of  exhibits  is 
+important for ceramic exhibits in museum space.  
+
+Firstly, aiming at bottom-up visual saliency, a human 
+will  produce  a  conditioned  reflex  for  the  information 
+generated  by  objective  objects,  which  is  a  rapid  and 
+unconscious stimulus way. By measuring the position of 
+the  fixations  or  the  eye-movement  that  is  relative  to  the 
+head, a visual influence trend of the exhibit's lighting was 
+obtained. Secondly, the conscious attention significance is 
+measured with a cognitive experiment, which is a bottom-
+up  visual  saliency,  driven  by  Zheng  Peng,  (2004)  [15]. 
+Just  and  Carpenter  (1980)  proposed  the  Eye-Mind 
+hypothesis that eye-movement provides dynamic tracking 
+of  attention  allocation  [16].  In  a  complex  process  of 
+information processing, eye-movement and attention are 
+inseparable  [17].  In  decades,  the  application  of  eye-
+movement  tracking  research  involves  the  direction  of 
+information processing, such as reading, scene perception, 
+visual search, and so on [18]. At present, few literatures 
+have  been  found  in  the  visual  saliency  triggered  by 
+stereoscopic lighting of museum exhibits. 
+
+1.3  Visual attention test based on the 
+
+stereoscopic lighting of exhibits in VE 
+
+immersion  and 
+
+the  authenticity  of 
+
+In  recent  years,  many  researchers  have  utilized  virtual 
+environment  (VE)  to  help  lighting  design.  It  gradually 
+becomes one of the academic circles' trends [19]. In the 
+traditional  lighting  research,  the  laboratory  scenes  or 
+reality were set up to conduct lighting research. To verify 
+whether VE can simulate the effects of a real scene and 
+the 
+the  VE's 
+experimental  results,  scholars  have  done  comparative 
+experiments.  Chen,  Y（2018）  [20]  arranged  a  real 
+lounge  in  the  laboratory  and  constructed  the  same 
+environment 
+the  degree  of 
+authenticity, he also made video and photo replicas of the 
+lounge and asked them to make a subjective evaluation in 
+different  environments.  The  result  showed  that  the 
+lighting  attributes  were  consistent  with  the  physical 
+environment,  and  the  similarity  was  88.6  percent.  Xu 
+
+in  VR.  To  compare 
+
+The Effect of Visual Attention on Stereoscopic Lighting of ... 
+
+Informatica 45 (2021) 713–729  715 
+
+Chao (2018) [21] did a similar psychophysical experiment 
+in  the  physical  scene  and  VE,  the  experimental  result 
+showed that the participants in these two environments of 
+colour temperature preference degree were same. Boyles 
+(2009) had ever compared a 2D environment with a  3D 
+cave environment. The result showed that 3D's evaluation 
+of the subjects is better than the 2D environment [22]. The 
+idea  that  VR  was  an  indispensable  technology  for 
+designers  to  express  the  lighting  atmosphere  in  the  city 
+festival  atmosphere's  lighting  design  was  proposed  by 
+Blandet (2011)[23] and Kim (2018)[24]. They  said "VR 
+technology can better understand and communicate with 
+the projects."  Balocco (2018) [25] set up a museum virtual 
+reality  environment  and  conducted 
+the 
+illumination  and  colour  perception  of  lights.  He  argued 
+that conducting the experiment in software not only allows 
+for a quick calculation of the energy loss of the light in that 
+environment, but also obtained more scientific data such 
+as the degree of attraction of the light source to the subject 
+by performing statistics on physiological parameters. 
+
+tests  on 
+
+The  subtle  changes  of  various  light  sources  in  the 
+museum  can  be  precisely  controlled  in  VR,  which 
+balances  the  relationship  between  experimental  control 
+and ecological effectiveness. VR reduces the cost of time, 
+and has the advantage of persistence. The viewer’s visual 
+behavior  at  the  micro-level  can  be  deeply  analyzed  by 
+combining  the  eye-movement  tracking  device  in  VR.  It 
+verifies  whether  stereoscopic  lighting  improves  the 
+exhibits'  visual  significance  and  proves  that  whether  the 
+visual judgment of the viewer is more accurate. 
+
+1.4  Hypotheses 
+In this study, the stereoscopic lighting ratios changed in 
+response  to  changes  in  lighting  brightness,  allowing  for 
+contrast  between  exhibits  and  their  surroundings.  This 
+research  focuses  on  the  visual  saliency  and  cognitive 
+processing  of  museum's  stereoscopic 
+lighting.  The 
+specific questions are as follows: 
+
+-Does the visual salience of stereoscopic lighting in a 
+museum  space  create  an  effective  guide  to  visual 
+attention? 
+
+-Does  the  enhanced  visual  contrast  of  stereoscopic 
+lighting  enhance  awareness  and  memory  of  exhibits  in 
+other research areas? 
+
+-Can  a  cognitive  questionnaire  be  used  to  measure 
+subjects'  perceptions  of 
+the  visual  experience  of 
+stereoscopic lighting in a virtual reality environment, and 
+can a related task be used to measure subjects' cognitive 
+efficiency and memory of exhibits? 
+
+In response to the above research questions, and based 
+on  the  literature  review,  this  study  proposed  a  series  of 
+hypotheses to study of stereoscopic lighting in museums, 
+as shown in the table 2. 
+
+2  Method in the first experiment 
+
+2.1  The abstract and quantified exhibit 
+
+model 
+
+The  most  common  exhibits  in  a  museum  with  similar 
+modeling  are  selected  as  the  representatives  for  the 
+experiment.  According  to  it,  we  researched  stereoscopic 
+lighting.  According  to  its  usage,  size,  and  height,  three 
+common kinds of maximum cross-sectional area and three 
+kinds  of  height  size  were  summarized.  We  got  nine 
+different  exhibit  volumes  through  the  cross-sections  of 
+these six values, and these nine sizes can match different 
+types of exhibits: Chun Ping, Mei Ping, bowl, plate, basin, 
+kettle,  pot,  vase.  In  order  to  exclude  the  influence  of 
+specific  characteristics  of  exhibits  for  experimental 
+results.  We  used  the  way  that  the  3D  primitive  ceramic 
+model  was  made  into  experimental  stimulus  material. 
+Besides its size, the material, colour etc., all these factors 
+are  similar  to  real  ceramic  exhibits.  According  to  the 
+characteristics  of  similar  ceramic  exhibits,  we  made  the 
+bottom  shrinkage  design  for  its  modeling.  The  size  and 
+model corresponding to the category of exhibits are shown 
+in the following Figure 2. 
+
+2.2  Modeling and rendering 
+In this experiment,  we  mainly used 3Ds max to achieve 
+modeling, lighting design, adjusting, and testing. First of 
+all,  to  established  space  with  6.0m  long,6.0m  wide,  and 
+3.0m  high  as  the  museum's  exhibition  hall.  Uniform 
+illumination  is  used  in  the  exhibition  hall.  The  floor 
+illumination  is  200  lx,  and  the  uniformity  illumination 
+ratio is not less than 0.7. The wall in the exhibition hall is 
+covered with 50% medium gray with 0.7 reflection ratio. 
+The floor is covered with 80% black with a 0.2 reflection 
+ratio  and  lackluster.  The  ceiling  is  covered  with  50% 
+medium grey with a 0.7 reflection ratio and lackluster. A 
+display  cabinet  with  0.8  m  long,0.8  m  wide,  and  2.2  m 
+high is built in the room's center. The top illumination of 
+the  display  cabinet  consists  of  directional  lighting  and 
+diffuse  lighting.  Moreover,  the  bottom  illumination 
+consists of diffuse lighting. The colour temperature of the 
+light in the display cabinet is 3300K all the time, the colour 
+appearance  features  are  warm,  and  the  colour  rendering 
+index  of  the  light  source  is  90.  The  display  cabinet  is 
+covered with 70% dark brown with 0.7 reflection ratio and 
+lackluster,  and  with  high  transparency  glass  with  0.95 
+transmittances. The maximum average illumination of the 
+exhibit surface should not exceed 300 lx [26-28]. 
+
+2.3 
+Intensity of stereoscopic lighting 
+In  this  study,  the  numerical  interval  of  stereoscopic 
+lighting was set as 0.1, 0.3, 0.5, 0.7, 1, 2, 3, and 4. We got 
+72  pictures  by  adjusting  the  lighting  illumination  and 
+in 
+rendering.  The  subjects  watched 
+sequence  and  answered  the  questionnaire.  The  user's 
+stereoscopic evaluation for different volumes of exhibits 
+could  be  obtained.  The  specific  stereoscopic  values  and 
+
+these  pictures 
+
+716 
+
+Informatica 45 (2021) 713–729 
+
+A. Xiaoqun et al.  
+
+corresponding  average  cylindrical 
+horizontal illumination are shown in the Table 3. 
+
+illumination  and 
+
+2.4  Procedure 
+
+2.4.1  Participants 
+A total of 80 participants (47 women and 33 men) were 
+selected to participate in the study, all of whom said they 
+had  not  previously  been  exposed  to  such    research.  The 
+
+Figure 1: Experimental flow chart. For the first experiment: independent variables are the exhibit's height, maximum 
+cross-sectional area and the stereoscopic lighting ratio. The dependent variable is viewer's visual experience. For the 
+second experiment: independent variable is the optimal stereoscopic lighting ratio. The dependent variables are the 
+visual attention and the cognitive efficiency. The study was divided into two experiments. Experiment one was 
+mainly to describe the optimal stereoscopic lighting values of exhibits of different volumes. Experiment two was used 
+to compare with the results of experiment one in VR. 
+
+ 
+
+ 
+
+Figure 2: According to the size of the volume, the 3D primitive ceramic model is abstracted to the stimulus material 
+used in the experiment. 
+
+The Effect of Visual Attention on Stereoscopic Lighting of ... 
+
+Informatica 45 (2021) 713–729  717 
+
+participant  age  was  limited  to  a  range  of  18–28years 
+(mean  age:  22.2,  SD  =  2.5  years).  They  all  passed  the 
+Ishihara test to ensure that the experiment participants did 
+not have colour blindness and colour weakness, and their 
+vision or corrected vision was normal. The purposes of the 
+study  were  not  disclosed  to  the  participants  prior  to  the 
+experiment.  Seventy-two  stimuli  materials  and  80 
+participants were divided into four groups, and each group 
+tested 20 times. 
+
+Instrument 
+
+2.4.2 
+A  31-inch  Dell  LCD  screen  used  to  show  stimulus 
+materials, and the brightness and colour temperature of the 
+screen  was  adjusted  using  an  illuminometer.  Show  18 
+materials in each group by Microsoft PowerPoint. 
+
+2.4.3  Experimental design and procedure 
+Participants  were  invited  to  stay  in  a  quiet,  airtight,  and 
+dark  space,  and  we  eliminated  the  effect  of  other  light 
+sources. The participants sited in front of the screen, and 
+then one group of stimulation was shown before them. The 
+
+observation  time  was  7  s  for  each  stimulation.  After 
+observing,  the  screen  automatically  turned  to  the  next 
+blank  page.  At  the  same  time,  participants  filled  a 
+subjective questionnaire. Then they continued to the next 
+observation for stimulus by clicking the mouse, repeating 
+these procedures until they finish the group’s 18 stimulus 
+materials. The whole experiment lasted about 30 minutes, 
+each set of stimuli was played at random. 
+
+2.5  Results and analysis of the first 
+
+experiment 
+
+In  this  experiment,  Likert  scale  was  adopted,  and  the 
+subjects were asked to score the key words 3, 2, 1, 0, -1, -
+2  and  -3  according  to  their  feeling.  The  score  changed 
+from 3 to -3 represents the positive to a negative change in 
+the word pairs. After the experiment, SPSS software was 
+used to analyze the questionnaire data. 
+
+Before data analysis, α reliability coefficient method 
+was used to conduct reliability analysis on the scale data. 
+The  results  of  reliability  analysis  show  that  Cronbach's 
+alpha  is  0.929,  and  the  reliability  coefficient  is  high. 
+
+The first experiment 
+
+Independent  
+variable 
+
+Volume differences in exhibits 
+
+Stereoscopic lighting 
+
+ 
+
+Dependent variable 
+
+Height 
+
+Maximum cross-sectional 
+area 
+
+Stereoscopic lighting 
+ratios 
+
+Visual 
+Experience 
+
+Likert scale 
+scores 
+
+Subjects viewing exhibits 
+at different heights with 
+the same stereoscopic 
+lighting ratio had 
+different visual 
+experiences, scores on the 
+Likert scale are also 
+different. (H1) 
+
+Subjects viewing exhibits 
+with different maximum 
+cross-sectional areas at the 
+same stereoscopic 
+illumination ratio had 
+different visual experiences, 
+scores on the Likert scale 
+are also different. (H2) 
+
+Subjects viewing the 
+same exhibit at different 
+stereoscopic lighting 
+ratios had different 
+visual experiences, 
+scores on the Likert 
+scale are also different. 
+(H3) 
+
+Independent  
+variable 
+
+The second experiment 
+
+the optimal stereoscopic lighting ratios 
+
+Dependent variable 
+
+With and without optimal stereoscopic lighting 
+
+Visual 
+attention 
+
+Duration of 
+fixation 
+
+Subjects viewed the exhibits with and without optimal stereoscopic lighting and their 
+duration of fixation were different, with longer duration of fixation for the exhibits 
+with optimal stereoscopic lighting. (H4) 
+
+Fixation 
+
+Subjects viewed the exhibits with and without optimal stereoscopic lighting and their 
+fixations were different, with more fixations for the exhibits with optimal 
+stereoscopic lighting. (H5) 
+
+Correct rate 
+of finding 
+change 
+
+Subjects viewed the exhibits with and without optimal stereoscopic lighting and their 
+correct rate of finding change was different, with a higher correct rate of finding 
+change for the exhibits with optimal stereoscopic lighting. (H6) 
+
+Cognitive 
+efficiency 
+
+Frequency 
+of the first 
+finding 
+changes 
+
+Subjects viewed the exhibits with and without optimal stereoscopic lighting. Their 
+correct rate of finding change was different, with a higher correct rate of finding 
+change for the exhibits with optimal stereoscopic lighting. (H7) 
+
+Table 2: Hypotheses for the first and second experiment. 
+
+718 
+
+Informatica 45 (2021) 713–729 
+
+A. Xiaoqun et al.  
+
+Before  using  factor  analysis,  KMO  value  and  Bartley's 
+spherical test were carried out on the questionnaire data of 
+8  three-dimensional  sense  values  of  each  exhibit’s 
+
+volume. The results showed that KMO value was close to 
+1, and the correlation between variables was strong, and 
+the partial correlation was weak. In all Bartley sphericity 
+
+0.01 
+
+0.05 
+
+Height(m) 
+
+0.1 
+
+0.3 
+
+0.5 
+
+0.1 
+
+0.3 
+
+0.5 
+
+0.1 
+
+0.5 
+
+Maximum cross-
+sectional area(m²) 
+
+ 
+
+The stereoscopic 
+lighting indexes 
+
+Average cylindrical 
+illuminance 
+ 
+
+The stereoscopic 
+lighting indexes 
+Average cylindrical 
+illuminance 
+ 
+
+The stereoscopic 
+lighting indexes 
+Average cylindrical 
+illuminance 
+ 
+
+The stereoscopic 
+lighting indexes 
+
+Average cylindrical 
+illuminance 
+ 
+
+The stereoscopic 
+lighting indexes 
+Average cylindrical 
+illuminance 
+ 
+
+The stereoscopic 
+lighting indexes 
+Average cylindrical 
+illuminance 
+ 
+
+The stereoscopic 
+lighting indexes 
+Average cylindrical 
+illuminance 
+ 
+
+The stereoscopic 
+lighting indexes 
+Average cylindrical 
+illuminance 
+
+0.1 
+
+0.1 
+
+0.1 
+
+0.1 
+
+0.1 
+
+0.1 
+
+0.1 
+
+0.1 
+
+0.1 
+
+30 
+
+30 
+
+30 
+
+30 
+
+30 
+
+30 
+
+30 
+
+30 
+
+30 
+
+0.3 
+
+90 
+
+0.3 
+
+90 
+
+0.3 
+
+90 
+
+0.3 
+
+90 
+
+0.3 
+
+90 
+
+0.3 
+
+90 
+
+0.3 
+
+90 
+
+0.3 
+
+90 
+
+0.3 
+
+90 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+0.7 
+
+0.7 
+
+0.7 
+
+0.7 
+
+0.7 
+
+0.7 
+
+0.7 
+
+0.7 
+
+0.7 
+
+210 
+
+210 
+
+210 
+
+210 
+
+210 
+
+210 
+
+210 
+
+210 
+
+210 
+
+0.5 
+
+0.5 
+
+0.5 
+
+0.5 
+
+0.5 
+
+0.5 
+
+0.5 
+
+0.5 
+
+0.5 
+
+150 
+
+150 
+
+150 
+
+150 
+
+150 
+
+150 
+
+150 
+
+150 
+
+150 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+0.1 
+
+0.3 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1 
+
+1 
+
+1 
+
+1 
+
+1 
+
+1 
+
+1 
+
+1 
+
+1 
+
+300 
+
+300 
+
+300 
+
+300 
+
+300 
+
+300 
+
+300 
+
+300 
+
+300 
+
+2 
+
+2 
+
+2 
+
+2 
+
+2 
+
+2 
+
+2 
+
+2 
+
+2 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+300 
+
+300 
+
+300 
+
+300 
+
+300 
+
+300 
+
+300 
+
+300 
+
+300 
+
+3 
+
+3 
+
+3 
+
+3 
+
+3 
+
+3 
+
+3 
+
+3 
+
+3 
+
+300 
+
+300 
+
+300 
+
+300 
+
+300 
+
+300 
+
+300 
+
+300 
+
+300 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+4 
+
+4 
+
+4 
+
+4 
+
+4 
+
+4 
+
+4 
+
+4 
+
+4 
+
+300 
+
+300 
+
+300 
+
+300 
+
+300 
+
+300 
+
+300 
+
+300 
+
+300 
+
+Table 3: A gather of stimulus materials. 
+
+The Effect of Visual Attention on Stereoscopic Lighting of ... 
+
+Informatica 45 (2021) 713–729  719 
+
+Keywords 
+
+  
+
+1.  hostile-friendly 
+
+2.  unpleasant-pleasant 
+
+3.  unnatural-harmonious 
+
+4.  unaesthetic-beautiful 
+
+5.  negative-positive 
+
+6.  dim-bright 
+
+7.  distracted-focused 
+
+8. 
+
+informal-formal 
+
+9.  unsatisfied-satisfied 
+
+10.  uncomfortable-comfortable 
+
+11.  rigid-soft 
+
+12.  uneven-even 
+
+13.  depressed-relaxed 
+
+14.  cold-hot 
+
+15.  round-sharp 
+
+16.  nervous-excited 
+
+17.  dominated 
+
+ 
+Standard Questionnaire in Visual Environment [29-30] 
+ 
+ 
+Optimal lighting conditions questionnaire in museum 
+showrooms 
+
+Spatial perception questionnaire [31-33] 
+
+Deep interview for user 
+
+PAD Mood questionnaire [34-35] 
+User behavior trend questionnaire [36-38] 
+
+18.  wanting to leave- wanting to get close 
+
+Table 4: Stereoscopic influence factors questionnaire. 
+
+tests, P = 0.000 < 0.05, and there is a correlation between 
+the variables, and the factor analysis is effective. 
+
+Principal  component  analysis  was  used  for  the 
+questionnaire  data,  and  the  initial  characteristic  value  in 
+the  program  was  set  at  1.0.  Every  exhibit  obtained  2-4 
+principal  factors,  and  their  cumulative  contribution  rate 
+reached  more  than  60%.  SPSS  calculated  the  composite 
+factor  scores,  and  the  composite  factor  scores  were 
+obtained  when  the  maximum  cross-sectional  area  and 
+height were  determined and different stereoscopic ratios 
+were obtained. 
+
+3  The second method 
+
+3.1  VR lighting display 
+There are two VR scenes were set up in the experiment. In 
+the  first  scene,  the  display  cabinets'  exhibits  were  not 
+designed  with  stereoscopic 
+the 
+directional  and  diffuse  lighting  at  the  top  was  used  for 
+lighting. In the second scene, exhibits were designed with 
+stereoscopic  lighting.    The  optimal  stereoscopic  lighting 
+value  was  the  values  which  obtained  in  the  previous 
+experiment. To control the variables, the lighting data in 
+
+lighting,  and  only 
+
+the  experiment  was  obtained  through  the  "lighting 
+analyses" in the Vray plug-in. After determining the lights' 
+illumination level, a 360° simulated image of 8000*4000 
+pixels  were  rendered  by  the  model.  To  simulate  the 
+viewpoint of the audience, the camera was rendered at the 
+center of the exhibition hall with a height of 1.6 m. The 
+experimental errors were all within 5%. The VR setting is 
+shown in Figure 3. 
+
+The  final  8  VE  were  obtained,  divided  into  2 
+categories according to a stereoscopic lighting design. The 
+original  VE  without  stereoscopic  lighting  design  was 
+numbered 1-1, while the original scene with stereoscopic 
+lighting  design  was  numbered  2-1.  Scenes  without 
+stereoscopic  lighting  with  colour,  detail,  and  modeling 
+changes were numbered 1-2, 1-3, and 1-4 in order, while 
+scenes with  stereoscopic lighting design were  numbered 
+2-2, 2-3, and 2-4 in order. 
+
+3.2  Procedure 
+
+3.2.1  Participants 
+A total of 36 participants (18 women and 18  men) were 
+selected to participate in the study, all of whom said they 
+
+720 
+
+Informatica 45 (2021) 713–729 
+
+A. Xiaoqun et al.  
+
+had  not  previously  been  exposed  to  such  study.  The 
+participant  age  was  limited  to  a  range  of  18–25years 
+(mean  age:  22.5,  SD  =  1.5  years).  They  all  passed  the 
+Ishihara  test  to  ensure  that  the  participants  in  the 
+experiment  did  not  have  colour  blindness  and  colour 
+weakness, and their vision or corrected vision was normal. 
+The  purposes  of  the  study  were  not  disclosed  to  the 
+
+participants  entered  an  eye-tracking  test  environment 
+shown in Figure 5. They then were asked to view exhibits 
+freely for 20 seconds when we collected eye-tracking data 
+simultaneously. 
+
+The second part was a task experiment, in which 18 
+participants entered VE 1-1, observed and memorized the 
+features of the exhibits, and then randomly switched to one 
+
+maximum cross-sectional area（𝑚2）/ height （m） 
+
+Score 
+
+ 
+ 
+Stereoscopic 
+ratios 
+
+0.1 
+
+0.3 
+
+0.5 
+
+0.7 
+
+1 
+
+2 
+
+3 
+
+4 
+
+0.01/0.1 
+
+0.01/0.3 
+
+0.01/0.5 
+
+0.05/0.1 
+
+0.05/0.3 
+
+0.05/0.5 
+
+0.1/0.1 
+
+0.1/0.3 
+
+0.1/0.5 
+
+-2.24 
+
+-8.58 
+
+1.08 
+
+-1.2 
+
+-9.06 
+
+-3.84 
+
+-1.66 
+
+-2.77 
+
+-1.92 
+
+-3.12 
+
+-2.62 
+
+-1.85 
+
+2.34 
+
+-0.92 
+
+3.06 
+
+-0.59 
+
+3.44 
+
+-0.8 
+
+2.44 
+
+3.88 
+
+3.46 
+
+1.25 
+
+-0.19 
+
+1 
+
+0.69 
+
+2.99 
+
+1.17 
+
+0.82 
+
+5.13 
+
+-3.95 
+
+3.11 
+
+2.62 
+
+1.32 
+
+2.98 
+
+1.18 
+
+3.68 
+
+3.23 
+
+1.61 
+
+5.98 
+
+4.48 
+
+0.65 
+
+3.42 
+
+3.46 
+
+3.23 
+
+-1.55 
+
+0.6 
+
+8.15 
+
+1.51 
+
+-1.27 
+
+0.07 
+
+-3.21 
+
+-3.98 
+
+-1.86 
+
+-0.7 
+
+-2.57 
+
+-0.39 
+
+-1.12 
+
+1.54 
+
+-0.09 
+
+-0.22 
+
+-8.02 
+
+-0.7 
+
+-0.44 
+
+-3.25 
+
+1.3 
+
+-2.56 
+
+-0.42 
+
+1.8 
+
+-0.6 
+
+-2.7 
+
+-4.05 
+
+-3.44 
+
+Table 5: Comprehensive factor scores summary of SD Semantic Scale The table shows the comprehensive factor 
+scores of the scale under the experimental setting of the maximum cross-sectional area/height of the enclosure and the 
+corresponding stereoscopic ratio. 
+
+participants prior to the experiment. 
+
+3.2.2  Equipment 
+In this experiment, data including duration of fixation and 
+fixation were collected using a virtual reality device, HTC 
+Vive Pro Eye, which can track eye movement images and 
+immediately  generate  derived  data,  with  a  data  output 
+frequency of 120Hz and a precision of 0.5 degrees to 1.1 
+degrees. The device used a dual OLED display with a total 
+resolution of 2880 × 1600 pixels and 615 PPI. The 360 VR 
+images  were  programmed  by  Tobii  Pro  Lab  software, 
+which  was  used  for  experimental  design  and  eye 
+movement data analysis. The brand of the illuminometer 
+is  PEAKMETER  and  the  model  is  PM6612L.  The 
+illuminometer is calibrated once a year in accordance with 
+the code of use to ensure the accuracy in use. 
+
+3.2.3  Experimental design and procedures 
+The  first  part  was  eye  movement  experiment,  using  the 
+stereoscopic lighting in the display cabinets as a variable 
+in the same VE. As Figure 4 showed, the first, third, fifth, 
+seventh,  and  ninth  display  cabinets  from  the  left  in  the 
+scene had stereoscopic lighting design, while the rest did 
+to  compare  whether 
+not.  This  was  mainly  used 
+stereoscopic  lighting  design  in  the  same  environment 
+impacted the visual attention. 
+
+In this experiment, 36 participants were divided into 
+two  groups.  After  visual  calibration,  one  group  of 
+
+of  VE  1-2,  1-3,  or  1-4  (1-2,  1-3,  1-4  were  scenes  with 
+changes  in  modeling or  colour  or  details  from  1-1),  and 
+were asked to find something different from scene 1-1.  
+
+The  experimenter  recorded  the  correct  rate  of  task 
+completion  and  task  completion  time.  After  completing 
+the  first  difference-finding  task,  the  participants  entered 
+VE 2-1, memorized the features of the exhibits, and then 
+randomly switched to one of the scenes 2-2, 2-3, or 2-4 in 
+the same way (2-2, 2-3, 2-4 were scenes with changes in 
+modeling or colour or details from 2-1). The participants 
+were asked to find something different from the scene 2-
+1.  Participants  would  not  repeat  the  experiment  in  the 
+difference-finding  task  between  the  first  time  and  the 
+second 
+the 
+participants found the difference for the first time was 1-
+2, and then only scene 2-3 or scene 2-4 would randomly 
+appear  in  the  second  time  for  the  difference.  The 
+participants  would  not  enter  scene  2-2.  The  other  18 
+participants' experiment process was the  same as that of 
+the  first  18  participants,  except  that  this  part  of  the 
+participants would first enter scene 2-1 to do the different-
+finding task and then entered scene 1-1 to do the second 
+different-finding task. 
+
+time.  For  example, 
+
+the  scene  where 
+
+The Effect of Visual Attention on Stereoscopic Lighting of ... 
+
+Informatica 45 (2021) 713–729  721 
+
+3.3  Data analysis and results 
+
+3.3.1  Duration of fixation analysis 
+The  duration  of  fixation  is  the  sum  of  the  time  spent 
+observing  an  area,  which  is  an  important  indicator  of 
+interest  in  a  particular  area  of  interest.  The  longer  the 
+duration of fixation, the higher interest level in a particular 
+area of interest. Before analyzing the duration of fixation, 
+the  VE  was  divided  into  two  areas  of  interest  based  on 
+whether  the  exhibit  was  designed  with  stereoscopic 
+lighting, as shown in Figure 5. 
+
+As  Figure  6  showed,  the  duration  of  fixation  in  the 
+area of interest with stereoscopic lighting (M = 5.18 s, SD 
+=  2.14)  was  significantly  greater  than  that  without 
+stereoscopic  lighting  (M  =  2.86  s,  SD  =  1.64).  A  one-
+sample  T-test  was  used  to  verify  whether  there  was  a 
+significant effect on the duration of fixation. There was an 
+outlier in the data of the difference in duration of fixation 
+between the two areas of interest, as shown in the Figure 
+7.  To  perform  data  transformation,  the  outlier  was 
+replaced  with  the  mean  of  the  difference  in  fixation 
+duration. The replaced data passed the normality test (p > 
+0.05),  as  shown  in  the  Table  7.  Table  8  showed  a 
+statistically  significant  difference  in  duration  of  fixation 
+
+Figure 3: Schematic diagram of the direction and position of the exhibition cabinets and VR used in this experiment, 
+the black dot in the center of the figure on the left is the position of participants in VR in this experiment, in addition 
+to verifying the experience of multiple exhibits with and without stereoscopic lighting design, a task test was 
+conducted to determine which factors of exhibit change viewers were more sensitive to. According to the first 
+experiment results, exhibit changes were classified into three types of colour, detail, and modeling changes, and 2-3 
+exhibits in the original VE have modified accordingly, as shown in Table 6. 
+
+No. 
+
+2-1 
+
+2-2 
+
+2-1 
+
+2-3 
+
+2-1 
+
+2-4 
+
+ 
+
+ 
+
+Type 
+
+No. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Similar colour changes 
+
+Increase or decrease variation 
+in explanation card details 
+
+Partial modeling changes 
+
+2-1 
+
+2-2 
+
+2-1 
+
+2-3 
+
+2-1 
+
+2-4 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Type 
+
+Overall inverse colour changes 
+
+Raised or flat decorative pattern 
+changes 
+
+Overall shape changes 
+
+No. 
+
+2-1 
+
+2-2 
+
+Type 
+
+Partial inverse colour 
+
+changes 
+
+Table 6: Comparison before and after the change of exhibits in VE 2-1. 
+
+722 
+
+Informatica 45 (2021) 713–729 
+
+A. Xiaoqun et al.  
+
+Figure 4: 360 VR image environment used in eye movem nt experiment. The first, third, fifth, seventh, and ninth 
+display cabinets from the left in the scene had stereoscopic lighting design, while the rest did not. 
+
+between the area of interest with and without stereoscopic 
+lighting  (p  <  0.05),  indicating  that  stereoscopic  lighting 
+had  a  substantial  effect  on  the  participants'  fixation 
+duration. 
+
+As  Figure  6  showed,  the  duration  of  fixation  in  the 
+area of interest with stereoscopic lighting (M = 5.18 s, SD 
+=  2.14)  was  significantly  greater  than  that  without 
+stereoscopic  lighting  (M  =  2.86  s,  SD  =  1.64).  A  one-
+sample  T-test  was  used  to  verify  whether  there  was  a 
+significant effect on the duration of fixation. There was an 
+outlier in the data of the difference in duration of fixation 
+between the two areas of interest, as shown in the Figure 
+7.  To  perform  data  transformation,  the  outlier  was 
+replaced  with  the  mean  of  the  difference  in  fixation 
+duration. The replaced data passed the normality test (p > 
+0.05),  as  shown  in  the  Table  7.  Table  8  showed  a 
+statistically  significant  difference  in  duration  of  fixation 
+between the area of interest with and without stereoscopic 
+lighting  (p  <  0.05),  indicating  that  stereoscopic  lighting 
+had  a  substantial  effect  on  the  participants'  fixation 
+duration. 
+
+3.3.2  Fixation analysis 
+Fixation  refers  to  the  sum  of  the  number  of  all  fixation 
+points  in  the  area  of  interest.  It  indicates  the  number  of 
+visual stays in the area of interest and is strongly related 
+to fixation duration. 
+
+The  results  in  Figure  8  showed  that  fixations  in 
+interest areas with stereoscopic lighting (M = 27.33 s, SD 
+= 8.35) were significantly greater than fixations in the area 
+of interest without stereoscopic lighting (M = 15.72 s, SD 
+= 6.35). Fixations with stereoscopic lighting accounted for 
+63.48%  of  the  total  fixations,  and  fixations  without 
+stereoscopic  lighting  accounted  for  36.52%  of  the  total 
+fixations. 
+
+Besides,  a  one-sample  T-test  was  used  to  verify 
+whether stereoscopic lighting had a significant impact on 
+fixation. The data for the difference in fixations have no 
+outliers as shown in Figure 9 and pass the normality test 
+(p >  0.05) as shown in Table 9. The results in Table 10 
+showed a statistically significant difference in fixation in 
+the area of interest with and without stereoscopic lighting 
+(P < 0.05), which indicated that stereoscopic lighting had 
+a substantial effect on the fixation of participants. 
+
+Figure 5: Segmentation of the scene's area of interest: the yellow area in the figure is the area of interest for exhibits 
+with stereoscopic light and the green block is the area of interest for exhibits without stereoscopic light. 
+
+ 
+
+ 
+
+The Effect of Visual Attention on Stereoscopic Lighting of ... 
+
+Informatica 45 (2021) 713–729  723 
+
+In  summary,  these  results  showed  that  the  exhibits 
+with stereoscopic lighting attracted more attention, both in 
+terms of fixation and fixation duration. Furthermore, the 
+
+participants  were  more  likely  to  pay  attention  to  the 
+exhibits  with  stereoscopic  lighting  when  they  were  in  a 
+free state. 
+
+Figure 6: Average duration of fixation in areas of interest with or without stereoscopic lighting in the second 
+experiment. The error bars in this figure are the standard deviation of duration of fixation. 
+
+ 
+
+ 
+
+Figure 7: Box plot of the difference in duration of fixation. 
+
+ 
+
+Difference after data 
+
+conversion 
+
+a. Lilliefors Significance Correction. 
+
+Kolmogorova 
+
+Shapiro-Wilk 
+
+Statistic 
+
+.172 
+
+df 
+
+18 
+
+Sig 
+
+.167 
+
+Statistic 
+
+.959 
+
+df 
+
+18 
+
+Sig 
+
+.590 
+
+Table 7: Normality test of the difference after data transformation. 
+
+with stereoscopic lightingwithout stereoscopic lighting012345678Average duration of fixation (s)724 
+
+Informatica 45 (2021) 713–729 
+
+A. Xiaoqun et al.  
+
+3.3.3  Task experiment data results 
+To analyze which factors of the exhibit were more affected 
+by the stereoscopic lighting, three sets of variables in this 
+experiment  were  set  up:  changes  in  colour,  detail,  and 
+
+modeling. In the experiment to find different tasks, there 
+were  three  sets  of  variables,  two  kinds  of  lighting 
+conditions (with or without stereoscopic lighting), and six 
+stimulating  VE.  Participants  would  randomly  perform 
+
+ 
+
+ 
+
+ 
+
+t 
+
+ 
+
+ 
+
+ 
+
+95% Confidence Interval 
+of the Difference 
+
+df  Sig.(2-tailed)  Mean Difference 
+
+Lower 
+
+Upper 
+
+VAR01  8.230  17 
+
+.000 
+
+2.52989 
+
+1.8813 
+
+3.1785 
+
+Table 8: One-sample t-test of duration of fixation in the second experiment. 
+
+Test value = 0 
+
+Figure 8: Average fixations in areas of interest with or without stereoscopic lighting in the second experiment. The 
+error bars in this figure are the standard deviation of fixations. 
+
+ 
+
+ 
+
+Figure 9: Box plot of the difference in fixations. 
+
+with stereoscopic lightingwithout stereoscopic lighting0510152025303540Average fixationsThe Effect of Visual Attention on Stereoscopic Lighting of ... 
+
+Informatica 45 (2021) 713–729  725 
+
+different tasks in two scenes. Thirty-six participants were 
+invited  to  the  experiment  in  which  we  removed  two 
+invalid data  and obtained a total of 70 data. The  correct 
+rate  of  finding  change  was  counted  and  summarized  in 
+Table 11. 
+
+As  shown  from  the  above  table,  the  factor  most 
+influenced by stereoscopic lighting was exhibit detail. The 
+difference of correct rate between the VR with and without 
+stereoscopic  lighting  was  12.5%,  which  meant  that  the 
+participants  were  able  to  see  the  details  of  the  exhibits 
+
+better in with stereoscopic lighting, including whether the 
+patterns of the exhibits were raised and whether there were 
+ice  cracks  and  so  on.  Stereoscopic  lighting  had  the 
+secondary impact on the modeling and the least impact on 
+the  colour.  For  the  exhibits  with  stereoscopic  optimal 
+lighting, the viewer can focus more attention on the details 
+of  the  exhibits,  which  improves  the  ability  of  visual 
+processing. 
+
+In addition to recording whether the subjects correctly 
+found the difference-finding task changes, it also recorded 
+
+ 
+
+Kolmogorova 
+
+Shapiro-Wilk 
+
+Statistic 
+
+df 
+
+Sig 
+
+Statistic 
+
+df 
+
+Sig 
+
+Difference after data conversion 
+
+.132 
+
+18 
+
+.200 
+
+.980 
+
+18 
+
+.951 
+
+*. This is a lower bound of the true significance. 
+a. Lilliefors Significance Correction. 
+
+Table 9: Normality test of the difference in fixations. 
+
+ 
+
+ 
+
+ 
+
+t 
+
+ 
+
+ 
+
+ 
+
+95% Confidence Interval 
+of the Difference 
+
+df 
+
+Sig.(2-tailed) 
+
+Mean Difference 
+
+Lower 
+
+Upper 
+
+VAR02 
+
+5.897 
+
+17 
+
+.000 
+
+11.61111 
+
+7.4570 
+
+15.7652 
+
+ 
+
+colour 
+
+detail 
+
+modeling 
+
+total 
+
+Table 10: One-sample t-test of fixation in the second experiment. 
+
+Correct rate of scenes without 
+stereoscopic lighting 
+
+Correct rate of scenes with 
+stereoscopic lighting  
+
+Difference  
+
+93.75% 
+
+87.50% 
+
+82.40% 
+
+87.75% 
+
+100% 
+
+100% 
+
+93.75% 
+
+97.95% 
+
+6.25% 
+
+12.50% 
+
+11.35% 
+
+10.20% 
+
+Table 11: Difference-finding task correct rate. 
+
+Frequency of without 
+stereoscopic lighting  
+
+Frequency of with 
+stereoscopic lighting  
+
+Change type 
+
+Similar colour changes 
+
+colour 
+
+Overall inverse colour changes 
+
+detail 
+
+Partial inverse colour changes 
+
+Increase or decrease variation in 
+explanation card details 
+
+Raised or flat decorative patterns 
+changes 
+
+Partial modeling changes 
+
+modeling 
+
+Overall shape changes 
+
+40% 
+
+26.7% 
+
+33.3% 
+
+57.1% 
+
+42.9% 
+
+14.3% 
+
+85.7% 
+
+37.5% 
+
+25% 
+
+37.5% 
+
+41.2% 
+
+58.8% 
+
+33.3% 
+
+66.7% 
+
+Table 12: Frequency statistics table for variables identified as changing for the first time. 
+
+726 
+
+Informatica 45 (2021) 713–729 
+
+A. Xiaoqun et al.  
+
+the variables that were changed for the first time in each 
+search process. The frequency table was shown in Table 
+12 below. As Table 12 showed, there were three types of 
+colour  changes:  similar  colour  changes  and  overall  and 
+inverse  colour  changes.  The  presence  of 
+partial 
+stereoscopic  lighting  has  little  effect  on  the  discovery 
+frequency  of  the  three  colour  changes  from  the  results. 
+That  is,  the  existence  of  stereoscopic  lighting  has  little 
+relationship with the discovery of colour changes, and the 
+existence  of  stereoscopic  lighting  will  not  improve 
+viewers' attention to the colour of the exhibits. And then 
+two types of changes were set up in the detailed task to 
+increase or decrease variation in explanation card details 
+and  raised  or  flat  decorative  patterns  changes.  From  the 
+the  frequency  of  raised  or  flat 
+frequency  results, 
+decorative  patterns  changes  of 
+the  exhibits  with 
+stereoscopic  lighting  was  15.9%  higher  than  that  of  the 
+the 
+exhibits  without  stereoscopic 
+exhibits'  raised  or  flat  decorative  pattern  may  cause 
+different  visual  effects  due  to  stereoscopic  lighting,  the 
+participants  were  more  likely  to  find  out  the  detailed 
+changes. Two types of changes were set in the modeling 
+task,  partial  or  overall  modeling  changes.  The  result 
+showed  that  the  partial  modeling  changes  were  more 
+likely  to  attract  attention  after  the  stereoscopic  lighting 
+was  optimized,  and  the  frequency  increased  by  19%. 
+Partial modeling changes would be more likely to attract 
+the participants' attention due to the stereoscopic lighting, 
+with  a  19%  increase  in frequency.  This  result  explained 
+that raised or flat decorative patterns would cause different 
+visual effects due to the stereoscopic lighting. 
+
+lighting.  Because 
+
+This result may explain that raised or flat decorative 
+patterns  would  cause  different  visual  effects  due  to  the 
+stereoscopic lighting. The participants were more likely to 
+find out the detailed changes. Two types of changes were 
+set  in  the  modeling  task,  partial  or  overall  modeling 
+changes.  The  result  showed  that  the  partial  modeling 
+changes  were  more  likely  to  attract  attention  after  the 
+stereoscopic  lighting  was  optimized,  and  the  frequency 
+increased  by  19%.  Partial  modeling  changes  would  be 
+more likely to attract the participants' attention due to the 
+stereoscopic lighting, with a 19% increase in frequency. 
+
+lighting  or  not, 
+
+ 
+Combining the two tables, regardless of whether the 
+VR  design  with  stereoscopic 
+the 
+participants were susceptible to colour changes, and their 
+correct rate was high. The frequency of finding the three 
+types of colour changes were similar. As for the exhibits' 
+modeling and detail, the participants were more likely to 
+notice  the  changes  after  the  VE  was  designed  with 
+stereoscopic lighting, and the frequency of the first finding 
+was also significantly higher. Therefore, for exhibits with 
+a  decorative  patterns  or  special  partial  modeling,  more 
+attention  needs  to  be  paid  to  design  of  these  exhibits' 
+stereoscopic lighting so that participants can more easily 
+find their characteristics. 
+
+stereoscopic lighting. The results found that the duration 
+of fixation of AOI with stereoscopic lighting was M = 5.18 
+s, and the duration of fixation of AOI without stereoscopic 
+lighting  was  M  =  2.86  s.  The  fixations  of  AIO  with 
+stereoscopic lighting was M = 27.33, and the fixations of 
+AIO  without  stereoscopic  lighting  was  M  =  15.72,  the 
+fixations of AIO with stereoscopic lighting accounted for 
+63.48%  of  the  total  number.  This  result  indicated  that 
+exhibits  with  stereoscopic  lighting  could  strengthen 
+subjects' visual guidance and enhance the visual quality of 
+appreciation. 
+
+In  the  task  comparison  test  of  "finding  different 
+changes"  for  visual  identification  in  VR,  there  was  a 
+6.25%  difference  in  the  correct  rate  of  colour  change, 
+12.5% difference in the correct rate of detail change, and 
+11.35% difference in the correct rate of modeling change 
+of the utensils with or without stereoscopic lighting. The 
+data showed that the design of stereoscopic lighting could 
+effectively  improve  the  visual  performance  of  the 
+observer.  In  analyzing 
+the  detected  changes'  first 
+recognition rate, the frequency with stereoscopic lighting 
+was  58.8%  for  the  change  in  raised  or  flat  decorative 
+patterns  changes,  which  was  15.9%  higher  than  that 
+without  stereoscopic  lighting.  For  partial  inverse  colour 
+changes,  the  frequency  with  stereoscopic  lighting  was 
+37.5%, with a 19% increase in recognition rate than that 
+without stereoscopic lighting. This conclusion can guide 
+museums  in  optimizing  the  lighting  design  for  more 
+detailed patterns and special modeling exhibits. However, 
+for the three types of colour changes, only the frequency 
+of  partial  inverse  colour  changes  with  stereoscopic 
+lighting  (37.5%)  was  slightly  higher  than  the  frequency 
+without stereoscopic lighting (33.3%). Comparison of the 
+frequency  of  the  other  two  changes  was  lower  than  the 
+frequency without stereoscopic lighting. It indicated that 
+stereoscopic  lighting  had  little  effect  on  the  visual 
+guidance  of  colour  changes.  In  the  top-down  cognitive 
+task,  for  detail  and  modeling changes,  the  accuracy  rate 
+was  higher  with  stereoscopic  lighting,  verifying  that 
+scenes with stereoscopic lighting design were better than 
+those  without  stereoscopic 
+lighting  design  from  a 
+cognitive perspective. 
+
+5  Discussion 
+Using immersive VR devices and eye-movement tracking 
+technique can enhance the users' sense of immersion and 
+providing a unique advantage for exploring people's visual 
+attention  [39].  It  can  greatly  stimulate  the  users'  visual 
+sense and is used in different fields [40]. In the aspect of 
+simulating physical lighting environment, VR is a better 
+choice  to  replace  the  physical  scene  and  many  scholars 
+have studied the human-factors lighting [41-43]. 
+
+in 
+
+VR  was  applied 
+
+the  research  of  museum 
+stereoscopic  lighting,  which  is  not  common  in  the  past 
+related research. Using eye-movement tracking technique 
+to collect data can measure the salience indexes of human 
+vision and improve the authenticity of the data [44]. 
+
+There are some problems deserving discussion in this 
+
+4  Results 
+In  this  study,  the  optimal  stereoscopic  values  were 
+simulated in a VR by comparison tests with and without 
+
+study. 
+
+The Effect of Visual Attention on Stereoscopic Lighting of ... 
+
+Informatica 45 (2021) 713–729  727 
+
+The  first  part  of  Experiment  1  was  to  fill  in  the 
+subjective  scale  after  watching  the  pictures  on  the 
+computer  screen,  and  analyze  the  data  from  the  SD 
+semantic scale to explore the influence of the independent 
+variables  on  the  comprehensive  factor  scores  of  the 
+questionnaire. A participant needed to watch the stimulus 
+materials  18  times,  and  the  picture  stimulus  materials 
+displayed  on  the  screen  may  cause  the  visual  fatigue 
+problem in the observation experience of the participants. 
+Using a computer screen to test the visual experience, the 
+experiment  needed  to  balance  between  the  minimum 
+amount of stimulus materials one participant watched and 
+visual fatigue. And then, in the process of data analysis, 
+there is no correlation between most independent variables 
+and  comprehensive  factor  scores.  For  the  SD  semantic 
+scale, the establishment of regression equation may not be 
+an appropriate analysis method. 
+
+The classification of the exhibits in Experiment 2 only 
+involves  color, detail,  and  modeling.  Further  research  is 
+needed  on  the  texture  and  decorative  elements  of  the 
+exhibits.  
+
+In previous studies, simulated lighting experiment can 
+be performed for a single exhibit by computer, but for a 
+large range of space, testing the visual salience of multiple 
+exhibits  by  contrast  is  difficult.  Building  a  physical 
+laboratory needs to install complex circuit system, it will 
+surely consume a lot of resources. However, 3D models 
+can  be  changed  and  used  repeatedly  in  VR,  effectively 
+saving experimental costs of manpower and material [45-
+46]. 
+
+The  difficulty of  this  subject is  how  to  simulate  the 
+subtle  changes  of  stereoscopic  lighting  to  the  maximum 
+extent and control the complex lighting sources. Choosing 
+360°panoramic rendering pictures or interactive 3D space 
+in the VR depends on which situation can let experimental 
+data  be  more  accurately  tested.  Higuera  et  al,  compared 
+the psychological and physiological responses caused by 
+two  different  display  forms  (360°  panoramic  rendering 
+pictures  and  interactive  space)  of  VR  and  physical 
+environment,  finding  that  360°  panoramic  rendering 
+pictures had the result that was most similar with physical 
+scene [47].  
+
+interference  variables, 
+
+According to the above conclusion, the study adopted 
+high-precision 360° panoramic rendering pictures, which 
+can  greatly  reduce  the  risk  of  vertigo  for  participants. 
+Using illumination analysis tool like V-Ray Light Meter 
+can  precisely  control  lighting  conditions  and  eliminate 
+the  control 
+other 
+accuracy of the experiment [48]. The participants can walk 
+and watch freely in the three-dimensional space built by 
+Unity3D,  it  is  more  beneficial  to  analyze  participants’ 
+behavior in the museum. Improving the authenticity of the 
+lighting  environment  and  allowing  participants  to  move 
+freely in the VR as in the physical scene still requires new 
+auxiliary  tools  or  methods.  Therefore,  it  is  feasible  to 
+apply VR in the research of lighting environment [49]. 
+
+improving 
+
+Visual salience is a complex cognitive process, which 
+requires comprehensive prediction for multiple evaluation 
+results [50]. In VR, some traditional subjective scales and 
+task selection questionnaires can be used together except 
+for eye-movement tracking measurement. Eye-movement 
+
+tracking can measure recessive visual physiological data, 
+subjective  scales  can  evaluate  the  overall  experience  of 
+lighting environment and task questionnaires can evaluate 
+the  cognitive  behavior  of  participants  [51].  Previous 
+studies have shown that there are no differences between 
+in  VR  and  traditional  physical  scene  for  the  efficiency, 
+satisfaction  and  experience  impression  of  participants 
+[52]. 
+
+In  addition,  some  technical  limitations  of  VR  had 
+been  found during  the  process  of  experiment.  Firstly,  in 
+the  physical  scene,  the  participants  will  automatically 
+adjust  the  observation  distance  with  exhibits  due  to  the 
+size of exhibits. However, in this experiment, because the 
+participants were in the 360° panorama rendering pictures, 
+the environment's center was set as the observation point, 
+which was different with the situation that the participants 
+in the physical scene. This setting affected the accuracy of 
+familiarity  of 
+experimental  data.  Secondly, 
+participants  with  head-mounted  virtual  reality  should  be 
+considered before the experiment. They needed to take 3-
+5 minutes for adaptation, which can be gradually reduced 
+by practicing [53]. 
+
+the 
+
+Although  VR  has  some  technical  limitations,  at 
+present, we believe that the application of VR with eye-
+movement tracking and task judgmental testing is a good 
+research method for museum lighting research. 
+
+6  Declaration of conflicting interests 
+The authors declared no potential conflicts of interest with 
+respect to the research, authorship, and/or publication of 
+this article. 
+
+7  Funding 
+The author(s) disclosed receipt of the follow-ing financial 
+support for the research, author-ship, and/or publication of 
+this  article:  This  work  was  supported  by  the  National 
+Natural  Science  Foundation  of  China  (Grant  No. 
+51808232). 
+
+References 
+[1]  Beijing  Lighting  Society  Lighting  Design 
+Professional  Committee.  (2016).  Lighting  design 
+handbook. 3rd ed. China Electric Power Publishing 
+House (pp.361-364). Beijing. 
+
+[2]  General  Administration  of  Quality  Supervision. 
+(2009).  GB/T  23863-2009.  Design  Code  for 
+Museum  Lighting.  Inspection  and  Quarantine  and 
+National  Standardization  Management  Committee. 
+China Standards Press, Beijing. 
+
+[3]  Yang,  G.,  Si,  Y.  (1987).  Study  on  the  visual 
+environment  of  bronze  ware,  painted  pottery  and 
+Tang  tri-colored  pottery  showroom.  Journal  of 
+Tongji University, (04), 38-51. 
+
+[4]  Zhang,  Q.  (2007).  Evaluation  Index  of  Lighting 
+Quality of Pedestrian Traffic Road in Main District. 
+Journal  of  Chongqing  University  (Natural  Science 
+Edition), (08), 89-94. 
+
+[5]  Chen,  Z.,  Ma,  Y.,  Hu,  Y. (2009).  Quality  Index of 
+in  Urban  Lighting 
+
+Stereoscopic  Lighting 
+
+728 
+
+Informatica 45 (2021) 713–729 
+
+A. Xiaoqun et al.  
+
+Environment.  Journal  of  Chongqing  University, 
+32(07), 839-843. 
+
+International 
+45, 
+
+[6]  Kadir, T and Brady, M. (2001). Saliency, scale and 
+Journal  of 
+83-105. 
+
+image  description. 
+Vision, 
+Computer 
+https://doi.org/10.1023/A:1012460413855 
+Itti,  L.,  Koch,  C.,  Niebur,  E.  (1998).  A  model  of 
+saliency-based  visual  attention  for  rapid  scene 
+analysis. IEEE Transactions on Pattern Analysis and 
+Machine 
+1254-1259. 
+20, 
+https://doi.org/10.1109/34.730558 
+
+Intelligence, 
+
+[7] 
+
+[8]  Nuthmann,  A.,  Einhauser,  W.  (2015).  A  new 
+approach to modeling the influence of image features 
+on fixation selection in scenes. Ann N Y Acad Sci, 
+1339, 82-96. https://doi.org/10.1111/nyas.12705 
+[9]  Coutrot,  A.,  Hsiao,  J.  H.,  Chan,  A.B.  (2018). 
+Scanpath  modeling  and  classification  with  hidden 
+Markov models. Behav Res Methods, 50, 362-379. 
+https://doi.org/10.3758/s13428-017-0876-8 
+
+[10]  Scheer,  F.  A.,  Buijs,  R.M.  (1999).  Light  affects 
+morning  salivary  cortisol  in  humans.  Journal  of 
+Clinical  Endocrinology  and Metabolism,  84, 3395-
+3398. https://doi.org/10.1210/jcem.84.9.6102 
+[11]  Zheng, S. Q., Luo, R., Ye, M. (2015). The effect of 
+dynamic  light  on  human  alertness.  Journal  of 
+1-5. 
+Lighting 
+https://doi.org/10.1109/SSLCHINA.2015.7360706 
+
+Engineering, 
+
+27(06), 
+
+[12]  Juslén,  H. 
+
+(2006). 
+
+Influence  of 
+
+the  colour 
+temperature  of  the  preferred  lighting  level  in  an 
+industrial  work  area  devoid  of  daylight.  Ingineria 
+Iluminatului, 8, 25-36,  
+
+[13]  Zhu, Y. Y., Yang M. Q., Yao Y, Xiong X, Zhou G. 
+illumination  on 
+(2017).  The  effect  of 
+cognitive  processing:  The  mediating 
+role  of 
+subjective  mood  and  alertness.  Psychological 
+Science, 40(06), 1328-1334. 
+
+indoor 
+
+[14]  Xiong,  X.,  Zhu,  Y.,  Chen,  Q.,  Ru,  T.,  Zhou,  G. 
+(2018). The effects of indoor illumination and time 
+of day on vigilance and visual-spatial performance. 
+Psychological Science, 41(06), 1325-1332. 
+
+[15]  Zhang,  P.,  Wang,  R.  (2004).  Image  salient  region 
+detection  based  on  viewpoint  transfer  and  vision 
+tracking. Journal of Software, (06), 891-898. 
+[16]  Just,  M.  A.,  Carpenter,  P.  A.  (1980).  A  theory  of 
+reading:  From  eye  fixations  to  comprehension. 
+Psychological review, 87, 329,  
+
+[17]  Rayner,  K.  (1998).  Eye  movements  in  reading  and 
+information  processing:  20  years  of  research. 
+Psychological bulletin, 124, 372. 
+
+[18]  Liversedge, S., Gilchrist, I., Everling, S. (2011). The 
+Oxford  handbook  of  eye  movements.  Oxford 
+University Press. 
+
+[19]  Yang, Y. N., Xiang, C. H., Rao, L. B., Tan, F. (2018). 
+Building  Virtual  Human  Science  Museum  with 
+Virtual  Reality  Technology.  Journal  of  Anatomy, 
+41(04), 488-489. 
+
+[20]  Chen, Y., Cui, Z. and Hao, L. (2019). Virtual reality 
+in lighting research: Comparing physical and virtual 
+lighting 
+Research 
+environments. 
+Technology, 51, 820-837.  
+https://doi.org/10.1177/1477153518825387 
+
+Lighting 
+
+[21]  Xu, C., Zhou, C., Lin, Y. D. (2018). Comparison of 
+different color temperature preferences based on real 
+and  virtual  light  environments.  China  Illuminating 
+Engineering Journal , 29(03), 6-11+33. 
+
+[22]  Boyles, M., Rogers, J., Goreham, K., Frank, M. A., 
+Cowan,  J.  (2009,  March).  Virtual  simulation  for 
+lighting  &  design  education. In  2009  IEEE  Virtual 
+Reality Conference (pp. 275-276). IEEE.  
+https://doi.org/10.1109/VR.2009.4811052 
+
+[23]  Blandet,  T.,  Coutelier,  G.,  Meyrueis,  P.  (2011, 
+April). Virtual reality to simulate large lighting with 
+high efficiency LEDs. In SPIE Eco-Photonics 2011: 
+and 
+Sustainable 
+Engineering  Workforce  Education  for  a  Green 
+Future  (Vol.  8065,  pp.  806514).  International 
+Society for Optics and Photonics.  
+https://doi.org/10.1117/12.894431 
+
+Design,  Manufacturing, 
+
+[24]  Kim,  B.,  Xylakis,  E.,  Predescu,  A.  D., 
+Triantafyllidis,  G.,  Hansen,  E.  K.,  Mullins,  M. 
+(2017).  Designing  a  Lighting  Installation  Through 
+Virtual Reality Technology-The Brighter Brunnshög 
+Case Study. In Interactivity, Game Creation, Design, 
+Learning,  and  Innovation  (pp.  43-53).  Springer, 
+Cham.  
+https://doi.org/10.1007/978-3-319-76908-0_5 
+[25]  Balocco, C. and Volante, G. (2018). Lighting Design 
+for  Energy  Sustainability, 
+and 
+Perception.  A  Museum  Environment  as  a  Case 
+Study. Sustainability, 10.  
+https://doi.org/10.3390/su10051671 
+
+Information, 
+
+[26]  Zhang, L. (2015). Research for the display cabinet in 
+museum. Journal of Nanjing Institute of the Arts (Art 
+and design), (05), 201-205. 
+
+[27]  Li,  F.  (2015).  Discussion  for  design  of  Museum 
+Exhibitions  in  visual  environment.  Shanxi:  Shanxi 
+University, China. 
+
+[28]  Shi,  X. (2017). A preliminary study on the display 
+design  of  ceramic  exhibition  in  museum.  Graduate 
+school of Chinese academy of social sciences, China. 
+[29]  Yang, G., Si, Y. (1987). Study on bronze ware, ed 
+pottery and Tang Tri-color of display room in VR. 
+Journal of Tongji University, (04), 38-51 
+
+[30]  Yang,  G.  (1985).  Vision  and  visual  environment. 
+
+Shanghai: Tongji University Press, 104. 
+
+[31]  Goulding, C. (2000). The museum environment and 
+the  visitor  experience.  European  Journal  of 
+marketing, 34(3/4), 261-278. 
+
+[32]  Kottasz, R. (2006). Understanding the Influences of 
+Atmospheric Cues on the Emotional Responses and 
+Behaviours  of  Museum  Visitors.  Journal  of 
+Nonprofit  &  Public  Sector  Marketing,  16,  95-121. 
+https://doi.org/10.1300/J054v16n01_06 
+
+[33]  Forrest, R. (2013). Museum Atmospherics: The Role 
+of  the  Exhibition  Environment  in  the  Visitor 
+Experience. Visitor Studies, 16, 201-216.  
+https://doi.org/10.1080/10645578.2013.827023 
+[34]  Quartier,  K.,  Vanrie,  J.  and  Van  Cleempoel,  K. 
+(2014).  As  real  as  it  gets:  What  role  does  lighting 
+have  on  consumer's  perception  of  atmosphere, 
+emotions and behaviour? Journal of Environmental 
+Psychology, 39, 32-39.  
+
+The Effect of Visual Attention on Stereoscopic Lighting of ... 
+
+Informatica 45 (2021) 713–729  729 
+
+[47]  Higuera-Trujillo,  J.L.,  Maldonado,  J.L.-T.,  Millán, 
+C.L. (2017). Psychological and physiological human 
+responses  to  simulated  and  real  environments:  A 
+comparison  between  Photographs,  360  Panoramas, 
+and  Virtual  Reality.  Applied  ergonomics,  65,  398-
+409. https://doi.org/10.1016/j.apergo.2017.05.006 
+
+[48]  Koylazov V. (2018). How to set up lighting analysis 
+
+in v-ray next. 
+
+[49]  Chen, Y., Cui, Z., Hao, L. (2019). Virtual reality in 
+lighting  research:  Comparing  physical  and  virtual 
+lighting 
+Research 
+environments. 
+Technology, 51, 820-837.  
+https://doi.org/10.1177/1477153518825387 
+
+Lighting 
+
+[50]  Xia,  Z.,  Hélène,  S.,  Ming-Quan,  Z.  (2010). 
+Application  of  Virtual  Reality  Technology  for 
+Neuropsychological  Assessment.  Advances 
+in 
+Psychological Science, 18, 511.  
+
+[51]  Chen,  H.,  Chou,  C.,  Luo,  H.,  Luo,  M.  (2016). 
+Museum 
+lighting  environment:  Designing  a 
+perception  zone  map  and  emotional  response 
+models.  Lighting  Research  Technology,  48,  589-
+607. https://doi.org/10.1177/1477153515596456 
+[52]  Rieuf,  V.,  Bouchard,  C.,  Aoussat,  A.  (2015). 
+Immersive  moodboards,  a  comparative  study  of 
+industrial  design  inspiration  material.  Journal  of 
+Design Research, 13, 78-106.  
+https://doi.org/10.1504/JDR.2015.067233 
+
+[53]  Lopez,  M.C.,  Deliens,  G.,  Cleeremans,  A.J.R.n. 
+(2016). Ecological assessment of divided attention: 
+what  about  the  current  tools  and  the  relevancy  of 
+virtual  reality.  Revue  neurologique,  172,  270-280. 
+https://doi.org/10.1016/j.neurol.2016.01.399 
+
+ 
+
+ 
+
+https://doi.org/10.1016/j.jenvp.2014.04.005 
+
+[35]  Hagtvedt, H., Patrick, V.M. and Hagtvedt, R. (2008). 
+The  Perception  and  Evaluation  of  Visual  Art. 
+Empirical Studies of the Arts, 26, 197-218.  
+https://doi.org/10.2190/EM.26.2.d 
+
+[36]  Ko,  T.-K.,  Kim,  I.-T.,  Choi,  A.-S.  and  Sung,  M. 
+(2016).  Simulation  and  perceptual  evaluation  of 
+fashion  shop  lighting  design  with  application  of 
+exhibition lighting techniques. Building Simulation, 
+9, 641-658.  
+https://doi.org/10.1007/s12273-016-0312-5 
+
+[37]  Li,  J.  (2018).  Study  on  Evaluation  and  Design 
+in 
+Method  of  Landscape  Lighting  Quality 
+Traditional Chinese Style Architecture. Chongqing: 
+Chongqing University. 
+
+[38]  Huang,  H.,  Chen,  G.  (2010).  Present  situation  of 
+lighting  in  university  classrooms  and  subjective 
+evaluation  of  visual  environment.  Lamp  and 
+Illumination, 34(04), 22-26 
+
+[39]  Tang, M. and Auffrey, C. (2018). Advanced digital 
+tools  for  updating  overcrowded  rail  stations:  using 
+eye tracking, virtual reality, and crowd simulation to 
+support design decision-making. Urban Rail Transit, 
+4, 249-256,  
+
+[40]  Gallace,  A.,  Ngo,  M.  K.,  Sulaitis,  J.,  Spence,  C. 
+(2012).  Multisensory  presence  in  virtual  reality: 
+possibilities  &  limitations.  In  Multiple  sensorial 
+media 
+applications:  New 
+and 
+developments 
+in  MulSeMedia  (pp.  1-38).  IGI 
+Global. 
+
+advances 
+
+[41]  Suzer,  O.K.,  Olgunturk,  N.  and  Guvenc,  D.J.D. 
+(2018). The effects of correlated colour temperature 
+on  wayfinding:  A  study 
+in  a  virtual  airport 
+environment. Displays, 51, 9-19.  
+https://doi.org/10.1016/j.displa.2018.01.003 
+
+[42]  Vehlen, A., Spenthof, I., Tönsing, D., Heinrichs, M. 
+and Domes, G. (2021). Evaluation of an eye tracking 
+setup  for  studying  visual  attention  in  face-to-face 
+conversations. Scientific reports, 11, 1-16.  
+https://doi.org/10.1038/s41598-021-81987-x 
+[43]  Marquardt,  G.  (2011).  Wayfinding  for  people  with 
+dementia: a review of the role of architectural design. 
+HERD:  Health  Environments  Research  Design 
+Journal, 4, 75-90.  
+https://doi.org/10.1177/193758671100400207 
+[44]  Vehlen, A., Spenthof, I., Tönsing, D., Heinrichs, M., 
+Domes,  G.  (2021).  Evaluation  of  an  eye  tracking 
+setup  for  studying  visual  attention  in  face-to-face 
+conversations. Scientific reports, 11, 1-16.  
+https://doi.org/10.1038/s41598-021-81987-x 
+[45]  Meißner,  M.,  Pfeiffer,  J.,  Pfeiffer,  T.,  Oppewal,  H. 
+(2019).  Combining  virtual  reality  and  mobile  eye 
+tracking  to  provide  a  naturalistic  experimental 
+environment  for  shopper  research.  Journal  of 
+Business Research, 100, 445-458.  
+https://doi.org/10.1016/j.jbusres.2017.09.028 
+[46]  Wu  Z.,  Empirical  Study  on  the  Optimization 
+Strategy of Subject Metro Design Based on Virtual 
+Reality.  Informatica, 42(3). 
+https://doi.org/10.31449/inf.v42i3.2424 
+
+730 
+
+Informatica 45 (2021) 713–729 
+
+A. Xiaoqun et al.  
+
+ 
+
+

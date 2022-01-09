@@ -1,0 +1,281 @@
+Available online at www.sciencedirect.com
+
+Procedia - Social and Behavioral Sciences 46 (2012) 410 – 416
+
+WCES 2012
+
+Augmented reality smartphone environment orientation application:
+a case study of the Fu-Jen University mobile campus touring system
+Te-Lien Chou a *, Lih-Juan ChanLin b
+a
+
+Graduate student, Department of Library and Information Science,
+Fu-Jen Catholic University, 510 Zhongzheng Rd., Xinzhuang Dist., New Taipei City,24205, Taiwan (R.O.C)
+b
+Professor, Department of Library and Information Science,
+Fu-Jen Catholic University, 510 Zhongzheng Rd., Xinzhuang Dist., New Taipei City,24205, Taiwan (R.O.C)
+
+Abstract
+Traditionally, environment orientations are given via signposts, tour guides, or through the web. However, these methods cannot
+construct a personal context-aware learning environment. With the advancement of augmented reality (AR) and smart phone
+devices containing a built-in camera, Internet connection, GPS technology and a compass device, mobile learning, or ubiquitous
+context-aware learning, becomes easy and boundary-free. AR technology creates a user-centered, visualized operation, and a
+real-time-feedback learning environment. For campus touring purposes, AR enhances users learning interest, and therefore
+reinforces learning. To explore how AR mobile learning can help visitors become familiar with an environment, a smart phone
+AR implementation tool, Layar, was used. A prototype campus touring system for Fu-Jen Catholic University was developed
+and reviewed by two focus groups (freshmen). Interview data were collected. The thoughts and reactions from these two focus
+groups were summarized. Findings of the research reveal that the smart phone AR campus touring system provides hidden
+information in a real environment, giving freshmen instant assistance if they have gotten lost, and is a good personal mobile
+learning tool. However, to make the smart phone AR touring more effective, suggestions are provided for further
+implementation.
+©
+2012Published
+PublishedbybyElsevier
+Elsevier
+Ltd.
+© 2012
+Ltd.
+Selection and/or peer review under responsibility of Prof. Dr. Hüseyin Uzunboylu
+Open access under CC BY-NC-ND license.
+Keywords: Campus touring system, Augmented reality, Context-aware learning, Mobile learning;
+
+1. Introduction
+As mobile technology becomes an essential in daily life, learners are no longer constrained by time and location.
+They can access and share information anytime and anywhere. With the advancement of smart phones embedded
+with GPS technology, compass devices, and cameras, visitors can quickly find their orientation and directions in a
+real life environment. When working with mobile applications, a user must consider some requirements:
+computation platform, display, tracking sensor to obtain information, and wearable input and interaction
+technologies. Currently, these requirements make the creation of a mobile augmented reality system a challenging
+task. (Höllerer & Feiner, 2004; Jaramillo et al, 2010).
+* Te-Lien Chou. Tel.: +886-9-8999-3547
+E-mail address: chou81@gmail.com
+
+1877-0428 © 2012 Published by Elsevier Ltd. Selection and/or peer review under responsibility of Prof. Dr. Hüseyin Uzunboylu
+
+Open access under CC BY-NC-ND license. doi:10.1016/j.sbspro.2012.05.132
+
+Te-Lien Chou and Lih-Juan ChanLin / Procedia - Social and Behavioral Sciences 46 (2012) 410 – 416
+
+411
+
+Many universities are providing smart phone campus touring systems, and in this way allowing potential
+students, alumni, or visitors to familiarize themselves with the campus via self-guided devices. For self-learning
+and information-access purposes, mobile learning is less dependent on the location, and is more contextual, and
+pedagogically oriented to the constructivist and situated approaches (Boticki, Hoic-Bozic & Budiscak, 2009). By
+means of AR, the user can access hidden textual or graphical information, to see a picture of, for example, an
+partially hidden building or to obtain additional information about it. AR appears as a mixed reality environment,
+with one part being real and the other being virtual, with the real environment predominating. The specific
+characteristics of an augmented environment have provided this mode of visualization with various possibilities for
+human-computer interaction and for solving visualization and information access problems (Jaramillo et al, 2010).
+In this paper, a mobile campus touring system employing AR technology was developed at Fu-Jen Catholic
+University. Each year, about 5,500 freshmen enroll in this university. Most have to spend weeks to become
+familiar with this unknown environment. As strangers, a personal and portable location-based service can help them
+become familiar with their new environment and lead them to interesting sites.
+
+2. Mobile campus tour
+An effective and user centered touring system not only provides environment information to users, but also allow
+users to quickly utilize useful resources and enhance environment awareness (Educause, 2005). Traditionally,
+environment orientations are given via signposts, tour guides, or through the web. For individual touring purposes,
+construction of a personal context-awareness of the environment is necessary. In providing environment
+information, sites or buildings might contain history or context that requires a detailed description. Making the
+descriptive content available to individuals provides a richer experience in interacting with those places or buildings
+(Educause, 2005). This is especially true for new students who are still unfamiliar with current routines and
+practices in a university. They may also have trouble finding their way around campus. Under such circumstances,
+it is vital to have instant and personal information available (Asif & Krogstie, 2010). The use of AR is an
+innovative alternative for bringing experiential and location based learning to students.
+
+3. Augmented Reality
+Augmented Reality is a variation of Virtual Reality. VR technology completely immerses users within a
+synthetic environment where users cannot see the real world around him, whereas AR allows the user to see the real
+world, with virtual objects superimposed upon or composited with the real world. AR supplements reality, rather
+than completely replacing it. (Azuma, 1997). Augmented reality was created in the early 1990s by Boeing
+researchers Caudell and Mizell (1992) who made a head-mounted video display designed to aid workers who were
+assembling electrical systems. AR extends the real world with a layer of virtual information. It is particularly well
+suited as a user interface for context-aware applications (Hollerer, et al, 1999).
+AR provides a better solution for personal awareness of surrounding context, which might not be satisfied by
+traditional approaches such as radios, maps, and handheld displays. For providing more powerful display paradigms
+for interaction with contextual information embedded in the environment, Billinghurst, Kato, and Poupyrev (2001)
+from Washington University created Magic Book, which overlaid 3D virtual imagery onto real books. Shelton &
+Hedley (2002) used AR to teach undergraduate geography students earth-sun relationships to accommodate spatially
+related knowledge. Kauffman (2003) from Vienny University created Constrct3D, a spatial and geometry
+construction education tool for high school students. Li (2010) from New Mexico University’s ARIS used
+Augmented Reality and Interactive Storytelling to let users to solve a fictional murder mystery in a physical
+environment. Augmented Reality has the capability to significantly change the way in which information can be
+delivered to individuals.
+
+412
+
+Te-Lien Chou and Lih-Juan ChanLin / Procedia - Social and Behavioral Sciences 46 (2012) 410 – 416
+
+4. Related works
+AR technology has been applied in various mobile devices as a self-guided tour. For example, at Columbia
+University, the mobile AR campus navigation system was started in 1996. The project, MARS (Mobile Augmented
+Reality Systems), allowed the user to walk around freely while having all necessary equipment mounted on his back
+(Columbia CGUI Lab, 1999). In 2010, Columbia University started the smart phone campus tour system, where
+visitors can simply use their own iPhones, iPhone touch, and Android phones to experience campus history
+(Columbia University, 2010). In UK, the University of Exeter created an AR dynamic landscape of flora and fauna.
+Using Augmented Reality, the campus was transformed into an accessible learning resource to support the formal
+and informal curriculum (University of Exeter, 2010). In Taiwan, National Taiwan University implemented an
+iPhone AR campus touring system (National Taiwan University, 2010). Users might use the personal mobile
+orientation alternative to discover the history of the campus.
+In addition to commercial and customized smart phone campus touring systems, Freeware is available for
+creating AR experiences, including Layar (www.layar.com), Mixare (http://code.google.com/p/mixare/), Wikitude
+(http://www.wikitude.com/), and Junino (http://www.junaio.com/). Founded in 2009, Layar is widely used and
+supports iOS, Android, and Symbian platforms. Many universities adopt Layar to build their campus touring
+systems, including Purdue University (2009), University of Wisconsin - Madison division (n.d), West Virginia
+University (2010), Arizona State University (n.d), Georgia Tech Atlanta (2009), etc. In this study, Layar was used
+to develop the Fu-Jen University mobile campus touring system. The following is the design procedure and
+structure.
+5. System Overview
+The development of the mobile campus touring system applied the freeware tool Layar. In addition, Hoppala
+was used for the remote data server. Google Sketchup was used for the 3D icon creations, and photoshop was used
+for 2D photo modifications. Digital camera, recording devices, and a personal computer with Internet access were
+also tools for system implementation. Prior to building application, touring content was analyzed and planned. The
+procedure of implementing this system began by taking photos of the buildings and places in the campus, creating
+3D icons representing the function of these building and places, and recording narratives for audio navigation
+(Figure 1). Then, these data were input into Hoppala by pinpointing each point of interest. The Hoppala overlay
+URL was inserted into the Layar API endpoint. Several 3D photos were used as touring system icons along with a
+brief introduction.
+
+Fig. 1 FJU Mobile campus touring system design procedure
+The structure of the Fu-Jen University mobile campus touring system follows the Layar’s architecture. When
+starting the system, a user can set the search range between 0-5 meters, and select the types of buildings or places he
+or she wishes to visit, such as a certain library, a building, a restaurant, plays ground, or a dorm. A designated 3D
+
+Te-Lien Chou and Lih-Juan ChanLin / Procedia - Social and Behavioral Sciences 46 (2012) 410 – 416
+
+413
+
+icon appears on the screen to indicate buildings or places in front of him or her. After identifying the destination,
+the user can see a textual introduction, listen to the audio touring narrative, or get directions (see Figure 2).
+Based on the system structure, the system operation procedure of the mobile touring system is illustrated in figure
+3, and a scenario is described as follows: A user heads to the main library with his smart phone. Starting from the
+main entrance, he sees through the campus via the built-in camera of the smart phone, in front of which shows him
+the library building was built in 1998 according to the textual intro. He selects the recording button to listen to the
+history of the building. He finally selects direction guidance to walk him to the final destination.
+
+Fig. 2 FJU Mobile campus touring system structure
+
+.
+Fig. 3 User instruction
+6. User feedback
+The prototype of the Fu-Jen mobile touring system was designed and developed in 2010. To provide formative
+information, pilot testing was conducted among the small groups of students. Subjects volunteering for pilot testing
+were college freshmen at Fu-Jen Catholic University. They were encouraged to reflect on their experiences in using
+the system. Interviews were used to obtain thoughts and reactions from the two focus groups. User feedback was
+summarized as followed.
+6.1. Positive feedback:
+6.1.1. Smart phones give a personal navigation experience
+Participants recalled their experience with the first campus orientation was performed quickly. They had no prior
+directions about where to go, however, with the smart phone touring system, they could check out information
+anytime and anywhere.
+“I remember it was after the welcome party, the seniors took us for a walk around the campus,
+but it ended quickly. They expected we would explore the campus ourselves sooner or later.”
+
+414
+
+Te-Lien Chou and Lih-Juan ChanLin / Procedia - Social and Behavioral Sciences 46 (2012) 410 – 416
+
+“There was one time we got lost in Taipei city. By using the GPS system from the iPhone, we
+were able to find our way shortly after. Therefore, I consider the GPS system (mobile campus
+touring system with GPS technology) useful when we are lost in the campus.”
+6.1.2. AR information presentation provides context-awareness learning
+With 3D icons appearing on top of the physical environment, all participants were able to instantly obtain
+contextual information about specific buildings or places. Textual introduction also give them quick information
+about their destination, for example, they can stay 5 meters away and see the opening hour of the libraries without
+walking into the library to ask.
+“For example, if I want to know the opening hours of the library when I am busy, I don’t have
+to walk all the way to the library, or try to find the phone number and make a phone call, or
+even use a computer to go to the library’s website. I can simply take out my smart phone, point
+to the library from a distance, and the opening hours are displayed on my screen.”
+6.1.3. Instant directions give users convenient assistance
+With an 86-acre campus, newcomers quite easily get lost amid all the buildings. With instant direction guide, a
+freshman does not have to worry about spending too much time on finding the location for the next class. Students
+also responded to the need of AR applications for daily activities from their new environments.
+“It was about the 1st or 2nd week when I first came to the school, and I was still unfamiliar
+with this environment. I got lost in the campus twice. One time was in the day, and the other
+was at night. I was so frightened at that moment”
+“If you simply look at the building, you would never know when it was built, and what it is
+for. With AR information, you will see its attributes. For example, you will know what is
+served in this restaurant. The augmented information brings added convenience to my school
+life.”
+6.2. Suggestions:
+6.2.1. Social networking connection
+Social media brings people closer. Many participants suggested the mobile campus touring should incorporate
+social networking tools like FaceBook or Plurk, so visitors could share their ideas with others while exploring the
+campus.
+“It took me a couple weeks to get familiar with the campus, by then I might not need this
+mobile touring system anymore. However, if I could add text onto it, or check out others’
+messages, I would definitely continue to use this system.”
+6.2.2. Hot spot coverage
+Hot spot coverage is an important issue when using the mobile campus touring system in Fu-Jen Catholic
+University. Since the 3G-signal service charge is still considered high for many individual students, free WIFI
+signal services provided by the school is the primary source of going online. Unsuccessful transmission or broken
+signals might decrease the mobility and accuracy of the mobile touring system.
+
+Te-Lien Chou and Lih-Juan ChanLin / Procedia - Social and Behavioral Sciences 46 (2012) 410 – 416
+
+415
+
+“I once used the WIFI services on the campus of National Taiwan University, and its WIFI
+signals were very strong, pretty much covering all the campus. However, it is another story at
+our campus.”
+7. Conclusion
+In this study, using AR technology with smart phone capability, a prototype mobile campus touring system was
+developed and evaluated. It was intended to allow all visitors to familiarize themselves with Fu-Jen campus using a
+self-guided device. Based on the pilot testing, all users provided positive feedback about the mobile touring
+experience, and they would like to use it and would recommend others to use it in the future. Currently, some finetuning is still being carried out.
+Based on users’ suggestions, integration of the social network function into the mobile touring system is also
+needed. Although the social function of the mobile touring system was not planned as intended for direction and
+orientation, it might be a new design trend to reflect the need of users’ social networks. Therefore, adding
+FaceBook functionality will be included as a new feature in the Fu-Jen mobile touring system.
+In conclusion, AR technology surely shines a new light on user-centered, visualized operations, and the realtime-feedback learning environment. It has the capability to significantly change the way in which information can
+be delivered to individual in daily activities. As smart phone users rapidly increase, and with open source tools
+commonly available, the AR mobile technology will undoubtedly be widely adopted in every aspect of the living
+environment. It is hoped the findings of this study might provide a reference for future development of AR mobile
+touring systems.
+
+References
+Asif, M. & Krogstie, J. (2010). Mobile student information system. Retrieved: 09/01/2011, from: www.emeraldinsight.com/1065-0741.htm.
+Azuma, R.T. (1997). A survey of Augmented Reality. Presence: Teleoperators and Virtual Environments 6 (4), 355-385.
+Billinghurst, M. Kato, H., Poupyrev, I. (2001). The MagicBook: A Transitional AR Interface. Computers & Graphics, 745-753.
+Boticki, I., Hoic-Bozic, N., and Budiscak, I. (2009). A System Architecture for a Context-aware Blended Mobile Learning Environment. Journal
+of Computing and Information Technology, 2, 165–175.
+Caudell, T.P. & Mizell, D.W.(1992). Augmented reality: an application of heads-up display technology to manual manufacturing processes.
+Proceedings of the Twenty-Fifth Hawaii International Conference, vol.2, pp.659- 669.
+Colubmia CGUI Lab (1999). MARS - Mobile Augmented Reality Systems. Retrieved 02/01/2011, from:
+http://graphics.cs.columbia.edu/projects/mars/
+Columbia University (2010). Columbia Campus Tours on Your Smartphone. Retrieved: 01/04/2011, from:
+http://ccnmtl.columbia.edu/news/announcements/mobile-campustour.html.
+Educause (2005). 7 things you should know about Augmented Reality. Retrieved: 05/08/2010, from:
+http://net.educause.edu/ir/library/pdf/ELI7007.pdf.
+Georgia Tech Atlanta (2009). Augmented Environments Lab. Retrieved: Retrieved: 01/21/2011, from:
+http://www.augmentedenvironments.org/lab/research/handheld-ar/arhrrrr/
+Höllerer, T. & Feiner, S. (2004). Mobile augmented reality. Telegeoinformatics: location-based computing and services. In: Karimi, H. and
+Hammad, A. (eds). Haarlem, The Netherlands: Taylor Francis Books. Chapter 8, 221-256.
+Hollerer, T., Feiner, S., Terauchi, T., Rashid, G., Hallaway, D., (1999). Exploring MARS: Developing indoor and outdoor user interfaces to a
+mobile augmented reality system. Computers & Graphics 23(6), 779-785.
+Jaramillo, G. E., Quiroz, J. E., Cartagena, C. A., Vivares, C. A. & Branch, J. W. (2010). Mobile augmented reality applications in daily
+environments. Revista EIA, 14, 125-134.
+Kaufmann, H. (2003). Collaborative Augmented Reality in Education. Proceeding of Imagina 2003 Conference. Monte Carlo, Monaco.
+Li, S. (2010). 'Augmented Reality' on Smart phones Brings Teaching Down to Earth. Retrieved: 09/01/2011, from:
+http://chronicle.com/article/Augmented-Reality-on/65991/.
+National Taiwan University (2010)ǶNational Taiwan University iPhone Mobile Navigation SystemǶRetrieved: 01/05/2011, from:
+http://www.ntu.edu.tw/about/mapiphone.htm
+Purdue University (2009). Uses of the Layar Reality Browser in Education. Retrieved: 01/21/2011, from:
+http://purdueetech.wordpress.com/2009/08/18/uses-of-the-layar-reality-browser-in-education/
+Shelton, B. & Hedley, N. (2002), Using augmented reality for teaching earth-sun relationships to undergraduate geography students. The First
+IEEE International Augmented Reality Toolkit Workshop, Darmstadt, Germany. IEEE Catalog Number: 02EX632 ISBN: 0-7803-7680-3
+
+416
+
+Te-Lien Chou and Lih-Juan ChanLin / Procedia - Social and Behavioral Sciences 46 (2012) 410 – 416
+
+University of Exeter (2010). Augmented Reality Unloking the Hidden Curriculum. Retrieved: 09/01/2011, from:
+http://as.exeter.ac.uk/support/educationenhancementprojects/augmentedreality/
+University of Wisconsin-Madison division (n.d). University of Wisconsin – Madison Campus Map (United States). Retrieved: 01/21/2011, from:
+http://site.layar.com/catalog/university-of-wisconsin-madison-campus-map-united-states/
+West Virginia University (2010). Have smart phone, will surf -- WVU on the move with mobile. Retrieved: 01/21/2011, from:
+http://wvutoday.wvu.edu/n/2010/4/28/have-smart-phone-will-surf-wvu-on-the-move-with-mobi
+
+

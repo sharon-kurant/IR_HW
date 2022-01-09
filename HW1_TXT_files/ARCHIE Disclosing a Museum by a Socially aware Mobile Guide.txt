@@ -1,0 +1,444 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/228719619
+
+ARCHIE: Disclosing a Museum by a Socially-aware Mobile Guide
+Article · January 2006
+
+CITATIONS
+
+READS
+
+17
+
+176
+
+6 authors, including:
+Kris Gabriëls
+Hasselt University
+10 PUBLICATIONS 66 CITATIONS
+SEE PROFILE
+
+All content following this page was uploaded by Kris Gabriëls on 14 July 2015.
+The user has requested enhancement of the downloaded file.
+
+The 7th International Symposium on Virtual Reality, Archaeology and Cultural Heritage
+VAST (2006)
+M. Ioannides, D. Arnold, F. Niccolucci, K. Mania (Editors)
+
+ARCHIE: Disclosing a Museum by a Socially-aware Mobile
+Guide
+Kris Luyten1 , Heleen Van Loon1 , Daniël Teunkens1 , Kris Gabriëls1 , Karin Coninx1 and Elke Manshoven2
+1
+
+Hasselt University – transnationale Universiteit Limburg
+Expertise Centre for Digital Media
+Wetenschapspark 2, 3590 Diepenbeek, Belgium
+{kris.luyten, heleen.vanloon,daniel.teunkens,kris.gabriels,karin.coninx}@uhasselt.be
+2 Provincial Gallo-Roman Museum
+Provincie Limburg
+Kielenstraat 15, 3700 Tongeren, Belgium
+emanshoven@limburg.be
+
+Abstract
+We present ARCHIE, a research project which aims to discover how handheld guides can be used as powerful
+instruments to enhance the visitor’s learning experience. Although mobile devices are becoming a common aid
+to support a museum visit, they often lead to an individualized experience. However, most people do not visit a
+museum alone, and recent research has pointed out that social interaction is a prerequisite for an intensified and
+improved learning process. To accommodate the shortcomings in many of the current solutions, we are designing
+a platform that enables us to create a socially-aware handheld guide that stimulates interaction between group
+members. They can communicate with each other either directly (by voice) or indirectly (by collaborative games)
+by means of their mobile guides.
+Besides the aforementioned communication possibilities, handheld guides can also provide a way to present personalized content. By using a personal profile, it is possible to adapt the interface and tailor the information to the
+needs and interests of every visitor.
+The combination of personalized content and interfaces, communication channels between visitors in the same
+group and support for localization might lead to an innovative mobile guide that integrates with the museum
+as well as with other visitors. Our platform enables social, and, in many cases, playful interactions with other
+visitors in the same group. At the same time the context-awareness (proximity and personalization) increases the
+involvement of the visitor with the content presented in the museum.
+
+1. Introduction
+In this paper we describe ARCHIE, an interdisciplinary
+research project of the Expertise Centre for Digital Media (Hasselt University) and the Gallo-Roman Museum
+(Province of Limburg). This museum is located in Tongeren,
+Belgium’s oldest city, and tells the story of the region from
+prehistory up to and including the Merovingian period. The
+museum’s visitor approach focusing on temporary exhibitions, exploring fascinating themes and a professionally-run
+educational programme has proved very successful. Annual
+visitor numbers rocketed from 20.000 to 150.000 in just ten
+years. The restrictions of the existing museum building and
+c The Eurographics Association 2006.
+
+new trends in museum presentation explain the extensive expansion project of the museum. The new museum is due to
+open its doors in 2008.
+
+As part of this expansion, the Gallo-Roman museum has
+rephrased its mission and aims. The main objective became
+to create an optimal learning experience for different visitor groups. The museum wants to provide information in the
+future exhibition in such a way, that any person can make
+his visit a personally meaningful one. Furthermore, the museum wants to develop a tool to encourage and steer social
+learning. Families are a good example of a group where so-
+
+K. Luyten et al. / ARCHIE: Disclosing a Museum by a Socially-aware Mobile Guide
+
+cial learning takes place: a mix of different age groups with
+different interests can share their interests and opinions.
+The current trend to introduce PDA-based mobile guides
+to enrich the visiting experience of a museum [PT03, Fis05,
+Exp05], has led us to investigate how such guides can support the social processes that are fundamental for learning
+in a museum. The challenge in the ARCHIE project is the
+combination of a personalized mobile guide that is still part
+of a group of cooperating guides. While information can be
+tailored to the needs and interests of individuals in a group,
+there has to be a way for these individuals to interact with
+each other and exchange knowledge and interpretations during the visit.
+The development of our ARCHIE Mobile Guide System
+is done by an interdisciplinary team. The team consists out
+of people with different backgrounds: historians, educationalists, computer scientists and graphic designers. The content of what is presented on the mobile guide is defined with
+great care and in close collaboration with the museum team.
+In this paper we give an overview of the Mobile Guide
+System that supports the key missions of the museum such as
+social learning and personalization. Section 2 delves deeper
+into the context in which we developed the mobile guide:
+section 2.1 identifies the expectations of the (potential) museum visitors, section 2.2 shows the importance of social interaction and section 2.3 concludes with our objectives. The
+objectives are translated into a concrete mobile guide in section 3, where we focus on group communication (section
+3.1), personalization (section 3.2) and location-awareness
+(section 3.3). We conclude the paper with a framework
+overview in section 4 that shows how the different parts are
+integrated in one complete system and make some conclusions.
+2. Defining the context
+2.1. Know your visitors
+In order to accomplish the realization of the new objective,
+the Gallo-Roman Museum needed to get better acquainted
+with its public. For this reason the museum conducted an
+extensive investigation among visitors and potential visitors,
+to find out what prompted them to visit the museum, what
+their interests are, and in which way they would want to learn
+about the museum collection [PGR05].
+Concerning visit expectations, 61% of the (potential) visitors indicate they want to learn something, look at/admire
+objects (53%) and experience something, relax (33%). Questions about visit behaviour reveal they also prefer a social
+museum visit: 56 % wants to talk to family or friends about
+what there is to see. These results correlate with recent studies about visit motivations; Falk and Dierking argue in their
+leading reference work Learning from museums [FD00] that
+“dozens of studies document that the primary reason most
+
+people attend museums, whether for themselves or for their
+children, is in order to learn”. The second most cited motivation is entertainment: most visitors mention they go to
+museums in their free time to have fun and/or to see new
+interesting things in a relaxing and aesthetically pleasing
+environment. Museum-going is also commonly viewed as
+a social event. Visiting a museum is widely perceived as a
+’day out’ for the whole family, a special social experience,
+a chance for family members or friends to enjoy themselves
+separately and together.
+2.2. The importance of social interaction
+Starting from a social-constructivist approach, Falk and
+Dierking came to emphasize the role of the social group
+in the way visitors construct meaning in their contextual
+model of learning. In this model, three overlapping contexts contribute to and influence the consequent learning and
+meaning-making: the personal context (visitor profile and
+learning style), the physical context (museum environment)
+and the socio-cultural context (social interaction).
+Following this model, social interaction does not only promote, but is a prerequisite for intellectual, social, personal
+and cultural development [Mor02]. Recent studies with children also recognize the important role of social interaction: “the potential of the learning environment and its objects largely depends on the social atmosphere generated
+and the support young children receive through positive, reciprocal interactions. [. . . ] The successful learning setting
+functions as a community of learners, where all individuals are respected, their learning is supported, and opportunities for collaboration are provided.” [PW02] However, the
+social aspect of a museum visit is often neglected, especially when using new media. Audio-tours for example generate the unintended side effect that it is a quite individual,
+isolated experience: it can put individual visitors in a bubble, making it difficult for them to keep track of companions or family members, let alone chat about what they have
+seen [Ang06]. In spite of the many opportunities and benefits a PDA-tour can offer, recent research on the visitors’ use
+of the first PDA-tours in museums does share the same conclusion [VH05]: “the PDA makes it difficult for visitors to
+talk and engage in discussion.” Main reason is that the hardware and content of the current solutions are designed and
+structured for retrieval by one person rather than by multiple
+persons.
+2.3. Objectives
+One of the main objectives of the project is to deal with the
+(possible) negative side effects and therefore to encourage
+and stimulate interaction between visitors and the museum
+by use of the PDA. This can be done by providing opportunities to communicate with each other directly (using Voiceover-IP) and indirectly (by collaborative games) (see 3.1).
+c The Eurographics Association 2006.
+
+K. Luyten et al. / ARCHIE: Disclosing a Museum by a Socially-aware Mobile Guide
+
+The inquiry of the museum also reveals that visitors have
+different preferences concerning the way they want to learn
+in a museum. Some visitors have a strong need for handson and minds-on activities and want to ’experience’ the museum (38%), while other prefer a rather reflective discovery
+and space for abstract conceptualization (27%). There are
+also differences in visit behaviour, preferred profundity and
+nature of information, favourite type of media, object display
+and interior design. Not to mention different levels of knowledge, ages, types of groups, and personal interests. While
+traditional mobile museum guides often offer a uniform tour
+and presentation, the ARCHIE project wants to discover the
+opportunities and benefits of a personalized approach while
+exploiting the social relationships between the visitors.
+3. The ARCHIE Mobile Guide System
+The ARCHIE Mobile Guide System provides a basis to develop customized mobile guides, that can differ in presentation (visualization), structure, behaviour and style but still
+communicate the same content to the visitors. This is accomplished by a unified framework that can load an arbitrary interface shell. Independent of the interface shell, the
+framework also offers other components such as a personto-person communication component and localization component, two services that enable a more immersive visitor
+experience when using a PDA to visit a museum.
+3.1. Group-Based Communication
+Our Mobile Guide System provides different types of communication through the mobile device. A server application
+keeps track of the different groups of visitors. During the
+visit, the system allows visitors to communicate with other
+visitors in the same group in two different ways:
+• a direct communication style that is voice-based and uses
+Voice-over-IP (VOIP). This allows a visitor to address the
+other members of the same group directly and to talk with
+each other regardless their locations. An audio forwarder
+on the server handles the communication traffic. First user
+tests pointed out that there is a little noise on the communication channel when nobody is talking; such noise
+should be filtered out. A short delay on the messages is
+not experienced as annoying.
+• an indirect communication style that allows people to exchange other types of data related with the interface shell.
+This style of communication does not require the visitor to
+address the other visitors of the same group directly, rather
+it is used by collaborative games to share game (shell) related data. The synchronization between different clients
+involved in a collaborative game depends on the game and
+should be taken care of by the shell developer.
+Because the wireless network is deployed in the complete
+museum, visitors can communicate with each other no matter their location in the museum. The combination of both
+c The Eurographics Association 2006.
+
+types of communication opens up several possibilities to implement collaborative applications such as games that need
+to be played in group (e.g. by families, schools, ...).
+
+3.2. Personalization and visualization
+In section 2 we mentioned the importance of a personalized
+approach to enhance the visitor’s museum experience. The
+most visible part of the personalization component embedded in our Mobile Guide System are the different interface
+shells that can be loaded. Figure 1 shows two possible interface shells: 1(a) shows the interface shell that is more
+suitable for kids and 1(b) is an interface shell that is typically used for adult visitors. The multimedia tour for kids is
+an animation movie with their buddy Orf who guides them
+through the virtual world of the Neanderthal man. By clicking on the animated skull, an edugame can be started. Adults
+receive a more formal presentation using realistic images
+and accompanying short texts. By clicking on the picture
+more information can be retrieved. These two different presentations (or visualizations) of the same content, explaining
+the Neanderthal skeleton, are deployed on top of the same
+Mobile Guide System. Since an interface shell is used to support a rather large group of users, further personalization is
+required to increase the personal involvement and interaction
+with the museum.
+In order to create a more personalized museum visit, a
+user profile has to be composed. This can be done in advance or dynamically during the museum visit. Entering a
+user profile may not require much effort and time from the
+visitor and therefore should be limited. When no profile is
+entered, a default profile is provided. At each moment, the
+user profile can be (manually) changed by the user. Notice
+the creation of a user profile does not necessary exclude any
+information for the visitor, it can also be used to highlight
+information or change the presentation of the information
+according to the user interests and preferences. If identical
+information is available in different media types, one can
+prefer e.g. an animation to a documentary movie.
+Based on the user’s interactions with the device, the profile can be automatically adapted. Similar adaptations are
+also investigated in the PEACH project [KBGB∗ 05]. The
+way the visitor uses the digital content gives us a clue about
+his preferences: stopping an explanation prematurely may
+indicate a lack of interest, whereas asking for more, or bookmarking it, suggests a genuine interest. We use a weighted
+algorithm to adapt the user profile: the user profile will
+evolve slowly and does not change constantly, in order to
+avoid confusion. According to the action the user takes, the
+weights assigned to the different parts of the user profile will
+be changed. The following non-exhaustive list shows actions
+that can change the weights, they are listed in order of importance (actions at the top will have a greater influence than
+the actions at the bottom):
+
+K. Luyten et al. / ARCHIE: Disclosing a Museum by a Socially-aware Mobile Guide
+
+(a)
+
+(b)
+
+Figure 1: Interface shells for children and adults.
+
+• Explicit questions about appreciation of what is currently
+on screen;
+• Bookmarking a current screen for later retrieval;
+• Information retrieval actions (the user shows more interests in items he clicks on for more information);
+• Time spent at a certain position (the user might want to
+learn more about the displayed objects at that position).
+Notice the time spent at a certain location can have very different reasons, so only when a certain threshold is reached
+will this action be taken into account (e.g. a minimum
+amount of time spent at a location while the user is actively
+retrieving more information about an artefact in the vicinity).
+We are currently experimenting with this kind of automatic
+adaptation of user profiles in order to avoid forcing the visitor to go through a extensive questionnaire before starting
+a visit. Preliminary tests have shown that this approach is
+feasible.
+
+3.3. Localization
+Part of making the environment more immersive is done by
+adding an indoor localization system. In most traditional settings, an electronic mobile guide requires the user to manually input the location by entering a number or scanning a
+tag. Other rudimentary localization systems use IR-based localization techniques (e.g. Portable Cicero [CP03]). A more
+advanced technology makes use of object recognition based
+on an artefact’s photograph taken by the visitor [BBZB05].
+
+Current networking technologies allow us to use the wireless network to give an estimate of the location of the user or
+the proximity of the user to an artefact [BCLN05]. We use
+this as an interaction modality: the user can interact with the
+system by just moving around and changing her/his location.
+Additional reasons why we currently use a WiFi-based localization technique are: the infrastructure will be available in
+the museum, it provides a cheap way to support localization
+and it offers us the required granularity.
+Although there are several commercial solutions for indoor location detection available, we started with creating
+a customized location detection system based on the signal
+strengths of the various wireless access points in the vicinity of the user. Implementing a usable WiFi-based localization system turned out to be a challenging task: there are
+still several ongoing research projects that try to accomplish
+this [HFL∗ 04, YA05, CCC∗ 06]. The first drawback of using WiFi signals is that they tend to be quite erratic. Simply calculating the distance to the access point based upon
+the strength of its received signals will give back anomalous results. Consequently, trilateration of those results will
+not produce any accurate locations. We introduced a learning
+phase where we collect fingerprints (a set of signal strengths
+per access point per location) in the areas we need the localization algorithm to be more reliable. From this data we
+can derive the probable signal strength on a whole set of locations. Afterwards we can use the set of measured signal
+strengths per access point and search for the closest match
+c The Eurographics Association 2006.
+
+K. Luyten et al. / ARCHIE: Disclosing a Museum by a Socially-aware Mobile Guide
+
+with the recorded signal strength of each access point to determine the location. In order to cut down on the processing
+cost, only the best signals are used, since they tend to be the
+most reliable. With this approach we find the location with
+the highest probability.
+While this approach gives good results in estimating the
+location of the visitor in a static environment, in museum
+settings with clusters of moving visitors the precision in locating visitors decreases. Though this may seem to result in
+a system that is less usable, in an exploratory environment
+such as a museum this could lead to a more enjoyable user
+experience. Careful design of the application and its user interface can turn the lack of granularity into an asset that motivates the visitor to explore its environment, looking around
+for information. Observations and interviews with children
+who were exploring a museum by means of a PDA even indicated that they really liked to search for an artefact.
+
+museum. If the shell also uses the communication service,
+it is possible to start a conversation with another visitor, all
+triggered by the event of the visitor approaching an artefact.
+We are currently developing this framework and defining
+its interface. Only the three core services presented in this
+paper are currently used by the shells we developed, but one
+can imagine other core services being included. Their functionality is still subject to changes and evolves according
+to the requirements of the interface shells we are building
+on top of the framework. However, the architecture of the
+framework is created to be extensible and allows us to include other core services without changing the architecture.
+Also creating new interface shells does not require a new
+software structure since there is no hard binding between the
+interface shells and the core services because of the event bus
+interface.
+5. Conclusions
+
+4. Framework Overview
+The different core components presented in section 3 are integrated in one framework. The shell developer can make
+use of this framework to create a new shell that uses personalization, localization and communication. Figure 2 gives
+an overview of the framework and shows the core services
+that are available through the framework interface. The core
+services are in fact proxies that communicate with a central server that keeps a database with visitor profiles, visitor
+groups, artefact locations etc. This is completely transparent
+for the shell developer.
+Figure 2 shows the framework interface is structured as an
+event bus: a user interface shell can subscribe to events originating from one of the services, and process these events
+according to the shell. The event bus can also include direct
+user interaction events (e.g. tapping on the screen), so both
+direct and indirect interaction with the interface shell can be
+easily supported. This approach results in a flexible mobile
+guide system rather than one particular mobile guide: various shells that behave differently can be deployed on top of
+this framework. By using the communication service a shell
+will be able to engage in a collaborative game.
+One example that we developed using the localization service are the ’artefact notification messages’. These type of
+messages will notify the visitor when she/he approaches a
+particular artefact. This is accomplished as follows: the shell
+developer registers for events from the localization service
+and events from the personalization service. The personalization service can be queried for artefacts that are of high
+interest to the visitor according to its profile. The proximity of the visitor with regard to these artefacts is available
+through the localization service. An interface shell can use
+this data to emphasize information in the user interface. Figure 1(a) shows the skull in the presentation is highlighted:
+this is caused by the visitor approaching a skull object in the
+c The Eurographics Association 2006.
+
+Starting from the new objective of the museum to create
+an optimal learning experience for different visitor groups,
+and the project objective to discover the opportunities and
+benefits of a personalized approach while exploiting the social relationships of the visitors, we created a framework
+to build customized mobile guides that meet these desires.
+In contrast to many existing systems that work similar to a
+portable information kiosk, the ARCHIE Mobile Guide System stimulates interaction among visitors while offering a
+personalized interface and enhancing the immersive feeling
+of the visitor in the museum environment. Three core services were developed and integrated into one unified system
+to accommodate this: a group communication facility, automatic personalization and localization detection. An event
+based framework integrates these core services, so different
+interface shells may use these services and can co-exist. Collaborative applications can be built using these services and
+the framework.
+Acknowledgments
+This work was partly funded through EFRO, as part of ’Objective 2 - Programme Limburg 2000-2006 and the Phasingout Programme 2000-2005, Measure 2: Technology and Innovation, Action 4: Stimulating the product development in
+the field of multimedia applications concerning culture and
+cultural heritage’.
+We would also like to thank the museum staff of the GalloRoman Museum for close cooperation.
+References
+[Ang06] A NGLISS S.: Talking Sense. Museum Practice
+Magazine, 34 (2006).
+[BBZB05]
+
+B RUNS E., B ROMBACH B., Z EIDLER T.,
+
+K. Luyten et al. / ARCHIE: Disclosing a Museum by a Socially-aware Mobile Guide
+
+Figure 2: Framework overview
+
+B IMBER O.: Enabling Mobile Phones To Support LargeScale Museum Guidance. Tech. rep., Bauhaus University
+Weimar (Media Faculty), 2005.
+[BCLN05] B ORRIELLO G., C HALMERS M., L A M ARCA
+A., N IXON P.: Delivering real-world ubiquitous location
+systems. Commun. ACM 48, 3 (2005), 36–41.
+[CCC∗ 06] C HAN L.-W., C HIANG J.-R., C HEN Y.-C.,
+NAN K E C., H SU J., C HU H.-H.: Collaborative Localization: Enhancing WiFi-Based Position Estimation with
+Neighborhood Links in Clusters. In Pervasive (2006),
+pp. 50–66.
+[CP03] C IAVARELLA C., PATERNÒ F.: Design criteria for
+location-aware, indoor, pda applications. In Mobile HCI
+(2003), pp. 131–144.
+
+[KBGB∗ 05] K UFLIK T., B. C ALLAWAY C., G OREN BAR D., ROCCHI C., S TOCK O., Z ANCANARO M.:
+Non-intrusive User Modeling for a Multimedia Museum Visitors Guide System. In User Modeling (2005),
+pp. 236–240.
+[Mor02] M ORRISSEY K.: Pathways Among Objects and
+Museum Visitors. In Perspectives on Object-Centered
+Learning in Museums (2002), Paris S., (Ed.), Lawrence
+Erlbaum Associates.
+[PGR05] Provincial Gallo-Roman Museum. Quantitative
+learning target group research, 2005.
+
+Exploratorium Electronic Guidebook Forum,
+
+[PT03] P ROCTOR N., T ELLIS C.: The State of the Art in
+Museum Handhelds in 2003. In Museums and the Web
+2003 (Toronto, Canada, 2003), Archives & Museum Informatics, pp. 227–238.
+
+[FD00] FALK J., D IERKING L.: Learning from Museums:
+Visitor Experiences and the Making of Meaning. Altamira
+Press, Walnut Creek, 2000.
+
+[PW02] P ISCITELLI B., W EIER K.: Learning With,
+Through, and About Art: The Role of Social Interactions.
+In Perspectives on Object-Centered Learning in Museums
+(2002), Paris S., (Ed.), Lawrence Erlbaum Associates.
+
+[Fis05] F ISHER S.: An Evaluation of Learning on the
+Move and Science Navigator. Using PDAs in Museum,
+Heritage and Science Centre Settings. 2005.
+
+[VH05] VOM L EHN D., H EATH C.: Accounting for New
+Technology in Museum Exhibitions. International Journal of Arts Management 7, 3 (2005).
+
+[HFL∗ 04] H AEBERLEN A., F LANNERY E., L ADD A.,
+RUDYS A., WALLACH D., K AVRAKI L.: Practical robust
+localization over large-scale 802.11 wireless networks. In
+MobiCom ’04: Proceedings of the 10th annual international conference on Mobile computing and networking
+(New York, NY, USA, 2004), ACM Press, pp. 70–84.
+
+[YA05] YOUSSEF M., AGRAWALA A.:
+The Horus
+WLAN Location Determination System. In MobiSys ’05:
+Proceedings of the 3rd international conference on Mobile systems, applications, and services (New York, NY,
+USA, 2005), ACM Press, pp. 205–218.
+
+[Exp05]
+2005.
+
+c The Eurographics Association 2006.
+
+View public
+
+

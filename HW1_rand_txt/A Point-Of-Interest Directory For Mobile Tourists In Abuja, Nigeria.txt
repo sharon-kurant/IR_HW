@@ -1,0 +1,800 @@
+Journal of Multidisciplinary Engineering Science and Technology (JMEST)
+ISSN: 2458-9403
+Vol. 3 Issue 10, October - 2016
+
+A Point-Of-Interest Directory For Mobile
+Tourists In Abuja, Nigeria
+Afolalu C. A.
+Department of Computer Science
+Afe Babalola University, Ado-Ekiti
+Ekiti State, Nigeria
+catherinea@abuad.edu.ng
+
+OIatunji K.A.
+Department of Computer Sci.
+Afe Babalola University Ado
+Ekiti State, Nigeria
+odekunlekenny@yahoo.com
+
+Abstract-Tourism is one of the largest industries
+in the world because majority of the public have to
+travel at one point in their lives whether for
+pleasure,
+vacation,
+business
+or
+official
+assignments. This holiday experience has
+therefore turn into tourism business thereby
+creating room for unlimited resources in the
+tourism sector. This experience has taken further
+and developed every single day to help tourist fit
+into a comfortable life outside their respective
+homes. Unfortunately, with the increasing growth
+of wireless technology and mobile devices in this
+era has brought about significant changes to
+people’s lives there are still some issues
+regarding tourism sector that has not changed
+over the years as most tourists still rely on the
+traditional tourist maps and guidebooks for
+direction and place-of- interest. With the advent of
+Mobile wireless technologies, A Mobile tourism
+guide will represents a relatively new trend in the
+field of tourism and involves the use of mobile
+devices as electronic tourist guides. Therefore,
+this paper proposed a prototype of mobile tourist
+directory for Abuja city in Nigeria to improve the
+travel experience of tourists. The mobile tourist
+directory provides a user-friendly interface for end
+users for easy access and understanding which
+will successfully overcome the drawbacks of the
+existing system as the mode operation of the
+proposed system is both online and off-line
+modes.
+Keywords—Tourist, mobile directory, mobile
+devices, Abuja city,
+I. INTRODUCTION
+Mobile based tourist directory is an application that
+involves using a mobile device as electronic tourist
+guide. It allows the tourist to search information about
+a Point of Interest (POI) from a mobile device[2]. The
+advancement and constant evolution of technology
+has brought about significant changes in how humans
+react to their immediate environments as a result of
+developments and findings in the science to make life
+easier and better for the present generation and the
+next. The development of Internet has generated
+strong impacts in many areas of life. The Internet has
+changed the way we do business, the way we
+communicate and also, it has given an international
+
+Nwagbo C.C.
+Department of computer Sci.
+Afe Babalola University Ado
+Ekiti State, Nigeria
+
+dimension to the world. Internet has become the
+universal source of information for millions of people,
+at home, school, and work. The Internet with its
+multiple communication channels also changes the
+world of business, the marketing principles and
+generates a new way of commerce. Nowadays,
+people rely on the web for their everyday life,
+requesting information to be available anywhere,
+anytime and accessible from all the devices [3]. The
+next phase of development of the Internet appears to
+be focused on mobile devices where the challenge is
+to make information accessible to them in forms that
+the users can exploit effectively [9]. Mobile technology
+is a field in rapid development. Especially over the
+past few years, the improvements in mobile
+technology have been tremendous. The increase in
+performance of these devices, as well as the
+additional hardware in form of GPS, sensors, etc.,
+make them powerful devices which can develop
+comprehensive services to aid people in various
+scenarios. Mobile phones have brought about the
+commencement of the next social revolution as
+evident in the boom of social networks. Today, mobile
+phones are common, portable, convenient and
+affordable electronic devices, some with the ability to
+transit information through wireless networks
+(smartphones and personal digital assistants {PDAs}
+like Apple’s iPhone and iPads and iWatch, Windows
+Lumia, Research In Motion’s blackberry and Android
+operating mobile devices) and others with the basic
+ability to receive and send information over telephone
+line networks. Mobile computing can be referred to as
+computing environment over physical mobility. It is the
+interaction between humans and computers,
+regardless of the location; that is to say the user of a
+mobile computing environment will be able to access
+data, information or logical objects from any device in
+any network while on the move.
+Mobile devices are hand-held computing devices,
+with the capability of transmitting and receiving
+information over a network. Examples are tablets
+PCs, cellular telephones, PDAs, smartphones with
+access to a network, electronic readers, just to
+name a few[9]. In this technology era, mobile
+devices are produced with more power and
+memory, touch-screen ability, and a large displays
+with multicolour, enough to rival other complex but
+
+www.jmest.org
+JMESTN42351797
+
+5642
+
+Journal of Multidisciplinary Engineering Science and Technology (JMEST)
+ISSN: 2458-9403
+Vol. 3 Issue 10, October - 2016
+
+computing device. These major improvements in
+technology and characteristics make mobile device
+plausible to solve problems and can replace the
+graphical user interface of some existing systems.
+Almost every person owns a mobile device using it
+not only to communicate but also, to access their
+favourite Web sites and content whenever they
+want, regardless of their physical location or
+computer access.As the use of information
+technology becomes more entrenched, tourists, in
+turn, have become more sophisticated, requiring
+timely, higher quality information and services to
+satisfy their needs. Tourism-related organizations
+have responded by introducing new systems,
+products and services. A key development in the
+tourism sector is the increasing popularity of mobile
+or handheld devices including personal digital
+assistants (PDAs) and smartphones that combine
+the power of computing and communication into a
+single device. Innovative mobile services have a
+huge potential for tourism-related organizations in
+terms of both increased market share, and the
+perceived quality (in terms of reliability, accuracy
+and timeliness) of information and services by
+tourists[4]. Such services are fast emerging and
+examples include maps, personal navigation
+systems and location-based mobile guides. People
+travel for many purposes: on business, for
+recreation, education, and entertainment, to meet
+business partners, friends and family. They often
+strive to combine several purposes while travelling.
+Not so many years ago, travelling required serious
+preparation: booking with the help of travel agents,
+buying guidebooks and maps, collecting brochures,
+catalogues and leaflets. Today, new technologies
+allow more flexible access to information, booking
+services, and other tourist support. Therefore, this
+study proposes a mobile application that provides
+tourist guidance services through mobile devices to
+the final users. This application’s goal is to provide
+a better user experience by taking advantage of
+newest technologies. The main function of this
+application is to provide tourists and travellers an
+information directory that will be useful whether
+they are online or offline.
+A. Understanding Tourism
+Tourism comprises the activities of persons
+travelling to and staying in places outside their
+usual environment for not more than one
+consecutive year for leisure, business and other
+purposes. (United Nations World Tourism
+Organization,
+2008).The
+World
+Tourism
+Organization defines tourism more generally, in
+
+terms which go "beyond the common perception of
+tourism as being limited to holiday activity only.
+An expanded definition given [7] refers to “tourism
+as a travel and temporary stay involving at least
+one night away from the region of a person’s usual
+home that is undertaken with the major expectation
+of satisfying leisure needs that are perceived as
+being at places outside of, and qualitatively
+different to, the home region.”
+Tourism is a social, cultural and economic
+phenomenon which entails the movement of
+people to countries or places outside their usual
+environment for personal or business/professional
+purposes. Tourism may be international, or within
+the traveler's country.
+B. Tourism in Nigeria
+History is instructive in a study of tourism, not
+simply because there maybe lessons to learn,
+but rather because the seeds of future growth
+are to be found in the past. Tourism is said to
+be as old as humanity. Writers on the subject
+have always traced the beginning of tourism to
+when life started on earth [17]. The history of
+tourism in Nigeria is traced to the beginning of
+life and ancient civilization. According to [14],
+History tells us that our fore-fathers offered
+hospitality and tourism services to strangers
+willingly. They were in the habit of being their
+brothers keepers Our fore fathers practiced
+hospitality even before the arrival of the ‘white
+man’. However, it was the colonialists that
+commercialized hospitality as trade and
+commerce”. Also, [11] noted that tourism
+development in Nigeria started in 1962.
+According to him, tourism in Nigeria started
+with the formation of a body called Nigerian
+Tourist Association (NTA) in 1962. The body
+had the recognition of the International Union
+of Official Travel Organization (IUOTO), now
+known as World Tourism Organization (WTO).
+Because of the pressure from NTA,
+Government in 1971 engaged the African
+Development Bank (ADB) to conduct feasibility
+study to ascertain the tourism potential of Nigeria.
+At the end of the exercise ADB report indicated
+that Nigeria has huge tourism potential that can
+fuel its economic development. Acting on the
+recommendation of the study, the Federal
+Government of Nigeria promulgated Decree No. 54
+of 1976. The Decree established the Nigeria
+Tourism Board (NTB) in 1976 to replace the
+erstwhile Nigerian Tourist Association. In 1989 a
+
+www.jmest.org
+JMESTN42351797
+
+5643
+
+Journal of Multidisciplinary Engineering Science and Technology (JMEST)
+ISSN: 2458-9403
+Vol. 3 Issue 10, October - 2016
+
+national conference on tourism was held in
+Maiduguri. The objective of the conference was to
+appraise the state of tourism development in
+Nigeria vise a verse the performance of NTB. The
+recommendation from the conference led to the
+establishment of a department of tourism in the
+Ministry of Trade. In 1992, Decree No. 54 of 1976
+was replaced by Decree 81 of 1992. The Decree
+replaced the erstwhile NTB and in turn established
+the Nigeria Tourism Development Corporation
+(NTDC).It has since then became the apex tourism
+agency of the Federal Government of Nigeria
+charged with the overall responsibility of promoting,
+marketing and coordinating tourism activities in
+Nigeria.
+C. Mobile Applications
+A mobile application is a software application
+developed specifically for use on small, wireless
+computing device such as smartphones or tablets
+rather than desktops or laptops. Types of mobile
+
+application include: Native app, Mobile Web app
+and Hybrid app.[12]
+
+Figure1: Landscape of Mobile Internet
+
+Mobile Native app Versus Mobile web-based apps
+
+Table1: Comparison between mobile native application and mobile web application [12]
+Mobile native app
+
+Mobile web-based apps
+
+Each mobile application development platform
+
+Web apps are written in HTML5, CSS3,
+
+parameters
+
+development
+
+has its own native programming language:
+
+JavaScript and server-side languages or
+
+Java (Android), Objective-C (iOS), and Visual
+
+web application frameworks of the
+
+C++ (Windows Mobile)
+
+developer’s choice (e.g. PHP, Rails,
+Python)
+
+Can interface with the device’s native features,
+Capabilities
+
+Web apps can access alimited amount of the
+device’snative features and information
+
+information and hardware (camera,
+microphone, contacts)
+
+platform
+
+updates
+
+method of delivery
+
+(Orientation, geolocation, media)
+
+It is usually downloaded onto a mobile device
+
+It can be accessed through a web browser
+
+and installed and run as a standalone
+
+either on mobile device or on laptop or
+
+application.
+
+desktop.I.e. no software is installed.
+
+Users must manually download and
+
+Updates are made to the web
+
+install app updates
+
+server without user intervention
+
+There are stores and marketplaces
+
+Since there is no app store for the Mobile Web,
+
+to help users and your app
+internet connectivity
+
+it can be harder for users to and your app
+
+internet connectivity is not always required
+
+Without internet access the website would not
+open.
+
+II.OBJECTIVES.
+The objective of this work is to design a prototype
+of a mobile tourist directory can be accessed
+through wireless devices such as mobile phones,
+personal digital assistants (PDAs) for the Federal
+Capital Territory of Nigeria (Abuja).
+III. MOTIVATION
+
+Tourists often get to a new city and find it difficult
+to get information about various place of interest
+(POIs). Tourist information is obtained mainly
+through newspaper, magazines e.g. Lagos
+handbook, radio, information from friends and
+family, adverts, and other simple ways those are
+available easily. But problem is that tourists are
+www.jmest.org
+
+JMESTN42351797
+
+5644
+
+Journal of Multidisciplinary Engineering Science and Technology (JMEST)
+ISSN: 2458-9403
+Vol. 3 Issue 10, October - 2016
+
+not able to get travel information timely when they
+are on the move. While today's mobile devices are
+becoming more intelligent, compared with PC, it is
+portable, convenient and widespread. Although
+many mobiles of recent decades have travel guide
+application but they have various limitations that
+this application can solve.
+V.SCOPE OF THE STUDY
+The study focuses on a mobile application that
+provides tourist guidance services through mobile
+devices to the final users. This application’s goal
+is to provide a better user experience by taking
+advantage of newest technologies in order to
+spread information about Abuja metropolis. The
+information can be accessed wirelessly by the
+tourist in online and off-line modes. This mobile
+application should provide: easy access,
+information about the desired place and
+recommendations for probable places of interest.
+This mobile web application provides information
+about galleries, accommodations, restaurants,
+and shops and also, other important landmarks
+and cultural places of the city of Abuja that a
+future visitor or tourist can find them interesting.
+VI.THE PROPOSED SYSTEM
+The proposed system is equipped with a userfriendly touch screen application that runs on
+devices with android operating system this include
+mobile phones and tablets such as Samsung,
+infinix, htc, tecno brands. For completing the
+process at back-end we use MySQL which will be
+hosted online for the online mode. The offline data
+is remote to the application i.e. it is coded directly
+into the application. For this system, there would
+be a system administrator who will have the rights
+to enter information about places of interest. The
+administrator can enter anytime in the system by a
+secured authorization to make changes to the
+content by adding or deleting or changing contact
+information. When the tourist enters a new city,
+such tourist will be able to view necessary
+information with the help of the application on his
+android device using the graphical user interface
+(GUI), right from the selection of interest to when
+he views desired details. He will select from the
+place of interest options according to his choice,
+the system will display list of different options and
+information on his choice. He will have the option
+of going back or searching for other places of
+interest. The proposed prototype will solve the
+
+existing problem in Abuja Metropolis faced by
+tourist which include: Information about tourist
+interest are usually in printed form such as flyers,
+adverts in newspapers or magazines and so on
+and while in transit this information can be lost. Inability to access the internet, can leave the tourist
+stranded and Time wasted in trying to find POI
+A. Methodology
+The methodology used in this work involves the
+gathering of facts about the existing system. The
+purpose of this is to thoroughly analyse it in order to
+identify the inefficiencies associated with the existing
+system and determine the requirement analysis for
+the proposed system.
+The specific methods used in collecting data about
+requirements in the proposed system are more than
+one so as to ascertain accurate results and a
+comprehensive investigation. They include interview
+and direct Observation
+B. System Architectural Design
+The architecture of the proposed system is
+presented in Figure2 below. The system
+comprises of mobile forms usually referred to
+as activity and embedded database. The
+architecture is modular and all functionalities are
+delivered using JAVA Programming language and
+XML. MySQL was used for Database.
+ Mobile Service
+The mobile service is responsible for fetching the
+required template from the database based on the
+selected point of interest by the user.
+ Online Update Service
+The online update service can be used to update
+the application anytime through a cloud based
+service and the updates are automatically
+reflected in the mobile application hence making it
+easy to make changes to the information rendered
+to the users and making it more up to date always.
+ Working Memory (WM)
+Working memory refers to the available RAM for
+storing data used by the system and allows
+buffering, it is therefore recommended for each
+workstation to a valid working memory.
+ Embedded Database: Specification and
+Design
+The embedded database is designed to hold data
+for a the particular application domain, these are
+the information making up the template, the
+database is designed using MySQL.
+
+www.jmest.org
+JMESTN42351797
+
+5645
+
+Journal of Multidisciplinary Engineering Science and Technology (JMEST)
+ISSN: 2458-9403
+Vol. 3 Issue 10, October - 2016
+
+C. Conceptual Diagram: The UML diagrams that
+will be used to model this system are follows; Use
+case diagram, sequence diagram and the activity
+diagram.
+Activity diagram: is used in the analysis of this
+system to show diagrammatically the sequence of
+activities involved in the system.
+Use case diagram: shows the main actors of the
+system and the roles and activities they perform in
+the system.
+Figure 2: Architectural System for mobile tourist
+directory
+
+Figure 4. Use case diagram of the system
+
+Figure 3. Activity diagram of the system
+Table 2. Glossary representation for the case diagram
+Actors
+Involved
+
+Use case name
+Start menu
+
+Description
+This is the first interface the users sees once he or
+she clicks on the application icon
+
+Select POI option
+
+The user is supposed to select a category of
+interest, either hotels, restaurants, boutiques from
+the options listed.
+
+Users
+
+View details on selected
+POI
+
+Here, a list of the selected POI is made available.
+For instance, if the user selected hotel, a list of
+hotels and their contact information will be show.
+
+Users
+
+Back to main category
+
+If the users wants to view other information on other
+places, he or she can easily navigate back to the
+main menu
+
+Users
+
+Update database
+
+If new POIs are discovered or the contact
+information of a POI which is stored in the database
+is changed, the database will be updated.
+
+Administrator
+
+VII. GRAPHICAL USER INTERFACE DESIGN
+The mobile tourist directory is a prototype and has
+not been commissioned for use by tourist
+companies in Abuja, but if commissioned it will be
+
+Users
+
+downloaded from the app store using internet
+service and installed to an android device either a
+tablet or a mobile phone.Where it will be able to in
+online and off-line mode, depending on the user
+www.jmest.org
+
+JMESTN42351797
+
+5646
+
+Journal of Multidisciplinary Engineering Science and Technology (JMEST)
+ISSN: 2458-9403
+Vol. 3 Issue 10, October - 2016
+
+preference. The application can be run and
+developed with the following minimum software
+requirements:Android OS 2.2 and above, also
+device with screen size idpi, mdpi, tvdpi, hdpi,
+xhdpi, xxhdpi of the android device.
+
+Figure 7:Transportation page screenshots
+
+Figure 5:Mobile tourist guide icon
+
+Figure 8: Hotels page screenshot
+
+Figure 6: Home screen
+
+www.jmest.org
+JMESTN42351797
+
+5647
+
+Journal of Multidisciplinary Engineering Science and Technology (JMEST)
+ISSN: 2458-9403
+Vol. 3 Issue 10, October - 2016
+
+Figure 9:Beauty parlours page
+Figure11: Health services Address
+
+Figure 10: Eateries page screenshot
+
+www.jmest.org
+JMESTN42351797
+
+5648
+
+Journal of Multidisciplinary Engineering Science and Technology (JMEST)
+ISSN: 2458-9403
+Vol. 3 Issue 10, October - 2016
+
+Figure 12: Health services page
+
+Figure 13: Contact page
+
+Figure5: illustrates the mobile tourist directory icon
+on the screen of the mobile device. It appears
+after the application has been downloaded and
+installed.
+Figure 6: is the mobile tourist directory home
+screen, it has nine categories. From each of these
+categories, user can chose any category of their
+choice. The user can chose only one option at a
+time.
+Figure7: illustrates the transport screenshot. This
+screen shows a list of transport companies
+available in Abuja alongside their contact which
+include address, phone number and so on.
+Figure8: illustrates the hotel screenshot. This
+screen shows a list of hotel available in Abuja
+alongside their contact which include address,
+phone number and so on.
+Figure9: illustrates the beauty salon screenshot.
+This screen shows a list of beauty salonsavailable
+in Abuja alongside their contact which include
+address, phone number and so on.
+Figure10: illustrates the restaurants screenshot.
+This screen shows a list of restaurants available in
+Abuja alongside their contact which include
+address, phone number and so on.
+Figure11
+illustrates
+the
+health
+services
+screenshot. This screen shows a list of health
+services available in Abuja alongside their contact
+which include address, phone number and so on.
+Figure 12: this is the list showing the health
+services online. This screen is visible if internet
+connection is available.
+Figure 13 illustrates the contact details. This
+screen shows available contact details on the
+selected place of interest.
+Figure 14: this screen shows when you want to
+navigate a selected website. This screen is visible
+to selected from available browsers on your
+mobile device, to navigate to the website of the
+selected place of interest.
+VIII. CONCLUSION
+The project “mobile tourist directory” is a mobile
+based application. It is designed to meet the need
+of tourists to Abuja either on vacation, business,
+or studies. It is developed in java using eclipse
+and Php MyAdmin/MySql for the database. The
+system is easy to understand and useful. The
+software has a user-friendly screen and interface
+that enables user to make use of without any
+difficult. Provisions have been put in place to
+update the software. Hence, This application
+software will work efficiently and effectively.
+
+Figure 14: Navigation to website
+www.jmest.org
+JMESTN42351797
+
+5649
+
+Journal of Multidisciplinary Engineering Science and Technology (JMEST)
+ISSN: 2458-9403
+Vol. 3 Issue 10, October - 2016
+
+IX. REFERENCES
+[1] Bhatia A.K. (2006). “The Business of
+Tourism:
+Concepts
+and
+Strategies”
+https://www.google.com.ng/search?q=the+busines
+s+of+tourism:+concepts+and+strategies+byy+a.k.+
+bhatia&biw=1150&bih=655&noj=1&source=lnms&t
+bm=bks&sa=X&ved=0ahUKEwjVr3zir3LAhWLAxoKHWbICNcQ_AUIDSgB
+date
+visited 17/02/16
+
+[10] Karatzas G. (2010): “Mobile Web Tourism
+Application”
+Available
+http://www.gkaratzas.com/downloads/Georgios_Ka
+ratzas-MscThesis.pdf date visited 12/4/2016.
+[11] Kenteris M, Gavalas D., Economou D.
+(2009).“An innovative mobile electronic tourist
+guide application”.
+[12] Lickorism J.L. (1997). “An Introduction to
+Tourism” date visited 03/03/16
+
+[2] Bjørneseth F.B.(2005):“Mobile Tourist Guide”
+date
+visited
+06/03/16
+https://personal.cis.strath.ac.uk/mark.dunlop/misc/c
+it/projects/library/05/Froy.pdf
+
+[13]
+Mia Klaus (2016) “advantages and
+disadvantages
+of
+java
+application
+development”.http://www.selfgrowth.com/articles/a
+dvantages-and-disadvantages-of-java-applicationdevelopment date accessed 14/06/2016.
+
+[3] Choo W.O. and Shahryar S. (2013).“Mini
+literature analysis on information technology
+definition”.Information
+and
+knowledge
+management. ISSN 2224-896X (online) Vol. 3, No
+2, 2013.
+
+[14] Mudge J.T. (2012). “Native App vs. Mobile
+Web App: A Quick Comparison”. Available
+http://sixrevisions.com/mobile/nativeappvsmobilew
+ebappcomparison/ date visited 9/4/2016
+
+[4]
+DadapeJinendra R.,JadhavBhagyashri R.,
+GaidhaniPranav Y.
+andVyavahareSeema U.
+(2012). “Smart Travel Guide: Application for
+Android Mobile”.1st International
+
+[15] Ogbu S.E., Idris S.,Ijagbemi A.B. (2011).
+“Information and Communication Technology
+(ICT): A Veritable Tool For Tourism Development
+In Nigeria”.Nigeria Computer Society (NCS): 10TH
+International Conference – JULY 25-29, 2011
+
+[5] Conference on Recent Trends in Engineering
+& Technology, Mar-2012. Special Issue of
+International Journal of electronics, Communication
+& Soft Computing Science & Engineering, ISSN:
+2277-9477
+[6] Goh, D.H.,Ang, R.P., Lee, C.S., and Lee,
+C.K. (2010).“Determining services for the mobile
+tourist”. Journal of Computer Information Systems,
+51(1), 31-40.
+[7] Grün C., Werthner H., Proll B. and Schwinger
+W.(2008). “Assisting Tourists on the Move -An
+Evaluation of Mobile Tourist Guides”2008 7th
+International Conference on Mobile Business ISSN
+1935-4908.Pages 171-180.
+[8] Hanjie S. (2010). “City Guide over
+Android”.Available
+https://www.sintef.no/globalassests/project/ubicom
+pforall/student-projects/project-report---hanje-shu--city-guide-over-android.pdfdate visited 12/4/2016
+
+[16] Samra M. (2011). “The role and benefits of
+mobile
+Phone
+apps
+in
+today’s
+world”.http://www.newbusiness.co.uk/articles/itadvi
+ce/theroleandbenefitsmobilephoneappstodaysworl
+dAvailable date visited 9/4/2016
+[17] Smirnov A., Kashevnik A.,Ponomarev A.,
+Nikolay S., (2014) “Recommendation System for
+Tourist Attraction Information Service”. Proceeding
+of the 14TH Conference of FRUCT AssociationISSN 2305-7254
+[18]
+Vidyullata S. J., Dr. Shivaji D. M.
+(2011).“Information technology in Tourism”.
+(IJCSIT) International Journal of Computer Science
+and Information Technologies, Vol. 2 (6) , 2822282.
+
+[9] Jayapalan N. (2001) “introduction to tourism”
+available
+at
+date
+visited
+06/03/16https://books.google.com.ng/books?id=HF
+WjoeVCLk0C&pg=PA41&lpg=PA41&dq=tourism+it
+s+components+and+elements&source=bl&ots=hxn
+DLxa3AI&sig=GrnsqeEyyux5Jh0in1TMo9nlN04&hl
+=en&sa=X&ved=0ahUKEwjNkdHH7JvLAhWkK5oK
+HT4aDVoQ6AEIMzAC#v=onepage&q=tourism%20
+its%20components%20and%20elements&f=false
+www.jmest.org
+JMESTN42351797
+
+5650
+
+

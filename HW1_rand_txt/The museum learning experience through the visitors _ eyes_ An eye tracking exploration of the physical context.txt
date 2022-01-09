@@ -1,0 +1,1068 @@
+Accelerat ing t he world's research.
+
+The museum learning experience
+through the visitors' eyes: An eye
+tracking exploration of the physical
+context
+
+Joanne Yu, Barbara Neuhofer, Mattia Rainoldi
+
+Eye Tracking in Tourism
+
+Cite this paper
+
+Downloaded from Academia.edu 
+
+Get the citation in MLA, APA, or Chicago styles
+
+Related papers
+
+Download a PDF Pack of t he best  relat ed papers 
+
+Mobile Eyet racking of Museum Learning Experiences
+
+Barbara Neuhofer, Mat t ia Rainoldi
+
+Exploring t he pot ent ial cont ribut ion of mobile eye-t racking t echnology in enhancing t he museum visit  …
+
+Moayad Mokat ren
+
+Hasslily Hashim
+
+UNDERSTANDING EXHIBIT ION EXPERIENCE: A USER-CENT RED APPROACH T O DESIGNING ENGAGING A…
+
+The museum learning experience through the visitors’ eyes: An eye tracking 
+exploration of the physical context 
+ 
+
+Mattia Rainoldi, Chung-En Yu and Barbara Neuhofer 
+
+ 
+
+Abstract  
+
+Experiences always need to be designed with the visitor in mind. In our society, 
+museums hold a prominent place for human learning and experiences. Museum 
+experiences  have  become  a  sophisticated  blend  of  spatial  design,  exhibit 
+curation and multimedia selection, shaping the overall physical context of the 
+visitor’s  experience.  Driven  by  the  question  of  how  we  can  create  effective 
+visitor learning experiences in contemporary museums, a large-scale mobile eye 
+tracking  was  conducted.  Mobile  eye  tracking  has  recently  entered  tourism 
+research as a novel method to study visitor behaviour in real-life environments 
+and  in  a  non-intrusive  manner.  The  findings  reveal  that  the  physical  context 
+greatly  influences  the  museum  learning  experience,  and  show  significant 
+differences in attention and engagement levels across exhibition’s elements. The 
+study  adds  insights  on  the  relationship  between  visitors’  museum  learning 
+processes and the physical context, and contributes to the model of contextual 
+learning. Practical implications for museum experience design are offered with 
+regards to spatial experience design and different visitor age segments. 
+
+Keywords: museum, learning experience, mobile eye tracking. 
+
+1 Introduction 
+
+Museums  offer  liminal  spaces  that  invite  visitors  to  have  engaging  learning 
+experiences.  While  experiences  unfold,  it  has  been  common  knowledge  that 
+maintaining visitors’ attention in art galleries, exhibitions and museums is not 
+an easy task due to museum fatigue and satiation (Antón, Camarero, & Garrido, 
+2018; Germak & Khan, 2017). The former refers to a predictable tiredness that 
+leads  to  the  decrease  of  interests  during  the  visit  (Davey,  2005).  The  latter 
+
+Mattia Rainoldi, Salzburg University of Applied Sciences, Puch, Austria  
+e-mail: mattia.rainoldi@fh-salzburg.ac.at 
+Chung-En Yu, Salzburg University of Applied Sciences, Puch, Austria  
+e-mail: cyu.imte-m2018@fh-salzburg.ac.at  
+Barbara Neuhofer, Salzburg University of Applied Sciences, Puch, Austria  
+e-mail: barbara.neuhofer@fh-salzburg.ac.at 
+
+suggests  a  lack  of  attention  resulting  from  the  repeated  exposure  to  similar 
+stimuli (Antón et al., 2018). Since visitors often spend the same amount of time 
+centered on exhibits during the visit (Rainoldi, Neuhofer, & Jooss, 2018), one 
+central question for the design of these spaces (Hein, 1998) is how to effectively 
+facilitate  learning  experiences.  With  the  advancement  in  information  and 
+communication  technologies  (ICTs),  institutions  and  organisations  have 
+attempted to transform learning activities from traditional printed materials to 
+technology-enabled formats (Pachman, Arguel, Lockyer, Kennedy, & Lodge, 
+2016).  This  is  supported  by  a  number  of  studies  showcasing  that  digital 
+materials are valuable to learning and teaching (McGuinness & Fulton, 2019; 
+Henderson, Selwyn, & Aston, 2017; Zwart, Van Luit, Noroozi, & Goei, 2017). 
+As  opposed  to  traditional  media  that  are  static  in  nature,  technology-driven 
+elements attract higher levels of interest and attention (Venkatraman, Dimoka, 
+Vo,  &  Pavlou,  2018),  and  have  been  used  as  an  effective  tool  to  serve 
+educational purposes (Henderson, Selwyn, & Aston, 2017).  
+
+In the same vein, physical gallery spaces and museums have incorporated digital 
+technology to aid visitor experiences by facilitating the learning process (Pallud, 
+2017)  and  improving  visitor  engagement  levels  (Kounaves,  Archer,  King,  & 
+Pegram,  2016).  Well-known  examples  can  be  seen  from  the  application  of 
+interactive technologies in the Louvre Museum, Brooklyn Museum, and British 
+Museum,  among  others.  To  effectively  combine  the  old  and  the  new,  it  is 
+necessary to investigate the interaction between visitors and the physical context 
+of an exhibition (Falk & Dierking, 2013). While doing so, one also needs to bear 
+in  mind  various  visitor  profiles,  such  as  age  differences  and  technology 
+preferences.  Younger  consumers  are  often  characteristics  as  tech-savvy, 
+whereas older consumers might be reluctant to using technology-related objects 
+(Douglas,  Lubbe,  &  Van  Rooye,  2018).  Therefore,  museum  experience 
+designers  have  to  strategically  create  a  diversified,  interactive  and  engaging 
+platform for visitors (Falk & Dierking, 2013).  
+
+If achieved, a positive museum experience could not only enhance the visitor 
+satisfaction and revisit intentions (Kang, Jang, & Jeong, 2018), but also improve 
+the  extent  of learning  capability  (Pallud,  2017).  Notably,  earlier  research  has 
+applied the Contextual Model of Learning (Falk & Storksdieck, 2005; Lundgren 
+& Crippen, 2019; Hsu & Liang, 2017; Rainoldi, Neuhofer, & Jooss, 2018), as a 
+suitable  framework  to  study  the  complexities  of  the  museum  experience  at  a 
+socio-cultural, personal and physical level (Falk & Dierking, 2013). This study 
+has an interest in the physical context that is inextricably related to the design 
+of museum learning experiences. 
+
+ 
+
+To investigate visitors’ attention during the visit, the application of mobile eye 
+tracking  glasses  has  gained  increasing  popularity  in  tourism  research  (Scott, 
+Zhang,  Le,  &  Moyle,  2019)  as  it  allows  natural  movement  in  real-world 
+situations.  For  instance,  Mokatren,  Kuflik  and  Shimshoni  (2016)  explore  the 
+role of mobile eye trackers in enhancing the museum visitor experience. More 
+recently, the study of Krogh-Jespersen, Quinn, Krenzer, Nguyen, Greenslit and 
+Price  (2020)  investigates  visitors’  visual  attention  in  a  science  museum  and 
+discover that the position of signage is related to the feeling of connectedness 
+within an exhibition space. Nonetheless, given the potential benefits of mobile 
+eye tracking, research on visitor real-life experiences is still in its infancy, not 
+to mention the generational differences between visitors in the museum context. 
+
+Therefore, the current study aims to tackle the research gap by investigating the 
+museum  experience  of  visitors  in  different  age  groups.  Specifically,  this 
+research  seeks  to  uncover  the  effectiveness  of  space  design  by  examining 
+different elements of an exhibition (e.g. textual information boards, traditional 
+exhibits, and digital materials). By bridging the interdisciplinary fields of visual 
+attention,  contextual 
+theory,  experience  design  and  museum 
+management, this research provides additional knowledge to the body of mobile 
+eye  tracking  research  in  the  context  of  tourism.  Practically,  it  highlights  the 
+importance of effective object and space design for museums to provide a flow 
+experience for visitors. 
+
+learning 
+
+2 Literature review  
+
+2.1 The importance of visual attention 
+
+Attracting  visual  attention  has  been  a  key  topic  in  the  domain  of  tourism 
+research (Wang & Sparks, 2016; Scott et al., 2019). Specifically, visual attention 
+refers to one’s cognitive processing in filtering out the irrelevant information 
+from  all  the  visual  elements  (Kastner  &  Pinsk,  2004).  Notably,  humans’  eye 
+movements are largely influenced by the nature of objects. For instance, pictures 
+are more visually appealing than text (Lin, Swarna, & Bruning, 2017), whereas 
+traditional  static  materials 
+digital  contents  are  more  attractive 
+(Venkatraman  et  al.,  2018).  In  the  age  of  the  Internet,  the  application  of 
+technological-driven  materials  gains  its  popularity  not  only  in  marketing  and 
+advertising (Venkatraman et al., 2018; Beck, Rainoldi, & Egger, 2019), but also 
+in education (McGuinness & Fulton, 2019) and experience design (Neuhofer, 
+
+than 
+
+ 
+
+Buhalis, & Ladkin, 2014; Rainoldi et al., 2018). Specific to the tourism field, 
+visual attention plays a crucial role in information retention (Goulding, 2000) 
+sightseeing,  and  interpretation  (Scott  et  al.,  2019).  Additionally,  the  overall 
+tourism  experiences  can  be  largely  affected  by  attracting  and  holding  one’s 
+attention  (Ooi,  2003).  Similarly,  other  scholars  highlighted  the  need  in 
+managing  distractions  within  an  environment  to  allow  a  more  pleasant 
+experience (Ooi, 2003; Ellis & Rossman, 2008; Wagler & Hanus, 2018). Since 
+eye movements often occur at an unconscious level (Kastner & Pinsk, 2004), it 
+is nearly impossible to study visitors’ gaze attention with traditional research 
+techniques, such as surveys or interviews (Scott et al., 2019). Recent research 
+has therefore opened more experiential methods, and adopted eye tracking tools 
+as an emerging technology in this particular context (Eghbal-Azar & Widlok, 
+2012; Schwan et al., 2020; Filippini-Fantoni et al., 2013). 
+
+While the study of visual attentions is not new in other disciplinary, areas such 
+as  psychology  or  neuroscience,  it  is  only  recently  that  tourism  research  is 
+embracing the benefits of the eye tracking technique (Scott et al., 2019). Apart 
+from a more conventional practice to study tourists’ eye movement in laboratory 
+settings (Pachman et al., 2016), a wearable eye tracker is designed to capture 
+natural  gaze  cues  in  real-life  situations,  such  as  in  retail  shops  (Huddleston, 
+Behe,  Minahan,  &  Fernandez,  2015),  urban  environments 
+(Kiefer, 
+Giannopoulos, & Raubal, 2014), cultural heritage locations (Mokatren, Kuflik, 
+&  Shimshoni,  2018),  and  museums  (Mokatren  et  al.,  2016;  Rainoldi  et  al., 
+2018).  In  response  to  numerous  product  and  object  presentations  nowadays, 
+designers have to be aware of the selective attention resulting from the mental 
+fatigue  and  satiation  (Antón,  Camarero,  &  Garrido,  2018;  Germak  &  Khan, 
+2017).  Earlier  research  underpinned  that  insights  from  visual  attention  could 
+improve mobile learning (Mayr, Knipfer, & Wessel, 2009), and enhance visitor 
+experiences (Mokatren et al., 2016). A typical example where tourism spaces 
+have  been  designed  with  an  educational  purpose  in  mind  are  museums 
+(Trofanenko,  2010).  Greater  importance  should  therefore  be  attached  to  the 
+learning-museum relationship in order to facilitate the overall visitor experience 
+(Rainoldi et al., 2018). 
+
+2.2 Visitors’ gazes in the museum context 
+
+Museums  are  vital  public  spaces  collecting  and  preserving  historical  and 
+cultural  objects  (Falk  &  Dierking,  2013),  and  improving  social  cohesion.  By 
+connecting  past  and  contemporary  events,  museums  also  play  a  key  role  in 
+learning  and  educational  purposes  (Trofanenko,  2010).  As  one  can  imagine, 
+
+ 
+
+arranging the collection of artefacts in different rooms and exhibitions has been 
+a  crucial  task  for  the  designers.  What  is  equally  important  is  to  facilitate  the 
+individual learning experiences through an effective visitor flow (Hein, 1998; 
+Falk & Dierking, 2013). Experiences by nature are however highly subjective 
+at the time of their occurrence, and when evaluated (Neuhofer et al., 2014). This 
+means human-centred design it is critical for individual differences to be taken 
+into consideration. Individual visitor interests and preferences are far from being 
+the same. For instance, Holdgaard (2012) revealed that older visitors are more 
+interested in cultural heritage while younger visitors show a higher interest in 
+natural  history.  Strohmaier,  Sprung,  Nischelwitzer  and  Schadenbauer  (2015) 
+suggest that visitor paths visualization can be an effective way to help museum 
+professionals improve the design of experiences. Similarly, a plethora of studies 
+discussed the relationship between visitor movements and visitor experiences 
+(Yoshimura  et  al.,  2014;  Yoshimura,  Sinatra,  Krebs,  &  Ratti,  2019; 
+Tsiropoulou, Thanou, & Papavassiliou, 2017). The artefacts that attract visitors’ 
+attention thus become the fundamental elements in influencing one’s learning 
+and  the  overall  experience  (Bitgood,  2006),  which  subsequently  affects  the 
+satisfaction,  revisit  intentions  (Kang  et  al.,  2018),  and  the  recommendation 
+intention of the museum (Zanibellato, Rosin, & Casarin, 2018).  
+
+With the gaining popularity of eye tracking research, this technique offers real-
+time  information  on  an  individual’s  perceptions  and  behaviors  (Scott  et  al., 
+2019). In particular, wearable eye trackers have been applied in various real-life 
+situations (Huddleston et al., 2015; Mokatren et al., 2018; Rainoldi et al., 2018). 
+Although  its  application  in  the  museum  context  could  be  traced  back  to  the 
+1980s (Buquet et al., 1988), the complexity and sophistication of eye tracking 
+technology in place today provides more valuable insights into visual attention 
+and attentional processes (Knight et al., 2014). For instance, Mayr et al. (2009) 
+discovered  a  pattern  where  visitors  tend  to  scan  across  the  exhibition  walls 
+before exploring a single artefact according to their interests. When focusing on 
+an individual level, Filippini-Fantoni, Jaebker, Bauer and Stofer (2013) found 
+out that physical objects, photographic substitutes, attract more attention from 
+younger  visitors.  Other  than  that,  while  intuition  may  suggest  that  textual 
+information is generally undesirable, a recent study claims that adults around 40 
+years  old  tend  to  perform  deep  reading  once  they  notice  the  description 
+presented around the artefacts (Schwan, Gussmann, Gerjets, Drecoll, & Feiber, 
+2020).  However,  it  must  be  noted  that  most  museum  studies  focus  on  very 
+homogenous  age  group  samples  (Bartneck,  Masuoka,  Takahashi,  &  Fukaya, 
+2007),  which  limits  the  understanding  of  how  people  in  different  age  groups 
+
+ 
+
+undergo their learning experiences. Afterall, mobile eye tracking technology has 
+the  potential  to  uncover  visitors’  unconscious  mind,  which  can  barely  be 
+described  by  themselves  (Eghbal  &  Widlok,  2012).  Echoing  the  relation 
+between visual behaviors and learning experiences (Mayr et al., 2009), it is thus 
+necessary to deepen the understanding regarding which specific elements can 
+facilitate the learning process in museums.    
+
+2.3 Contextual model of learning 
+
+In a free-choice setting condition, individuals’ attention spans can be influenced 
+by  a  wider  socio-cultural  and  personal  level  (Dunlop,  Clarke,  &  McKelvey-
+Martin, 2019). To investigate learning behaviours in the museum context, Falk 
+and  Dierking  (2004)  developed  the  Contextual  Model  of  Learning.  The 
+framework  covers  three  interrelated  factors  that  influence  visitor  learning; 
+namely,  the  socio-cultural  context,  the  personal  context,  and  the  physical 
+context. Specifically, socio-cultural dimensions refer to the interactions between 
+one  another,  whereas  personal  contexts 
+interests, 
+backgrounds,  and  motivations  toward  the  exhibition  (Falk  &  Storksdieck, 
+2005). Lastly, physical contexts relate  to the orientation of the space  and the 
+design of exhibits (Falk & Storksdieck, 2005). With a particular interest of the 
+present  study,  it  is  the  physical  elements  of  an  exhibition  that  are  the  most 
+influential  toward  a  visitor’s  overall  experience  (Falk  &  Dierking,  2013). 
+Nevertheless,  one  needs  to  bear  in  mind  that  none  of  the  contexts  remain 
+constant throughout time and that there is an on-going interaction between all 
+three elements (Falk & Storksdieck, 2005) 
+
+individuals’ 
+
+imply 
+
+Earlier  literature  has  underpinned  the  Contextual  Model  of  Learning  as  a 
+theoretical framework in analysing museum learning experiences. For instance, 
+Hsu, Liang, Chiou and Tseng (2018) applied the model to examine children’s 
+learning behaviours in a museum embedded in a virtual game. Moreover, Hsu 
+and  Liang  (2017)  discovered  that  physical  sources  and  social  interactions 
+positively influence visitor satisfaction and motivation for continuous learning. 
+With regards to the physical environments that can be controlled by museum 
+professionals, it is worth noting that elements that are large in size and create 
+multisensory  experiences  are  the  most  memorable  ones  (Anderson  &  Lucas, 
+1997).  Other  scholars  pointed  out  that  learning  experiences  are  strongly 
+influenced by the orientation of the physical environment, including the large-
+scale  objects  and  the  detailed  information  contained  within  it  (Falk  & 
+Storksdieck, 2005). Another study highlights the fact that the distance between 
+the  artefacts  and  the  visitors  should  be  carefully  planned  to  allow  a  positive 
+
+ 
+
+outcome  (Bartneck,  Masuoka,  Takahashi,  &  Fukaya,  2006).  To  facilitate  the 
+learning process through digital products, the study of Bartneck et al. (2007) 
+reveals  a  surprising  result  where  visitors’  age  difference  did  not  affect  their 
+usage. Yet, it appears that the elderly demonstrates a sense of difficulty when 
+using  the  digital  technology  in  the  museum  context  (Bartneck  et  al.,  2007). 
+Nevertheless,  given  that  the  interaction  between  visitors  and  artefacts  in  a 
+museum environment is critical, it is the purpose of this research to address the 
+existing gap and understand the relationship between the physical context and 
+the  learning  experience,  and  how  age  differences  could  affect  visitors’ 
+experiences in a museum context. 
+
+3 Methodology  
+
+Since  the  museum  learning  experience  appears  to  be  influenced  from  the 
+physical context and that the way individuals interact with the museum textual 
+information, physical and digital elements seem to be shaped by one’s age, this 
+study aim was to unlock an in-depth understanding of learning processes on-site 
+through an analysis of visual attention.  
+
+3.1 Sampling and data collection  
+
+For  this  study,  participants  were  recruited  in  the  entrance  hall  of  Salzburg 
+Museum  over  a  three-month  period,  between  June  and  August  2016.  A 
+purposive  sampling  strategy  was  adopted  for  the  recruitment  of  museum 
+visitors.  Visitors  selected  to  take  part  in  the  study  were  required  to  a)  have 
+knowledge of the German language, b) have no visual impairment and c) being 
+first-time  visitors  of  the  exhibition  ‘Bischof.  Kaiser.  Jedermann.’.  The 
+exhibition focused on Salzburg’s history and development from Roman times 
+to today from the perspective of the local population.  
+
+Suitable  participants  were  asked  to  take  a  screening  survey  to  assess  their 
+motivation  for  the  visit.  Based  on  the  Falk  and  Dierking’s  (2013)  seven 
+typologies  of  museum  visitors  the  aim  of  such  survey  was  to  identify  those 
+‘explorers’ visitors whose visit was motivated by interest in the content of the 
+exhibition and desire for learning. Following the selection processes 41 visitors 
+volunteered to take part in the study.  
+
+Participants  equipped  with  Tobii  Pro  Glasses  2  were  instructed  -  after  the 
+calibration  of  the  eye  tracking  glasses  -  to  independently  walk  through  the 
+exhibition at their own natural pace and according to their own personal interests 
+
+ 
+
+and learning objectives. To guarantee a natural learning experience participant 
+were allowed to enjoy their museum visit together with eventual accompanying 
+people. Tobii Pro Glasses 2 was chosen as data collection tool because of its 
+wearability enables participants to move freely and experience the museum in 
+an unrestricted manner and in a natural environment. As a result, it enabled to 
+attain  an  ecologically  valid  (Bojko  2013)  dynamic  snapshot  the  museum 
+learning experience by capturing the participants’ gaze as they move through 
+the  context  in  which  they  are  immersed  through  the  combination  of  a  scene 
+camera and infrared sensors.  
+
+Finally,  a  post-survey  was  used  to  collect  demographic  data  as  well  as  data 
+regarding  participants’  overall  museum  experience.  Eye-tracking  recordings 
+were screened to ensure completeness and accuracy before been processed and 
+analysed in the Tobii Glasses Analyzer. Seven recordings needed to be excluded 
+from the final analysis, due to incompleteness of the recordings or calibration 
+inaccuracies. 
+
+3.2 Data Analysis 
+
+As museums are environments extremely rich on written information, objects, 
+engaging media and interactives (Falk and Dierking, 2013) the process of data 
+analysis focused on what attracts visual attention thorough an investigation of 
+visitors’ fixations. A fixation is thereby defined as a short pause between eye 
+movements in which the attention is focused on a specific area of the visual field 
+(Duchowski,  2007).  Fixation  times  are  of  particular  interest  for  assessing 
+learning  processes,  because  the  length  of  a  fixation  is  indicative  of  the  brain 
+information processing and cognitive activity that occurs at a particular moment 
+in time (Bojko 2013).  
+
+Thus, for the purpose of this study the fixations of 34 participants were analysed 
+in  the  four  following  steps.  First  the  214.263  recorded  fixations  (Ø  6.301) 
+extracted  from  over  25  hours  of  data  (Ø  45’23’’)  where  mapped  against  the 
+museum  floor  plan  of  the  six  analysed  rooms  on  which  each  element  of  the 
+exhibition was previously categorized in following AOIs (Areas of Interest): a) 
+exhibition’s information board, b) room’s information board, c) exhibits case’ 
+information board, d) exhibits, e) video screens, and f) touchscreens. Figure 1 
+demonstrates on the example of Room 1 the categorization of the exhibition’s 
+elements into thematical AOIs. 
+
+ 
+
+Figure 1. AOIs Room 1 
+
+ 
+
+Second, a) time to first fixation (TFF), b) total fixation duration (TFD), and c) 
+average fixation duration (AFD) eye-tracking metrics were generated to explore 
+by means of descriptive statistics to appreciate differences in visual attention 
+across exhibitions elements (see Table 1). Third, based on these initial statistical 
+results, a correlation matrix was computed to graphically present the different 
+typologies of exhibitions’ elements and their related eye tracking metrics as well 
+as  to  visualise  correlations  between  exhibition’s  elements  (see  Figure  2). 
+Finally, to discern any significant differences existing between, visual attention 
+on the different exhibition’s elements and participant’s age (based on percentile) 
+a series of one-way analysis of variance (ANOVA) was conducted. 
+
+4 Results  
+
+4.1 Descriptive statistics  
+
+The analysed data were collected from 34 museum learning ‘explores’ (14 males 
+and 20 females), ranging from an age of 17 to 80. Participants were categorized 
+into  three  different  age  groups  based  on  percentiles,  including  13  younger 
+adults, 10 adults, and 11 older adults. The age range of younger adults is 17 to 
+29, whereas adults is 30 to 49. Older adults were ranged between 50 to 80 years 
+
+ 
+
+old. The overall descriptive statistics of different eye tracking measures on the 
+designated  AOIs  are  presented  in  Table  1.  The  results  show  that  most 
+participants first look at the exhibition’s information board with an average of 
+0.22 ms, which is placed at the entrance of Room 1. Next, the data reveal that 
+participants tend to look into the general description first when they enter the 
+rooms with differences between features. When comparing digital materials and 
+exhibits, it appears that touchscreens had the shortest TFF from stimulus onset, 
+followed by video screens and exhibits. Given that, touchscreens had the highest 
+average  TFF  (195.52  ms).  This  implies  that  there  might  be  only  a  group  of 
+museum  learners  that  notice  the  touchscreens  at  the  very  beginning.  With 
+regards to the TFD, the results suggest that participants spent the longest time 
+with video screens, exhibits, and touchscreens. However, the information board 
+of different exhibits appears to be the least attractive. Lastly, the results imply 
+that the AFD is similar across the AOIs, with video screens having the highest 
+AFD. Interestingly, the AFD of touchscreens, as digital materials, was the same 
+as the textual description (e.g. exhibits case’ information board).  
+
+Table 1. Descriptive statistics of eye tracking metrics 
+
+ 
+ 
+
+TFF 
+[Min, Max] 
+
+TFD 
+
+ 
+  M  
+
+Exhibits 
+
+[38.08, 349.45] 
+
+Exhibition’s information board 
+
+[0, 4.10] 
+
+Exhibits case’s information board 
+
+[20.03, 333.39] 
+
+Room’s information board 
+
+[2.13, 182.50] 
+
+Video screens 
+
+Touchscreens 
+
+[26.33, 222.40] 
+
+[18.84, 598.90] 
+
+M  
+(SD) 
+139.99  
+(69.81) 
+0.22  
+(0.76) 
+160.06  
+(88.18) 
+39.08  
+(36.06) 
+111.95  
+(55.70) 
+195.52 
+(123.09) 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+(SD) 
+35.50  
+(21.47) 
+24.76  
+(15.20) 
+13.60  
+(6.74) 
+22.01  
+(10.38) 
+45.58  
+(33.33) 
+33.25  
+(26.54) 
+
+AFD 
+M  
+(SD) 
+0.23  
+(0.05) 
+0.22  
+(0.05) 
+0.20  
+(0.05) 
+0.22  
+(0.05) 
+0.29  
+(0.06) 
+0.20  
+(0.05) 
+
+Note: TFF=Time to First Fixation; TFD=Total Fixation Duration; AFD=Average Fixation 
+Duration; time in millisecond 
+ 
+4.2 Main analysis  
+
+Overall,  the  relationship  between  the  eye  tracking  metrics  of  the  designated 
+AOIs are presented in Figure 2. Color transparency suggests the strength and 
+direction of correlation between two variables. Higher transparency implies a 
+weaker  relationship.  A  negative  correlation  is  presented  by  blue;  a  positive 
+
+ 
+
+correlation is presented by red; a correlation closed to zero is indicated by white. 
+The results demonstrate that three eye tracking measures of the exhibits were 
+(strongly) positively correlated with the eye tracking measures of the exhibits 
+case’ information board. However, it appears that the eye tracking metrics of 
+video  screens and touchscreens were (slightly) negatively  correlated with the 
+eye tracking metrics of the general exhibition’s information board. Yet, since it 
+is unclear if the museum learners’ eye attention would be different when taking 
+the age into account, further analysis was carried out.  
+
+Figure 2. Visual representation of correlation between different AOIs 
+
+Note:  TFF=  Time  to  First  Fixation;  TFD=  Total  Fixation  Duration;  AFD= 
+Average  Fixation  Duration;  time  in  millisecond;  Exb_Information_Board= 
+Exhibition’s information board; InfoBoard= Exhibits case’ information board; 
+RoomInfoBoard= Room’s information board; video= video screens.  
+
+ 
+
+ 
+
+ 
+To  investigate  the  effectiveness  of  various  types  of  materials  in  the  museum 
+based on the museum learners’ age difference, this study performed several one-
+way ANOVAs. First, with regards to the exhibits, the results suggest that there 
+was no significant difference on the TFF, F(2, 31) = .841, p = .441, TDF,  F(2, 
+31) = .820, p = .450 and ADF,  F(2, 31) = .263, p = .771. Likewise, there was 
+no  significant  difference  for  the  exhibits  case’  information  boards  on  the 
+TFF, F(2, 31) = 1.376, p = .268, TDF,  F(2, 31) = 2.430, p = .105 and ADF,  F(2, 
+31) = .881, p = .424. Nonetheless, a significant result existed on the AFD of the 
+general information boards of the exhibit, F(2, 31) = 5.749, p = .008; yet, not on 
+the  TFF,  F(2,  31)  =  1.268, p =  .296  and  TDF,  F(2,  31)  =  .694, p =  .507. 
+Specifically,  Tukey  post  hoc  analysis  revealed  that  the  AFD  was  statistically 
+significant  between  younger  adults  and  older  adults  (p  =  .008)  as  well  as 
+between adults and older adults (p = .043), where older adults had the highest 
+AFD,  followed  by  adults,  and  younger  adults.  Nevertheless,  for  the  room’s 
+information  boards,  there  was  no  statistically  significant  difference  on  the 
+TFF, F(2, 31) = 1.570, p = .224, TDF,  F(2, 31) = 1.465, p = .247 and ADF,  F(2, 
+31) = 2.523, p = .097. 
+
+The analysis proceeded further to examine digital objects. In the case of digital 
+materials, the results showed that there was a significant difference for the TFD 
+of video screens, F(2, 31) = 4.561, p = .018 and the TFD of touchscreens, F(2, 
+31) = 6.459, p = .005. In particular, the TFD of video screens was statistically 
+significant  between  younger  adults  and  adults  (p  =  .030),  but  no other  group 
+differences were significantly different. Overall, adults had the longest TFD on 
+video screens, followed by older adults, and younger adults. On the other hand, 
+the  TFD  of  touchscreens  was  statistically  significant  between  younger  adults 
+and adults (p = .005) and between younger adults and older adults (p = .049). 
+Similarly, adults had the longest TFD on touchscreen, followed by older adults 
+and younger adults. Finally, there were no significant differences existed on the 
+TTF,  F(2,  31)  =  .544, p =  .586  and  ADF,  F(2,  31)  =  .950, p =  .398  of  video 
+screens, nor on the TTF F(2, 31) = 1.707, p = .198 and ADF F(2, 31) = .516, p = 
+.602 of touchscreen.  
+
+5 Discussion  
+
+This study zoomed in on the physical context of a museum as a key element of 
+the  museum  visitors’  learning  experience  (Falk  and  Dierking,  2004).  The 
+analysis  first  examined  various  museum  elements,  and  compared  visitor’s 
+engagement with  room’s information boards, exhibition’s information boards 
+
+ 
+
+exhibits case’ information boards, exhibits, video screens and touchscreens. The 
+analysis of several AOIs and exhibition’s elements revealed that most visitors 
+first notice and look at the exhibition’s information boards. It is interesting that 
+touchscreens had the shortest TFF (time to first fixation) and having the highest 
+average  TFF  (total  fixation  time),  which  highlights  the  great  visual  attention 
+attraction  power  of  such  digital  elements  within  a  museum  exhibition.  This 
+suggests a critical difference in exhibition’s elements being noticed and lure the 
+attention of visitors when entering an exhibition space. 
+
+The analysis of the exhibition elements TFD (total fixation duration) revealed 
+that visitors spent most time engaging with video screens, followed by exhibits, 
+and touchscreens, while information boards of different exhibits seem to have 
+attracted  least  attention.  These  findings  confirm  the  central  importance  of 
+integrating  digital  media  in  exhibition  spaces.  This  is  in  line  with  previous 
+studies arguing  that digital materials can lead to higher interest and attention 
+levels (Venkatraman, Dimoka, Vo, & Pavlou, 2018). While digital media per se 
+may not be the motivating factors for people to visit a museum, they are indeed 
+the elements that receive most attention during a visit (Falk & Dierking, 2013).  
+
+A  deeper  comparison  of  the  AFD  (average  fixation  duration)  of  exhibition’s 
+elements revealed that touchscreens and textual description (e.g. exhibits case’ 
+information boards) had the same AFD. This might imply that touchscreens do 
+not attract additional attention but are rather perceived as a mere substitute to 
+traditional media and reading materials offered. The correlation analysis of eye 
+tracking measures further revealed insights into the relations of fixation times 
+and exhibition’s elements. The findings show that a strong positive correlation 
+exists between exhibits and exhibits case’ information boards, sharing a high 
+TFF and TFD. This means that when a visitor’s engages attention on the exhibit, 
+so  they  do  on  the  information  board  close  by.  Moreover,  the  relationship 
+between exhibits and touchscreens has been analysed, and a positive correlation 
+of  the  TFF  has  been  found.  It  can  therefore  be  concluded  that  visitors  who 
+viewed  the  exhibits  first,  are  also  likely  to  engage  with  the  exhibits  case’ 
+information boards and touchscreens, and also likely longer with the exhibits 
+case’ information boards (TFD). In addition, visitors who saw the exhibits case’ 
+information  boards,  are  also  more  likely  to  also  notice  the  touchscreens  and 
+engage with it. 
+
+the  findings  have  revealed  several 
+
+Furthermore, 
+interesting  negative 
+correlations between physical exhibition’s elements (see Figure 1). There is a 
+negative correlation between the time spent on exhibition’s information boards 
+
+ 
+
+to the first-time view on room’s information boards. This implies that visitors 
+who engage right away at the entrance with the general room information board, 
+may think they have sufficient information, which causes them to engage less 
+time with the exhibition’s information boards. Moreover, those participants who 
+spend a longer average fixation time on exhibition’s information boards, seem 
+to spend less total time engaging with video screens. This suggests that the more 
+time visitors spend on average engaging with a physical information medium, 
+the less likely they are to spend time watching a video. Finally, the study could 
+reveal that visitors, who notice the exhibition’s information board first, spent 
+less  time  engaging  with  touchscreens.  Overall,  these  insights  show  the 
+importance of TFF, the time to first fixation, as an indicator of what medium is 
+used  subsequently  for  knowledge  acquisition  and  learning  (e.g.  information 
+board vs. video screens vs. touchscreen). From the total fixation duration, a key 
+learning is that visitors are highly subjective in their behaviours, and show a 
+preference of a type of medium throughout their visit, e.g. visitors spending time 
+on exhibition’s information boards, spend less time engaging with digital media, 
+i.e. videos. 
+
+Finally, the study was interested in understanding museum visitor behaviours 
+by age group.  When it comes to the visitors’ time spent on general information 
+boards,  the  analysis  could  demonstrate  statistically  significant  differences 
+between the three compared age groups. It was found that the average fixation 
+duration on exhibition’s information boards was highest within the group older 
+adults, followed by adults, and younger adults. This suggests that information 
+boards are particularly valuable to older age groups, while younger visitors may 
+spend  less  time  interacting  with  this  particular  medium,  or  may  have  a 
+preference for information acquisition through other displayed media relating to 
+an  artefact  (e.g.  touchscreens,  video  screens).  In  fact,  the  analysis  of  digital 
+media, namely video screens and touchscreens, found a significant difference 
+between the age groups. Adults had the longest total fixation duration on both 
+video screens and touchscreens, followed by older adults, and younger adults. 
+This  may  suggest  that  adults  and  older  adults  generally  spend  longer  time 
+engaging with objects, compared to younger people. Overall, the comparison of 
+visitors’  age  groups  revealed  that  for  many  forms  of  exhibition  elements 
+engagement,  no  significant  differences  could  be  found,  suggesting  similar 
+behaviours. At the same time, a few interesting nuances relating to TFD could 
+be found, which suggests a difference in attention spans between age groups. 
+This finally highlights the importance of carefully design exhibitions by keeping 
+in mind in what form, where and for how long information is presented. 
+
+ 
+
+6 Conclusion  
+
+Physical contexts, space design and exhibition’s elements play an important role 
+in museum learning experiences (Falk & Dierking, 2013). As the landscape of 
+museum  experiences  is  diversifying  through  the  integration  of  digital 
+technologies,  it  is  of  particular  interest  to design  artefacts  in  a  way  that  they 
+blend  physical  and  digital  media  for  an  optimal  visitor  flow  and  learning 
+experience (Venkatraman et al., 2018; Rainoldi et al., 2018). This study used a 
+mobile eye tracking research design with 34 participants to capture the visitors’ 
+experience in a real-life museum context. The findings suggest that the museum 
+experience is a complex construct happening at the intersection of the visitor’s 
+personal context (e.g. age) and the physical design put into place by the museum 
+(Falk & Dierking, 2013). The data analysis of the visitors’ eye fixations, from 
+time to first fixation, average fixation and total fixation duration, revealed which 
+exhibition’s  elements  particularly  capture  visitor  attention  and  lead  them  to 
+engage and spend time. A comparison of three age groups highlighted varying 
+overall fixation times, e.g. with older people spending more time on information 
+boards  than  younger  people.  Fixation  time  is  a  primary  indicator  for  visual 
+attention and cognitive processes, and thus  a marker  of learning taking place 
+(Rainoldi et al., 2018). Therefore, a nuanced understanding of how much time 
+visitors  generally,  and  at  different  ages,  spend  on  observing  exhibition’s 
+elements,  offers  valuable  insights  into  designing  effective  museum  learning 
+experiences.  
+
+6.1 Theoretical and practical implications 
+
+By conducting a mobile eye tracking research, this study adds to the scarce body 
+of literature using mobile eye trackers in real-life situations (Krogh-Jespersen et 
+al., 2020; Mokatren et al., 2016; Rainoldi et al., 2018; Scott et al., 2019). Mobile 
+eye tracking was critical to gather insights into real life visitor behaviour and 
+gaze  movement  (Filippini-Fantoni,  et  al.  2013)  that  could  not  have  been 
+revealed  otherwise.  This  study  builds  on  recent  studies,  e.g.  Rainoldi  et  al. 
+(2018), in that it analysed museums as experiential environments of interest to 
+study visitor behaviour. 
+
+This study expanded our understanding of the relationship between exhibition’s 
+elements and visitor interaction, and put the analysis of the physical elements 
+found in a museum design at the centre stage. One of the core tasks of museums 
+is to design experiences in a way that they are engaging, invite visitors to interact 
+with the artefacts, and foster learning (Falk & Dierking, 2013; Rainoldi et al., 
+
+ 
+
+2018).  For  the  practice  of  museum  design,  our  study  shows  not  only  which 
+exhibition’s elements visitors interact with or not, but also highlight that there 
+exists a relationship among exhibition elements, and the way (order, sequence, 
+duration)  visitors  engage  with  them  (e.g.  exhibits,  information  boards  and 
+videos). The closer analysis of physical vs. digital media elements brought to 
+light  the  insight  that  digital  media  could  attract  the  highest  attention  and 
+engagement levels. 
+
+On a more general level, the study emphasizes for experience design that there 
+is no such thing as one experience for all. Instead, museum experience designers 
+need to design with their target audience in mind. This means in a first step 1) 
+getting  to  know  the  visitor  target  group  and  age  structure,  and  2)  design  the 
+experience of exhibition rooms, visitor flows and information presentation with 
+different  age  groups  in  mind  that  maximizes  the  possibility  of  individual 
+experiences that visitors can have. For example, one visitor type may want to 
+get  a  fast  general  overview  at  the  room  entrance,  and  then  quickly  look  at 
+exhibits to get a feeling of the room, while a second visitor type may only want 
+to learn about exhibits through digital media, and a third visitor type may want 
+to spend extensive time on each exhibit and the surrounding descriptions and 
+information boards. 
+
+6.2 Directions for future research 
+
+Mobile eye tracking research in tourism research is a method that has just started 
+to gain traction. In line with recent studies (Krogh-Jespersen et al., 2020; Scott 
+et  al.,  2019),  we  recommend  further  application  of  mobile  eye  tracking  as  a 
+method  that  is  particularly  suited  to  understand  real-time  visitor  behaviours 
+without  intrusion  in  natural  environments.  Market  research  could  use  mobile 
+eye  tracking  to  offer  answers  to  specific  problem  situations,  e.g.  design  or 
+redesign of retail stores, visitor attractions, public spaces of interest, where the 
+goal is to a) design new experience concepts, or b) enhance existing experiences, 
+flows  and  customer  journeys.  Moreover,  for  scholars  in  the  research  field  of 
+tourism  experiences,  mobile  eye  tracking  could  be  a  particularly  beneficial 
+method to uncover cognitive and behavioural insights that often remain hidden 
+in traditionally used methods that ask for articulation of the lived experience in 
+retrospect. 
+
+ 
+
+ 
+
+Acknowledgements 
+
+like 
+
+the  financial  support  from 
+The  authors  would 
+Bundeskanzleramt Sektion II: Kunst und Kultur and Land Salzburg, Abteilung 
+2: 
+Gesellschaft/Referat-Wissenschaft, 
+Erwachsenenbildung, Bildungsförderung. 
+
+to  acknowledge 
+
+Bildung 
+
+Kultur, 
+
+und 
+
+References 
+
+Anderson, D., & Lucas, K. B. (1997). The effectiveness of orienting students to 
+the physical features of a science museum prior to visitation. Research 
+in Science Education, 27(4), 485-495. 
+
+Antón,  C.,  Camarero,  C.,  &  Garrido,  M.  J.  (2018).  A  journey  through  the 
+museum: Visit factors that prevent or further visitor satiation. Annals of 
+Tourism Research, 73, 48-61. 
+
+Bartneck, C., Masuoka, A., Takahashi, T., & Fukaya, T. (2006). The learning 
+experience  with  electronic  museum  guides. Psychology  of Aesthetics, 
+Creativity, and the Arts, (1), 18-25. 
+
+Bartneck, C., Masuoka, A., Takahashi, T., & Fukaya, T. (2007). An electronic 
+museum guide in real use. Psychology of Aesthetics, Creativity, and the 
+Arts, 1(2), 114-120. 
+
+Beck, J., Rainoldi, M., & Egger, R. (2019). Virtual reality in tourism: a state-of-
+
+the-art review. Tourism Review, 74(3), 586-612. 
+
+Bitgood, S. (2006). An analysis of visitor circulation: Movement patterns and 
+the general value principle. Curator: The Museum Journal, 49(4), 463-
+475. 
+
+Bojko, A. (2013). Eye tracking the user experience. New York: Rosenfeld Media. 
+
+Buquet, C., Charlier, J. R., & Paris, V. (1988). Museum application of an eye 
+tracker. Medical  and  Biological  Engineering  and  Computing, 26(3), 
+277-281. 
+
+Davey, G. (2005). What is museum fatigue. Visitor Studies Today, 8(3), 17-21. 
+
+Douglas, A., Lubbe, B., & Van Rooyen, A. (2018). Business travellers’ use of 
+mobile  travel  applications:  a  generational  analysis.  Information 
+Technology & Tourism, 18(1-4), 113-132. 
+
+ 
+
+Duchowski, A. (2007). Eye tracking methodology: Theory and practice. London: 
+
+Springer. 
+
+Dunlop, L., Clarke, L., & McKelvey-Martin, V. (2019). Free-choice learning in 
+school science: a model for collaboration between formal and informal 
+science  educators. International  Journal  of  Science  Education,  Part 
+B, 9(1), 13-28. 
+
+Eghbal-Azar, K. & Widlok, T. (2012). Potentials and limitations of mobile eye 
+tracking in visitor studies: Evidence from field research at two museum 
+exhibitions in Germany. Social Science Computer Review, 1-16. 
+
+Ellis, G. D., & Rossman, J. R. (2008). Creating Value for Participants through 
+Experience Staging: Parks, Recreation, and Tourism in the Experience 
+Industry. Journal of Park & Recreation Administration, 26(4), 1-20. 
+
+Falk,  J.  H.  &  Dierking,  L.  D.  (2013).  Museum  experience  revisited.  Walnut 
+
+Creek: Left Coast Press. 
+
+Falk,  J.  H.,  &  Dierking,  L.  D.  (2004).  The  contextual  model  of 
+learning. Reinventing  the  museum:  Historical  and  contemporary  perspectives 
+on the paradigm shift, 139-142. 
+
+Falk, J., & Storksdieck, M. (2005). Using the contextual model of learning to 
+understand  visitor 
+learning  from  a  science  center  exhibition. Science 
+education, 89(5), 744-778. 
+
+Filippini-Fantoni,  S.,  Jaebker,  K.,  Bauer,  D.  &  Stofer,  K.  (2013).  Capturing 
+visitors’  gazes.  three  eye  tracking  studies  in  museums.  The  annual 
+conference of museums and the web, April 17-20, 2013, Portland, USA.  
+Germak,  C.,  &  Khan,  S.  (2017).  Interaction  design  applications  for  museum 
+spaces. New exhibit paths driven by a Bluetooth sensor’s system. The 
+Design Journal, 20(sup1), S3914-S3924. 
+
+Goulding,  C. 
+
+(2000).  The  museum  environment  and 
+
+the  visitor 
+
+experience. European Journal of marketing, 34(3/4), 251-278. 
+
+Hein, G.E. (1998). Learning in the Museum. London: Routledge 
+Henderson, M., Selwyn, N., & Aston, R. (2017). What works and why? Student 
+perceptions  of  ‘useful’digital  technology  in  university  teaching  and 
+learning. Studies in Higher Education, 42(8), 1567-1579. 
+
+Holdgaard,  N.  (2012).  Museum  Facebook  users…  Who  are  they?.  The 
+
+Transformative Museum: Proceedings, 150-164. 
+
+ 
+
+Hsu,  T.  Y.,  &  Liang,  H.  Y.  (2017).  A  cyclical  learning  model  to  promote 
+children’s online and on-site museum learning. The Electronic Library, 
+35(2), 333-347. 
+
+Hsu, T. Y., Liang, H., Chiou, C. K., & Tseng, J. C. (2018). CoboChild: a blended 
+in  museum 
+
+mobile  game-based 
+contexts. Data Technologies and Applications, 52(3), 294-312. 
+
+learning  service  for  children 
+
+Huddleston, P., Behe, B. K., Minahan, S., & Fernandez, R. T. (2015). Seeking 
+attention:  an  eye 
+in-store  merchandise 
+displays. International Journal of Retail & Distribution Management, 
+43(6), 561‐574. 
+
+study  of 
+
+tracking 
+
+Kang,  J.  H.,  Jang,  J.  C.,  &  Jeong,  C.  (2018).  Understanding  museum  visitor 
+satisfaction  and  revisit  intentions  through  mobile  guide  system: 
+moderating role of age in museum mobile guide adoption. Asia Pacific 
+Journal of Tourism Research, 23(2), 95-108. 
+
+Kastner, S., & Pinsk, M. A. (2004). Visual attention as a multilevel selection 
+process.  Cognitive,  Affective,  &  Behavioral  Neuroscience,  4(4),  483-
+500. 
+
+Kiefer, P., Giannopoulos, I., & Raubal, M. (2014). Where am I? Investigating 
+map matching during self‐localization with mobile eye tracking in an 
+urban environment. Transactions in GIS, 18(5), 660-686. 
+
+Knight, B. A., Horsley, M. & Eliot, M. (2014). Eye tracking and the learning 
+system: An overview. In Horsley, M., Eliot, M., Knight, B. A., & Reilly, 
+R.  (Eds.)  Current  trends  in  eye  tracking  research  (pp.  281-285.). 
+Springer, New York.  
+
+Kounaves, S., Archer, L., King, H., & Pegram, E. (2016). Science learning and 
+engagement  in  the  digital  age:  understanding  the  effect  of  mobile 
+technology  on  adult  engagement  experiences  at  a  natural  history 
+museum. Mobile  Learning  Futures–Sustaining  Quality  Research  and 
+Practice in Mobile Learning, 361-366. 
+
+Krogh-Jespersen, S., Quinn, K. A., Krenzer, W. L. D., Nguyen, C. T., Greenslit, 
+J., & Price, A. (2020). Exploring the Awe-some: Mobile eye-tracking 
+museum. 
+in 
+insights 
+https://doi.org/10.31234/osf.io/2u3cb 
+
+science 
+
+awe 
+
+into 
+
+a 
+
+Lin, H. C., Swarna, H., & Bruning, P. F. (2017). Taking a global view on brand 
+post  popularity:  Six  social  media  brand  post  practices  for  global 
+markets. Business Horizons, 60(5), 621-633. 
+
+ 
+
+Lundgren, L., & Crippen, K. J. (2019). Learning and the practice of social media 
+in  informal  science  education  centers. International  Journal  on  E-
+Learning, 18(1), 31-52. 
+
+Mayr, E., Knipfer, K., & Wessel, D. (2009). In-sights into mobile learning: An 
+exploration  of  mobile  eye  tracking  methodology  for  learning  in 
+museums. Researching  mobile  learning:  Frameworks,  methods,  and 
+research designs, 189-204. 
+
+McGuinness,  C.,  &  Fulton,  C.  (2019).  Digital  literacy  in  higher  education:  a 
+case  study  of  student  engagement  with  e-tutorials  using  blended 
+learning. Journal of Information Technology Education: Innovations in 
+Practice, 18, 001-028. 
+
+Mokatren,  M.,  Kuflik,  T.,  &  Shimshoni,  I.  (2016).  Exploring  the  Potential 
+Contribution  of  Mobile  Eye-tracking  Technology  in  Enhancing  the 
+Museum Visit Experience. In AVI* CH (pp. 23-31). 
+
+Mokatren, M., Kuflik, T., & Shimshoni, I. (2018). Exploring the potential of a 
+mobile eye tracker as an intuitive indoor pointing device: A case study 
+in  cultural  heritage. Future  Generation  Computer  Systems, 81,  528-
+541. 
+
+Neuhofer,  B.,  Buhalis,  D.,  &  Ladkin,  A.  (2014).  A  typology  of  technology-
+enhanced  tourism  experiences.  International  Journal  of  Tourism 
+Research, 16(4), 340–350.  
+
+Ooi,  C.  S.  (2003,  October).  Crafting  tourism  experiences:  Managing  the 
+attention  product.  In 12th  Nordic  Symposium  on  Tourism  and 
+Hospitality Research. Stavanger University College, Stavanger. 
+Pachman, M., Arguel, A., Lockyer, L., Kennedy, G., & Lodge, J. (2016). Eye 
+tracking  and  early  detection  of  confusion 
+learning 
+environments:  Proof  of  concept. Australasian  Journal  of  Educational 
+Technology, 32(6). 
+
+in  digital 
+
+Pallud,  J.  (2017).  Impact  of  interactive  technologies  on  stimulating  learning 
+experiences in a museum. Information & Management, 54(4), 465-478. 
+Rainoldi, M., Neuhofer, B., & Jooss, M. (2018). Mobile Eyetracking of Museum 
+and  Communication 
+
+Learning  Experiences. 
+Technologies in Tourism 2018 (pp. 473-485). Springer, Cham. 
+Schwan,  S.,  Gussmann,  M.,  Gerjets,  P.,  Drecoll,  A.,  &  Feiber,  A.  (2020). 
+Distribution of attention in a gallery segment on the National Socialists’ 
+Führer  cult:  diving  deeper 
+into  visitors’  cognitive  exhibition 
+experiences  using  mobile  eye  tracking. Museum  Management  and 
+Curatorship, 35(1), 71-88. 
+
+Information 
+
+In 
+
+ 
+
+Scott,  N.,  Zhang,  R.,  Le,  D.,  &  Moyle,  B.  (2019).  A  review  of  eye-tracking 
+
+research in tourism. Current Issues in Tourism, 22(10), 1244-1261. 
+
+Strohmaier,  R.,  Sprung,  G.,  Nischelwitzer,  A.,  &  Schadenbauer,  S.  (2015). 
+Using  visitor-flow  visualization  to  improve  visitor  experience  in 
+museums and exhibitions. Museums and the Web (MW2015). 
+Trofanenko, B. M. (2010). The educational promise of public history museum 
+
+exhibits. Theory & Research in Social Education, 38(2), 270-288. 
+
+Tsiropoulou,  E.  E.,  Thanou,  A.,  &  Papavassiliou,  S.  (2017).  Quality  of 
+loop 
+
+Experience-based  museum 
+approach. Social Network Analysis and Mining, 7(1), 33. 
+
+touring:  A  human 
+
+the 
+
+in 
+
+Venkatraman,  V.,  Dimoka,  A.,  Vo,  K.,  &  Pavlou,  P.  A.  (2018).  Relative 
+Effectiveness  of  Print  and  Digital  Advertising:  A  Memory 
+Perspective. Fox  School  of  Business  Research  Paper,  (18-037). 
+http://dx.doi.org/10.2139/ssrn.3254528 
+
+Wagler,  A.,  &  Hanus,  M.  D.  (2018).  Comparing  Virtual  Reality  Tourism  to 
+Real-Life Experience: Effects of Presence and Engagement on Attitude 
+and Enjoyment. Communication Research Reports, 35(5), 456-464. 
+
+Yoshimura, Y., Sinatra, R., Krebs, A., & Ratti, C. (2019). Analysis of visitors’ 
+mobility patterns through random walk in the Louvre Museum. Journal 
+of Ambient Intelligence and Humanized Computing, 1-16. 
+
+Yoshimura, Y., Sobolevsky, S., Ratti, C., Girardin, F., Carrascal, J. P., Blat, J., 
+&  Sinatra,  R.  (2014).  An analysis  of  visitors'  behavior  in  the  Louvre 
+Museum: A study using Bluetooth data. Environment and Planning B: 
+Planning and Design, 41(6), 1113-1131. 
+
+Zanibellato,  F.,  Rosin,  U.,  &  Casarin,  F.  (2018).  How  the  Attributes  of  a 
+Museum Experience Influence Electronic Word-of-Mouth Valence: An 
+Analysis  of  Online  Museum  Reviews. International  Journal  of  Arts 
+Management, 21(1), 76-90. 
+
+Zwart, D. P., Van Luit, J. E., Noroozi, O., & Goei, S. L. (2017). The effects of 
+digital  learning  material  on  students’  mathematics  learning  in 
+vocational education. Cogent Education, 4(1), 1313581. 
+
+ 
+
+ 
+
+View publication stats
+View publication stats
+
+

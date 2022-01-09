@@ -1,0 +1,1084 @@
+Guides, locals, chaperones, buddies and captains:
+managing trust through interaction paradigms
+Connor Graham
+
+Keith Cheverst
+
+Department of Information Systems
+The University of Melbourne
+Parkville, Victoria 3010, Australia
++61 3 83441516
+
+Department of Computing
+Lancaster University
+Lancaster LA1 4YR, United Kingdom
++ 44 1524 594539
+
+cgraham@unimelb.edu.au
+
+kc@comp.lancs.ac.uk
+
+ABSTRACT
+A key problem in context-aware mobile computing is one of
+reconciling or mapping the physical and the virtual planes during
+interaction. This paper describes six possible characteristics of
+this ‘mapping problem’ to understand and describe possible
+interaction paradigms for use when designing context-aware
+mobile guides. We draw from two evaluations of two mobile
+guides: the GUIDE project from the University of Lancaster,
+England and the Trammate project from the University of
+Melbourne, Australia. The six characteristics of mapping
+problems described here are determinism, transparency,
+accuracy, indexicality, predictability of content and predictability
+of behaviour. Through these two cases we continue to discuss the
+consequences of failure to design for effective mappings: namely
+a failure to match users’ expectations and a consequential loss of
+trust. We then describe five possible interaction paradigms for
+context-aware mobile guides (guide, local, chaperone, buddy,
+captain), based on the six characteristics posited in the paper. We
+suggest that these paradigms can be used to provide assistance to
+designers building context-aware mobile guides for trust.
+
+Keywords
+Mobile guides, context-aware mobile
+interaction paradigms, trust, design support
+
+systems,
+
+mapping,
+
+1. INTRODUCTION
+Characterising possible interaction paradigms has been important
+in the history of interaction design. Describing systems as having
+a command line or GUI interface, for example, has enabled
+interaction designers to understand user expectations better. These
+paradigms also assist users in knowing what to expect when
+interacting with such computing systems. Generic categories have
+also been utilized in fields such as Information Systems, to help
+make sense of types of systems for example, facilitating the
+discussion of possible solutions to problems across different
+contexts. Such terms can also be regarded as part of a toolbox that
+assists with the design of systems.
+
+Permission to make digital or hard copies of all or part of this work for
+personal or classroom use is granted without fee provided that copies are
+not made or distributed for profit or commercial advantage and that
+copies bear this notice and the full citation on the first page. To copy
+otherwise, or republish, to post on servers or to redistribute to lists,
+requires prior specific permission and/or a fee.
+3rd Workshop ‘HCI on Mobile Guides’ at the Sixth International
+Symposium on Human Computer Interaction with Mobile Devices and
+Services, September 13, 2004, Glasgow, Scotland UK.
+
+Mobile guides are defined as “systems that guide mobile users by
+providing local and location-based services, such as navigation
+support and tourism information” [22:1]. Kray and Baus [16],
+review and compare nine different mobile guides from 1996 to
+2003. They extract five dimensions characterising guides: basic
+features, such as the positioning technology deployed within the
+system; situational factors, including the user’s ability to select
+content; adaptation capabilities, such as the system’s adaptability
+to user position; interface and user interaction, the system’s
+support for multiple modalities and natural language, for example;
+and architecture or the network and system technology used to
+develop the guide. Here, we focus on situational factors,
+adaptation capabilities and interface and user interaction issues,
+with a view to providing support for design teams developing
+‘intelligent’ context-aware mobile guides. We aim to enrich the
+understanding of interaction paradigms for these guides.
+Our suggestion is that digital guides often borrow design features
+from existing sources of information in use but rarely consider the
+impact on the user’s trust of the system. Three such sources are
+guidebooks, tour guides and tourist information centres. A
+guidebook is “a book of interest about a place, designed for the
+use of visitors or tourists” [17]. A tourist guide is “a person who
+guides visitors in the language of their choice and interprets the
+cultural and national heritage of an area, which person normally
+possesses an area-specific qualification” [5]. A tourist information
+centre is “…an office, usually run by a tourist board or local
+authority, providing information about the locality to visitors” [5].
+Of these three, clearly the guidebook is the least ‘intelligent’ with
+both the tourist guide and the tourist information centre having
+some ‘intelligence’, to support a dialog with the visitor in order to
+react to queries made by the visitor based on an human
+understanding of their abilities, for example.
+Digital guidebooks (e.g. CyberGuide, [1]), perhaps inspired by
+the design of tourist guidebooks, operate much like information
+repositories with limited ‘intelligence’, indexing and limited
+opportunities to construct complex queries. Thus the search space
+can be large and require some level of user skill to navigate. This
+type of mobile guide focuses on providing basic features to the
+user, has limited accommodation for situational factors (e.g.
+context), has limited adaptation capabilities and tends to devolve
+control to the user.
+Digital tourist guides organise information and interaction
+according to specific rules and constraints with some flexibility in
+navigation. For example, the Peach system [30] organises
+information (i.e. cinematic narrations and animations describing
+frescoes in a museum in Trento) in a way that is highly linear but
+
+extremely expressive with regard to the subject matter. However,
+it is important to note that digital tourist guides may also be
+designed to appear ‘intelligent’ and take control away from the
+user (as with a traditional tourist guide) as illustrated by the ‘ontour’ mode supported by the GUIDE system [8].
+Digital tourist information systems (e.g. DeepMap, [15]),
+reflecting physical tourist information centres, operate like
+decision-support systems, providing information to assist with
+problem-solving and providing indexed responses to complex
+querying. Digital tourist information systems tend to be
+democratic with control and again can exhibit some level of
+intelligence, e.g. by the utilization of user modeling techniques.
+Characterization of interaction paradigms has been useful when
+addressing particular design problems for particular users
+completing particular work in particular contexts. Form-based
+interaction on a Web page, for example, is understood to be
+effective for certain work, in certain circumstances for a particular
+population. One such design problem is the mapping problem.
+Preece et al [20:23] characterise mapping as a relationship
+between a ‘control’, or component of an artifact, and its effect ‘in
+the world’. Preece et al [19:716] characterise mappings as “how a
+description at one level of abstraction is translated into a
+description at another level.” Green [13], when describing visual
+programming environments, has characterized mapping as the
+relationship between the world of the computer program (e.g.
+syntax, widgets etc.) and the problem world (e.g. having to write a
+sorting algorithm). Each of these characterisations of mapping
+have two things in common. Firstly they describe a relationship or
+coupling between two entities. Secondly they posit two planes or
+abstractions, which can be understood to be a physical or ‘real’
+plane and a computer-mediated ‘virtual’ plane. Thus, the mapping
+problem is related to the boundary problem in mixed reality. A
+boundary marks the “joining together of whole environments” [4],
+where environments can be physical or virtual. A boundary can
+also apply to the division between the virtual plane embodied in a
+mobile guide and the real plane of the physical world. Benford et
+al. [4:207] raise a pertinent question with regard to mixed reality
+boundaries: “Will the boundary be completely transparent (i.e.,
+freely allow information to pass across it), or will it alter
+awareness in some way, perhaps being more opaque?” With
+mobile guides, the boundary between what is in the system and
+what is in the world is at times blurred and permeable as the
+system augments the real world and vice versa. For example, an
+icon representing the user’s current position, forces the user to
+map or augment where she thinks she is through being in a place
+through what the guide tells her with regard to her current
+position.
+Here we explore the mapping problem with relation to contextaware mobile guides in use. We use two cases firstly to illustrate
+that mapping is a serious problem for mobile guide users and
+secondly to explore possible characteristics of this problem from
+the system perspective. Both cases involved evaluation of mobile
+guides in a real context through field studies. Through these two
+cases we discuss the consequences of failure to design for
+effective mappings: namely a failure to match users’ expectations
+and a consequential loss of trust. We then propose possible
+interaction paradigms for mobile guides and a response to the
+mapping problem in the form of a matrix relating characteristics
+of mapping problems to interaction paradigms. Finally we utilize
+
+this matrix to reanalyze one example of a mapping problem and
+propose a new design based on this analysis.
+
+2. CASE DESCRIPTIONS
+This paper draws on two cases: the GUIDE project at the
+University of Lancaster, England and the Trammate Project at the
+University of Melbourne, Australia. The evaluations of the
+systems emerging from both projects will be focused on here.
+
+2.1 GUIDE
+The GUIDE project resulted in a tour guide application developed
+for the City of Lancaster. It was developed through the
+Department of Computing at the University of Lancaster. The
+GUIDE system integrated the use of personal computing
+technologies, wireless communications, context-awareness and
+adaptive hypermedia in order to support the information and
+navigation needs of visitors to the city of Lancaster. The GUIDE
+unit consisted of a customized Web browser. The system is
+described in more detail in [8]. The evaluation of the system
+utilized expert review and three field trials. These trials involved
+direct observation with users encouraged to think-aloud and
+subsequent semi-structured interviews. Sixty participants,
+between the ages of 10 and 70, used the system in these trials. No
+set tasks were given to the participants and they were invited to
+use the system only for as long as they wanted to. The trials took
+place around Lancaster castle in Lancaster.
+
+2.2 Trammate
+The Trammate project evaluated a functional prototype that
+integrated wireless communications, simulated locationawareness, a geospatial data service and a database of tram route
+information. The system supported journey planning for and
+travelling on the tram network in Melbourne, Australia. The
+system was developed by Jessica Smith from the Department of
+Geomatics at the University of Melbourne and designed to run
+within a PocketPC Web browser. Thus the system represented an
+integration of many services [26], but had limited locationawareness. The system is described in more detail in [26]. The
+evaluation of the system involved a field evaluation, laboratory
+evaluation [18] and heuristic evaluation [29]. The issues described
+here emerged from a grounded analysis [27] of the field
+evaluation data. The field evaluation involved five participants
+aged between 21 and 42. Three were female and two were male.
+These participants were asked to complete route planning tasks
+involving tram travel in the Melbourne CBD. All the users were
+frequent computer users, had some experience with using mobile
+devices and were familiar with the Melbourne CBD.
+
+3. MAPPING ISSUES
+In each of the two cases described above, issues with mapping
+emerged i.e. issues concerning some element of coupling or
+dependency between the mobile guide and the physical world. For
+example, in many instances the mapping between the user’s
+location in the world (real) and the user’s location as represented
+in the system (virtual) caused problems – this is similar to the
+problem instantiated by maps in shopping centres that indicate
+current position (‘You are here’) without describing relationships
+between current position and other things, such as landmarks.
+The remainder of this section describes six characteristics of these
+mapping problems, emerging from the analysis of the two cases.
+
+The analysis of issues with GUIDE is presented using miniature
+scenarios grounded in the field evaluations. The analysis of issues
+with Trammate is presented using extracts from the transcript of
+the field evaluation with appropriate background information.
+These extracts are presented as dialogues between the user and
+the evaluator.
+
+3.1 Determination and indexicality
+Determination and indexicality both refer to the ‘just-enoughness’
+of the mapping between the system and the situation.
+Determination describes the intelligence of information provision
+and the constraints imposed on interaction with the system [29].
+This will often translate into a context-aware system determining
+the information the user needs and how s/he should get it.
+Determination is similar to the notion of control in automation
+studies [23] and initiative in dialogue design.
+Indexicality describes the broad contextuality of information: if
+information is provided in a context where it makes sense and in
+an appropriate manner given that context. Indexicality has been
+defined previously as “a property of an interface representation
+that is defined as having a context-specific meaning” [12].
+Both determination and indexicality are “two-tailed”. Information
+and dialogue can be over-determined and under-determined: the
+issue here is a fundamental design tradeoff between prescription
+and freedom/flexibility. Information and dialogue can also be
+over-indexed and under-indexed (these terms are illustrated with
+examples in the following sub-sections). Inappropriately indexed
+information can be very damaging for the user’s understanding of
+the mappings within the system and can severely impede task
+completion.
+
+3.1.1 Example 1: GUIDE
+Mary is standing in the town square area (containing the
+Castle, Museum etc) but in the distance on the top of a hill she
+sees an interesting looking dome topped building that takes
+her interest. She presses the ‘info’ button but the system only
+gives links to the objects that are of close proximity.
+In this example what is presented to the user is over-determined,
+in this case as a result of inappropriate indexicality. Specifically,
+proximity is used as the key determining factor for the list of
+attractions presented to Mary when a more appropriate factor
+might have been the attractions that were visible or more
+specifically salient to Mary when she pressed the ‘info’ button.
+
+3.1.2 Example 2: Tram-mate
+Sarah wants to catch a tram. She is standing on a street along
+which a lot of trams run. She queries the system in order to
+find out which tram to catch.
+Evaluator: Did the system help you?
+Sarah: No it didn’t. Oh it is too. Thank you. Let’s see what
+happens here. Okay. Enter departure time.
+Evaluator: Yeah.
+Sarah: Now. And waiting so it’s…I want to leave now. By the
+time it updates it won’t be now anymore.
+In this example, what is provided to the user is under-determined.
+Sarah simply needs a tram number. The system has not
+determined the information to present to Sarah based on her
+location and the current time. Thus she expresses concern
+regarding the system’s ability to provide the information she
+
+needs in time (underlined). The content of mobile guides can also
+be over-determined: pushing information to the user when s/he is
+still embedded in past interactions. Notably, in this example the
+information is under-indexed because the system does not deliver
+tram information based on the time and Sarah’s location – it
+would have been more useful had it, for example, informed Sarah
+of all the trams leaving from the nearest tram stop in the next two
+minutes.
+
+3.1.3 Example 3: Tram-mate
+Kieran is trying to find out information from the system to
+help him to decide which stop to disembark from the tram he
+is currently on. Kieran chooses to view a map in the system to
+help him with this decision. The map is not detailed enough to
+assist him: it is a high level map with no low level detail.
+Kieran: Oh, look at that map. What is the good is that map?
+Evaluator: Does that help you?
+Kieran: What the hell is that?
+Evaluator: Does that help you?
+Kieran: Nothin…What is it? I don’t even know where it is.
+Evaluator: Do you have any…?
+Kieran: I’m trying to get this fine detail between stop 5 and stop 8
+or stop 6 and stop 8 and and it gives me this. That’s great.
+In this example the indexicality of the information presented by
+the mobile guide is not appropriate. What is provided to the user
+is not indexed enough. Specifically, the information is not
+indexed to the user’s current area of interest or region effectively.
+Thus the mapping between the guide and the real world is too
+abstract. Specifically, the user is unable to get detailed enough
+information to make effective decisions (underlined).
+
+3.2 Accuracy & transparency
+Accuracy and transparency both refer to the ‘integrity’ of the
+mapping between the system and the situation. Accuracy
+describes the correctness of information: if the information
+provided actually maps onto the physical world given the user’s
+situation. The issue of accuracy is related to uncertainty [9], or the
+system’s inability to understand a user’s situation exactly.
+Transparency in groupware systems has been described as the
+degree to which “the system does not [or does] bring obstacles in
+the way of the task he or she is carrying out” [3:177]. This notion
+of transparency has also been applied to mixed reality
+environments to mean how easily information and users can cross
+boundaries between environments and the extent to which the
+system controls awareness and privacy. These definitions describe
+what we refer to here as the how of transparency. We define the
+what of transparency in terms of obviousness of the mappings
+between the system and the real world, or lack of these mappings.
+This includes the level of “honesty” that the system expresses and
+the visibility of its relationship with the physical world. Thus, in
+GUIDE, the information in the system was made more transparent
+by asking the visitor a question about her location when the
+system was uncertain about her location. Information can be
+over-accurate and under-accurate and over-transparent and undertransparent enough. A consequence of inappropriate accuracy is
+that subsequent system adaptation will be inappropriate [7:10]. A
+consequence of the system being under-transparent is that the user
+may ‘lose’ the mapping between the system and the real world,
+
+for example how her location ‘in-the-system’ relates to her
+location ‘in-the-world’ [9:4].
+
+3.2.1 Example 4: GUIDE
+John walks from the Tourist Information Center towards
+Lancaster Castle but the display of his PDA still reads
+‘Tourist Information Center’ and when John presses the
+‘info’ button information about the TIC building rather than
+Lancaster Castle is given – John comments that his trust for
+the system has been damaged.
+In this example the mobile guide does not have all the information
+John needs to make sense of his situation. Specifically, John
+entered an area where no location beacons where received by his
+GUIDE unit when he approached the Lancaster Castle from the
+Tourist Information Center. This is a problem of accuracy, as
+what is presented to John is not correct, but there is also a lack of
+transparency - what was presented to John did not reflect that the
+system could not accurately determine his location.
+
+3.2.2 Example 5: Trammate
+Kieran is trying to catch a tram from outside a shopping mall.
+He uses the system to find out the tram he should catch. The
+system automatically detects his location, and asks him to
+verify his location.
+Evaluator: Where does it tell you, you are?
+Kieran: It tells me I’m on Bourke Street and Elizabeth Street.
+Evaluator: Is that right?
+
+3.2.3 Example 6: Trammate
+Sarah is using a mobile guide to catch a tram from a
+particular stop. She catches the tram from the appropriate
+stop being driven by the system. Sarah is on the tram. She
+then consults the system again, looking for the tram she is
+currently on.
+Evaluator: Is that [unclear]?
+Sarah: No, no we have to get off at stop 10. Hold on, this has
+changed.
+Evaluator: It’s changed?
+Sarah: Yeah, we got on s… it’s updated itself.
+Evaluator: Is it?
+Sarah: Yeah.
+Evaluator: What has it updated?
+Sarah: It says we should be on tram 6 which is the one behind us.
+Except that originally we were on tram 5…it said to get on tram 5
+but we’re on [a] tram at the time that it said….
+In this example, the what information given to the user lacks
+transparency and thus the mapping between the information in the
+guide and the real world is confusing for the user. Specifically the
+guide refreshes the tram route query without informing the user
+about the change, resulting in different information being
+presented to the user. This information is based on the stop the
+user caught the tram from, not on the tram Sarah is currently on.
+
+Kieran: Ohhh, it’s true enough. It’s close enough.
+
+3.3 Predictability: content and behaviour
+
+Evaluator: Yeah?
+
+Predictability is a useful but very broad term. It is therefore
+important, in the context of this paper, to distinguish between
+predictability of content (e.g. what a mobile guide may ‘choose’
+to present to a user given the current situation) and predictability
+of behaviour (e.g. how a mobile guide may ‘choose’ to present a
+given piece of information to user given the current situation).
+Predictability of content can be regarded as relying upon the
+system providing compatibility at some level between the
+expectations of the user (gained through previous interactions and
+experiences with the system) situated in the real world and the
+information presented by the system. Predictability of behaviour
+can be understood as relying on the system providing
+compatibility between the expectations of the user engaged in a
+situation and how the information is presented, for example
+through choice of modality.
+
+Kieran: Yeah. I’d call that Elizabeth Street.
+…
+Evaluator: So what happened there?
+Kieran: Well I don’t see why it’s interchanging. Ahhh, it thinks
+I’m so far down I should[‘nt] bother getting on a tram.
+Evaluator: So what does the system tell you to do?
+Kieran: It’s wrong. It’s telling me to get on that stop there and go
+up to that stop there and that’s silly.
+Evaluator: Why?
+Kieran: Because it would be quicker for me to just go there.
+In this example the mobile guide describes where Kieran should
+go, without acknowledging where he is. What is provided to the
+user is simply not accurate: the mapping between what is
+presented in the guide and the user’s situation is not correct. The
+system describes how Kieran is at the intersection of the shopping
+mall and Elizabeth Street, when he is at the intersection of the
+shopping centre and Swanston Street, a block away from his
+location ‘in-the-system’. Kieran doesn’t think it’s important at the
+time, but later the system returns a route that requires him to take
+two trams (“interchanging” in the dialogue), a tram to a place
+close to his current location and a tram to his final destination,
+when he knows he can walk to the tram stop to catch the second
+tram. This results in Kieran losing trust in the system
+(underlined).
+
+Cheverst et al. [6] describe how “When considering adaptation to
+context, designers should be careful to bear in mind the principle
+of least astonishment and the need for predictability.”
+Predictability of content and predictability of behaviour are “twotailed”: a system can be both over-predictable and underpredictable with regard to content and behaviour. For example,
+under-predictable behaviour, in the form of unexpected dialogue
+or representations, may enable highlighting or emphasizing
+salient information by upsetting expectations or breaking the
+norms established through previous interactions with the user. A
+lack of predictability of content within a system may also break
+monotony and even increase learning through ambiguity [11]: a
+learner may be forced to discover information herself because of
+ambiguous content presented by a mobile guide.
+
+3.3.1 Example 7: Guide
+John returns to Lancaster castle for a second visit. The
+information presented is different to that presented on John’s
+first visit some 15 minutes previously. On his first visit John
+was presented with a detailed description of the appearance of
+the castle via audio, text and images. This time John is
+presented with audio, text and images describing the history
+of the castle. John is not entirely surprised because he is
+aware that the system is recording the attractions that he has
+visited and adapting its behaviour appropriately (as would a
+human tour guide). John returns again 20 minutes later. This
+time John is a little surprised as he is only presented with an
+audio description of the day’s events at the castle.
+In this example, on the third visit the system decided not to repeat
+the detailed information about the Castle’s appearance and history
+to John because in John’s user model the system had recorded that
+this information had already been presented to John.
+Consequently, the ‘intelligent’ behaviour exhibited by the system
+involved only presenting John an audio description of the day’s
+events at the Castle. Here the predictability of what is presented is
+medium: at some level John was expecting the information to be
+different on his third visit, but he may not have been expecting
+information on the day’s events at the Castle. The predictability
+of how the information is presented is low, however: John had
+developed a model that information would be presented to him via
+audio, text and images. Thus, when he received a description via
+audio alone he was surprised.
+
+3.3.2 Example 8: GUIDE
+When trialing a push based version of the guide system, Jane
+was surprised by the following events. On approaching the
+Castle Jane was pushed an audio description about the Castle
+and again when approaching the town hall the system pushed
+another appropriate audio description. However, when
+approaching a famous antique plaque no audio description
+was given, but a textual description was given instead.
+The obvious problem here is that from her actions Jane was
+building a model of the system’s behaviour which was damaged
+when she approached the antique plaque expecting the system to
+push an audio description of the plaque. This was due to the fact
+that how the information was presented was not predictable: the
+information channeled to Jane was presented as text instead of
+audio.
+
+3.3.3 Example 9: Trammate
+Liz is standing at a street intersection trying to decide which
+way to go to reach her destination. She refers to a map to try
+to help her with making this decision.
+Evaluator: Okay, how do you know what direction to go?
+Liz: Umm, not, not because of the system, well because I’ve done,
+I’ve sort of caught the tram before ummm…I know that…let’s
+have a look. You see the last time we looked at the map we had
+destination on, but the destination’s gone.
+In this example, the mobile guide has not been predictable
+concerning what it represented to the user of the real world: what
+is presented to Liz does not help her achieve her goals or relate to
+what she wants to do. We can also argue that how the information
+is presented is not predictable as the syntax of the map did not
+match Liz’s expectations (underlined).
+
+3.4 Comments on examples
+Three additional issues emerge from the analysis above. Firstly, it
+is difficult to apply the characteristics of the mapping problem
+discretely: more than one characteristic can be used to understand
+the problem embodied in the examples. For example, in Example
+8 the system is under-transparent in that the set of objects in the
+real world with a representation in the GUIDE object model is
+hidden: it is not transparent to the user. In this example, there is
+also a problem with accuracy: the system does not accurately
+model the physical world.
+We do not consider a one-to-one coupling between problem and
+characteristic to be possible or even desirable. The goal of
+describing these characteristics is to understand key issues with
+developing context-aware devices better with a view to proposing
+solutions. There may be conflicts and tradeoffs when these
+characteristics are deployed, which is a reality of the design
+process [e.g. 14].
+Secondly, the examples above have considered characteristics of
+mappings between the system and real world when place (e.g.
+landmarks) and events (e.g. time of departure) are involved in the
+mappings. In most of the examples the mapping issues are more
+complex, involving many more aspects of the situations
+described, such as user orientation, environmental conditions and
+personal variables. For instance, regarding orientation, in
+Example 3, involving the GUIDE system, the success of the
+mappings depends on exactly where Mary is standing and facing:
+she may not be able to see a key landmark, for example due to her
+orientation. The issue of orientation also emerged in the
+Trammate study, particularly when users were given walking
+directions to be followed after disembarking a tram. This caused
+one user to complain about the directions given by the system:
+“But it’s told me the wrong thing. I don’t want to go left. I have to
+go right.” The effectiveness of mappings also depends on
+environmental issues such as if it is night and if the sun is shining.
+For instance, in Example 1 some attractions may not be as salient
+at night as during the day, making it difficult to utilize the GUIDE
+system effectively. The issue of environment also emerged in the
+Trammate study, causing one user to comment when looking at
+the PDA’s display: “It’s very difficult to see with the light.”
+Personal variables can affect the success of mappings too: in
+Example 1, if Mary is short-sighted she may not be able to see
+certain attractions clearly. This issue also emerged in the
+Trammate study, causing one user to comment when using the
+PDA on a tram: “The other thing is, if I wear glasses I try to
+remember the street names and I don’t really want to be worried
+about looking back and forth because I get confused if I look
+down at a small screen.”
+Finally, most of the analysis in the examples has focused on the
+what of the mappings in context-aware devices, or on the content
+of the mappings. However, for predictability, and to some extent
+transparency, how the mapping occurs seems equally important
+in the analysis. In Example 6, how the dialogue handles the
+transparency of the mapping is important when understanding the
+problem in the dialogue.
+Acknowledging these limitations, we will now use the above
+characteristics to describe interaction paradigms for mobile
+guides.
+
+4. Trust in mobile guides
+
+4.2 Trust and mapping characteristics
+
+Trust has emerged as an important issue in the design of ecommerce Websites [21, 10], online health sites [25], mobile
+commerce systems [24] and mobile guides [22]. Trust is defined
+as involving “two parties: the trustor and the trustee, reliant on
+each other for mutual benefit”, “uncertainty and risk” and the
+trustor’s “faith in the trustee’s honesty and benevolence” [24:92].
+A more technology-specific definition describes trust as “a
+multilateral relation, involving the technology…social partners in
+a direct interaction…a social context…experts, who have
+designed and developed a system,…who control a system, or who
+help the public to become aware of risks and trustworthiness”
+[22:3]. Riegelsberger et al. [21:122] critique current
+understandings of trust as focusing on cognitive aspects of trust
+and suggest that trust encompasses both cognitive and affective
+dimensions.
+
+Regarding determination, one participant in the study
+commented: “Na, I don’t believe it…Umm, why? Cos I know, I
+kinda of, I wanna go to my stop anyway, I think my stop’s better.
+No matter what stop it’s told me…” Thus the over-determination
+in the system regarding which stop the participant should catch a
+tram from caused the participant to question the system.
+
+Given this short review, trust in a mobile guide arena seems to
+involve more than one party, with particular cognitive and
+affective peculiarities, involved in interaction, a technology and a
+social context. Trust also evolves and has discrete stages of
+development [24, 25]. Factors that influence trust in Internet and
+mobile commerce include familiarity, information quality [24],
+branding, usability, competence, security [10], personalization
+capabilities, user interface design, site architecture, user control
+[2]. There is disagreement regarding the relative importance of
+such factors [25] across domains, but some agreement that there is
+a need to explore these factors through appropriate methods and
+involving representative users [22].
+We acknowledge that there are many factors influencing trust
+beyond interaction design. Our conjecture is that appropriate
+mapping is an important factor in initial trust formation in mobile
+guides. We also conjecture based on our studies that trust in the
+context of mobile guides is volatile: users’ trust can be gained and
+lost and regained over a short period of time. To illustrate this, we
+again draw on data from the two cases described in section 2,
+above.
+
+4.1 Trust and mapping
+In the evaluation of GUIDE, Cheverst et al. [9] describe how
+particular ambiguous wording, such as “You are in the castle
+area” was used in dialogue with users in order to manage their
+expectations. This dialogue design emerged from experiences
+with wording that was non-ambiguous and under-accurate. [9]
+note such dialogue (e.g. “You are at the castle”) had “lowered the
+trust of users” because the system had given an impression of
+accuracy that was not the case.
+In Trammate, lack of trust emerged as an issue among users when
+the information provided by the system was inappropriate with
+regard to all six of the mapping characteristics described above
+and usually resulted in breakdowns in trust. This was despite the
+computer-savvy users generally approaching the system with an
+attitude of trust. As the evaluation involved about 90 minutes in
+the field using the guide it was not possible to evaluate long term
+trust development. However, some insights into initial trust
+formation and trust development were gained. Examples of trust
+breakdown, drawn from the data, are presented below, with a
+view to better understanding the connection between mapping
+characteristics and trust formation.
+
+With regard to indexicality one participant questioned the
+trustworthiness of the maps in the system due to under-indexing:
+“It’s just that I didn’t trust the map telling me where I was at the
+moment.” If information had been indexed to the participant’s
+current location, this lack of trust may have been adjusted.
+Under-accuracy also caused problems with one participant
+commenting: “Yeah, I don’t think that’s right because Exhibition
+Street’s only two stops…So I can’t really rely on that.”
+Regarding transparency, one user commented: “…but I wonder
+how accurate it’s likely to be because we’re going such a short
+distance.” Another user commented “No the metres is, uhh, only
+if you think in metres but 7 metres is really hilarious. That means
+like just get up and go there. Get off and where you are, think if
+you got off at the back of the tram or the front of the tram that
+could be a whole lot of metres already used up. And maybe you
+wouldn’t know whether you were allowed to walk past the front
+of the tram or not.” In this example, the over-precise wording and
+measurement in the system contributed to under-transparency
+concerning the accuracy of the mapping.
+One participant questioned the trustworthiness of the system due
+to under-predictable content: “It’s just that I didn’t trust the map
+telling me where I was at the moment. If it had told me the street
+names, I would have been able to figure out which way to go.”
+This participant had been presented with information using street
+names up to this point. Thus the omission of street names caused
+her to lose trust in the system. With regard to predictability of
+behaviour, one user, surprised at the system’s updating of route
+information provided, stated: “Yeah, but why did it change the
+route? That’s stupid.” The consequence of this was that this user
+continued to question the trustworthiness of the system for the
+remainder of the evaluation.
+
+5. Proposed interaction paradigms
+We have shown that trust relates to mapping issues. We now
+present five interaction paradigms that can be used to help design
+context-aware mobile guides. Possible generic paradigms have
+already been described above (e.g. guidebook). The aim of the
+paradigms below is to act like tools, affording the discussion of
+mapping issues when designing guides.
+The five interaction paradigms presented below emerged from the
+analysis of the examples above. They are guide, local, chaperone,
+buddy and captain. These paradigms can be thought of as
+descriptive of possible mobile guides and useful abstractions for
+use in the design of future paradigms for mobile guides to
+ensuring that trust is at least considered during the design process.
+
+5.1 Guide
+The Oxford English Dictionary describes a guide as “a person
+who advises or shows the way to others” [17]. The Guide
+paradigm acts like a decision support system and can be
+compared to a guide on a hiking tour. A Guide exhibits
+“intelligence” through proactively making recommendations, and
+
+providing assistive information for example. The Guide paradigm
+also passes some initiative to the user during dialogues and filters
+information presented to the user. The second design of the
+GUIDE system exhibited Guide-like characteristics: it pushed the
+user information on opening times of attractions, for example.
+
+5.2 Local
+The Oxford English Dictionary describes a local as “an inhabitant
+of a particular area or neighbourhood” [17]. The Local paradigm
+acts like an information repository and can be compared to a local
+expert on a particular geographical area. The Local tends to be
+more passive than a guide: local experts often have to be sought
+out. Locals respond when queried, passing all initiative to the user
+during dialogues. Limited ‘intelligent’ filtering of information is
+used when responding to queries. The Trammate system exhibited
+characteristics of a Local paradigm: it accessed extensive tram
+timetable information and CBD geospatial data.
+
+5.3 Chaperone
+The Chaperone paradigm acts like an expert system and can be
+compared to a guardian [9]. When adopting the role of a guardian
+a system may only interact with the user if they are doing
+something wrong. Chaperone, like locals tend to be passive,
+although the chaperone may take initiative away from the user
+under certain circumstances. Thus, a high level of ‘intelligence’ is
+required to present information to the user. The chaperone is not
+really designed to be queried. The GUIDE system, for example,
+could have interacted with the user through using a chaperone
+paradigm by stating: “You are taking the wrong turning, you
+ought to go left, not right here.”
+
+5.4 Buddy
+The Oxford English Dictionary describes a buddy as “a working
+companion with whom close cooperation is required”. The idea of
+cooperation and shared responsibility for completing the user’s
+work is important. A Buddy has elements of the expert system,
+decision support system and information repository. The Buddy
+utilizes mixed initiative dialogues, sharing control of the
+interaction with users. A Buddy exhibits a high level of
+‘intelligence’ concerning its interaction with the user. A later
+version of the GUIDE system acted like a Buddy through asking
+questions such as “Can you see the castle?” Thus it adopted a
+cooperative stance when interacting with the user and utilized
+ambiguity in its dialogue.
+
+5.5 Captain
+The Oxford English Dictionary describes a Captain as “a person
+in charge of a team” [17]. The Captain acts like an expert system
+and uses an interaction paradigm similar to an on board
+navigation system in a car. Turn left Exhibition for 124 metres.
+Thus, the Captain takes initiative during dialogues and utilizes
+“intelligence” to filter information presented to the user heavily.
+Trammate exhibited the Captain interaction paradigm at times: it
+presented the user with directions which were termed in an
+imperative fashion e.g. “Go along Bourke Street for 7 metres.”
+
+6. Interaction Paradigms and Mapping Issues
+Each of the interaction paradigms described above can be
+understood in terms of the characteristics of mapping problems.
+The table below maps the six mapping characteristics onto each
+of the paradigms, with a view to gaining a better understanding to
+
+leverage design for context-aware mobile guides. We
+corroborated this characterization of each paradigm through
+discussion. Some characteristics fit certain paradigms better than
+others: predictability of behaviour, for example, seems less
+applicable to the Local paradigm than the Captain paradigm.
+Table 1. Interaction Paradigms With Respect To Mapping
+Characteristics
+Guide
+
+Local
+
+Chaperone
+
+Buddy
+
+Captain
+
+Det
+
+Medium
+
+Low
+
+Low
+
+Medium
+
+High
+
+Ind
+
+High
+
+Low
+
+High
+
+High
+
+High
+
+Acc
+
+High
+
+High
+
+High
+
+Medium
+
+High
+
+Tra
+
+Low
+
+Low
+
+Low
+
+High
+
+Low
+
+Pre1
+
+Medium
+
+Medium
+
+Low
+
+Low
+
+Medium
+
+Pre2
+
+Medium
+
+High
+
+High
+
+High
+
+High
+
+Legend
+Det
+
+Determination
+
+Ind
+
+Tra
+
+Transparency Pre1
+
+Indexicality
+
+Acc
+
+Predictability
+Pre2
+(content)
+
+Accuracy
+Predictability
+(behaviour)
+
+The table above describes how the Guide interaction paradigm is
+highly indexical and accurate, not very transparent, and exhibits
+quite high determination, predictability of content and behaviour.
+The Guide paradigm could probably maintain trust in stable
+situations where the domain is quite well-modeled. The Local
+interaction paradigm has low determination, indexicality and
+transparency and exhibits quite high predictability of content and
+high accuracy and predictability of behaviour. It is likely the
+Local paradigm would be effective at maintaining trust in stable
+situations where the domain is well-modeled. The Chaperone
+interaction paradigm has low determination, transparency and
+predictability of content and high indexicality, accuracy and
+predictability of behaviour. The Chaperone paradigm would
+probably be effective at maintaining trust in unstable situations
+where the domain is well-modeled. The Buddy paradigm has
+medium determination and accuracy, high indexicality,
+transparency and predictability of behaviour and low
+predictability of content. The Buddy paradigm is likely to be
+effective where domain is not well-modeled and the situation is
+unstable. The characteristics for the Captain paradigm are all
+high, bar transparency, which is low, and predictability of
+content, which is quite high. The Captain paradigm could be
+effective at maintaining trust in stable situations where the
+domain is well-modeled but the user is not.
+
+7. Implications for design teams
+Designing context-aware mobile guides for trust is difficult. Trust
+issues emerged even though the users in both the cases presented
+here generally approached the system with an attitude of trust. As
+described in [6] regarding GUIDE “The vast majority of visitors
+said they were prepared to trust the information presented by the
+system, including navigation instructions.” However, these two
+cases have illustrated that trust often breaks down during
+interaction with context-aware mobile guides. The GUIDE project
+
+also showed that trust was volatile: “A number of visitors
+suggested that their level of trust was not constant but varied with
+the apparent accuracy of the information presented.” In the
+Trammate evaluation, many users vacillated between trust and
+lack of trust when interacting with the system.
+It remains to be investigated what the exact nature of the
+relationship between trust and mapping characteristics is.
+However, effective mapping shows correspondence between the
+system and the real world, i.e. information quality [24], and
+therefore the possibility of the user maintaining faith with the
+system. We argue mapping should be acknowledged within the
+design process by firstly acknowledging that there will be
+mapping problems and articulating these problems using the
+characteristics described here. We also believe designers should
+regard the artifact being designed as engendering trust and that
+the design will be fallible. Thus, when we create scenarios and
+artifacts for use within the design process, we should develop
+ones that test and explore characteristics of mapping problems.
+We acknowledge that the speculations regarding the
+appropriateness of the paradigms for particular domains of use,
+situation and user model require more exploration. For example, a
+Captain paradigm may be appropriate for factory engineers
+checking equipment, but not for a traveling salesperson moving
+between locations, where a Local paradigm may be more
+appropriate.
+
+8. ACKNOWLEDGMENTS
+This work was part funded by a Melbourne Abroad Traveling
+Scholarship from the University of Melbourne. Thanks to the
+Trammate project team: Steve Howard, Jennie Carroll, Daniel
+Tobin and Frank Vetere (Department of Information Systems,
+University of Melbourne) and John Murphy (Novell, Australia).
+Special thanks are reserved for Jesper Kjeldskov (Aalborg
+University), the Trammate Project Manager, and Jessica Davies
+(nee Smith) from the Department of Geomatics at the University
+of Melbourne who designed and built the Trammate system.
+Thanks to Christian Kray for his valuable input into the paper.
+
+9. REFERENCES
+[1] Abowd, D. A., Atkeson, C. G., Hong, J., Long, S. Kooper,
+R., and Pinkerton M. Cyperguide: A Mobile Context-Aware
+Tour Guide. Wireless Networks, 3, 5 (1996), 421–433.
+[2] Araujo, I., and Arauja, I. Developing trust in internet
+commerce. In Proceedings of the 2003 Conference of the
+Centre for Advanced Studies Conference on Collaborative
+Research. (Toronto, Canada, October 6-9, 2003). IBM Press,
+2003, 1-15.
+[3] Beaudouin-Lafon, M., and Karsenty, A. Transparency and
+Awareness in a Real-time Groupware System. In
+Proceedings of the 5th Annual ACM Symposium on User
+Interface Software and Technology (Monteray, United
+States, November 15-18, 1992). ACM Press, New York,
+USA, 2000, 171-180.
+[4] Benford, S., Greenhalgh, C., and Reynard, G., Brown, C.,
+and Koleva, B. Understanding and constructing shared
+spaces with mixed-reality boundaries. ACM Transactions on
+Computer-Human Interaction (TOCHI), 5, 3 (September
+1998), 185-223.
+
+[5] Breaver, A. A Dictionary of Travel and Tourism
+Terminology. CABI Publishing, Oxon, UK, 2001.
+[6] Cheverst, K., Davies N., and Mitchell K., and Efstratiou, C.
+Developing a Context-aware Electronic Tourist Guide: Some
+Issues and Experiences. In Proceedings of the SIGCHI
+Conference on Human Factors in Computing Systems (CHI
+’00) (The Hague, The Netherlands, April 1-6, 2000). ACM
+Press, New York, USA, 2000, 17-24.
+[7] Cheverst, K., Davies N., and Mitchell K, and Efstratiou, C.
+Usng Context as a Crystal Ball: Rewards and Pitfalls.
+Personal and Ubiquitous Computing, 5, 1 (January 2001), 811.
+[8] Cheverst, K., Davies N., and Mitchell K. The Role of
+Adaptive Hypermedia within a Context-Aware Tourist
+GUIDE. Communications of the ACM, Special Issue on
+Adaptive Web-based Systems and Adaptive Hypermedia, 45,
+5, (May 2002), 47-51.
+[9] Cheverst, K., Davies N., and Mitchell K. A Reflective Study
+of the Guide System. Workshop on Mobile Guides at the
+Fifth International Symposium on Human-Computer
+Interaction with Mobile Devices and Services (MobileHCI
+2003) (Udine, Italy, September 8-11, 2003).
+[10] Egger, F. N. Affective Design of e-Commerce User
+Interfaces: How to Maximise Perceived Trustworthiness. In
+Proceedings of The International Conference on Affective
+Human Factors Design (Singapore, June 26-29, 2001).
+Asean Academic Press: London, UK, 2001, 317-324.
+[11] Gaver, W. W., and Beaver, J. and Benford, S. Ambiguity as
+a resource for design. In Proceedings of the SIGCHI
+Conference on Human Factors in Computing Systems (CHI
+’03) (Fort Lauderdale, USA, April 5-10, 2003). ACM Press,
+New York, USA, 2003, 233-240.
+[12] Graham, C., and Kjeldskov, J. Indexical Representations for
+Context-Aware Mobile Devices. In Proceedings of The
+IADIS e-Society Conference (IADIS 2003) (Lisbon,
+Portugal, June 3-6, 2003). IADIS Press, Lisbon, Portugal,
+373-380.
+[13] Green, T. R. G., and Petre, M. J. Usability analysis of visual
+programming environments: a ‘cognitive dimensions’
+framework. Journal of Visual Languages and Computing, 7
+(1996), 131-174.
+[14] Gutwin, C. and Greenberg, S. Design for Individuals, Design
+for Groups: Tradeoffs between Power and Workspace
+Awareness. In Proceedings of the ACM Conference on
+Computer Supported Cooperative Work (CSCW ’98)
+(Seattle, United States, November 14 - 18, 2000). ACM
+Press, New York, USA, 1998, 207-216.
+[15] Kray, C. Situated Interaction on Spatial Topics. Ph.D.
+Thesis, Computer Science Department, University of
+Saarland, Saarbrücken, Germany, 2003.
+[16] Kray, C., and Baus, J. A survey of mobile guides. Workshop
+on Mobile Guides at the Fifth International Symposium on
+Human-Computer Interaction with Mobile Devices and
+Services (MobileHCI 2003) (Udine, Italy, September 8-11,
+2003).
+
+[17] Pearsall, J. (ed.) The New Oxford Dictionary of English.
+Oxford University Press, Oxford, UK, 2001.
+[18] Pedell S., Graham C., Kjeldskov J., and Davies J. Mobile
+Evaluation: What the Metadata and the data told us. In
+Proceedings of the Annual Conference for the CHI Special
+Interest Group of the Ergonomics Society of Australia
+(OzCHI 2003) (Brisbane, Australia, November 26-28, 2003).
+CHISIG: Brisbane, Australia, 96-105.
+[19] Preece, J., Rogers, Y., Sharp, H., Benyon, D., Holland, S.,
+and Carey, T. Human-Computer Interaction. Addison
+Wesley, Wokingham, UK, 1994.
+[20] Preece, J., Rogers, Y., and Sharp, H. Interaction Design:
+Beyond Human-Computer Interaction. John Wiley & Sons
+Inc., New York, USA, 2002.
+[21] Riegelsberger, J., Sasse, M. A., and McCarthy, J. D. Shiny
+Happy People Building Trust? Photos on e-Commerce
+Website and Consumer Trust. In Proceedings of the SIGCHI
+Conference on Human Factors in Computing Systems (CHI
+’03) (Fort Lauderdale, USA, April 5-10, 2003). ACM Press,
+New York, NY, 2003, 121-128.
+[22] Schmidt-Belz, B. Aspects of User Trust in Mobile Guides.
+Workshop on Mobile Guides at the Fifth International
+Symposium on Human-Computer Interaction with Mobile
+Devices and Services (MobileHCI 2003) (Udine, Italy,
+September 8-11, 2003).
+[23] Sheridan, T. B. Rumination on automation. Annual Reviews
+in Control, 25 (1998), 89-97.
+
+[24] Siau, K., and Shen, Z. Building Customer Trust in Mobile
+Commerce. Communications of the ACM, 46, 4 (April 2003),
+91-94.
+[25] Sillence, E., Briggs, P., Fishwick, L., and Harris, P. Trust
+and Mistrust of Online Health Sites. In Proceedings of the
+SIGCHI Conference on Human Factors in Computing
+Systems (CHI ’04) (Vienna, Austria, April 24-29, 2004).
+ACM Press, New York, USA, 2004, 663-670.
+[26] Smith J., Mackaness W., Kealy A.,and Williamson I. Spatial
+Data Infrastructure Requirements for Mobile Location Based
+Journey Planning. Transactions in GIS, 8, 1 (January 2004),
+23-44.
+[27] Strauss, A. L. & Corbin, J. Grounded Theory in Practice.
+Sage Publications, 1997.
+[28] Thimbleby H. User interface design. ACM Press, New York,
+1990
+[29] Vetere F., Howard S., Pedell S., and Balbo S. Walking
+Through Mobile Use: Novel Heuristics and Their
+Application. In Proceedings of the Annual Conference for
+the CHI Special Interest Group of the Ergonomics Society of
+Australia (OzCHI 2003) (Brisbane, Australia, November 2628, 2003). CHISIG: Brisbane, Australia, 24-32.
+[30] Zancanaro, M., Stock, O., and Alfaro, I. Using Cinematic
+Techniques in a Multimedia Museum Guide. In Proceedings
+of Museums and the Web 2003. (Charlotte, USA, March 1922, 2003).
+
+

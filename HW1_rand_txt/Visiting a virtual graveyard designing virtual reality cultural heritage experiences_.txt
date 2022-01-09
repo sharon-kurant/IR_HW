@@ -1,0 +1,413 @@
+University of Lapland
+
+This is a self-archived version of an original article. This version usually
+differs somewhat from the publisher’s final version, if the self-archived
+version is the accepted author manuscript.
+
+Visiting a Virtual Graveyard
+Häkkilä, Jonna; Colley, Ashley; Hannula, Petri; Luiro, Elina; Launne, Emilia; Mustonen, Sanni;
+Westerlund, Toni
+Published in:
+MUM '19
+DOI:
+10.1145/3365610.3368425
+Published: 01.01.2019
+
+Document Version
+Publisher's PDF, also known as Version of record
+Citation for pulished version (APA):
+Häkkilä, J., Colley, A., Hannula, P., Luiro, E., Launne, E., Mustonen, S., & Westerlund, T. (2019). Visiting a
+Virtual Graveyard: Designing Virtual Reality Cultural Heritage Experiences. In G. Jacucci , F. Paternò, M. Rohs,
+& C. Santoro (Eds.), MUM '19: Proceedings of the 18th International Conference on Mobile and Ubiquitous
+Multimedia (pp. 56:1-56:4). ACM . https://doi.org/10.1145/3365610.3368425
+
+Document License
+Unspecified
+
+Download date: 10. . 2021
+
+Visiting a Virtual Graveyard - Designing Virtual Reality Cultural
+Heritage Experiences
+Jonna Häkkilä,1 , Petri Hannula2 , Elina Luiro1 , Emilia Launne1 , Sanni Mustonen2 , Toni Westerlund2
+and Ashley Colley1
+1
+
+2
+
+University of Lapland, Rovaniemi, Finland. firstname.lastname@ulapland.fi
+Lapland University of Applied Sciences, Rovaniemi, Finland. firstname.lastname@lapinamk.fi
+
+Figure 1: Virtual visit to the Salla historical graveyard.
+
+ABSTRACT
+
+KEYWORDS
+
+Virtual reality offers a potential solution to enable visiting inaccessible cultural heritage sites. We present the design, prototyping and
+evaluation (n = 6) of a virtual visit to a historic graveyard. The Salla
+World War II graveyard is located in an inaccessible border zone between Finland and Russia. Our virtual graveyard, accessed through
+a head mounted display, aimed to create an as accurate as possible
+simulation of the Salla graveyard, including its atmosphere. Users
+are enabled to navigate the virtual graveyard and place a candle
+on a grave. Although the simulation was considered immersive,
+participants wished for more authenticity and details, e.g. being
+able to light the virtual candle. The work opens discussion on the
+need for dignity in the design of virtual experiences for sensitive
+cultural heritage sites.
+
+Cultural heritage, virtual heritage, graveyard, cemetery, deathscapes, virtual reality, experience design, death, WW2, museum.
+
+CCS CONCEPTS
+• Human-centered computing → Human computer interaction (HCI); User studies; Information visualization; • Applied computing → Arts and humanities.
+
+Permission to make digital or hard copies of part or all of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for third-party components of this work must be honored.
+For all other uses, contact the owner/author(s).
+MUM 2019, November 26–29, 2019, Pisa, Italy
+© 2019 Copyright held by the owner/author(s).
+ACM ISBN 978-1-4503-7624-2/19/11.
+https://doi.org/10.1145/3365610.3368425
+
+ACM Reference Format:
+Jonna Häkkilä, Petri Hannula, Elina Luiro, Emilia Launne, Sanni Mustonen,
+Toni Westerlund and Ashley Colley. 2019. Visiting a Virtual Graveyard Designing Virtual Reality Cultural Heritage Experiences. In MUM 2019:
+18th International Conference on Mobile and Ubiquitous Multimedia (MUM
+2019), November 26–29, 2019, Pisa, Italy. ACM, New York, NY, USA, 4 pages.
+https://doi.org/10.1145/3365610.3368425
+
+1
+
+INTRODUCTION
+
+The digital age has opened new opportunities for presenting and
+accessing historical information and cultural heritage. Virtual reality (VR) has been harnessed as a medium for cultural heritage
+content, providing a new and immersive way to present topics to
+the audience. One of the general motivations for using VR is to
+enable visiting inaccessible locations [10], and many historical sites
+are difficult to access, e.g., due their distant location, vulnerability,
+or political reasons. Moreover, as Correll has pointed out, there is
+also an ethics dimension to be considered in the information visualization [6], which is an important part when designing for a context
+fulfilled with human tragedy, as here, the lives that succumbed to
+the war.
+One example is the graveyard for fallen German soldiers from
+the Continuation War (part of WW2), which now lies in the border zone between Finland and Russia. Accessing the graveyard is
+difficult due its location, requiring a border zone permit from the
+Russian border authorities, the application process for which can
+
+MUM 2019, November 26–29, 2019, Pisa, Italy
+
+Häkkilä et al.
+
+be lengthy. To improve the accessibility of the graveyard, we created a virtual environment that enables the relatives of the buried,
+history enthusiasts, and students to visit the graveyard virtually.
+We describe our process to design the virtual visitor experience to
+the historical graveyard, Figure 1. We present the design process,
+implementation, and an initial user study evaluating the experience of virtually visiting the graveyard. Additionally we discuss
+our experiences of working with this sensitive design context.
+
+2
+
+RELATED WORK
+
+Prior work relevant to our topic comes from the areas of virtual
+reality used in cultural heritage and HCI for deathscapes.
+
+2.1
+
+Figure 2: Examples of existing exhibits at the Salla museum.
+
+Virtual Access to Cultural Heritage
+
+A wide variety of solutions have been presented exploring approaches to enable access to, or to digitally enhance experiences
+in, cultural heritage sites. Bekele et al. [3] present a meta-review of
+prior works applying Virtual and Augmented reality solutions to
+cultural heritage applications. A virtual experience of Han Chang’an
+City is presented by Feng et al. [8], which aims to provide personalised guidance and content to visitors. In an implementation of an
+outdoor VR environment, with similar environments to our graveyard case, John et al. [13] highlight differences in acceptance based
+on the user’s prior experience level with VR systems. Interactive
+applications used at the cultural heritage sites itself include e.g. a
+multimodal mobile UI for guiding people visiting un-supervised
+archaeological sites by McGookin et al. [14], and audio based UI
+for experiencing the historical riots in Nottingham, UK [9].
+
+2.2
+
+Designing for Deathscapes
+
+Prior work in the HCI field has addressed digital solutions for graveyards [1, 5, 11, 12]. For example, Ciolfi and Petrelli [5] presented
+a digital guide book and Augmented Reality (AR) binoculars to
+provide graveyard visitors with more informed experiences. Similarly, the future cemetery project in Bristol, UK, utilized projection
+on physical objects within the cemetery to enhance the graveyard
+experience [1]. A graveyard navigator, enabling the visitor to navigate to specific graves and to highlight links between graves, was
+demonstrated by Häkkilä et al. [12]. Rather being a mirror world
+for a physical graveyard, the limited availability of burial sites in
+some cities has driven the introduction of ‘virtual only’ burials in
+virtual cemeteries [2]. Focusing on creating a tangible recreation of
+an inaccessible grave, Häkkilä et al. [11] presented a dynamic gravestone, with different content triggered by inserting RFID equipped
+cards.
+
+3
+
+THE SALLA MUSEUM
+
+The Salla museum, located in a small town on Finland’s eastern
+border, specialises on the history of the second world war (WW2)
+and the reconstruction period following it. Currently, its exhibits
+are primarily based on information boards and basic AV media techniques (Figure 2). The museum is located nearby a cultural heritage
+site, a WW2 graveyard, located nearby but on the Russian side of
+the border. The museum was interested in exploring new ways to
+exhibit information on historical sites and particularly to support
+visitors wishing to know more about the historical graveyard.
+
+Figure 3: A candle placed in front of a gravestone
+
+The graveyard for fallen German soldiers was founded during
+the Continuation War (part of WW2), in 1941 in the former village
+of Salla, nowadays called Old Salla. The graveyard is now located
+in Russia, within the border zone between Finland and Russia.
+Approximately 8000 German soldiers who fell in the battles near
+Kantalahti and Kiestinki are buried in the graveyard. In addition,
+the remains of soldiers found by search parties in recent years have
+also been buried there. The graveyard attracts visitors interested in
+history and family heritage. However, accessing the graveyard is
+difficult due its location in the border zone, as the access requires a
+border zone permit from the Russian border authorities, for which
+the application process can be lengthy.
+As background research, the design team visited the Salla museum and discussed with museum personnel to gain their insights
+for the virtual graveyard concept. Additionally, a local historian
+with experience of visiting the Old Salla graveyard, and who had
+photographs of the area, was consulted. Due to the visa requirements, the design team have so far been unable to personally visit
+the Salla graveyard.
+
+4
+
+VIRTUAL GRAVEYARD PROTOTYPE
+
+The Oculus Rift CV1 was selected as the target head mounted display (HMD) hardware for our prototype. The project was developed
+using Unity3D, and 3D-models, based on photographs taken by previous visitors, were created in Blender. To optimise the models, a
+high-lowpoly pipeline approach was used. Textures were generated
+from a high poly model and then applied to a low poly model.
+
+Visiting a Virtual Graveyard - Designing Virtual Reality Cultural Heritage Experiences
+The target of our implementation was to create an as accurate
+as possible virtual simulation of the Salla graveyard. We aimed to
+recreate the mood of the graveyard, including changing daylight
+and weather conditions. As our designers were unable to visit
+the area, the implementation was based on photographs taken
+by previous visitors to the graveyard. Based on discussions with the
+museum staff, a list of potential features for the virtual graveyard
+was developed. In the first iteration of the prototype, we selected 3
+features to focus on, 1) enabling the user to light and place a candle,
+2) volumetric clouds, and, 3) spatial audio. Other suggested features,
+such as simulating the evolution of the graveyard over the years,
+e.g. trees growing, were interesting, but beyond the scope of our
+initial implementation.
+The candle-lighting feature enabled the user to pick up a candle, using the handheld VR controllers, light it and leave it at any
+location in the scene, for example next to a gravestone, Figure 3.
+Although realistic clouds can be created by other approaches, after a short time users easily notice repeating patterns - hence we
+selected to implement clouds using volumetic modelling, which
+also adds to the mood of the scene. The addition of spatial audio
+increases the level of immersion in the VR world, e.g., in the graveyard location during the summer there are many mosquitoes which
+the user can hear flying around them. Although the names on the
+gravestone were placed as close to correctly as possible, from the
+information available, to ensure readability they had to be rendered
+in a substitute font, that was close in appearance to the original.
+
+5
+
+Figure 4: Visualisation of the number of fallen soldiers
+
+USER STUDY EVALUATION
+
+To evaluate our prototype virtual visit to the Salla graveyard, we
+arranged a user study.
+
+5.1
+
+MUM 2019, November 26–29, 2019, Pisa, Italy
+
+Figure 5: The user study setting
+
+Study Procedure
+
+The study consisted of two parts. After completing a consent form
+and background questionnaire, participants were asked to complete
+a set of tasks in the virtual graveyard, Figure 5, thinking aloud whilst
+they did so. The tasks the participants were asked to complete were:
+(T1) Put on the HMD - look around and listen
+(T2) Walking navigation
+(T3) Navigation by teleportation [4]
+(T4) Walking to and investigating a gravestone
+(T5) Walking to and investigating the monument
+(T6) Placing a candle
+(T7) Visualisation of the number of fallen soldiers, Fig. 4
+After completing the tasks, participants completed an end questionnaire which also asked for feedback on 6 additional concept
+ideas for the virtual graveyard:
+(C1) A link from the gravestone to a map showing the location
+where the body originally lay
+(C2) Showing the virtual graveyard at different times of the day
+or seasons of the year
+(C3) Placing a wreath or flowers on a grave
+(C4) Planting a small tree in the graveyard and watching it grow
+remotely from home
+(C5) Detailed information on individual soldiers linked to their
+grave e.g. photos, personal histories etc.
+(C6) Taking photos of the virtual visit.
+
+The virtual graveyard prototype was evaluated with a user study
+with six adults (age 21-38, 5 female). Three participants had previously tried a VR headset. Each test session lasted approximately 60
+minutes.
+
+5.2
+
+Results
+
+Participants gave generally positive feedback on the immersiveness of the virtual environment (Task T1). However, there were
+some wishes for improvements in the sharpness and detail of the
+experience especially when viewing objects close up (T4, T5). Two
+participants commented on the ‘edge of the world’ experience [15],
+e.g., “over there doesn’t not show anything, just a grey background”.
+There were mixed feelings about the insect sounds, with some finding it part of the genuine experience, enhancing the immersion
+level, whilst others found it annoying, e.g. “it is not a calm feeling
+with those insects”. The lack of wind noise was commented by one
+participant, noting that the trees were swaying without the sound
+of wind.
+Considering the navigation, either walking (T2) or teleportation
+(T3), the majority of participants preferred teleportation. Walking
+was perceived as being too slow, although two participants mentioned that this slow walking added to the overall experience. It was
+commented that simply increasing the walking speed would create
+a feeling of nausea, due to the ‘head-bob’ movement included in the
+
+MUM 2019, November 26–29, 2019, Pisa, Italy
+walking cycle. Teleportation was noted as more challenging and difficult to accurately control, e.g. one participant accidentally moved
+to be on top of the grave monument. The general idea of placing a
+candle was liked, but the interaction mechanics were problematic.
+More authenticity in ‘picking up’ the candle and placing it to the
+ground was wished. This interaction was commented as not being
+sufficiently dignified for the graveyard context. Similarly it was
+stated that the sense of authenticity could be enhanced by enabling
+the ability to actually light the candle. The visualization of the total
+amount of fallen soldiers (T7) was considered a good addition to
+the graveyard environment, however it was commented that more
+visual detail in the soldiers would make the experience even more
+touching.
+As general feedback, participants commented that the VR hand
+controllers were too complex, with too many buttons. This created a
+need the focus on the technology, which took their attention away
+from emotional aspects. It was commented that elderly people
+would have some challenges with the visiting the virtual graveyard,
+and having some kind of assistant would be helpful. When a tourist
+group would visit the virtual graveyard e.g. in the museum, it was
+preferred that each would have their own private view of the virtual
+graveyard, rather than being able to see other concurrent visitors
+in the virtual environment. The six additional concepts (C1 - C6)
+presented to the participants raised mixed feeling. On the one hand,
+the additional features were seen as needed for visitors who had
+no emotional bond to the graveyard. Whilst the other hand, the
+graveyard was perceived as a sacred place where nothing extra was
+wanted.
+
+6
+
+DISCUSSION
+
+Whilst our study participants were all relatively young adults, such
+virtual reality solutions should be accessible to the broad range of
+society, including the elderly with little or no training. With this
+view many of the findings from our study become amplified in
+importance, e.g. the complexity of the VR systems hand-controllers
+and the difficulty in controlling teleportation based navigation. Currently VR solutions such as the Oculus Rift used in our evaluation
+are primarily driven by the gaming industry, the requirements of
+which may be vastly different from those required for the set of
+limited interactions in a graveyard environment. Here review of approaches for improving the accessibility of VR, e.g. through the use
+of custome controllers, may be of benefit [7]. Similarly, the ‘headbob’ walking animation we adopted from first person shooter (FPS)
+games, likely has an overall negative impact on the user experience
+in our usage context. Graveyards have traditionally been places that
+are often remote and hidden from the world, now digital tools have
+opened up new ways to experience them. Yet, graveyards remain a
+context where the possible introduction of technologies should be
+done with special care and consideration due the sensitivity of the
+design context, from the viewpoints of both cultural and individual
+experiences.
+Potential limitations to our findings arise from our small sample
+size and high likelihood of novelty effects in our participant group of
+inexperienced head mounted display users. A future work we plan
+to explore the use of optimised custom controllers for interaction
+in our virtual graveyard.
+
+Häkkilä et al.
+
+7
+
+CONCLUSION
+
+We have presented the design, prototyping and evaluation of a
+virtual reality application enabling a virtual visit to the Salla World
+War II graveyard, located in an inaccessible border zone between
+Finland and Russia. Whilst we aimed to create as realistic as possible
+virtual environment, study participants still wished for more detail
+and authenticity. Comparison between hand controller button based
+walking and teleportation based navigation was inconclusive, with
+pros and cons being noted for both approaches. The need for dignity
+in such sensitive cultural heritage environments was highlighted,
+e.g. a virtual candle should be respectfully placed on a grave, rather
+than dropped.
+
+ACKNOWLEDGMENTS
+This work has received funding from the European Regional Development Fund (ERDF) for the project Lapland Experience Technologies 2025.
+
+REFERENCES
+[1] [n. d.]. Future Cemetery. http://www.react-hub.org.uk/projects/heritage/
+future-cemetery/. Accessed: 2019-02-20.
+Virtual Reality Cemetery.
+http://vrworld.com/2017/11/22/
+[2] [n. d.].
+first-vr-cemetery-solution-overcrowded-hong-kong/. Accessed: 2019-02-20.
+[3] Mafkereseb Kassahun Bekele, Roberto Pierdicca, Emanuele Frontoni, Eva Savina
+Malinverni, and James Gain. 2018. A Survey of Augmented, Virtual, and Mixed
+Reality for Cultural Heritage. J. Comput. Cult. Herit. 11, 2, Article 7 (March 2018),
+36 pages. https://doi.org/10.1145/3145534
+[4] Costas Boletsis and Jarl Erik Cedergren. 2019. VR Locomotion in the New Era of
+Virtual Reality: An Empirical Comparison of Prevalent Techniques. Advances in
+Human-Computer Interaction 2019 (2019).
+[5] Luigina Ciolfi and Daniela Petrelli. 2015. Studying a Community of Volunteers
+at a Historic Cemetery to Inspire Interaction Concepts. In Proceedings of the 7th
+International Conference on Communities and Technologies (C&#38;T ’15). ACM,
+New York, NY, USA, 139–148. https://doi.org/10.1145/2768545.2768547
+[6] Michael Correll. 2019. Ethical dimensions of visualization research. In Proceedings
+of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, 188.
+[7] Matt Dombrowski, Peter A Smith, Albert Manero, and John Sparkman. 2019.
+Designing Inclusive Virtual Reality Experiences. In International Conference on
+Human-Computer Interaction. Springer, 33–43.
+[8] Junmei Feng, Xiaoyi Feng, Xiaoxu Liu, and Jinye Peng. 2016. The Virtual Wandering System of Han Chang’an City Based on Information Recommendation. In
+Proceedings of the Symposium on VR Culture and Heritage - Volume 2 (VRCAI ’16).
+ACM, New York, NY, USA, 75–78. https://doi.org/10.1145/3014027.3014028
+[9] Elizabeth Fitzgerald, Claire Taylor, and Michael Craven. 2013. To the Castle! A
+comparison of two audio guides to enable public discovery of historical events.
+Personal and Ubiquitous Computing 17, 4 (2013), 749–760.
+[10] Laura Freina and Michela Ott. 2015. A literature review on immersive virtual
+reality in education: state of the art and perspectives. In The International Scientific
+Conference eLearning and Software for Education, Vol. 1. " Carol I" National Defence
+University, 133.
+[11] Jonna Häkkilä, Ashley Colley, and Matilda Kalving. 2019. Designing an Interactive
+Gravestone Display. In Proceedings of the 8th ACM International Symposium on
+Pervasive Displays (PerDis ’19). ACM, New York, NY, USA, Article 4, 7 pages.
+https://doi.org/10.1145/3321335.3324952
+[12] Jonna Häkkilä, Meri-Tuulia Forsman, and Ashley Colley. 2018. Navigating the
+Graveyard: Designing Technology for Deathscapes. In Proceedings of the 17th
+International Conference on Mobile and Ubiquitous Multimedia. ACM, 199–204.
+[13] David John, David Hurst, Paul Cheetham, and Harry Manley. 2018. Visualising
+Dudsbury Hillfort: Using Immersive Virtual Reality to Engage the Public with
+Cultural Heritage.. In GCH. 193–197.
+[14] David McGookin, Yolanda Vazquez-Alvarez, Stephen Brewster, and Joanna
+Bergstrom-Lehtovirta. 2012. Shaking the dead: multimodal location based experiences for un-stewarded archaeological sites. In Proceedings of the 7th Nordic
+Conference on Human-Computer Interaction: Making Sense Through Design. ACM,
+199–208.
+[15] Jarkko Vatjus-Anttila, Leena Ventä-Olkkonen, and Jonna Häkkilä. 2013. On
+the edge of a virtual World–investigating usersâĂŹ preferences and different
+visualization techniques. In International joint conference on ambient intelligence.
+Springer, 198–203.
+
+

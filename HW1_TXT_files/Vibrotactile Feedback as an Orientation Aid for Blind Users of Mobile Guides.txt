@@ -1,0 +1,444 @@
+Vibrotactile Feedback as an Orientation Aid for Blind
+Users of Mobile Guides
+Giuseppe Ghiani
+
+Barbara Leporini
+
+Fabio Paternò
+
+ISTI-CNR
+Via G. Moruzzi, 1
+56124 Pisa, Italy
++39 050 315 3066
+
+{giuseppe.ghiani, barbara.leporini, fabio.paterno}@isti.cnr.it
+
+ABSTRACT
+In this paper, we present a solution for supporting vibrotactile
+feedback in mobile museum guides for blind users. To this end,
+we have designed and implemented a hardware/software module,
+which can be easily plugged into current PDAs to assist blind
+users in orientation. The solution, which comprises a twochannels haptic module as well as vocal support, has been
+exploited for moving through tagged objects. We also report on a
+user evaluation carried out with a number of blind users.
+
+Categories and Subject Descriptors
+H5.m. Information interfaces and presentation (e.g., HCI).
+
+General Terms
+Design, Experimentation, Human Factors
+
+1. INTRODUCTION
+Multimodal digital guides are increasingly used to support people
+during museum visits. In general, a digital guide allows people to
+visit the museum according to their preferences. For this reason, it
+is important that the guide be information-rich and at the same
+time adaptable to users’ needs. When blind people visit a
+museum, usually they count on a person who accompanies them
+and describes the artworks or specimens visited. Thus, in order to
+have a pleasant visit the accompanying person should have
+appropriate skills especially in describing object details. In this
+perspective, a digital, accessible and well-designed guide can
+represent valuable support for a museum visit by blind people in
+an autonomous way. Moreover, the fact that blind people can
+make a visit autonomously can represent a good way to integrate
+them in a visitor group (e.g. family or friends). In fact, really
+participating in a museum visit is more effective than obtaining
+cultural information from a Web site or multimedia CD. In
+addition, such an opportunity represents a way to increase social
+inclusion as well. During the visit blind and sighted people can
+discuss and exchange opinions and comments on the nearby
+
+Permission to make digital or hard copies of all or part of this work for
+personal or classroom use is granted without fee provided that copies are
+not made or distributed for profit or commercial advantage and that copies
+bear this notice and the full citation on the first page. To copy otherwise,
+or republish, to post on servers or to redistribute to lists, requires prior
+specific permission and/or a fee.
+MobileHCI 2008, September 2–5, 2008, Amsterdam, the Netherlands.
+Copyright © 2008 ACM 978-1-59593-952-4/08/09…$5.00.
+
+SP
+
+artworks. This should also improve the learning process. For all
+such reasons, a digital guide not only should provide useful
+information on the artworks or specimens, but it should also
+provide a certain support to assist the user when moving through
+the museum among the artworks.
+While a considerable amount of research work has been dedicated
+to mobile guides, little attention has been paid to identify
+solutions accessible for the blind. To address such needs, we have
+carried out research aiming to design and implement a multimodal
+mobile guide, which is able to assist blind users when freely
+moving around the museum. In particular, in this paper we
+propose a multimodal and location-aware museum guide, which
+has been specifically designed for visually impaired people to
+provide them with flexible orientation support as well as with the
+speech description of visited sections/artworks. In our first trials
+we considered solutions based on vocal messages or sounds,
+which have already been tested with a group of blind users [7].
+Such first tests provided encouraging feedback and also useful
+suggestions for considering additional modalities for providing
+orientation-related feedback. In particular, some users suggested
+also considering vibrotactile feedback. In this paper, after
+discussion of related work, we present the tactile module, which
+we have designed and integrated in our mobile guide to provide
+orientation-related feedback. Then, we report on a user test with
+blind users and provide some concluding remarks along with
+indications for future work.
+
+2. RELATED WORK
+The use of haptic interfaces for providing information nonvisually has been widely investigated. A study on how
+vibrotactile messages, called Tactons, can deliver complex
+information is presented in [3]. Authors focused on the use of
+tactile feedback alone and evaluated the delivery of structured
+messages by 3 tactile parameters (Rhythm, Roughness and Spatial
+Location) through several vibrotactile actuators. A wearable
+vibrotactile display made up of an array of 9 tactile actuators was
+tested in [10]. The previously cited studies focused on the use of
+tactile feedback alone (without audio) and were limited to
+stationary devices. Tactile output supporting mobile interactions
+was instead investigated in [2]. The experiments regarded text
+insertion via touch screen and showed that user performance
+significantly increases when s/he is alerted by haptic stimuli about
+unwanted double clicks and slips.
+
+431
+
+Research has also led to new solutions to enhance interaction with
+mobile phones exploiting combinations of vibrotactile output and
+gesture recognition ([4] and [9]).
+Differently from the mentioned studies, this work aims to
+facilitate blind users mobility. We evaluate how the usability of
+our accessible application (equipped with RFID-based spatial
+support) improves by integrating the multimodal interface with
+haptic capabilities. [8] also proposes the use of RFID tags to help
+the blind orient themselves, but is focused on navigation rather
+than environment disclosure. Another mobile system conceived
+for helping blind in public transportation scenarios is Ubibus [1].
+With this system the user may use either a PDA (equipped with a
+WLAN interface) or a Bluetooth mobile phone. The main
+objective of this system is to help blind or partially blind people
+to take the public transport (e.g. it activates a stop request, it
+informs the bus driver to stop, it announces next stop, etc.). In
+Ubibus context-awareness is one way to guess the user’s situation
+and to try to reduce inputs required from the user. In [5] an
+assistive system for the blind based on ubiquitous computing
+technology, called chatty environment, is proposed. The main
+idea behind the system is to enhance the visual information
+existing around us by other means of information that can be
+experienced by the visually impaired. The system provides useful
+information by exploiting Electronic markers used to tag the
+objects, captured by a mobile device in order to have descriptive
+information. Although these prototypes provide information on
+the surrounding environment, they do not offer a support to assist
+users in moving towards the tagged objects.
+
+The box contains circuitry able to detect infrared signals. The
+photodiode (i.e. infrared receiver) protrudes from the box so that
+it is aligned to the infrared port of the PDA. The battery-operated
+circuitry also drives two vibrotactile actuators according to the
+commands sent by the PDA via the infrared interface. Each motor
+is attached to a rigid surface of about 1 cm2 and is connected to
+the box by a 10 cm wire. The motors can be fixed to the index
+finger and thumb by Velcro strips to let the rigid surfaces transmit
+vibrations to the fingertips. We opted for separating the motors
+from the box to facilitate distinguishing the channels. Otherwise,
+if motors were attached to the box it would have been very
+difficult to insulate them and the vibration of a single motor
+would have propagated to the rest of the device, making harder
+for the user to distinguish the vibrating side.
+
+3. THE ACCESSIBLE MOBILE GUIDE
+In order to allow blind users to freely move and access
+information related to nearby artworks and specimens, orientation
+support is particularly important. In our mobile guide we already
+integrated an electronic compass located in a small box hung on a
+cord round the user’s neck, which is able to communicate with the
+guide software installed on the PDA through Bluetooth. The
+compass is lightweight and can be comfortably worn. The guide
+automatically detects the position of the available objects through
+RFID tags and a reader plugged into the PDA. In our solution, the
+tagged objects are detected when they are at about five meters’
+distance. The correspondence between artworks and tags is
+specified in the museum database. The position of each artwork
+within the rooms is stored in the database as well and is essential
+for suggesting the right direction to the users. In this paper, we
+present how we have extended such solution with vibrotactile
+feedback for orientation purposes. In this case, the haptic output
+modality is implemented through two separate actuators on the
+users’ fingers to provide feedback on two opposite directions (left
+and right). Considering the context of our mobile guide, which is
+mostly an application for describing works of interest, we have
+limited the usage of haptic feedback to support the task of moving
+from one artwork to another. Section/artwork descriptions and
+notification messages are provided through a vocal user interface.
+An embedded TTS (Text To Speech) engine by Loquendo
+synthesizes the speech on the fly.
+
+3.1 VibroTactile Module
+The haptic output module, which is an add-on that we have
+specifically designed and tuned, consists of a plastic box (slightly
+thinner than a packet of cigarettes) fixed to the back of the PDA.
+
+432
+
+Figure 1. From the top left-hand corner: one of the
+actuators used in the experiment, the PDA fitted with
+the RFID reader and the haptic module, and how the
+device fits on the user’s hand.
+The actuators are RMV (Rotary Mass Vibrator) motors like those
+that enable vibration in many mobile phones (see Fig. [1] topleft). The driver circuitry controls each motor independently.
+Each command received from the PDA encodes the state of the
+haptic interface, that is, for each motor, the on/off flag and the
+vibration frequency value. The flag controls the switch (transistor)
+while the intensity value, a byte, is passed to a 256-step DPP
+(Digital Programmable Potentiometer). The haptic module
+circuitry is managed by a 4 MHz microcontroller whose routine is
+able to decode a command and to upload the motor states up to 60
+times per second.
+To change the haptic device state the PDA software application
+has to generate and send a 3-bytes command with the switch
+flags, the intensity values and some check bits. For example, a
+
+SP
+
+haptic message like a short, intense left vibration requires two
+commands. The first, with left flag = 1, right flag = 0, left speed =
+255 (the maximum value) and right speed ignored initiates the left
+engine fast vibration. The second command, with left flag = 0,
+right flag = 0, left/right speed ignored stops the motor. The
+vibration length depends on the delay between the start and the
+stop commands. A complex haptic feedback such as a left-right
+fading can be created by repeatedly sending commands where the
+left speed parameter decreases and the right one increases (or vice
+versa). Since the latency between the sendCommand function call
+and the new motors configuration is about 15 ms, we assume that
+even more complex effects may be created, such as the rhythms
+discussed in [3].
+
+3.2 Haptic Messages
+One of the aims of our study is to reduce the time and effort
+required to the blind user to move towards the next artwork. In
+facts, while localization is ensured by a grid of RFID tags and is
+provided by messages such as “you are approaching the artwork
+x”, orientation (enabled by the electronic compass) is key support
+for successfully reaching the destination area.
+In this application, usability is related to the time needed to reach
+the next artwork. Even in the smallest museums or exhibitions
+there are tens of artworks/items. The user should consider the
+guide as effective, i.e. as an alternative to the human companion.
+If not, the guide would be perceived as useless, turning the
+museum visit into a frustrating experience.
+As already mentioned, haptic output has been investigated
+according to the suggestions made by some users of an earlier
+test. It has been considered as a complementary (rather than
+alternative) modality for signalling the best path to blind users.
+We took into account that the museum visits are usually made just
+once by visitors and considered that they probably do not want to
+spend much time familiarizing themselves with the interface. For
+this reason, and taking into account the suggestions by users in a
+previous test, we configured haptic messages to encode only a
+small amount of information. We actually configured 4 types of
+messages corresponding to the vocal suggestions given by the
+previous version of the application: “Rotate Left”, “Rotate Right”,
+“Rotate Left a bit”, “Rotate Right a bit”. Rotation direction
+(left/right) is given by Spatial Location of the activated motor (i.e.
+which finger is vibrating). Rotation angle is indicated by Duration
+and Frequency of the vibration: a strong and long (2 seconds)
+impulse or a light and short (700 ms) one to indicate whether
+rotation must be more or less than 90°, respectively.
+Haptic messages indicate the distance to the target as well: once
+the user has aligned to the best direction and has reached the
+destination area, short vibration pulses are activated on both sides.
+The delay between pulses reduces as the destination tag signal
+grows (i.e. the user approaches the tag). Feedback on the distance
+may help the user in centring the target even if the actually
+followed direction is slightly different from the ideal one.
+
+4. EVALUATION
+In order to evaluate our prototype we conducted a user test with a
+group of blind people. The evaluation concerned two versions of
+the guide that differ from the two ones previously tested [7]
+(which used for the orientation task one vocal feedback and one
+sound-based feedback). The previous versions adopted audio
+
+SP
+
+feedback based only on messages or sounds. The previous
+evaluation revealed that the vocal version using clear messages
+was preferred by the users. Furthermore, subjective opinions
+suggested that a vibrotactile feedback could have been an
+appropriate way to convey feedback. Thus, in this new evaluation
+we compared the version based on vocal messages alone with
+another new one using vibrotactile feedback for orientation. In the
+first version, tips such as “rotate left a bit” and repetitive “beep”
+sounds with variable delays were used to indicate distance and
+guide the user towards an artwork. The second version used right
+and left vibrotactile feedback to suggest direction and a double
+vibration corresponding to the repetitive “beeping” sounds with
+variable frequency to signal the distance. The users had to hold
+the PDA in the left hand and, for the vibrotactile version, put the
+two motors on the thumb and index finger (see Figure 1). The
+choice of the index finger rather than the middle finger is based
+on the sensitivity level [6].
+
+4.1 Method
+The goal of our test was to analyze whether there are some
+differences between the two different feedbacks. To this end, each
+user tried both versions to carry out the assigned tasks. An
+observational method was used to follow the users testing the
+prototypes. Through the conducted test both quantitative and
+qualitative data have been collected. First, in order to analyze the
+differences between the two versions, we measured the time taken
+by each user to carry out the tasks. Secondly, after the test each
+user was asked to fill in a questionnaire to gather subjective
+information and possible suggestions. The logged data were used
+to compare the effectiveness of the two versions. Indeed the time
+spent to perform each task has been used as a quantitative
+measure to compare the two types of feedback.
+
+4.1.1 Participants
+Eleven blind participants were recruited for the test: 7 women and
+4 men. The age ranged from 27 to 66 years. All of them had used
+a screen reader in a Windows environment before. Six of them
+had previously used a PDA.
+
+4.1.2 Tasks
+Users were asked to reach a specific artwork by exploiting the
+compass-based guide. Because the experiment was mainly aimed
+at analyzing the kind of feedback, each user tried to reach
+different artworks by using the two versions of our prototype. In
+order to avoid a possible bias due to the learning process, five
+users used the version with vibrotactile feedback first and then
+afterwards the one based only on vocal feedback; whereas for the
+others the order was inverted. The task assigned was to start from
+a specific artwork to reach another one. The artworks to reach
+were different for the two guide versions. All users carried out the
+same tasks. Each test was carried out separately in order to avoid
+that users could be biased by observing other tests. We observed
+the users while they performed their tasks. As mentioned, the
+starting and finishing time was recorded in a log file for each user
+and for each task.
+
+4.2 Results
+All the users were able to accomplish the assigned tasks. The
+recorded time for each user for each task allowed us to compare
+the time spent by the user in carrying out the task when using the
+
+433
+
+guide with the two different types of feedback. Compared time
+data revealed time saving in localizing the artwork by using the
+version with both vocal and vibrotactile support, though the
+difference was not statistically significant.
+In order to evaluate the effective time saving we examined the
+data recorded for each user. The analysis was performed taking
+the users as the statistical unit and considering the time (s) taken
+by each user to accomplish the task.
+Parametric analysis was applied according the two tests, Exact
+Kolmogov-Smirnov (N=11; Z=0.835-0.906; p= ns) and Levene’s
+test (F = 1.179, p= ns). A Paired T test (N=11, t= 0.463, df=10, p=
+ns) revealed a non-significant difference in the time required to
+complete all tasks by using the two (vocal and vibrotactile)
+versions. This means that the two versions are similar and more or
+less equivalent for the purpose. Users declared that they felt more
+confident with clearer vocal messages, especially about the
+direction. Probably, in order to become more familiar with the
+vibrotactile feedback, it is necessary for blind users to experience
+it for a long period. Unfortunately, this is not the case, because
+our system is conceived for museum visitors who prefer short
+time for training.
+Concerning subjective opinions, the users rated various aspects
+on a scale from 1 (the most negative value) to 5 (the most positive
+value). One aspect regarded the preference level for the two kinds
+of feedback. The expressed preferences revealed there is no
+significant difference between the two types of feedback.
+According to the Exact Kolmogov-Smirnov (N=11; Z=0.7800.850; p= ns) and Levene’s test (F = 0.508, p= ns), we used a
+Paired T test, which revealed a non-significant difference (N=11,
+t= 1.047, df=10, p= ns). This result confirms the quantitative
+information gathered through the time saving. On average the
+users rated the vocal feedback well (M=3.81; SD=0.98) and the
+vibrotactile version slightly less well (M=3.18; SD=1.47).
+Various suggestions on how to improve both versions have been
+expressed through the questionnaires by the users. One stated that
+vibration intensity range should be made wider by increasing the
+motors’ peak speed. Another would have preferred different
+vibration rhythms rather than intensities/durations to signal the
+angle of rotation. Two suggested increasing the updating
+frequency of tactile messages, in order to speed up the orientation
+process. Three users declared that an obstacle detection
+functionality would allow the avoidance of physical barriers,
+improving the autonomy of blind visitors.
+
+5. CONCLUSIONS AND FUTURE WORK
+In this paper we have presented a study conducted with eleven
+blind users to compare two versions of a mobile guide prototype.
+The conducted evaluation revealed that there is no significant
+difference between vocal and vibrotactile feedback. All users
+expressed a preference for one kind of feedback over the other. In
+particular, six users preferred the vibrotactile version, four the
+vocal one and only one assigned the maximum rating (5) to both
+versions. Quantitative analysis based on time saving in carrying
+out the tasks with the two versions confirmed these expressed
+preferences.
+From this study we can conclude that both vibrotactile and vocal
+support could be appropriate in a mobile guide. Probably, a
+
+434
+
+combination of both could represent a valid solution to improve
+the interaction. For example, when surroundings become noisy
+the vibrotactile feedback could be more appropriate. This is
+particularly true when the user may not want to disturb other
+people or to wear earphones. In a next version of our guide
+prototype we plan to add an obstacle sensor in order to further
+assist the users in the autonomous visit. In this perspective,
+vibrotactile feedback could be used for obstacle avoidance, and
+vocal messages for specific indications.
+
+6. ACKNOWLEDGMENTS
+Our thanks to Ivan Norscia for his suggestions in the statistical
+analysis of the test data and to the blind people who participated
+to our test.
+
+7. REFERENCES
+[1] Banâtre, M., Becus, M., Couderc, P. and Pauty, J. (2004).
+Ubibus: Ubiquitous Computing to Help Blind People in
+Public Transport. In the Proc. of Mobile Human-Computer
+Interaction (MobileHCI 2004), LNCS, Vol. 3160, pp. 310314.
+[2] Brewster, S.A., Chohan, F.and Brown, L.M. (2007). Tactile
+Feedback for Mobile Interactions. In Proceedings of ACM
+CHI 2007 (San Jose, CA, USA), ACM Press AddisonWesley, pp 159-162.
+[3] Brown, L.M., Brewster, S.A. and Purchase, H.C. (2006).
+Multidimensional Tactons for Non-Visual Information
+Display in Mobile Devices. In Proceedings of MobileHCI
+2006 (Espoo, Finland), ACM Press, pp231-238.
+[4] Brown, L.M. and Williamson, J. (2007). Shake2Talk:
+Multimodal Messaging for Interpersonal Communication. In
+Proceedings of HAID 2007, LNCS 4813, pp. 44–55, 2007
+[5] Coroama, V. (2006). Experiences from the Design of a
+Ubiquitous Computing System for the Blind. In Proceedings
+CHI '06 Extended Abstracts on Human Factors in Computing
+Systems, pp. 664 - 669
+[6] de Assis, F.M., Lima, A.C.O., Ramos de Souza, A.F., Silva e
+Silva, R.C. and Silverio Freire, R.C. (2007). Comparative
+Analysis of Tactile Sensibility between the Fingers in Vibrotactile Stimulus Recognition. In Proc. "Instrumentation and
+Measurement Technology Conference", 2007 IEEE, pp. 1-6.
+[7] Ghiani, G., Leporini, B. and Paterno, F. (2008). Supporting
+orientation for blind people using museum guides. CHI'08
+Extended Abstracts. ACM Press, pp. 3417-3422,
+DOI=http://doi.acm.org/10.1145/1358628.1358867.
+[8] Helal, S., Willis, S., RFID Information Grid for Blind
+Navigation and Wayfinding. In Proceedings of the 9th IEEE
+Symposium on Wearable Computers (2005).
+[9] Hughes, S., Murray-Smith, R. and Williamson, J. (2007).
+Shoogle: Multimodal Excitatory Interaction on Mobile
+Devices. In Proceedings of ACM SIG CHI 2007.
+[10] Oakley, I., Kim, Y. and Ryu, J., (2006). Determining the
+Feasability of Forearm Mounted Vibrotactile Displays. In
+Proceedings of IEEE Haptics Symposium'06.
+
+SP
+
+

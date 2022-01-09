@@ -1,0 +1,983 @@
+Self-archived copy accepted for publication in: Ch’ng E., Cai S, Leow FT, Zhang T (2019) Adoption and Use of
+Emerging Cultural Technology in China’s Museums, Journal of Cultural Heritage
+
+Adoption and Use of Emerging Cultural Technologies in China’s Museums
+Eugene Ch’ng1, Shengdan Cai1, Fui-Theng Leow2 and Tong Evelyn Zhang1
+
+eugene.chng@nottingham.edu.cn; shengdan.cai@nottingham.edu.cn; fui-theng.leow@nottingham.edu.cn;
+evelyn.zhang@nottingham.edu.cn
+1
+
+NVIDIA Joint-Lab on Mixed Reality, University of Nottingham Ningbo China
+2
+Faculty of Business, University of Nottingham Ningbo China
+
+Abstract
+Our article maps the well-being of the adoption and use of digital technologies in
+museums in China. Digital technologies used here are termed ‘cultural technology’ in
+top-level national policies for the creative cultural industry, with culture and heritage at
+the core of all such activities. Our investigation aims to understand the present state of
+adoption and use of cultural technologies with the goal of identifying limitations so as to
+provide a roadmap for the informed design and development of museum-based digital
+exhibits that are appropriate for visitors. Whilst our study is focused on China’s
+museums, our evaluation model and lessons learned can be used as comparative studies
+for museums globally. This highlights the novelty of our article, for the scale of which
+we carried out our evaluation has never been conducted before. We travelled 22 sites
+over 15 cities and collected over 800 samples of data. We evaluated 36 digital systems
+used by over 800 visitors and observed how users interacted and engaged with the
+systems with a record of 21 variables related to the length of interaction, engagement,
+quality of contents and types of systems, age groups, sexes, and the number of
+participants and whether they were individuals or in groups. Our investigation revealed
+important findings in both digital systems and visitor engagement.
+Keywords: digital museum, museum computing, digital heritage, smart museum,
+cultural technology, virtual reality, augmented reality, China
+1.
+
+Introduction
+
+Emerging digital technologies is a key factor for the sustainable preservation and
+communication of cultural heritage for mass audiences and is core to generating value
+in activities that contribute to the creative economy, at least in China. China’s top-down
+policies such as the Cultural Technology Innovation Plan [1] aims to ‘fully facilitate the
+integration of scientific technology into the cultural sector, and the ‘13th Five Year Plan’
+(2016-2020) proposed to ‘build the cultural industries as a national pillar industry’ [2].
+Our study will serve as a snapshot of an important intersection in time for the years of
+expected development to come.
+The Chinese government has, in the last decade exerted influence and emphasis on
+the development of the cultural industry. This has progressed from the setting of goals
+to actively “develop the cultural industry as a pillar industry of the national economy” in
+the previous ‘12th Five Year Plan’, to a projection stating that the “cultural industry will
+become a pillar industry of national economy at the end of the ‘13th Five Year Plan’” [2].
+In view of such a plan, we focused our evaluation on cultural technologies in an
+important sector within the creative cultural industry. This is the museum sector where
+© 2019. This manuscript version is made available under the CC-BY-NC-ND 4.0
+license http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Self-archived copy accepted for publication in: Ch’ng E., Cai S, Leow FT, Zhang T (2019) Adoption and Use of
+Emerging Cultural Technology in China’s Museums, Journal of Cultural Heritage
+
+major cultural artefacts and histories are curated and contextualised. In our
+observations, we noted that an increasing number of emerging digital technologies are
+being adopted in museums which we hypothesised to be object-centric, and not
+designed with users in mind. That is to say, the design of digital exhibits is top-down
+and focused on objects rather more than the needs of visitors. The lack of user studies is
+confirmed with our informal interviews and discussions working with museum
+delegates. As such, it has become a priority to evaluate the adoption and use of digital
+technologies within China’s cultural institutions as a means to understand their digital
+well-being, and the distance from the success of fulfilling the ambitious plans which
+China has set forth for its key cultural sector. In the West, most evaluations have been at
+the device level, conducted within a single museum. These were studies aiming at depth
+of understanding of contents and how users have engaged with them via user interfaces.
+We believe that the breadth of evaluation of adoption and use is needed to understand
+and benchmark the overall health of digital technology adoption and use.
+Understanding the breadth of adoption and the use of digital technologies in
+museums will reveal challenges and opportunities in relation to China’s strategic
+national plans and the cultural creative industry, and China’s standing more globally.
+2.
+
+Background
+
+The use of technology in museums dates back to the late 1960s, during which the
+majority of systems were used for documentation and management of museum
+collections. Ross Parry’s [3] review of museum computing history shows the advent of
+communication role of museums in light of media theories [4,5] at the beginning of the
+1970s. In the decades to follow, the rise of information and communications
+technologies saw a paradigm shift in the museum agenda, the nature of museums
+transitioned from having “object centredness” to visitor experience [6,7]. This shift is a
+catalyst to a discourse on the relationship between newly developed technologies,
+museum interpretation and visitor experience.
+The onset of technological innovations (mobile and handhelds, multitouch screens,
+interactive 3D, Augmented Reality and Virtual Reality) and the increasingly creative use
+of such technologies have generated tremendous amounts of discussions. In the
+academia, applications of pioneering works continue to bring to light the transformative
+nature of such technologies for art and cultural heritage.
+Most published research works were project-oriented with an aim to achieve best
+practices for museums, i.e., evaluation of touch screens-based information kiosks in art,
+history and archaeology museums [8], [9]. There are research related to the qualitative
+evaluation of multitouch screens [10] and gaze analysis for stereo interactive 3D
+multitouch screens [11], digital augmentation device [12], and handheld guide device in
+a historic house [13]. These researches have leaned towards the advantages of digital
+installations, providing contextualised information, and enhanced interactions and
+engagement within exhibitions [9]. However, we should always be cautious with
+regards to the use of new technologies for cultural heritage [14].
+Published studies [9], [13], [12] for learning about visitor behaviours and for the
+evaluation of digital systems were mainly conducted in the West (see [13], [15], [16]).
+There have been very few studies for museums in the East. As far as we know, there
+have not been any formal studies of museums in China except for a single case study of
+an online Chinese digital science and technology museum [17]. We surveyed Mandarin© 2019. This manuscript version is made available under the CC-BY-NC-ND 4.0
+license http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Self-archived copy accepted for publication in: Ch’ng E., Cai S, Leow FT, Zhang T (2019) Adoption and Use of
+Emerging Cultural Technology in China’s Museums, Journal of Cultural Heritage
+
+language literatures and discovered that the majority of articles were either a
+discussion of the concept of what digital museums are [18][19], or have been proposed
+recommendations of how museums should deploy digital technologies for exhibitions
+[20,21]. These works mainly emphasised the advantages of digital exhibits and their
+affordances of interactivity and multi-sensory experience. Ironically, these deeper
+discussions of the advantages of digital technologies have not been evaluated with
+visitors in mind, and from the perspectives of users, with one exception [22]. Liu’s study
+surveyed the public use and understanding of digital exhibits within museums and
+revealed that only 17.14% respondents felt satisfied with the current installation of
+multimedia systems. Participants that were opposed to the current form of exhibits
+often have a preference for, and expectations of “interactive games”, “Virtual Reality”,
+“Scenario Reconstructions” and “Interactive Exhibit Design” which, according to our
+evaluation reported in this article have not been appropriately nor adequately adopted.
+3.
+
+Methodology
+
+Here, we designed a model for conducting a broad, cross-site evaluation of
+museums.
+3.1
+
+Sites and Museums
+
+Our study examines national and local museums across China (Figure 1). We
+conducted observations during the weekends so that our sample yields are greater.
+
+Figure 1. The map of our evaluation which covers 22 museum and sites across 15 different cities
+© 2019. This manuscript version is made available under the CC-BY-NC-ND 4.0
+license http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Self-archived copy accepted for publication in: Ch’ng E., Cai S, Leow FT, Zhang T (2019) Adoption and Use of
+Emerging Cultural Technology in China’s Museums, Journal of Cultural Heritage
+
+Table 1 is the corresponding sample size collected from each museum. Some
+museums do not have digital systems but are included as part of our study for the sake
+of recording their non-adoption of technologies. Others, such as the Palace Museum and
+the Shaanxi History Museum yielded zero samples as the digital systems were either
+under construction or had signs saying that they were still in development.
+Nevertheless, these do count as samples within our study as they can reveal insights
+when our datasets have been analysed.
+Date (2017)
+
+Location
+
+Museum
+
+Samples
+
+Mon 23 Jan –
+Taipei
+Wed 25 Jan
+
+National Palace Museum
+National Museum of History
+
+71
+22
+
+Fri 3 Feb
+
+Baoguo Temple
+
+0
+
+Wed 15 Feb –
+Shanghai
+Fri 17 Feb
+
+Shanghai Museum
+
+61
+
+Fri 10 Mar – Sun
+Beijing
+12 Mar
+
+National Museum of China
+The Palace Museum
+
+41
+0
+
+Fri 31 Mar – Tue Chengdu
+4 Apr
+Guanghan
+
+Jinsha Site Museum
+WuHou Shrine Museum
+Sanxingdui Museum
+
+62
+30
+28
+
+Fri 31 Mar – Nanjing
+Mon 3 Apr
+Suzhou
+
+Nanjing Museum
+Suzhou Museum
+
+86
+84
+
+Sat 8 April
+
+Yuyao
+
+Hemudu Site Museum
+Tianluoshan Site Museum
+
+0
+0
+
+Mon 1 May
+
+Ningbo
+
+Ningbo Museum
+
+62
+
+Fri 5 May – Sun
+Tianjin
+7 May
+
+Tianjin Museum
+Tianjin Natural History Museum
+
+23
+92
+
+Fri 5 May – Mon Shenzhen
+8 May
+Guangzhou
+
+Shenzhen Museum,
+Guangdong Museum
+
+41
+30
+
+Fri 12 May – Xi’an
+Mon 15 May
+Zhengzhou
+
+Emperor Qinshihuang's Mausoleum Museum,
+Shaanxi History Museum,
+Henan Museum
+
+0
+0
+0
+
+Zhejiang Museum (Gushan and Wulin)
+
+74
+
+Ningbo
+
+Sat 28 May –
+Hangzhou
+Sun 30 May
+Total
+
+15
+
+22
+
+807
+
+Table 1: A list of sites and museums and the sample sizes collected
+
+3.2
+
+Identifying Digital Systems for Observation
+
+Our criteria were that systems should be digital at very the least, with some form of
+interactivity in the user interfaces. Projection systems with narratives were part of our
+study. Videos such as documentaries were excluded. In our categorisation, we looked
+for the adoption of popular technologies listed below:
+
+© 2019. This manuscript version is made available under the CC-BY-NC-ND 4.0
+license http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Self-archived copy accepted for publication in: Ch’ng E., Cai S, Leow FT, Zhang T (2019) Adoption and Use of
+Emerging Cultural Technology in China’s Museums, Journal of Cultural Heritage
+
+•
+•
+•
+•
+•
+•
+•
+•
+
+Augmented Reality (AR) – any devices which augment virtual objects onto
+the real world using QR code, images, or spaces (e.g., HoloLens)
+Virtual Reality (VR) – any displays which completely immerses a user into a
+virtual world (e.g., headsets, CAVE), this includes 360 videos
+Projection Displays – displays which provide a narrative and are not only a
+video
+Interactive 2D – this includes 2D interactive systems and 1990s era
+multimedia systems or touch screens
+Multitouch2D - this includes multiuser, multitouch displays which supports
+at least two users within a single session of use.
+Interactive 3D – 3D interactive environments either with an interactive
+device (i.e., Mouse) or touch screens and gestures
+Mobile Exhibit – a mobile device (i.e., mobile phones, iPad, etc.)
+Miscellaneous – any unexpected interactive devices
+
+The last two elements of our categories ‘Mobile Exhibits’ and ‘Miscellaneous’ were
+not found within the sites and museums we have evaluated.
+3.3
+
+Quality of Digital Exhibits
+
+We designed a strategy for observing digital exhibits and their use based on both
+quantitative observations via the collection of data and qualitative analysis.
+We browsed through each exhibit and recorded the types, nature of contents, length
+of time needed to completely browse through contents (accessing links, reading texts,
+watching videos, etc.) and the quality of exhibits in term of their overall designs, user
+interfaces, navigation approaches and contents. Whilst the variable ‘Quality of Exhibit’ is
+a subjective evaluation, our team members have expertise in the design, development
+and use of many interactive systems. The quality of a system is determined by its overall
+look and feel, the effectiveness of its user interfaces in carrying out the intended tasks,
+the efficiency of navigating contents, the relevance of the contents to a particular
+exhibition, its retention power and the general experience accessing such systems
+which may include excitable contents.
+Biases were minimised via debriefing sessions and where needed, video captures of
+the systems were reviewed. The length of exhibits is important for judging how
+engaging the digital systems fared. For example, a system that was used for 1 minute
+that was originally designed for 15 minutes is probably not engaging, and is not used to
+the fullest.
+We noted that the popularity of an exhibit does depend on the popularity of the
+museum itself, and that the type of contents is as important as the popularity of the
+device. However, the fact that an exhibit is in demand does have important implications
+to the successful adoption of a piece of digital technology and its content design. This is
+an indirect means of observation for determining how popular an exhibit is.
+3.4
+
+Evaluating the Use of Digital Exhibits
+
+We kept our observations covert in order to not affect nor disturb the users. Apple
+iPads with a split screen (see Figure 2) were used for recording data.
+© 2019. This manuscript version is made available under the CC-BY-NC-ND 4.0
+license http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Self-archived copy accepted for publication in: Ch’ng E., Cai S, Leow FT, Zhang T (2019) Adoption and Use of
+Emerging Cultural Technology in China’s Museums, Journal of Cultural Heritage
+
+Figure 2. Observations and recording using a split screen iPad
+
+For each digital system, we recorded 30 samples of use or up to 2 hours of
+observations whichever comes first. A system yielding 30 samples in 30 minutes may be
+judged as a popular system. For some museums with more digital systems, we also
+added a rule to record only 20 samples or up to 1 hour of observations so that we cover
+more types of exhibits. Our total sample size for each museum counts towards our aim
+of evaluating the breadth of technology adoption across an entire country.
+3.4.1
+
+Digital Exhibits
+
+This section describes the variables associated with a single digital exhibit.
+Exhibit
+ID
+–
+coding
+for
+i3D.Chengdu.HeroModels, and etc.
+
+identity,
+
+e.g.,
+
+i2D.Beijing.Storytelling,
+
+Location of Exhibit – the name of the museum and the city.
+Length of Exhibit – the length of time it took to browse through all contents,
+including the length of a video, reading through texts, accessing links, interaction
+and etc.
+Relevance to Contents – the system’s use of contents and how it differs from the
+© 2019. This manuscript version is made available under the CC-BY-NC-ND 4.0
+license http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Self-archived copy accepted for publication in: Ch’ng E., Cai S, Leow FT, Zhang T (2019) Adoption and Use of
+Emerging Cultural Technology in China’s Museums, Journal of Cultural Heritage
+
+subject. If a system introduces superfluous, unnecessary contents or interfaces that
+do not contribute to the learning of the contents, the system is judged as not
+relevant (1), a score of 5 has highly relevant contents, but the contents may be
+purely informational.
+Quality of Exhibit – the quality of the exhibit in terms of its overall design, user
+interface, system navigation, and 2D/3D contents.
+Info – used for recording our thoughts and comments on the digital system.
+3.4.2
+
+User Demographics
+
+In cases where visitor groups were observed, the sex of the dominant person is
+recorded. Age is difficult to judge without deliberately asking the user which we strictly
+refrained from. We therefore binned the age range: <=12, 12-17, 18-24, 25-34, 35-44,
+45-54, 55-64, 65-74, >=75. As our users are predominantly Chinese visitors, the age of
+the dominant person has not been difficult to estimate.
+3.4.3
+
+Social Interaction Around Digital Exhibits
+
+The category of data records the social aspects of the use of a digital exhibit.
+Family – is ticked if the group appears to be a family, which are usually parents and
+children and occasionally relatives as determined by conversations.
+Discussion – a binary value which records any discussions taking place.
+Teaching – if teaching and learning took place between the members of the group.
+Guided Tour – is ticked if there is a tour guide leading a group, usually a large group
+of more than 5 persons.
+Photo Taking – is ticked if the users took photos of the exhibit.
+3.4.4
+
+Engagement and Interaction
+
+This section describes user interactions and engagement with an exhibit.
+Description – a record of occurrences during user interactions with as many details
+as possible for verifying our observations during our debriefing sessions. This
+includes discussions, user interactions and observed group behaviour.
+Is Crowded – the space around the exhibit is crowded.
+Queued – for describing situations in which a person intends to use the exhibit
+queued earlier and subsequently used the exhibit.
+Attracts Queue – is observed when a person uses the exhibit and attracts other
+users to watch or wait.
+© 2019. This manuscript version is made available under the CC-BY-NC-ND 4.0
+license http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Self-archived copy accepted for publication in: Ch’ng E., Cai S, Leow FT, Zhang T (2019) Adoption and Use of
+Emerging Cultural Technology in China’s Museums, Journal of Cultural Heritage
+
+Time at Exhibit – records the length of time a user spent on the exhibit.
+Engagement/Interface – is a subjective observation of a user's or groups’
+engagement with the content/interface. The description variable provided the
+details but this variable ranks between 1 being weak and 5 as strong engagement.
+The TimeAtExhibit variable does not matter here; we were looking for deeper
+engagement with contents.
+We decided that a combined measure is important for data analysis:
+0: the user did not touch the interface
+1: the user touches the interface and quickly moves away
+2: the user browses the contents but without further, deeper engagement
+3-4: intermediate engagement
+5: full engagement with contents, the user has accessed most aspects of the interface,
+reading into contents and engaging deeply with multiple contents within the system,
+e.g., reading texts, studying pictures, watching videos, interacting with the digital
+objects during the session.
+3.5
+
+Data Processing and Analysis
+
+We analysed our data using both R statistics for quantitative analysis and NVivo for
+thematic analysis [23] across our datasets. We identified trends and patterns from
+visitor engagements, and explored the reasons behind the trends.
+4.
+
+Findings
+Here, we present the analysis and interpretation of our findings.
+
+4.1
+4.1.1
+
+Quantitative Data Analysis
+Digital System Types and Quality
+
+Figure 3 shows the distribution of categories. The chart demonstrated that
+contemporary interactive 2D exhibits from the 1990s, the ‘Multimedia’ era, were the
+largest group of technologies at 47.2%. Projection systems carrying narratives and
+interactivity were the second largest groups at 22.2%. Multitouch 2D, a technology
+emerging from 2010 stood at 11.1%, equivalent to interactive 3D, also 11.1%. There
+was very little adoption of Virtual Reality (5.6%) and Augmented Reality (2.8%). The
+chart demonstrated a small but emerging adoption of more advanced interactive
+systems, indicating that museums in China are transitioning into a new era.
+The ranking of the quality of over 36 exhibits yielded a graph in Figure 3 (right). The
+quality follows that of a normal distribution. Although slightly skewed and tending
+towards high quality on average, most systems ranked in the medium quality.
+
+© 2019. This manuscript version is made available under the CC-BY-NC-ND 4.0
+license http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Self-archived copy accepted for publication in: Ch’ng E., Cai S, Leow FT, Zhang T (2019) Adoption and Use of
+Emerging Cultural Technology in China’s Museums, Journal of Cultural Heritage
+
+Figure 3. Digital systems and overall quality of exhibits.
+
+We categorised the contents of these digital exhibits into three types:
+1) Game: game-based exhibits such as jigsaw puzzles, linking games and Microsoft
+Kinect games, and etc.
+2) Informational: introduction to the museums and its collections with text, images
+and videos as contents
+3) Narratives: exhibits presenting narratives and storytelling
+Figure 4 shows that 50% of the 36 exhibits we have observed were informational.
+Exhibits with narratives are the second largest group at 31%. Only 19% of exhibits
+provided are game-based. In terms of the quality, most ‘Information’ systems ranked
+medium and lower. Exhibits with games and narratives ranked medium but are ranked
+as having high qualities.
+
+© 2019. This manuscript version is made available under the CC-BY-NC-ND 4.0
+license http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Self-archived copy accepted for publication in: Ch’ng E., Cai S, Leow FT, Zhang T (2019) Adoption and Use of
+Emerging Cultural Technology in China’s Museums, Journal of Cultural Heritage
+
+Figure 4. Distribution of contents of digital exhibits and their overall quality ranking.
+
+4.1.2
+
+Demographics and Engagement
+
+Figure 5 illustrates our count of participant group sizes. 253 samples are single
+users, followed by 341 pairs who were not necessarily family units. The next two larger
+samples were 3 in a group (145 samples) and four in a group (41 samples), the graph
+ended with a long tail of larger group sizes.
+
+Figure 5. Observed participant group size plotted in descending order.
+
+© 2019. This manuscript version is made available under the CC-BY-NC-ND 4.0
+license http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Self-archived copy accepted for publication in: Ch’ng E., Cai S, Leow FT, Zhang T (2019) Adoption and Use of
+Emerging Cultural Technology in China’s Museums, Journal of Cultural Heritage
+
+Figure 6. Sex and Age Groups (Top Left), Observed Age groups and Level of Engagement (Top
+Right), Observed Engagement and Quality of Exhibit (Bottom Left), Engagement and Group Size
+(Bottom Right).
+
+In the Sex and Age group graph (Figure 6), there were 380 (47.09%) female users
+and 427 (52.91%) male users among which 209 are children and teenagers who were
+below the age of 17 (179 below 12 and 30 between 13 and 17). This is a significant
+number at 25.90% of the total sample. The bar to the far left shows a high proportion of
+children. The bar for children under 12 on the Male group shows us that there are a
+higher proportion of male children.
+In the Age and Engagement chart (top right), the segregation of age and engagement
+seems to indicate that a larger proportion of users were not very engaged with the
+system (engagement <3). Younger people tended to be more engaged with digital
+contents although the level of engagement appears to average around the value of 3.
+The box plot in Figure 7 indicated that younger people tended to be more engaged
+with digital systems than those who were above the age of 34. However, the level of
+engagement seems to peak at an average of between 2 and 3. This may indicate that the
+digital exhibits on display have not very engaging.
+
+© 2019. This manuscript version is made available under the CC-BY-NC-ND 4.0
+license http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Self-archived copy accepted for publication in: Ch’ng E., Cai S, Leow FT, Zhang T (2019) Adoption and Use of
+Emerging Cultural Technology in China’s Museums, Journal of Cultural Heritage
+
+Figure 7. The box plot of age groups and the level of engagement.
+
+4.1.3
+
+Visitor Access Time
+
+Figure 8 measures the length of access of the digital contents and the actual visitor
+time spent on that exhibit (top left), visitor access time and length of the exhibits (top
+right) and observed visitor engagement and actual time spent at the exhibit (bottom).
+The graph on the top left compares the actual length of the exhibit if a user were to
+navigate through all the contents as compared to the actual time spent on exploring
+contents. There were outliers (>60mins), but the average access time is at a mean of
+μ=2.67, a value that falls far short of the systems and contents originally designed to
+engage with visitors.
+We analysed visitor access time with a more detailed investigation of the length of
+exhibit. These were binned into the range of 8 bins from 0.5sec to 30min (top right
+graph). The plot indicated that users tended to spend more time on exhibits with a
+length of 20 minutes or less, including the outliers. We also measured the level of
+engagement in comparison with the time that users have spent at the exhibits (0.5sec to
+60min). The range of time between 2 to 20 minutes appears to be the most engaging
+overall, with 4 minutes being the highest overall.
+
+© 2019. This manuscript version is made available under the CC-BY-NC-ND 4.0
+license http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Self-archived copy accepted for publication in: Ch’ng E., Cai S, Leow FT, Zhang T (2019) Adoption and Use of
+Emerging Cultural Technology in China’s Museums, Journal of Cultural Heritage
+
+Figure 8. Length of time required to access all contents in the exhibits and actual visitor time spent
+on the exhibits (top left), visitor access time (top right), observed visitor engagement and time at
+the exhibit (bottom).
+
+4.1.4
+
+Predictors for User Demographics, Groups and Access Time
+
+We conducted logistic regression to test the predictors of user demographics and
+the social aspects of using an exhibit using categorical variables (1=true, 0 = false) –
+user is an adult (Adult), family units (Family), discussions taking place (Discussions),
+sex, space is crowded (Iscrowded), use of exhibit attracts a queue (AttractsQueue), and
+how long the queuing user uses the system eventually (Queued). We used access time
+(retention) as predictors for determining the likelihood of our categorical variables.
+
+© 2019. This manuscript version is made available under the CC-BY-NC-ND 4.0
+license http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Self-archived copy accepted for publication in: Ch’ng E., Cai S, Leow FT, Zhang T (2019) Adoption and Use of
+Emerging Cultural Technology in China’s Museums, Journal of Cultural Heritage
+
+Figure 9. Predictors of access time and visitor demographics and groups.
+
+Predictors of adult visitors and access time has a p-value of p<0.0001 with the time
+spent using the exhibit being negative, indicating that adults on average tended to
+spend less time than children and teenagers (age<18). The summary coefficients
+indicated that for every 1 unit change in TimeAtExhibit, there is a log odds of the user
+not being an adult by -0.05. Converting this into a scale in view of access time, for a unit
+increase in the variable TimeAtExhibit means that the odds of not being an adult is
+increased by a factor of 0.95.
+Predictors of family visitors and access time is significant with p<0.05 with the time
+spent at the exhibit being positive indicating that family visitors tended to spend more
+time at the exhibit. The summary coefficients indicated that for every 1 unit change in
+TimeAtExhibit, there is a log odds of the likelihood that the visitors are a family by 0.04.
+A unit increase in the variable TimeAtExhibit means that the odds of the visitors being a
+family is increased by a factor of 1.04. This summarises that family units tended to
+spend more time at the exhibit.
+© 2019. This manuscript version is made available under the CC-BY-NC-ND 4.0
+license http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Self-archived copy accepted for publication in: Ch’ng E., Cai S, Leow FT, Zhang T (2019) Adoption and Use of
+Emerging Cultural Technology in China’s Museums, Journal of Cultural Heritage
+
+Predictors of discussions occurring between visitors and the length of access time
+has a p-value of p<0.001 indicating that discussions tended to lead to more access time
+at the system. The summary coefficients indicated that for every 1 unit of change in
+TimeAtExhibit, there is a log odds of the likelihood that discussions have taken place by
+0.02, a unit increase in the variable TimeAtExhibit contributed to the odds of
+discussions taking place being increased by a factor of 1.10.
+Predictors of discussions occurring between members of the same group and the
+number of people in that group is significant at p<0.0001 indicating that the number of
+people in a group tended to lead to more discussions when using the system. The
+summary coefficients indicated that for every 1 unit of change in NumberOfPeople,
+there is a log odds of the likelihood that discussions will take place by 0.31. A unit
+increase in the variable NumberOfPeople means that the odds of discussions taking
+place will be increased by a factor of 1.36.
+We also discovered that male and female users tended to have equal time accessing
+digital exhibits. Crowded spaces do not influence nor affect the use of digital exhibits.
+The quality of a system does not prolong its use either. This is probably an issue with
+systems not having appropriate retention power. Predictors on a person taking the
+effort and time to queue up and the queuing person’s subsequent use of the system is
+not significant, indicating that whilst a system may be attractive, its ability to retain
+users is weak.
+4.2
+
+Factors Affecting Digital Exhibits and Sample Size
+
+We identified four factors which can negatively affect the use of digital exhibits, one
+of which relates to the popularity of the museum. Despite the quality of an interactive
+3D system, the Lacquer Ware gallery attracted only 2 users in two hours, even on a
+weekend. The location of the digital exhibit also affects its use, e.g., an interactive 2D
+exhibit which allows visitors to create calligraphy works attracted only 3 visitors in two
+hours of observation as it was located at a dark, obscured corner at the immediate right
+side of the entrance, and the screen was embedded in an artificial stone tablet.
+Technological limitations and user expectations may also affect exhibit use. For example,
+a jigsaw puzzle exhibit which easily attracted a crowd, which collectively attempted to
+complete the game. The crowd thought that the system supports multitouch. Over 30%
+of users left after realising that the system does not support multiuser interaction. Other
+technical flaws included the sensitivity of, or non-responsive touch screens, blank
+homepages, and latency issues. The fourth factor was ergonomics. Some systems had
+intriguing contents meant for children, but the height of the exhibits was beyond the
+reach of children, nor were they designed for those with certain disabilities.
+4.3
+
+Qualitative Explanation of Observed Phenomena
+
+Our analysis indicated that family groups with children tended to spend more time
+at digital exhibits. We conducted a qualitative analysis to acquire a deeper
+understanding of the given phenomenon, and categorised their behaviours as follows:
+1) Positive Communication: user discusses amongst themselves, and/or teaches
+them how to use, and/or interacted with the system together with them, the
+behaviour is regarded as having a positive communication
+2) Negative Communication: if the user is interrupted by their
+parents/children/friends/partners,
+and/or
+did
+not
+get
+© 2019. This manuscript version is made available under the CC-BY-NC-ND 4.0
+license http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Self-archived copy accepted for publication in: Ch’ng E., Cai S, Leow FT, Zhang T (2019) Adoption and Use of
+Emerging Cultural Technology in China’s Museums, Journal of Cultural Heritage
+
+supported/encouragement when necessary, and/or was forced to leave, the
+behaviour is regarded as having a negative communication.
+3) No Communication: if the user did not interact with their
+parents/children/friends/partners, and/or is left alone, this is regarded as
+having no communication.
+The frequency of occurrence of ‘Positive Communication’ among family visitors
+outnumbered those with two or more adult visitors (Table 6 and 7), although the
+percentage of ‘Positive Communication’ among family visitors is slightly lower than that
+of adult visitors. We observed that ‘Positive Communication’ between adult visitors
+were discussions and collaborations whilst family visitors had more teaching and
+learning activities. These factors did prolong the visits.
+Theme
+Frequencies
+Percentage
+
+Positive
+Negative
+No
+TOTAL
+Communication Communication Communication
+131
+50
+88
+269
+48.7%
+18.6%
+32.7%
+-
+
+Table 6. Frequency of the occurrence of ‘Positive Communication’ and ‘Negative Communication’
+among family visitors
+
+Theme
+Frequencies
+Percentage
+
+Positive
+Negative
+No
+TOTAL
+Communication Communication Communication
+119
+6
+101
+226
+52.6%
+2.7%
+44.7%
+-
+
+Table 7. Frequency of the occurrence of ‘Positive Communication’ and ‘Negative Communication’
+among adult visitors
+
+‘Positive Communication’ occurs when children discovered an exhibit and invited the
+parents to explore with them. They also asked questions about the exhibit’s use and/or
+the contents of the exhibit. We also noted that teenagers were teaching their
+grandparents. This suggests that the younger generation tended to be more curious.
+They are more attracted to and motivated by digital exhibits. This explained why
+younger visitors were more engaged with digital exhibits as compared to adult visitors,
+even though their level of engagement were rated between 2 and 3.
+We observed that mutual communication was infrequent between adult visitors.
+There were only 6 cases within the ‘Negative Communication’ category in which adult
+visitors visibly forced their friends or partners to leave. Amongst the 6, questions were
+ignored when friends or partners initiated a conversation or asked for help. There were
+50 cases of ‘Negative Communication’, in which parents forced their children to leave, or
+gave negative responses when guidance was needed. The common reason as observed
+was that children were rushed from exhibits so that they could move on to the physical
+artefacts. In China at least, parents may regard physical artefacts and texts as more
+effective ways of learning than digital exhibits. We observed an example where a father
+commented to his son intending to prolong his stay to watch a projection that ‘you will
+not remember the contents even though you have watched it’. This simple case may
+© 2019. This manuscript version is made available under the CC-BY-NC-ND 4.0
+license http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Self-archived copy accepted for publication in: Ch’ng E., Cai S, Leow FT, Zhang T (2019) Adoption and Use of
+Emerging Cultural Technology in China’s Museums, Journal of Cultural Heritage
+
+suggest that parents were doubtful of the pedagogical effectiveness of digital exhibits,
+thinking of digital technologies as a distraction rather than as a means for teaching and
+learning.
+5.
+
+Discussions
+
+Digital technology is a key factor in the creation of value for both society and the
+creative economy on many levels. The use of digital technology however, is not separate
+from the culture of use. Digital technology depended on culture and its use affects and
+shapes culture to a greater extent. The adoption and use of digital technologies
+therefore must be studied. In this article, we report on our investigation of the state of
+well-being of the adoption and use of cultural technologies within museums, an
+important sector within the creative cultural industry where knowledge is stored and
+contextualised at the juncture between China’s two Five Year Plans. We believe that a
+broad evaluation exercise covering important sites scattered across large geographical
+regions will yield samples worthy of this cause, for a broad evaluation can provide a
+superior overview in contrast to a more focused evaluation often conducted at the
+device level or within a single institution.
+In our evaluation, we first categorised the types of cultural technologies we have
+observed. In the study, we saw a transition towards newer types of interactive exhibits
+which are experienced-based, e.g., VR. We also noted storytelling and games in our data.
+Most exhibits however, are still largely in the informational category. Quality ranking
+leaned towards the medium range with very few high-quality systems in use. It is
+difficult to gauge how far China’s museums have developed as we did not have
+snapshots of historical systems from the past. This study therefore, will provide a
+historical snapshot for future studies. In terms of demographics, we have seen more
+couples, i.e., 2 persons accessing digital exhibits, followed by single visitors and three in
+a group, and an equal distribution of groups across the sample data. There was a
+balanced visitor population between the sexes. Age groups tended to include a large
+number of children, and those who were between 18 to 33 years of age. There were, not
+surprisingly, a lower number of teenagers even when our observations were mostly at
+the weekends.
+In terms of age and engagement with digital exhibits, children tended to engage
+more with digital exhibits, together with those in the 25 to 33 age groups. This was
+followed by those in the age range of between 18 to 24. The level of engagement tended
+towards an average of 2, when 5 is the highest level of engagement. Younger people
+tended to be more engaged with digital contents. Those in the age group of between 2534 are the second most engaged overall, with those between 18 to 24 being moderately
+engaged.
+The measure of engagement and the quality of exhibits appears to have an equal
+distribution. They are clustered around the level of engagement of around 3. There
+were very few low-quality systems, as contents and interfaces are largely standardised.
+We felt that there was little risk of bad contents or exhibits if unconventional systems
+are not adopted.
+As expected, single users, and groups of 2 or 3 persons were distributed across the 5
+levels of engagement. They seem to lean towards lower averages. Visitors in groups of
+threes ranked average in a normal distribution. Single users and groups of twos were
+more irregular, skewed towards lower level of engagements. We also observed that
+© 2019. This manuscript version is made available under the CC-BY-NC-ND 4.0
+license http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Self-archived copy accepted for publication in: Ch’ng E., Cai S, Leow FT, Zhang T (2019) Adoption and Use of
+Emerging Cultural Technology in China’s Museums, Journal of Cultural Heritage
+
+family visitors with children tended to spend more time at exhibits than adult visitors.
+Our observation of positive communication within groups related to discussions and
+collaborations were higher in the adult groups. However, family visitors, i.e., those with
+children had teaching and learning on top of discussions and collaborative exploration.
+Parent was teaching their children how to use the user interfaces and access contents.
+Younger children were also observed to guide their parents or grandparents in the use
+of digital exhibits. This explained the lengthier time observed in household groups. We
+have also observed that most adult visitors do not communicate. Positive
+communication across all age groups is usually initiated by the younger visitors (18 and
+under), with teenagers teaching their grandparents or parents the use of the digital
+exhibits. This explained why younger generations tended to be more engaged with the
+exhibits. More negative observations were that parents were seen to steer their
+children away from digital exhibits. This perhaps can be attributed to a stereotypical
+view of digital technology as a distraction. Children were frequently rushed through
+digital exhibits.
+In terms of visitor access time, we have observed that users tended to spend more
+time on exhibits with a length of 20 minutes. This included the outliers. We also
+measured the level of engagement in comparison with the actual length of time that
+users spent at the exhibit (0.5sec to 60min). The range of time between 2 to 20 minutes
+appeared to be the most engaging overall, with 4 minutes being the highest overall.
+We applied logistic regression to look at predictors for time spent on exhibits and
+found that adults tended to spend less time on digital systems while teenagers and
+children were spending more time. Family groups are the second strongest predictor of
+time spent on exhibits as discussed above. Discussions contributed to more time spent
+on exhibits. The number of people within groups is the strongest predictor for
+discussions taking place. Differences in the sexes, and whether an exhibit is crowded
+and does attract queues were not predictors of time spent on exhibits.
+We also discovered negative factors affecting the use of digital exhibits. Whilst the
+quality and content could attract visitors, the popularity of the museum, visibility of the
+exhibits and technical flaws all contributed to a low frequency of access.
+In conclusion, our analysis suggests that China’s museums overall, are in an early
+transitional period in terms of the adoption of, and the development of cultural
+technology appropriate for visitor access. China’s museums were quick to adopt and
+develop new technologies in the interactive 3D, VR and AR categories. Whilst this is a
+positive development in view of the initiation of the 13th Five Year Plan, which will lead
+towards innovation, there certainly are opportunities for improvement. There is a
+general observation that systems are not designed with visitors in mind and that
+museums are largely object-centred rather than visitor-centred. This is an indication
+that digital technologies have not been properly adopted and, as a consequence its use
+was limited as far as cultural technologies are concerned. The transformative nature of
+digital technologies may not have been fully realised in China, but China’s quick
+adoption and acceptance of digital technology will be a factor in the highly successful
+development of cultural technologies in the future.
+Acknowledgement
+The authors wish to express gratitude to the AHRC Centre for Digital Copyright and IP
+Research in China and the Ningbo Science and Technology Bureau for supporting the
+© 2019. This manuscript version is made available under the CC-BY-NC-ND 4.0
+license http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Self-archived copy accepted for publication in: Ch’ng E., Cai S, Leow FT, Zhang T (2019) Adoption and Use of
+Emerging Cultural Technology in China’s Museums, Journal of Cultural Heritage
+
+project (Grant Reference: AH/N504300/1).
+References
+[1]
+
+[2]
+[3]
+[4]
+[5]
+[6]
+[7]
+[8]
+[9]
+[10]
+[11]
+[12]
+[13]
+
+[14]
+[15]
+[16]
+
+Ministry of Culture of the People’s Republic of China, Cultural Technology
+Innovation Plan during 13th Five Year period from Ministry of Culture (文化部“十三五
+”时期文化科技创新规划), 2017.
+The State Council of the People’s Republic of China, 13th Five Year Planning for
+Cultural Development and Reform, 2017.
+R. Parry, Digital Heritage and the Rise of Theory in Museum Computing, in: R. Parry
+(Ed.), Museums a Digit. Age, Routledge, Oxon, 2010: pp. 603–625.
+G. MacDonald, Change and challenge: museums in the information society, in: L.
+Karp, C.M. Kreamer, S.D. Lavine (Eds.), Museums Communities Polit. Public Cult.,
+Smithsonian Press, Washington, 1992: pp. 158–181.
+E. Hooper-Greenhill, Museums and communication: an introductory essay, in: E.
+Hooper-Greenhill (Ed.), Museum, Media, Messag., Routledge, London, 1995: pp. 1–
+12.
+H.S. Hein, The Museum in Transition: A Philosophical Perspective, Smithsonian,
+2014. https://books.google.co.uk/books?id=tqRqBgAAQBAJ.
+Lynn D. Dierking, J.H. Falk, Audience and accessibility, in: S. Thomas, A. Mintz
+(Eds.), Virtual Real Media Museum, American Association of Museums, Washington,
+1998: pp. 57–70.
+D. Vom Lehn, C. Heath, Accounting for New Technology in Museum Exhibitions, Int.
+J. Arts Manag. 7 (2005) 11–21. http://www.jstor.org/stable/41064849.
+M. Economou, The Evaluation of Museum Multimedia Applications: lessons from
+research, in: R. Parry (Ed.), Museums a Digit. Age, Routledge, Oxon, 2010: pp. 523–
+542.
+E. Ch’ng, The Mirror Between Two Worlds: 3D Surface Computing Interaction for
+Digital Objects and Environments, in: Digit. Media Technol. Virtual Artist. Spaces,
+IGI Global, Hershey, PA, 2013.
+E. Ch’ng, N. Cooke, User study on 3D multitouch interaction (3DMi) and gaze on
+surface computing, 2015. doi:10.1007/978-3-319-20898-5_41.
+S.A. Yoon, K. Elinich, J. Wang, C. Steinmeier, J.G. Van Schooneveld, Learning
+Impacts of a Digital Augmentation in a Science Museum, Visit. Stud. 15 (2012) 157–
+170. doi:10.1080/10645578.2012.715007.
+R.E. Grinter, P.M. Aoki, M.H. Szymanski, J.D. Thornton, A. Woodruff, A. Hurst,
+Revisiting the visit:, in: Proc. 2002 ACM Conf. Comput. Support. Coop. Work CSCW ’02, ACM Press, New York, New York, USA, 2002: p. 146.
+doi:10.1145/587078.587100.
+E. Ch’ng, Special Issue on Virtual Heritage: Cultural Agents, Environments, and
+Objects Guest Editor’s Introduction, Presence Teleoperators Virtual Environ. 24
+(2015) iii–vii. doi:10.1162/PRES_e_00228.
+A. Lewis, What can we learn from watching groups of visitors using digital museum
+exhibits?, Victoria and Albert Museum. (2014). http://www.vam.ac.uk/blog/digitalmedia/digital-exhibits-observational-research (accessed August 1, 2017).
+E. Hornecker, M. Stifter, Learning from interactive museum installations about
+interaction design for public settings, in: Proc. 20th Conf. Comput. Interact. Spec.
+Interes. Gr. Aust. Comput. Interact. Des. Act. Artefacts Environ. - OZCHI ’06, ACM
+Press, New York, New York, USA, 2006: p. 135. doi:10.1145/1228175.1228201.
+
+© 2019. This manuscript version is made available under the CC-BY-NC-ND 4.0
+license http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Self-archived copy accepted for publication in: Ch’ng E., Cai S, Leow FT, Zhang T (2019) Adoption and Use of
+Emerging Cultural Technology in China’s Museums, Journal of Cultural Heritage
+
+[17]
+[18]
+[19]
+[20]
+[21]
+[22]
+
+[23]
+
+S. Dong, X. Wang, S. Xu, G. Wu, H. Yin, The development and evaluation of Chinese
+digital science and technology museum, J. Cult. Herit. 12 (2011) 111–115.
+doi:10.1016/j.culher.2010.10.003.
+T. Yin, Digital Museum in “New Museology” Context, Zhongguo Bowuguan (China
+Museum). 4 (2005) 36–40.
+G. Chen, Digital Museum Concept, Feature and Development Model Analysis (数字博
+物馆概念、特征及其发展模式探析), Zhongguo Bowuguan (Chinese Museum). 3
+(2007) 88–93.
+Y. Zheng, The Application and Planning Requirements of Multimedia Technologies in
+Museum Display (多媒体技术在博物馆中的展示), Cult. Artefact World (Wenwu
+Shijie). 4 (2008) 65–67.
+Y. Liu, The Reasonable Use of Digital Media Technologies in Museum Displays (数字
+媒体技术在博物馆展示中的合理应用), Fudan University, 2012.
+H. Liu, X. Zhu, Y. Gao, Museum Digitisation Construction Analysis - Survey into the
+Public Perception and Use of Museum (博物馆数字化建设探析——公众对博物馆的认
+知和使用状况调查), in: China Research Institute for Science Popularization (Ed.),
+Proc. 19th Natl. Conf. Theor. Study Sci. Pop. Int. Forum Commun., Popular Science
+Press, Beijing, 2012: pp. 343–349.
+G. Guest, K.M. MacQueen, E.E. Namey, Applied Thematic Analysis, SAGE
+Publications, Inc, 2012.
+
+© 2019. This manuscript version is made available under the CC-BY-NC-ND 4.0
+license http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+

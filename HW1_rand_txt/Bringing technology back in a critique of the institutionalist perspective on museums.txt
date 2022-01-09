@@ -1,0 +1,652 @@
+84
+
+Bringing technology back in: a critique of the institutionalist
+perspective on museums
+Nicholas J. Rowland*
+Fabio Rojas*
+University of Indiana
+
+Abstract
+Sociologists that study organizations often analyze the museum from a cultural
+perspective that emphasizes the norms of the museum industry and the larger
+society. We review this literature and suggest that sociologists should take into
+account the technical demands of museums. Drawing on insights from social
+studies of technology, we argue that museums are better understood as
+organizations that must accomplish legitimate goals with specific technologies.
+These technologies impact museums and the broader museum field in at least
+three ways: they make specific types of art possible and permit individuals and
+organizations to participate in the art world; they allow actors to insert new
+practices in museums; and they can stabilize or destabilize museum practices.
+We illustrate our arguments with examples drawn from the world of contemporary
+art.
+Key words: sociology, technology, organizations, new institutional theory
+Introduction
+Sociologists have been interested in art museums because they illustrate how institutional
+environments affect an organization’s behaviour and internal social structure. As aesthetic
+gatekeepers, museums are constantly involved in collective debates over what is legitimate art.
+Howard Becker (1982), for example, raised this point in his seminal study, Art Worlds, when he
+pointed out that museum professionals determine what ‘should’ be shown in a gallery through
+interactions with outsiders, such as other museum directors, artists, critics, and collectors. Law,
+industry standards, and informal social norms also shape museum practice by providing
+templates for practice.
+For these reasons, sociologists, like Becker, believe that museums are tightly linked with
+their institutional environment. That is, museum staff members pay close attention to social
+norms and industry practices. Therefore, the collection and display of art is determined by
+currents and trends in the art world. Sociologists focusing on museums and museologists have
+usually adopted some version of Becker’s view. Sociological studies in the influential ‘new
+institutionalism’ school have tended to explain a museum’s mission and internal organization
+in terms of how the museum relates to and accommodates the greater museum industry (e.g.,
+DiMaggio 1987, 1991). Museologists, though they rarely cite sociological research, often pitch
+their arguments in similar terms. Museum practices are strongly affected by industry standards
+and the norms developed by art professionals (e.g., Carbonell 2004, Morris 2003).
+Emphasizing art world practices draws attention from other critical aspects of museums,
+such as a museum’s physical needs, which leads to this paper’s central question: What role do
+technologies have in the operation of museums and the broader art world? How do technologies
+and social norms interact in cultural organizations such as art museums?
+We are motivated by the simple observation that museums require social and physical
+infrastructures. On the one hand, museums survive because they are built on a social
+infrastructure composed of individual actors and social norms: artists, critics, financial backers,
+museum and society, July 2006. 4(2) 84-95 © 2006, Nicholas Rowland, Fabio Rojas ISSN 1479-8360
+
+museum and society, 4(2)
+
+85
+
+lawyers, conservationists, professional standards, and a vision for what art is worthy of
+collection and preservation. On the other hand, museums also require a physical infrastructure:
+buildings, air conditioning, humidity regulators and other tools for installing, displaying and
+preserving art. These are not unrelated issues. Social and technical aspects of museums
+routinely intersect. For example, the design of a museum’s physical building can be interpreted
+as a set of preferences that suggest a vast array of values like what art is deemed worthy of
+preservation. A building with large movable walls suggests that architects and trustees foresaw
+the need for installation art spaces. This example illustrates how technology (a specific floor
+plan) intersects with cultural values (the legitimacy of installation art), which is a prominent point
+made in the architectural design literature on museums (Crosbie 2003).
+This paper makes the following arguments. First, sociologists and museologists have
+developed an analysis of museums focusing mostly on institutional environments, with little
+attention paid to technologies. Second, museum research should take into account how
+technology and social norms interact. Specifically, we argue that (a) technologies allow
+museums to accomplish goals set by the art world profession – they enable social practices; (b)
+technologies provide an opportunity for politics – technologies create opportunities for interested
+parties to assert their demands in museums; and (c) a technology can stabilize, or de-stabilize,
+a museum or museum practices.
+In the remainder of this paper, we briefly describe the ‘new institutional’ school of
+organizational analysis, which has defined prior sociological research on museums. We then
+describe how museum studies have implicitly adopted the new institutional theoretical framework.
+After we make a case for a closer look at technology, we describe how technologies impact
+museums with examples drawn from the secondary literature on contemporary art. In the
+concluding section, we indicate directions for future research.
+How sociologists see museums
+Sociologists think that organizations have technical and institutional systems. By this logic,
+museums are no different – the networked patterns of collective behaviour otherwise known as
+a museum is thought to be built around tools and processes that result in task completion (the
+technical system), but museums must also honour industry-specific norms of appropriate
+conduct that make them appear legitimate and competent to peer organizations (the institutional
+system).
+This analysis has led scholars in the ‘new institutionalism’ school to view organizations
+as existing on a continuum where ‘technical’ aspects of an organization are relative to
+‘institutional’ aspects (Meyer and Rowan 1991). For example, some organizations pursue welldefined and physically demanding goals – such as auto-manufacturing – and behaviour in these
+firms is strongly shaped by their technical system rather than their institutional system
+(Thompson 1967). In contrast, other organizations – like universities or art museums – are
+thought to have little or no technical system. In these organizations, technologies are expected
+to have little, inconsistent or no effect on organizational behaviour and success because
+practices and routines are tailored to the organization’s institutional system. For organizations
+like museums, scholars treat technologies primarily as symbolic objects that transmit and
+reinforce norms among peer organizations and their respective museum management and
+curators rather than as tools for completing museum-specific tasks like the careful conservation
+of paintings or historical woodwork (DiMaggio 1987, 1991).
+The social practices within a shared organizational environment, like the museum
+industry, are called ‘institutions’ by organizational scholars and they play a central role in how
+sociologists analyze museums. The hallmark of the ‘new institutional’ school is the relentless
+focus on how life inside organizations is regulated by stable social practices that define what
+is considered legitimate in the broader external environment in which an organization operates
+(DiMaggio 1987, 1991, DiMaggio and Powell 1991b, Meyer and Rowan 1991, Scott 2000). The
+influence of institutions on organizational behaviour is supposedly most obvious in organizations
+like museums – organizations that new institutional scholars label as ‘highly institutional and
+weakly technical’ (Scott and Meyer 1991: 124). By this, scholars usually mean the following: that
+the organization’s leadership is highly sensitive to the expectations and standards of its
+
+86
+
+Nicholas J. Rowland, Fabio Rojas: Bringing technology back in...
+
+industry; that the organization of work within the bureaucracy depends on broader ideologies
+and cultural scripts found in modern societies; that managers are likely to copy the practices of
+other organizations, especially high-status organizations; that professional groups are the
+arbiters of organizational legitimacy; that rational organizational myths and rules structure work
+practices; and that the ultimate performance of an organization’s set of tasks does not depend
+much on tools like assembly lines, computers, and the like (see also DiMaggio and Powell
+1991a, DiMaggio and Powell 1991b).
+In this line of research, museums have become a kind of classic case for sociologists
+to make arguments about the potency of institutions (Alexander 1996, DiMaggio 1987,
+DiMaggio 1991, Zolberg 1981). Because museums primarily deal with aesthetic judgments, the
+role of technology in museums is thought to be minimal. What happens inside museums is
+determined by how insiders respond to art world trends and changing political environments.
+Museum practice reflects the disputes art world participants have over the proper role of
+museums. Technologies are designed to satisfy industry standards or are co-opted to satisfy
+those standards. Technologies, by themselves, have little effect on curatorial decisions.
+This perspective is useful and speaks directly to an obvious feature of the art world: the
+ability of art world elites to determine trends throughout the entire museum field and the common
+structural features of museums. Since technology does not strictly determine exactly what a
+museum collects or how it is displayed, in the standard new institutional account, museum
+managers will look to their peers to understand how a museum should be managed. In the
+language of organizational sociology, individuals in highly institutional but weakly technical
+organizations like museums adhere to institutions, the standards adopted by other organizations
+in the same industry. Museums with comparable collections and prestige face the same set of
+problems and solve these problems by copying their peers.
+Shared institutional pressures result in observable similarities in organizational behaviour
+across museums. For instance, in Museums and Money, Alexander states that ‘understandings
+of the legitimate functions of an organization, such as a museum, that exists in a highly
+institutionalized environment are forceful in shaping organizational behavior’ (Alexander 1996:
+14). To clarify her point, Alexander writes, ‘by “highly institutionalized” environment, I mean one
+that is highly structured with rational myths and cultural rules’ to guide the decision-making of
+museum managers (Alexander 1996: 18). In this account, museums are above all shaped by
+institutions.
+Zolberg’s (1981: 103) treatment of museums foreshadows DiMaggio and Powell
+(1991b) when stating that ‘macro-trends in society which are most germane to museum
+formation are professionalization of occupations, bureaucratization, elite formation,
+democratization of education, and market rationalization.’ Linking micro-level decision-making
+and institutional pressures is a difficult research demand; however, ‘these [previously mentioned
+macro-trends] are reflected at the micro-level in institutions founded and developed in their
+context. In this sense, American art museums have been and are arenas in which these secular
+trends have played a central role, as can be seen in their internal organization’ (Zolberg 1981:
+103). Again, trends and a shared institutional environment powerfully shape museums and
+produce observable similarities across them.
+Even museums catering to new constituencies, who have little interest in existing status
+hierarchies in the art world, are not beyond the reach of the museum industry and its standards.
+For example, Moreno (2004) offers neo-institutional arguments to explain why a community art
+museum, Museo del Barrio, has increasingly come to resemble the established model of
+museums. The museum initially reflected the interests of local Puerto Rican inhabitants;
+however, as the local composition of the community changed – increasing immigration and the
+rise of Spanish Harlem – so did the museum. The content of exhibits was altered in order to cater
+to a boarder and more diverse public. So, in the highly institutionalized organizational
+environment that museums operate within, ‘the survival and growth of community museums
+such as the Museo del Barrio has also implied to a large extent the transformation of this type
+of organization to a more conventional and marketable entity and its gradual assimilation to the
+institutional context’ (Moreno 2004: 524). Moreno captures the obvious irony, ‘the survival of
+community museums has implied their accommodation to the institutional framework and their
+conversion into more conventional museums’ (Moreno 2004: 507).
+
+museum and society, 4(2)
+
+87
+
+Milligan and Brayfield (2004) shed light on the legitimacy pressures associated with
+making museums places of learning. They report that ‘museums are expected to have
+educational programs in order to be viewed as legitimate by the public and by the museum
+community,’ thus, ‘by definition, museums educate. Adhering to this expectation is in the
+interest of a museum in that “organizations which incorporate institutionalized myths are more
+legitimate, successful, and likely to survive”’ (Milligan and Brayfield 2004: 296).
+Quantitative work on the internal organization of museums also adopts the view that
+museums are highly institutionalized and highly responsive to external social pressures. For
+example, Zucker (1987) discusses a study by DiMaggio and Powell (1984), which found that
+‘art museums were shown to be more likely to share similar structures – in terms of allocation
+of staff and budgets among administrative and artistic functions’ but this phenomenon is
+unrelated to technology and explained by managers mimicking other managers in the cultural
+field of museums (Zucker 1987: 450-1). Thus, administrative behaviour and organizational form
+are outcomes of the highly institutionalized environment in which museums operate.
+More generally, sociologists see museums as ‘cultural institutions’ (Powell 1991: 183)
+that operate in an institutional environment so strong that it overshadows an organization’s
+technical needs (Scott and Meyer 1991: 124). For highly institutional organizations, according
+to the literature, the technological is actually integrated into the institutional environment.
+Quoting Meyer and Rowan (1991: 45), ‘technologies are institutionalized and become myths
+binding organizations. Technical procedures of production, accounting, personnel selection, or
+data processing become taken-for-granted means to accomplish organizational ends.’ They
+contend that ‘quite apart from their possible efficiency, such institutionalized techniques
+establish an organization as appropriate, rational, and modern. Their use displays responsibility
+and avoids claims of negligence’ (Meyer and Rowan 1991: 45). From this perspective,
+technologies are important because they help organizations legitimize themselves.
+Technologies in museums, from this vantage point, are foremost symbolic, used
+primarily to signal appropriateness and further legitimize an organization and its practices. The
+purpose of adopting one technology over another is to comply with industry norms and
+standards of ‘good practice,’ which only serve to reinforcing pre-existing practices. A computer,
+for example, has no intrinsic importance to a museum – it only shows that a museum’s staff is
+trying to document its collection to the standard set by elite museums that use computers.
+When a tool becomes obsolete, the organization’s practices might be pursued with new
+tools, which suggests to some scholars that technologies have little long term impact, apart from
+being an excuse to adopt a new set of practices (for which the technology is the rationale)
+(Selznick 1949). This conclusion has lead some organization researchers to conclude that
+social expectations are the foremost determinant of the internal structure of an organization like
+a museum, not the organization’s technical needs. As Scott (1991: 165) colorfully states,
+although ‘technology was in the saddle’ during organizational analysis prior to new institutionalist
+insights, it appears largely irrelevant in current sociological research on organizations like
+museums.
+How museum studies see museums as formal organizations
+Institutional arguments are appealing to museum studies experts as well, resulting in a similar
+silence about a museum’s technology. For example, Museum Studies (Carbonell 2004), a
+recent anthology in the museum studies field, dedicates approximately one paragraph to the
+technical demands of museums out of more than six hundred pages. The rest of the book
+explains how museums embody art world trends, political culture, and class and gender
+relations. Similarly, one finds relatively few articles on the impact of technology on museum
+organizations in museological journals.
+Specific studies show how museologists have implicitly adopted an institutionalist
+perspective that almost exclusively focuses on art world trends and social norms. Morris (2003),
+for example, shows the establishment of ‘Britishness’ at Tate Britain (during the late-twentieth
+century) by detailing how the museum honoured an emerging curatorial style. Serota (2000)
+writes on an emerging ‘institution’ for museums wherein curators began designing exhibits that
+encourage museum patrons to experience and discover displayed art rather than feel as though
+
+88
+
+Nicholas J. Rowland, Fabio Rojas: Bringing technology back in...
+
+they are riding on ‘the conveyer belt of history’ (55). Morris’ complex argument centers on two
+pieces (Himid’s Between the Two My Heart is Balanced (1991) and Turner’s Bridge of Signs,
+Ducal Palace and Custom House, Venice: Canaletti (first exhibited 1883) set within the broader
+vision of British Art by Tate Britian’s exhibit: ‘Representing Britain 1500-2000.’ The show ‘set
+about disrupting a formal, chronological profile of the past,’ a ‘rehang [that] was to incorporate
+a broad curatorial distinction between ‘themed’ areas and rooms dedicated to ‘major names”
+(Morris 2003: 171). Furthermore, Morris sets the Tate Britain case within the broader
+institutional context of uncertainty in the 1990s as to what Britishness exactly meant – drawing
+on diverse and diffuse cultural sources such as ‘Britpop, Britart, New Labour, [and] New Britain’
+(Morris 2003: 170). Much of Morris’ explanation draws on a stylistic shift in curatorial standards
+set within a broad British cultural concern over exactly what “Britishness” is and Morris’ clever
+restatement of Pevsner’s question, where Morris asks: ‘what is this Britishness in British art?’
+(Morris 2003: 176).
+The concern over institutions is even reflected in Unesco’s (1960) guide on practical
+advice, The Organization of Museum. The document begins by suggesting that ‘while the basic
+principles of museum work have not changed, applications and techniques cannot but be
+affected by contemporary needs and modern technology’ (Unesco 1960: 9). The guide,
+however, shifts away from technological considerations and shifts toward institutional pressures
+concluding that ‘museums are bound to respond to these [primarily institutional] interests’
+(Unesco 1960: 9).
+Likewise, Anderson (2004: 1) states, ‘throughout the last century, museum leaders have
+been influencing the transformation of the museum and its role in society’ and suggests that
+museums are now a permeable organization such that external influences place an increasingly
+salient role in organizing and administering museums. Orosz’s (1990) work reflects a similar
+underlying assumption about the history of American museums. As the very idea of the museum
+was emerging in the United States (along with stabilizing social practices associated with
+museum work) a small cadre of individuals formed pioneering museums. Rather than borrowing
+specific examples from Europe, Orosz argues, the then emerging form of the American
+museum was guided by the broad and diffuse ‘imperatives of the American democratic culture’
+(Orosz 1990: ix).
+Contribution’s to Vergo’s (1989) edited volume The New Museology show a strong
+affinity to the new institutionalism. Museums, from this perspective, are a way for a society to
+establish or demarcate a national identity, but rather than a museum actively achieving the
+identity, the museum is a reflection of broader culture and (thought) important social distinctions
+– a mere ‘fascade’ according to Macdonald and Fyfe (1996), who prefer to view museums as
+locals where social inequalities are played-out and (potentially) reproduced.
+Yaneva (2003: 116) rejects such perspectives in favor of a more ‘active’ notion of
+museums, which emphasizes ‘installation practices involved in making a museum and their
+materiality.’ We echo this concern, but from a sociological and organizational standpoint – we
+do not want to discredit institutional arguments completely, but wish to show technology and
+institutions compliment each other in the actual work of museums.
+Integrating technology and institutions in museum research
+The sociological literature on museums emphasizes social pressures and art world hierarchies,
+which raises this paper’s main question. How do we integrate a concern over technology with
+recognition that museums are sensitive to their environment? How do we reconcile the fact that,
+for example, a museum can not display installation art, currently a concern within the
+contemporary art field, unless the museum organization has the space and tools to present this
+sort of art? Or, that a museum’s ability to participate in various art sub-fields depends crucially
+on its physical capacities?
+Inspired by recent work in the sociology of technology, we argue that technology and
+institutions intersect in the following ways: first, technologies make possible the activities which
+museums are identified with. That is, technologies are often the necessary precondition for the
+museum’s core mission and its legitimacy. Second, technologies allow museum participants to
+assert new values and the institutions that embody them. For example, a new technology might
+
+museum and society, 4(2)
+
+89
+
+allow museum curators to conserve otherwise ephemeral and unknown art. Because they can
+preserve the art, curators can link the art’s legitimacy to the ability to preserve and display art,
+a very common museum goal. This linkage might very well increase the legitimacy of the new
+art form. Third, technologies can de-legitimize a museum and its actions. A technology’s failure
+might allow art world actors to critique the museum’s goals. Thus, when a technology makes
+itself visible it attracts attention to the technology and the task it is supposed to complete.
+The purpose in outlining these three aspects of technology is to show that the museum
+does not passively respond to social pressures. We are trying to expand the sociological
+analysis of museums so that one can recognize how the material demands of collecting and
+displaying art interact with the demands to be a socially acceptable art venue.
+Technology as enabler of institutions
+One important role that technology has in museums is that creating and displaying art requires
+specific tools. To display oil paintings, for example, the museum will at minimum require rooms
+and walls to hang the works. They will also require more sophisticated technologies such as
+hydrometers (humidity monitors) and atmospheric controls so that the paintings will not crack
+or otherwise deteriorate over time. Illuminating art also requires complex and often expensive
+technologies. Windows might be strategically placed so that rooms remain illuminated without
+letting direct sunlight harm the artwork. Other museums require softer incandescent lighting for
+optimal viewing. The technical aspects of lighting, in addition to norms of ‘good practice,’ should
+not be ignored and stands as one of many instances where technology matters for museums.
+Perhaps the most recent sensational example of technologies facilitating the conservation
+and display of art is the now well rehearsed accidental destruction of Marc Quinn’s Self, a
+sculpture now commonly referred to as simply the Blood Head. Owned by prominent collector
+Charles Saatchi, Blood Head is a reproduction of Quinn’s head made with twenty frozen quarts
+of the artists’ own blood. The technical requirements of this sculpture – in both production and
+preservation – are remarkable. Not only did Quinn require medical supplies to safely extract his
+own blood, he also required coagulants so the blood would stiffen and retain its shape. The
+display also requires advanced cooling technology. A refrigeration unit was customized so it
+could accommodate the sculpture now tightly encapsulated in a glass display case. Despite the
+best intents of Saatchi to preserve the ephemeral work of art, the piece was ruined. By accident,
+workers at the Saatchi facility unplugged the cooling unit responsible for constantly refrigerating
+the piece. The workers had no idea the cord supplied power to the sculpture’s display. Within
+hours, the multi million dollar sculpture was reduced to sticky pool of blood – seeping perilously
+to the floor.
+On a deeper level, technologies allow both the largest museum and smallest individual
+collector to participate in the art world because technologies permit the display and presentation
+of all kinds of art, which importantly signal adherence to industry preservation standards. Quite
+literally, tools enable social practices that define legitimate museum behaviour.
+One obvious example is the museum building itself. If a group wishes to establish a
+museum as a participant within a specific art subfield, such as large sculpture or performance
+art, then the museum must be able to not only physically house such works, but also provide
+enough backroom space to preserve them. The recently constructed Guggenheim Museum in
+Bilbao, Spain, is an example where the museum building itself is a technology – a precondition
+for the museum organization to be able to signal that it is a legitimate and influential actor in
+specific art areas. The building was designed so that the staff could install enormous sculptures
+made by the most prominent contemporary artists. The museum has spaces devoted to
+unusually large artwork such as Richard Serra’s enormous steel arcs and Jeff Koon’s whimsical
+Puppy, a gigantic 30 ft. (9.14 m) tall dog-shaped floral sculpture that periodically blooms.
+Consequently, the museum’s staff has specialized subunits dedicated to installing massive
+sculpture (Rosenblatt 2001). By allowing the museum to acquire or display works by prestigious
+artists, the building is both a literal and symbolic tool by which the museum’s staff signals to the
+larger museum community that it is complying with the museum’s core mission to display art by
+leading artists – and that they are actually doing it day-in and day-out. By focusing on how
+buildings themselves create the capacity for new museum practices, we emphasize how
+
+90
+
+Nicholas J. Rowland, Fabio Rojas: Bringing technology back in...
+
+technologies enable institutions rather than passively transmitting or enforcing established
+ideas about what constitutes a museum (Crosbie 2003, Van Bruggen 2001, von Naredi-Rainer
+2004).
+Technology as carrier of new institutions and site of organizational politics
+Organizational scholars and students of technology often point out that technologies can act as
+‘carriers’ of institutions (Scott 2000: 77-83). Tools can be designed so that users complete tasks
+in specific ways, and thus reinforce pre-existing social practices. For example, business
+software can be designed so that users must comply with standards of financial accountability
+(Woolgar 1991). At the same time, technologies can be used to promote new values within the
+organization. An entrepreneurial person might create a new technology so that it makes a new
+activity easier to accomplish and thus promote a new value. Similarly, a technology might reflect
+competing interests. An interested party might demand that the technology perform a specific
+function, or demand alterations allowing them to co-opt the technology for new ends. In the
+social studies of technology, the process by which influential actors affect how a technology’s
+final form is called the ‘design process.’
+It is important to note that the ‘design process’ refers to more than a technology’s
+‘assembly instructions.’ The design process creates blueprints for configuring, or preventing,
+social interactions (Gieryn 2002). Technologies are designed to manage or to alter existing
+human relations. When engineers and planners envision a technology, they must also have an
+idea of who will use the technology and how users will interact with each other. A focus on the
+design process draws analytical attention to the political interests that were involved creating
+the technology itself and the interactions enabled by the technology. We want to be careful,
+however, not to overstate the deterministic role of technology in organizations and greater
+society, which is an tendency of technology studies identified in the organization literature (Scott
+2000: 82).
+Once again, museum buildings are an insightful example of how a technology or tool can
+be used to promote values and how the technology itself embodies the design process. The
+Bilbao Guggenheim Museum building was designed with new values in mind. Traditionally,
+museums have carried out various tasks related to the preservation of art and educating the
+public. However, art world leaders and local politicians have sought to redefine the role that
+museums have in the economy. Museums have now been conceptualized as economic assets
+that attract tourists, revitalize neighborhoods, and act as ‘anchors’ for plans of urban renewal.
+Ideally, a museum could help a city reinvent its image (Rosenblatt 2001: 126).
+The Guggenheim Museum was designed with new and old values in mind. Of course,
+the museum was supposed to accomplish traditional museum tasks, such as preserving art and
+educating the public. But the museum was also designed with new values in mind. Reflecting
+the trend towards making major museums economically profitable tourist sites, museum
+leaders and Basque politicians insisted that the museum building itself accommodate tourists.
+The building was designed by internationally renowned architect Frank O. Gehry. Visually
+stunning, the building was designed so that it would become a tourist attraction and a landmark.
+The floor plan directed visitors in specific directions to maximize viewing pleasure and the flow
+of traffic through the museum’s galleries – a point evident in floor plans and subsequent
+discussion of their design ‘intent’ (Bennet 1995, Crosbie 2003, Van Bruggen 2001, von NarediRainer 2004).
+As mentioned in the previous section, the museum possesses a number of structural
+features that allow it to stage shows of large, attention grabbing art.
+The museum’s physical structure and technical capacities are both the result and a
+crucial material component of the political decisions made during the design process. Therefore,
+thinking of technology as a carrier draws theoretical attention to technology as the result of a
+process but also a crucial component of the within process itself. Political decisions during
+design include the need to collect and store art; the need to participate in urban renewal plans;
+the need to cater to tourists; and the construction of particular viewing experiences. If successful
+in the long term, the Bilbao Guggenhiem museum building itself will have been a key ingredient
+in the establishment of a new model in the art industry – the museum as urban growth machine.
+
+museum and society, 4(2)
+
+91
+
+Technology as stabilizer and de-stabilizer
+Sociologists of technology bring to our attention a much more subtle point about the interactions
+between tools and people. A substantial literature points out that a technology’s visibility affects
+people’s response to a technology. If a technology operates smoothly and is otherwise
+unobtrusive, the technology will become a ‘taken for granted’ aspect of social life (Layton 1977,
+Latour 1987, MacKenzie 1987). Users will not question the technology or the goal it is meant
+to accomplish. When technologies become taken for granted, they are often integrated with
+other technologies, making them hidden from view because they are taken for granted. The
+technology becomes a ‘black box’ (Pinch and Bijker 1987). And a successfully black boxed
+technology can reinforce an institution. As long as a technology silently accomplishes its task,
+hidden from view, the less likely managers and patrons will question the technology or its
+purpose. Social practices continue to be reproduced and organizations are thus stabilized.
+In contrast, some technologies attract attention to themselves, constantly reminding
+users about what they are doing (or failing to do). This may happen because a technology is
+noisy, smelly, or ‘visually loud.’ American airports and airport security, for example, attract a
+good deal of attention to themselves in the United States – and for all of these reasons, the
+physical structure of airports and those social practices related to national security are the focus
+of intense political disputes (Krueger 2001). A technology may also attract attention because
+it has failed. A broken tool means that the goal is no longer accomplished, which might invite
+critics to question the social practice associated with the technology. Critics might ask if the
+technology was merited, or whether the organization should be involved in this activity at all.
+Museums, like any other organization, work with technologies that vary in their visibility
+to users and the public. Some museum technologies are nearly invisible. Few museum goers
+bother to ask about the cylindrical devices that occupy the corners of museum galleries. An
+inquiring patron would quickly learn that hydrometers (or humidity readers) are one of the crucial
+tools for maintaining a museum’s collection. Without daily or hourly information on atmospheric
+conditions within the museum, the staff might accidentally subject the art work to conditions that
+accelerate the aging and deterioration. The point that we wish to emphasize is that humidity
+readers and other tools work invisibly within the museum organization. The goals that the
+humidity reader facilitates – the preservation and display of art – are rarely, if ever, questioned.
+In contrast, technologies may attract attention and become problems for their users.
+Consider the case of the Museum of Fine Arts in Boston, where a technical failure prevented
+the establishment of a new kind of museum practice. In 2002, the Museum of Fine Arts in Boston
+negotiated a controversial contract with the PaceWildenstein Gallery that allowed
+PaceWildenstein to rent twenty-one Claude Monet paintings. The gallery displayed the
+paintings in a commercial exhibit space that it owned in the Bellagio Hotel in Las Vegas, Nevada.
+In April 2004, the hotel’s air conditioning system failed to work for nine consecutive days
+(Bernstein 2005). During this time, there was little cloud cover and temperatures were routinely
+in the mid-80s inside the Bellagio Hotel. Hydrometers, which measure ambient humidity,
+reported levels that exceed the recommended conditions under which paintings should be
+stored and displayed. It is thought that heat and humidity may have accelerated the natural
+deterioration of the paintings (Edgars 2004).
+Unsurprisingly, the air conditioning failure at the Bellagio Hotel provided an opportunity
+for renewed criticism of the Museum of Fine Arts in Boston. While the deal had always been seen
+as a flaunting of museum industry standards, the air conditioning failure provided an opportunity
+for critics to say that the Museum of Fine Arts had failed in one of its basic missions – to preserve
+its collection. Because the museum’s mission is tied so closely with its technology, an
+unpredictable technical failure offers an opportunity for art world participants to alter the
+discourse around art rentals and de-legitimize the practice. At the time of this writing, museum
+directors, trustees, and other interested parties are openly debating the merits of this practice,
+using the damage of the Monet paintings as a cautionary tale (Bernstein 2005).
+The contrast between humidity sensors silently doing their job and the complete
+breakdown of the Bellagio Hotel’s air conditioning system show how technologies can stabilize
+or undermine a museum and its social practices. The effortless and silent work of most humidity
+controls allows museum workers to carry out work that makes their organization legitimate,
+
+92
+
+Nicholas J. Rowland, Fabio Rojas: Bringing technology back in...
+
+while the failure of the Bellagio air conditioning system damaged the reputation of Boston’s
+Museum of Fine Arts. Without the air conditioning failure, it is entirely possible that the new
+practice of ‘painting rentals’ made by not for profit museums would have quickly become
+accepted as controversy faded and public attention shifted to other issues. The failure called
+undue attention to and encouraged critics to question the legitimacy of this practice. These two
+technologies show the important ways that technologies help museums, and other organizations,
+accommodate themselves to their environment and try to establish new codes of conduct.
+Conclusion: bringing technology back to the study of museums
+This essay examined how technology and institutions interact in organizations like museums.
+We began the discussion by showing how museums have come to be understood by
+organizational sociologists, as entities that slavishly follow the trends in their external
+organizational environment. We then argued that the emphasis on an organization’s environment
+and industry standards is incomplete because museums employ sophisticated technologies
+that have numerous effects on museums. It is not the case, as some scholars have suggested,
+that institutions simply precede technologies. A technology’s impact is not limited to how it helps
+an organization’s workers carry out socially mandated tasks. In contrast, technologies can destabilize organizations and they can be used to change an organization’s environment.
+The approach to technology, institutions, and cultural organizations implied by our
+argument abolishes the artificial distinction between technical demands and cultural imperatives,
+a critiqued shared by a number of sociologists (e.g., Zajac and Westphal 1998, 2004, Djelic and
+Ainamo 2005), scholars in science and technology studies (Latour 1987, Callon 1986) and
+museum studies scholars (Morris 2003, Yaneva 2003). The institutional encourages scholars
+to view museums as organizations with minimal or uninteresting technical components. But we
+argue that technology is not subservient to culture, but can actually undermine or reinforce
+certain art practices. By arguing that technologies have complex and subtle effects on cultural
+organizations, we merge a concern with the museum’s daily practices and the demands of the
+larger art world.
+In the remainder of this essay, we offer a few concluding thoughts about museum studies
+and about organizational theory more generally. First, as mentioned in an earlier section,
+scholars have been too quick to use the museum as an example of an organization where
+technology is relatively unimportant. To the contrary, museums have become complex
+organizations whose mission is to handle and store large, complex and possibly fragile objects.
+The technologies used in the service of this goal might have important unintended consequences
+for the museums themselves and the technologies may be use to help establish new
+organizational models.
+Second, by considering how technologies carry new values into individual organizations
+and entire fields, scholars can cultivate a more refined understanding of how change comes to
+cultural organizations. Instead of viewing change as happening through discourse between art
+world elites, change may occur when new technologies unintentionally change practices within
+the museum industry, or when prominent actors force engineers and architects to design a
+technology so that it facilitates the completion of new goals. This insight suggests that the kinds
+of events that trigger change in cultural organizations go beyond public disputes or ideological
+trends among artists and their patrons. Instead, technologies enable some ideas while
+suppressing others, and permit some art world actors to have more leverage and influence than
+others. Technologies do not just reproduce practices, they are agents of change.
+Third, when studying museums and other cultural organizations, researchers should
+test hypotheses that emphasize the effects of particular technologies rather than assuming their
+impotence. For example, one might hypothesize that early or catastrophic visibility, on average,
+decreases the likelihood that a technology and the task it facilitates will be become routine within
+a museum or the museum industry. This hypothesis links a technology’s seamless integration
+into an organization to its ability to legitimize and reinforce a social practice. Another hypothesis
+links the design process to the behaviour of the museum industry: controlling for other factors,
+the prestige of the persons involved in the design of a museum technology will have a positive
+effect on the adoption of technology and the probability that associated practices will become
+
+museum and society, 4(2)
+
+93
+
+an industry standard. Hypotheses like these two can compliment studies of museums that focus
+on trends in art world and disputes over what constitutes legitimate art. Empirical tests of these
+hypotheses can then help museum scholars and organizational researchers to develop a more
+refined understanding of exactly when and how technology will impact the practices of
+museums and other cultural organizations.
+Received 22nd April 2006
+Finally Accepted 10th August 2006
+Acknowledgements
+The authors gratefully acknowledge helpful comments made by Elizabeth Dietz, Thomas F.
+Gieryn, and Tyler Green.
+References
+Alexander, V. D. (1996) Museums and Money: The Impact of Funding on Exhibitions,
+Scholarship, and Management, Bloomington, Indiana University Press
+Anderson, G. (ed.) (2004) Reinventing the Museum: Historical and Contemporary Perspectives
+on the Paradigm Shift, Walnut Creek, CA: AltaMira
+Becker, H. S. (1982) Art Worlds, Berkeley, University of California Press
+Bennett, T. (1995) The Birth of the Museum, History, Theory, Politics, London: Routledge
+Bernstein, F. A. (2005) ‘Borrowings: A Loan that Keeps on Paying’, New York Times, March 30
+Callon, M. (1986) ‘Some Elements of a Sociology of Translation: Domestication of the Scallops
+and the Fisherman of St. Brieuc Bay’, in John Law (ed.), Power, Action, and Belief: A New
+Sociology of Knowledge, 196-229, Boston: Routledge
+Carbonell, B. M. (ed.) (2004) Museum Studies, Malden, MA: Blackwell Publishing
+Crosbie, M. J. (2003) Designing the World’s Best Museums and Art Galleries, Mulgave, Vic:
+Images Group Publishing
+DiMaggio, P. J. (1987) ‘Classification in Art’, American Sociological Review, 52: 440-55
+DiMaggio, P. J. (1991) ‘Constructing an Organizational Field as a Professional Project: U.S. Art
+Museums, 1920-1940’, in W. W. Powell and P. J. DiMaggio, (eds), The New Institutionalism in
+Organizational Analysis, Chicago, The University of Chicago Press
+DiMaggio, P. J. and Powell, W. W. (1984) ‘Institutional Isomorphism and Structural Conformity,
+Paper presented at the annual meeting of the American Sociological Association’
+DiMaggio, P. J. and Powell, W. W. (1991a) ‘Introduction’, in W. W. Powell and P. J. DiMaggio,
+(eds), The New Institutionalism in Organizational Analysis, 1-38, Chicago, The University of
+Chicago Press
+DiMaggio, P. J. and Powell, W. W. (1991b) ‘The Iron Cage Revisited: Institutional Isomorphism
+and Collective Rationality in Organizational Fields’, in W. W. Powell and P. J. DiMaggio, eds,
+The New Institutionalism in Organizational Analysis, 63-82, Chicago, The University of Chicago
+Press
+
+94
+
+Nicholas J. Rowland, Fabio Rojas: Bringing technology back in...
+
+Djelic, M.-L. and Ainamo, A. (2005) ‘The Telecom Industry as Cultural Industry? The Transposition
+of Fashion Logics into the Fields of Mobile Telephony’, Research in the Sociology of
+Organizations, 23: 45-82
+Edgars, G. (2004) ‘MFA’s Monets: dicey deal? Museum defends loan to Las Vegas gallery’, The
+Boston Globe, Jan 25
+Gieryn, T. F. (2002) ‘What Buildings Do’, Theory and Society, 31: 35-74
+Kreuger, A. B. (2001) ‘A mall dose of common sense would help Congress break the gridlock
+over airport security,’ New York Times, (November 15)
+Latour, B. (1987) Science in Action: How to Follow Scientists and Engineers Through Society,
+Cambridge, MA, Harvard University Press
+Layton, E. (1977) ‘Conditions of Technological Development’, in I. S. Spiegel-Rösing and D. d.
+S. Price, (eds), Science, Technology and Society: A Cross-Disciplinary Perspective, 197-222,
+London and Beverly Hills, Sage
+Macdonald, Sharon and Fyfe, Gordon (eds) (1996) Theorizing Museums: Representing Identity
+and Diversity in a Changing World, Cambridge, MA: Blackwell
+MacKenzie, D. A. (1987) ‘Inventing Accuracy: A Historical Sociology of Nuclear Missile
+Guidance’, in W. E. Bijker, T. P. Hughes and T. J. Pinch, (eds), The Social Construction of
+Technological Systems: New Directions in the Sociology and History of Technology, 195-222,
+Cambridge, Mass, MIT Press
+Meyer, J. W. and Rowan, B. (1991) ‘Institutionalized Organizations: Formal Structure as Myth
+and Ceremony’, in W. W. Powell and P. J. DiMaggio, (eds), The New Institutionalism in
+Organizational Analysis, 41-62, Chicago, The University of Chicago Press
+Milligan, M. J. and Brayfield, A. (2004) ‘Museums and Childhood: Negotiating Organizational
+Lessons’, Childhood 11: 275-301
+Moreno, M.-J. (2004) ‘Art Museums and Socioeconomic Forces: The Case of a Community
+Museum’, Review of Radical Political Economics, 36: 506-27
+Morris, A. (2003) ‘Redrawing the Boundaries: Questioning the Geographies of Britishness at
+Tate-Britain,’ Museum and Society, 1 (3): 170-182
+Orosz, J. (1990) Curators and Culture: The Museum Movement in America, 1740-1870,
+Tuscaloosa: The University of Alabama Press
+Pinch, T. J. and Bijker, W. E. (1987) ‘The Social Construction of Facts and Artifacts: Or How the
+Sociology of Science and the Sociology of Technology Might Benefit Each Other’, in W. E.
+Bijker, T. P. Hughes and T. J. Pinch, (eds), The Social Construction of Technological Systems:
+New Directions in the Sociology and History of Technology, 17-50, Cambridge, MA: MIT Press
+Powell, W. W. (1991) ‘Expanding the Scope of Institutional Analysis’, In The New Institutionalism
+in Organizational Analysis, in W. W. P. and P. J. DiMaggio, (eds), 183-203, Chicago, University
+of Chicago Press
+Rosenblatt, A. (2001) Building Type Basics for Museums, New York, John Wiley and Sons, Inc.
+Scott, W. R. (1991) ‘Unpacking Institutional Arguments’, in P. J. DiMaggio and W. W. Powell.,
+(eds), The New Institutionalism in Organizational Analysis, 164-82, Chicago, Chicago University
+Press
+
+museum and society, 4(2)
+
+95
+
+Scott, W. R. (2000) Institutions and Organizations, Thousand Oaks, CA, Sage Publications
+Scott, W. R. and Meyer, J. W. (1991) ‘The Organization of Societal Sectors: Propositions and
+Early Evidence’, in W. W. Powell and P. J. DiMaggio, (eds), The New Institutionalism in
+Organizational Analysis, 108-40, Chicago, The University of Chicago Press
+Selznick, P. (1949) TVA and the Grass Roots, Berkeley, University of California Press
+Serota, N. (2000) Experience or Interpretation: The Dilemma of Museums of Modern Art,
+London: Thames and Hudson
+Thompson, J. D. (1967) Organizations in Action, New York, McGraw-Hill
+UNESCO (1960) Organization of Museums: Practical Advice, Paris: Impirmerie Union
+Van Bruggen, C. (2001) Frank O. Gehry. Guggenheim Museum, Bilbao, New York: Guggenheim
+Foundation
+Vergo, P. (ed.) (1989) The New Museology, London: Reaktion Books
+von Naredi-Rainer, P. (2004) Museum Buildings : A Design Manual, Princeton, NJ: Birlhauser
+Woolgar, S. (1991) ‘Configuring the User: The Case of Unusable Trials’, in J. Law, (ed.) A
+Sociology of Monsters, 57-99, London and New York, Routledge
+Yeneva, A. (2003) ‘When a Bus Met a Museum: Following Artists, Curators and Workers in Art
+Installation’, Museum and Society 1 (3): 116-31
+Zajac, E. J. and Westphal, J. D. (1998) ‘The Symbolic Management of Stockholders: Corporate
+governance Reforms and Shareholder Reactions’, Administrative Science Quarterly, 43 (1):
+127-53
+Zajac, E. J. and Westphal, J. D. (2004) ‘The Social Construction of Market Value:
+Institutionalization and Learning Perspectives on Stock Market Reactions’, American Sociological
+Review, 69 (3): 433-57
+Zolberg, V. L. (1981) ‘Conflicting Visions in American Art Museums’, Theory and Society, 10:
+103-25
+Zucker, L. G. (1987) ‘Institutional Theories of Organization’, Annual Review of Sociology, 13,
+443-64
+*Nicholas J. Rowland is a sociology doctoral student at Indiana
+University. His current research emphasizes the role of technology in organizations.
+*Fabio Rojas is an assistant professor of sociology at Indiana University. His current
+research emphasizes how social movements shape organizations.
+Address
+Department of Sociology,
+Indiana University,
+Bloomington,
+Indiana 47405-7103
+
+

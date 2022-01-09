@@ -1,0 +1,2861 @@
+Minnesota State University, Mankato
+
+Cornerstone: A Collection of Scholarly
+and Creative Works for Minnesota
+State University, Mankato
+All Graduate Theses, Dissertations, and Other
+Capstone Projects
+
+Graduate Theses, Dissertations, and Other
+Capstone Projects
+
+2021
+
+A Survey of and Site Treatment Plan for the Belle Creek Mounds
+Archeological Site, 21GD0072, in Goodhue County, Minnesota
+Alexander T. Anton
+Minnesota State University, Mankato
+
+Follow this and additional works at: https://cornerstone.lib.mnsu.edu/etds
+Part of the Archaeological Anthropology Commons, Geographic Information Sciences Commons, and
+the Spatial Science Commons
+
+Recommended Citation
+Anton, A. T. (2021). A survey of and site treatment plan for the Belle Creek Mounds Archeological Site,
+21GD0072, in Goodhue County, Minnesota [Master’s thesis, Minnesota State University, Mankato].
+Cornerstone: A Collection of Scholarly and Creative Works for Minnesota State University, Mankato.
+https://cornerstone.lib.mnsu.edu/etds/1169
+
+This Thesis is brought to you for free and open access by the Graduate Theses, Dissertations, and Other Capstone
+Projects at Cornerstone: A Collection of Scholarly and Creative Works for Minnesota State University, Mankato. It
+has been accepted for inclusion in All Graduate Theses, Dissertations, and Other Capstone Projects by an
+authorized administrator of Cornerstone: A Collection of Scholarly and Creative Works for Minnesota State
+University, Mankato.
+
+A Survey of and Site Treatment Plan for the Belle Creek Mounds Archeological
+Site, 21GD0072, in Goodhue County, Minnesota
+
+By
+Alexander T. Anton
+
+A Thesis Submitted in Partial Fulfillment of the
+Requirements for the Degree of
+Master of Science
+In
+Applied Anthropology
+
+Minnesota State University, Mankato
+Mankato, Minnesota
+September 2021
+
+September 30, 2021
+A Survey of and Site Treatment Plan for the Belle Creek Mounds Archeological Site,
+21GD0072, in Goodhue County, Minnesota
+Alexander T. Anton
+This thesis has been examined and approved by the following members of the student’s
+committee.
+
+_____________________________________
+Dr. Ronald C. Schirmer (Advisor)
+_____________________________________
+Dr. Phillip H. Larson (Committee Member)
+_____________________________________
+Dr. Kathleen T. Blue (Committee Member)
+
+i
+Acknowledgements
+This thesis and its associated project would not have been possible without the support of
+Prairie Island Indian Community who provided property access, funding, personnel, and
+equipment to conduct the following research. Thank you to all members and friends of the
+Prairie Island Indian Community, I am grateful for the opportunity to have conducted thesis
+research at Belle Creek Mounds and for your warm reception and your light-heartedness
+during all of my work with you. I would also like to thank the members of the Prairie Island
+Indian Community Tribal Council for their interest in this project that makes it all the more
+meaningful. Thank you to Dr. Ronald Schirmer for allowing me to make Belle Creek
+Mounds the subject of my thesis and for all of his patience and effort in attempting to help
+me improve as an archeologist. Thank you to Andrew Brown who generated many of the
+datasets used for analysis in this thesis including a LiDAR derived digital elevation model
+and hillshade and relative soil resistance and magnetometry rasters, in addition to his other
+innumerable contributions to this project. Thank you to Donald Johnson who provided
+geophysical equipment and training to the archeological surveying crew to allow us to
+collect relative soil resistance and magnetometry data. Thank you to Franky Jackson for
+transporting personnel and equipment to and from the site, day in and day out, helping clear
+vegetation in preparation for geophysical data collection, assisting with geophysical data
+collection, and for his advocacy for this research. Thank you to Luke Burds for helping
+with fieldwork, and his assistance with collecting magnetometry and ground penetrating
+radar data, as well as walking me through using software to process ground penetrating
+radar data in particular. Thank you to Anna Wiitanen-Eggen for her assistance with
+
+ii
+fieldwork, especially in establishing the geophysical grid and collecting relative soil
+resistance data. Thank you to Matt Jackson who cleared much of the vegetation in
+preparation for the geophysical survey and assisted the archeological surveying crew with
+shovel testing. Thank you to Drs. Phillip Larson and Kathleen Blue for serving on my thesis
+committee, giving me invaluable feedback to improve this thesis, and for taking the time
+to participate in and contribute to this project’s fieldwork. I would also like to thank Noah
+White and Joey Taylor for their support of research done at the Prairie Island Indian
+Community Tribal Historic Preservation Office used in this thesis. Lastly, a sincere thank
+you to any and all who have come out to the site in support of the project related to this
+thesis.
+Any errors in this document are mine alone.
+
+iii
+Table of Contents
+Acknowledgements .............................................................................................................. i
+Abstract .............................................................................................................................. iv
+Table of Figures ...................................................................................................................v
+Chapter 1 – Introduction ......................................................................................................1
+Chapter 2 – Background ......................................................................................................7
+Location........................................................................................................................... 7
+Archeological Theoretical Foundations and Setting ..................................................... 14
+Project Area of Investigation Archeological Background and Selection Rationale ..... 29
+Mound and Geophysical Background ........................................................................... 37
+Chapter 3 – Methodology ..................................................................................................50
+Chapter 4 – Results ............................................................................................................81
+Geophysics .................................................................................................................... 90
+Shovel Testing ............................................................................................................. 105
+Chapter 5 – Discussion and Conclusions .........................................................................111
+References ........................................................................................................................115
+
+iv
+A Survey of and Site Treatment Plan for the Belle Creek Mounds Archeological Site,
+21GD0072, in Goodhue County, Minnesota
+Alexander T. Anton
+A Thesis Submitted in Partial Fulfillment of the
+Requirements for the Degree of
+Master of Science in Applied Anthropology
+Minnesota State University, Mankato
+Mankato, Minnesota
+September, 2021
+
+Abstract
+The Prairie Island Indian Community (PIIC) recently purchased property, on which a
+portion of a prominent archeological site, encompassing 67 formerly documented burial
+mounds, resides. In order to better protect the burial mounds and other culturally significant
+material on the site, as well as on sites residing on the remainder of their new property, the
+PIIC enlisted the support of Minnesota State University, Mankato’s Earth Science,
+Archeology, Resources, and Terrestrial Hazards (EARTH) Systems Research Laboratory
+in developing a site treatment plan. Developing a useful site treatment plan necessitated
+conducting a geoarcheological survey of a portion of the archeological site, known as the
+Belle Creek Mounds site, on the acquired property. The survey included both geospatial
+and geophysical survey to locate and identify burial mounds, impacts to burial mounds,
+and evidence of site usage. Limited excavation took place to better understand the extent
+to which buried cultural materials need protection, how ancient people used the
+archeological site in the distant past, and how Belle Creek Mounds relates to other sites in
+the surrounding area. Geophysical techniques produced results supporting their
+effectiveness at identifying impacted and previously unmapped mounds on site. The
+artifacts recovered during limited excavation at Belle Creek Mounds are similar to artifacts
+recovered at previously investigated aggregation villages within the Red Wing Region.
+This thesis is for use by PIIC, in combination with geospatial and geophysical datasets
+generated by this and related projects, to assist in protecting the Belle Creek Mounds site
+and surrounding sites and in setting a precedent supporting greater use of geophysical
+techniques in archeological investigations of potential mortuary features.
+
+v
+Table of Figures
+Figure 1-1: Geographic location of PIIC property and Belle Creek Mounds
+Archeological Site............................................................................................................... 1
+Figure 2-1: Primary area of investigation within the Belle Creek Mounds site boundary
+and PIIC property boundary................................................................................................ 8
+Figure 2-2: SSURGO soil map including the area of investigation at the Belle Creek
+Mounds Archeological Site............................................................................................... 13
+Figure 2-3: A hillshade map depicting archeological sites on or closely adjacent to
+PIIC’s newly acquired property ........................................................................................ 31
+Figure 2-4: Lewis sketch map with Belle Creek Mounds depicted on a DEM colored
+hillshade ............................................................................................................................ 36
+Figure 3-1: Luke Burds, Andrew Brown, Anna Wiitanen-Eggen, and Ronald Schirmer
+clear brush in northern grid portions ................................................................................. 54
+Figure 3-2: Ronald Schirmer putting the finishing touches on Datum 2 .......................... 56
+Figure 3-3: A Trimble Geo7x GNSS Receiver with an antenna collects Datum 2's
+geographic coordinates ..................................................................................................... 58
+Figure 3-4: Luke Burds and Anna Wiitanen-Eggen setup the Trimble M3 DR 5" Total
+Station ............................................................................................................................... 61
+Figure 3-5: Map of the locations of permanent datums and the geophysics grid with
+numbered portions and its survey points .......................................................................... 65
+Figure 3-6: Franky Jackson and Anna Wiitanen-Eggen collect relative soil resistance
+data as Ronald Schirmer observes .................................................................................... 69
+Figure 3-7: Luke Burds collects geophysical data with a Geometrics G858
+MagMapper Gradiometer.................................................................................................. 73
+Figure 3-8: Geomorphological bucket augering ............................................................... 75
+Figure 3-9: Luke Burds and Anna Wiitanen-Eggen collect GPR data with a 500 MHz
+antenna .............................................................................................................................. 77
+
+vi
+Figure 3-10: Anna Wiitanen-Eggen and Luke Burds excavate a shovel test ................... 78
+Figure 4-1: Formula to determine point locations from distance and angle from an
+origin point ........................................................................................................................ 84
+Figure 4-2: Formula to determine distance between points .............................................. 84
+Figure 4-3: Hillshade adjusted mound polygons represented with mound polygons
+generated from Lewis' 1885 survey notes anchored at Mound 8...................................... 86
+Figure 4-4: Lewis distance linear regression line Y_hat = –0.816013963143 +
+1.0972812151x represented with points contributing to its creation ................................ 87
+Figure 4-5: Geospatial boundaries with greater than 95% certainty to contain actual
+mound center point locations at Belle Creek Mounds archeological site ......................... 90
+Figure 4-6: Locational elevation map of grid portions including soil series boundaries
+with soil textures ............................................................................................................... 91
+Figure 4-7: Selected geophysical results for grid portions 1, 2, 3, and 4.......................... 92
+Figure 4-8: Selected geophysical results for grid portions 5, 6, 7, and 8.......................... 97
+Figure 4-9: Selected geophysical results for grid portions 11, 9, and 10........................ 103
+Figure 4-10: Gridded shovel testing results immediately south of the geophysics
+grid .................................................................................................................................. 106
+Figure 4-11: Smoothed sherd with lacunae .................................................................... 109
+Figure 4-12: Smoothed sherd with lacunae, zoomed in .................................................. 109
+Figure 4-13: Cordmarked grit-tempered sherd ............................................................... 110
+Figure 4-14: Cordmarked grit-tempered sherd, zoomed in ............................................ 110
+
+1
+Chapter 1 – Introduction
+The Prairie Island Indian Community (PIIC), in southeastern Minnesota, is facilitating a
+rekindling of its relationship with locations significant to its ancestry. The community has
+recently purchased a property (Figure 1-1) encompassing six archeological sites, most of
+which are associated with pre-Euro-American contact Native American earthworks
+commonly referred to as mounds.
+
+Figure 1-1: Geographic location of PIIC property and Belle Creek Mounds
+Archeological Site.
+Mounds are normally primarily constructed of soils surrounding and within 30 meters of
+their boundary and tend to be roughly circular (Arzigian and Stevenson 2003:65 and 136).
+
+2
+Those that are roughly circular average 12.29 meters in diameter and 1.09 meters in height
+(Arzigian and Stevenson 2003:65). Mounds regularly contain ritually buried human
+remains, containing human remains more than 75% of the time (Arzigian and Stevenson
+2003:232). The most prominent of the archeological sites located on PIIC’s new property
+is formally identified as 21GD0072 and known as the Belle Creek Mounds site, which
+archeologists interpret as being associated with the Woodland Tradition, Middle
+Mississippian Tradition influenced Silvernale Phase, as well as the Oneota Tradition
+commonly encountered throughout southern and central Minnesota (Minnesota Office of
+the State Archaeologist 2021b). To protect the Belle Creek Mounds site, as well as the
+other associated archeological sites residing on their new property, the PIIC worked with
+Minnesota State University, Mankato’s Earth Science, Archeology, Resources, and
+Terrestrial Hazards (EARTH) Systems Research Laboratory, on a project to develop a site
+treatment plan informed through a geoarcheological survey, supervised by Dr. Ronald
+Schirmer.
+A site treatment plan for the Belle Creek Mounds site, because of its cultural and
+archeological importance, its similarity to the other archeological sites also present on
+PIIC’s newly acquired property, and its greater visibility and accessibility, gave the
+EARTH Systems Research Laboratory (ESRL) an opportunity to facilitate an
+understanding of the nature, extent, and conditions of archeological and cultural material
+on PIIC’s new property. This site treatment plan seeks to aid the PIIC in both protecting
+and interpreting the archeological materials present on the Belle Creek Mounds site in
+addition to the remainder of their newly acquired property. It also seeks to supplement
+
+3
+southeastern Minnesota’s archeological record and further establish the use of geophysical
+and geospatial techniques in archeological site protection. This thesis is one part of what
+will certainly need to be a more extensive site treatment plan; only the cultural resources
+are considered here, but other types of resources and situations (e.g., plants, erosion, etc.)
+will need to be considered in a broader treatment plan for the whole property.
+The PIIC’s acquisition of the northern portion of the Belle Creek Mounds archeological
+site is significant due to North American indigenous communities experiencing, especially
+over the last 200 years, forced disconnection from the sense of place and meaning derived
+through physical interaction with areas of cultural-historical importance. The United States
+of America’s Indian Removal Act of 1830 formalized a long period of intensive
+displacement, dispossession of Native American homelands, and in some cases, genocide
+of Native American peoples (Colwell-Chanthaphonh 2005:377). However, immigrants to
+North America began displacing Native American people long before the Indian Removal
+Act, throughout the colonization of North America and creation and growth of the United
+States (Littlefield and Parins 2011:xiii–xv).
+Following the government of the United States coercing Native American tribes into
+ceding their lands, indigenous people within the United States lost rights to access many
+of the properties linked with their past. The enactment of the National Historic Preservation
+Act (NHPA) of 1966 involved Native American tribes in a consultation process revolving
+around the preservation of areas of historical significance potentially impacted by federally
+associated projects within the United States (U.S.) (U.S. Congress 1966:35–36). However,
+this act did not grant federally recognized tribes the right to unilaterally disallow the
+
+4
+destruction of sites that tribes deemed important to protect. The NHPA also failed to give
+tribal members the right to access sites, associated with their past, preventing cultural
+connection with them through presence or ceremony.
+Years of Native American advocacy and protest spurred the U.S. government’s passage of
+stronger legislation allowing tribes and federal agencies to protect areas of cultural
+significance from destruction and looting, as well as granting Native Americans access to
+culturally significant areas to perform religious ceremonies (Horton 2017:23). The Indian
+Religious Freedom Act of 1978 allowed Native Americans to access places they regarded
+as sacred, and the Archaeological Resource Protection Act of 1979 made it illegal for an
+individual to excavate and remove artifacts from federal or tribal lands with the exception
+of arrowheads and excavation and removal done with federal or tribal permission (U.S.
+Congress 1978, 1979:139–145). These acts still allowed for the destruction of Native
+American burial grounds on private land and possession of Native American remains and
+cultural patrimony from burial sites located on public land. In the state of Minnesota,
+Statute 307.08 was updated in 1980 to prevent the molestation of all human remains and
+burials found on public and private land without permission from the State Archaeologist
+and Indian affairs inter-tribunal board, now the Minnesota Indian Affairs Council
+(Minnesota Legislature 1980). This included protections against looting and excavating
+Pre-Contact Native American burial mounds. The Native American Graves Protection and
+Repatriation Act of 1990 gave tribes the ability to repossess Native American human
+remains and cultural patrimony held in public institutions or recovered from public lands
+(U.S. Congress 1990).
+
+5
+Unfortunately, despite the relatively recent passage of meaningful legislation encouraging
+the protection of Native American burials and archeological sites in the U.S. and
+Minnesota, many Native American burial sites, including mound sites, continue to be
+damaged and neglected. People continue to be ignorant or disrespectful of indigenous
+wishes as to how Native American burial grounds, including mound sites, should be
+treated. One Minnesotan, in 2014, expressed a negligent perspective on Native American
+mounds when he reported being bothered by not having the ability to build onto his house
+or move his garage because of a mound on his property that he believed was looted and
+was therefore meaningless to Native Americans (Smetanka 2014). Additional damage to
+previously impacted burial mounds likely took place in Red Wing, Minnesota, in 2013,
+when a new trail was constructed in an area that once contained mounds, without proper
+review including the Office of the State Archaeologist (Minnesota Office of the State
+Archaeologist 2014:25). Moreover, construction of a border wall by the United States
+along its southern border, knowingly threatened indigenous burial grounds (Ortiz 2020).
+If indigenous communities own the land on which sites with special religious and cultural
+significance reside, the communities have more rights in terms of protection and use,
+resulting in fewer threats to a significant area’s integrity as well as ease of access for
+religious rites (Post 2006). In order to promote the best possible practices in preserving,
+using, and appreciating archeological and cultural sites, it is necessary to understand the
+types and extent of archeological and culturally significant materials present, what their
+condition and history is, and possible threats to their preservation. For this reason, an
+archeological survey is important to perform on newly acquired properties.
+
+6
+As is shown in Chapter 4, some of the cultural resources that were formerly visible at the
+site no longer have determinable surface expression and must be sought using advanced
+geophysical means. However, a larger mound in a highly impacted area on site, and
+mounds in formerly uncultivated wooded areas remain visible and have discrete
+geophysical signatures lending complementary data to the identification of mounds
+damaged beyond the point of visual identification and previously unidentified visible
+mounds. Recovered and noted cultural material present among and adjacent to the mound
+group allows for more refined interpretation of the people who potentially used, built, and
+lived among the Belle Creek mound group in the distant past, and gives tangible support
+to substantial village or ceremonial archeological deposits being present in close proximity
+to the mound group.
+Appropriate cultural protocols congruent with the wishes and traditions of the Prairie Island
+Indian Community were followed upon arriving at the site.
+
+7
+
+Chapter 2 – Background
+Location
+The Belle Creek Mounds archeological site is located within Goodhue County in
+southeastern Minnesota partially on property recently purchased by the Prairie Island
+Indian Community in Welch Township, approximately 2 kilometers west of the city limits
+of Red Wing, Minnesota (Figure 1-1) (Minnesota Department of Transportation and
+Minnesota Geospatial Information Office 2009). The Prairie Island Indian Community’s
+property consists of 48.87 hectares of land, 5.58 of which make up the northwestern half
+of the 10.03-hectare Belle Creek Mounds archeological site (Esri Inc. 2020; Goodhue
+County 2020; Minnesota Department of Transportation 2017). The project’s primary area
+of investigation within the Belle Creek Mounds site is a 100 x 40-meter rectangular area
+with a 20 x 20-meter square area appended on to its western edge at its northwestern corner.
+The area of investigation is 0.45 hectares in size, and just northeast of the approximate
+center of the Belle Creek Mounds site, on PIIC property (Figure 2-1). The site occupies a
+terrace positioned along the northern bank of the Cannon River at elevations of
+approximately 245 to 250 meters above mean sea level (MAMSL), about 40 meters higher
+than the elevation of the Cannon River adjacent to the site location (Minnesota IT Services
+- Geospatial Information Office 2011). The site and property are fairly close to the Cannon
+River’s confluence with the Mississippi River, which is approximately 10 kilometers east.
+
+8
+
+Figure 2-1: Primary area of investigation within the Belle Creek Mounds site boundary
+and PIIC property boundary.
+The site and property are both located within the U.S. Department of Agriculture’s Natural
+Resource Conservation Service’s (NRCS’s) Eastern Iowa and Minnesota Till Prairies
+Major Land Resource Area (United States Department of Agriculture Natural Resources
+Conservation Service 2006:324). This area is within the U.S. Interior Plains’ Central
+Lowland Physiographic Provence described as being mostly associated with dissected till
+plains, but in small part with the less-recently glaciated Wisconsin Driftless Section in its
+northeastern portion (United States Department of Agriculture Natural Resources
+Conservation Service 2006:324). Surficial geological geospatial data indicates that the
+Belle Creek Mounds archeological site resides upon glacio-fluvial outwash sands from the
+
+9
+Late Wisconsin Subdivision of the Late Pleistocene Epoch or Early Holocene Epoch,
+~10,000 – 8,000 BCE, surrounded by uplands associated with Pre-Illinoian Till, with a
+depositional age less than ~700,000 BP, but greater than ~300,000 BP. This geospatial data
+indicates that the site was not glaciated during any of the Wisconsin Sub-divisions or
+Illinoian Sub-division on the geological time scale (Fullerton et al. 2003; National Soil
+Survey Center 2012:5–9; Ojakangas and Matsch 1982:104 and 233).
+The Wisconsin Driftless Area was likely glaciated during far less recent Pre-Illinoian
+glaciations, but hundreds of thousands more years of wind and water related erosion and
+deposition created a landscape with greater relief and far fewer lakes than the more recently
+glaciated surrounding areas (Ojakangas and Matsch 1982:233). The reason there are so few
+lakes in the area is because of its well-drained soils and extensive dendritic drainage
+pattern. Minnesota’s Geology describes the landscape near Red Wing, Minnesota as:
+one of rolling hills and well-established stream networks… considerably
+eroded and displaying numerous bedrock outcrops on the valley sides.
+Mantling the drift and bedrock is a thin blanket of loess, a fine-textured silt,
+powdery to the touch, deposited by the wind during the last glaciation
+(Ojakangas and Matsch 1982:104).
+Loess deposits can range from 9 meters in depth on broad ridges to less than 30 centimeters
+in depth along valley walls (Minnesota Department of Natural Resources 2021).
+The underlying bedrock geology near Red Wing, Minnesota consists of Paleozoic, 542 Ma
+– 251 Ma, marine sandstones, carbonates, like dolomite and limestone, and shales
+containing fossils. This material is occasionally topped with more recent Cretaceous age
+material, 145 Ma – 65.5 Ma, reflecting both marine and continental environments just
+below glacial deposits from the early and middle Pleistocene, 2.6 Ma – 300,000 BP, and
+
+10
+post-glacial sediments from the Holocene, 10,000 – 0 BP (National Soil Survey Center
+2012:5–9; Ojakangas and Matsch 1982:234). The area’s river valleys are filled with recent
+alluvium made up of clay, silt, sand, and gravel (United States Department of Agriculture
+Natural Resources Conservation Service 2006:325).
+Red Wing, Minnesota’s current climate is classified as a humid continental climate using
+the Köppen climate classification system. The average annual temperature in Red Wing is
+7.1°C or 44.8°F with seasonal fluctuations, including a low monthly average of –10.8°C
+or 12.6°F in January and a high average of 22.3°C or 72.1°F in July; the average annual
+precipitation is 774 mm. or 30.5 inches (Climate-Data.org 2021). According to the
+Minnesota Department of Natural Resources’ (MNDNR) and United States Forest
+Service’s (USFS’s) ecological classification system, the posited pre-Euro-American
+settlement vegetation within the Belle Creek Mounds archeological site’s ecological
+subsection consists of tallgrass prairies on broad ridge tops, bur oak savannas on ridge tops
+and dry high slopes, red oak, white oak, shagbark hickory, and basswood forests on moister
+slopes, and red oak, basswood, and black walnut forests in protected valleys (Minnesota
+Department of Natural Resources 2021). As the Belle Creek Mounds archeological site is
+on a broad higher terrace with a south-facing slope within a river valley, a red oak,
+basswood, and black walnut forest or a tallgrass prairie are two probable candidates for its
+pre-Euro-American settlement vegetation. The present land usage distribution for the
+Blufflands Subsection, which the study area resides within, is 30% cropland, 20% pasture,
+and 50% woodland (Minnesota Department of Natural Resources 2021).
+
+11
+Making sense of an archeological site, especially while attempting to use geophysical
+methods to do so, is made easier by understanding the soils in the areas being analyzed.
+The soils within the area of investigation at the Belle Creek Mounds archeological site
+consist of moderately eroded Lindstrom silt loam associated with 12 to 18 percent slopes,
+moderately eroded Lindstrom silt loam associated with 6 to 12 percent slopes, and
+moderately eroded Lilah sandy loam associated with 0 to 6 percent slopes (Soil Survey
+Staff 2021). Both Lindstrom series soils are taxonomically classified as fine-silty, mixed,
+superactive, mesic, Cumulic Hapludolls and tend to develop in loess or alluvial sediments
+on foot slopes or toe slopes of dissected uplands (Soil Survey Staff 2005). The Lilah series
+soil is taxonomically classified as a mixed, mesic, Psammentic Hapludalf and tends to form
+in loamy sediments and in underlying gravelly outwash (Soil Survey Staff 2007). The
+Lindstrom series soils comprise the northern 2/3 of this project’s area of investigation and
+the Lilah series soil comprises the remaining southern 1/3 (Figure 2-2) (Soil Survey Staff
+2016). The native vegetation associated with the soil types on site is consistent with the
+MNDNR/USFS ecological classification system’s posited pre-settlement vegetation, noted
+above. Lindstrom series soils are reported as having mixed tall grass prairie and deciduous
+forest as native vegetation. Lilah series soils are reported as having mixed big bluestem,
+switchgrass, and other tall grass prairie grasses and deciduous trees as native vegetation.
+Although the Lindstrom and Lilah series soils have similar native vegetation, their typical
+pedons have significant differences. The profile of the Lindstrom type soil can be broken
+down as: Ap 0–23 cm., black (10YR 2/1) silt loam; A1 23–56 cm., very dark brown (10YR
+2/2) silt loam; A2 56–74 cm., very dark grayish brown (10YR 3/2) silt loam; Bw1 74–97
+
+12
+cm., dark brown (10YR 3/3) silt loam; Bw2 97–112 cm., brown (10YR 4/3) silt loam; Bw3
+112–152 cm., dark yellowish brown (10YR 4/4) silt loam; C 152–178 cm., yellowish
+brown (10YR 5/4) loam (Soil Survey Staff 2005). The profile of the Lilah type soil can be
+broken down as: Ap 0–15 cm., very dark grayish brown (10YR 3/2) sandy loam; BA 15–
+23 cm., dark yellowish brown (10YR 3/4) sandy loam; Bt1 23–38 cm., brown (7.5YR 4/4)
+gravelly sandy loam; 2Bt2 38–71 cm., strong brown (7.5YR 5/6) gravelly loamy sand;
+2Bt3 71–99 cm., strong brown (7.5YR 5/8) sand; 2C 99–203 cm., strong brown (7.5YR
+5/8) loamy sand (Soil Survey Staff 2007). The Lindstrom soil series has a much thicker A
+horizon, weakly developed B horizons, as well as a consistently silty texture associated
+with a smaller particle size. The Lilah soil series has a sandy texture associated with a
+larger particle size, thinner A horizon, 3 well developed clay rich B horizons, two of which
+are derived from different parent material than the horizons above them, and excessive
+drainage.
+
+13
+
+Figure 2-2: SSURGO soil map including the area of investigation at the Belle Creek
+Mounds Archeological Site.
+The genesis of Lindstrom soil series within the area of investigation (AOI) can be explained
+using the soil catena concept. The Lindstrom soil likely has a much thicker topsoil than the
+Lilah series further south because in the area where the Lindstrom soil is located, colluvium
+from the slope to the north accumulates as a result of the area within the northern part of
+the AOI residing on a toeslope. The two different parent material types present in the Lilah
+soil series profile are explained by eolian loess covering a terrace tread comprised of glacial
+outwash following the outwash’s deposition.
+The formation process of the area’s river channels and their associated terraces is of
+concern to geomorphologists. Local terrace formation on the tributaries of the Upper
+
+14
+Mississippi River in the Wisconsin Driftless Area is inferred as beginning with the
+aggradation or buildup of glacial outwash sediment in tributary channels during glacial
+melting followed by stream incision and partial removal of the deposited outwash
+facilitated by drops in water elevation at streams’ mouths (Faulkner et al. 2016:85 and 89–
+92). Following incision, a relatively smaller accumulation, aggradation, of sediment on
+either side of streams created somewhat-flat floodplains during minor flood events with
+major riverbed armor breaching flood events and further drops in water elevation at
+streams’ mouths beginning further incision leaving behind portions of unincised former
+floodplain as terraces, higher than where new floodplains formed (Faulkner et al. 2016:85
+and 89–92). For a more detailed description of these fluvial geomorphological processes
+read Faulkner et al. 2016.
+Archeological Theoretical Foundations and Setting
+In attempting to discern the reasons for the presence of and relationships between various
+artifacts and features associated with past people, archeologists developed artificial artifact
+and feature based taxonomies that are ultimately combined to define manifestations of
+specific artificially defined archeological cultural groupings (Hegmon 1992:530–531).
+Here, “artifact” is defined as a human used, modified, or manufactured object, and
+“feature” is defined as non-portable evidence of past human activity including refuse and
+storage pits, architectural remains, fire hearths, artifact clusters, and anthropogenic soil
+stains (Kelly and Hurst Thomas 2017:2 and 29). The stylistic characteristics of artifacts
+and features are inextricably linked to adaptive human technological production, function,
+
+15
+and exchange, social organization, communication of ethnic affiliation, and/or expression
+of a particular ideology (Hegmon 1992:519 and 531–532; Schortman 1989:56–59).
+However, ethnographic observations indicate that the artifacts used in distinguishing a
+person’s specific identity may not preserve well, preventing archeologists from ever fully
+reconstructing a past society’s system of affiliations (Schortman 1989:56). Even so,
+through analyses and determinations of associated types of preserved stylistic variations in
+spatially and temporally distinct artifacts and features, cultural associations can be created
+or assigned in connection with inferred past populations that manufactured the recovered
+artifacts and features found at archeological sites (Schortman 1989:56–57). It then stands
+to reason that through analyses of artifacts and features’ stylistic variations, evidence of
+changes within and interactions between cultural groupings can be indicated with the
+adoption of stylistic characteristics lacking presence earlier in a population’s timeline.
+Analogical inference is central to the previously discussed analytical approach, with one
+archeologist and philosopher supporting the validity of analogical inference citing existing
+methodological strategies for evaluating the strength of inferences, for adding support for
+or against specific inferences, and for rejecting false analogies (Wylie 1985:107).
+Archeological cultural classifications in North America consist of a system based primarily
+on Gordon Willey and Phillip Phillips’ system outlined in Method and Theory in
+Archeology (Kelly and Hurst Thomas 2017:141–143). Willey and Phillips’ work defines
+spatial divisions, basic archeological units, temporal series, and integrative units for use in
+organizing archeological data to facilitate its interpretation (Willey and Phillips 1958). The
+spatial divisions are defined as the locality, varying in size from a single site to a district
+
+16
+not larger than might be occupied by a single community; the region, a unit of area loosely
+applied but very apt to coincide with minor physiographic subdivisions in which cultural
+homogeneity cannot be assumed; and the area, a large spatial unit similar to a cultural area
+of the ethnographer like the Southwest in the United States (Willey and Phillips 1958:18–
+21). Basic archeological units consist of the phase, a basic unit designed as being limited
+spatially to a locality or region and chronologically to the briefest possible amount of time
+that is characterized by distinctive and highly specific artifact types that distinguish it from
+all similarly conceived units, and the component, defined as the manifestation of a phase
+within soil stratum or strata that are presumed to be culturally homogenous (Kelly and
+Hurst Thomas 2017:143; Willey and Phillips 1958:21–24). Ideally components are
+eventually combined to create broader archeological phases spanning across space (Willey
+and Phillips 1958:27). Many phases are associated with specific projectile point and pottery
+styles and some extend into multiple regions in practice. Examples of temporal series are
+the local sequence, a formerly exclusively soil stratigraphy-based series of components
+describing the order in which components are present at a single site or locality; the
+regional sequence, the product of correlating similar local sequences at the regional level
+that can result in the extension of defined phases across regions; and the period, a relatively
+long length of time defined through associations with gross changes in archeological
+remains related to highly generalized subsistence methods and material culture (Kelly and
+Hurst Thomas 2017:143; Willey and Phillips 1958:24–29). Integrative units consist of the
+horizon, a wide distribution of recognizable stylistic characteristics occupying a relatively
+brief period of time; the tradition, essentially an archeological manifestation comprised of
+
+17
+many phases defined through a broad consistency in observed house styles, settlement
+patterns, pottery or lack thereof, and subsistence systems present through a large span of
+time; and climax, the phase or phases of maximum cultural intensity of a tradition (Kelly
+and Hurst Thomas 2017:142; Willey and Phillips 1958:29–40).
+Traditions are sometimes named in association with archeological periods, but often
+exceed the bounds of the period they are associated with and can overlap in time and space
+with other traditions. People associated with particular phases and traditions are often
+referred to as the phase or tradition’s name followed by culture or people or, in some
+instances, simply a demonymization of the name itself, with the related term cultural
+complex describing an apparent interrelated clustering of cultural traits or characteristics.
+The most frequently applied elements of the previously discussed organizational system in
+the background research related to this project seem to be the locality, phase, component,
+period, and tradition, though sequences are occasionally referenced. It is important to note
+that past people that appear to have been using similar artifacts are not definitively part of
+common cultures, though their association with each other is often inferred as previously
+stated (Anfinson 1979:xi). Though much of the research related to archeology around Red
+Wing, Minnesota refers to the culturally occupied space near what is now Red Wing as the
+Red Wing Locality, recent research combined with the previously cited terminology
+discussed by Willey and Phillips suggests that the Red Wing Region is a more appropriate
+classification for the location. Archeological materials suggest the permanent and longterm presence of multiple distinct groups, thus invalidating locality as a potential
+taxonomic unit (Schirmer in preparation:4). Cited research referring to an inappropriately
+
+18
+named Red Wing Locality has been adjusted in this research to refer to the Red Wing
+Region.
+Prior to listing and briefly describing archeological sites within set distances of the
+project’s area of investigation, identified using the Minnesota Office of the State
+Archaeologist’s web portal, a review of a portion of the interpreted archeological timeline
+and archeological research related to southeastern Minnesota’s human past, is warranted
+to ensure a clearer understanding of archeological data discussed in a more detailed
+manner. The Paleoindian Period in Minnesota, spanning from ~9500 – 6000 BCE, was its
+first period of human occupation that is supported by archeological evidence (Arzigian and
+Stevenson 2003:74; Fleming 2009:2). Beginning around 9500 BCE, wide-ranging huntergathers lived in an environment in transition, as glaciers that once covered the landscape
+retreated. The artifacts most commonly affiliated with the period’s associated Paleoindian
+Tradition are long, sometimes fluted, lanceolate points used to hunt large fauna, including
+mammoth and mastodon early in the period (Arzigian and Stevenson 2003:74; Fleming
+2009:2). In the late Paleoindian Period and early Archaic Period global temperature began
+to rise significantly, ~5°F, reaching a relative high during the Climatic Optimum at ~5800
+BCE, transforming many formerly wooded areas, in what is now Minnesota, into prairie
+(Gibbon 2012:66). The Archaic Period, spanned from ~6000 – 1000 BCE generally and
+~6000 to ~500 or 0 BCE in Minnesota (Arzigian and Stevenson 2003:75). The associated
+Archaic Tradition is characterized by regional differentiation in material culture and
+apparent adaptations in hunting and gathering techniques that took advantage of a greater
+number of resources, some of which were specific to particular landforms in various
+
+19
+ecological zones, including many species of freshwater fish, mussels, nuts, and berries,
+with the main animal resource being deer in wooded areas and bison on the plains (Arzigian
+and Stevenson 2003:75). The Woodland Period ranges from ~500 BCE or ~0 CE – 1000
+or 1650 CE in Minnesota with the period ending far more quickly in southeastern
+Minnesota than in remote northern parts of Minnesota (Arzigian and Stevenson 2003:79).
+The period’s associated Woodland Tradition is characterized by the broad onset, creation,
+and usage of pottery, burial mounds, the bow and arrow, and horticulture (Arzigian and
+Stevenson 2003:79).
+People residing in southeastern Minnesota during its Late Woodland Period, ~500 – 1100
+CE, may be effectively described as belonging to regional and sub-regional groups, with
+heterogeneous archeological traits, possessing local knowledge and wide-ranging trading
+and interaction networks spanning Minnesota, from Wisconsin to the Dakotas, and spilling
+south, well into what is now Iowa and Illinois (Hildebrant Iffert 2010:38 and 43; Schirmer
+2002:5 and 36–37). These people, referred to as Late Woodland cultural groups, are
+inconsistently archeologically documented in southeastern Minnesota’s Driftless Area,
+possibly due to their relatively mobile and dispersed lifeway (Gibbon and Dobbs 1991,
+302). As a result, little is known specifically about Late Woodland cultural groups in the
+Red Wing Region. Broadly speaking, warm weather lowland villages associated with
+primarily hunting and gathering, including shellfish collection, and some small scale crop
+production, like the cultivation of goosefoot, knotweed, sunflower, maize, and squash; and
+cold weather dispersed mobile sheltered-upland-based family camps, allowing for more
+effective deer hunting, comprise the known pattern of regional Late Woodland cultural
+
+20
+subsistence (Hildebrant Iffert 2010:39; Schirmer 2002:36–37). Mound groups regularly
+consisting of two to 15 conical, linear, and effigy shaped mounds are indicative of a Late
+Woodland cultural origin (Hildebrant Iffert 2010:42). Importantly, Late Woodland cultures
+have been regarded as being distinct from the contemporaneous and descendent cultures of
+the Oneota, Middle Mississippian, and Middle Missouri traditions (Schirmer 2002:5).
+The culturally Late Woodland effigy mound building groups, sometimes referred to
+collectively, and arguably too specifically, as the Effigy Mound Tradition or culture,
+occupied an area encompassing southern Wisconsin, northwestern Illinois, northeastern
+Iowa, and land along the Mississippi River in eastern Minnesota around 1000 CE
+(Rosebrough 2010:1; Schirmer 2002:37). Effigy mound building cultures constructed
+zoomorphic effigy mounds thought to be associated with adapted alliance rituals of Late
+Woodland populations more mobile than their predecessors (Rosebrough 2010:556 and
+573). Through the tangible representation of identity, sodality, or social totem, using
+upperworld and lowerworld associated animal symbolism related to particular resources,
+effigy mounds may have allowed builders to bury their dead in multiple locations, without
+returning to communal burial grounds, and claim access to local resources (Rosebrough
+2010:573; Schirmer 2002:122). Claims to burial rights and resources were likely
+established by people involved in carefully planned mound construction, as following the
+completion of effigy mounds, the mounds were regularly obscured with vegetation
+preventing future visibility (Rosebrough 2010:573). Five phases are taxonomically
+regarded as belonging to a defined Effigy Mound variant: the Keyes Phase in northeastern
+Iowa, the Lewis Phase in northwestern Wisconsin, the Eastman Phase in southwestern
+
+21
+Wisconsin, the Horicon/Kekoskee Phase in southeastern Wisconsin, and the Des Plaines
+Phase in northeastern Illinois (Rosebrough 2010:111). All these phases have traits that set
+them apart from each other, but their commonly held characteristics are shell midden
+formation, Madison pottery-ware usage, and the use of a specific ceramic motif
+(Rosebrough 2010:111).
+Multiple zoomorphic mounds were, at one time, present on the Mero village’s terrace, with
+others being present throughout the Red Wing Region (Fleming 2009:253; Rosebrough
+2010:107–108; Schirmer 2002:57). However, unlike the effigy mounds in what are now
+Iowa or Wisconsin that were built in association with other effigy mounds, effigy mounds
+in the Red Wing Region are isolated among groups of circular or conical mounds indicating
+that effigy mound building near Red Wing was merely a small part of a larger aggregational
+mortuary tradition (Fleming 2009:254). Effigy mound building groups manufactured and
+used pottery consisting primarily of grit-tempered cord-impressed jars (Rosebrough 2010:2
+and 93). The presence of or interaction with effigy mound building cultural groups in the
+Red Wing Region is supported by locally recovered pottery sherds (Hildebrant Iffert
+2010:39 and 42).
+Madison ware, a pottery type, often consisting of vertically cord-marked, sometimes cordwrapped stick impressed, conoidal to sub-conoidal grit-tempered jars with thin walls (4–6
+mm.), wide mouths, slightly constricted necks, and straight to slightly out flaring rims,
+directly associated with studied effigy mounds, appears to have been used by Late
+Woodland people on the Dike archeological site, on Prairie Island, just north of Red Wing
+(Anfinson 1979:74; Hildebrant Iffert 2010:39). Late Woodland Angelo Punctated ware,
+
+22
+hypothesized to be associated with effigy mound building groups, was recovered at the
+Mosquito Terrace archeological site, near the confluence of the Cannon and Mississippi
+rivers (Hildebrant Iffert 2010:39; Rosebrough 2010:25). Angelo Punctated pottery consists
+of grit-tempered jars with punctates and incised to thin-trailed line decorations in geometric
+patterns similar to Mankato Incised pottery affiliated with the Cambria Phase, potentially
+indicating that the Lewis Phase associated with Angelo Punctated pottery interacted with
+cultural groups on the prairie (Anfinson 1979:51; Fleming 2009:146; Rosebrough
+2010:113 and 216). This type of pottery was used after 1000 CE and has been found in
+association with Middle Mississippian jars (Rosebrough 2010:113).
+Pottery associated with other Late Woodland cultural groups, unaffiliated with effigy
+mounds, is also present in the Red Wing Region. Clam River Cord-stamped and Onamialike pottery, present at the Dike site, indicate a southward movement of culturally Late
+Woodland peoples into the Red Wing Region from near Lake Mille Lacs in eastern
+Minnesota and the Clam River in western Wisconsin (Hildebrant Iffert 2010:39). Clam
+River Cord-stamped ware is defined as having grit temper, exterior surface treatment with
+a crisscross cord wrapped paddle, a globoid body with rounded shoulders and a constricted
+neck, a high neck-rim with outcurve, cord-wrapped stick impressions in simple geometric
+patterns in the rim-neck area, and occasionally cord-wrapped stick punctates forming a
+border below the geometric patterns (Anfinson 1979:67). Clam River pottery is associated
+with non-effigy compound burial mounds (Anfinson 1979:67).
+Although regarded as non-local, Late Woodland pottery consisting of Grant Cord
+Impressed ware and Fred Edwards Cord Impressed ware with shell tempering, are present
+
+23
+at the Mero and Bryan pre-contact village areas near Red Wing, on opposite sides of the
+Mississippi River (Fleming 2009:218). The presence of these two pottery types indicates
+interaction with Late Woodland peoples with evidence of having resided in southwestern
+Wisconsin ~1000 – 1200 CE, when the pottery was likely manufactured (Rosebrough
+2010:230). Rosebrough asserts that the use of shell temper indicates that Edwards CordImpressed pottery should be considered a Late Woodland/Middle Mississippian hybrid
+pottery type (Rosebrough 2010:233). In discussing the Late Woodland cultural presences
+in the Red Wing Region, Schirmer explains that, although some are associated with eastern
+and northern groups, the majority are related to south-southeastern, western, and
+southwestern Plains/Prairie groups (Schirmer 2002:58).
+From ~1050 to ~1300 CE, an area encompassing the confluences of the Wind and
+Mississippi, Cannon and Mississippi, and Trimbelle and Mississippi rivers, surrounding
+and including what is now Red Wing, Minnesota, was arguably the most densely occupied
+area in the Upper Mississippi Valley, with an estimated resident population of more than
+500 people and archeological evidence supporting its function as an interaction center
+between Late Woodland cultures and Oneota Tradition, Cambria Phase, Middle
+Mississippian Tradition, and Silvernale Phase related cultural groups (Fleming 2009:11–
+12 and 297; Gibbon and Dobbs 1991:295; Hildebrant Iffert 2010:34; Schirmer 2002:6).
+Research focusing on the archeology of the Red Wing Region during this period identifies
+more than 6 major village sites present including: Silvernale, Bryan, Belle Creek, Energy
+Park, Mero/Diamond Bluff, Double, Bartron, and Adams, and puts forth ~150 people as
+the ethnographically supported ideal population size for maintaining social harmony in a
+
+24
+relatively egalitarian community, suggesting that the resident population could easily be
+greater than 1,000 people (Fleming 2009:12; Hildebrant Iffert 2010:34–35; Schirmer
+2002:57). These larger villages affiliated with the previously mentioned time period are
+regularly surrounded by mound groups that were of great interest to early antiquarians and
+archeologists of Minnesota and the Midwest, with the number of locally present individual
+mounds exceeding 2,000 (Fleming 2009:20).
+Archeological research pertaining to the Red Wing Region defines the Oneota Tradition as
+a cultural manifestation associated with the Upper Mississippi River, having characteristics
+including villages located to allow access to multiple econiches and the use of large,
+globular, shell-tempered pottery vessels with smoothed surface treatment, high or outslanting rims, tool impressions on rims with occasional rim notches, and rectilinear
+decorations made with trailed lines, including chevrons (Anfinson 1979:39–40; Hildebrant
+Iffert 2010:49; Schirmer 2002:5). Oneota villages are thought to have mainly been located
+on terraces and seasonally occupied, with inhabitants procuring shellfish, bison, and deer,
+cultivating maize, squash, beans, tobacco, sunflower, and little barley, and gathering
+acorns, walnuts, fruits and berries, and wild rice (Hildebrant Iffert 2010:46). Oneota
+emergence is complex, with Oneota presence being established with apparent
+independence in both eastern Wisconsin approximately 923 CE and eastern Minnesota
+approximately 1050 – 1100 CE and another independent Oneota origin point located in
+northeastern Illinois, near Lake Michigan (Fleming 2009; Henning and Schirmer
+2020:149–156; Rosebrough 2010; Schirmer 2002, 2016). Oneota artifactual assemblages
+comprised the majority of artifacts at the Bartron and Adams archeological village sites in
+
+25
+the Red Wing Region and contributed artifacts to the village sites, including multi-cultural
+aggregation village sites, on both sides of the Mississippi River near Red Wing. Research
+suggests a southerly, later, purer Oneota phase in the Red Wing Region at the Burnside
+School and McClelland sites dating to 1222 – 1419 CE at 2-sigma and 1350 – 1400 CE,
+respectively, following the large-scale occupation of aggregation village sites (Koncur
+2018:13 and 52; Schirmer 2016).
+The Middle Mississippian Tradition was centered around the massive pre-contact
+population center referred to as Cahokia, near modern day St. Louis, Missouri, and had an
+estimated peak population of ~15,000 people, with estimates being as low as under 5,000
+people and as high as greater than 40,000 people (Woods 2004:255–256). The Middle
+Mississippian cultures, associated with the Emergent Mississippian Period (~800 – 1050
+CE) and the Mississippian Period (~1050 – 1350 CE), spread along the Mississippi River
+and its tributaries (Fleming 2009:15). Middle Mississippians are probable descendants of
+Woodland Tradition related populations from around the American Bottom Region, the
+broad 16-kilometer-wide eastern floodplain spanning from the confluence of the Illinois
+and Mississippi and Missouri and Mississippi rivers to where the Mississippi floodplain
+begins to tighten ~20 km. south of St. Louis (Schirmer 2002:23; Woods 2004:255–256).
+These Woodland populations gradually transitioned from living in small unorganized
+upland and lowland clusters of houses with a disorganized structure of cooking and storage
+pits to highly concentrated, floodplain focused, socially stratified communities with
+numerous domestic compounds and a uniform system of pits organized around a central
+open space with its own pit cluster surrounding a central post. These communities engaged
+
+26
+in task specialization and subsisted using an organized system of large-scale agricultural
+food production (Schirmer 2002:5 and 23). Additional characteristics associated with
+Middle Mississippian culture include: platform mounds, wall-trench structures, tri-notched
+projectile points, chipped stone Middle Mississippian hoes, spades, and knives, discoidals
+(also referred to as chunkey stones), pottery trowels, pans, water bottles, and shelltempered pottery with rolled rims and curvilinear decorations (Emerson 1999:224; Fleming
+2009:242; Gibbon and Dobbs 1991:288–289).
+The Cambria Phase consists of mounds and three core villages along the Minnesota River
+(Henning and Schirmer 2020:158). Recent assays date the phase, that includes imitations
+of Stirling Phase Cahokia rolled rimmed angled shouldered jars decorated by broad
+curvilinear designs, from 1000 – 1200 CE or 1050 – 1200 CE with a later variant dating
+from 1200 – 1300 CE (Holley and Michlovic 2013:22). Henning and Toom as well as
+Holley and Michlovic indicate that the Cambria Phase falls within the Northeastern Plains
+Village Tradition due to its lack of artifacts indicating interaction with Initial Middle
+Missouri cultures and its geographic displacement from the Great Oasis Phase that is
+purported to have played a role in the genesis of the Initial Middle Missouri Tradition,
+which Cambria has been placed within previously (Holley and Michlovic 2013:22–26;
+Mollerud 2016:72). The placement of Cambria outside of the Initial Middle Missouri
+Tradition is supported by Cambria’s notable similarities to the Mill Creek and Over phases
+to the west and the Silvernale and Cahokia phases to the east (Holley and Michlovic
+2013:26). However, Mollerud identifies four Great Oasis rim sherds at the Cambria Phase
+type site (Mollerud 2016:182). Other characteristics of the Cambria Phase include: plains
+
+27
+side-notched projectile points, semi-subterranean house forms, bell shaped storage pits,
+snub-nosed thumbnail scrapers, sandstone abraders, pottery gaming pieces, scapulae hoes,
+clay elbow pipes, and quantities of bone, shell, and maize refuse (Anfinson 1979:51;
+Gibbon and Dobbs 1991:303). Over 93.7% of 442 individual vessels analyzed through rim
+sherds from the Cambria type site were fragments of grit-tempered jars that had a smoothed
+surface treatment with nearly half exhibiting evidence for polish, reflecting light (Mollerud
+2016:98, 113, and 180). Decorative designs associated with the Cambria Phase are incised
+or trailed, with occasional punctates and rare cord impressions, and are mainly comprised
+of linate horizontal fields, chevrons, meanders, spirals, and filled triangles (Anfinson
+1979:51). The Cambria Phase shares a host of vessel shapes and rim and decorative
+treatments with neighbors to the south and west (Holley and Michlovic 2013:22).
+The Silvernale Phase (~1100 – 1300 CE), has its type site within the Red Wing Region and
+is present in both southeastern Minnesota and extreme western Wisconsin. Artifact and
+feature characteristics associated with this phase are small notched and unnotched
+triangular projectile points, end scrapers, side scrapers, sandstone arrow shaft abraders,
+bison scapula hoes, storage and refuse pits, and flexed primary burials in subsurface pits
+with an indicated mixed hunting and gathering and agricultural economy (Anfinson
+1979:183; Gibbon and Dobbs 1991:298). Village sites of this phase reside on terraces
+above the floodplains of the Cannon and Mississippi rivers (Fleming 2009:23). Silvernale
+culture seemed to disappear from the Upper Midwest by 1300 CE following the collapse
+of Cahokia and the affiliated Middle Mississippian Tradition with the disappearance
+posited as resulting from Red Wing Region Silvernale groups disaggregating due to their
+
+28
+function as a prairie-related trading node in a wide-spread Middle Mississippian trading
+network no longer being necessary (Gibbon and Dobbs 1991:301). Recent research has
+concluded that formerly aggregated groups moved away from the Mississippi trench at the
+end of the Silvernale Phase and created villages near more minor drainages in the Red
+Wing Region, identified as Oneota (Henning and Schirmer 2020:151). Village sites that
+have a majority Silvernale component are Silvernale, Bryan, Belle Creek, Energy Park,
+and Mero/Diamond Bluff (Hildebrant Iffert 2010:35).
+Shell tempering is by far the most commonly identified temper type for Silvernale pottery
+and its surfaces are typically wiped smooth with some vessels, usually formed from
+incompletely oxidized grayish paste, appearing to have exhibited polish (Holley in
+preparation:10). Whole and nearly complete Silvernale vessels invariably have hachured
+scrolls and Silvernale nested chevrons were very often rounded or curving as opposed to
+rigid (Holley in preparation:11).
+Isolated scrolls and hachured units… were identified, sometimes in
+association with parallel horizontal lines. Finally, a bull’s-eye, possibly a
+variant of the scroll, was identified in Silvernale deposits as were sherds
+with seemingly unbounded rounded punctations (Holley in preparation:11).
+Holley identifies some of the diagnostic aspects of the Silvernale I facet of Silvernale
+pottery as weakly protruding rolled-rim jars or faceted-rim jars with plain or polished black
+surfaces and moderate width with deeply scribed decoration on angled-shoulder bodies.
+The archetypal pottery vessels within the Silvernale II facet are rolled-rim jars, sometimes
+having large rims, with wide scribed decoration with strong intaglio-effect on the interior
+wall (Holley in preparation:16).
+
+29
+Diagnostic characteristics of Link pottery, a pottery type related to the Silvernale Phase,
+include angled-rim and curved-neck jars, intermediately angled to rounded shoulders, and
+rim tabs, which are clay pads added to the rim as a form of decoration that follow the flow
+or direction of the rim (Holley in preparation:17–18). Link scribed decorations resemble
+the previously discussed Silvernale facets’ filling in large areas of the upper jar, but
+sometimes have disconnected scrolls or spirals and large areas of the vessel undecorated
+(Holley in preparation:18). Recent results from the Silvernale site date Bartron pottery, an
+Oneota pottery, at ca. 1170 – 1280 CE and Silvernale and Link pottery at ca. 1190 – 1240
+CE indicating that multiple pottery types appear to have been in use at the same time over
+a period of 100 years (Henning and Schirmer 2020:154). The new data support Oneota
+cultural development being a process separate from Middle Mississippian-related activities
+(Henning and Schirmer 2020:154).
+Project Area of Investigation Archeological Background and Selection Rationale
+The Belle Creek Mounds archeological site was chosen as the focal point of this research
+due to it having features representative of other mound groups on PIIC’s newly acquired
+property, as well as greater prominence and relatively easy accessibility, which facilitates
+study and makes adverse effects to its already impacted mounds more probable. Through
+studying the geophysical results associated with a highly visible mound group, other
+mounds within less prominent mound groups will likely be easier to identify through
+comparison with data collected at Belle Creek Mounds.
+
+30
+There are 166 recorded archeological sites in Minnesota within 10 km. of the Belle Creek
+Mounds archeological site (Minnesota Office of the State Archaeologist 2021a). Eightyseven of the 166 recorded archeological sites are classified as sites encompassing burial
+mounds, and 16 of the sites are documented as confirmed locations of former aboriginal
+habitation or village locations. Some of the sites formally classified as villages are
+associated with different archeologically derived cultures and traditions that include
+Woodland, Oneota, and Middle Mississippian, affiliated most strongly with Silvernale
+Phase groups.
+Within 1 km. of the Belle Creek Mounds archeological site there are 9 recorded
+archeological sites (Minnesota Office of the State Archaeologist 2021a). Eight of the sites
+are areas encompassing small mound groups, with fewer than 5 identified mounds, and 1
+of the sites is referred to in name as Belle Creek Village. The northeastern portion of the
+Belle Creek Village’s site boundary encompasses the southwestern third of the Belle Creek
+Mounds site. The property, upon which the northern portion of the Belle Creek Mounds
+site (21GD0072) resides, is now owned by the Prairie Island Indian Community (PIIC)
+along with two complete archeological sites, McGregor Mounds I (21GD0066) and
+McGregor Mounds II (21GD0067), and portions of three other archeological sites,
+McGregor Mounds III (21GD0068), Foreman Mounds (21GD0065), and Belle Creek
+Village (21GD0200) (Figure 2-3) (Goodhue County 2020; Minnesota Department of
+Transportation 2017).
+
+31
+
+Figure 2-3: A hillshade map depicting archeological sites on or closely adjacent to
+PIIC’s newly acquired property.
+The mound sites located on PIIC’s property, apart from the Belle Creek Mounds site, are
+relatively small and do not encompass many mounds. The Foreman Mounds site is
+documented as having 3 mounds on 0.81 hectares of land, McGregor Mounds I is
+documented as having 4 mounds on 1.82 hectares of land, McGregor Mounds II is
+documented as having 3 mounds on 1.42 hectares of land, and McGregor Mounds III is
+documented as having 1 mound on 0.4 hectares of land (Minnesota State Historic
+Preservation Office 1990a, 1990b, 1990c, 1990d). All of these sites are assigned as having
+a probable cultural-temporal affiliation with the Woodland Tradition. The Belle Creek
+Village site is documented as having associated depressions, pottery, and debitage, and as
+
+32
+occupying 25.1 hectares of land within and south and west of the Belle Creek Mounds site
+(Minnesota Department of Transportation 2017; Minnesota Office of the State
+Archaeologist 2021a; Minnesota State Historic Preservation Office 1990e). The Belle
+Creek Village is documented as being associated with the Oneota Tradition along with a
+high probability of being associated with the Mississippian Tradition (Minnesota State
+Historic Preservation Office 1990e).
+The interpretations present on Belle Creek Village’s site form are likely derived from an
+excavation done on the site with cursory documentation. In the Minnesota Office of the
+State Archaeologist’s (OSA’s) site files there is digitized correspondence written by former
+State Archaeologist Elden Johnson in which he describes flying over the Belle Creek
+Village site, seeing [Pre-Contact Era] house outlines, and, eventually, conducting a test
+excavation on the site that “produced a few pottery sherds much like those from the Bryan
+site downstream” (Minnesota Office of the State Archaeologist 2021b). Because Bryan is
+a complex aggregation site with multiple types of local pottery, Johnson’s description of
+the pottery at Belle Creek is unclear. Johnson went on to note that Belle Creek Village
+offers a good opportunity to potentially answer some of the questions raised at Bryan, but
+that could not be answered due its level of destruction (Minnesota Office of the State
+Archaeologist 2021b). Although the aforementioned excavation is informally documented
+by Johnson, a more detailed summary or report of the work could not be located and does
+not seem to have ever existed (Schirmer 2020, personal communication).
+An 1885 effort to map mounds is the only previous formally documented archeological
+survey that had taken place investigating Belle Creek Mounds. Because of the site’s gross
+
+33
+characteristics (i.e., position on the landscape and pattern of mounds), it is thought to be
+associated with the Silvernale Phase or the Bartron Phase Oneota regional occupation,
+whose artifacts are present at mound sites along major drainages near Red Wing,
+Minnesota (Gibbon and Dobbs 1991). With Johnson’s interpretation in mind, the most
+likely nearby sites that may reveal what to expect in terms of cultural affiliation and
+archeological deposits at Belle Creek Mounds would also have villages in close association
+with mound groups on terraces along the Cannon River and possibly the Mississippi River,
+villages like Bryan (21GD0004) and Area 51 (21GD0290) and mound groups like Bryan
+Mounds (21GD0045) and Bryan II (21GD0051) (Minnesota Office of the State
+Archaeologist 2021a).
+Another informally documented excavation took place at Belle Creek Mounds
+archeological site prior to Johnson’s excavation in the late 1960’s or 1970. Dr. Edward W.
+Schmidt assisted in excavating and documented the excavation of a “six-foot conical
+mound” that had load marks and contained 3 dozen cobblestones at varied depths, but no
+other evidence of human presence (Schmidt 1940). Schmidt also excavated a “62 foot
+mound that was 3 feet high at its eastern end but older looking at its western end” (Schmidt
+1940). Schmidt’s excavation located a spall with chipping at the far western end of the
+mound during the excavation of a 12-foot trench. In the eastern end of the mound,
+excavators found bone fragments. Then after hours of careful digging, recovered larger
+human bone fragments from above the hips, a femur and tibia of a right leg, as well as
+small bits of cranium, but no ribs, hand bones, or foot bones (Schmidt 1940). Further
+analysis of the previously mentioned remains, once part of the H188 Goodhue County
+
+34
+Historical Society collection that were originally accessioned as 2413 – 2426, reveal that
+the remains are associated with a minimum of four individuals (Blue in preparation). The
+remains indicate the presence of one probable adult male, a possible adult female, and two
+sub-adults associated with skull fragments, a clavicle, and sacral fragments (Blue in
+preparation). The skull fragments and clavicle associated with one of the sub-adults exhibit
+copper staining (Blue in preparation). Schmidt also discussed a mound in an alfalfa field
+at Belle Creek that contained pieces of charcoal that “could not possibly have been
+introduced by roots or animals” and circular and rectangular depressions on the eastern
+portion of the terrace that were surrounded by low embankments, possible hut rings, but
+excavation could not confirm the depressions as such. Though Schmidt’s informal
+excavation of mounds is now seen as unethical, the associated documentation of the
+features within the mounds at the Belle Creek Mounds archeological site gives a modern
+survey a better idea of what mounds contain and how nearby human made mounds might
+be distinguished from natural landforms.
+On September 28th and 29th of 1885, archeologist and surveyor T.H. Lewis mapped 67
+mounds at Belle Creek Mounds long before the archeological site was formally established
+(Lewis 1885:1–3). When looking at a LiDAR derived digital elevation model (DEM)
+colored hillshade, Lewis’ work appears to accurately reflect the various mound locations
+within the Belle Creek Mounds site’s mound group (Figure 2-4). When comparing Lewis’
+1885 mound survey to the previously mentioned hillshade, agricultural practices look to
+have disturbed 22 of the mounds documented in the 1880’s, while 45 of the mounds seem
+to have avoided cultivation. Horse drawn scrapers could be used to quickly remove mound
+
+35
+fill (Arzigian and Stevenson 2003:57). However, some of the uncultivated mounds appear
+to have been looted. A preliminary survey and the appearance of the mounds on the
+hillshade confirm the presence of fairly recently dug human-made pits in the centers of 13
+of the mounds on site. Thirty-two mounds appear intact and undisturbed. Approximately
+0.6 hectares of the 2.5 hectares that seem to have been under cultivation on 21GD0072
+were recently in use as a hay field.
+
+36
+
+Figure 2-4: Lewis sketch map with Belle Creek Mounds depicted on a DEM colored
+hillshade.
+
+37
+Mound and Geophysical Background
+The reasons attributed to local mound construction and its cessation are discussed in
+research related to the Red Wing Region and broader area. Community and Aggregation in
+the Upper Mississippi River Valley contends that mounds were not necessarily territorial
+markers, but symbols of cultural interaction and ritual linked to cultural aggregation related
+events (Fleming 2009:234). Another hypothesis explains mound building and burials as
+part of a corporate social strategy to decrease resource related risks across cultural groups
+through establishing shared symbolic claims to resources in multiple areas that waned with
+the onset of horticultural sedentism in favor of then more useful network-based social
+strategies associated with the use of individual burials containing grave goods (Rosebrough
+2010:110 and 239). A poor understanding of mound composition and contents makes
+mound documentation difficult. In order to better understand the internal structure and
+physical nature of Native American mounds, archeologists Constance Arzigian and
+Katherine Stevenson compiled and analyzed data from all well-documented mound
+excavations in Minnesota (Arzigian and Stevenson 2003:1). However, detailed information
+related to mound excavations is fairly difficult to come by, as no excavations have been
+done for solely scientific purposes since the early 1970’s, when legislation began to legally
+protect mounds from human disturbance (Arzigian and Stevenson 2003:1). Also, Arzigian
+and Stevenson found that early surveyors who mapped mounds sometimes mistook natural
+or Euro-American features as Native American mounds and occasionally failed to map
+some of the mounds within surveyed mound groups (Arzigian and Stevenson 2003:56).
+
+38
+Artifacts within or near mounds are not necessarily associated with the construction period
+of a mound. Not only are mounds constructed over the course of decades and centuries, but
+people have used village fill containing artifacts associated with time periods and cultural
+groups existing hundreds to thousands of years earlier than the mound construction event(s)
+to build mounds (Arzigian and Stevenson 2003:61). Mounds often contain burials and
+artifacts that were added to them hundreds of years after they were constructed. The most
+reliable method of dating a burial feature is the identification of intentionally placed
+diagnostic artifacts or directly associated radiometrically dateable material (Arzigian and
+Stevenson 2003:104).
+Mounds frequently contain primary burials and secondary burials interred one of four
+ways: in pits below the ground surface; placed on the ground surface and covered; placed
+in a pit dug into an existing mound and buried; or placed on top of an existing mound and
+buried by making the mound larger (Arzigian and Stevenson 2003:168). Secondary burials
+have been posited as a potentially non-cultural seasonal practice when the ground is frozen,
+making immediate burial difficult (Arzigian and Stevenson 2003:228). Burials are more
+common near the center of a mound but can occur out to nearly the margin of the mound.
+Arzigian and Stevenson’s research showed confirmed burials as being present within
+75.9% (217) of 286 well-documented mounds with only 2.8% (8) of mounds not having
+any evidence of burials present (Arzigian and Stevenson 2003:232). Eighty-seven-and-ahalf percent of studied mounds greater than 3 feet in height contained burials with none of
+them confirmed as being negative for a burial (Arzigian and Stevenson 2003:194). The few
+
+39
+mounds excavated in the Red Wing Region have contained human burials (Fleming
+2009:253).
+Features within mounds are nearly equally split between three vertical positions: in fill, on
+the original ground surface, and in pits in subsoil (Arzigian and Stevenson 2003:169).
+Burial features had a maximum depth of ~3 ft. or ~0.9 meters. below the original ground
+surface in archeological region 3e where the Belle Creek Mounds archeological site
+resides, with the maximum statewide depth being slightly greater than 6 ft. or ~1.85 meters
+(Arzigian and Stevenson 2003:177). The most common types of features in burial mounds
+are: pits, which are identifiable due to their dark stained fill contrasting with lighter
+surrounding subsoil; human remains interred without a visible pit; a cluster of bundle
+burials; a special burial complex; pit interred human remains; fireplaces/hearths;
+rocks/cairns; animal bones; cremated human remains; caches; scattered human remains;
+charcoal; clay ridges; stone vaults; and lithic concentrations (Arzigian and Stevenson
+2003:156). There are also occasionally logs documented above burials. The pits included
+in the study averaged ~5 ft. x ~4 ft. x ~2 ft. or 1.5 meters x 1.2 meters x 0.6 meters.
+The soils on and around mounds differ from their less altered surroundings. At Effigy
+Mounds National Monument, mounds have stripped topsoil at their bases resulting in
+truncated soil strata around the mound’s base (Arzigian and Stevenson 2003:134). Mound
+A horizons have shown that they can stabilize relatively quickly, within 1,000 years, of
+mixed topsoil and subsoil being deposited from areas where fill is taken (Arzigian and
+Stevenson 2003:125). This results in a thicker A horizon on top of the mound than the
+borrow area surrounding the mound from where fill was taken. However, E and B horizons
+
+40
+within the mound fill do not develop as rapidly. The borrow areas have been documented
+as having A horizons roughly half as thick as the surrounding soils more than 100 feet
+away from mounds (Arzigian and Stevenson 2003:126).
+Arzigian and Stevenson’s discussion of how mound groups change their area’s soil
+horizonation draws attention to the anthropogenic driven alterations to mound fill borrow
+areas among mound groups. The negative space created by borrow areas likely contribute
+to the local relief, increasing elevation differences between mounds and their surroundings,
+contributing to the appearance of the mounds themselves. Through Arzigian and
+Stevenson’s research it can be inferred that borrow areas among mound groups could
+contribute to mound relocation through comparisons of soil horizon thicknesses. Some of
+the previously reviewed research emphasizes the significance of the areas between
+mounds, within mound groups. Rosebrough writes:
+Ritual at mound centers was not likely to have been limited to the mounds
+themselves. Earthen enclosures are sometimes found adjacent to the mound
+groups. Large pits have been noted in patterned association with mounds at
+the only two sites where significant inter-mound areas have been stripped
+of sod (Rosebrough 2010:96).
+Rosebrough goes on to emphasize that studies have not been done to confirm the breadth
+of ritual practices associated with mound groups and that previous research has neglected
+the space between mounds (Rosebrough 2010:96). Community and Aggregation in the
+Upper Mississippi River Valley: The Red Wing Locality describes mound groups
+surrounding aggregation villages near Red Wing as cemeteries, tacitly emphasizing mound
+groups’ complex social function as a whole (Fleming 2009:305).
+
+41
+The Belle Creek Mounds archeological site’s mound group is characterized as the least
+disturbed mound group in the Red Wing Region and is possibly representative of the
+appearance of other mound groups if they had escaped cultivation (Yamada 2007:46).
+Several developed techniques, related to geographic information systems, were used on
+this project to more effectively identify, digitize, and estimate mound locations on the Belle
+Creek Mounds site. One technical procedure relating to determining the locations of
+mounds surveyed in the 1880’s, using a compass and canvas measuring tapes, consists of:
+determining a mound group location with noted legal descriptions, georeferenced aerial
+photography, and visualizable digital elevation datasets, as well as notes collected during
+the original survey; converting noted bearing direction based shots from mound to mound
+into azimuths; subtracting magnetic declination to convert azimuths into true north related
+directional azimuths, as opposed to magnetic north related directional azimuths; and,
+finally, building a digital mound group, using calculated true north related azimuths and
+the distances documented between mounds in the original survey notes, through creating
+connected digital lines corresponding to the determined directions and distances (Yamada
+2007:31–32). At individual and shared vertices of the created surveying shot lines where
+mounds are indicated in the survey notes, relatively accurate geospatial representations of
+mounds can be created by building a digital polygon corresponding to survey noted
+measured mound lengths, widths, or radii.
+Other research was used to improve the accuracy of the process of building digital
+geospatial representations of individual mounds at approximated or verified mound group
+locations. In attempting to locate mounds within the approximate area that the original
+
+42
+mound survey described, a method was used in which a LiDAR derived hillshade was
+overlain by a partially transparent colored DEM, with different coloring representing small
+changes in elevation, to ensure that small rises on the represented landscape depicting
+mounds were not obscured by larger rises due to the specific lighting angle of the hillshade
+(Artz et al. 2013:17). This technique was used to more accurately locate mounds which the
+previously mentioned digital geospatial representations of mound groups needed to be tied
+to for a spatially accurate depiction of a mound group to be achieved. Using dynamic range
+adjustment to allow the coloration of the DEM to represent different ranges of elevations
+upon zooming or panning within ArcMap 10.7 was helpful in locating individual mounds.
+Because mounds have spiritual significance and legal protection against their disturbance
+due to their regular association with burials, inherently low-impact geophysical techniques,
+which use the properties of magnetism and electromagnetic radiation in prospection and
+analysis, can be highly effective and appropriate in mound related research. Archeologists
+typically use geophysical methods to measure physical properties of near-surface deposits
+within 2 meters of the ground surface, usually to attempt to locate or define features of
+cultural origin (Kvamme et al. 2006:45). An area’s soil properties can greatly affect the
+utility of different geophysical methods (Kvamme et al. 2006:45). The main geophysical
+methods used in archeology, three of which are used in this project, are: electrical
+resistivity, magnetometry, electromagnetic induction, and ground penetrating radar
+(Kvamme et al. 2006:45). It is important to note that geophysics involves the interpretation
+of detected differences in collected geospatially specific data, referred to as anomalies,
+from small sections of a broad area over which geophysical data were collected at set
+
+43
+intervals. As archeological features regularly have different physical and chemical
+properties than the soils that surround them, geophysical data anomalous to their
+surroundings can be used to assist in interpreting archeological sites and features (Kvamme
+et al. 2006:45).
+Resistivity or relative soil resistance survey involves introducing a known electrical current
+into soil and measuring and recording the ease at which the current flows through the soil
+at specific points in space by measuring a drop in voltage between probes in contact with
+the ground (Somers 2006:113). The electrical resistance measurement is traditionally
+represented in ohms. The electrical resistance measured by the equipment used to conduct
+a resistivity or relative soil resistance survey indicates an average electrical resistance of
+all of the soil the current injected into the soil passes through on its way to a probe
+associated with measuring resistance via voltage drop (Somers 2006:113). These
+measurements are usually recorded at regular intervals across a site to locate areas with
+geophysically anomalous readings in relation to more widely prevalent ranges of readings
+across a surveyed area. Soil moisture, soil grain size, temperature, soil compaction, and
+soil salinity contribute to the electrical resistance of a particular portion of a soil matrix
+(Somers 2006:111). Anomalous areas of high resistance in relative soil resistance data can
+be associated with buried walls, mounds, banks, cobbled areas, rubble filled pits, and
+underground voids. Anomalous areas of low resistance are often associated with ditches,
+soil filled pits, hut circles, foundation trenches, and gullies (Geoscan Research 2009:6-3).
+Buried archeological features with higher amounts of organic material than the surrounding
+soil matrix often retain relatively more moisture making them lower in electrical resistance
+
+44
+where as those with less organic material (e.g., a refuse pit with a large amount of stone
+debris) often appear as resistance highs (Somers 2006:120). Variations in soils, sediments,
+and geology are also apparent in resistivity surveys (Somers 2006:118). Relative soil
+resistance survey results, like other geophysical methods’ survey results, can vary in
+seemingly counter-intuitive and difficult to predict ways making related interpretations of
+anomalies as specific archeological features tentative (Cuenca-Garcia 2019:70).
+Magnetometry passively measures local variations in the earth’s magnetic field near the
+ground surface, with a practical limit of ~3m in depth (Kvamme 2006:206 and 222).
+Common causes of detected variation in soil magnetism include: differences in the
+magnetic susceptibilities of various deposits and soils, the magnetic enrichment of topsoil
+resulting from chemical and physical processes like weathering and biogenic processes
+involving bacterial excretion of the magnetic material magnetite, and firing increasing
+magnetism due to the thermoremanent effect, in which the normally randomly oriented
+magnetic domains in the iron oxides of soils, clays, or stones become aligned to earth’s
+magnetic field at the time of firing at above 600 degrees Celsius. Magnetic domains in a
+material’s iron oxides freeze in a reset magnetic alignment during and after cooling,
+following the material reaching 600 degrees Celsius (Kvamme 2006:207 and 214). With
+respect to the previously mentioned causes of magnetic variation, human activities that
+reveal why magnetometry is a useful tool in archeological prospection include: people
+making fires, people making constructions and artifacts from fired materials, human
+occupation increasing the magnetic enrichment of surface soils, human constructions
+accumulating topsoil, human constructions removing topsoil, people importing materials
+
+45
+for constructions, and people making and using iron artifacts (Kvamme 2006:216–221).
+Cultural anomalies often show up as geometric shapes, including lines, circles, and
+rectangles, in magnetometry survey data as well as in other types of geophysical data
+(Kvamme 2006:222). Mounds may be represented as anomalies with high magnetism due
+to their likely association with the accumulation of anthropogenically altered topsoil or the
+burned prepared surfaces they are often built upon (Betts and Stay 2017:49–50; Kvamme
+2006:217–218).
+Ground Penetrating Radar sends radar waves into the ground through a surface antenna
+that are then reflected off of buried objects, features, bedding contacts, or soil units and
+detected by a receiving antenna (Conyers 2006:136). As radar pulses are transmitted
+through the ground their velocity changes depending on the physical and chemical
+properties of the material they travel through (Conyers 2006:136). The more significant the
+contrast in electrical properties of two materials at a subsurface interface, the greater the
+strength, amplitude, of a detected reflected signal associated with the interface (Conyers
+2006:136). This geophysical method has the ability to produce high resolution 3dimensional subsurface data due to radar waves’ known speed being able to be converted
+to distance below the ground and the waves’ capability to continue to propagate through
+the ground following their partial reflection by velocity changes associated with shallower
+fluctuations in subsurface material’s electrical properties (Conyers 2006:136). Areas
+associated with the reception of low amplitude reflections usually indicate a uniform soil
+matrix (Conyers 2006:142). Hyperbolas visible in ground-penetrating radar related
+reflection profiles are generated because energy is recorded from a high contrast point
+
+46
+source before and after the receiving antenna is directly above the aforementioned point
+source, which is represented by the apex of a hyperbola (Conyers 2006:137).
+Reflections occur at buried discontinuities where there are changes in the
+electrical properties of the sediment or soil, variations in water content,
+lithologic changes, or changes in bulk density. Reflections can also be
+produced at interfaces between anomalous archaeological features and the
+surrounding soil or sediment. Void spaces in the ground such as caskets in
+cemeteries, tunnels, and buried pipes or conduits made of either metal or
+plastic will also generate strong radar reflections as a result of a significant
+change in radar-wave velocity. These features tend to produce reflection
+hyperbolas generated from a distinct “point feature” in the
+subsurface…(Conyers 2006:136)
+Non-invasive geophysical methods including relative soil resistance, magnetometry, and
+ground penetrating radar (GPR) surveys were used throughout the area of investigation to
+attempt to identify geophysical anomalies present on site. The various areas of
+investigation consist of intact mounds, mounds disturbed by cultivation, areas between
+mounds, and areas between mounds and the mound group’s apparent boundary on site.
+Through analyzing the size, shape, location, and the relationship geophysical anomalies
+have with each other and the visible environment, later analyses of the collected data will
+be able to facilitate the development of interpretations of what identified anomalies indicate
+and the broader implications of those indications.
+Advocates for using geophysical survey as a primary method of archeological investigation
+for architecture and landscape-based research think that non-invasive geophysical survey
+can be used as far more than a prospective tool to assist in successful archeological
+excavations (Thompson et al. 2011: 197–198). They cite identification of: construction
+variation in the built environment, continuities and discontinuities in the use of space,
+
+47
+natural and cultural modifications to the landscape, and regularities in the use of space and
+architecture at a regional level, as information that analyses of geophysical anomalies can
+potentially contribute to studies of past people without necessarily requiring the application
+of other investigatory methods (Thompson et al. 2011:197–198). Through analyzing
+geophysical anomalies, geophysicists can make inferences about how past people used and
+viewed space. One small example of geophysical interpretation would be interpreting a
+low-resistance oval shaped anomaly below a mound as a likely mortuary feature, like a
+burial or offering pit, or the result of previous physical examination or testing.
+The current project applies the previously mentioned conceptual methods of geophysical
+anomaly interpretation later in this thesis. Application of these methods stands to increase
+understanding about how the Belle Creek Mounds site was used in the past and what areas
+of the site may warrant protection, including future avoidance of ground disturbance, due
+to areas of the ground’s geophysically anomalous profiles that suggest the possible
+presence of buried culturally sensitive material.
+As alluded to previously, in order to better understand the archeological built environment
+at the Belle Creek Mounds site, geophysical data were collected on mounds, places
+identified as the former locations of now highly disturbed mounds, spaces between
+mounds, and areas with no visible mounds, not identified as previously having mounds by
+Lewis’ 1885 survey. These data allow for the comparison and interpretation of the
+geophysical profiles of these different types of features on the landscape and contribute
+information related to the construction processes and compositions of various types of
+mounds and the geophysical appearances of likely culturally and naturally built features.
+
+48
+The amount and quality of conducted archeological research limits understanding of the
+Red Wing Region’s archeological record. Archeologists have excavated very little of the
+culturally complex major archeological village sites in the Red Wing Region in relation to
+their total mapped areas, while using inconsistent documentation methods (Schirmer and
+Fleming in preparation). In some instances, Middle and Late Woodland components have
+been mostly destroyed by later occupations (Schirmer and Fleming in preparation).
+Archeologists have not performed research on some of the known archeological sites in the
+region due to accessibility difficulties. The Belle Creek Mounds site is one of the sites that
+was, until recently, inaccessible to archeologists. Due to the lack of archeological
+information pertaining specifically to the Belle Creek Mounds site, it was essential to
+provide an interpretive context based on nearby archeological sites and a review of local
+archeological research. Keeping an open mind about what archeological evidence may be
+present is important in avoiding biasing the interpretation of collected data and preventing
+the destruction of previously unknown archeology.
+Establishing the area of investigation within the Belle Creek Mounds archeological site
+boundary allowed the interpretation of the Belle Creek Mounds archeological site as being
+associated with a village site, as other large nearby mound sites are, to be preliminarily
+tested. Members of the Minnesota State University, Mankato (MSU, Mankato) ESRL’s
+archeological surveying team visited the site twice, prior to when fieldwork was planned,
+to gain a better understanding of how best to go about conducting a survey for the purpose
+of developing a site treatment plan. One of these visits involved a walkthrough with PIIC
+Land and Environment and Tribal Historic Preservation Office staff to help establish
+
+49
+appropriate field procedures and gauge the amount of time and equipment needed to
+perform fieldwork. The primary concern the ESRL archeological surveying team and PIIC
+staff addressed during their collective walkthrough related to brush clearing in preparation
+for geophysical data collection.
+
+50
+Chapter 3 – Methodology
+The initial generational step in preparing for fieldwork, related to the development of an
+archeological site treatment plan, at the Belle Creek Mounds archeological site involved
+creating shapefiles approximating the locations of visible and non-visible mounds, as well
+as Prairie Island Indian Community’s property boundary in relation to the previously
+mentioned archeological site on PIIC’s newly acquired property. Members of the ESRL’s
+archeological surveying crew used ArcMap 10.7.1 software in combination with: a LiDAR
+derived hillshade, a LiDAR derived digital elevation model (DEM), T.H. Lewis’ notes
+from an 1885 survey of the mound group, satellite imagery from Mapbox, property
+boundary data from the Goodhue County GIS Office, and archeological site boundary data
+from the State of Minnesota to generate the aforementioned shapefiles.
+Using previously discussed geospatial datasets, archeological surveying crew members Dr.
+Ronald Schirmer, and the author, Alexander Anton were able to determine a viable area of
+investigation (AOI) to attempt to fulfill the research goals necessary to develop an informed
+site treatment plan safely within PIIC’s property boundary. A 40 x 100-meter AOI was
+settled upon due to the anticipated difficulty of removing large amounts of brush and fallen
+trees (Schirmer 2020, email message to author, May 28th). The AOI’s location
+encompassed adversely impacted mounds, relatively undisturbed mounds, area between
+mounds, and mound-free area in its southernmost portions. Schirmer thought it appropriate
+to attempt to collect data over a large rectangular contiguous area as it would be easier to
+track (Schirmer 2020, email message to author, May 29th). Schirmer additionally advised
+
+51
+the collection of geophysical data between mounds to provide data possibly allowing for
+interpretation as to how past people used those areas as well as the vicinity of the mound
+group as a whole (Schirmer 2020, conversation with author, April 21st). The AOI is
+divisible into 20 x 20-meter squares facilitating the collection of geophysical data. An
+additional 20 x 20-meter grid portion was added onto the western edge of the
+northwesternmost 20 x 20-meter grid portion in the original AOI to attempt to collect
+geophysical data over a likely highly impacted mound within the pasture area previously
+used as a hay field.
+After ESRL archeological crew members determined a viable AOI, crew members used
+ArcMap 10.7.1 software to fishnet the AOI creating digital, geospatially located 20 x 20meter squares. The corners of each 20 x 20-meter square were then turned into points with
+geospatial, UTM coordinates to aid in the tangible establishment of each 20 x 20-meter
+square’s corners during fieldwork.
+The initial task done at the beginning of fieldwork involved transporting the materials
+needed for brush clearing and archeological surveying from MSU, Mankato to an
+unloading area within PIIC’s new property’s boundary, above the terrace that Belle Creek
+Mounds archeological site resides upon. Two pickup trucks and two cars owned by
+archeological surveying crew members were used in initial transportation of the materials.
+A UTV operated by PIIC Compliance Officer Franky Jackson then transported the
+materials down to the terrace upon which the determined AOI resides. ESRL Geospatial
+Data Manager Andrew Brown constructed a 4 ft. x 8 ft. x 3 ft. padlock-able box, out of 2inch x 3-inch boards for the frame and oriented strand board (OSB) to cover all of its sides,
+
+52
+which when covered with a large tarp, could keep sensitive and expensive equipment safe
+and dry on site. Franky Jackson provided a game camera to monitor activity in the vicinity
+of the locked box while the crew was off site for added security. The box allowed the crew
+to avoid multiple trips transporting materials from parking areas to the AOI or vice versa
+before work could start and end each day.
+Following transporting equipment on site, the ESRL crew approximated the location of all
+of the 20-meter x 20-meter grid portion corners within the original 40 x 100-meter AOI,
+using a Trimble Geo7x GNSS receiver. The ESRL archeological field crew, consisting of
+Dr. Ronald Schirmer, Andrew Brown, Anna Wiitanen-Eggen, Luke Burds, and Alexander
+Anton, used plastic stakes to mark the approximate location of each of the original eighteen
+20 x 20-meter grid portion corners and flagging tape on a tree selected near each stake to
+make the locations of the stakes visible through the thick brush initially located throughout
+most of the AOI. These staked and flagged GNSS receiver-based approximations, though
+not sub-meter accurate, allowed for work on brush clearing to begin without the
+establishment of permanent physical datums near the AOI.
+In the next four days of fieldwork following the informal establishment of the location of
+the desired gridded AOI, the ESRL archeological surveying crew, Franky Jackson, and
+PIIC’s Native Food Sovereignty Fellow Esther Lui, as well as Franky’s brother Matt
+Jackson and, for a half of a day, journalist Casey Ek, cleared brush, fallen trees, and small
+standing trees from the AOI to allow for the collection of geophysical data. Gabe Miller,
+PIIC Land and Environment Department Manager/Wildlife Biologist and Ronald Schirmer
+agreed that removing living vegetation smaller than 3 inches in diameter as well as dead
+
+53
+vegetation from the AOI would be acceptable in terms of its environmental impacts (Miller
+et al. 2020, conversation via conference call, May 20th). The crew had slight difficulty in
+operating equipment initially, but after a few hours assembling the field and brush mower
+purchased for the project and struggling to start the ESRL’s ECHO string trimmer, which
+are notorious for flooding, equipment issues were resolved and brush clearing was well
+underway. The brush clearing crew used a DR field and brush mower, ECHO string
+trimmer, Stihl chainsaw, and safety glasses to cut brush and downed logs. Gloves, log
+chains, and a motorized cart with 4-wheel drive and a rear box were used to transport brush
+and large downed logs out of the AOI. The PIIC Land and Environment Department
+allowed the brush and logs to be placed in a pile approximately 200 meters west of the
+survey’s AOI, on the western portion of the terrace upon which the Belle Creek Mounds
+archeological site rests (Miller et al. 2020, conversation via conference call, May 20th).
+
+54
+
+Figure 3-1: Luke Burds, Andrew Brown, Anna Wiitanen-Eggen, and Ronald Schirmer
+clear brush in northern grid portions.
+While finishing up clearing vegetation, the ESRL archeological surveying crew determined
+viable spots to establish two permanent physical datums to the north and west of the AOI.
+The crew planned to establish these datums to setup a Trimble M3 DR 5” total station to
+more accurately pinpoint the physical locations of the previously approximated grid portion
+corners for use during geophysical data collection. Ronald Schirmer selected a location
+approximately 20 meters north of the center of the northern edge of the eventual central
+northernmost grid portion, referred to as grid portion 9. The crew chose this location for
+Datum 1 because the majority of the previously approximated grid portion corners were
+visible through field glasses from there and it fell between the estimated locations of
+
+55
+disturbed mounds. The surveying crew loaded a shapefile with the estimated locations of
+the disturbed mounds, based on Lewis’ 1885 survey of the then more extant mound group,
+onto a Geo7x GNSS receiver for the purpose of avoiding disturbing difficult-to-see mound
+remnants with excavation involved in placing permanent datums. The spot for Datum 2
+was selected, while accounting for estimations of the locations of disturbed mounds, at a
+location roughly 165 meters southwest of Datum 1 near the western edge of the treeless
+pasture area. The crew ensured that Datum 1 and Datum 2 were within each other’s
+viewshed so that Datum 2 could provide a visible point to back-sight to from Datum 1.
+Two points with known geospatial coordinates that are within each other’s viewshed allow
+total station operators to setup a total station able to determine its geographical coordinates
+and sight’s azimuth. The crew marked spots chosen for datum locations with plastic pin
+flags for future reference.
+The day following the determination of ideal permanent datum locations, the ESRL
+archeological surveying crew excavated shovel tests at the previously selected spots.
+Neither of the shovel tests, the shovel test excavated for Datum 1, ST 1, or the shovel test
+excavated for Datum 2, ST 2, yielded artifacts. The crew performed bucket augering,
+approximately 1 meter below the base of Datum 2’s shovel test, to gain a better
+understanding of the site’s deeper soils in the interest of determining the likelihood of
+different archeological features, as well as a preliminary interpretation of the area’s soil
+genesis. Ronald Schirmer concluded that the soils present near ST 2 were not well-drained
+enough to allow Pre-Contact Period peoples to construct effective sub-surface storage or
+cache pits in the nearby area.
+
+56
+After the crew excavated and formally documented each shovel test, they mixed concrete
+powder and water in a wheelbarrow with a shovel to make concrete to dump in the hole
+associated with the shovel test. A metal concrete anchor that would later be punched using
+a hammer and nail to create a precise stationary point in space that could be used as a datum
+point was then placed flush in the center of the still wet concrete pad.
+
+Figure 3-2: Ronald Schirmer putting the finishing touches on Datum 2.
+Following the creation of the permanent physical datum points, the field crew needed to
+determine the datums’ precise spatial locations. The crew used a Trimble Geo7x GNSS
+receiver, with Trimble CenterPoint Real Time eXtended (RTX) Correction Services
+activated, linked to a Zephyr 2 RoHS antenna fixed atop a 2.6-meter SECO range pole with
+an attached bipod and circular level to collect both datums’ geospatial coordinates. Center
+Point RTX functions using real-time satellite measurements, from multiple satellite
+
+57
+constellations, received at an international network of tracking stations to account for
+satellite clock and orbit position errors (Trimble Navigation Limited 2019:7). RTX uses
+algorithmic atmospheric modeling to differentially correct GNSS signals’ atmospheric
+error at the location of the receiver to produce viable real-time corrections for GNSS
+without the need for a local base station (Chen et al. 2011). The GNSS corrections
+generated are available to receivers through an internet connection or through an additional
+satellite signal (Chen et al. 2011). In order for the GNSS receiver to use RTX it had to be
+linked to a device with access to the internet. Mobile phones with the ability to use their
+phone signals to setup wireless internet hotspots were used to connect the Geo7x GNSS
+receiver to the internet in the field allowing the GNSS receiver to access correction
+information to achieve a high level of geospatial accuracy.
+In determining the datums’ precise locations, the field crew lengthened the telescoping
+range pole with the antenna affixed to its threaded top and entered the appropriate antenna
+height information into the Geo7x GNSS receiver previously attached to the range pole’s
+center. The range pole was lengthened to give the antenna better access to unadulterated
+GNSS satellite signals. The crew then leveled the range pole after placing its base spike
+into the punched point in the center of the previously placed concrete anchor. After this,
+the crew operated the GNSS receiver to collect a point through the collection of multiple
+points at a one second interval at sub-decimeter accuracy, which the GNSS receiver would
+later amalgamate to improve the accuracy of the final single point. The multiple points
+collected seemed to average around 7-centimeter accuracy. That the accuracy was slightly
+worse than RTX’s advertised 2-centimeter accuracy could be due to the high number of
+
+58
+trees surrounding the open area within which the crew established the datums, obstructing
+GNSS satellite signals. The GNSS receiver determined Datum 1 to reside at UTM Zone 15
+4933987.868 N 523951.332 E at 247.685 meters above mean sea level (MAMSL) and
+Datum 2 at UTM Zone 15 4933917.777 N 523803.912 E at 246.08 MAMSL.
+
+Figure 3-3: A Trimble Geo7x GNSS Receiver with an antenna collects Datum 2's
+geographic coordinates.
+With the new datums established, the crew setup the Trimble M3 DR 5” total station to
+accurately stake out the 20 x 20-meter grid portions, which included the project area
+boundaries. The first step in setting up the total station involved leveling the instrument
+directly over Datum 1 to maximize the accuracy of the instrument. The crew extended a
+heavy-duty fiberglass tripod to approximately 5 feet in height after unlocking its extendable
+
+59
+legs. The three legs were splayed and locked and the tripod’s head was visually leveled
+directly over the punched point on Datum 1’s datum spike. Then, the M3 5” total station,
+also commonly referred to as the instrument, was centered and fixed to the tripod head with
+a screw, permanently attached to the tripod, that could be threaded into the instrument.
+Following securing the instrument to the tripod, the person setting up the total station gazed
+through the plummet sight and gently lifted and moved two of the tripod legs to center the
+sight over the physical datum point. The previous step differs from the setup method
+suggested in the total station’s manual, but the author found it incredibly helpful in
+positioning the total station directly above a fixed datum point (Trimble Navigation
+Limited 2010:27). Though repositioning legs of the total station’s tripod puts the
+instrument at greater risk of damage due to droppage, the crew found it necessary for
+expediency following difficulty in positioning the total station over a fixed physical datum
+point using Trimble’s recommended method.
+After initial positioning of the total station above the physical datum point, a bubble level
+on the evened-out tribrach, an adjustable component attached to the instrument that allows
+the total station to be connected to the tripod head, was used to approximately level the
+instrument through making small adjustments to the tripods legs’ length until leveling
+centered the bubble level’s bubble. Then, the sharp feet of the tripod were pressed into the
+ground and the tribrach bubble level was used to level the instrument again using
+adjustments to leg length. Following the second bubble leveling, the operator setting the
+instrument up gazed through the plummet sight again, slightly loosened the screw attaching
+the instrument to the tripod, and slid the instrument along the tripod’s head until the
+
+60
+plummet sight was again centered on the physical datum point. After that, the operator
+turned on the instrument and used its onboard digital level, while the screen of the
+instrument was centered between two of the tribrach’s leveling screws, to adjust the
+tribrach screws to level the instrument with extreme accuracy.
+After the crew leveled the instrument, they setup the instrument, entering weather
+information procured from the National Oceanic and Atmospheric Administration’s
+National Weather Service’s webpage for nearby Red Wing Airport in order to get an
+accurate measurement of local temperature and pressure to allow the instrument to adjust
+for atmospheric conditions that can affect the speed and calculated distance of total station
+shots. Following setting up the instrument, the crew manually keyed in coordinates of
+Datum 1 and Datum 2, putting them into the total station’s digital memory, and then
+indicated to the total station where it was positioned in space, at Datum 1. The crew then
+used the total station’s prism mode Class 1 laser distance meter to shoot a back-sight to
+Datum 2, targeting a prism attached to a leveled range pole, with a bipod, positioned
+directly above Datum 2 (Trimble Navigation Limited 2010:8). Before beginning using
+range poles in locating and determining geospatial coordinates with the total station, the
+crew purchased adapters that made measurement marks on range poles accurate. The marks
+are designed to correspond to the center of a range pole affixed prism’s height above the
+ground. The previously mentioned back-sight allowed the total station to determine its
+azimuth, in simpler terms the direction its pointing, with ~5 second accuracy.
+
+61
+
+Figure 3-4: Luke Burds and Anna Wiitanen-Eggen setup the Trimble M3 DR 5" Total
+Station.
+An estimation of the instrument’s accuracy can be achieved through the calculation of the
+equation ±(10 + 5 parts-per-million (ppm) or 0.000005 * distance in millimeters (D)) mm.
+(Trimble Navigation Limited 2010:53). If the equation is solved for a shot of 200 meters,
+greater than any shot taken during fieldwork at the Belle Creek Mounds archeological site
+in the summer of 2020, the result is 11 mm. Considering that one shot is required for
+azimuth orientation and a second is required for the determination of a geospatial point’s
+coordinates with the total station, less than ±22 mm. of error would be expected when
+shooting or staking out points with the M3 DR 5” using the aforementioned setup for shots
+under 200 meters in length. This means that in combination with the ~±7 cm. accurate
+
+62
+datum points, shot and staked out points would have ~±9 cm. total potential error in
+geospatial accuracy, though the survey crew anticipates the true accuracy of the points to
+be higher due to the general likelihood that the amalgamation of hundreds of individually
+recorded high-accuracy coordinates used to create each datum point are well within the
+area of potential error.
+The surveying crew then imported the 18 sets of UTM coordinates corresponding to the
+previously created 20 x 20-meter grid corners into the total station from a flash drive. These
+coordinates were exported out of ArcMap 10.7 to Microsoft Excel and then saved as a .csv
+on the flash drive before being imported into the instrument. The crew then used the total
+station’s stake out feature, which uses the instrument’s orientation and Class 1 laser to
+determine the range pole’s geospatial position, and a second range pole with a prism and
+bipod to locate the grid portion corners in space. Anna Wiitanen-Eggen had the presence
+of mind to use pink plastic pin flags to indicate the locations of grid portion corners that
+had been formally shot in and orange flags to indicate that their positions had, as yet, only
+been roughly approximated using a GNSS receiver during the first day of fieldwork due to
+encountered visual obstructions.
+Twelve of the eighteen grid portion corners were staked out without physically measuring
+off of the range pole or repositioning the total station to make obscured grid portion corners
+visible. The crew performed one resection, R1, which involved moving the total station
+approximately 14.4 meters south-southwest of Datum 1, where the instrument had
+previously been setup, and back-sighting to Datum 1 and Datum 2 from the total station’s
+new location to allow the total station to determine its geospatial position and orientation
+
+63
+via triangulation. Crew members were able to shoot in three more of the grid portion
+corners following the resection because of the different vantage point the resection
+provided. The sightlines from the total station to the three remaining, roughly
+approximated, grid portion corners continued to be obstructed by tree trunks following the
+resection. In the interest of providing the crew more time to collect geophysical data within
+the AOI, the three-remaining tree-obstructed grid portion corners were located by
+physically measuring off of the range pole with a tape measure. Measuring took place after
+the range pole’s position matched either the total station’s provided in/out range pole
+repositioning directive or its left/right range pole repositioning directive, associated with
+placing the range pole at unestablished grid portion corners’ appropriate azimuth or
+distance from the total station. The respective remaining unmatching or unzeroed
+repositioning directive was made as close to 0 cm. as the total station’s sight line allowed
+for by carefully moving the range pole either left, right, out, or in incrementally. The
+individual holding the range pole then secured the pole in place with its bi-pod and
+measured from the range pole’s spike in a distance and direction matching the total
+station’s unmatching or unzeroed repositioning directive, placing a flag in the ground at
+the true physical location of the grid portion corner as determined by the total station.
+Following shooting in the grid portion corners, the survey crew used 100-meter long metric
+fiberglass tape measures to determine the level of precision with which the total station
+was geospatially locating the grid portion corners. The crew found that the sides of all
+measured grid portions were within a centimeter of 20 meters in length indicating that the
+total station stake out was a success. The crew’s decision to number grid portions from 1
+
+64
+to 10 starting in the southwest corner, with 1, moving to the east, with 2, and then to the
+portion north of 1, with 3, and east of 3, with 4 and so on, helped crew members keep
+communication clear and geophysical data organized (Figure 3-5). In order to collect
+geophysical data over a potential highly disturbed mound, to determine whether or not the
+potential mound had geophysical signatures similar to other known mounds within the
+project’s original AOI, the archeological surveying crew shot in an additional grid portion
+to the west of grid portion 9, grid portion 11. The potential highly disturbed mound in grid
+portion 11 was not clearly visible on a LiDAR derived hillshade, but there was an
+observable change in vegetation corresponding to its location.
+
+65
+
+Figure 3-5: Map of the locations of permanent datums and the geophysics grid with
+numbered portions and its survey points.
+At the same time as part of the survey crew finished up staking out grid portion corners,
+geophysical data collection began. Retired geophysicist Donald Johnson generously
+provided training, advice, and equipment to allow for the collection of relative soil
+resistance and magnetometry data. Johnson and survey crew member Luke Burds began
+geophysical data collection, collecting measurements of relative soil resistance in grid
+portion 7. The ESRL possesses a ground penetrating radar system that the crew used on
+this project.
+
+66
+Non-invasive geophysical methods including relative soil resistance, magnetometry, and
+ground penetrating radar (GPR) surveys were used throughout the study area to attempt to
+identify geophysical anomalies present on site. Through analyzing the size, shape, location,
+and the relationship geophysical anomalies have with each other and the visible
+environment, analyses of the collected data can develop interpretations of what identified
+anomalies indicate and the broader implications of those indications.
+The preparation for mappable relative soil resistance data collection involved extending
+two fiberglass tape measures from the northwest and southwest corners of a grid portion to
+its northeast and southeast corners, respectively. Following setting up tapes to run along
+the top and bottom of a grid portion, the crew placed stakes in the ground along the
+previously mentioned top and bottom tape measures starting at 50 centimeters in two-meter
+increments. After the crew placed the stakes, 20-meter-long guide lines, with flagging tape
+marking every even meter of their length and red lines marking every odd meter of their
+length, were strung across the grid in a north-south direction and held in place by stakes at
+matching distances from the starting grid corners with respect to the previously placed tape
+measures. This physical visualization of cells within grid portions allowed the crew to
+document, relatively quickly and accurately, where a specific relative soil resistance
+measurement was recorded.
+The soil resistance meter used is a Geoscan Research RM 15 Resistance Meter. This
+approximates soil resistance between its mobile electrical probes that are pushed into the
+ground ~3–10 centimeters. The Geoscan Research RM 15 Resistance Meter is outfitted
+with two fixed mobile probes, spaced approximately 0.5 meters apart, in addition to two
+
+67
+supplementary attachable wings that result in the frame having two more mobile electrical
+probes, approximately 1 meter apart, making the frame’s base roughly 1 meter in length.
+The array used in determining relative soil resistance on site was a twin array. A twin array
+utilizes electrical current traveling between one mobile current probe and one stationary
+remote current probe providing electrical current for the detection of soil resistance
+readings with one potential mobile probe, to measure relative soil resistance at a location
+of interest, and one potential remote probe to measure a stationary background reading to
+determine and account for changes in background voltage as the mobile probes are moved
+around a sampling grid (Geoscan Research 2009:5-9–5-11). The potential probes detect
+the amount of remaining voltage of the current emitted from the current probes in the soil
+where the potential probes are placed and work together to approximate the electrical
+resistance of the arc of soil between the mobile current probe and mobile potential probe
+relative to the remote potential probe’s background reading (Geoscan Research 2009:5-9–
+5-11). When extra mobile probes are attached to the mobile probe frame, they can be used
+to take readings of relative soil resistance at a greater depth. Current cannot run through
+two or more pairs of mobile probes simultaneously as this would not allow for soils
+electrical resistance at consistently deeper and shallower depths to be sampled. Creating a
+wider mobile probe spaced twin array with 1 meter between a current and potential probe
+allows for the resistance meter to detect the relative soil resistance at roughly 1 meter in
+depth as opposed to roughly 0.5 meters with the original array, which has a mobile probe
+spacing of 0.5 meters.
+
+68
+The crew placed the remote probes ~20 meters from the nearest boundary of the grid being
+sampled so that the remote potential probe’s background reading would not encounter
+significant interference (Geoscan Research 2009:5-9). The remote probes were separated
+~3 feet during sampling of grids 7 and 5 and at 155 cm. for the other grid portions. The
+reason remote probe placement spacing differed between grid portions 7 and 5 and all other
+grid portions was due to miscommunication regarding establishment of a standard
+separation distance. Fortunately, while attempting to make adjustments to allow for the
+successful collection of relative soil resistance readings in higher resistance soils, the crew
+observed that slight differences in the spacing distance of the resistance meter’s remote
+probes had negligible effects on displayed relative soil resistance readings. The crew set
+the RM15 to use an operating frequency of 137 Hz and used an output voltage of 40 V. A
+Constant current range of 1 mA was used in grid portions 5–11 and a range of 0.1 mA was
+used in grid portions 1–4. The crew switched to using a 0.1 mA range for relative soil
+resistance reading collection in the four southernmost grid portions because their sandier
+soil was too resistive to allow the RM15 to display a numerical Ohm reading. Instead, the
+RM15 displayed a message indicating that its reading was out of range. Changing to a
+lower constant current allowed for the RM15 to display a numerical resistance reading in
+the soils of the 4 southernmost grid portions.
+
+69
+
+Figure 3-6: Franky Jackson and Anna Wiitanen-Eggen collect relative soil resistance
+data as Ronald Schirmer observes.
+The archeological surveying crew collected relative soil resistance readings at a 0.5-meter
+north-south interval and a 1-meter east-west interval in a boustrophedonic fashion within
+each of the 11 grid portions, alternating between moving north and south with the
+completion of each data collection transect to make the relative soil resistance survey
+quicker. Data collection was greatly facilitated by the previously mentioned fiberglass tape
+measures laid out along the north and south grid portion boundaries, as well as the guide
+lines, clearly dividing grid portions into many sampling cells. During relative soil
+resistance data collection, one person would move the mobile probe frame to a new cell at
+the established interval and take a shallow and a deep reading with the resistance meter,
+
+70
+telling a second person the readings who recorded them in either a notebook for grid
+portions 1, 2, 3, 4, 5, 6, 7 and 11 or Google Sheets for grid portions 8, 9, and 10. When
+relative soil resistance data collection began crew members wrote readings in a physical
+notebook, transferring them from the notebook to Google Sheets to allow for easier data
+visualization. After grid portions 5 and 7 were collected, the crew switched to entering the
+readings directly into Google Sheets while surveying grid portions 8, 9, and 10. After the
+crew determined that entering data directly into Google Sheets slowed down fieldwork and
+left no paper hardcopy to refer back to if readings seemed erroneous, the crew reverted
+back to the method of data recordation used initially. Having to rely on multiple pieces of
+old and heavily used equipment and proprietary software functioning properly to export an
+entire day or two’s worth of collected relative soil resistance data made using the RM15’s
+automatic data logger too big of a risk because of the possibility of not being able to export,
+and effectively losing, collected data. The crew spent much time during ten of the days of
+fieldwork collecting relative soil resistance data over all of the 11 grid portions established
+on site.
+While other crew members were collecting relative soil resistance data, the ESRL’s
+Geospatial Data Manager Andrew Brown developed computer code to allow the manually
+collected data to be normalized across all grid portions and displayed on ArcMap10.7
+digital geospatial mapping software. The reason relative soil resistance data from different
+grid portions needed to be normalized was so that resistance readings collected in different
+grid portions under different soil moisture conditions using different remote probe
+placement locations could be made comparable to one another and seamlessly visualized
+
+71
+together. Seamless visualization of relative soil resistance data facilitates more controlled
+data interpretation. Brown’s Python code creates points for each relative soil resistance
+reading, normalizes data values between adjacent readings in separate grid portions, and
+then uses Empirical Bayesian kriging, an interpolation method for generating raster
+datasets that produces little error with small sample sizes, to generate rasters effectively
+visualizing collected relative soil resistance data, predicting values for the areas between
+points within an established AOI (Esri Inc. 2020). Brown’s Python code allows for
+collected relative soil resistance data to be processed without the use of Surfer, commonly
+used software for processing and visualizing geophysical data.
+Following the collection and in-field analysis of some of the initial relative soil resistance
+data, Ronald Schirmer, Franky Jackson, and Andrew Brown took ¾-inch soil probes to
+attempt to locate and better understand existing geophysical anomalies, including
+attempting to infer how the area north of apparent field edge push had been affected
+compared to the relatively agriculturally undisturbed area south of the apparent field edge
+push. They used an Oakfield soil probe to take 13 soil probes in approximated locations
+determined by measuring off of measuring tapes stretched along grid portion borders to
+discern their position within the AOI. These soil probe locations were documented with a
+GeoXH 6000 Series GNSS receiver, as the crew’s CenterPoint RTX demo had expired.
+The GeoXH 6000 Series, linked to a Zephyr 2 RoHS antenna fixed atop a 2.6-meter SECO
+range pole with an attached bipod and circular level, was given access to Minnesota’s State
+differential correction system MNCORS, via a Wi-Fi hotspot. Access to MNCORS
+allowed the device to determine its location with submeter accuracy through using
+
+72
+corrective data generated by determining to what degree and direction a nearby GNSS
+receiver was inaccurate in determining its location at a geospatially known point in space,
+due to common sources of GNSS error.
+During the long process of the archeological surveying crew collecting relative soil
+resistance data, Luke Burds collected magnetometry data in all ten of the original grid
+portions. The bulk of the magnetometry data collection was done in three partial days of
+fieldwork by Burds alone. Donald Johnson instructed Burds on using his Geometrics G858
+MagMapper Gradiometer, a device with two magnetometers, placed one above the other,
+with its console in gradiometer mode so Burds could independently collect data over the
+established 20 x 20-meter grid portions. Burds and Johnson set the gradiometer to record
+readings every 0.1 second while Burds walked over transects spaced 1 meter apart marked
+by moving two stakes along two tapes outstretched on the northern and southern edges of
+grid portions. Burds wore clothing and shoes with no metal components during
+magnetometry data collection as metal near the gradiometer’s two cesium sensors can
+disrupt the sensors’ reading of Earth’s localized magnetic field. The gradiometer subtracts
+its top sensor’s reading from its bottom sensor’s reading to derive a measurement referred
+to as a vertical gradient, which eliminates the effects of background temporal variations in
+earth magnetism from the measurement of magnetic readings associated with specific
+sections of the soil matrix in the area being surveyed (Geometrics 2001:20–21; Kvamme
+2006:210). Burds walked at an even speed to attempt to allow the collected magnetometry
+data to be geospatially accurate. The magnetometer determines where it takes readings
+through estimating its geospatial location by recording the time it takes for an equipment
+
+73
+operator to walk a full transect and spatially distributes data points along the transect based
+on when the points were recorded. The equipment operator indicates on the console when
+they start and finish walking a transect by hitting the console’s MARK and END LINE
+buttons. All of the magnetometry data were recorded while walking transects in the same
+direction within grid portions to ensure that the vertical magnetic gradient would have more
+geospatial consistency. The gradiometer stored collected data in its console making the
+collection process much quicker than collecting relative soil resistance data on site.
+
+Figure 3-7: Luke Burds collects geophysical data with a Geometrics G858 MagMapper
+Gradiometer.
+Following magnetometry data collection, while assessing magnetically anomalous areas
+Ronald Schirmer located a metal seat belt along the western border of grid portion 1,
+
+74
+indicating that it had affected vertical gradient readings in its vicinity (Burds 2021, email
+message to author, January 21st). Ronald Schirmer and Luke Burds located a burned area
+that included metal fragments on the ground surface in the northwestern part of grid portion
+7, explaining an associated large dipole (Burds 2021, email message to author, January
+21st). The survey crew found barbed wire and a shotgun shell in the northeastern part of
+grid portion 10, which could have contributed additional vertical gradient dipoles in the
+northeastern portion of the 2020 fieldwork’s magnetometry results.
+Following data collection, Burds and Brown used MagMap2000 software to export the
+gradiometer readings collected over the AOI’s grid portions to a spreadsheet. Brown made
+alterations to the previously created relative soil resistance visualization code in order to
+create raster maps, using Empirical Bayesian kriging to interpolate between readings at
+geospatially documented points, to approximate and visualize the geophysical magnetic
+signatures associated with the entire grid.
+Geomorphologists and earth scientists came out to the Belle Creek Mounds site to bucket
+auger to develop a clearer understanding of how the terrace, upon which the Belle Creek
+Mounds site resides, formed. These scientists, Dr. Phillip Larson, Dr. Garry Running, Dr.
+Douglas Falkner, Dr. Andrew Wickert, and Jabbari Jones, are interested in the genesis of
+the Cannon River. Their conclusions, based on topography and soils encountered during
+bucket augering, resulted in interpretations related to the terrace’s genesis helpful in
+developing more cogent interpretations of geophysical results.
+
+75
+
+Figure 3-8: Geomorphological bucket augering.
+The ESRL archeological surveying crew collected ground penetrating radar data during
+and following collection of relative soil resistance data. The crew used 100, 200, and 500
+MHz antennae to collect data to help develop a greater understanding of what definitively
+cultural mound signatures look like in GPR data to help identify potential mounds and
+partially destroyed mounds. The 100, 200, and 500 MHz antennae were pulled north to
+south across the entire AOI to see transitions in subsurface geomorphology in addition to
+determining the depth of the base of the most prominent mound within the AOI. Three
+transects were done north to south with each type of antennae and two were done west to
+east. One transect was collected over the two mounds in the southern portion of the AOI
+
+76
+and one transect over one potential mound and one mapped mound was collected, which
+ran through grid portions five and six.
+The 500 MHz GPR antennae collected data over parts of seven grid portions within the
+AOI. X and Y lines were collected over grid portion 11 and spanning grid portions 1 and
+3. Y lines were collected over grid portion 9 and in the western halves of grid portions 5
+and 7. Archeological surveying crew members collected 500 MHz GPR at 0.5-meter line
+spacing, using the pull speed dependent Dyna Q setting to determine the number of stacks
+used in data collection and a GPR velocity of 0.06 m/ns for effective results in wet soil.
+Before data collection could start the GPR’s odometer had to be calibrated to ensure that
+the GPR equipment was properly documenting where it was recording data within grid
+portions, in addition to documenting the location of the first break in the radar waves
+emitted by the transmission antenna and detected by the receiving antenna. Following
+setup, a crew of two, one person pulling the antennae and the other wearing the digital
+video logger (DVL) and tending the cables hooking the antennae to the DVL, collected
+GPR data by moving the running equipment over portions of the AOI where GPR data
+were desired.
+
+77
+
+Figure 3-9: Luke Burds and Anna Wiitanen-Eggen collect GPR data with a 500 MHz
+antenna.
+In two of the final four days on site, the crew conducted shovel testing immediately south
+of grid portions 1 and 2 to attempt to determine if the probable former site of a Pre-Contact
+Era village, which are common inside the arcs of the Red Wing Region’s mound groups,
+encroached onto the PIIC’s property (Fleming 2009:20). Shovel testing was also done to
+gain a better understanding of the cultural affiliation of the people who likely constructed
+the mound group.
+
+78
+
+Figure 3-10: Anna Wiitanen-Eggen and Luke Burds excavate a shovel test.
+Due to the thickness of the vegetation south of the area cleared to collect geophysical data
+over mounds and areas in between mounds, 100-meter fiber glass tapes were used to lay in
+the shovel test grid. The grid began at the bottom of grid portions 1 and 2 and extended
+south 20 meters. The archeological surveying crew excavated 45 shovel tests at an interval
+of 5 meters from the southwest corner of grid portion 1 moving east 40 meters to the
+southeast corner of grid portion 2 and south 20 meters at intervals of 5 meters in columns
+starting from each of the initial shovel tests. This created a grid in which there were 9 northsouth columns of 5 shovel tests. These shovel tests were excavated to 30 x 30-centimeter
+dimensions laterally and to depths determined on a test-by-test basis based on artifact
+presence in previous levels, often to around 40 centimeters below surface (cmbs), typically
+
+79
+after a sandy, culturally sterile, glacial outwash associated B horizon was encountered.
+Soils were screened through ¼-inch hardwire mesh, onto tarps, to facilitate complete
+artifact recovery and backfilling, minimizing the evidence of disturbance.
+Following collection, artifacts recovered during shovel testing were washed, organized,
+cataloged, and accessioned into the Minnesota State University, Mankato (MSU, Mankato)
+Museum of Anthropology’s archeological repository on MSU, Mankato’s campus in
+Mankato, Minnesota. The cataloging procedures used followed the format outlined in the
+Minnesota Archeological Integrated Database’s (MAID’s) catalog guide. These artifacts
+will be held in MSU, Mankato’s Museum of Anthropology’s archeological repository per
+PIIC’s existing agreement with the institution to temporarily hold collections for purposes
+of analysis and general curation until the tribe requests their return. Artifact analysis
+conducted during cataloging involved the use of MSU, Mankato’s lithic comparative
+collection in addition to using comparative pottery specimens derived from other
+collections held at the repository.
+One final task done in the interest of gauging the extent to which trees interfered with
+collected geophysical data, which Geospatial Data Manager Andrew Brown suggested,
+involved documenting the locations of trees within the AOI. Over the final two days of
+fieldwork Alexander Anton worked using the total station’s Class 3R reflector-less direct
+ranging function and laser sight, and two temporarily placed datums, TEMP DATUM A
+and TEMP DATUM B, established off of Datum 1, to document tree locations. Four
+separate resections were done to allow all 248 trees within the AOI to be mapped from five
+separate shooting locations. Tree trunks were marked with high visibility paint as soon as
+
+80
+a tree had been mapped with the total station to ensure the same trees were not mapped
+repeatedly. The approximated sizes of trees were documented as falling within one of three
+size classes: small, less than 25 cm. in diameter, medium, 25 to 50 cm. in diameter, and
+large, greater than 50 cm. in diameter. The archeological surveying crew generated two
+shapefiles from the tree data to be used to aid in geophysical data interpretation, tree points
+and tree polygons.
+All geophysical and geospatial data will be provided to and made available to the PIIC with
+delivery of the Belle Creek Mounds site’s site treatment plan. Physical data collected
+during excavation is curated in the Archeology Division of the Minnesota State Mankato,
+Museum of Anthropology during analysis and held there under the terms of an ongoing
+curation agreement, until such time as requested for return to the PIIC.
+
+81
+
+Chapter 4 – Results
+Geophysical datasets produced by this project are represented by relative soil resistance,
+magnetometry, and ground penetrating radar generated rasters, as well as imagery of
+ground penetrating radar related profiles. Though these data merely indicate anomalous
+areas within the soil matrix, as discussed in a previous chapter, anomalies could be cogently
+interpreted as archeological features if they are in a suitable context and there is adequate
+supporting evidence (Kvamme 2006:206). Shovel testing produced a small assemblage of
+artifacts of precisely-documented 3-dimensional geospatial origin. In the interest of
+communicating this project’s results in a comprehensible manner, the geophysical survey
+results will be presented in one third of the area of investigation at a time, to allow for
+visualization of smaller relative differences within data. Following the presentation of the
+geophysical survey results over the entire area of geophysical investigation, shovel testing
+results are summarized and interpreted.
+Before discussing geophysical results, the mound boundary and shot data used in
+approximating the locations of mounds in disturbed areas warrant more explanation.
+Polygons were generated from T.H. Lewis’ survey of the Belle Creek Mound’s mound
+group that was conducted when, now no longer visibly present, mounds were still
+identifiable on the landscape (Lewis 1885:1–3). Lewis used an open traverse method of
+surveying to map identified locations of the individual mounds comprising mound groups
+in relation to each other during the Northwestern Archaeological Survey. An open traverse
+method of surveying links each measurement of directional bearing and distance to the
+
+82
+measurement before it with the initial measurement being tied to physical space via
+landmarks, which in the Northwestern Archaeological Survey’s case was often a
+conveniently located mound identified within a quarter of a quarter section at a specified
+township and range (Dobbs 1991:9; Lewis 1885). There is a potential for both systematic
+and random error in Lewis’ survey data.
+Lewis appears to have used an open surveyor’s compass, canvas tape, and
+an engineer’s level [while surveying mound groups]. Conversations with
+modern surveyors indicate that the open compass had an accuracy of plus
+or minus one degree. Thus, a reading of 37 degrees could in reality, actually
+[be recorded as 36, 37, or 38 degrees] … Lewis’ distance measurements can
+also contain small errors. Although these potential errors are not necessarily
+significant on small groups of mounds, they can create very real problems
+as the errors compound over a large area (Dobbs 1991:9).
+After redrafting Lewis’ mound map of the Belle Creek Mounds mound group with
+polygons and polylines in ArcMap using the original survey data, the general pattern of
+mounds was clearly correct, but the fit was not precisely correct based on clearly visible
+and identifiable mounds on a LiDAR derived hillshade. Consequently, this process
+corroborates that Lewis’ survey contains errors.
+The digital mound polygons and survey shot polylines spatially oriented with respect to
+each other, created with Lewis’ survey data, have been adjusted to pattered elevational
+rises corresponding closely, but not exactly, with the Lewis survey (Figure 4-3). In digital
+shapefiles separate from the shapefiles depicting Lewis’ original survey results, polylines
+representing survey shots have been adjusted to more accurately represent what their
+directions and distances should have been had they been taken with greater accuracy and
+polygons representing locations of mounds not visible on the LiDAR derived hillshade
+
+83
+have been adjusted to more accurately estimate formerly mapped mound locations, through
+moving them with the surveyed mound polygons having visible mound expressions on the
+hillshade, from which mound locations without visible expressions were ultimately shot.
+Where groups of mounds are present on a highly accurate LiDAR generated hillshade,
+those mounds and all of the mounds surveyed later in sequence from mounds visible on
+the hillshade had their polygons’ locations adjusted, in a previously alluded to newly
+created polygon shapefile in ArcMap, to correspond with the mound locations visible on
+the hillshade (Figure 4-3). The survey shot polylines were adjusted in a similar fashion.
+Through comparing 40 of the LiDAR hillshade adjusted mounds’ locations to their
+corresponding unadjusted locations communicated by Lewis’ survey, differences in Lewis’
+shot distances and shot directions between surveyed points and the approximate actual shot
+distances and shot directions between surveyed points, usually mound center points, were
+calculated. Mean absolute percentage error was calculated to determine the average
+percentage of distance error between hillshade related “actual” mound locations and Lewis
+survey derived predicted mound locations using the formula:
+n
+M = (1/n) ∑t=1 abs((At – Ft)/At)
+At represents hillshade adjusted distances between surveyed points or actual values and Ft
+represents Lewis’ derived distances between surveyed points or forecasted values. The
+returned value associated with this process was a 6% error. Degree measurements of the
+absolute values of differences between the hillshade related and Lewis associated mound
+locations were averaged to determine a mean absolute error for Lewis’ shot azimuths. The
+returned value associated with this process was 3.4°. The mean distance of Lewis’ survey
+
+84
+shots at Belle Creek Mounds is 22.61 meters. Using these values an approximation of
+expected spatial error per shot may be determined for Lewis’ survey at Belle Creek
+Mounds:
+[0.94x = 22.61] x = 24.05 (the longer of two expected true distance values based on
+calculated 6% error). To determine the distance between points in space at different angles
+and distances from an origin, representing expected error, two formulas were used
+(Guichard 2021:12; Strang and Herman 2021:55).
+
+Figure 4-1: Formula to determine point locations from distance and angle from an origin
+point (Strang and Herman 2021:55).
+
+x1=22.61*cos(0), y1=22.61*sin(0), x2=24.05*cos(3.4), y2=24.05*sin(3.4)
+x1=22.61, y1=0, x2=24.01, y2=1.43
+
+Figure 4-2: Formula to determine distance between points (Guichard 2021:12).
+√ ((24.05–22.61)2 + (1.43–0)2) ≈ 2 meters of average spatial error per Lewis survey shot
+Error compounds with multiple shots in open surveying.
+
+85
+The average shot distance error of 2 meters indicates how much Lewis’ survey shot based
+predictions of the location of mound center points and by association mound boundaries
+themselves are expected to vary from their approximate actual locations, which implies
+that mounds lacking a discernable visible surface expression may deviate slightly from
+where Lewis’ survey data suggest they are. Using the previously discussed formulas to
+predict expected spatial error for an uncommonly long 100-meter-shot with an average
+azimuth error of 3.4° yields an expected spatial error value of 8.84 meters. The maximum
+1885 Lewis survey recorded azimuth error of ~13° for a shot of ~17 meters recorded as
+15.24 meters, produced a distance difference of 4.3 meters between Lewis and LiDAR
+hillshade adjusted mound center points. This 4.3-meter distance difference prevented the
+Lewis and the hillshade adjusted mound polygons from overlapping due to the mound
+radius’ size being 3.6576 meters, smaller than the distance difference between the
+unadjusted Lewis survey and hillshade determined center points. If a mound that another
+mound’s location is being predicted off of is in a location unconfirmed via hillshade, then
+the mound location that is being predicted is likely to further deviate from its actual
+location. With more and more expected deviation from true mound locations in long
+sequences of mound locations not visible on the LiDAR derived hillshade, the mound
+locations represented in the adjusted polygon layer become less and less reliable in terms
+of their ability to accurately represent the former locations of mounds visible on the
+landscape.
+
+86
+
+Figure 4-3: Hillshade adjusted mound polygons represented with mound polygons
+generated from Lewis' 1885 survey notes anchored at Mound 8.
+To attempt to adjust for mound center point location errors in the 1885 survey data where
+mounds are no longer visible, a linear regression analysis was performed on the Lewis
+survey distance data, using the LiDAR hillshade adjusted mound location data as known
+actual values, with Shapiro-Wilk, skewness, and kurtosis tests indicating that the residual
+data had a normal distribution (Rogerson 2015). The null hypothesis that the observed
+subtracted from the predicted residuals come from a normal distribution could not be
+rejected. The distance data’s real minus predicted value’s mean is –6.12843109593e –15,
+distribution is approximately symmetric at 0.283619201603, excess kurtosis value is
+
+87
+0.417650712365, R2 is 0.990500968463, standard deviation is ±1.42063739255, two
+standard deviations from the mean are represented as [2.8412747850975335,
+–2.8412747850975211].
+
+Figure 4-4: Lewis distance linear regression line Y_hat = –0.816013963143 +
+1.0972812151x represented with points contributing to its creation (numbers indicate
+meters with points’ x-values representing Lewis survey shot distances and y-values
+representing corresponding hillshade shot distances).
+Linear regression did not produce residual data with a normal distribution for shot azimuth
+values from the 1885 Lewis survey and the LiDAR hillshade adjusted survey as the data
+failed the kurtosis test. The null hypothesis that the observed minus predicted residuals
+come from a normal distribution could be rejected. The azimuth data’s mean is
+–2.1505011946, standard deviation is ±4.00158711373, distribution is approximately
+
+88
+symmetric at 0.27005917329, and excess kurtosis value is 2.01392761903. Due to data
+being non-normal, Chebyshev's theorem, which allows for the creation of non-parametric
+confidence intervals, was used to infer an upper bound and lower bound for the percentage
+of shot azimuth difference data likely to be inside of maximum and minimum observed
+values (Shafer and Zhang 2015:36–41).
+Chebyshev’s theorem is written as:
+k = ((mean + mean_adjusted_interval_value) – (mean – mean_adjusted_interval_value)) /
+standard_deviation
+The likely percentage of values falling within the interval created using Chebyshev’s
+theorem is determined with:
+likely_percentage_of_values_in_created_bounds = (1 – (1 / (k * k))) * 100
+The lower bound is the determined mean adjusted interval value subtracted from the mean
+and the upper bound is the determined mean adjusted interval value added to the mean.
+Together these limits create a range or interval.
+The range or interval, which bounds sample azimuth values to achieve a confidence
+interval above 95%, produced for this project using Chebyshev’s theorem with mound
+survey shot azimuth difference data, was (–13.005986213684089, 8.7049838244915065)
+and encompasses at least 96.6% of population azimuth values. The values in the determined
+range can be subtracted and added, respectively, to unadjusted Lewis survey azimuths to
+account for their possible errors with 96.6% certainty.
+
+89
+This bound for azimuth values was used in combination with the generated shot distance
+related linear regression line and its associated standard deviation values to produce a
+geospatial boundary encompassing the area in which a mound center point would fall with
+greater than 95% certainty (Figure 4-5). Though this method can produce boundaries that
+have a high likelihood of containing mound center points in areas where mound locations
+are no longer visibly identifiable, its produced areas become unwieldy when attempting to
+predict the location of a mound center point from visually or geospatially unconfirmed
+mound center point locations. This is merely a preliminary exploration of a mound center
+point location prediction process and the discussed techniques need refinement, but their
+discussion establishes useful avenues for future research to promote better preservation of
+mound remnants and fewer disturbances of mound related burials.
+
+90
+
+Figure 4-5: Geospatial boundaries with greater than 95% certainty to contain actual
+mound center point locations at Belle Creek Mounds archeological site.
+Geophysics
+Relative elevation and soil texture can have significant impacts on the results of
+geophysical tests, especially in assessments of soil resistance (Geoscan Research 2009:63; Somers 2006:118). With the potential impact of elevation and soil texture in mind, in
+addition to further establishing the locations of the geophysical grid portions where data
+were collected, a map is provided for reference (Figure 4-6).
+
+91
+
+Figure 4-6: Locational elevation map of grid portions including soil series boundaries
+with soil textures.
+In presenting data collected during the aforementioned geophysical survey, grid portions
+1, 2, 3, and 4 are covered first. The reasoning behind presenting this southern third of the
+geophysical grid initially, has to do with highly visible, previously mapped, mounds
+providing information regarding what type of geophysical signature to expect from highly
+impacted and previously unidentified mounds. Lewis’ LiDAR hillshade adjusted 1885
+survey, depicted in Figure 4-3, indicates that previously disturbed mound locations lacking
+an associated elevational physical surface expression are present within this project’s
+geophysical grid, north of the linear field edge push that runs northeast near the northern
+
+92
+boundary of grid portions 5 and 6 and the southern boundary of grid portion 8 (Lewis
+1885:1–3). The field edge push can be seen in Figure 4-6.
+
+Figure 4-7: Selected geophysical results for grid portions 1, 2, 3, and 4.
+The geophysical results for grid portions 1, 2, 3, and 4, summarized in Figure 4-7, present
+data collected over two documented mound locations with elevational physical surface
+expression. One of the most noticeable aspects of the relative soil resistance data related to
+grid portions 3 and 4 is the stark contrast in broadly higher relative soil resistance values
+in their southern halves and broadly lower values in their northern halves. This dramatic
+shift in electrical resistance is likely attributable to a change in soil texture from silt loam
+
+93
+to sandy loam. The southern soil series line on Figure 4-6 corresponds with the changes
+seen in soil resistance (Soil Survey Staff 2016).
+Though the manual for the soil resistance meter used in collecting data on this project
+suggests that mounds tend to result in the measurement of electrical resistance highs with
+respect to their surroundings, it is apparent here that is not entirely the case (Geoscan
+Research 2009:6-3). This may also be explained as resulting from the apparent abrupt
+change in soil composition. Due to an accumulation of soil being needed from nearby to
+construct mounds and a likely borrow area, represented by an elevational low, immediately
+to the north of the mounds, these mounds may be built on sandy loam with a mixture of
+silt loam and sandy loam, which would be a less electrically resistive material than the
+material that is prevalent in the areas to the west, east, and south of the mounds’ locations.
+The mounds are still relative highs in relation the majority of the land in the grid portions
+that they occupy, probably partially attributable to their greater elevation and the possibility
+of prepared resistive surfaces within the mounds, but the relatively high, in relation the grid
+portions as a whole, area between the mounds is still measured as more resistive. A lack of
+less resistive material deposited in between the mounds in combination with it being
+relatively high in elevation may explain why it is more resistant than the mounds.
+Another factor involved in the mounds lack of noticeably high relative electrical resistance
+may be the trees growing on each of them. Tree root systems may hold more moisture than
+surrounding soils, especially in well-drained courser textured soils, and moisture is
+associated with less electrical resistance (Geoscan Research 2009:6-3). In the window
+displaying the relative soil resistance raster, trees are depicted as brown specks of different
+
+94
+sizes relative to their trunk diameter, small under 25 cm., medium 25 to 50 cm., and large
+greater than 50 cm. The two large trees on the western mound, between grid portions 1 and
+3, are associated with significant drops in soil resistance. Trees present off of the mounds
+appear to be associated with drops in relative soil electrical resistance as well. A small pit
+was present at the time of surveying near where the eastern low on the west mound was
+measured. The presence of this pit probably resulted in more moisture accumulation and
+retention in its location. Going forward, the precedent set by the geophysics collected in
+association with these documented, mounds with elevational physical surface expressions
+is that mounds on site will be represented as relative resistance highs either exceeding or
+comparable to other resistance highs in soils residing in locations beyond purported mound
+boundaries.
+Through observing the relative earth magnetism detected over the southern grid portions,
+it is apparent that the mounds have a stronger magnetic signature than the immediately
+adjacent soils. This is in accordance with expectations because of how mounds appear in
+previous geophysical mound studies and are described as appearing in theoretical
+explanations, potentially due to an accumulation of topsoil (Betts and Stay 2017:48–50;
+Kvamme 2006:217–218). An area of low magnetism, similar to what is seen surrounding
+both of the mounds, has been documented in a previously cited mound study (Betts and
+Stay 2017:49–50). There also appear to be smaller magnetic anomalies present within the
+mound boundaries, which might be explained as representative of burned stones,
+magnetized through the thermoremanent effect, buried within the mound (Arzigian and
+Stevenson 2003:140 and 156–158; Kvamme 2006:207–208). Buried burned stones may be
+
+95
+detected as a dipolar field, with paired positive and negative magnetic extremes depicted
+within isolated spots (Kvamme et al. 2006:48).
+Curiously, seemingly in contrast to the explanations provided in some of the previously
+cited sources, the relatively topographically low area to the north of both of the mounds
+appears as a magnetically high anomaly like the mounds, with the strongest magnetism
+depicted in congruence with the low area’s lowest spot. In making sense of the
+magnetically high anomaly in the elevational low, erosional deposition of enriched topsoil
+including magnetic materials from accumulated topsoil more easily put in suspension due
+to a smaller size and density and moved via splash and sheet erosion may be the reason for
+its existence (Kvamme 2006:218–219; Kvamme et al. 2006:48). To conclude magnetic
+interpretations, the small dipole to the southwest of the westernmost mound, positioned
+along the western boundary of grid portion 1, is associated with the location an old seatbelt
+was found in following data collection in the grid portion with the gradiometer.
+The results of the ground penetrating radar data collection in grid portions 1 and 3, over
+the western mound, are striking. From roughly one to two meters in depth below the ground
+surface, the ground penetrating radar detected high amplitude returns in a circular pattern
+when viewed in plan. GPR returns are explained as resulting from the contrast in electrical
+properties between two materials at their underground interface, the greater the difference
+between the materials, the higher the amplitude of the return (Conyers 2006:136). This
+explanation of what GPR returns signify suggests that the equipment detected significant
+soil contrasts within the mound’s underlying soils (Figure 4-7). According to research
+discussed previously, the presence of significant inconsistencies in soil properties within
+
+96
+the soil matrix may be the result of the mixing of soils or sediments during the construction
+of a mound, possibly through a process referred to as basketloading (Arzigian and
+Stevenson 2003:133; Betts and Stay 2017:46). In basketloading, basket loads of earth are
+taken from mixed or different strata or borrow area locations and deposited together, often
+onto a prepared surface from which the topsoil has been removed in preparation for mound
+construction, resulting in a mound having irregular stratigraphy, including lenses of gravel
+or subsoil along with other types of material (Arzigian and Stevenson 2003:133; Betts and
+Stay 2017:46). Basketloading is described as being present within the first mound that
+Edward Schmidt excavated at the Belle Creek Mounds mound group, making it all the
+more likely that effects of basketloading would be observed in geophysical data collected
+over a mound at the same archeological site (Arzigian and Stevenson 2003:133).
+The depiction of GPR results, associated with data collected over the western mound, in
+profile corroborates the results viewed in plan from 110–112 cmbs. When viewed in
+profile, data collected over the mound’s location indicate many curved truncated soil strata
+at ~90–140 cmbs with properties that appear to be consistent with the interpretation of
+being associated with basketloading-based construction. The mound signatures derived
+from these southern grid portions are used in attempting to understand and make sense of
+the geophysical results in grid portions 5, 6, 7, and 8 and 11, 9, and 10.
+
+97
+
+Figure 4-8: Selected geophysical results for grid portions 5, 6, 7, and 8.
+The geophysical results in grid portions 5, 6, 7, and 8 were collected over: one previously
+mapped mound with elevational physical surface expression in grid portion 6, the field
+edge push running west-southwest to east-northeast near the northern boundaries of grid
+portions 5 and 6 and the southern boundary of grid portion 8, one circular slight elevational
+rise not previously mapped as a mound in grid portion 5, and three previously mapped,
+impacted mound locations where mounds no longer have elevational physical surface
+expressions, in addition to the areas in between the previously stated current, former, and
+possible mound locations. The previously mapped mound with elevational physical surface
+expression in grid portion 6 has relative soil resistance and earth magnetism readings
+
+98
+similar to those of the previously mapped mounds in grids 1, 2, 3, and 4. Relative soil
+resistance values are slightly higher than the area’s resistance values outside of the mapped
+mound’s boundary. Trees present on the mound could be contributing to the relative
+electrical resistance lows within the mound boundary’s western third, as they did on the
+mound straddling grid portions 1 and 3. However, it appears that with the soil transitioning
+from sandy loam to silt loam with the northward movement out of the southernmost four
+grid portions, trees are not as clearly associated with lower values in relative electrical
+resistance in soils, with some trees appearing to be associated with relative resistance highs
+in grid portions 5, 6, 7, and 8. The recorded earth magnetism is higher within the mound’s
+boundary than over adjacent areas. Like the mounds in more southern grid portions
+discussed previously, the earth magnetism increase over the mound could be interpreted as
+being the result of topsoil accumulation or the creation of a buried burned prepared surface,
+although the lack of dipoles indicative of thermoremanent magnetism give more credence
+to the former interpretation.
+The linear field edge push running through grid portions 5 and 6 near their northern
+boundaries and through grid portion 8 along its southern boundary, in its southeastern
+corner, provides an interesting test case for how geophysical data are impacted by
+elevational rises and topsoil accumulation. The boundary of an apparently cultivated area
+associated with the location of the field edge push is present in an aerial image from 1938
+indicating that the field edge push was established prior to the aerial photo, possibly in
+leveling the area for ease of cultivation (United States Department of Agriculture 1938).
+The processes involved in preparing a field for cultivation and cultivation itself appear to
+
+99
+have adversely impacted the mounds north of the field edge push, with many no longer
+having elevational physical surface expression. The field edge push is easily identifiable in
+relative soil resistance data, being represented as a relative high, possibly due to its higher
+elevation than immediately adjacent areas, promoting less moisture retention (Geoscan
+Research 2009:6-3). The field edge push is represented as a magnetic high much like the
+mound in grid portions 1 and 3. The magnetically high signature of the field edge push
+may be the result of the accumulation of magnetically rich topsoil much like the magnetic
+highs associated with the previously discussed mapped mounds (Betts and Stay 2017:48–
+50; Kvamme 2006:217–218). The field edge push’s ground penetrating radar related
+signature consists of high amplitude returns indicative of significant soil mixing, similar to
+what is seen in the mapped mound in grid portions 1 and 3 (Conyers 2006:136).
+Within the southwestern corner of grid portion 5, there is a subtle elevational rise that looks
+much like the rises previously mapped as mounds on a LiDAR-based hillshade (Lewis
+1885:1–3). This rise has associated with it, highs in relative soil resistance, discussed as
+being expected over mounds (Geoscan Research 2009:6-3). The rise is also depicted as
+being high in relative earth magnetism, reminiscent of previously mapped mounds and
+indicative of magnetite rich topsoil accumulation (Betts and Stay 2017:48–50; Kvamme
+2006:217–218). Ground penetrating radar returns from 70–75 cmbs viewed in plan show
+high amplitudes associated with the rise, which as mentioned previously could be the result
+of mixing due to construction via basketloading, but in any case matches the general
+tendency of the ground penetrating radar signature of the mapped mound in grid portions
+1 and 3. The GPR data depicted in profile indicates truncated curved stratigraphy from
+
+100
+~50–80 cmbs in the area of the elevational rise, encompassed by a green box within a red
+box labeled as the eastern edge of the southern geophysically indicated mound location
+(Figure 4-8). This elevational rise’s geophysical signature appears to match those of
+previously mapped mounds. Although not absolutely conclusive, it is highly likely that this
+is in fact an unmapped mound. It is not uncommon for Lewis to have not mapped all
+mounds in any specific location. In some nearby instances he simply missed them (see,
+e.g., 21GD51), and in other instances he specifically notes that indistinct mounds or
+sections of mound groups were not mapped (see, e.g., 21GD45).
+The southernmost previously mapped mound location in grid portion 7, depicted in white,
+which T.H. Lewis’ 1885 survey, adjusted to a LiDAR-based hillshade, depicts as straddling
+the western boundary of grid portion 7, is geophysically supported as being in a slightly
+different location to the southeast, depicted in red (Figure 4-8). The reasoning behind the
+geophysically indicated mound location differing from the surveyed mound location has to
+do with the discussion earlier in this chapter regarding the differences between mound
+locations visible on a LiDAR derived hillshade and mound locations determined solely
+through the usage of Lewis’ 1885 survey notes, as well as the characteristics of geophysical
+data collected over the area. Interestingly, a relative soil electrical resistance high is
+depicted in an area slightly lower in elevation than the area around it, in the center of the
+geophysically indicated mound location (Figure 4-8). Due to a lower elevation promoting
+more moisture accumulation and a lower resistance value, this area is anomalous. This
+anomaly might be explained by soils being burned or by soils from other surrounding or
+underlying strata being mixed in with topsoils during mound construction, potentially
+
+101
+decreasing water retention (Conyers 2012:32–34). The GPR data depicts high amplitude
+returns, known to be associated with mounds, both in plan view from 70–75 cmbs and
+profile from ~70–90 cmbs, where high amplitude returns are encompassed by a green box
+within a red box depicting the northern geophysically indicated mound location in Figure
+4-8. The strongest supporting evidence for this being the former location of the previously
+discussed surveyed mound is the size and shape of the ground penetrating radar high
+amplitude returns matching the circular, highly geometric, dimensions of the Lewis
+surveyed mound (Kvamme 2006:222). There are also magnetic dipoles more strongly
+associated with the geophysically indicated mound location than with the hillshade
+adjusted surveyed mound location (Figure 4-8). These dipoles may be associated with a
+hearth or cairn within the mound, as are discussed as being common mound associated
+features in the background chapter.
+The hillshade adjusted 1885 Lewis survey mound polygon present along the northern
+border of grid portion 7 does not appear to be represented by a relative soil resistance high
+or any clear ground penetrating radar high amplitude returns. The earth magnetism data
+over the surveyed mound polygon are also unhelpful due to the presence of recently
+deposited metallic debris found in combination with evidence of a small fire, both of which
+contributed to a substantial dipole obscuring subtler magnetism that tends to be associated
+with mounds (Kvamme 2006:222). The hillshade adjusted 1885 Lewis survey mound
+polygon within grid portion 8 does not seem to have any significant associated relative soil
+resistance highs. This location is represented by a magnetic high as known mounds are on
+site; however, magnetic data appear to be obscured slightly by linear anomalies that may
+
+102
+indicate previous plowing efforts (Kvamme 2006:222). GPR data necessary for generating
+a plan view map or digital subsurface profiles were not collected over grid portion 8.
+
+103
+
+Figure 4-9: Selected geophysical results for grid portions 11, 9, and 10.
+
+104
+Grid portions 11, 9, and 10 appear to have been disturbed to a greater degree than
+geophysical grid portions one through eight to the south, due to their position in long used
+artificial pasture (Lewis 1885:1–3; United States Department of Agriculture 1938). Despite
+inferred heavier agricultural usage, geophysical data collected over the three northernmost
+grid portions supports the presence of mounds. Although the two hillshade adjusted 1885
+Lewis survey mound polygons mostly within grid portion 11 do not encompass
+geophysical data suggestive of a mound, if both of these polygons are moved south and
+slightly east, representative geophysical signatures indicative of mounds of the sizes
+specified by Lewis’ 1885 survey exist in relative soil resistance data, relative earth
+magnetism data, and GPR returns from 35–40 cmbs, when viewed in plan and profile
+(Figure 4-9). These geophysical signatures support the geophysically indicated mound
+locations depicted in Figure 4-9 as being the true spatial locations of the previously
+surveyed mounds. The linear low in relative soil resistance, relative earth magnetism, and
+the amplitude of GPR returns, running to the northeast and southwest across the northern
+half of grid portion 11, is representative of a ditch cut that can be clearly seen in Figure
+4-6.
+Both hillshade adjusted Lewis 1885 survey mound polygons partially present in grid
+portion 9 seem to lack clearly associated geophysical anomalies. This may be because of
+previous disturbance. There is, however, a curiously shaped anomaly especially visible in
+relative earth magnetism data (Figure 4-9). This anomaly appears as a spiral, a very
+common decoration on Silvernale pottery representative of the underworld (see Chapter
+2). The anomaly’s shape and presence within a burial mound group that functioned as a
+
+105
+cemetery, though it cannot be cogently attributed to any earthwork at this point, draws
+attention to the potential existence of subtler features that may be present among mound
+groups. This anomaly might be associated with intaglio, a three-dimensional reversal of an
+effigy mound dug into the ground (Rosebrough 2010:369). In grid portion 10, the hillshade
+adjusted 1885 Lewis survey mound polygon that is nearly completely encompassed
+appears to have both associated relative soil resistance and relative earth magnetism highs.
+These geophysical data support that its current orientation is representative of a true mound
+location.
+Geophysical indications of mound locations, no longer easily identifiable via changes in
+elevation, could contribute to refining understandings related to Lewis’ errors in surveying
+as well as the known locations of other, individual, mounds lacking elevational physical
+surface expression. Geophysical data provides another means of correcting Lewis survey
+data to more accurately determine mound locations and isolate Lewis survey shot errors to
+allow for a more accurate interpretation of mound groups as they were when originally
+surveyed.
+Shovel Testing
+Prior to and following the collection of geophysical data, the EARTH Systems Research
+Laboratory with the assistance of Franky and Matt Jackson excavated a total of 47 shovel
+tests. The initial two shovel tests were excavated in the pasture area, to the north and west
+of the area of geophysical investigation, in preparation for the placement of permanent
+datums on site. The latter 45 were excavated immediately south of the area of geophysical
+
+106
+investigation on Prairie Island Indian Community property. Shovel test excavation took
+place to discern which types of artifacts are present on site and in what concentrations.
+Shovel testing helped with gaining a better understanding of the archeological cultural
+material present on Belle Creek Mounds archeological site and PIIC property that warrants
+protection and with the attempted furthering of archeological knowledge of the Red Wing
+Region.
+
+Figure 4-10: Gridded shovel testing results immediately south of the geophysics grid.
+Of the 47 shovel tests excavated on site, 9 were positive for cultural material. Both shovel
+tests excavated in preparation for the placement of Datum 1 and Datum 2 on site were
+negative, yielding no artifacts. The artifacts associated with the 9 positive shovel tests
+
+107
+consisted of pottery sherds, lithic debitage, and fire-cracked rock, with 5 yielding pottery
+sherds, 5 yielding lithic debitage, and 2 yielding fire-cracked rock. In total 7 pottery sherds,
+5 pieces of lithic debitage, 65 pieces of charcoal unassociated with any recognized
+archeological features, and 2 pieces of fire-cracked rock were collected, cataloged, and
+accessioned at the Minnesota State University, Mankato Museum of Anthropology,
+Archeology Division’s curation facility. The surveying crew found pottery sherds in each
+of the three easternmost positive shovel tests, and shovel test 40 E, –20 N encountered a
+buried organically enriched layer that may be part of a feature associated with human
+activity during the Pre-Contact Era.
+The 45 southern shovel test locations are displayed in Figure 4-10. Some of the locations
+had to be slightly repositioned from their initially intended placement, with precise 5-meter
+spacing, to allow for the avoidance of obstructions. Empirical Bayesian kriging was used
+to generate the raster underlying the depicted shovel test points, approximating the
+probability of excavating a positive shovel test in the area encompassed by the shovel
+testing grid, based on whether each of the 45 shovel tests in the grid were positive or
+negative for artifacts.
+Empirical Bayesian kriging differs from other kriging methods by
+accounting for the error introduced by estimating the underlying
+semivariogram… For each prediction location, the prediction is calculated
+using a new semivariogram distribution that is generated by a likelihoodbased sampling of individual semivariograms from the semivariogram
+spectrums in the point's neighborhood (Esri Inc. 2016).
+All 5 pieces of lithic debitage recovered during sub-surface testing were determined to be
+Prairie Du Chien chert with one piece having clear evidence of heat treatment, used in
+
+108
+making lithic raw material fracture easily so that it may be more readily knapped and
+pressure-flaked into stone tools. Both pieces of fire-cracked rock were classified as granite.
+Four of the 7 pottery sherds collected were cataloged as having shell temper with one
+having an incised line decoration (Figure 4-11). Shell tempering was indicated by lacunae,
+negative space on the surface of pot sherds where shell has since been leeched out of the
+pottery (Figure 4-12). One pottery sherd has a cordmarked surface treatment and grit
+tempering (Figure 4-13 and Figure 4-14), and two have indeterminate temper and surface
+treatment.
+
+109
+
+Figure 4-11: Smoothed sherd with lacunae.
+
+Figure 4-12: Smoothed sherd with lacunae, zoomed in.
+
+110
+
+Figure 4-13: Cordmarked grit-tempered sherd.
+
+Figure 4-14: Cordmarked grit-tempered sherd, zoomed in.
+
+111
+Chapter 5 – Discussion and Conclusions
+This research supports that geospatial and geophysical methods including relative soil
+resistance, magnetometry, and ground penetrating radar can be used to assist in locating
+Pre-Contact Native American earthworks and, by association, burials on the Belle Creek
+Mounds site and, quite likely, in similar settings throughout the Red Wing Region.
+Geophysical methods may also provide inroads toward a clearer understanding of how
+mound groups functioned as ritual spaces through the identification of anomalies
+potentially representing previously unencountered or overlooked archeological features
+that can be further explored using other methods. However, the effectiveness of geophysics
+in mound group relocation appear to be contingent on the amount and types of previous
+disturbances in an area. For example, the field edge push visible in Figure 4-8 has a
+geophysical expression similar to known mounds with the exception of its highly linear
+shape.
+Because archeological geophysical data interpretation is dependent on the analysis of
+relative differences in soil properties across space, the presence of borrow areas used in
+mound construction and lack of recent artificial soil build-up, removal, or mixing, facilitate
+the interpretation of geophysical surveys over mound groups. If a mound group has fewer
+significant modifications since its construction and initial usage in rituals, fewer equifinal
+variables need to be taken into serious consideration when interpreting collected
+geophysical data. The relative nature of archeological geophysical data collected and
+
+112
+interpreted in this project highlights the importance of the negative spaces around mounds
+within a mound group in creating recognizable mound related geophysical signatures.
+Some of the mounds present in Lewis’ 1885 survey did not seem to have an associated
+geophysical signature generated by relative soil resistance, magnetometry, or ground
+penetrating radar. These mound locations, lacking elevational physical surface expressions
+and a nearby associated geophysical signature, further illustrate the detrimental impact that
+ground disturbing activity can have on an archeological site with earthworks. A lack of
+Post-Contact Era agricultural practices on site would have likely resulted in identification
+of more mound related geophysical signatures in this location. The formerly cultivated area
+within the established geophysical grid was the only part of the grid in which geophysical
+signatures could not be tied to previously identified mounds.
+The use of T. H. Lewis’ 1885 survey proved to be invaluable in geophysical data
+interpretation due to its depiction of mound dimensions and their positions in relation to
+each other. Without referencing this past survey, it would have been far more difficult to
+assess anomalies as evidence of locations of previously visible mounds. One heartening
+result of this project is its contribution in beginning to quantify the error present in Lewis’
+mound survey data that could allow these 19th century mound surveys to be applied with
+greater care in protecting and understanding mound groups. Future geospatial research
+contributing to knowledge regarding the sources and types of errors present in these
+surveys would likely be of great value in archeological work on formerly mapped mound
+groups. Lewis’ survey in combination with other research cited in earlier chapters, may be
+
+113
+used to assist in developing boundaries around mound groups accounting for the presence
+of mound related activity areas.
+Previous research discusses entire mound groups’ sociocultural function as ritual spaces
+and cemeteries (see Chapter 2). With disturbances to mound groups, not only are mounds
+without elevational physical surface expression, with possible intact underlying burials,
+more difficult to identify and more likely to be subjected to further disturbance, the feeling,
+otherwise known as the property’s expression of the aesthetic or sense of the time in which
+the mounds were constructed, is greatly diminished (U.S. Department of the Interior
+National Park Service Cultural Resources Division 2000:36). With a decreased sense of
+the time in which mound group construction and rituals initially happened, these places
+lose some of their value in providing people, particularly indigenous people, with
+opportunities to commune with their past.
+The shovel testing conducted south of the geophysical grid yielded a very small number of
+artifacts mainly consisting of pottery sherds and lithic debitage. The 5-meter spacing used
+for the placement of shovel tests proved to be important in generating a sample of artifacts
+useful for archeological interpretation. If a wider shovel test spacing was used immediately
+outside of the mound group, preliminary results relating to the Belle Creek Mounds
+archeological site’s cultural affiliation would lose significant supporting evidence. The
+presence of pottery is generally associated with and supports the interpretation of past
+habitation within the arc of mounds present on site, comparable to archeologically similar
+settings nearby. The combination of pottery sherds with varied characteristics can be
+tentatively interpreted as indicating that the habitation associated with the mound group is
+
+114
+an aggregation village due to cordmarked grit-tempered pottery affiliated with Late
+Woodland groups being present among smoothed shell-tempered pottery affiliated with
+Silvernale and Oneota groups. However, more substantial research needs to be done before
+this interpretation can be made with confidence because of the incredibly small size of the
+analyzed artifactual collection.
+The findings of this project promote the future application of hillshade adjusted Lewis
+mound survey results and geophysical methods around and within a generously estimated
+mound group boundary prior to development or land usage that may have adverse impacts
+on mounds, mound remnants, burials, or other possible mound group features to allow for
+their identification to prevent their disturbance or destruction. This recommendation is
+made because of the promising results of this Lewis mound survey informed
+geoarcheological survey.
+
+115
+References
+Anfinson, Scott F.
+1979 A Handbook of Minnesota
+Archaeological Society.
+
+Prehistoric
+
+Ceramics.
+
+Minnesota
+
+Artz, Joe Alan, Emilia L. D. Bristow, and William E. Whittaker
+2013 Mapping Precontact Burial Mounds in Sixteen Minnesota Counties using
+Light Detection and Ranging (LiDAR). Office of the State Archaeologist,
+Iowa City, Iowa.
+Arzigian, Constance M., and Katherine P. Stevenson
+2003 Minnesota’s Indian Mounds and Burial Sites: A Synthesis of Prehistoric
+and Early Historic Archaeological Data. The Minnesota Office of the State
+Archaeologist, St. Paul, Minnesota.
+Betts, Colin, and Marshall Stay
+2017 Geophysical Investigations at the Ward Long Mound Site, Allamakee
+County, Iowa. Journal of the Iowa Archeological Society 64:45–51.
+Blue, Kathleen
+in preparation Chapter 9: Human Skeletal Remains from the Red Wing Locality.
+In Mounds Villages and Feasts: the archaeology of Red Wing,
+edited by Ronald C. Schirmer. Minnesota Archaeological Society,
+St. Paul, Minnesota.
+Chen, Xiaoming, T Allison, W Cao, K Ferguson, S Grünig, V Gomez, Adrian Kipka, J
+Köhler, H Landau, R Leandro, G Lu, R Stolz, and Nick Talbot
+2011 Trimble RTX, an innovative new approach for network RTK. In 24th
+International Technical Meeting of the Satellite Division of the Institute of
+Navigation 2011, ION GNSS 2011, 3:pp. 2214–2219.
+Climate-Data.org
+2021 Red Wing climate: Average Temperature, weather by month, Red Wing
+weather averages - Climate-Data.org. https://en.climate-data.org/northamerica/united-states-of-america/minnesota/red-wing-16524/,
+accessed
+February 3, 2021.
+Colwell-Chanthaphonh, Chip
+2005 The Incorporation of the Native American Past: Cultural Extermination,
+Archaeological Protection, and the Antiquities Act of 1906. International
+Journal of Cultural Property(12):375–391.
+
+116
+
+Conyers, Lawrence B.
+2006 Ground-Penetrating Radar. In Remote Sensing in Archaeology: An
+Explicitly North American Perspective, edited by Jay K. Johnson, pp. 131–
+160. The University of Alabama Press, Tuscaloosa, Alabama.
+2012
+
+Interpreting Ground-penetrating Radar for Archaeology. Left Coast Press
+Inc., Walnut Creek, California.
+
+Cuenca-Garcia, Carmen
+2019 Soil geochemical methods in archaeo‐geophysics: Exploring a combined
+approach at sites in Scotland. Archaeological Prospection 26(1):57–72.
+Dobbs, Clark A.
+1991 The Northwestern Archaeological Survey: An Appreciation and Guide to
+the Field Notebooks. Institute for Minnesota Archaeology, Minneapolis,
+MN.
+Emerson, Thomas E.
+1999 Some Perspectives on Cahokia and the Northern Mississippian Expansion.
+In Cahokia and the Hinterlands: Middle Mississippian Cultures of the
+Midwest, edited by Thomas E. Emerson and R. Barry Lewis. 1st ed.
+University of Illinois Press, Champaign, Illinois.
+Esri Inc.
+2016
+
+2020
+
+What
+is
+Empirical
+Bayesian
+kriging?
+https://desktop.arcgis.com/en/arcmap/10.3/guidebooks/extensions/geostatistical-analyst/what-is-empirical-bayesiankriging-.htm, accessed June 7, 2021.
+ArcMap. Esri Inc, Redlands, CA.
+
+Faulkner, Douglas J., Phillip H. Larson, Harry M. Jol, Garry L. Running, Henry M. Loope,
+and Ronald J. Goble
+2016 Autogenic incision and terrace formation resulting from abrupt late-glacial
+base-level fall, lower Chippewa River, Wisconsin, USA. Geomorphology
+266:75–96.
+Fleming, Edward Paul
+2009 Community and Aggregation in the Upper Mississippi River Valley: The
+Red Wing Locality. Unpublished PhD Dissertation, University of
+Minnesota.
+
+117
+Fullerton, David S., Charles A. Bush, and Jean N. Pennell
+2003 Map of Surficial Deposits and Materials in the Eastern Central United
+States (East of 102°West Longitude). United States Geological Survey.
+Geometrics (editor)
+2001 G-858 MagMapper Operation Manual. 25309th-OM Rev. D2nd ed.
+Geometrics, San Jose, California.
+Geoscan Research (editor)
+2009 Resistance Meter RM15-D Instruction Manual. 2.98. Geoscan Research,
+Clayton, Bradford, West Yorkshire, United Kingdom.
+Gibbon, Guy E.
+2012 Archaeology of Minnesota. University of Minnesota Press, Minneapolis,
+Minnesota.
+Gibbon, Guy E., and Clark A. Dobbs
+1991 The Mississippian Presence in the Red Wing Area, Minnesota. In New
+Perspectives on Cahokia: Views from the Periphery, edited by James B.
+Stoltman, pp. 281–306. Prehistory Press, Madison, Wisconsin.
+Goodhue County
+2020 Goodhue County Parcel Data. Goodhue County.
+Guichard, David
+2021 Calculus. LibreTexts.
+Hegmon, Michelle
+1992 Archaeological Research on Style. Annual Review of Anthropology 21:517–
+536.
+Henning, Dale R., and Ronald C. Schirmer
+2020 Cahokia and the Northwest Quarter. In Cahokia in Context: Hegemony and
+Diaspora. University of Florida Press, Gainesville, Florida.
+Hildebrant Iffert, Emily
+2010 Villagers and Archaeologists: An Examination of Past Behaviors at the
+Bartron Site (21GD02). Unpublished Master’s Thesis, Minnesota State
+University, Mankato.
+
+118
+Holley, George R.
+in preparation Chapter 11: The Red Wing Region Late Prehistoric Ceramic
+Sequence. In Mounds Villages and Feasts: the archaeology of Red
+Wing, edited by Ronald C. Schirmer. Minnesota Archaeological
+Society, St. Paul, Minnesota.
+Holley, George R., and Michael G. Michlovic
+2013 The Prehistoric Village Cultures of Southern Minnesota.
+Horton, Jessica L.
+2017 Places to Stand: Art After the American Indian Movement. Wasafiri
+32(2):23–31.
+Kelly, Robert L., and David Hurst Thomas
+2017 Archaeology. 7th ed. Cengage Learning, Boston, MA.
+Koncur, Jasmine
+2018 The McClelland Site (21GD258) and the Oneota Tradition in the Red Wing
+Region. Unpublished Master’s Thesis, Minnesota State University,
+Mankato.
+Kvamme, Kenneth L.
+2006 Magnetometry: Nature’s Gift to Archaeology. In Remote Sensing in
+Archaeology: An Explicitly North American Perspective, edited by Jay K.
+Johnson, pp. 205–234. The University of Alabama Press, Tuscaloosa,
+Alabama.
+Kvamme, Kenneth L., Eileen Ernenwein, Michael Hargrave, Thomas Sever, Deborah
+Harmon, and Fred Limp
+2006 New Approaches to the Use and Integration of Multi-Sensor Remote
+Sensing for Historic Resource Identification and Evaluation.
+Environmental Security Technology Certification Program, Herndon,
+Virginia.
+Lewis, T. H.
+1885 Archaeological Surveys: Cannon River Valley Near Red Wing, Minn.
+(Goodhue Co. Minn. Trempealeau Co. Wis. 1885, 1886, 1887).
+Littlefield, Daniel F., and James W. Parins
+2011 Encyclopedia of American Indian Removal. Greenwood, Santa Barbara,
+California.
+
+119
+Minnesota Department of Natural Resources
+2021 The
+Blufflands
+Subsection
+|
+Minnesota
+DNR.
+https://www.dnr.state.mn.us/ecs/222Lc/index.html, accessed February 3,
+2021.
+Minnesota Department of Transportation
+2017 Minnesota Archaeological Site
+Department of Transportation.
+
+Boundaries
+
+Shapefile.
+
+Minnesota
+
+Minnesota Department of Transportation and Minnesota Geospatial Information Office
+2009 City, Township, and Unorganized Territory in Minnesota. Minnesota
+Department of Transportation and Minnesota Geospatial Information
+Office (MnGeo).
+Minnesota IT Services - Geospatial Information Office
+2011 LiDAR Elevation Data for Minnesota [LAZ]. Minnesota IT Services Geospatial Information Office.
+Minnesota Legislature
+1980 Private Cemeteries. Minnesota Statutes, Ch. 307.
+Minnesota Office of the State Archaeologist
+2014 Archaeology in Minnesota: Annual Report of the State Archaeologist
+(Fiscal Year 2013).
+2021a Office
+of
+the
+State
+Archaeologist
+(OSA)
+Portal.
+https://osa.gisdata.mn.gov/OSAportal/, accessed February 4, 2021.
+(editor)
+
+2021b Minnesota Office of the State Archaeologist Site File 21GD0072 Belle
+Creek Mounds. Minnesota Office of the State Archaeologist.
+
+Minnesota State Historic Preservation Office (editor)
+1990a MNSHPO
+Archaeological
+Database
+
+Site
+
+Form
+
+21GD0065.
+
+1990b MNSHPO
+
+Archaeological
+
+Database
+
+Site
+
+Form
+
+21GD0066.
+
+1990c MNSHPO
+
+Archaeological
+
+Database
+
+Site
+
+Form
+
+21GD0067.
+
+1990d MNSHPO
+
+Archaeological
+
+Database
+
+Site
+
+Form
+
+21GD0068.
+
+1990e Minnesota Archaeological Site Form 21GD0200.
+
+120
+Mollerud, Katy J.
+2016 The Cambria Connection: Identifying Ceramic Production and Community
+Interaction in Late Prehistoric Minnesota, AD 1050-1300. Unpublished
+PhD Dissertation, University of Wisconsin-Milwaukee.
+National Soil Survey Center (editor)
+2012 Field Book for Describing and Sampling Soils. 3.0. National Soil Survey
+Center Natural Resources Conservation Service U.S. Department of
+Agriculture.
+Ojakangas, Richard W., and Charles L. Matsch
+1982 Minnesota’s Geology. University of Minnesota Press, Minneapolis.
+Ortiz, Erik
+2020
+
+Post, Tim
+2006
+
+Ancient Native American Burial Site Blasted for Trump Border Wall
+Construction.
+https://www.nbcnews.com/news/us-news/ancient-nativeamerican-burial-site-blasted-trump-border-wall-construction-n1135906.
+Rapid Development Running into Minnesota’s Indian Burial Mounds. MPR
+News. https://www.mprnews.org/story/2006/04/28/effigymounds.
+
+Rogerson, Peter A.
+2015 Statistical Methods for Geography: A Student’s Guide. 4th ed. SAGE
+Publications, Thousand Oaks, California.
+Rosebrough, Amy L
+2010 Every Family a Nation: A Deconstruction and Reconstruction of the Effigy
+Mound ‘Culture’ of the Western Great Lakes of North America.
+Unpublished PhD Dissertation, University of Wisconsin-Madison.
+Schirmer, Ronald C.
+2002 Plant-Use Systems and Late Prehistoric Culture Change in the Red Wing
+Locality. Unpublished PhD Thesis, University of Minnesota.
+2016
+
+Radiocarbon Dating Early Oneota Sites in Southern Minnesota.
+
+in preparation Chapter 2: Red Wing and the Archaeological Community:
+Taxonomic and Interpretive History. In Mounds Villages and
+Feasts: the archaeology of Red Wing, edited by Ronald C. Schirmer.
+Minnesota Archaeological Society, St. Paul, Minnesota.
+
+121
+Schirmer, Ronald C., and Edward P. Fleming
+in preparation Chapter 6: Aggregation Villages in the Red Wing Region. In
+Mounds Villages and Feasts: the archaeology of Red Wing, edited
+by Ronald C. Schirmer. Minnesota Archaeological Society, St. Paul,
+Minnesota.
+Schmidt, E. W.
+1940 Articles and Correspondence by Dr. E. W. Schmidt of Red Wing in regard
+to the archaeology of this area 1939-1940.
+Schortman, Edward M.
+1989 Interregional Interaction in Prehistory: The Need for a New Perspective.
+American Antiquity 54(1):52–65. DOI:10.2307/281331.
+Shafer, Douglas S., and Zhiyi Zhang
+2015 Introductory Statistics. Saylor Foundation.
+Smetanka, Mary Jane
+2014 2009: Indian Burial Grounds: Rest in Peace. Star Tribune, October 2014.
+Soil Survey Staff
+2005 Official
+Series
+Description
+LINDSTROM
+Series.
+https://soilseries.sc.egov.usda.gov/OSD_Docs/L/LINDSTROM.html,
+accessed February 3, 2021.
+2007
+
+Official
+Series
+Description
+LILAH
+https://soilseries.sc.egov.usda.gov/OSD_Docs/L/LILAH.html,
+February 3, 2021.
+
+Series.
+accessed
+
+2016
+
+Gridded Soil Survey Geographic (gSSURGO) Database for Minnesota.
+United States Department of Agriculture, Natural Resources Conservation
+Service.
+
+2021
+
+Web
+Soil
+Survey
+https://websoilsurvey.sc.egov.usda.gov/App/HomePage.htm,
+February 3, 2021.
+
+Home.
+accessed
+
+Somers, Lewis
+2006 Resistivity Survey. In Remote Sensing in Archaeology: An Explicitly North
+American Perspective, edited by Jay K. Johnson, pp. 109–130. The
+University of Alabama Press, Tuscaloosa, Alabama.
+
+122
+Strang, Gilbert, and Edwin Herman
+2021 Calculus. LibreTexts.
+Thompson, Victor D., Philip J. Arnold, Thomas J. Pluckhahn, and Amber M.
+Vanderwarker
+2011 Situating Remote Sensing in Anthropological Archaeology. Archaeological
+Prospection 18(3):195–213. DOI:10.1002/arp.400.
+Trimble Navigation Limited (editor)
+2010 Trimble M3 DR Series Total Station User Guide. 1.00 Revision B. Trimble
+Navigation Limited, Dayton, Ohio.
+2019
+
+Trimble RTX Frequently Asked Questions. Trimble Positioning Services.
+https://positioningservices.trimble.com/wpcontent/uploads/2019/02/Trimble-RTX-FAQ-2020-Brochure.pdf.
+
+United States Department of Agriculture
+1938 Aerial Photo of Welch Township. United States Department of Agriculture.
+United States Department of Agriculture Natural Resources Conservation Service
+2006 Land Resource Regions and Major Land Resource Areas of the United
+States, the Caribbean, and the Pacific Basin.
+U.S. Congress
+1966 National Historic Preservation Act of 1966.
+1978
+
+American Indian Religious Freedom Act of 1978.
+
+1979
+
+Archaeological Resources Protection Act of 1979.
+
+1990
+
+Native American Graves Protection and Repatriation Act of 1990.
+
+U.S. Department of the Interior National Park Service Cultural Resources Division
+2000 National Register Bulletin: Guidelines for Evaluating and Registering
+Archeological Properties.
+Willey, Gordon R., and Philip Phillips
+1958 Method and Theory in American Archeology. The University of Chicago
+Press, Chicago, Illinois, U.S.A.
+
+123
+Woods, William I.
+2004 Population nucleation, intensive agriculture, and environmental
+degradation: The Cahokia example. Agriculture and Human Values
+21(2/3):255–261. DOI:10.1023/B:AHUM.0000029398.01906.5e.
+Wylie, Alison
+1985 The Reaction against Analogy. In Advances in Archaeological Method and
+Theory, 8:pp. 63–111. Springer.
+Yamada, Rie
+2007 The Spatial Relationships Among Mounds in the Red Wing Locality, MN
+and WI. Unpublished Master’s Thesis, Minnesota State University,
+Mankato.
+
+

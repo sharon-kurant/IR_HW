@@ -1,0 +1,803 @@
+Accelerat ing t he world's research.
+
+Location Aware Mobile Interactive
+Guides: Usability Issues
+Patrizia Marti
+Proceedings of the Fourth International Conference …
+
+Cite this paper
+
+Downloaded from Academia.edu 
+
+Get the citation in MLA, APA, or Chicago styles
+
+Related papers
+
+Download a PDF Pack of t he best relat ed papers 
+
+Serving Visit or Communit ies: A Mediat ed Experience of t he Art s
+Pat rizia Mart i, Mick O'Donnell
+User-cent red Design of Flexible Hypermedia for a Mobile Guide: Reflect ions on t he HyperAudio Experie…
+Daniela Pet relli
+REXplorer: Using player-cent ered it erat ive design t echniques for pervasive game development
+Delacruz Pet er
+
+Location aware mobile interactive guides:
+usability issues
+Jonathan Broadbent°, Patrizia Marti*
+°CB&J
+77 rue du Cherche Midi, 75006, Paris, France
+j.broadbent@cbj.fr
+*University of Siena
+Via del Giglio 14, 53100 Siena, Italy
+marti@media.unisi.it
+
+Abstract
+This paper discusses the issues related to the application of wireless communication and
+positioning technologies to the development of hand-held electronic tour guides. These issues are
+discussed presenting HIPS, a project recently funded by the European Commission that aims at
+developing a hand-held electronic tour guide allowing tourists to navigate both the physical space
+and a related information space when visiting a museum or a city. HIPS detects the position of the
+tourist and provides personalised and contextual information.
+The methodological approach of the project plays a fundamental role for the development of such
+a system: user-centred design and scenario-based design are means for assuring that the final
+system is appropriate to the user and to the context of use. The usability issues of HIPS are also
+discussed comparing its features to other audio guides like the one currently available in the
+Louvre Museum.
+
+1. Introduction
+The integration of hand-held computing with wireless communications and positioning
+technologies has enormous potential in many fields: location aware mobile devices that permit the
+navigation of both a physical space and a related information space at the same time represent a
+new interaction paradigm. While the applications of these technologies are (and will be)
+predominantly in professional markets, ever decreasing costs will soon bring such systems to the
+mass market. There ought to be, however, big differences between a system designed for a
+captive audience such as in professional, "vertical" markets and systems designed for a "non
+captive" audience such as the tourist/leisure market: the robustness (as perceived by the user) of
+the system has to be defined differently and generally be much greater for the system to enjoy
+success. This becomes particularly relevant in projects relying on brittle leading edge technology,
+where factors such as cost, scale and physical constraints can significantly alter systems
+performance in the real world (as opposed to the lab/demo).
+1
+
+The perception of robustness of the system by the intended audience of such a system depends
+crucially on interactivity: where speed of response is not the only issue, but information
+presentation, gradual degradation and effective feedback are just some other crucial elements.
+Whereas issues such as data integrity, reliability, security etc. are significantly less important.
+Quality of interaction can't (or shouldn't) be ensured without centring design on the user, as
+opposed to, say, testing the validity of a data encryption algorithm .
+We believe that for the development of such a system a user centred design methodology has a
+fundamental role in avoiding "ideal world" fallacies with respect to systems performance, both
+from the communications point of view and the precision of localisation. The human-centred
+approach (Norman and Draper, 1986) is based on the key idea that placing the users at the centre
+of the design and evaluation activities ensures that the system is designed to meet their needs. The
+methodology is generally implemented through a spiral or iterative process model, characterised
+by an iterative design with many cycles of "design - test with users - redesign", based on a massive
+use of prototypes. This methodology is particularly important for deployment in the real world
+where physical, geographical, historical and other factors contribute to the potential difficulty of
+building an ideal infrastructure for the system: our research focuses on the development of a
+system able to bind the physical constraints of the real world to the rich variety of options in an
+information space. Information must be presented in a manner appropriate to the user and the
+context. Where the context also implies the system's performance itself.
+
+2. HIPS
+The issues discussed in this paper refer to a project recently funded by the European Commission
+within the I-Cube initiative (Esprit Long Term Research). I-Cube (an acronym for Intelligent
+Information Interfaces) is a new European Programme that aims at promoting "human-centred
+methodologies" for the design of tools supporting people in everyday working or leisure activities
+. HIPS (Hyper-Interaction within Physical Space) is one of the projects of the I-Cube network,
+and it is developed by an European consortium1. Its main objective is the development of new
+interaction paradigms for navigating physical spaces.
+HIPS is a hand-held electronic tour guide allowing tourists who visit a city or a museum to
+navigate both the physical space and a related information space at the same time. HIPS guides
+the tourists in the exploration of the physical environment, providing contextual and personalised
+information by detecting the location of the user within the physical space.
+The system guides the visitor generating audio messages: the user can get instructions for finding
+items of interest, hear descriptions with references to items seen earlier and to ones that will
+follow, ask for additional information and receive suggestions on alternative routes. The
+presentation of information in HIPS will be dynamically generated, adaptive, multimodal, and
+1
+
+Partners of the HIPS Consortium are: three universities: University of Siena (I) - Project Coordinator, University
+of Edinburgh (UK), University College of Dublin (IR); three research institutes: IRST (I), GMD (D), SINTEF
+(N); an industry: ALCATEL-SIETTE (I); a SME: CB&J (F).
+
+2
+
+integrated with maps and spatial directions. When interacting with the user, HIPS will integrate
+user's requests, the user-model, the history of previous browsing and the physical location at the
+moment of the query, in order to provide contextual and personalised information. In order to
+compose context-sensitive multimodal answers to users' requests HIPS will combine small,
+modular pieces of information of different kinds (audio, video, text) and will be able to identify
+the situation and to select the presentation form which is appropriate in that context. Furthermore
+the information content provided by HIPS will vary according to the user's location, preferences
+and to the information already given.
+From a hardware point of view HIPS will be based on a client-server model where the clients
+("hippies" for short) that visitors will carry around will be pen driven palmtop computers with a
+screen, headphones and no keyboard. Localisation will be performed by various means: infrared,
+radio and GPS. Connectivity to the server will be wireless.
+3. Audio Guides in the Louvre Museum
+As a concrete example of the kinds of issues that usability addresses in practice, we will point out
+some of the problems ( and suggest some solutions) of the audio guide available in the Louvre
+Museum. We chose these audio guides as they are a relatively simple system and raise points
+relevant to HIPS, bear in mind, however, that these are merely observations from a cursory glance
+(as users) at the devices from a recent visit to the museum and we did not have the opportunity of
+applying the usability methodology we advocate.
+The hardware for the audio guide resembles a large telephone handset: there's a speaker at one
+end, a number keypad, a small LCD display, and four additional buttons: play/pause, stop/cancel,
+rewind/fast forward and volume control. The handset is handed out together with a 4 page leaflet
+listing the items that have an audio presentation.
+The audio guide provides commentaries for a limited number of the items on display in the
+museum. To hear an audio snippet for a particular piece, the user must enter a three digit code on
+the keypad (that gets displayed on the LCD) and press PLAY. The codes are listed on the leaflet
+and displayed alongside the works of art.
+The handset is large enough that users would not inadvertently put it in their pocket and forget to
+return it; however, the principal means of assuring the return of the hardware is that one must
+leave a credit card or passport as a deposit for the guide. The guide staff places the receipt for the
+document inside the clear folder holding the leaflet. This is a very effective forcing function to
+avoid tourists losing the receipt thus slowing down the guide turn-over process; this has he
+significant effect of changing the status of the textual list from mere "paper" ( to crumple up, lose,
+throw away) to an important part of the audio guide system. The audio guide, given the new
+"accidental" importance of the leaflet, becomes in effect a system with two parts: a written paper
+component in addition to the handset audio part.
+The leaflet is starkly minimalist: a listing of the items covered by the audio guide alongside their
+code number. The items are in groups such as "French Paintings" "Italian Paintings" "Greek and
+Roman Sculpture". Each page also corresponds to a wing of the museum, also highlighted on a
+3
+
+small plan at the top of the page. Each entry is as follows: the room number the piece is in, the
+author (or origin) of the work, the name of the piece, and the guide code number. The minimalism
+of the leaflet leads us to believe that the designers of the system did not envisage the importance
+afforded to it by the users (or by the placement of the receipt).
+A few enhancements to the leaflet would enhance the usability of the system as a whole:
+• Detailed plans of the museum would aid navigation. For example they could show the layout
+of the rooms within a wing and the rooms' name or number, possibly also indicate within the
+rooms the location of the pieces (to avoid the user from having to scan the whole room to find
+the number tags).
+• Indeed the presentation could be more location centric, and be centred on plans of the wings
+of the museum.
+• Small black and white pictures of the pieces would help in recognising the less familiar items.
+
+3.1 The handset interface:
+The first thing that an interface designer would notice about the handset, is that the numeric
+keypad uses the telephone layout: there are two layouts of numeric keypads that are standard: the
+calculator layout and the telephone layout.
+Audio Guide Layout
+1 2 3
+4 5 6
+7 8 9
+0 C
+Calculator layout
+C
+7 8 9
+4 5 6
+1 2 3
+0 .
+Telephone Layout
+1 2 3
+4 5 6
+7 8 9
+* 0 #
+The designers, given the resemblance in form and function of the guide to a telephone, made the
+"right" choice. We couldn’t help noticing, however, that there is some “interference” of a
+calculator layout in the handset. The “0” key is placed on the left below the 7 key, which is the
+position for the “*” key on a phone, as opposed to centred below the “8” key, where one would
+expect to find it: the “0” seems to follow the calculator layout as opposed to the phone one. This
+is reinforced by the grouping of the stop/cancel button with the number keys: in a calculator this is
+4
+
+usually in the top left corner above the “7”, here it is at the bottom right, aligned with the “0” key,
+in the position of the “#” key on a telephone keypad. The Stop/Cancel button would if anything
+best be part of the other functional group of buttons that relate to audio controls: the volume,
+ff/rew, play/pause buttons.
+The issue here is not one of "correctness", but of fundamental usability: a layout of the keypad
+that users are not used to, requires them to make the extra effort of consciously looking at the
+numbers on the keypad.
+Placing the cancel button together with the numbers, reinforces it’s “Cancel” meaning, and plays
+down it’s “STOP” function. Indeed, the button does operate like a calculator’s cancel button in
+that it clears the display. In effect then, the Stop function is a by-product of the cancel function.
+There is some consistency in this approach, given that the guide starts playing the audio snippet
+only once the PLAY button is pressed: thus one enters a code, then operates on it.
+Unfortunately this mixing of metaphors, phone and calculator, is potentially confusing and gives
+rise to a problem: if the user enters less than three digits, or a three digit code without an audio
+clip associated to it, and then presses PLAY, the LCD displays “ERR”, indicating an error: not
+the friendliest of messages.
+It would, perhaps, be simpler for the user if the phone metaphor was carried the whole way
+through:
+• the user "dials" a number as in a phone call: once the third digit has been entered the handset
+starts the audio clip. No need for the PLAY button, and thus no error messages if the user
+enters less than three digits.
+• If the three digit number does not correspond to a commentary, then a "Sorry wrong number"
+audio clip could be played (which could also be in the form of an engaged sound).
+• Alternatively, after the alert, the system could "redirect the call" to the closest number that
+does have a commentary. Closeness could be computed arithmetically, but also in terms of
+keypad "distance" (e.g. on a keypad is closer to 4 and 5 than to 3), or by using the last
+"correct" number to guess where the visitor is likely to be.
+Instructions on how to use the guide are given by the handset by entering "7" and pressing PLAY:
+this is explained at the top of the leaflet and by the staff handing the guides out. A button labelled
+with "?" or "i" (to maintain the language neutrality of the hardware) that played the instructions
+might be a better solution.
+There is also an ergonomic problem with the placement of the audio control buttons: when the
+handset is held to the ear, the buttons are not easily accessible since they are opposite the mouth,
+thus one can't see them while listening to the recording. Given that the best feedback is the audio
+content itself, it would be preferable if one could operate the controls while holding the handset to
+the ear. The controls could be placed on the side of the device, their shape indicating their
+function: a wheel for the volume, a spring loaded rocker switch to advance and rewind. The
+Play/Pause button or rather Pause/Resume (see suggestions above) could stay where it is,
+especially if de-pausing automatically rewound the audio track a couple of seconds: this would
+5
+
+give time to the user to bring the handset to the ear and most importantly, would provide the
+context for the spoken text.
+A nice feature of the guide is that fast forward and rewind cause a traditional high pitched noise to
+play: simulating a tape cassette is very effective feedback.
+By exploiting the digital nature of the device, however, the audio commentaries for each piece
+could be broken up into meaningful units ("paragraphs") and marked as such inaudibly, the fast
+forward and rewind buttons could then be used to jump from paragraph to paragraph, as opposed
+to advancing linearly. The same audio feedback should be kept nonetheless, so as not to confuse
+users (who might press the button inadvertently).
+The three digit codes correlate loosely with the classification of the works: thus "French
+paintings" start with a 4, roman sculpture with a 5 and so on. An alternative organisation of the
+codes could use the room numbering scheme: all items start with the two digit number of the
+room they are in (there are less than 99 rooms) followed by a 1 for the first piece in the room, 2
+for the second etc. (there are less than 9 pieces per room the guide describes). This would open
+the possibility of using "0" for a quick guide to the room itself indicating where in the room the
+commented pieces are to be found.
+By making the room numbers the organisational principle of the coding scheme, the guide
+becomes location centric, as opposed to "theme" centred, as it is presently. This pushes further the
+"browsing" function of the guide, that is already intrinsic in the system. The users need only know
+the number of the room they are in (which is displayed on the doors) to know what code to enter,
+while the thematic scheme requires consultation of the leaflet or spotting the small tags, as only
+the first digit is predictable.
+What sets the audio guide apart from traditional tape cassette based tours is indeed the freedom
+from fixed routes. Presentation is self-paced, and the user can browse through the museum at will.
+Location-centricity enhances browsability as it is the "flattest" organisation possible: no structure
+is super imposed on the collection. In a museum or exhibition, structure is imposed anyway by the
+physical layout and organisation of the exhibits. Location centricity, then, allows that same
+structure to percolate to the guide.
+This seems particularly relevant in the case of guides, such as the Louvre one, that are "pull" only:
+information is "pulled" by the users, where, when and if they desire. The opposite case of a "push"
+only guide, is the traditional tape tour - the user has no input and passively receives information
+(prototypical examples of "Push" and "Pull" are television and the web respectively).
+What distinguishes HIPS as an information appliance is it's potential as both a pull and a push
+system. On the one hand it can be used to facilitate browsing: the user pulls information simply by
+standing in front of an exhibit and walking around; on the other, it can be used to push
+information, by guiding the user along predetermined routes. Clearly, most interesting are the
+applications of HIPS that mix the two paradigms, as we hope to have shown in the short scenarios
+above.
+
+6
+
+In conclusion, usability testing would have spotted all of the issues discussed above and
+uncovered others that we haven't noticed; a proper design test redesign cycle would also spot
+problems with our suggestions made above. For example, user testing could indicate the relative
+importance of features of the system. Maybe, it turns out that visitors never use the fast forward
+and rewind buttons, and that actually removing them leads to a system that is easier to use
+altogether (as there are less buttons to get confused by).
+4. User centred design
+One of the main novelties of the HIPS project is the type of development process that will be
+followed: a User Centred Design process.
+User-centred design processes are characterised by:
+• an appropriate allocation of function between user and system;
+• iteration of design solutions;
+• the active involvement of users;
+• multi-disciplinary design teams (including both technical and human factors experts).
+At each stage of design, user-centred activities are essential in order to understand and specify the
+user and organisational needs, so that potential design solutions can be evaluated against these
+needs. There are four essential types of activity:
+• understand and specify the context of use: the nature of the users, their goals and tasks, and the
+environment in which a product will be used;
+• specify the user and organisational needs in terms of effectiveness, efficiency and satisfaction;
+and the allocation of function between users and the system;
+• produce designs and prototypes of plausible solutions;
+• evaluate solutions against user criteria, preferably by testing them with representative users
+(Nielsen, 1993) .
+User Centred Design is successfully used in the development of professional applications which
+require a high quality of adaptation of new technologies to the work environment. It is much less
+common as a development process for the design of multimedia applications and tools for the
+tourist community. In fact we feel that when you design a multimedia system you must pay special
+attention to the entire context in which the system will be used in terms of the users and what they
+will do with the system, as well as technical aspects such as what platforms the system is likely to
+be running on.
+Our commitment in HIPS towards user centred design will be realised by a strong involvement of
+users in all phases of design and development. At the initial phase of design generally called
+Requirements analysis we will analyse user characteristics and involve users in scenario making in
+order to guide the functional design. During development we will follow an iterative development
+process that will be characterised by steps of design/user evaluation/development/ user evaluation.
+Each step of development will be tested on site with potential final users of the system.
+
+7
+
+4.1 User testing and iterative development
+At various stages of development the prototypes of HIPS will be installed in the Museum of Santa
+Maria della Scala and users will be asked to manipulate the tool. During these tests we will carry
+out a number of measures and observations:
+•
+the time to complete a task such as following a suggested path in the museum
+•
+the success rate in retrieving some information stored on the server
+•
+the typical errors that are made using the interface
+•
+the satisfaction and fun users experience in using HIPS
+The objective of these tests are to guide the design of the user interface by eliminating the sources
+of confusion and frustration, but also to identify those aspects of the user/machine interaction that
+are most enjoyable and fruitful for a visitor of a museum.
+During the test we will use a number of well established usability techniques to collect data on
+users’ interactions :
+•
+videotape of the users in context using the tool
+•
+questionnaires of user satisfaction (SUMI is a well established questionnaire for measuring
+user satisfaction)
+•
+time and error measures
+In some cases, probably in the first stages of development when the system will be only partially
+functioning we will use test techniques closer to diagnostic evaluations, carried out on mock-ups
+and other intermediate prototypes (Lindgaard, 1994). This will involve :
+• focus groups
+• heuristic evaluation
+• analytic evaluation to analyse and predict the performance of error-free tasks in terms of the
+physical and cognitive operations that must be carried out.
+• observational evaluation, providing information about what the users do when interacting with
+the prototypes. Direct observation, video recording, software logging, interactive observation
+(wizard of Oz), verbal protocols are typical techniques available for this kind of evaluation.
+
+5. Scenarios for functional definition
+Scenario building is one of our main design techniques to explore new forms of interaction in
+which the physical environment is able to react to human behaviour, using the palmtop as a
+mediator. This activity involves the creation of realistic scenarios focused on identifying the
+features of potential users that may be exploited to adapt the system's behaviour, the way in which
+people can share the experience, for example leaving annotations that other people can reuse and
+investigating the peculiarity of mapping a hypermedia structure upon a physical space.
+Scenario-based design (Carroll, 1995) is a method that allows designers and users to describe
+existing activities or to envision new activities that can be produced by the interaction with a new
+artefact. A scenario is intended to detail a usage situation and to document step-by-step actions
+8
+
+performed by the users (Lewis & Rieman, 1993). It is usually represented by textual, pictorial or
+diagrammatic descriptions and can be used in different stages of the development process of an
+artefact. Nielsen (Nielsen, 1995) states that scenarios can be used throughout all the system
+development life cycle and discusses seven applications including diary scenarios for data
+gathering, brainstorming to envision new features of the system, scenarios for design and
+prototyping, scenarios for heuristic evaluation, stereotypes scenarios for data analysis in
+exploratory studies, scenarios for task-based user testing.
+In what follows, we present the scenarios-based techniques as they have been used in the initial
+phases of HIPS: requirements gathering and prototyping of early ideas.
+Indeed, if we focus on the early stages on the development process, scenarios can be used to
+characterise episodes or a sequence of activities like in a story. These stories provide the context
+in which activities are carried out, giving insights about needs, difficulties and motivations people
+have in particular contexts. In this respect, scenarios are methods for requirements gathering.
+A second usage of scenario-based design in the early stages of the development process is the
+depiction of how a new artefact can support a proposed course of actions. From this point of
+view, scenarios are a prototyping method, a design proposal.
+In HIPS we decided to use a scenario building technique to clarify our thoughts about what the
+final prototype should be and its potential features and capabilities. The method we used consists
+of a gradual development of some basic scenarios (Tognazzini, 1993) where details are
+incrementally added. Key elements of our scenarios are the intended users (single or groups
+characterised by the dimensions on which users can differ), their goals, other sources of
+information accessed during the visit to a museum, the information generated by the user
+themselves, the user needs, and a script describing a usage context.
+From brainstorming sessions we started to envision possible usage scenarios of HIPS. In
+particular a basic scenario was developed together with a series of more detailed micro-scenarios
+describing trustworthy situations. These micro-scenarios describe possible alternative
+environments in which HIPS might be played out.
+In what follows three basic scenarios for HIPS are described in order to give a flavour of our use
+of scenario-based design.
+5.1 Guided tour scenario
+John and Mary, two technophile tourists, are visiting Siena. They decide to try out the brand new
+HIPS guide to the Piazza del Campo. First of all they listen to some brief instructions that
+encourage them to enter some details about their preferences so that the system may be
+customised to their likes and dislikes. They tap with a pen on the screen on various boxes and
+lists. The system then asks what kind of a tour they would prefer: John, who likes sports, opts for
+the Palio guide, while Mary opts for the history tour. The screen displays a plan of the Piazza
+with a small "you are here" dot, that moves as they walk around. If that wasn't enough, they
+notice that the plan rotates as they turn around so that it is always pointing in the right direction.
+Mary sees a restaurant called "Al Mangia" and wonders whether it has something to do with the
+Piazza: she looks up a list of items of interest, finds the Torre del Mangia, selects it and the screen
+displays a crude picture of the Tower in front of her, and highlights it on the plan. A commentary
+9
+
+starts playing explaining the history of the tower, when it was built etc. she then starts walking
+around the square, and as she approaches buildings, the guide gives her historical information on
+the building and it's present function. What Mary likes, it that the commentary refers back to
+things that were mentioned earlier and thus gives a context for the narrative. The explanations
+also encourage her to see other items, highlighted on the plan, that are relevant to the
+commentary.
+Meantime John is having the Palio explained to him: the history of the contrade, anecdotes on the
+races etc. He is encouraged to walk around the square and as he approaches the various "corners"
+of the square, the guide tells him which contrada starts from there, and their achievements in the
+Palio. John, wants more details on the race itself and so is directed towards the start line, and the
+rules of the "mossa" (the running start) are explained. He then starts walking around the square
+following the "race track", and as he proceeds the commentary tells him about this corner being
+particularly dangerous, how the inclination of the square in that point affects the way the horses
+are hoofed and so on. When he stops to buy an ice cream he doesn't have to stop the
+commentary, because HIPS knows that he has stopped, and when he continues at a slower pace
+(eating the ice cream) the commentary is more detailed, and contains more anecdotes. When John
+and Mary sit down, after handing back the hippies, for a coffee, they have experienced two
+completely different tours, and have something (for once) to talk about.
+This scenario is intended to highlight the potential of HIPS in overlaying a rich information
+structure onto a physical space. There are many situations, (outside, historical sites, protected
+buildings) where it isn't possible to provide rich displays of information (as in a museum). The
+only solution is for the visitors themselves to carry the information with them. The problem with
+books is that they necessarily distract the visitor from actually looking at what they are there to
+see. Audio guides are, in this sense, less intrusive on the visitor's experience. Making the audio
+commentary location aware, leaves visitors the freedom to explore as they wish, rather than
+forcing them along a fixed path. Adaptive information presentation, based on the route the user
+has taken and their preferences enhances the clarity of the presentation and allows relevant
+connections to be illustrated.
+5.2 School visit scenario
+A classroom has been studying basic biology: the food chain, the predator/prey balance,
+parasitism etc.; their teacher decides to take the class on a field trip to the local natural history
+museum. When the noisy, chaotic class arrives at the museum, the teacher hurries to the hippies
+desk to check out the hippies she had booked three days earlier. After handing over her school ID
+as a deposit, she collects all the devices. As she hands them out to the children she taps on
+"student mode" on the screen, and selects the predator/pray educational game. She then sets up
+her own hippy to be in "teacher mode"; a plan of the museum appears with little dots concentrated
+all over the entrance of the museum. As the class moves on into the museum the teacher checks
+that the student tracking function is working correctly: the dots move in synchrony with the
+children. The teacher then explains the game to the children and divides them into two teams: the
+predators and the prey. The children enter their names (actually rude and gory handles) and select
+
+10
+
+whether they are prey or predator. The teacher keeps her fingers crossed that the children will
+behave and starts the game.
+When the children put the headphones on, they hear a cacophony of animal noises, a jungle theme
+for the Vincent Price voice that explains the game again (but its more funny than the teacher). The
+predators and the prey hear different versions each specific to their team. After a couple of
+minutes, Vincent Price sets them off for the real fun.
+The goal of the game is simple: survival. The predator team has to identify from various clues
+what animals are on their team, then find their designated prey. If they manage to find it they eat it
+and survive. The prey team has the opposite task, first finding the prey then trying to detect the
+predator (by finding it in the museum). If they spot a predator the prey is considered safe, and
+thus it survives. The team with the most survivors wins.
+Basically the game is a treasure hunt, where the clues are descriptions of the animals, presented
+not just with speech but also using sound (from the environment: jungle, sea... made by the
+animals: roars, snorts etc.) and simple diagrams, maps, pictures displayed on the screen. As in a
+treasure hunt, the children might need intermediate steps to get the final clue (answering multiple
+choice questions on the screen, finding related animals etc.). Once they finally identify the right
+animal they must actually go and stand in front of it for the system to register that they "got it".
+When a predator find its prey, or a prey spots its predator, the system acknowledges not just the
+successful child, but also informs the unfortunate counterpart that he/she has been eaten (or
+spotted). Meanwhile, the teacher can track the progress of the children, by seeing how the teams
+are doing, which student has found what etc. She can also follow their movement around the
+museum with the "kid tracker" function, that also allows her to search for specific children to see
+where they are, and vice versa to find out who a specific "dot" on the tracker actually is.
+When the game is over, or the teacher decides to stop it, the children are told the "final score" and
+directed towards the meeting point.
+This scenario raises various issues:
+First of all we wanted to point out the potential of wirelessly networked devices for enhancing
+group activities, where a group, even if displaced, can maintain contact and interact. A dimension
+missing from audio based tours (that is instead a feature multimedia kiosks) is the social
+dimension: families consulting the kiosks together, people looking over the shoulder of others: the
+audio guides isolate users from their social context. The advantages of a system such as HIPS is
+that the social aspects can be integrated (in part) as well. Here the interaction between children
+was very limited and passed strictly through central control (the game), however more freeform
+decentralised interaction is clearly possible (though using HIPS as a walkie talkie would be
+overkill).
+Secondly there is the issue of privacy that the "kid tracker" raises: in this context a "tracking"
+function is fairly harmless, indeed it can be a safety feature where children are concerned;
+however, the idea of being "tracked" is not exactly pleasant. Would such a function be acceptable
+to a tour group (inverting the guide-group relationship : from having to be spotted buy the group
+members by raising an umbrella to seeing where the individuals are) ? Would someone want to
+receive advertisements targeted at impressionist lovers ? This is a serious issue, that we will have
+to address, especially since HIPS will be designed to scale up to city levels.
+
+11
+
+Finally, with this scenario we wish to emphasise that adaptivity should also be on a macroscopic
+scale, and that different "classes" of users should be addressed (and children are as different as
+you can get).
+5.3 Living Objects scenario
+The two scenarios outlined above use the wireless, location aware characteristics of the HIPS
+system to provide highly interactive guides to the exhibits of a museum; different as they are, they
+have a core in common: a third party that introduces the items and provides commentary and
+information. In this scenario we wish to turn this model inside out: here it is the exhibits
+themselves that interact with the user. There is no deus ex machina to guide the user, the user is
+immersed in an enriched environment, where objects have voices, make sounds, play music. At
+the risk of being Disneyesque, we believe that interesting possibilities are opened up by such a
+scenario.
+John and Mary, our technophile tourists, check out two Hippies in the Maritime museum and
+select the Living Museum "tour". As they enter the first room on Viking nautical history, they
+immediately notice the background noise of the sea and Scandinavian voices shouting to each
+other. As they approach one of the vessels on show, the noise fades further into the background
+and a voice starts telling them of the exploits of the crew of the ship, how they sailed far from
+home to the Shetland Islands. Moving further along, they notice how, as they pass exhibits, some
+seem to call out to them. Alongside another boat they hear a voice telling them " Don't listen to
+him and his stories about the Shetlands, you should hear about real sailors, and how we got across
+the ocean..." they stop and hear the tales of a great Atlantic crossing. John and Mary then wander
+off into the Roman section: the background theme is now a Ben Hur style Hollywood
+interpretation of ancient roman life. A display of oars produces moaning and whiplashes, so they
+stop and hear the tale of a slave on a trireme. Every now and then, the visitors get slightly
+confused about where exactly the sounds are coming from, as the headphones don't give them
+directional clues, but usually the content makes it quite clear which exhibit is addressing them;
+anyway the screen on the device also shows a small picture of the exhibit that is currently
+"speaking" so that they can identify it. An option that is also welcome (they did come to the
+museum together, after all) is being able to switch off the voices and sounds and to simply leave
+the "environmental" sounds, so that they can hear each other. The tour is minimally interactive, in
+that it is mainly the physical location of the visitor that drives the presentations, however some
+exhibits give the users the option of choosing between presentations: e.g. the captain of the ship
+or the slave at the oars.
+The scenario above is deliberately "cheap" and more appropriate for a wax museum than for a
+"real" museum. We wanted to point out how a system such as HIPS also has potential ( and risks)
+as an entertainment medium.
+The scenario raises, however, other points beside the "edutainment" possibilities: a rich user
+model coupled with a "push" data delivery model can be very powerful: information can be
+narrowly targeted without being requested. Imagine possible messages from a personal HIPS
+device in a city scale HIPS network: " Hey John, there's a 39 bus coming in 2 minutes to this stop
+
+12
+
+going to Piazza del Campo (that you asked me to direct you to)", "That Cary Grant movie you're
+looking for is on sale in the store across the street".
+HIPS can be used not just to tell users where they are (and deliver information accordingly) but
+also to tell others where they are. While the privacy issue, already mentioned above, is serious,
+there are many useful applications for such a model.
+
+6. Leading edge technologies for tourist applications
+From a technical point of view as well as a functional one, the HIPS system comprises two
+distinct uses of wireless technology: location detection and wireless networking. The former is
+clearly at the core of HIPS, but it could be argued that the latter is not strictly a necessary
+component. One could envisage standalone devices that were simply location aware: a sort of
+sophisticated GPS device. We believe however that the networking aspect is crucial for real world
+deployment:
+•
+
+•
+
+•
+•
+
+There are serious constraints on the storage capacity available on a handheld device (as
+exemplified by the relatively small selection of audio clips in the Louvre Guide), while this
+clearly does not apply to a networked device.
+Centralising data allows a great simplification in "stock management": there is a single type of
+device that has the appropriate tour "downloaded" to it, thus there is no need to decide how
+many units have to be in one language as opposed to another, nor to guess the popularity of
+one tour over another. Furthermore updating of information, new features, etc. can be dealt
+with centrally and do not require reprogramming all the units.
+The school visit scenario illustrates the rich potential of a networked system in enriching tours
+with a social dimension that is only possible with a networked system.
+Real time updating of information becomes possible, which offers powerful possibilities not
+just in city wide scenarios (when is the bus coming?) but also in the context of museums (e.g.
+a section being closed for renovations, a temporary exhibition, a painting on loan)
+
+The table below contains in form of keywords an idea of the potentialities of HIPS in comparison
+with other existing tour guide systems. The comparison is made among hippies, CD ROMs,
+Multimedia kiosks, Audio tours, Tape cassette based tours, Books, Museum layout and nothing
+(no guide at all). The features that are discussed are location (fixed, mobile), interactivity,
+customisability, flexibility, content, multilinguality and constraints (physical constraints).
+
+13
+
+Location
+
+HIPS
+
+CD ROMs
+
+Mobile
+
+Fixed
+
+Customisability
+
+Flexibility
+
+Content
+
+Tape
+cassette
+tours
+Mobile
+
+Mobile
+
+Pull
+only
+
+Push
+only
+
+Not
+interactive
+
+Not
+interactive
+
+Books
+
+Nothing
+
+Museum
+layout
+
+Push
+&
+Pull
+Adaptive
+user
+model
+Multiple
+tours with
+the same
+equipment
+
+Pull
+only
+
+Limited in
+some
+buildings
+Pull
+only
+
+No
+
+No
+
+No
+
+No
+
+No
+
+No
+
+Hypertextual
+structure
+
+Hypertextual
+structure
+
+No
+
+No
+
+No
+
+Flexible
+
+Fixed
+
+Fixed
+
+Flexible
+
+Fixed
+
+Fixed
+
+Structure is
+super
+imposed
+onto the
+collection
+Fixed
+
+You have
+to look at
+reproductio
+ns
+
+Distracts
+from what
+really
+mattersitems
+themselves
+
+You are
+elsewhere
+Interactivity
+
+MultiAudio
+media
+tours
+Kiosks
+Not outside Mobile
+
+Multilinguality
+
+Yes
+
+Constraints
+
+Localisation
+system:
+GPS, IR
+sensors,
+DECT
+
+Two visits
+(real and
+virtual)
+one
+language at
+time
+You need a
+computer
+
+one set of
+users at
+time
+Takes up
+space
+Needs
+wiring
+
+Best for
+beautiful
+places
+Not so
+good for
+more
+obscure
+places
+(e.g. ruins)
+
+one
+language at
+time
+Need to
+enter
+Codes
+Small info
+storage
+
+one
+language at
+time
+Different
+tapes
+
+one
+language at
+time
+No weight
+Cheap
+
+Expensive
+
+notes
+Forced
+Pacing
+
+bookmarks
+
+Small info
+storage
+
+7. Conclusions
+The fundamental question with any leading edge technology, with it's corresponding higher costs,
+is "is it worth it ?". We believe that the transformation of the user experience from one of
+consultation, whether with an audio guide, a multimedia kiosk, a CD ROM or even a book, to one
+of immersion in an information rich environment is extremely significant. The possibility of
+overlaying multiple information structures over the physical world in a non intrusive fashion,
+opens up new possibilities that other technologies do not allow.
+A number of different issues related to the design of tour guides were discussed in this paper. In
+particular we believe that the success of the "new generation" systems for tourist applications,
+14
+
+especially those exploiting leading edge technologies, strongly relies on the design philosophy
+adopted during the development process: a deep and continuos focus on the users and the context
+of use.
+
+References
+Carroll, J.M. (1995) Scenario-based Design, New York: Wiley & Sons.
+Dumas, J.S. & Redish, J.C. (1993) A practical guide to usability testing. Norwood: Ablex
+Publishing Corporation.
+Lewis, C. & Rieman, J. (1993) Task-Centred User Interface Design: A Practical Introduction.
+Boulder Colorado: University of Colorado.
+ftp.cs.colorado.edu/pub/cs/distribs/clewis/HCI-Design-Book.
+Lindgaard, G. (1994) Usability testing and system evaluation, London: Chapman & Hall.
+Nielsen, J. (1993) Usability Engineering Boston: Academic Press.
+Nielsen, J. (1995) "Scenarios in Discount Usability Engineering". In Carroll, J.M. (1995)
+Scenario-based Design, New York: Wiley & Sons.
+Norman, D. and Draper, S.W. (eds.) (1986), User Centered System design: New perspectives on
+Human-Computer Interaction, Hillsdale NJ: Lawrence Erlbaum Associates .
+Tognazzini, B. (1992) Tog on Interface. Reading, MA: Addison-Wesley.
+
+15
+
+

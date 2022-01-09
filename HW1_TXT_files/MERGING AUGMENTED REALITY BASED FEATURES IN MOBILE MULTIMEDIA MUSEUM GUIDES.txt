@@ -1,0 +1,655 @@
+Merging Augmented Reality Based Features in Mobile
+Multimedia Museum Guides
+Areti Damala, Isabelle Marchal, Pascal Houlier
+
+To cite this version:
+Areti Damala, Isabelle Marchal, Pascal Houlier. Merging Augmented Reality Based Features in Mobile
+Multimedia Museum Guides. Anticipating the Future of the Cultural Past, CIPA Conference 2007,
+1-6 October 2007„ Oct 2007, Athens, Greece. pp.259-264. �halshs-00530903�
+
+HAL Id: halshs-00530903
+https://halshs.archives-ouvertes.fr/halshs-00530903
+Submitted on 31 Oct 2010
+
+HAL is a multi-disciplinary open access
+archive for the deposit and dissemination of scientific research documents, whether they are published or not. The documents may come from
+teaching and research institutions in France or
+abroad, or from public or private research centers.
+
+L’archive ouverte pluridisciplinaire HAL, est
+destinée au dépôt et à la diffusion de documents
+scientifiques de niveau recherche, publiés ou non,
+émanant des établissements d’enseignement et de
+recherche français ou étrangers, des laboratoires
+publics ou privés.
+
+XXI International CIPA Symposium, 01-06 October, Athens, Greece
+
+MERGING AUGMENTED REALITY BASED FEATURES IN MOBILE MULTIMEDIA
+MUSEUM GUIDES
+A. Damala a, b *, I. Marchal a, P. Houlier a
+a
+
+France Telecom Research and Development, 4, rue du Clos Courtel, 35512, Cesson Sevigne, France - (areti.damala,
+pascal.houlier, isabelle.marchal)@orange-ftgroup.com
+b
+Ecole Doctorale Matisse & INRIA/IRISA/SIAMES, University Campus of Beaulieu - 35042 Rennes CEDEX - France
+
+KEY WORDS: Augmented Reality, Cultural Heritage, Mobile Museum Guides, Assisted Learning, Education, Entertainment
+
+ABSTRACT:
+Augmented Reality (AR), a computer science field considered by many as a subfield of the broader concept of Mixed Reality, could
+alter dramatically the way we interact not only with computers but also with the real environment surrounding us, as well as with
+other human beings. Augmented Reality has so far been used for applications linked with military training, medicine, maintenance,
+architecture and urban planning, tourism, and entertainment. This last category embraces museums, considered by many not only as
+research and exhibition spaces but also as important informal learning environments. Does Augmented Reality has the potential to
+break into museum and exhibition environments and revolutionize the way we see, approach and comprehend the exposed exhibits,
+alongside with more traditional interpretation and communication methods? This presentation examines both the state of the art in
+Augmented Reality Applications for Cultural Heritage and Mobile Multimedia Guides for the museum setting, proposing an
+Augmented Reality approach for the last. A taxonomy of augmented and non augmented functions is proposed, aspects of the
+development are presented and reasons that could favor or slow down the integration of Augmented Reality in mobile museum
+guides are tackled down. The potential mutual benefits both for the Augmented Reality community as well as for cultural heritage
+professional are also presented briefly.
+
+1. INTRODUCTION
+1.1 Defining Augmented and Mixed Reality
+Augmented Reality is a relatively recent computer science field
+considered as a subfield of the broader concept of Mixed
+Reality. Though the use of the first head mounted display dates
+back in 1968, the term started to become widely used after
+1993, the year that the ACM Communications magazine
+dedicated an entire issue to the subject (Cohen, 1993). One year
+later, Paul Milgram et al. (Milgram et al., 1994), in their
+approach of classifying Augmented Reality displays, defined
+what was thereafter to be known as the "Reality - Virtuality
+Continuum" which greatly helped the understanding of the
+interrelations between virtual, mixed and augmented reality
+environments.
+
+Figure 1: Milgram's et al. Mixed Reality Continuum (courtesy
+of Professor Paul Milgram)
+Mixed Reality environments are characterized by the
+combination of the real with the virtual. If the real world
+occupies the left of the continuum, the virtual world stands on
+the other end. It is however possible to combine elements of the
+surrounding, real world, in a virtual environment (Augmented
+Virtuality) as well as to overlay virtual objects in a view of the
+
+real world, if the last is observed or seen by means of a video or
+see-through display (Augmented Reality). It is therefore
+pertinent to define Mixed Reality (MR) environments as
+environments in which "real world and virtual world objects are
+presented together within a single display, that is, anywhere
+between the extreme of the Reality - Virtuality continuum"
+(ibid, p.283).
+1.2 Hypotheses about the advantages of Augmented Reality
+Augmented Reality is thought to present certain advantages
+over more traditional ways of accessing information
+(Anastassova, 2007). The co-existence of the real and the virtual
+could enhance productivity by facilitating comprehension of
+tasks to be performed, in industry, medicine or education. In
+education specifically, Augmented Reality has been praised for
+its potential in the comprehension of physical phenomena, as
+demonstrated by the European "Connect" project (Horn, 2006).
+In addition, as the user is assisted by supplementing the existing
+world instead of creating a new one, the limited level of
+immersion is thought to provoke fewer problems of cyber
+sickness. Applications have been so far developed in the
+domains of military and medical training, urban planning and
+architecture, as well as for industrial maintenance work (eg in
+automotive and aerospace industry), entertainment and lately
+also for cultural heritage.
+1.3 Augmented Reality for Cultural Heritage
+Augmented Reality visualizations can provide extremely
+meaningful insights when applied in archaeological or historical
+parks or museums, not only for the specialist or initiated visitor
+but also for the non specialist or first time visitor who has a
+difficulty imagining how a site could initially have looked like.
+
+XXI International CIPA Symposium, 01-06 October, Athens, Greece
+Fixed Augmented Reality applications have been tested at the
+Ename centre in Belgium (Owen et al., 2005) as well as in
+Portugal, Brazil and China (Thomasson, 2006), while
+experimentations with outdoor mobile Augmented Reality
+systems have been carried out in the ARCHEOGUIDE
+(Vlahakis et al., 2004; Vlahakis et al., 2005; Vlahakis et al.,
+2003) and LIFEPLUS (Papagiannakis et al., 2002) projects.
+The complexity of cultural heritage related information is also
+apparent in the case of museums and other cultural heritage
+institutions where the visitor often needs to be aware of social,
+political, cultural, historical, economic or scientific related
+aspects in order to better approach and appreciate the exposed
+object. It is for this reason that museums provide visitors with a
+wide range of interpretation media -textual, visual or auditoryand propose complementary activities in order to help the
+public elucidate the narratives revealed by the objects
+composing an exhibition. Multimedia and information
+technologies have been also employed in this context in various
+forms among which fixed position Mixed and Augmented
+Reality installations. These systems were reported to generate
+enthusiasm among the public (Ferris et al., 2004), encourage
+interaction and co-participation (Hindmarsh et al., 2002) and
+favor the social character of the museum visit (Galani, 2005).
+However rare are still the mobile Augmented Reality
+applications tested and implemented in the museum setting
+(Sparacino, 2002).
+This is quite unfortunate as museums present certain advantages
+regarding the overall development of Augmented Reality
+applications. Unlike applications designed for outdoor use, the
+museum offers a controlled, laboratory like environment
+(Damala et al., 2007). Documentation, research and
+interpretation are among the missions of museums.
+Consequently there exist usually different kinds of resources
+and media that can be used to help the visitor approach the
+exposed object, a fact that would allow the Augmented Reality
+research community examine in depth the way different types of
+multimedia can be coupled with Augmented Reality
+applications.
+This argument leads to the next one: Unlike other Augmented
+Reality applications, destined for the experienced in a specific
+domain user, museums are open to a wide public, of different
+ages and backgrounds, often with little or no knowledge in the
+use of computers. Consequently, if Augmented Reality is to
+revolutionize the way we interact with computers, with the
+surrounding environment and with each other and exploit in full
+the benefits regarding the potential social impact, museums
+seem to offer an ideal workspace for experimentations on that
+field. The design and implementation of a successful prototype
+could then easily be tailored to be used under similar
+circumstances. As we will see in the next session, museums
+have also good reasons to encourage experimentations with
+Augmented Reality in their premises.
+1.4 Mobile Multimedia Guides in the Museum Setting
+Mobile guides, considered as one of the last descendants of
+digital, sophisticated audio guides, are becoming more and
+more popular throughout the world. Proctor provides a list of
+101 projects from 1997 to 2005 (Proctor, 2005). Mobile guides
+present numerous advantages as they stand in the cross section
+between multimedia and Information Technologies used in the
+museum setting and interpretation and communication means
+(Damala, 2007). All kind of media can be incorporated in
+
+mobile museum guides' applications in meaningful ways to
+guide the visitor throughout the full visit. In addition, mobile
+guides are able to be personalized and taking advantage of
+geolocalisation capabilities, deliver the right information on the
+right spot. Live streaming, bookmarking and communication
+possibilities are also key features of mobile guides. In addition,
+museum professional can use the logs of visitors' actions to get
+meaningful information about the attracting and holding power
+of exposed objects as well as about the way the multimedia
+resources are used. Despite the fact that evaluation (Damala and
+Kockelcorn, 2006) has proved these applications to be effective,
+some specific issues demand further attention:
+1.
+
+The interaction surface is small and so selecting and
+manipulating objects might prove to be a difficult task
+especially for the elder or for visitors not acquainted
+with mobile technologies.
+
+2.
+
+Geolocalisation is a very helpful feature but often
+proves to be not enough as it is not always easy for
+visitors to use floor plans of the exhibition space. In
+that case knowing the direction towards which the
+visitor is looking could be extremely helpful.
+
+3.
+
+Creating links in between the real world and its digital
+counterpart is another challenge. Difficulties in
+associating a museum object with the available digital
+resources could perturb museum visitors that get
+easily frustrated when it comes to complex in use
+information and communication systems.
+
+And though the above mentioned issues might constitute only a
+part of the challenges present in the domain of mobile
+multimedia guides used in the museum setting, they lie in the
+core of a successful integration of mobile guides in the museum
+setting and they are by no way trivial.
+
+Figure 2: Augmenting the real world with digital overlays
+
+Because of a long tradition and history in the domain of virtual
+worlds and humans (Bouville and Damala, 2006) and having
+participated in the past in two mobile museum guides projects
+(Brelot et al., 2005; Damala et al., 2005), our laboratory
+conceived the idea of a creation of a new mobile museum guide
+prototype, using Augmented Reality techniques. The fusion of
+the real with the virtual can transform in unexpected ways the
+available interaction surface and help create affinities between
+the commented objects and their digital counterparts. This task
+is very much helped by Augmented Reality as at every given
+moment, the system is aware not only of the geolocalisation of
+the visitor but also of his orientation.
+
+XXI International CIPA Symposium, 01-06 October, Athens, Greece
+communication, personalization and museum data management.
+It is not in the scope of this article to present the full set of
+functions we have identified but rather to give pertinent and
+adequate examples to establish the proposed taxonomy.
+2.2 Contextualization
+Contextualization is a term initially used in biblical studies but
+steadily adopted from the 70s onwards in cultural studies and
+archaeology. It is in this spirit that the term was chosen for our
+taxonomy, in order to express all functions that help a visitor
+situate a museum object in its original context. The
+visualization of images, slideshows, 3d models, animations and
+avatars used as virtual guides belong in this category as well as
+the audio function, the speech to text or text to speech function
+or the video function. Granting to more initiated visitors access
+to the museum data base and providing hyperlinks also belongs
+in this category as well as all functions allowing the
+manipulation of digital artifacts or 3d models.
+Figure 3: An example of a wearable Augmented Reality display
+
+2. COMBINING AUGMENTED AND NON
+AUGMENTED MOBILE MUSEUM GUIDE FUNCTIONS
+2.1 Introduction
+Mobile museum guides are dotted with a variety of functions in
+order to enable not only the visitor but also the museum staff
+and the curators to get the best out of their use in the museum
+setting. In the case of the Augmented Reality guide, it was
+obvious that apart a set of new functions, specifically made
+possible by the use of Augmented Reality techniques, other
+functions present in systems already implemented should be
+identified and included in the guide.
+For this reason we created an inventory to which we added the
+Augmented Reality functions, that we thoroughly discussed
+with museum professionals so as to validate them. Some general
+remarks are that:
+1.
+
+2.
+
+There are functions visible and invisible to the
+museum visitor. The actions activated by the visitor
+make part of the first category while functions such as
+logging visitors actions for use by museum curators
+and educators, or taking under account the number of
+terminals used in a specific space and the available
+bandwidth in order to optimize the visitor experience
+are present but not visible.
+There exist a set of Augmented Reality functions.
+Their main impact to already tried out non
+Augmented Reality functions is that they have the
+potential to change the way of interaction as the
+"scene" on which the action takes place can move
+from a tiny computer screen to the full environment
+surrounding as, through, for example the use of
+Augmented Reality goggles (Figure 3). The same is
+true for the input and output devices that can be used
+to interact with the system.
+
+It was felt, however, that a consistent taxonomy that could be
+used to better classify the set of identified functions was
+missing. This led to a process of a more abstract functions'
+classification composed of four categories: Contextualization,
+
+2.3 Communication
+Another distinct set of functions is related with the issue of
+communication. Communication functions can assist different
+kind of communication needs, between the museum and the
+visitors, the visitors with the museum, the visitors with other covisitors and eventually address the need of communicating parts
+or the full visit for later consultation, linking thus the pre,
+during and post visit experience for some visitors and
+strengthening the bonds of the museum with its public. The
+implementation of a function, that would allow visitors to
+spatially comment exhibits could enhance the public dialogue
+and engage more the public in the exhibition. Another example
+of function is the sending out of alerts regarding closing hours,
+or special events taking place in the museum.
+2.4 Personalization
+Personalization is another great advantage of the use of mobile
+guides in the museum setting and can be said to be a function of
+its own, composed by different sub functions. In this report we
+use the term personalization with its general meaning, including
+as well configuration, and without strictly drawing a line
+between customization or adaptability, thought to be triggered
+by the user itself, and personalization or adaptivity, which lets
+the system induce the visitors preferences (Bowen and
+Filippini-Fantoni, 2004; Proctor, 2004).
+There are many criteria upon which personalization can occur,
+like age groups, learning styles (Damala, 2007), disabilities
+(Proctor, 2004), level of visitors initiation, available time for the
+visit (Damala et al., 2005), thematic tours, bookmarking,
+different visitors communities. In a more technical level
+personalization can also occur according to the terminal chosen
+and the available bandwidth.
+2.5 Museum Data Management
+Finally, there is a fourth category, completely invisible to the
+visitor that plays however a major role in the way the visitor
+will live the experience. A common point among all these
+functions is that they deal with data, either this is provided or
+comes from the surrounding environment or the use of the
+devoted visitor's terminal and is directed to the server, or data
+that comes as a response from the server to the dedicated
+terminal. It is for this reason that we chose to name this
+
+XXI International CIPA Symposium, 01-06 October, Athens, Greece
+category "Museum data management", with the term
+management embracing the storage, transmission and
+processing of data. Registration of visitors terminals, that allows
+museum staff be aware of the number of visitors in each room
+as well as logs of visitors actions belongs in this category, as
+well as geolocalisation, orientation and live streaming. Modules
+for content creation, content management and content update
+can also fall under this category.
+
+will present him a wealth of multimedia information. The
+interaction device would depend on the terminal used and could
+be a stylus or the index. In the case of using special Augmented
+Reality glasses, it could be also very interesting to attempt to
+combine them with a "hand smart" solution, where the visitor's
+one palm is transformer in a virtual keyboard (Antoniac et al.,
+2001). During the visit, the visitor can communicate with his
+co-visitors or other visitors and leave spatial comments
+regarding exhibits that can be viewed by his co-visitors and/or
+other visitors. The museum can also communicate messages to
+the visitors during the guided visit. Personalization helps the
+adaptation of the content to the visitor's profile and specific
+interests.
+3.3 After the Visit
+
+Figure 4: An example of an Augmented Reality mobile museum
+guide
+
+In at least one mobile museum guide project personalized
+souvenirs were proposed to the visitor (Sauer et al., 2004). As
+all visitors actions are logged, useful data regarding the sessions
+can be retrieved and help in redesigning or better adapt to
+visitors' needs the guide. But there is also another possibility,
+already explored and published by the Cite des Sciences et d'
+Industrie in Paris (Topalian, 2005). As the visitor returns the
+terminal, he receives a postcard onto which there is a url
+printed. The visitor can access the content of the web pages
+once in front of a PC and visualize the objects he visited and the
+path he followed whilst in the museum premises. In that way the
+visit is extended beyond the museum and the visitor is given the
+chance to examine further specific objects or aspects of the
+exhibition.
+
+3. AN AR MOBILE MUSEUM GUIDE: USE CASE
+SCENARIO
+3.1 Registration
+The visitor enters the museum and heads for the kiosk where the
+guides are distributed. He registers together with his
+companions. This process will later enable him to communicate
+with co-visitors and know their exact position in the exhibition
+space. It is also required for storing the path visited so as to
+later provide the visitor with a unique and completely personal
+"souvenir". This very same information of visitor's path is also
+useful for the museum personnel. At this point the visitor is
+provided with information regarding the use of the terminal.
+Different kind of terminals could be available like Tablet PCs,
+UMPCs (ultra mobile personal computers) and PDAs without
+excluding a future use of the visitors' self owned terminals, e.g.
+smartphones. Whatever the choice of the platform, it should
+include a camera which will capture in real time the scene the
+visitor is looking at so as to augment the viewed scene with
+meaningful information. The visitor's terminal is also equipped
+with single or double headphones and maybe a special pair of
+Augmented Reality see through glasses through which the
+visitor will observe the exhibits and the digital overlays instead
+of looking them through the screen display.
+3.2 During the Visit
+The visitor enters the exhibitions and points his device towards
+a painting or simply observes the exposed object through his
+glasses. The image is captured by the camera and processed by a
+special module of the application where the pose estimation is
+effectuated. Once this done, it is possible to correctly place the
+available information around the observed object in terms of
+images, menus, buttons or widgets that activated by the visitor
+
+Figure 5: Augmenting the painting with a detail
+
+4. IMPLEMENTATION ASPECTS
+As the scene that the visitor perceives is the real or the video
+scene of the surrounding environment augmented with digital
+objects, it is very important to cater for a proper alignment and
+registration of these last to the real world. Unfortunately and
+unlike virtual reality, in Augmented Reality even small errors
+are easily perceived by the human visual system. Another very
+important factor is the combined latency, else called transport
+delay, meaning the delay form the time the measurements are
+taken to the time the images appear in Augmented Reality
+display (Azuma, 1993).
+Both of these factors are crucial to the acceptance and success
+of the system but unfortunately no existing approach completely
+satisfies these requirements. A possible solution would be to
+combine marker tracking with sensor (inertial, ultrasonic, or
+radio ranging) and 3d model data. However for the time being
+
+XXI International CIPA Symposium, 01-06 October, Athens, Greece
+the marker based approach is the most robust and reliable and
+that is the reason for which it was chosen for the first
+implementation. In any case, the challenge is to adopt the most
+appropriate solution in the more discrete and less obtrusive way
+for the museum visitor.
+Opting for the marker based approach, the type of museum
+objects had to be defined. A decision was taken to proceed with
+three different types of museum objects. The first one is
+paintings. Apart from being one if the most usual museum
+objects, because of their two dimensional and rectangular forms
+they can be used as 2d markers, detectable by the Augmented
+Reality guide. The second type of objects resides behind
+museum transparent showcases. Though the cooperating
+museum agreed upon the inclusion of discreet markers in the
+showcases, in this case too it could be probable to use the
+objects geometry for registration and tracking. However that
+would require proper lighting conditions and a minimum of
+reflection on the transparent glass showcases. Finally a third
+case study will be provided by quadruped stands with a marker
+on each side, onto which the possibility of commenting pottery
+or statuettes will be explored. In this way the marker base
+experimentations will anticipate future improvements in
+estimation of camera position and orientation as well as in novel
+ways of interacting with Augmented Reality.
+
+5.2 Conclusions
+Because of the aforementioned limitations, trying to make
+abstraction of the technological constraints is of paramount
+importance for the development of Augmented Reality
+applications destined for the "museum sphere".
+It is also important to remember that museums could provide an
+exciting environment for experimentations with Augmented
+Reality and one that could help the Augmented Reality
+community build in experience that could later be embedded in
+other Augmented Reality applications, especially because
+museums are extremely rich in content and socially inclusive as
+environments.
+As technological progress will finally address the need for light
+and reliable equipment, robust Augmented Reality algorithms
+and dedicated, easy to use authoring tools, Augmented Reality
+might provide a valid, intuitive and playful approach towards
+the appreciation and comprehensions of tangible and intangible
+cultural heritage, opening up the way for other learning or
+entertainment Augmented Reality applications.
+
+REFERENCES
+This is why the goal of our implementation is not the creation of
+a fully fledged Augmented Reality prototype but rather the
+creation of numerous Augmented Reality demonstrators first, to
+assist museum professionals better comprehend the potential of
+the new approach and then adapt it to their specific needs and
+secondly to actively involve visitors in Augmented Reality
+assisted tasks. Evaluation will eventually prompt interesting
+issues regarding the use of mobile guides in the museum setting,
+the use of AR for interaction, entertainment and learning.
+
+5. DISCUSSION OF THE AUGMENTED REALITY
+APPROACH
+5.1 Current limitations of the Augmented Reality approach
+Despite the innovative and promising character of Augmented
+Reality applications there are still lots of barriers to overcome in
+order to ensure consistency and efficacy of the Augmented
+Reality approach when it comes to mobile museum guides.
+The lack of dedicated authoring tools renders the full chain of
+content creation, authoring, implementation and presentation a
+difficult task that can not be carried by museum professionals
+alone. The innovative character of the approach is often making
+bewildering the expression of the needs of museum curators, as
+they are not really aware of what to expect and consequently
+having a difficulty to express their needs. Technical constraints
+related with tracking and correct display as well as the lack of
+accurate, powerful and inexpensive equipment is another very
+important issue. Therefore, prototype applications are much
+more common than viable, ready to be commercialized
+applications. It is for the same reason that many Augmented
+Reality applications lack a "bottom-up" approach.
+Consequently, the process of development is often technology
+driven instead of user driven.
+
+Anastassova, M., 2007. User-Centred Design and Evaluation of
+Augmented Reality Systems for Industrial Applications: Some
+deadlocks and breakthroughs. In: S. Richir (Editor), VRIC'07,
+9th International Conference on Virtual Reality. IEEE, Laval,
+France, pp. 215-224.
+Antoniac, P. et al., 2001. HandSmart Mediaphone, Advanced
+Interface for Mobile Services, World Multi Conference os
+Systemics, Cybernetics and Informatics, Orlando, Florida, USA.
+Azuma, R., 1993. Tracking Requirements for Augmented
+Reality, Communications, pp. 50-51.
+Bouville, C. and Damala, A., 2006. Cultural Heritage
+Applications: An industrial perspective from France. In: F.
+Nicolucci, G. Geser and T. Varrichio (Editors), Digital
+Applications for Tangible Cultural Heritage, Report on the State
+of the Union. Policies, Practices and Development in Europe.
+EPOCH survey 2004/2005. Epoch, Budapest, pp. 89-93.
+http://public-repository.epoch-net.org/D4.5.1Report%20on%20the%20State%20of%20the%20Union.pdf
+(accessed 7 June 2007)
+Bowen, J.P. and Filippini-Fantoni, S., 2004. Personalization
+and the web from a museum perspective. In: J. Trant and D.
+Bearman (Editors), Museums and the Web 2004, Toronto,
+electronic
+version.
+http://www.archimuse.com/mw2004/papers/bowen/bowen.html
+(accessed 7 June 2007)
+Brelot, M., Cotarmanach, A., Damala, A. and Kockelcorn, H.,
+2005. Nomadic computing in indoor cultural settings:
+Intelligent connectivity, context awareness and the mobile
+museum experience. In: X. Perrot (Editor), ICHIM 2005, Paris,
+pp.
+CD
+ROM
+edition.
+www.archimuse.com/publishing/ichim05/Kockelkorn.pdf
+(accessed 7 June 2007)
+
+XXI International CIPA Symposium, 01-06 October, Athens, Greece
+Cohen, J., 1993. Special issue on computer augmented
+environments: back to the real world, Communications. ACM,
+New York.
+
+the
+Web
+2005,
+Toronto,
+Canada.
+www.archimuse.com/mw2005/papers/proctor/proctor.html
+(accessed 7 June 2007)
+
+Damala, A., 2007. Augmented Reality Based User Interfaces for
+Mobile Museum and Exhibition Guides, CAA 2007, Computer
+Applications and Quantitative Methods in Arcaheology.
+Deutsches Archaeologisches Institut, Berlin, In Press.
+
+Proctor, N., 2005. Off base or On Target? Pros and Cons of
+wireless and location aware applications in the museums. In: X.
+Perrot (Editor), ICHIM, Paris, CD-ROM edition.
+www.archimuse.com/publishing/ichim05/Proctor.pdf (accessed
+7 June 2007)
+
+Damala, A., 2007. Design Principles for Mobile Museum
+Guides Using Visitor Studies and Museum Learning Theories,
+IADIS M-Learn Conference (Mobile Learning). IADIS, Lisbon,
+Portugal.
+Damala, A., Houlier, P. and Marchal, I., 2007. Crafting the
+Mobile Augmented Reality Museum Guide. In: S. Richir
+(Editor), VRIC'07, 9th International Conference on Virtual
+Reality. IEEE, Laval, France, pp. 303-306.
+Damala, A. and Kockelcorn, H., 2006. Evaluation strategies for
+mobile museum guides: a theoretical framework, Third
+International Conference of Museology: Audiovisuals as
+Cultural Heritage and their Use in Museums. University of the
+Aegean, departent of Cultural Informatics, Mytilene, Greece,
+pp. In press.
+Damala, A., Le Coq, C. and Bouguet, S., 2005. Mobile
+computing in the museum setting: Mobivisit, A field study in
+the Museum of Fine Arts, Lyon. In: X. Perrot (Editor), ICHIM
+2005, Paris. CD ROM edition.
+Ferris, K. et al., 2004. Shaping experiences in the Hunt
+museum: a design case study, Proceedings of the 2004
+conference on Designing Interactive Systems. ACM Press,
+Cambridge, Massachusetts, USA, pp. 205-214.
+Galani, A., 2005. Far away is close at hand:an ethnographic
+investigation of social conduct in mixed reality museum visits.
+PhD Thesis Thesis, University of Glasgow, Glasgow, 215 pp.
+Hindmarsh, J., Heath, C., vom Lehn, D. and Cleverly, J., 2002.
+Creating Assemblies: Aboard the Ghost Ship, 2002 ACM
+conference on Computer supported cooperative work. ACM,
+New Orleans, Louisiana, USA, pp. 156-165.
+Horn, M., 2006. Wings of learning, Fraunhofer Magazine, pp.
+18-19.
+Milgram, P., Takemura, H., Utsumi, A. and Kishino, F., 1994.
+Augmented Reality: A call of displays on the Reality-Virtuality
+continuum. SPIE, Telemanipulator and Telepresence
+Technologies, 2351: 282-292.
+Owen, R., Buhalis, D. and Pletinckx, D., 2005. Visitors'
+Evaluations of ICTs Used in Cultural Heritage. In: M. Mudge,
+N. Ryan and R. Scopingno (Editors), VAST 2005, The 6th
+International Symposium on Virtual Reality, Archaeology and
+Cultural Heritage, pp. 129-136.
+Papagiannakis, G. et al., 2002. LIFEPLUS: Revival of life in
+ancient Pompeii, Virtual Systems and Multimedia, Proceedings
+of VSMM 2002, pp. 1-11.
+Proctor, N., 2004. Access in hand: providing deaf and hard-ofhearing visitors with on-demand, independent access to
+museum information and interpretation through handheld
+computers. In: J. Trant and D. Bearman (Editors), Museums and
+
+Sauer, S., Göbel, S., Osswald, K. and Hoffman, A., 2004.
+Edutainment Environments. A Field Report on DinoHunter:
+Technologies, Methods and Evaluation Results. In: J. Trant and
+D. Bearman (Editors), Museums and the Web 2004. Archives
+and
+Museum
+Informatics,
+Washington
+DC.
+http://www.archimuse.com/mw2004/papers/sauer/sauer.html
+(accessed 7 June 2007)
+Sparacino, F., 2002. The Museum Wearable: real-time sensordriven understanding of visitors' interests for personalized
+visually-augmented museum experiences, Museums and the
+Web 2002. Archives and Museum Informatics, Boston.
+http://www.archimuse.com/mw2002/papers/sparacino/sparacino
+.html (accessed 7 June 2007)
+Thomasson, R., 2006. Augmented Reality: Get in touch with the
+past, Wired, pp. 40.
+Topalian, R., 2005. Cultural Visit Memory: The Visite+ System
+Personalization and Cultural Visit Tracking Site. In: J. Trant
+and D. Bearman (Editors), Museums and the Web 2005,
+Toronto,
+Canada.
+http://www.archimuse.com/mw2005/papers/topalian/topalian.ht
+ml (accessed 7 June 2007)
+Vlahakis, V., Demiris, A., Bounos, E. and Ioannidis, N., 2004.
+A novel approach to context sensitive guided e-tours in Cultural
+sites: Light augmented reality on PDA's. In: Y. Chrysanthou, K.
+Cain, N. Silberman and F. Nicolucci (Editors), VAST 2004, 5th
+International Symposium on Virtual Reality, Archeology and
+Intelligent cultural heritage, Bruxelles, pp. 57-66.
+Vlahakis, V., Demiris, A., Ioannidis, N., Grecos, J. and
+Kyriakoulakos, T., 2005. Location and context aware
+Augmented Reality Nomadic Devices for cultural heritage
+applications. Studies in Communication Sciences, 5(1): 57-74.
+Vlahakis, V., Pliakas, V., Demiris, A. and Ioannidis, N., 2003.
+Design and Application of an Augmented Reality System for
+continuous, context sensitive guided tours of indoor and
+outdoor cultural sites and museums. In: D. Arnold, A. Chalmers
+and F. Nicolucci (Editors), 4th International Symposium on
+Virtual Reality, Archaeology and Intelligent Cultural heritage
+VAST 2003.
+
+

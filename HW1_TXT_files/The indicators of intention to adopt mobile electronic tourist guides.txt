@@ -1,0 +1,1039 @@
+The current issue and full text archive of this journal is available at
+www.emeraldinsight.com/1757-9880.htm
+
+JHTT
+2,2
+
+The indicators of intention
+to adopt mobile electronic
+tourist guides
+
+120
+
+Rita Peres
+
+Received 11 June 2010
+Revised 12 December 2010
+Accepted 26 February 2011
+
+Estoril Higher Institute for Hotel and Tourism Studies, Estoril, Portugal
+
+Antónia Correia
+Faculty of Economics, University of Algarve, Faro, Portugal, and
+
+Miguel Moital
+School of Services Management, Bournemouth University, Bournemouth, UK
+Abstract
+Purpose – The purpose of this paper is to understand tourists’ acceptance of innovative information
+technologies by examining the factors influencing the intention to use mobile electronic tourist guides
+(METG).
+Design/methodology/approach – This paper developed and tested a model for examining tourists’
+acceptance of METG based upon Davis’ technology acceptance model (TAM). The model considered
+three antecedents of intention: knowledge, usefulness and attitude. The relationships between them
+and between these and intention were explored using structural equation modeling.
+Findings – The findings revealed that tourists’ behavioural intentions towards using METG could
+be raised through attitude by ensuring greater levels of perceived usefulness. Usefulness, in turn, is
+highly influenced by the tourists’ level of knowledge regarding METG. In addition, there was also a
+direct significant path between knowledge and behavioural intention, suggesting that good levels of
+knowledge of the technology are a pre-condition for greater usage of METG.
+Research limitations/implications – This paper suggests that the predictive ability of the TAM
+in the context of innovations at their early stages of diffusion, that is, when potential adopters know
+little about them, can be enhanced by incorporating knowledge as an explanatory variable. Future
+studies could use the full version of the TAM by including other measures of knowledge beyond
+awareness knowledge, such as how-to knowledge, as suggested by Rogers.
+Originality/value – This paper adapts the TAM to study the acceptance of technology-based
+information technologies at their early stages of development. The findings of this study contribute to
+enhancing our understanding of what influences tourists’ acceptance of METG. They can be used to
+inform local and national strategies aimed at developing Portugal’s (and other countries’) credentials
+as digital destinations.
+Keywords Mobile technology, Tourism, Portugal, Tourists, Guides and handbooks
+Paper type Research paper
+
+Journal of Hospitality and Tourism
+Technology
+Vol. 2 No. 2, 2011
+pp. 120-138
+q Emerald Group Publishing Limited
+1757-9880
+DOI 10.1108/17579881111154236
+
+1. Introduction
+Traditionally, tourist destinations try to differentiate themselves from competitors in
+many ways, such as through good accessibility and high-quality accommodation.
+Recently, however, more emphasis has been placed on the range of services provided
+This paper was based on a research sponsored by the Scholarship Program of the
+Turismo de Portugal, IP.
+
+to ever more demanding consumers. According to Goeldner and Ritchie (2003), services
+and attractions should be presented in a creative and intelligent way. The fast
+evolution of information and communication technologies has led to the development
+of new ways of gathering, using and transmitting information in real time. Therefore,
+destinations should capitalise on this trend and make the most of the opportunities
+provided by the development of mobile and interactive technologies.
+From the multiple mobile technologies available in the market, mobile electronic
+tourist guides (METG), while still an emerging technology, have been regarded as one
+of the most promising ones. Using the personal digital assistant as technological
+platform, METG provide important potential benefits for tourists that differentiate the
+system from traditional tourist information systems. The high levels of mobility and
+access to interactive information in real time are perhaps the greatest benefits of
+METG. Consequently, the tourist is better equipped to maximise the time spent in the
+destination. This is achieved by avoiding travelling to the tourist office every time new
+information is required, by not having to wait for the information and, above all,
+through accessing information anywhere and anytime. By saving time on looking
+around for information, tourists could engage in more activities while at the
+destination, potentially increasing their spending. Perhaps more importantly, using
+METG could provide more quantity and variety of information, making tourists better
+informed about what is on offer, potentially resulting in better consumption decisions
+and consequently more satisfied consumers. This, in turn, will result in greater loyalty
+to the destination (Yoon and Uysal, 2005; Yuksel and Yuksel, 2002). In addition, greater
+usage of METG by tourists would facilitate monitoring the tourist experience as it
+would be relatively easy to set up the technology to monitor what, when, where and
+how consumers search for information. This information could inform strategic
+planning at the destination level. Nishimura et al. (2007) pointed out that destination
+authorities had little direct control over several of the most sought after sources of
+travel information. METG could also help destinations to have a more directly
+influence on the information made available to tourists. Therefore, the potential
+benefits for both the tourist and the destination are high.
+Past research has shown that many tourists, including those who have never used
+them, view the use of mobile technologies in a tourism context, including METG,
+positively (Cheverst et al., 2000; Schmidt-Belz et al., 2003; Lee and Mills, 2007).
+However, the technology is still in its infancy and only a small proportion of tourists
+use it. While there are many reasons for the low level of usage by consumers, including
+supply ones, consumer acceptance will be the ultimate influencing factor. Research in
+the area of tourists’ acceptance of METG is still scarce, despite some noteworthy recent
+contributions. Given that the development of a consumer-focused mobile tourist
+information strategy requires an understanding of consumers’ acceptance of this
+innovative technology, this paper examines the factors influencing the intention to use
+METG.
+2. Literature review
+The acceptance and use of information technologies has been the focus of many studies
+aiming at understanding the determinants of their acceptance by consumers.
+Most studies have been developed against three theoretical frameworks: the theory of
+reasoned action (TRA) (Fishbein and Azjen, 1975), the technology acceptance model
+
+Mobile electronic
+tourist guides
+
+121
+
+JHTT
+2,2
+
+122
+
+(TAM) (Davis, 1989) and the diffusion and adoption of innovations (Rogers, 1995).
+These are reviewed in the next three sections.
+2.1 The theory of reasoned action
+The TRA postulates that a person’s behaviour is determined by intention to perform
+the behaviour. Intention is, thus, seen as the best predictor of behaviour. This intention
+is, in turn, a function of two basic determinants. The first determinant is an
+individual’s attitude toward the behaviour. Attitude is the person’s general feeling of
+favourableness or unfavourableness towards that behaviour and is formed based on
+the person’s salient beliefs that the behaviour leads to certain outcomes and the
+evaluation of those outcomes. In other words, whether the outcome of his/her
+behaviour will be positive or negative. The second determinant is subjective norm and
+is related to the influence of the social environment on intentions and behaviour.
+More specifically, it refers to the opinions of the person’s social environment about
+him/her performing the behaviour. The subjective norm is a consequence of the beliefs
+that specific referents think about whether the individual should, or should not,
+perform the behaviour, as well as the motivation to comply with these referents.
+The relative importance of attitudinal and normative components will vary according
+to the intention under consideration and from one person to another (Ajzen and
+Fishbein, 1980). However, research suggests that most behaviour is controlled mainly
+by attitude than by social influence (Cooper and Donald, 2001).
+2.2 The technology acceptance model
+The TAM was first introduced by Davis (1989) and Davis et al. (1989) for predicting user
+acceptance of information systems. Theoretically developed upon Fishbein and Ajzen’s
+TRA, the model aims to be a parsimonious and valid theoretical template with which to
+study the adoption a broad range of end-user computing technologies (Davis et al., 1989).
+Similar to TRA, in the TAM usage is determined by behavioural intention. In essence,
+the model posits that two variables fundamentally determine user acceptance of the
+technology: perceived usefulness and ease of use. The first TAM posited that the two
+beliefs about using the innovation (ease of use and usefulness) impacted on intention
+through attitude. Perceived usefulness and perceived ease of use instruments have
+received substantial attention by researchers both empirically and theoretically
+(Adams et al., 1992; Chin and Gopal, 1995; Hendrickson et al., 1993; Igbaria et al., 1995;
+Mathieson, 1991; Segars and Grover, 1998; Straub et al., 1995; Subramanian, 1994).
+Adams et al. (1992) replicated Davis’s work in field studies on the usage of several
+information technology applications. Hendrickson et al. (1993) examined the test-retest
+reliability and database software applications. Nevertheless, the determinants of ease of
+use and usefulness are far from being consensual. In fact several authors found that the
+ease of use comprised a set of determinants that differ in context.
+Agarwal and Prasad (1997) focused on individual’s perceptions about the
+characteristics of the target technology as explanatory and predictive variables for
+acceptance behaviour, and presented an empirical study examining the effects of these
+perceptions on two outcomes (initial use and future use intentions) in the context of
+innovation represented by the world wide web. Furthermore, the authors concluded
+that voluntariness and external pressures have an impact on the acceptance behaviour.
+Also, Atkinson and Kydd (1997) examined the influence of the individual characteristic
+
+of playfulness, ability to use the computer, ease of use and usefulness on the use of the
+world wide web. They found that all the considered constructs affect world wide web
+use. Later, Fenech (1998) tested Davis’ TAM constructs of perceived usefulness and
+perceived ease of use as predictors of user acceptance of world wide web. The results
+indicated a poor fit for Davis’ (1986) TAM until the inclusion of an additional construct,
+the computer self-efficacy (Compeau and Higgins, 1995; Igbaria and Iivari, 1995; Yi and
+Venkatesh, 1996). In line with previous research Venkatesh and Davis (1996) prove that
+self-efficacy and objective usability are determinants of perceived ease of use. Later,
+Venkatesh and Davis (2000) developed and tested a theoretical extension of TAM,
+referred to as TAM2. TAM2 explains perceived usefulness and usage intentions in
+terms of social influence (subjective norm, voluntariness and image) and cognitive
+instrumental (job relevance, output quality and result demonstrability) processes.
+The research about how to measure perceived ease of use keeps is also the subject of
+study of Venkatesh (2000) who found that an individual’s general beliefs regarding
+computers were the strongest determinants of system-specific ease of use, even after
+direct experience with the target system. Mozeith et al. (2009) results of the adoption of
+restaurant-based e-services indicate that perceived ease of use is markedly higher for
+mobile handhelds and that perceived usefulness was more important with traditional
+lap/desk devices because it addresses more extrinsic aspects of task orientation such as
+task efficiency and effectiveness. According to this author, several researchers have
+accommodated this change (Liaw, 2002; Luarn and Lin, 2005) whereas others still refer
+to the original model (Ho et al., 2003; Chen and Tan, 2004).
+The TAM has many strengths that make it potentially suitable for the adoption of
+technological innovations. It is a reliable and robust model, with empirical data
+extensively supporting and validating the theory (Agarwal and Prasad, 1999; Chen et al.,
+2002; Vijayasarathy, 2004). Moreover, it possesses the theoretical property of parsimony
+(Agarwal and Prasad, 1999; Mathieson et al., 2001) and is focused on technology-based
+behaviours (Mathieson et al., 2001). Sandhu and Corbitt (2002), cited by Mozeith et al.
+(2009) put forward the e-service adoption model, which is an adaptation of Davis’s TAM
+and the results demonstrate that consumers react and adjust to emerging e-services
+by means of experience, motivation, frequency of use and investment.
+In general, it could be assumed that TAM differs from TRA in two aspects. First,
+TAM introduced two new constructs, perceived usefulness (the belief that using an
+application will increase one’s performance) and perceived ease of use (the belief that
+one’s use of an application will be free of effort). Since its introduction by Davis,
+TAM has been widely used for predicting the acceptance, adoption and use of
+information technologies.
+2.3 The adoption of innovations model
+The adoption of innovations model was put forward by Rogers in the 1960s (Rogers,
+1995). Adoption refers to the cognitive process associated with the decision to make use
+or reject an innovation. Like several other theories of consumer behaviour, the adoption
+theory posits that individuals go through several stages before use of the innovation
+takes place. In other words, consumers engage in a series of actions and decisions
+over time aimed at evaluating the new idea, before deciding whether or not to
+incorporate the innovation into ongoing practice (Rogers, 1995). While the decision
+process has changed over the years, in its current form the process comprises
+
+Mobile electronic
+tourist guides
+
+123
+
+JHTT
+2,2
+
+124
+
+five stages (Rogers, 1995): knowledge, persuasion, decision, implementation and
+confirmation. One major difference between the TRA/TAM and the adoption of
+innovations model is that the latter explicitly recognises that knowledge is an essential
+component of the process, while the former assumes that the individual has developed
+some type of knowledge regarding the innovation.
+2.4 Information search in tourism
+In order to define and understand the different types of behaviours associated with
+information search, search has been conceptualised in many ways, including
+internal/external (Gitelson and Crompton, 1993; Fodness and Murray, 1999),
+static/dynamic (Sheldon, 1997), decisive/contributive (Vogt and Fesenmaier, 1998),
+formal/informal (Mathieson and Wall, 1982) and personal/interpersonal (Hsieh and
+O’Leary, 1993).
+Flognfeldt and Nordgren (1999) further suggested a temporal classification of
+search, according to the sequence of the travel consumption process: before, during and
+after visiting the destination. According to Mansfeld (1992) and Sheldon (1997),
+information search and use tends to be more intense before arrival at the destination
+than during the travelling period. At this stage, tourists decide upon whether to travel
+to the destination and make preliminary decisions regarding what to do once there.
+The assumption that most information search activity tends to take place before
+arrival has led to an emphasis of research on the pre-travelling stage (Snepenger et al.,
+1990; Fodness and Murray, 1999; Gursoy and Chen, 2000; Gursoy and Umbreit, 2004).
+However, there is a growing recognition of the role of information search during travel.
+In a recent study, Nishimura et al. (2007) suggested that for independent travellers
+information search tends to be an ongoing task, with tourists externally searching for
+information actively. According to Mintel (2006), “this is the age of the independent
+traveller”. In the UK, in 2006 independent travel accounted for 58 per cent of the
+outbound (representing a 49 per cent growth since 2001) and generating £13.5 billion.
+The reasons that have fuelled this growth – sharp growth of budget airlines, access to
+the internet and the rise of the e-tourist – indicate a further positive outlook for this
+market. Therefore, destinations need to place more emphasis on satisfying the
+information needs of this valuable travel segment.
+Many decisions regarding what to do may have been taken before arriving at the
+destination. However, tourists are likely to seek reinforcement of many of those
+decisions once there. In this case, their search may be one of fine-tuning previous
+consumption decisions (e.g. when to do it, what is the best way to get there). However,
+in many cases the decision of what to do is left until arrival. Thus, the purchasing
+process for many of the consumption decisions is likely to take place only after the
+tourists’ arrival. For example, tourists may not be aware of certain attractions, local
+restaurants or entertainment activities prior to travelling. In such cases, the purchasing
+process may be triggered by advertising in local tourist guides, discussion with fellow
+tourists or recommendations from locals (e.g. receptionists). Recognising the
+importance of information search at the destination, tourist authorities have set up
+structures to facilitate tourists’ access to information. One such example is the tourist
+office. Here, tourists can find both literature and expert advice on many aspects of the
+tourist experience offered by the destination.
+
+According with Watson et al. (2004), there are three phases in which tourists could
+benefit from information systems: planning, touring and reminiscing. In the planning
+phase, prior to the trip, the tourist collects information about destinations. In recent
+years, the web has significantly increased the traditional sources of tourist guides and
+travel services. Touring, the second phase of tourism, defines the period when a person
+is visiting sites, wandering around museums, attending a festival and so forth. During
+this phase, the tourists need location-based information services to inform them about
+the tourist attractions within their environments. The authors refer that the tourists
+might, for example, seek information about objects within their immediate vicinity
+(e.g. what is the history of the memorial on the corner?) or find out what is available
+(e.g. what is the nearest open museum?). Tourists might also seek information about
+services in areas they are approaching (e.g. what hotels in the next town have
+vacancies?, what are their relative locations?, what are their rates?). On returning from
+a trip, travellers recall the highlights and often share these with relatives and friends.
+Also, they might want to comment on places they have visited. Hence, there is a need to
+support the creation of a personal electronic trip album so that the traveller can relive
+and share memories, and potentially increase tourism through this electronic variation
+of word of mouth.
+Most of the studies on travellers’ choice of information search strategies have focused
+on the sources and channels used while at home planning the trip. As DiPietro et al.
+(2007) point out, only limited systematic efforts have been made to understand how
+visitors search for information at the destination. Rompf et al. (2005) also point out that
+at-destination information search activity remains a significantly under-researched
+phenomenon and that savvy tourism marketers need to realise the potential of
+understanding this phenomenon. Rompf et al. (2005) have emphasised the importance of
+locals as a source of tourist information while at the destination. DiPietro et al. (2007)
+found friends and relatives as well as hotel staff to be the most important information
+source for at-destination decisions. Local residents and visitor centre staff seemed to be
+important in providing information about entertainment, recreation and dining.
+Nishimura et al. (2006) identified word of mouth from family and friends as a major
+pre-trip source, while tour guides and local residents were the most useful information
+sources during travel. Word of mouth from other tourists was seen as a typical “during
+travel” source. Destination information services further disseminate and distribute
+information through other elements in the tourism system, such as hotels and attractions.
+Following developments in mobile technologies, destinations are able to disseminate
+information regarding the destination in a more up-to-date and interactive way.
+2.5 Research on the acceptance of METG
+Recognising that its adoption by tourists is one of the obvious critical factors
+influencing the widespread use of METG, a number of studies have attempted to
+understand its adoption from a users point of view. However, most of these studies were
+based on field experiments whereby tourists were invited to use the system and then
+evaluate the experience (Cheverst et al., 2000; Schmidt-Belz et al., 2003). It was not until
+recently that research on the acceptance of METG by a wider tourist base began to
+appear. For example, Lee and Mills (2007) explored tourists’ satisfaction with a mobile
+technology by surveying internet users. An underlying assumption of all these studies
+is the critical influence of tourists’ evaluation of METG for the success of such systems.
+
+Mobile electronic
+tourist guides
+
+125
+
+JHTT
+2,2
+
+126
+
+The importance of evaluating the tourists’ perceptions of METG is further
+supported by the wider literature on the adoption of mobile handheld devices.
+For example, Sarker and Wells’ (2003) input-process-output model of the adoption of
+handheld devices views evaluation of the experience as a component of the process that
+feeds into the output. In other words, usage of the innovation is directly influenced by
+an evaluation of its use. According to Sarker and Wells (2003), evaluation of the
+experience can take three forms: functional, psychosocial and relational. The functional
+dimension refers to the availability of the system anytime and in anyplace and is
+closely related to efficiency provided by access to information while on the move.
+The psychosocial dimension includes issues such as security and privacy, while the
+relational dimension involves evaluating the opportunities for communication with
+other individuals. While consumers are likely to evaluate handheld devices based on
+these three dimensions, their importance is likely to vary from individual to individual
+and according to the specific content of the experience.
+Kramer et al. (2007) conducted a field trial comparing the behaviour of tourists as they
+were using a Planner providing a personalized guided tour and an Explorer displaying
+the current location on a map and supplying information about sights on request. The
+results indicate that users differ significantly in the way and extent to which they take
+advantage of both mobile applications. The authors concluded that the Planner satisfies
+the demand for guided tours additionally leaving much needed room for spontaneous
+deviations. Surprisingly, tour duration, walking distances and number of sights visited
+using these different mobile applications were similar to traditional guided tours.
+Tjostheim and Fesenmaier (2008) developed an ethnographic approach to gain
+insight into how a multimedia phone with GPS, maps and a mobile guide were used by
+visitors to the city of Philadelphia. The authors found out that some of the visitors
+seem to substitute traditional information sources with the navigation and map tools
+on the mobile device.
+Eriksson and Strandvik (2009) conducted a study to identify the determinants
+affecting tourists intentions or actual use of mobile tourism services. The authors
+identified that the major barriers for non-usage of the mobile services were the value
+aspect of the packaged tour that the trial group participated in. The price transparency
+and the ease of use especially ease to take new mobile services temporary into use
+should be highlighted in mobile tourism service development.
+According to the review of the existing literature in the area; in the next section,
+we presented a conceptual model supported upon a number of hypothesis.
+3. Research model and hypothesis
+Based on the constructs identified by Fishbein and Azjen (1975) and adapted by
+Davis (1989) to develop the TAM, a conceptual model of the acceptance of the METG
+was developed. The model is supported upon a number of hypothesis derived from the
+literature. Four constructs are included in the model: knowledge, usefulness, attitude
+and intention.
+3.1 Knowledge
+The importance of considering knowledge when studying the adoption of innovations
+has been emphasised in the past, notably by the work of Rogers (1995). Knowledge
+occurs when an individual is exposed to an innovation’s existence and gains some
+
+understanding of how it functions (Rogers, 1995). Knowledge is the result of the
+learning stored in memory (Clarke and Belk, 1978). Rogers’ (1995) innovation decision
+model considers knowledge as the first stage of the adoption process. Hence, this is a
+critical stage since what happens at this stake influenced the remainder of the adoption
+process. The TAM, in contrast, assumes that the person has gained enough knowledge
+about the innovation. Yet this is a dubious assumption for innovations at the early
+stages of their diffusion, when the amount of information available about the
+innovation is limited, such as the case of METG. Thus, what remains unknown is the
+extent to which knowledge influences the acceptance of the technology. Therefore, this
+construct was included in the model as a potential influence on the other variables
+derived from TAM (and explained below).
+3.2 Usefulness
+Perceived usefulness is the individual’s perception that using the information system
+will improve one’s performance (Davis, 1989; Keen et al., 2004). Usefulness refers to the
+outcome of using the system, rather than to the process leading to the final outcome,
+which is captured by ease of use (Childers et al., 2001). Usefulness is similar to relative
+advantage (Rogers, 1995) in that it concentrates on the extent to which using the new
+system is perceived as being better that the one it supersedes. Traditionally, usefulness
+has been measured through general measures. Given the early stages of adoption of
+METG, in this study it was considered that a more detailed understanding of the users’
+perceptions of the technical and functional attributes would provide more detailed
+understanding regarding the perceived usefulness of METG. Wöber and Gretzel (2000)
+found strong support for the impact of usefulness and ease of use on tourism
+manager’s usage on the decision support systems. The authors also found that user’s
+system expectations and technology attitude influenced usage. Considering the
+multidimensionality of this construct, a composite index of usefulness was derived
+from the evaluation of a set of characteristics associated with METG.
+3.3 Attitude
+In the field of consumer behaviour, attitudes have been defined as an overall evaluation
+of the behaviour (Engel et al., 1995; Rogers, 1995; Fishbein and Azjen, 1975; Howard
+and Sheth, 1969) and as predispositions to respond in a particular way toward a
+specified behaviour or class of behaviours (Fishbein and Azjen, 1975; Rosenberg and
+Hovland, 1960). The importance of attitude in consumer behaviour is demonstrated by
+the fact that virtually all of the most influential models of consumer behaviour view
+attitudes as a key variable influencing behaviour. Adding attitude towards behaviour
+as a new component means that, in order to predict a specific behaviour, it is necessary
+to measure a person’s attitude towards performing that behaviour, and not just general
+attitude towards the object at which the behaviour is directed (Kassarjian and
+Robertson, 1991). In voluntary behaviours, such as in the case of using METG, people
+tend to perform behaviours that they evaluate favourably and avoid performing those
+that are viewed negatively.
+3.4 Intention
+Behavioural intention to perform the behaviour has been shown to be an antecedent of
+the behaviour itself (Ajzen and Fishbein, 1980). Ajzen and Fishbein (1980) suggested
+
+Mobile electronic
+tourist guides
+
+127
+
+JHTT
+2,2
+
+128
+
+several measures of behavioural intention, but two main approaches to behavioural
+intention can be identified: one covering the likelihood of performing the behaviour and
+the other the intention to perform the behaviour. Intention and likelihood are different
+phenomena. Whereas intention refers to a goal or purpose, likelihood refers to the
+subjective probability that the behaviour will take place (i.e. that the goal or purpose
+will be achieved). Intention refers to a predisposition while likelihood can be thought of
+as resulting not only from that predisposition, but from other variables such as the
+perception of adequate resources to perform the behaviour. A very important extension
+of this line of literature is represented by several recent studies that take a step back
+from testing relationships between user perceptions and intentions to use systems in
+various contexts. These studies focus on factors that affect user perceptions, asking
+why users come to a system with relatively positive or negative views about its
+potential role in their activities. For instance, researchers have studied the effects of
+social influence (Karahanna and Straub, 1999; Venkatesh and Davis, 2000) and
+personal characteristics, such as gender (Venkatesh and Davis, 2000) and educational
+level (Agarwal and Prasad, 1999).
+Generally speaking, the stronger the tourists’ intention to use METG, the more
+likely they are to use them (Cao and Mokhtarian, 2005). Therefore, behavioural
+intention can be regarded as a surrogate measure of the tourists’ acceptance of METG.
+Based on the relationships between variables postulated by the TRA and the TAM,
+the following hypothesis were formulated:
+H1. Knowledge of METG influences positively usefulness.
+H2. Perceived usefulness influences positively a positive attitude towards using
+METG.
+H3. Attitude towards using METG influences positively the intention to use it in
+the future.
+H4. The level of knowledge about METG influences positively the intention to use
+them in the future.
+H5. Perceived usefulness influences positively the intention to use METG.
+H6. The level of knowledge influences positively the attitude towards using
+METG.
+4. Methodology
+4.1 Sample
+To test the hypothesis of this study, data were collected from a stratified sample of
+international tourists departing from Lisbon International Airport (Portugal) between
+October and November, 2006. The definition of the sample was based on the number of
+passengers departing from Lisbon’s Airport to European Union countries in 2005.
+The sample was randomly stratified by season and nationality. In order to achieve a
+95 per cent level of confidence, 600 questionnaires were collected. European Union
+nationals using Lisbon Airport come mainly from France, Spain (including islands), the
+UK and other countries (Italy, The Netherlands and Germany). Together the nationals
+of these countries account for around 60 per cent of departures from the airport. Using
+the number of departures from each of the above four groups, a minimum number
+
+of questionnaires were established: 107 from French nationals, 140 from Spanish, 85
+from British and 268 from other nationalities. From the 600 questionnaires, 400 were
+retained for analysis in this study, which represents a response rate of 67 per cent, an
+acceptable standard according to Dillman (1978). This procedure ensures the
+generalizability of the data, meaning that the findings are applicable to a more general
+population. The 400 questionnaires correspond to a sampling error of 2.8 per cent with
+a confidence interval of 95 per cent.
+The questionnaires were discharged because tourists who responded were not
+aware of METG or due to the number of missing values.
+A questionnaire administered face to face was chosen to collect data. Respondents
+were randomly approached at the check-in area of the airport. Interviewing
+respondents at the check-in area were selected for three main reasons. First, it was
+possible to identify where the tourists were travelling to, facilitating the selection of the
+nationals from the required countries. Second, because tourists were queuing, there
+was little competition from other activities for the traveller’s time and attention. Thus,
+they tend to be more willing to participate, increasing the response rate. Finally, by
+approaching tourists at departure, it was possible to analyse their use of information
+sources, including METG, during their stay.
+Also, several steps were taken to ensure the generalizability, validity and reliability
+of the data. The survey was constructed based on the previously identified surveys
+(Zipf and Malaka, 2001; Krug et al., 2003). The survey was adapted to fulfill the
+purpose of the study and organized to avoid bias throughout the answering process.
+In addition, the questionnaire was pre-tested with a sub-sample of 50 passengers from
+which minor amendments were made.
+4.2 Measurement of the constructs
+Knowledge was measured by one statement focusing on the tourists’ level of knowledge
+of METG (Krug et al., 2003), ranging from “no knowledge” to “know extremely well”
+(five-point scale). As far as usefulness is concerned, respondents were asked to rate the
+performance of METG on a range of 16 attributes based on Zipf and Malaka (2001) and
+Krug et al. (2003), highlighting all the characteristics that could be perceived to be
+reflecting usefulness. Usefulness was approached from a confirmation-disconfirmation
+point of view (Oliver, 1980; Danaher and Haddrell, 1996; Szymanski and Henard, 2001)
+and thus was measured using a five-point scale, ranging from “much worse than
+expected” to “much better than expected”. Attitude was measured using one statement
+pertaining to the overall evaluation of the experience (five-point scale from “really
+dislike” to “like very much”). Finally, behavioural intention was measured using one
+item asking respondents about the likelihood of future usage of METG (five-point scale
+from “no intention” to “intend to use for sure”).
+4.3 Data analysis
+Structural equation modeling (SEM) was used to identify the indicators of intention to
+use METG. SEM specifies and estimates multi-equations models of latent variables
+(non-observable) that are anchored in observable (measurable) variables. The analysis
+of structural models consists of two stages (Hair et al., 1998). First, exploratory factor
+analysis (EFA) is performed in order to identify the variables that make up each of the
+latent variables. Second, confirmatory factor analysis (CFA) is performed to confirm
+
+Mobile electronic
+tourist guides
+
+129
+
+JHTT
+2,2
+
+130
+
+the results of the EFA and to ascertain if all the constructs correlate freely. Next, the
+measurement model that provides the best fit for the data is estimated. In other words,
+the analysis identifies whether it is possible to improve the structural model until the
+best fit is achieved. Three types of measures were used to test the overall fit of model.
+The absolute fit index assesses how well the theoretical model fits the data, while the
+incremental fit index evaluates the proportionate fit by comparing a target model with
+a more restricted, nested baseline model (Hu and Bentler, 1995). Finally, the moderated
+index gauges the degree to which the model fits the data. After testing the hypothesis,
+a standardized regression coefficient is produced for each significant path, showing the
+direction and the strength of the relationships.
+5. Results
+The EFA measures the latent variable usefulness. The development of the
+measurement scales was performed in order to reduce the dimensionality of the data
+and to identify the main factors relating to usefulness. As Table I shows, the initial
+16 items used to measure usefulness where reduced to two new factors, which together
+accounted for 70.5 per cent of the total variance (KMO ¼ 0.81; Bartlett test: p ¼ 0.000).
+The internal consistency of these factors, measured by the corresponding Cronbach’s
+a coefficients, is very good (i.e. they are at least equal or superior to 0.9 in all cases).
+The results suggest that the usefulness of METG is determined by its functionality and
+quality. Generally speaking, functionality involves availability, trust and presentation,
+whereas quality is associated with quality, ease of use and currentness. The usefulness
+construct was referred to a composite index of the two factors: functionality and
+quality.
+A CFA model assessed and validated the measurement model of the determinants of
+latent variable usefulness, knowledge, attitude and intention. This model fits the data
+well which allows to proceed with the structural model to test the conceptual model.
+Loadings
+Functionality
+
+Table I.
+Usefulness: results
+of the EFA
+
+Mobility
+Flexibility
+Functionality
+Speed of access
+Availability
+Information organisation
+Presentation
+Size
+Trust
+Price
+Currentness
+Quality
+Veracity
+Ease of use
+Simplicity
+Quantity
+Percentage of variance (total: 70.5)
+Cronbach’s a
+
+Quality
+
+Mean
+
+0.84
+0.82
+0.78
+0.76
+0.65
+0.62
+7.1
+0.920
+
+2.71
+2.72
+2.74
+2.71
+2.88
+2.79
+2.84
+2.59
+2.86
+2.75
+2.93
+2.99
+2.88
+2.97
+2.91
+2.77
+–
+–
+
+0.82
+0.82
+0.79
+0.77
+0.73
+0.72
+0.70
+0.68
+0.64
+0.54
+
+63.4
+0.949
+
+Six cause-effect relationships between the different variables were established:
+usefulness was determined by knowledge (H1), a favourable attitude was dependent on
+a positive perceived usefulness (H2) and intention was dependent on attitude (H3). In
+addition, the model speculated that intention was determined by knowledge (H4),
+usefulness was related to intention (H5) and attitude was determined by knowledge
+(H6). The model was estimated using the asymptotical distribution-free methods as
+this can accommodate variables using different types of scale.
+The results of the initial-estimated model revealed several relationships that were
+not statistically significant and the removal of these relationships improved the
+performance of the various indices. The fit indices of the structural model indicate a
+good fit to the data (Table II). The values of the incremental fix indices are close to 1
+and the values of the absolute indices close to 0, while the p value of the x 2 is
+non-significant. The standardized regression coefficients of the paths are statistically
+significant at the 0.001 or 0.05 level (Figure 1), providing support for four out of the
+six hypothesised relationships.
+The estimate for H1 is 0.706 ( p , 0.001), indicating the existence of a strong
+positive effect of knowledge on perceived usefulness. There was also a positive
+relationship between perceived usefulness and attitude (b ¼ 0.184; p , 0.05),
+suggesting that the greater the level of perceived usefulness, the more positive was
+the attitude towards using METG. Thus, H2 cannot be rejected. Hypothesising a
+sequential decision process by tourists, the model speculated that a more positive
+attitude would lead to a greater level of intention. The positive regression coefficient
+Absolute fix index
+
+Mobile electronic
+tourist guides
+
+131
+
+Incremental fix index
+
+RMSR ¼ 0.021
+RMSEA ¼ 0.011
+
+AGFI ¼ 0.968
+NFI ¼ 0.965
+TLI ¼ 0.995
+IFI ¼ 0.998
+RFI ¼ 0.895
+CFI ¼ 0.998
+GFI ¼ 0.994
+
+x 2 ¼ 2.096
+p ¼ 0.351; df ¼ 2
+
+Table II.
+Measures of the
+structural model
+
+Knowledge
+H1
+
+H2
+
+Attitude
+
+H3
+
+Usefulness
+
+H4
+
+Intention
+
+Figure 1.
+Conceptual model
+
+JHTT
+2,2
+
+132
+
+(b ¼ 0.219; p , 0.001) indicates that H3 cannot be rejected. Given the relative newness
+of the system in the market, it was also hypothesised that knowledge would be a
+determinant of intention (H4). The results indicate that the greater the knowledge, the
+more positive the intention as given by the positive and significant regression
+coefficient (b ¼ 0.163; p , 0.001). Finally, the path coefficients from perceived
+usefulness to intention (H5) as well as the new proposed path relationship from
+knowledge to attitude (H6) did not show a significant result. Thus, both hypotheses are
+not accepted (Figure 2).
+6. Conclusions and managerial implications
+Searching and using information is an important activity performed by tourists which
+can greatly affect the way they experience the destination. Similar to many other areas of
+the tourism industry, technological developments are re-shaping the way destinations
+interact with tourists. The potential of mobile technologies is significant, given that they
+provide access to dynamic tourist information that follows tourists wherever they go.
+At a time where the number of people living a “wired” lifestyle is growing, destinations
+need to engage themselves in the process of making the most of the opportunities these
+technological developments entail. In this context, METG appear to be one important
+platform for the delivery of services supported upon mobile technologies. In an attempt
+to enhance our understanding of the adoption of this service by tourists, this paper
+developed and tested a model for examining tourists’ acceptance of METG. Adaptation
+the TAM (Davis, 1989) as theoretical underpinning, the overall contention of this paper
+was that behavioural intention is an important indicator for tourists’ acceptance of
+METG. The model considered three antecedents of intention: knowledge, usefulness and
+attitude. The relationships between them and between these and intention were explored
+using SEM.
+0.199
+
+Knowledge
+
+0.706**
+
+0.361
+
+Attitude
+
+0.184*
+
+0.219**
+
+Usefulness
+0.163**
+
+Intention
+
+Figure 2.
+Results of structural
+model for the intention
+to use METG
+
+0.133
+Notes: *p < 0.05; **p < 0.001
+
+0.335
+
+The findings revealed that tourists’ behavioural intentions could be raised through
+attitude by ensuring greater levels of perceived usefulness. Usefulness, in turn, is
+highly influenced by the tourists’ level of knowledge regarding METG. In addition,
+there was also a direct significant path between knowledge and behavioural intention,
+suggesting that good levels of knowledge of the service are a pre-condition for greater
+of usage of METG. From these results, it is clear that an education programme is
+required. This programme should focus on developing two types of knowledge
+(Rogers, 1995): awareness knowledge (information that METG exist), how-to
+knowledge (information required to use METG). The extent to which individuals
+develop these two types of knowledge appears to be a critical influence on adoption,
+given that without knowing that METG exist and holding some understanding of how
+it functions adoption will not take place. Simultaneously, communication of the
+benefits and their delivery are required in order to ensure greater levels of usage of
+METG. This task requires a joint effort by technology, tourism and electronic guides
+suppliers, as well as the tourist board. The communication strategy needs to focus on
+the three levels: knowledge, usefulness and attitude. Rogers (1995) argues that the
+extent to which consumers trial the innovation influences its adoption. Providing
+opportunities for trial in a more restricted environment, such as tourist attractions,
+could not only ensure that tourists are made aware of such systems, but helping them
+to realise the usefulness of METG.
+The results of this paper have important theoretical implications. TAM assumes
+that ease of use and usefulness are important predictors of behavioural intention.
+This study indicates that usefulness could be depicted through the main characteristics
+of METG. Furthermore, despite the importance of usefulness, knowledge is much more
+important at least in the early stages of adoption of a technology as it is the case of
+METG. This casts doubt over the predictive ability of the TAM in the context of
+innovations at their early stages of diffusion and where potential adopters know little
+about them. Therefore, conceptual models studying the acceptance of this type of
+innovations should incorporate knowledge as an explanatory variable.
+In sum, the degree of acceptance of METG by tourists suggests that learning starts
+with knowledge, which then contributes to forming perceptions about them
+(usefulness) which influences behavioural intentions. However, knowing about a
+technology does not mean the person uses it or even holds a positive attitude towards
+it. Despite evidence suggesting the importance of knowledge in the adoption of METG,
+a large number of tourists still do not use them.
+Future studies could use the full version of the TAM by including other measures of
+knowledge beyond awareness knowledge, such as how-to knowledge, as suggested by
+Rogers (1995). Moreover, the model could be tested in different settings, including
+different destinations. This study did not differentiate between types of tourists, such
+as tourists from different nationalities or travelling for different types of motives
+(e.g. leisure versus business). Hence, future studies could attempt to understand if the
+intention to adopt METG is influenced by different segments and also in further
+studies should considered knowledge as a multidimensional construct in the intention
+to adopt this channel of information.
+The findings of this study contribute to enhancing our understanding of how
+tourists perceive using mobile technologies in the context of the travelling experience.
+They can be used to inform local and national strategies aimed at developing
+
+Mobile electronic
+tourist guides
+
+133
+
+JHTT
+2,2
+
+Portugal’s (and other countries’) credentials as digital destinations. This study
+identified a number of issues that need to be addressed if greater levels of usage of the
+service are to be achieved. Ultimately, developing a high-quality mobile technology
+experience will not only improve the tourist’s knowledge and experience of the
+destination, but also enhance its innovative and creative image among potential and
+actual tourists.
+
+134
+References
+Adams, D.A., Nelson, R.R. and Todd, P.A. (1992), “PU, ease of use, and usage of information
+technology: a replication”, MIS Quarterly, June, pp. 227-47.
+Agarwal, R. and Prasad, J. (1997), “The role of innovation characteristics and perceived
+voluntariness in the acceptance of information technologies”, Decision Sciences, Vol. 28
+No. 3, pp. 557-82.
+Agarwal, R. and Prasad, J. (1999), “Are individual differences germane to the acceptance of new
+information technologies?”, Decision Sciences, Vol. 30 No. 2, pp. 361-91.
+Ajzen, I. and Fishbein, M. (1980), Understanding Attitudes and Predicting Social Behaviour,
+Prentice-Hall, Upper Saddle River, NJ.
+Atkinson, M.A. and Kydd, C. (1997), “Individual characteristics associated with World Wide Web
+use: an empirical study of playfulness and motivation”, Data Base for Advances in
+Information Systems, Vol. 28 No. 2, pp. 53-62.
+Cao, X. and Mokhtarian, P.L. (2005), The Intended and Actual Adoption of Online Purchasing:
+A Brief Review of Recent Literature, Institute of Transport Studies, University of
+California, Davis, CA.
+Chen, L. and Tan, J. (2004), “Technology adaptation in e-commerce: key determinants of virtual
+sores acceptance”, European Management Journal, Vol. 22 No. 1, pp. 74-86.
+Chen, L., Gillenson, M. and Sherrel, D. (2002), “Enticing online consumers: an extended
+technology acceptance perspective”, Information & Management, Vol. 39, pp. 705-19.
+Cheverst, K., Davies, N., Mitchel, K., Friday, A. and Efstratiou, C. (2000), “Developing a
+context-aware electronic tourist guide: some issues and experiences”, Proceedings of the
+SIGCHI Conference on Human Factors in Computing Systems, The Hague,
+The Netherlands, ACM, New York, NY, pp. 17-24.
+Childers, T., Carr, C., Peck, J. and Carson, S. (2001), “Hedonic and utilitarian motivations for
+online retail shopping behaviour”, Journal of Retailing, Vol. 77, pp. 511-35.
+Chin, W.W. and Gopal, A. (1995), “Adoption intention in GSS: relative importance of beliefs”,
+DATA BASE for Advances in Information Systems, Vol. 26 Nos 2-3, pp. 42-64.
+Clarke, K. and Belk, R.W. (1978), “The effects of product involvement and task definition on
+anticipated consumer effort”, in Hunt, H.K. (Ed.), Advances in Consumer Research, Vol. 5,
+Association for Consumer Research, Ann Arbor, MI, pp. 313-18.
+Compeau, D.R. and Higgins, C.A. (1995), “Computer self-efficacy: development of a measure and
+initial test”, MIS Quarterly, Vol. 19 No. 2, pp. 189-211.
+Cooper, S. and Donald, I. (2001), “A facet approach to extending the normative components of the
+theory of reasoned action”, British Journal of Social Psychology, Vol. 40, pp. 599-621.
+Danaher, P. and Haddrell, V. (1996), “A comparison of question scales used for measuring
+customer satisfaction”, International Journal of Service Industry Management, Vol. 7 No. 4,
+pp. 4-26.
+
+Davis, F.D. (1986), “A technology acceptance model for empirically testing new end-user
+information systems: theory and results”, doctoral dissertation, Sloan School of
+Management, MIT, Cambridge, MA.
+Davis, F.D. (1989), “Perceived usefulness, perceived ease of use and user acceptance of
+information technology”, MIS Quarterly, September, pp. 319-39.
+Davis, F., Bagozzi, R. and Warshaw, P. (1989), “User acceptance of computer technology:
+a comparison of two theoretical models”, Management Science, Vol. 35 No. 8, pp. 982-1003.
+Dillman, D.A. (1978), Mail and Telephone Surveys, the Total Design Method, Wiley, New York, NY.
+DiPietro, R.B., Wang, Y., Rompf, P. and Severt, D. (2007), “At-destination visitor information
+search and venue decision strategies”, International Journal of Tourism Research, Vol. 9
+No. 3, pp. 175-88.
+Engel, J., Blackwell, R. and Miniard, P. (1995), Consumer Behaviour, 8th ed., The Dryden Press,
+Forth Worth, TX.
+Eriksson, N. and Strandvik, P. (2009), “Possible determinants affecting the use of mobile tourism
+services”, Communications in Computer and Information Science, Vol. 48 No. 2, pp. 61-73.
+Fenech, T. (1998), “Using perceived ease of use and perceived usefulness to predict acceptance of
+the World Wide Web”, Computer Networks & ISDN Systems, Vol. 30, pp. 629-30.
+Fishbein, M. and Azjen, I. (1975), Belief, Attitude, Intention, and Behavior, Addison-Wesley,
+Reading, MA.
+Flognfeldt, T. and Nordgren, R.F. (1999), “Information use for decision of making temporary
+stops along tourist routes in Norway”, paper presented at Annual TTRA Conference,
+Halifax.
+Fodness, D. and Murray, B. (1999), “A model of tourist information search behavior”, Journal of
+Travel Research, Vol. 37 No. 1, pp. 220-30.
+Gitelson, R.J. and Crompton, J.L. (1993), “The planning horizons and sources of information used
+by pleasure vacationers”, Journal of Travel Research, Vol. 21 No. 3, pp. 2-7.
+Goeldner, C.R. and Ritchie, J.R. (2003), Tourism – Principles, Practices, Philosophies, 9th ed.,
+Wiley, Hoboken, NJ.
+Gursoy, D. and Chen, J. (2000), “Competitive analysis of cross cultural information search
+behavior”, Tourism Management, Vol. 21 No. 6, pp. 583-90.
+Gursoy, D. and Umbreit, W. (2004), “Tourist information search behaviour: cross-cultural
+comparison of European Union member states”, International Journal of Hospitality
+Management, Vol. 23, pp. 55-70.
+Hair, J.F., Anderson, R.E., Tatham, R.L. and Black, W.C. (1998), Multivariate Data Analysis,
+5th ed., Prentice-Hall, Englewood Cliffs, NJ.
+Hendrickson, A.R., Massey, P.D. and Cronan, T.P. (1993), “On the test-retest reliability of PU and
+PEU scales”, MIS Quarterly, June, pp. 227-30.
+Ho, S., Ahn, J. and Kim, B. (2003), “Adoption of broadband internet in Korea: the role of
+experience in building attitudes”, Journal of Information Technology, Vol. 18, December,
+pp. 267-80.
+Howard, J. and Sheth, A. (1969), The Theory of Buyer Behaviour, Wiley, New York, NY.
+Hsieh, S. and O’Leary, J.T. (1993), “Communication channels to segment pleasure travelers”,
+in Usay, M. and Fesenmaier, D. (Eds), Communication and Channels Systems in Tourism
+Marketing, The Hawthorn Press, New York, NY.
+Hu, L.T. and Bentler, P. (1995), “Evaluating model fit”, in Hoyle, R. (Ed.), Structural Equation
+Modeling: Concepts, Issues, and Applications, Sage, London, pp. 76-99.
+
+Mobile electronic
+tourist guides
+
+135
+
+JHTT
+2,2
+
+136
+
+Igbaria, M. and Iivari, J. (1995), “The effects of self-efficacy on computer usage”, Omega, Vol. 23
+No. 6, pp. 587-605.
+Igbaria, M., Guimaraes, T. and Davis, B.D. (1995), “Testing the determinants of microcomputer
+usage via a structural equation model”, Journal of Management Information Systems,
+Vol. 11 No. 4, pp. 87-114.
+Karahanna, E. and Straub, D. (1999), “The psychological origins of perceived usefulness and ease
+of use”, Information & Management, Vol. 35, pp. 237-50.
+Kassarjian, H.H. and Robertson, T.S. (1991), Perspectives in Consumer Behaviour, 4th ed.,
+Prentice-Hall, Engelwood Cliffs, NJ.
+Keen, C., Wetzels, M., Ruyter, K. and Feinberg, R. (2004), “E-tailers versus retailers: which factors
+determine consumer preference”, Journal of Business Research, Vol. 57 No. 7, pp. 685-95.
+Kramer, R., Modsching, M., Hagen, K. and Gretzel, U. (2007), “Behavioural impacts of mobile tour
+guides”, Information and Communication Technologies in Tourism, Vol. 3, pp. 109-18.
+Krug, K., Abderhalden, W. and Haller, R. (2003), “User needs for location-based services in
+protected areas: case study Swiss National Park”, Information Technology & Tourism,
+Vol. 5 No. 4, pp. 235-42.
+Lee, J. and Mills, J. (2007), “Exploring tourist satisfaction with mobile technology”, in Sigala, M.,
+Mich, L. and Murphy, J. (Eds), Information and Communication Technologies in Tourism,
+Springer, Wien, pp. 141-52.
+Liaw, S. (2002), “Understanding user perceptions of world-wide web environments”, Journal of
+Computer Assisted Learning, Vol. 18, pp. 137-48.
+Luarn, P. and Lin, H. (2005), “Toward an understanding of the behavioural intention to use
+mobile banking”, Computers in Human Behaviour, Vol. 21, pp. 873-91.
+Mansfeld, Y. (1992), “From motivation to actual travel”, Annals of Tourism Research, Vol. 19,
+pp. 399-419.
+Mathieson, A. and Wall, G. (1982), Tourism: Economic, Physical and Social Impacts, Longman,
+London.
+Mathieson, K. (1991), “Predicting user intentions: comparing the technology acceptance model
+with the theory of planned behaviour”, Information Systems Research, Vol. 2 No. 3,
+pp. 173-91.
+Mathieson, K., Peacock, E. and Lin, W. (2001), “Extending the technology acceptance model: the
+influence of perceived user resources”, Database for Advances in Information Systems,
+Vol. 32 No. 3, pp. 86-112.
+Mintel (2006), Independent Travel – UK – September, Mintel International Group Ltd, London,
+available at: http://reports.mintel.com/ (accessed 30 September 2007).
+Mozeith, C., Belbona, S. and Cohanoglu (2009), “The adoption of restaurant-based e-service”,
+Journal of Foodservice Business Research, Vol. 12 No. 3, pp. 247-65.
+Nishimura, S., King, B. and Waryszak, R. (2007), “The use of travel guidebooks by packaged and
+non-packaged Japanese travellers: a comparative study”, Journal of Vacation Marketing,
+Vol. 13 No. 4, pp. 291-310.
+Nishimura, S., Waryszak, R. and King, B. (2006), “The use and perceived usefulness of
+information sources among Japanese overseas tourists”, Tourism and Hospitality
+Research, Vol. 6 No. 4, pp. 284-95.
+Oliver, R. (1980), “A cognitive model of antecedents and consequences of satisfaction decisions”,
+Journal of Marketing Research, Vol. 17, pp. 460-9.
+Rogers, E. (1995), The Diffusion of Innovations, 4th ed., The Free Press, New York, NY.
+
+Rompf, P., DiPietro, R.B. and Ricci, P. (2005), “Locals’ involvement in travelers’ information
+search and venue decision strategies while at destination”, Journal of Travel and Tourism
+Marketing, Vol. 18 No. 3, pp. 11-22.
+
+Mobile electronic
+tourist guides
+
+Rosenberg, M. and Hovland, C. (1960), “Cognitive, affective and behavioural components of
+attitudes”, in Rosenberg, M., Hovland, C., McGuire, W., Abelson, R. and Brehm, J. (Eds),
+Attitude Organisation and Change, Yale University Press, New Haven, CT, pp. 1-14.
+Sandhu, K. and Corbitt, B. (2002), “Exploring an understanding of electronic service end-user
+adoption”, The International Federation for Information Processing, WG8.6, Sydney.
+Sarker, S. and Wells, J. (2003), “Understanding mobile handheld device, use and adoption”,
+Communications of the ACM, Vol. 46, p. 12.
+Schmidt-Belz, B., Laamanen, H., Poslad, S. and Zipf, A. (2003), “Location-based mobile tourist
+services: first user experiences”, in Frew, A., Hitz, M. and O’Connor, P. (Eds), Information
+and Communication Technologies in Tourism, Springer, Wien, pp. 115-23.
+Segars, A.H. and Grover, V. (1998), “Strategic information systems planning success:
+an investigation of the construct and its measurement”, MISQ, Vol. 22 No. 2, pp. 139-63.
+Sheldon, P. (1997), Tourism Information Technology, CABI, Wallingford.
+Snepenger, D., Meged, K., Snelling, M. and Worral, K. (1990), “Information search strategies by
+destinations-naive tourists”, Journal Travel Research, Vol. 29 No. 1, pp. 13-16.
+Straub, D., Limayem, M. and Karahanna-Evaristo, E. (1995), “Measuring system usage:
+implications for IS theory testing”, Management Science, Vol. 41 No. 8, pp. 1328-42.
+Subramanian, G.H. (1994), “A replication of PU and PEU measurement”, Decision Sciences,
+Vol. 25 Nos 5/6, pp. 863-74.
+Szymanski, D. and Henard, D. (2001), “Customer satisfaction: a meta-analysis of the empirical
+evidence”, Journal of the Academy of Marketing Science, Vol. 29 No. 1, pp. 16-35.
+Tjostheim, I. and Fesenmaier, D. (2008), “Mobile devices as substitute or supplement to
+traditional information sources: city tourists, mobile guides and GPS navigation”,
+Information and Communication Technologies in Tourism, Vol. 10, pp. 324-35.
+Venkatesh, V. (2000), “Determinants of perceived ease of use: integrating perceived behavioral
+control, computer anxiety and enjoyment into the technology acceptance model”,
+Information Systems Research, Vol. 11 No. 4, pp. 342-65.
+Venkatesh, V. and Davis, F.D. (1996), “A model of the antecedents of PEU: development and
+test”, Decision Sciences, Vol. 27 No. 3, pp. 451-81.
+Venkatesh, V. and Davis, F. (2000), “A theoretical extension of the technology acceptance model:
+four longitudinal field studies”, Management Science, Vol. 46 No. 2, pp. 186-204.
+Vijayasarathy, L. (2004), “Predicting consumer intentions to use online shopping: the case for an
+augmented technology acceptance model”, Information & Management, Vol. 41,
+pp. 747-62.
+Vogt, C. and Fesenmaier, D. (1998), “Expanding the functional information search model”,
+Annals of Tourism Research, Vol. 25, pp. 551-78.
+Watson, R.T., Akselsen, S., Monod, E. and Pitt, L. (2004), “The open tourism consortium: laying
+the foundations for the future of tourism”, European Management Review, Vol. 22 No. 3,
+pp. 315-26.
+Wöber, K. and Gretzel, U. (2000), “‘Tourism managers’ adoption of marketing decision support
+systems”, Journal of Travel Research, Vol. 39 No. 2, pp. 172-81.
+
+137
+
+JHTT
+2,2
+
+138
+
+Yi, M.Y. and Venkatesh, V. (1996), “Role of computer self-efficacy in predicting user acceptance
+and use of information technology”, Proceedings of the Americas Conference on
+Information Systems, Phoenix, AZ, pp. 244-6.
+Yoon, Y. and Uysal, M. (2005), “An examination of the effects of motivation and satisfaction on
+destination loyalty: a structural model”, Tourism Management, Vol. 26 No. 1, pp. 45-56.
+Yuksel, A. and Yuksel, F. (2002), “Market segmentation based on tourists’ dining preferences”,
+Journal of Hospitality & Tourism Research, Vol. 26, pp. 315-31.
+Zipf, A. and Malaka, R. (2001), “Developing location based services for tourism: the service
+providers’ view”, in Sheldon, P. (Ed.), Information and Communication Technologies in
+Tourism, Springer, Wien, pp. 83-92.
+Further reading
+Correia, A., Valle, P. and Moço, C. (2007), “Modelling motivations and perceptions of Portuguese
+tourists”, Journal of Business Research, Vol. 60, pp. 76-80.
+George, J. (2002), “Influences on the intent to make internet purchases”, Internet Research:
+Electronic Networking Applications and Policy, Vol. 12 No. 2, pp. 165-80.
+Corresponding author
+Rita Peres can be contacted at: rita.peres@eshte.pt
+
+To purchase reprints of this article please e-mail: reprints@emeraldinsight.com
+Or visit our web site for further details: www.emeraldinsight.com/reprints
+
+

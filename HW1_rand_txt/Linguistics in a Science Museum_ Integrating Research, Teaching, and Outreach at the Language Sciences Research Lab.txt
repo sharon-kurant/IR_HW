@@ -1,0 +1,773 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/315953193
+
+Outreach and Engagement in a Science Museum
+
+Article  in  Anthropology News · June 2016
+
+DOI: 10.1111/AN.28
+
+CITATIONS
+0
+
+7 authors, including:
+
+Leslie C. Moore
+
+The Ohio State University
+
+37 PUBLICATIONS   587 CITATIONS   
+
+SEE PROFILE
+
+Shari Speer
+
+The Ohio State University
+
+69 PUBLICATIONS   1,869 CITATIONS   
+
+SEE PROFILE
+
+READS
+98
+
+Laura Wagner
+
+The Ohio State University
+
+88 PUBLICATIONS   1,071 CITATIONS   
+
+SEE PROFILE
+
+Elizabeth A. Mccullough
+
+University of Washington Seattle
+
+20 PUBLICATIONS   162 CITATIONS   
+
+SEE PROFILE
+
+Some of the authors of this publication are also working on these related projects:
+
+Expanding Repertoires of Practice: Improving Informal Science Learning for Preschool Dual Language Learners View project
+
+Sociolinguistic perception in real time View project
+
+All content following this page was uploaded by Kiwako Ito on 17 September 2018.
+
+The user has requested enhancement of the downloaded file.
+
+Language and Linguistics Compass 9/7 (2015): 420–431, 10.1111/lnc3.12164
+
+Linguistics in a Science Museum: Integrating Research,
+Teaching, and Outreach at the Language Sciences Research
+Lab
+
+Laura Wagner1*, Shari R. Speer1, Leslie C. Moore1,2, Elizabeth A. McCullough1,
+Kiwako Ito1, Cynthia G. Clopper1 and Kathryn Campbell-Kibler1
+1The Ohio State University
+2Utrecht University
+
+Abstract
+We describe the mission and practices of the Language Sciences Research Lab, a fully functional research
+lab embedded within a science museum. Within this environment, we integrate cutting-edge research,
+formal instruction, informal learning, and outreach to the public so that our work in each domain inter-
+acts with and enriches the others. We are guided by core concepts from the field of informal science ed-
+ucation, and we strive to inspire excitement and expand both scholarly and public knowledge about the
+language sciences.
+
+1. Introduction
+
+In recent years, linguists have developed a range of ways to successfully integrate research, teach-
+ing, and outreach activities, motivated in part by a principle clearly articulated by Wolfram
+(2011:111): ‘If linguists firmly believe that understanding the nature of language is central to un-
+derstanding human cognition and behavior, then we owe it to the profession to have more of a
+presence in public life.’ Research and teaching have been integrated in efforts to meaningfully
+involve students in research as participants (Wanjema et al. 2013) or as contributing researchers
+to long-term projects (Labov & Rosenfelder 2011; Maclagan & Gordon 1999). Teaching and
+outreach have been integrated in university service-learning courses (Fitzgerald 2010) and in var-
+ious paths forged by linguists to reach middle and high school students. This work has introduced
+students to scientific perspectives on language diversity and to a discipline that is often undiscov-
+ered before undergraduate or even graduate education (Bucholtz et al. 2014; Clark & Trousdale
+2012; Culicover & Hume 2013; Denham & Lobeck 2014; Estival et al. 2014; Honda & O’Neil
+1993; Lidz & Kronrod 2014; Reaser & Adger 2007; Stewart & Kuhlemann Cárdenez, 2010;
+Wolfram, Reaser & Vaughn 2008). Sociolinguists have long recognized the need to give back
+to the communities in which they collect data (Labov, 1982; Rickford 1997, 2000; Wolfram
+1993; Wolfram et al., 2008), and efforts in that subfield have often focused on fostering public
+understanding of and respect for historically stigmatized language varieties. In some subfields,
+however, linguistics outreach to the general public is not yet well developed (Purnell et al. 2013).
+We have found that an exciting and effective way to engage with the public is through in-
+formal science education inside a science museum. Whereas language is often contrasted with
+science in formal education settings (e.g., the ‘language arts’ versus science and math), informal
+science institutions are spaces in which people are primed to learn about the scientific study of
+language. As linguists are well aware, a great deal of our understanding of how language works
+
+© 2015 The Author
+Language and Linguistics Compass © 2015 John Wiley & Sons Ltd
+
+Linguistics in a Science Museum 421
+
+rests on investigations using traditional scientific methods. Given that non-specialists often make
+decisions about how to distribute funding across disciplines, public understanding of linguistics as
+a science is increasingly important. The Language Sciences Research Lab opened in 2012 within
+the Center of Science and Industry (COSI) in Columbus, Ohio, with the mission to conduct
+cutting-edge research to excite the public about science while expanding our knowledge about
+language. We have developed a repertoire of practices grounded in informal science learning
+research in which research, teaching, and outreach are integrated to accomplish these goals.
+
+2. The Language Sciences Research Lab: A University-Museum Partnership
+The Language Sciences Research Lab, also known as the ‘Language Pod’, is housed within
+COSI’s Labs in Life, a research-in-real-time exhibit that consists of three glass-enclosed rooms
+(affectionately known as ‘pods’) inside which research is conducted within the public’s view (see
+Figure 1). The entire space was created and is maintained through a partnership between COSI
+and the Ohio State University (OSU), and both organizations provide funding and other ma-
+terial support for the space. Funding for the Language Pod’s internal operations (equipment,
+supplies, and part time staff ) comes from a variety of sources (see Acknowledgements), includ-
+ing the National Science Foundation. Any Ohio State faculty member who conducts language
+research (broadly construed) is eligible to use Language Pod resources for data collection in ex-
+change for their intellectual and service contributions to the Pod’s mission, such as developing
+an outreach activity or an educational opportunity for students. This ‘sweat equity’ is the only
+contribution required, ensuring that faculty members from a wide range of fields related to lan-
+guage sciences have the opportunity to conduct research and engage in associated teaching and
+outreach activities in the Pod.
+
+The university-museum partnership that makes the Language Pod possible is not unique.
+The Labs in Life exhibit ref lects a recent trend of museums making space for research that does
+not necessarily have a close topical connection with other museum exhibits or programs. The
+
+Fig. 1. The Language Sciences Research Lab, or Language Pod, in the Center of Science and Industry.
+
+© 2015 The Author
+Language and Linguistics Compass © 2015 John Wiley & Sons Ltd
+
+Language and Linguistics Compass 9/7 (2015): 420–431, 10.1111/lnc3.12164
+
+422 Laura Wagner et. al
+
+Living Laboratory project (http://www.livinglab.org) developed at the Museum of Science in
+Boston is the most developed and widely known model exemplifying this trend in the United
+States. For additional information about building relationships with museums for research and
+outreach, we recommend recent articles by Callanan (2012) and Sacco et al. (2014), as well as
+Alpert’s (2013) guide for university-based researchers and science museum professionals.
+Callanan (2012) describes different ways to do research in museums, different kinds of
+researcher-museum relationships, and what museums may get out of allowing research to be
+conducted in their spaces. She also provides advice for scholars who want to take their research
+to a museum setting. Sacco et al. (2014) provide an overview of informal science education,
+followed by several specific examples of scientists who are engaged in the practice, and sugges-
+tions for how to get involved. Alpert (2013) provides information and guidance on how univer-
+sity researchers can identify potential science museum partners, build and maintain healthy and
+productive relationships with them, and collaborate with them on grant proposals.
+
+3. Linguistics and Informal Science
+
+The location of the Language Pod in a science museum has inspired us to draw on informal sci-
+ence learning research in the development of our teaching and outreach activities. Language is a
+phenomenon with which everyone has direct and extensive experience, making linguistics well
+suited to a core goal of informal science education: to help people discover how scientific
+knowledge relates to everyday experiences and familiar phenomena. We have found that many
+linguistic research topics, such as language acquisition, sociolinguistic perception, and spoken
+and written sentence processing, can be leveraged to stimulate more general interest in scientific
+research among science museum visitors. Visitors to the Language Pod often share with us their
+questions and concerns about their children’s language development, their experience in detect-
+ing other people’s accents, and their interest in how we communicate with each other using
+particular speech styles. Thus, the Language Pod research and outreach activities are opportuni-
+ties to communicate with visitors about how linguistics research contributes to our understand-
+ing of and ability to address issues that matter to them.
+
+More formally, we have used the National Research Council (Bell et al. 2009) framework for
+understanding, promoting, and assessing science learning in settings such as COSI. The frame-
+work identifies six interrelated aspects of informal science learning, which are used to develop
+and design learning goals and outcomes for participants in informal science environments. Our
+summary of these strands is provided in (1).
+
+(1)
+
+(1) Sparking interest and excitement.
+(2) Understanding scientiﬁc content and knowledge.
+(3) Engaging in scientiﬁc reasoning.
+(4) Reﬂecting on science.
+(5) Using the tools and the language of science.
+(6) Identifying with the scientiﬁc enterprise.
+
+The Language Pod’s direct engagement of visitors with research studies helps us touch on
+several of these strands of informal science learning at once: being a research participant sparks
+interest (1), shows visitors how we reason scientifically (3) and the tools we use to investigate
+science (5), expands on content knowledge through the debriefing process (2), and often leads
+visitors to identify with the scientific enterprise (6) and ref lect on how we use it to investigate
+language (4). Our educational activities conducted on the museum f loor tend to focus on a
+
+© 2015 The Author
+Language and Linguistics Compass © 2015 John Wiley & Sons Ltd
+
+Language and Linguistics Compass 9/7 (2015): 420–431, 10.1111/lnc3.12164
+
+Linguistics in a Science Museum 423
+
+specific language phenomenon (see Section 6) and typically serve to get visitors excited about
+language (1), develop their content knowledge (2), and to a limited extent, help them engage
+in scientific reasoning (3).
+
+In addition, language as an object of study lends itself well to four of the primary strategies
+used to promote learning in informal science institutions such as COSI: juxtaposition, multiple
+modes, interactivity, and social interaction (Bell et al. 2009; Fenichel & Schweingruber 2010).
+Everyone has beliefs about how language works, and these beliefs provide linguists with ample
+opportunities to juxtapose museum visitors’ understanding of linguistic phenomena with the
+formal disciplinary ideas that explain them. Further, language is naturally multimodal, involving
+both auditory and visual information, which provides different ways for museum visitors to
+engage with linguistic concepts, practices, and phenomena. Finally, interaction between people
+is the natural environment of language, which means that linguists have no trouble providing
+visitors with diverse opportunities to interact with each other at the same time as they interact
+with linguistic phenomena and the instruments linguists use to study them.
+
+Finally, linguists are well placed to support science museums in helping the public to better
+understand diversity, given the long traditions in the field of explicitly studying linguistic diver-
+sity and conducting outreach in this domain (Labov 1982; Rickford 2000; Wolfram 1993; Wol-
+fram et al. 2008). Science museums are concerned with diversity, primarily in terms of
+broadening participation in informal science education and in science, technology, engineering,
+and mathematics (STEM) (Bell et al. 2009; Fenichel & Schweingruber 2010). Linguistics out-
+reach in science museums can help visitors rethink issues of language diversity, using scientific
+concepts, principles, and practices to create distance from their existing beliefs and attitudes and
+thereby help them see linguistic variation in a new light. Linguistics outreach can play a similar
+role for science museum staff, exhibit designers, and program developers. In addition, research
+conducted by linguists in the museum setting can help science museums better understand and
+better serve their diverse audiences. For example, one of the authors (Moore) has recently be-
+gun research on the informal science learning experiences of dual language learners, in collab-
+oration with partners at COSI and eight other museums. This project is supported by an NSF
+Advancing Informal STEM Learning Pathways grant.
+
+4. The Integration of Research, Teaching, and Outreach
+
+4.1. INTEGRATING RESEARCH AND OUTREACH
+
+At universities, it is common practice to have subject pools that encourage undergraduate stu-
+dents to actively participate in research. First-hand experience with scientific research through
+participation in an experiment offers an in-depth view of the research process and the concrete
+conditions under which linguistic data are created. The Language Pod applies this practice in the
+science museum setting and thereby facilitates our research and expands our engagement with
+the general public. Researchers in the lab offer visitors opportunities to serve as participants in
+ongoing research, to observe research in real time, and to discuss research with the scientists
+who are conducting the work.
+
+To encourage visitor participation, experiments conducted in the Language Pod are designed
+to be short (usually under 20 minutes long) and interesting to the general public. Debriefing ex-
+planations are constructed to be informative for a diverse population of museum visitors that in-
+cludes adults with advanced degrees, adults with no college education, and young children.
+These debriefings involve a verbal description of the research goals and predictions, an invitation
+to ask questions or engage with the researcher more deeply about the research, and a printed
+brochure with more information about the topic of the research, including the researcher’s
+
+© 2015 The Author
+Language and Linguistics Compass © 2015 John Wiley & Sons Ltd
+
+Language and Linguistics Compass 9/7 (2015): 420–431, 10.1111/lnc3.12164
+
+424 Laura Wagner et. al
+
+contact information and URLs to online resources with additional relevant information. Re-
+searchers in the Language Pod therefore gain valuable experience discussing their work with di-
+verse, non-academic audiences.
+
+In addition to active participation in research through experiments, COSI visitors can observe
+ongoing lab activities and thereby enhance their understanding of the process of scientific re-
+search. The appeal of ‘watching research in real time’ is regarded by COSI as one of our central
+contributions to their informal science environment. The research conducted in the lab gives us
+the opportunity to share with both research participants and casual viewers a visceral sense of the
+day-to-day workings of a research lab, as well as an idea of what questions are currently captur-
+ing researchers’ attention in the field of language science.
+
+4.2. INTEGRATING TEACHING AND OUTREACH
+
+The Language Pod has also developed a university-level course aimed at both undergraduate
+and graduate students called ‘Training in Informal Science Outreach’. The course involves class-
+room instruction and hands-on time at COSI, where the students engage in outreach activities
+with museum visitors. In addition, over the summer, this course is combined with a research in-
+ternship for students admitted to our NSF-funded summer program for undergraduates (NSF
+REU Site: The Science of Language and the Language of Science).
+
+One of the primary aims of the course is to develop future scientists and other language sci-
+ence professionals who can effectively communicate scientific understanding of language to di-
+verse audiences by drawing on principles and practices of informal science education. As part of
+the classroom instruction, students learn about core concepts in informal science learning, in-
+cluding the six strands [shown in (1) above] and key strategies in the informal science setting
+(e.g., juxtaposition, multiple modes, interactivity, and social interaction). Students draw on their
+learning about informal science education as they develop, practice, and discuss ways to pro-
+mote better understanding of language and linguistics, generate interest in and excitement
+about language and science, and convey to a wider public that language is a domain that can
+be – and is – investigated scientifically.
+
+Students’ outreach activities center on a set of demonstrations we have developed that are
+built around simple hands-on activities, each of which illustrates a basic concept in language sci-
+ence. Demonstrators stand on the museum f loor and engage passing visitors with a simple open-
+ing line, such as ‘Want to play a game?’. As the interaction between the demonstrator and the
+museum visitor(s) unfolds, the demonstrator introduces key points as appropriate. The demon-
+strator adjusts the activity to the age, comprehension, and interest level of a given visitor or
+group of visitors and presents the concepts in a pyramid structure, starting with the core take-
+home message and broadening to more complex knowledge with those visitors who are willing
+and able to pursue it.
+
+Our demonstrations cover a range of subfields in linguistics, including psycholinguistics (e.g.,
+the Stroop test), language acquisition (e.g., word learning strategies), dialect variation (e.g., a
+dialect quiz), sign languages (e.g., counting to 10 in American Sign Language and British
+Sign Language), audiology (e.g., the dangers of too-loud earbuds), sentence processing (e.g.,
+semantic illusions), and phonetics (e.g., iPad apps about the visual representation of sound).
+Written guidelines are maintained for each demonstration and are used for training students.
+The guidelines include background readings, instructions for completing the activity with vis-
+itors, and the pyramid of concepts.1 The capstone writing project for the course is to create
+guidelines for a new demonstration. Although this assignment is very challenging, every section
+of the class has produced at least one student-created demonstration currently in use.
+
+© 2015 The Author
+Language and Linguistics Compass © 2015 John Wiley & Sons Ltd
+
+Language and Linguistics Compass 9/7 (2015): 420–431, 10.1111/lnc3.12164
+
+Linguistics in a Science Museum 425
+
+The Language Pod has also coordinated with faculty teaching other language courses on
+campus to have their students create educational outreach slides that can be displayed to the
+COSI public. For example, one set of slides currently on display is a guessing game about his-
+torical word derivations for animal names (e.g., puccha > fox) created by students in a History
+of English class. In this way, we aim to broaden the range of linguists participating in outreach
+as well as the range of topics we cover at the museum.
+
+Museum visitors’ interest in interacting with faculty further inspired us to begin a program of
+‘Language Fairs’ that facilitate direct contact between faculty working in the lab and COSI vis-
+itors. Language Fairs are held periodically throughout the year on the museum f loor in front of
+the lab. Three to five researchers prepare demonstrations and share them with COSI visitors
+during a 2–3-hour event. These demonstrations are typically linked to the researchers’ own
+work, but the fairs also serve as an opportunity for senior members of the lab to pilot new out-
+reach activities for future use by the students.
+
+4.3. INTEGRATING RESEARCH AND TEACHING
+
+Since the Language Pod opened in 2012, 36 different research projects have been conducted,
+and over 10,000 COSI visitors have contributed to these projects as participants. The studies
+are conducted by faculty, post-doctoral researchers, and graduate students from eight OSU de-
+partments (Computer Science and Engineering, English, Linguistics, Music, Psychology, Span-
+ish and Portuguese, Speech and Hearing Sciences, and Teaching and Learning). Over 100
+undergraduate students have also been involved in the lab as research assistants, participant re-
+cruiters, and/or explainers of ongoing research. Thus, as in many campus labs, the research pro-
+cess itself involves training graduate and undergraduate students in language sciences research.
+The students in the ‘Training in Informal Science Outreach’ course are also integrated with
+the research component of the lab: they complete human subjects research ethics training and
+are listed as key personnel on lab research projects. They also receive training in the recruit-
+ment of museum visitors to be participants in ongoing research. Our recruitment techniques
+are probably the one aspect of our research that is dramatically different from those used in
+other settings. Student recruiters go out on the museum f loor and simply ask museum visitors
+if they ‘want to be in a science experiment’. If visitors are interested, students provide informa-
+tion about the experiment’s topic and length. If visitors continue to be interested, the recruiters
+escort them into the lab where a research assistant obtains informed consent and conducts the
+experiment. The lab provides no incentives to visitors to participate beyond the opportunity to
+be in a research study. Nevertheless, our recruiters typically report a 75–80% hit rate of visitors
+agreeing to participate.
+
+To facilitate their recruitment efforts and their potential future relationship with the lab, stu-
+dents in the training course learn about the different experiments being conducted in the lab
+throughout the semester, interact with student and faculty researchers, and witness what lan-
+guage science research in action looks like. Several students have gone on to become research
+assistants in the lab.
+
+5. Case Studies
+
+In Section 4, we provided an overarching description of the Language Pod, with an emphasis on
+the infrastructure that supports our research, teaching, and outreach efforts. In this section, we
+present two case studies to illustrate more concretely the integration of research, teaching,
+and outreach in the lab. Each case study ref lects a domain of research that is central to the lab
+– the first defined by its topic (dialect) and the second by its method (eye-tracking). In both
+
+© 2015 The Author
+Language and Linguistics Compass © 2015 John Wiley & Sons Ltd
+
+Language and Linguistics Compass 9/7 (2015): 420–431, 10.1111/lnc3.12164
+
+domains, multiple researchers are engaged in the research area, and a number of different re-
+search studies are being conducted.
+
+426 Laura Wagner et. al
+
+5.1. CASE STUDY 1: DIALECT
+
+Language variation, particularly regional US dialects, is a topic of widespread interest as well as
+widespread misinformation and also happens to be a research focus for several of our faculty.
+Research projects on variation span multiple topics and departments. One line of research
+(stemming from Campbell-Kibler, 2012) investigates the construction of accentedness within
+the state of Ohio, contrasting the treatment of established and widely circulated registers (Agha
+2007) like Southern or country speech with the less well-known difference between the Inland
+North and Midland varieties (Labov et al. 2006). Participants are asked to listen to a set of talkers
+and rate them for how accented they sound.
+
+The methods for this project are quite similar to those employed in other perception research,
+with some modifications made for the museum environment. One distinctive aspect of this
+project is that the structure of the task allows groups of individuals to participate together, so that
+all interested members of a visitor group are taken to a conference room within the lab space to
+participate at once. Short stimuli from 15 talkers are played one by one over a portable speaker
+system, and participants mark their accent assessment on a visual analog scale on a response sheet.
+After all talkers are presented, participants turn over their response sheets to provide their age,
+sex, regional history, and racial/ethnic identification. They also rate their perceptions of
+accentedness for different locations within Ohio (e.g., central Ohio, northwest Ohio, etc.). Par-
+ticipants are then asked a series of questions about their experience with the task and their per-
+ceptions of the talkers. Finally, the project is explained in depth as the visitors are debriefed.
+
+One of the great benefits to conducting research in the Language Pod is the abundance of
+children, including both pre-school-aged children as well as school-aged children, who are in
+the company of their parents or legal guardians. Several of our studies capitalize on this availabil-
+ity, examining the development of different aspects of dialect awareness, including their ability
+to classify talkers by their dialect ( Jones et al. 2015; Yan et al. 2014), their implicit attitudes to-
+wards talkers of different dialects (McCullough et al. 2015), and their ability to understand dif-
+ferent accents in noisy environments (Hill et al. 2015; Mabie et al. 2015). All of these studies
+involve working with individual child participants on a desktop computer using methods that
+can be – and have been – used in many other environments, such as forced-choice selection,
+ratings, and lexical identification. When the lab was originally equipped, one potential concern
+was that children would find the glass-enclosed space too distracting to be able to complete re-
+search studies. With that in mind, the desktop stations are set up along the wall so that partici-
+pants face away from the museum, thus minimizing visual distractions. In addition, when
+participants listen to speech sounds, audio is presented over high quality circumaural head-
+phones. Distraction has not proved to be an issue, however, and participants – including chil-
+dren – typically remain engaged with the task throughout each experiment.
+
+Dialect research is integrated into our outreach in several ways. The debriefing discussions
+following dialect-related experiments tend to be more extensive than they are for other studies,
+as visitors often have many questions and comments about the topic. Research assistants are
+trained to facilitate discussions that combat misconceptions and biases and encourage scientific
+curiosity about linguistic differences. On the museum f loor, one of our popular demonstrations
+walks visitors through the New York Times’ dialect survey (Vaux & Golder, 2002) online in-
+terface, leading to discussions of the overall idea of regional variation and some of its phonetic
+and lexical features. More generally, several demonstrations focusing on speech sounds (such as
+
+© 2015 The Author
+Language and Linguistics Compass © 2015 John Wiley & Sons Ltd
+
+Language and Linguistics Compass 9/7 (2015): 420–431, 10.1111/lnc3.12164
+
+Linguistics in a Science Museum 427
+
+one showing what sound looks like on a spectrogram) regularly lead to discussions of variation,
+especially regional variation.
+
+Our educational efforts, both in the undergraduate training course and in the NSF-funded
+summer internship program, likewise foreground language variation. Introducing students to
+the natural variation of human language is a key course goal, as is developing their skill in
+correcting common misconceptions about language. Students finish the course understanding
+the inherently variable nature of language, with the tools to spark interest and curiosity about
+it in others, including museum visitors. Recent evaluations of students from two semesters of
+our training course showed that students finished the course with a more accurate understand-
+ing of seven common myths related to language variation, raising their average score from 5.69
+(out of 7) at the start of the course to 6.13 at the end.
+
+5.2. CASE STUDY 2: EYE-TRACKING
+
+The lab is equipped with two eye-trackers: one is a stationary screen-based system (Tobii T60),
+and the other is a mobile head-mounted system (ASL Mobile eye XG). Several researchers in
+the lab conduct experiments with these systems using museum visitors as participants. For exam-
+ple, one study using the head-mounted system investigates adults’ ability to use prosody (specif-
+ically, contrastive stress) while listening to spoken instructions (Ito et al. 2015). Participants hear
+pre-recorded adjective-noun pairs (e.g., ‘blue bell’) and choose the named ornament from an
+array organized by ornament type to hang on a small Christmas tree. The task is action-based
+and naturalistic. The dependent variable is the participants’ eye-gaze to the different parts of
+the display as monitored by the tracker. For example, participants hear instructions to hang a
+‘green bell’ and then a ‘BLUE bell’: this felicitous use of a prominent pitch accent on the adjec-
+tive ‘blue’ signals a contrast. Looks to the bell area of the ornament array begin shortly after the
+onset of the noun and are speeded relative to when the adjective does not carry a prominent
+accent. In a misleading condition, participants hear instructions to hang a ‘green bell’ and then
+a ‘BLUE drum’: in this case, participants often make early looks to the (incorrect) bell section of
+the array first, on the basis of the contrastive prosodic marking on the adjective. These ‘garden-
+path’ looks delay their looks to the mentioned ornament area compared to when the adjective
+does not carry a prominent accent to mark contrast.
+
+A series of previous studies using the Christmas tree decoration task (e.g., Ito & Speer 2008;
+2011) demonstrated that a prominent pitch accent evokes a contrastive interpretation, with imme-
+diate effects on the participants’ eye-gaze. However, these past studies always used prescribed into-
+nation contours produced by a trained phonetician. The ongoing study compares such ‘laboratory
+speech’ to spontaneous speech produced by a naïve speaker in a similar decoration task (Ito & Speer
+2006). Despite measurable differences in the implementation of pitch accents between the trained
+and spontaneous speakers (Turnbull et al. 2014), results with the spontaneous speech replicate past
+findings, demonstrating that the effect of a prominent accent is not an artifact of laboratory speech.
+The research results obtained in the museum lab are consistent with those obtained in more
+traditional university campus laboratories. This fact is not surprising as the methods, including
+the technology, the materials, and the experimental design, are all the same. The primary accom-
+modation to the museum setting is that participants typically wear noise-canceling headphones to
+ensure that they can clearly hear the speech stimuli because the ambient noise levels of the mu-
+seum lab are somewhat louder than those of a typical campus-based lab. Moreover, the special
+participant pool of the museum has allowed for established results to be generalized to a new
+population: adults older than average college undergraduates also show these effects. Additional
+eye-tracking studies in the lab have also taken advantage of the presence of children among the
+museum visitors to examine the development of online processing abilities with age.
+
+© 2015 The Author
+Language and Linguistics Compass © 2015 John Wiley & Sons Ltd
+
+Language and Linguistics Compass 9/7 (2015): 420–431, 10.1111/lnc3.12164
+
+428 Laura Wagner et. al
+
+The eye-tracking studies integrate nicely with our outreach efforts: if the participant wearing
+the tracker agrees, the tracker’s video data recordings can be displayed on a large screen to COSI
+visitors just outside the lab. The screen can show the view of the ongoing experiment either
+from the participant’s perspective, with cross-hairs tracking their fixations in the visual field,
+or it can show the view from the experimenter’s perspective, including a close-up of the moving
+eye with overlaid geometric forms used to maintain calibration. Even without taking part in the
+study itself, visitors can learn about eye movements by watching the moving patterns of the par-
+ticipant’s gaze. Somewhat more distally, some of our interactive f loor demonstrations highlight
+research results in online sentence processing. Thus, the lab offers several ways for visitors to
+learn about the online processing of language: through short interactive activities, by watching
+an eye-tracking study as it happens, or by participating in one themselves.
+
+The eye-tracking research is also well-integrated with our educational efforts. Eye-tracking re-
+searchers in the lab conduct hands-on sessions in the lab as part of the ‘Eye-tracking for Studying
+Language Processing’ course. This course is open to undergraduate students, graduate students,
+and faculty who are interested in applying eye-tracking techniques to their language-related re-
+search projects. Course participants learn to design coordinated visual and auditory stimuli appli-
+cable to studies using either the screen-based or the head-mounted eye-tracking systems in the
+Language Pod. This course also has an outreach dimension: while it is training researchers in
+eye-tracking technology, it is also showing museum visitors what such training looks like.
+
+6. Conclusions
+
+We appreciate that our fully integrated and embedded presence within a museum may not be
+easy to replicate in its entirety elsewhere. However, museums are increasingly interested in
+partnering with university researchers to bring a real science experience to the public, whether
+that involves actually conducting research with visitors, training students as informal science ed-
+ucators, being observed in the process of research design and experiment development, or sim-
+ply having a research professional show off their science. Linguistics is a particularly good science
+to bring to science museums because language provides an accessible entry point to science for
+the general public, and many language science demonstrations are low-cost and easy to conduct
+anywhere and with a diverse audience. The research carried out in a science museum setting is
+itself an effective form of linguistics outreach, especially when combined with activities such as
+demonstrations, language fairs, and/or debriefings designed with informal science education
+goals, principles, and strategies in mind. Our research benefits from drawing on a broad cross-
+section of the population, and outreach efforts can further benefit linguistics by increasing the
+discipline’s visibility and the public perception of its value. Through experiences as language sci-
+ence educators, students deepen their understanding of – and in many cases, their identification
+with – the language sciences. At the same time, they develop skills in communicating complex
+concepts to diverse audiences and in sparking interest in the scientific study of language.
+
+There are many ways that we as linguists can share our knowledge and our enthusiasm about
+language. In our experience, the science museum setting affords the opportunity and inspiration
+to integrate research, teaching, and outreach in ways that are productive and exciting for mu-
+seum visitors, our students, ourselves, and our discipline.
+
+Acknowledgement
+
+The authors express their gratitude for the financial support provided for the Language Pod by
+several sources. Seed funding was provided by the OSU Office of Research and the OSU De-
+partments of Linguistics and Psychology. Additional material support has been provided by the
+OSU College of Arts and Sciences, the OSU Division of Social and Behavioral Sciences, the
+
+© 2015 The Author
+Language and Linguistics Compass © 2015 John Wiley & Sons Ltd
+
+Language and Linguistics Compass 9/7 (2015): 420–431, 10.1111/lnc3.12164
+
+OSU Office of Outreach and Engagement, and the OSU Center for Cognitive and Brain
+Sciences. Our work has also been funded by the Battelle Foundation. The National Science
+Foundation funds student internships in the Language Pod through the Research Experience
+for Undergraduates (REU) program.
+
+Linguistics in a Science Museum 429
+
+Short Biographies
+
+Laura Wagner is the Director of the Language Sciences Research Lab and an Associate Professor
+in the OSU Psychology department. She has a PhD in Linguistics from the University of
+Pennsylvania. Her research focuses on language acquisition, especially children’s acquisition of
+meaning across a variety of domains.
+
+Shari R. Speer is a Research Director of the Language Sciences Research Lab and Professor,
+Director of the Psycholinguistics Laboratories, and Chair of the OSU Department of Linguis-
+tics. She has a PhD in Human Experimental Psychology from the University of Texas at Austin.
+Her research focuses on the role of intonation and prosody in language production and
+comprehension.
+
+Leslie C. Moore is the Education Director of the Language Sciences Research Lab and an
+Associate Professor in the OSU Teaching and Learning Department and is also affiliated with
+Utrecht University. She has a PhD in Applied Linguistics from the University of California at
+Los Angeles. Her research focuses on the social and cultural patterning of learning and language
+development and use in multilingual communities.
+
+Elizabeth A. McCullough is a post-doctoral researcher in the Language Sciences Research
+Lab. She has a PhD in Linguistics from the Ohio State University. Her research focuses on
+the perception of foreign accented speech.
+
+Kiwako Ito is the Eye-tracking Coordinator for the Language Sciences Research Lab and a
+Senior Researcher in the OSU Department of Linguistics. She has a PhD in Linguistics from
+the University of Illinois at Urbana-Champagin. Her research focuses on the role of prosody
+in speech comprehension among adults and children speaking English and Japanese, as well as
+among individuals with developmental disabilities.
+
+Cynthia G. Clopper is a Research Director for the Language Sciences Research Lab and an
+Associate Professor in the OSU Department of Linguistics. She has a PhD in Linguistics and
+Cognitive Science from Indiana University. Her research focuses on the role of linguistic and
+social variation in spoken language processing.
+
+Kathryn Campbell-Kibler is the Outreach Director for the Language Sciences Research Lab
+and an Associate Professor in the OSU Department of Linguistics. She has a PhD in Linguistics
+from Stanford University. Her research focuses on language variation, including the role of the
+listener in variation and the role of language in the formation and performance of identity.
+
+Notes
+
+* Correspondence address: LauraWagner, Ohio State University, Columbus, Ohio 43210, USA. E-mail: wagner.602@osu.
+edu
+
+1Guidelines for some of our more popular demonstrations may be found at http://bln.osu.edu/Outreach.php.
+
+Works Cited
+Agha, Asif. 2007. The object called ‘language’ and the subject of linguistics. Journal of English Linguistics 35:217–35.
+Alpert, Carol Lynn. 2013. A guide to building partnerships between science museums and university-based research centers.
+
+Online: http://www.risepartnerguide.org.
+
+© 2015 The Author
+Language and Linguistics Compass © 2015 John Wiley & Sons Ltd
+
+Language and Linguistics Compass 9/7 (2015): 420–431, 10.1111/lnc3.12164
+
+430 Laura Wagner et. al
+
+Bell, Philip, Bruce Lewenstein, Andrew W. Shouse, and Michael A. Feder (eds.) 2009. Learning Science in Informal Environ-
+
+ments: People, Places, and Pursuits. Washington, D. C.: The National Academies Press.
+
+Bucholtz, Mary, Audrey Lopez, Allina Mojarro, Elena Skapouilli, Chris VanderStouwe, and Shawn Warner-Garcia. 2014.
+Sociolinguistic justice in the schools: student researchers as linguistic experts. Language and Linguistics Compass 8. 144–57.
+Callanan, Maureen A. 2012. Conducting cognitive developmental research in museums: theoretical issues and practical
+
+considerations. Journal of Cognition and Development 13.137–151.
+
+Campbell-Kibler, Kathryn. 2012. Contestation and enregisterment in Ohio’s imagined dialects. Journal of English Linguistics
+
+Clark, Billy, and Graeme Trousdale. 2012. The language detective: a course for young linguists. Language and Linguistics
+
+Culicover, Peter W., and Elizabeth Hume. 2013. Teaching about how language works to diverse populations. Language and
+
+40.281–305.
+
+Compass 6.506–16.
+
+Linguistics Compass 7.523–33.
+
+Denham, Kristin, and Anne Lobeck (eds.) 2014. Linguistics at School: Language Awareness in Primary and Secondary Education.
+
+Cambridge: Cambridge University Press.
+
+Estival, Dominique, Cathy Bow, John Henderson, Barbara Kelly, Mary Laughren, Elisabeth Mayer, Diego Mollá, Colette
+Mrowa-Hopkins, Rachel Nordlinger, Verna Rieschild, Andrea C. Schalley, Alexander W. Stanley, and Jill Vaughan.
+2014. Australia loves language puzzles: The Australian Computational and Linguistics Olympiad (OzCLO). Language
+and Linguistics Compass 8.659–70.
+
+Fenichel, Marilyn, and Heidi A. Schweingruber. 2010. Surrounded by Science: Learning Science in Informal Environments.
+
+Washington, D.C.: The National Academies Press.
+
+Fitzgerald, Colleen M. 2010. Developing a service-learning curriculum for linguistics. Language and Linguistics Compass 4.204–18.
+Hill, Angela, Rachael Frush Holt, and Tessa Bent. 2015. Children’s Perception of Foreign-Accented Speech: The Role of Executive
+
+Function. Poster Presented at the Annual Meeting of the American Auditory Society, Scottsdale, AZ.
+
+Honda, Maya, and Wayne O’Neil. 1993. Triggering science-forming capacity through linguistic inquiry. The View from
+Building 20: Essays in Linguistics in Honor of Sylvain Bromberger, ed. by Ken Hale and Samuel Jay Keyser, 229–55.
+Cambridge, MA: MIT Press.
+
+Ito, Kiwako and Shari R. Speer. 2006. Using interactive tasks to elicit natural dialogue. Methods in Empirical Prosody Research,
+ed. by Stefan Sudhoff, Denisa Lenertova, Roland Meyer, Sandra Pappert, Petra Augurzky, Ina Mleineck, Nicole Richter,
+and Johannes Schließer, 229–57. Mouton de Gruyter: Boston, MA.
+
+——. 2008. Anticipatory effect of intonation: eye movements during instructed visual search. Journal of Memory and Language
+
+58.541–73.
+
+——. 2011. Semantically-independent but contextually-dependent interpretation of contrastive accent. Prosodic Catego-
+ries: Production, Perception and Comprehension, ed. by Sónia Frota, Gorka Elordieta, and Pilar Prieto, 69–92.
+Springer: New York, NY.
+
+Ito, Kiwako; Rory Turnbull; and Shari R. Speer. 2015. Allophonic tunes of contrast: lab and spontaneous speech lead to
+equivalent ﬁxation responses. Experimental and Theoretical Approaches to Prosody, 3 (ETAP3), University of Illinois
+Urbana-Champaign.
+
+Jones, Zack; Laura Wagner; and Cynthia Clopper. 2015. Children’s classiﬁcation of regional dialect. Poster Presented at the So-
+
+ciety for Research on Child Development Conference (SRCD), Philadelphia, PA.
+
+Labov, William. 1982. Objectivity and commitment in linguistic science. Language in Society 11.165–201.
+Labov, William; Sharon Ash; and Charles Boberg. 2006. Atlas of North American English: Phonetics, Phonology and Sound
+
+Labov, William, and Ingrid Rosenfelder. 2011. The Philadelphia Neighborhood Corpus. Online: http://fave.ling.upenn.
+
+Lidz, Jeffrey, and Yakov Kronrod. 2014. Expanding our reach and theirs: when linguists go to high school. Language and
+
+Mabie, Sarah, Rachael Frush Holt, and Tessa Bent. 2015. Children’s Perception of Foreign-Accented Speech: The Role of Temper-
+
+ament. Poster Presented at the Annual Meeting of the American Auditory Society, Scottsdale, AZ.
+
+Maclagan, Margaret, and Elizabeth Gordon. 1999. Data for New Zealand social dialectology: the Canterbury corpus. New
+
+Zealand English Journal 13.50–8.
+
+McCullough, Elizabeth, Cynthia Clopper, and Laura Wagner. 2015. Development of implicit language attitudes in children.
+
+Poster Presented at the Society for Research on Child Development Conference (SRCD), Philadelphia, PA.
+
+Purnell, Thomas, Eric Raimy, and Joseph Salmons. 2013. Making linguistics matter: building on the public’s interest in
+
+language. Language and Linguistics Compass 7.398–407.
+
+Reaser, Jeffrey, and Carolyn Adger. 2007. Developing language awareness materials for nonlinguists: lessons learned from the
+
+Do You Speak American? curriculum development project. Language and Linguistics Compass 1.155–67.
+
+Rickford, John R. 1997. Unequal partnership: sociolinguistics and the African American speech community. Language in
+
+Society 26.161–97.
+
+Change. Berlin: Mouton de Gruyter.
+
+edu/pnc.html.
+
+Linguistics Compass 8.449–63.
+
+© 2015 The Author
+Language and Linguistics Compass © 2015 John Wiley & Sons Ltd
+
+Language and Linguistics Compass 9/7 (2015): 420–431, 10.1111/lnc3.12164
+
+Linguistics in a Science Museum 431
+
+—— 2000. Sociolinguistics and the public: digging and being dug in return. American Speech 75. 273–75.
+Sacco, Kalie, John H. Falk, and James Bell. 2014. Informal science education: lifelong, life-wide, life-deep. PLoS Biol 12.
+
+e1001986. doi:10.1371/journal.pbio.1001986
+
+Stewart, Jr., Thomas W., and Alma B. Kuhlemann Cárdenez. 2010. Discovering ‘language myths and truths’: a summer
+
+enrichment course in linguistics for high-school students. Language and Linguistics Compass 4.80–95.
+
+Turnbull, Rory, Adam Royer, Kiwako Ito, and Shari R. Speer. 2014. Prominence perception in and out of context. Pro-
+
+ceedings of the 7th international conference on Speech Prosody, pp.1164–1168.
+
+Vaux, Bert, and Scott A. Golder. 2002. The dialect survey. Online: http://www.nytimes.com/interactive/2013/12/20/
+
+sunday-review/dialect-quiz-map.html.
+
+Wanjema, Shontael, Katie Carmichael, Abby Walker, and Kathryn Campbell-Kibler. 2013. The Ohio Speaks Project:
+
+engaging undergraduates in sociolinguistic research. American Speech 88.223–35.
+
+Wolfram, Walt. 1993. Ethical considerations in language awareness programs. Issues in Applied Linguistics 4. 225–55.
+——. 2011. In the profession: connecting with the public. Journal of English Linguistics 40.111–117.
+Wolfram, Walt, Jeffrey Reaser, and Charlotte Vaughn. 2008. Operationalizing linguistic gratuity: from principle to practice.
+
+Language and Linguistics Compass 2. 1109–34.
+
+Yan, Qingyang, Cynthia Clopper, and Laura Wagner. 2014. The development of perceptual dialect categories from child-
+hood through adulthood. Poster presented at the International Association for the Study of Child Language (IASCL), Am-
+sterdam, the Netherlands.
+
+© 2015 The Author
+Language and Linguistics Compass © 2015 John Wiley & Sons Ltd
+
+Language and Linguistics Compass 9/7 (2015): 420–431, 10.1111/lnc3.12164
+
+View publication stats
+View publication stats
+
+

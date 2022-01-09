@@ -1,0 +1,2706 @@
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+
+Mobile Guides: Taxonomy of Architectures,
+Context
+
+Awareness,
+
+Technologies
+
+and
+
+Applications
+Christos Emmanouilidis, Remous-Aris Koutsiamanis and Aimilia Tasidou
+{chrisem, ariskou, atasidou}@ceti.athena-innovation.gr
+Corresponding Author:
+Christos Emmanouilidis, Dipl. Elec. Eng., MSc, PhD
+Senior Researcher
+Head, Computational Systems & Applications, Athena, Research & Innovation Centre
+Tsimiski 58, 67100, Xanthi, Greece
+Tel. +30-25410-84639, +30-25410-78787
+Fax. +30-25410-63656
+christosem@ieee.org
+
+Abstract—Portable devices are increasingly employed in a wide range of mobile guidance
+applications. Typical examples are guides in urban areas, museum guides, and exhibition space
+aids. The demand is for the delivery of context-specific services, wherein the context is typically
+identified by a combination of data related to location, time, user profile, device profile, network
+conditions and usage scenario. A context-aware mobile guide is intended to provide guidance
+services adjusted to the context of the received request. The adjustment may refer to tailoring the
+user interface to the perceived context, as well as delivering the right type of information to the
+right person at the right time and the right location. It may also refer to intermediary adaptation, as
+in the case of mobile multimedia transmission. This paper offers a taxonomy of mobile guides
+considering multiple criteria. The taxonomy considers several aspects of the mobile applications
+space, including context awareness, client architectures, mobile user interfaces, as well as offered
+functionalities, highlighting functional, architectural, technological, and implementation issues.
+Existing implementations are classified accordingly and a discussion of research issues and
+emerging trends is offered.
+Keywords—context aware services, mobile computing, mobile guides, urban computing.
+
+1
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+
+1. Introduction
+In the mid 90’s a number of ‘e’ applications, such as e-commerce, e-learning, internetgaming, e-sensing and data acquisition, internet cultural and tourism guides and e-health, have
+emerged. They have steadily grown in maturity and have redefined the ICT business and
+applications landscape. A more recent trend has been marked by the advent of wireless
+technologies and mobile devices. Following suit from their ‘e’ predecessors, there is now a whole
+range of ‘m-applications’, including m-commerce [75], m-learning [73], m-gaming [10], m-guides
+[77], m-health [36], mobile worker applications [71] and so on. Such applications are already
+making headways to everyday practice [17] and the global mobile applications market was
+forecasted to reach $25bn by the end of 2015 [3].
+The essential characteristics of mobile applications are largely defined by their functional and
+non-functional requirements. Functional requirements may vary significantly, as they are
+application-specific. On the other hand, key non-functional requirements are shared across the
+applications domain, to the extent that they are imposed by technology usage and its associated
+restrictions. Setting aside the specific end-user needs, common non-functional requirements are
+related to the mobile device characteristics (especially its small form factor), wireless technology
+usage (e.g. network protocol support), as well as security, privacy and interoperability
+considerations. Importantly, mobile applications are characterized by a range of common usage
+characteristics, which differ from desktop ones. For example, as the typical mobile application
+usage pattern is that of frequent, but short in duration, service requests, it is unacceptable to have a
+response time exceeding a couple of seconds or to have a long wait in initiating an application.
+Although the offerings of a mobile guide can be quite rich, a practical application must aid the user
+to focus on a specific task, rather than distract him too many options, as is the case on web
+applications designed for desktop usage. Therefore, although it appears natural to consider mobile
+applications as miniature versions of their desktop counterparts, the different usage pattern
+requires a different treatment in designing and implementing efficient mobile solutions [92].
+Mobile applications offer benefits which cannot be matched by desktop ones. The key
+advantage is the combination of mobility with 24/7 multi-connectivity in order to deliver
+contextualized functionalities. Contextualization refers to the capability to offer the right
+information and services, tailoring them to the right device, to the right user, at the right time and
+2
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+location [103]. Although context-dependent delivery can be relevant to non-mobile applications
+too, the flexibility offered by the device and user mobility places mobile applications at the very
+heart of context-aware computing [38, 99]. Furthermore, as mobile devices and tools are being
+increasingly employed in collaborative settings, the prospect of true mobile collaboration is raising
+expectations for deeper business penetration of mobile guides. Such expectations are supported by
+the emerging characteristics of mobile applications, including active data management, enhanced
+web-based interactivity, ready access to knowledge and information, and usage of advanced
+communication networks [43].
+Mobile guides provide context-dependent, multimedia-rich touring services for visitors. A
+typical simple scenario is that of a user operating a portable computing device, e.g. a Personal
+Digital Assistant (PDA) or a smartphone, in order to get interactive indoors or outdoors navigation
+aid. However, mobile guide functionalities offered today cover a much wider range of activities.
+These include navigation services (via location-awareness and map-based navigation) , access to
+additional services (bookmarking, collaboration, shopping, email, data processing), contextual
+information delivery with multimedia (video delivery, educational tools and games) and in some
+cases annotation options and user provided content, as well as advanced knowledge processing
+resulting in adaptive and context-dependent services. Knowledge deduced from user data can be
+exploited to tailor the offered services and content to the user profile and offer better
+recommendations for available tasks and services.
+In this paper we provide an analysis and taxonomy of the mobile guides’ literature by
+considering multiple criteria, to accommodate for the considerable complexity of the mobile
+guides application space. Previous surveys focused largely on context awareness [86, 98] or
+location estimation [12, 68]. In [50] an evaluation framework for mobile guides is developed and
+four representative mobile guides are evaluated. A requirement assessment of mobile tourism
+services is provided in [116], both from the tourists’ and the service operators’ perspectives. In
+[61] a survey is performed taking into account several technological axes (localization,
+networking, input/output systems and provided services) and examining a limited number of
+systems in detail. Our survey acknowledges the complexity of the mobile space [54] and therefore
+follows a review methodology that seeks to take it into account in a comprehensive manner.
+This paper is structured as follows. In Section 2 we present our review analysis methodology,
+explaining the methodology for application selection, as well as the taxonomy axes selected.
+3
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+Section 3 contextualizes our research by providing an overview of the mobile guide applications,
+highlighting the functionalities that mobile guides are offering. Before analyzing the mobile guide
+taxonomy and literature, Section 0 provides an analysis of the key concept of context and context
+aware services, along with an updated classification of context categories, to suit the mobile guide
+domain. Section 5 presents the detailed literature taxonomy, classifying and analyzing relevant
+literature accordingly. The paper closes with a discussion on the current trends, including a
+research outlook for future research & development in the area of mobile guides.
+
+2. Review Analysis Methodology
+Research methodology in mobile guides is severely constrained by the level of fragmentation
+and complexity of the ‘mobile space’ itself. In particular, the multiple factors contributing to this
+complexity include the variety of users, the different characteristics of the employed hardware
+devices, the nature of the software development and execution platforms, the diversity of the
+delivered content, the multitude of networking delivery means, along with associated delivery
+bandwidth, the increasing impact of context-awareness, as well as the actual functionality offered
+by mobile applications [54]. Thus, in contrast with previous surveys, this paper seeks to take into
+account all aforementioned issues related to the complexity of the mobile space, focusing on
+technical aspects of mobile guide development, offered functionalities and services availability and
+delivery, as well as considering networking and user interface issues, highlighting functional,
+architectural, technological, and implementation issues. We discuss, analyze and categorize the
+literature taking into account multiple such criteria, which differentiate the various
+implementations and constitute important aspects of design and system development. While past
+surveys focus on a limited set of such criteria, a more comprehensive treatment and taxonomy of
+mobile guidance literature has been missing. Therefore, our comprehensive literature
+classification, apart from reviewing the offered functionalities, it further analyzes implementations
+under the two broad taxonomy axes shown in Fig. 1.
+A. System Technologies and Characteristics.
+1.
+
+Localization techniques, i.e. how user location and/or orientation are inferred.
+
+2.
+
+Environment type (e.g. indoors/outdoors).
+
+3.
+
+Data retrieval (e.g. means of data delivery to the device).
+4
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+4.
+
+Context aware implementations, according to a comprehensive context classification scheme
+and context support level.
+
+B.
+
+Client-side devices and components, including:
+
+1.
+
+The mobile guide device type.
+
+2.
+
+The application type, i.e. native, browser-based or Virtual Machine-based applications.
+
+3.
+
+The offered functionalities that enhance user experience, like navigation, bookmarking, games
+and support for content types (e.g. textual, multimedia, history, etc).
+
+4.
+
+Mobile user interfaces to satisfy the special requirements of the small form-factor end-device,
+which significantly deviate from desktop computer requirements.
+
+Fig. 1 Mobile Guide Taxonomy Axes
+We consider a wide range of mobile guides, including indoors and outdoors, museum and
+city guides, looking at both research and commercial implementations. The cited references are not
+exhaustive but representative examples of the mobile guides’ taxonomy. We opted to include
+systems that have been implemented and tested at least at an experimental level, rather than
+conceptual works, with limited or no implementations. Through the study of existing guides, we
+provide an interpretation of the employed practices and highlight emerging trends. We offer
+insight into current technology limitations, raise outstanding research issues and propose potential
+directions for further research. The next section contextualizes our survey, by considering the key
+mobile functionalities offered in typical mobile guidance applications.
+
+5
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+
+3. Mobile Guide Functionality
+Mobile guides aimed at supporting user indoors or outdoors navigation, extending the visit
+experience with access to additional relevant information and services. Most mobile guide
+applications until 2005 provided navigation support services considering the location, device type,
+user profile, and environment characteristics. The latest trend is to consider social awareness. The
+ability of interaction within the group (or even between different group members) can significantly
+enhance the visit experience. In mobile guides, nomadic users are supported by visit planning and
+tracking services, that offer prospective visitors the ability to plan their visit in advance and review
+their visit after they have left the site. Similar functionality can be offered on both desktop and
+mobile clients, but in mobile guidance, users are empowered to become mobile actors, greatly
+enhancing their physical interaction options. Alongside visit planning and tracking services,
+bookmarking and annotation options offer an enhanced user experience, enabling users to mark
+favorite exhibits and add comments or even pictures to exhibit descriptions. This user-generated
+information can be shared with other group members or even future mobile guide visitors,
+depending on the privacy policy of the mobile guide and the user’s preferences.
+Navigation services provide the users with suggested routes to their destinations, increasing
+the visit efficiency by removing the burden of path finding from the visitor. Those services often
+require some planning and optimization mechanisms to determine the optimal route, depending on
+user preferences, desired timeframe and other context-related factors. More challenging is the
+ability of the navigation service to adapt the route and navigation directions, according to dynamic
+context data. For example, a user might deviate from the original path to spend time at an exhibit
+or object not initially on the selected route. The service should detect this detour and recalculate a
+new path. Most navigation services offer a map view of the suggested route. It is also possible to
+include voice directions, making users less dependent on consulting the device screen during
+navigation.
+Internet connectivity in mobile guides enables information access from external sources, for
+example, retrieving information on facilities and services that might not be included in the mobile
+guide. This feature is often met in city guides, to offer users access to information about local
+shops and services. Although many mobile guides offer network connectivity, only a few integrate
+access to third party services. However, apart from guidance, mobile guides are now gradually
+6
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+enriched to offer additional services, including games, educational and social applications.
+Educational applications and games can be user-engaging and effective means for knowledge
+conveyance. Users participate in a game (either as single players or as part of a group) aiming at
+specified goals. In Table 1 a categorization of the functionalities offered in mobile guides is
+presented. Commercial guides are largely employed as navigational aids, thus the focus is mostly
+on research application prototypes. The latter have placed some focus on delivering contextdependent services. Therefore, before analyzing the mobile guides’ literature, the concept of
+context awareness and its relevance to mobile guides is first discussed.
+
+Guide Type
+
+Table 1. Literature Taxonomy By Functionalities Offered
+
+Research
+
+[78,
+110]
+
+[29]
+
+[8, 42,
+112]
+
+[16,
+108]
+
+[39, 66,
+[46, 72,
+[1, 14,
+[31, 34, [13,
+79, 82,
+80,
+24, 30,
+95, 32, 48, [26] 84, 97,
+104,
+58, 85,
+115]
+69]
+100,
+113,
+106]
+102]
+117]
+
+Commercial
+
+[2, 5, 6]
+[39, 66,
+[1]
+82]
+[39, 66,
+[1, 58]
+102]
+[1, 24,
+[66, 79]
+85]
+[82,
+[1, 14,
+100,
+24, 85]
+102]
+
+Functionalities
+
+Games
+Educational
+
+[78]
+
+Messaging &
+Communication
+
+[78]
+
+[29]
+
+[8]
+
+Bookmarking
+
+[78]
+
+[29]
+
+[42]
+
+[108]
+
+Navigation
+
+[78]
+
+[42,
+112]
+
+[108]
+
+Visit Planning and
+[78]
+Tracking
+
+[42]
+
+[108]
+
+[115]
+
+Access to External
+Services
+Year
+
+[23, 33,
+35, 63,
+[9, 27,
+101,
+70]
+105,
+107]
+
+[115]
+
+[32,
+69]
+
+[115]
+
+[32]
+
+[31, 34,
+[32]
+95]
+
+[95]
+
+[108]
+1999
+
+2000
+
+2002
+
+2003
+
+[26]
+
+2005
+
+[80]
+
+[39, 84,
+[1, 14,
+97,
+85]
+102]
+
+[46, 72,
+80,
+104,
+117]
+
+[100, [1, 24,
+102] 58, 85]
+
+[72, 80,
+104,
+117]
+
+[13]
+2004
+
+[46, 72,
+113]
+[72,
+113]
+[72,
+113]
+
+[1, 24]
+2006
+
+2007
+
+2008
+
+2009
+
+[105]
+
+[27]
+
+[23, 63,
+[27]
+105]
+[107]
+
+[27]
+
+[2, 5, 6,
+107]
+[23, 33,
+101, [9, 27,
+105,
+70]
+107]
+[70]
+[35]
+
+[27]
+
+2010
+
+2011
+
+4. Context Awareness
+
+4.1.
+
+Context Definitions
+The notion of context has been linked with computing for long, largely associated with
+
+computational linguistics. Since the mid 90’s, increasing attention has been paid to the role that
+context might have in adaptive computing. Specifically, the interest focused on how computer
+applications can be adapted to match the requirements or needs of different situations and users.
+7
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+With the prevalence of service-oriented computing, adaptation capacity has become synonymous
+to adapting the offered services and consequently a context-aware system is expected to tailor each
+service to the apparent usage context. Yet it is only following the deep penetration of mobile and
+wireless technology into everyday applications that context-adaptive computing has been placed at
+the centre of focus by a much wider computing community [38]. Mobile and wireless technologies
+radically change the role of computing devices. Portable computing devices, such as PDAs and
+smartphones, empower users to become mobile actors, operating in dynamic domains. Their
+dynamic nature typically implies that different actors employ different devices for different
+services, at different locations and at different times, in short the actors are using the devices in
+different situations. In mobile guides, the context has been largely associated with the delivery of
+location-based services. It has gradually expanded to encompass additional factors affecting
+services delivery adaptation, yet the growing complexity of the mobile applications space deserves
+a more comprehensive treatment of context.
+The word context does not have a unique definition. In Merriam-Webster’s Collegiate
+Dictionary, it is defined as “the interrelated conditions in which something exists or occurs”. In
+Wikipedia, it is defined as “the surroundings, circumstances, environment, background, or
+settings which determine, specify, or clarify the meaning of an event”. A system providing
+context-aware services must somehow take into account the conditions of the situation under
+consideration and this may justify the alternative term “situated computing” [59]. However, this
+definition does not provide sufficient basis for a rigorous treatment of context. Consequently,
+several different definitions have been proposed by researchers, resulting in rather fragmented
+context classification schemes. In the past, the literature has largely looked at context from three
+rather different viewpoints, namely “by example”, “in terms of specific context synonyms” and
+“by categories” [38]. When assessing context by example, this is typically done by providing
+specific information about the user location and identity, the time of the service request, as well as
+various aspects of the user environment and its social state, [19, 45, 91, 94]. However, lower-level
+definitions of context are often needed, focusing more on technical implementation details, such as
+in [64], wherein, context is defined as a set of attributes and predetermined values, labeled in some
+meaningful way and associated with desirable semantics.
+Definitions by example proved difficult to apply in practice, as they lacked the abstraction
+needed to capture the breadth of context. A popular approach has been to derive specific context
+8
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+synonyms for the range of the information that may influence services adaptation. A typical
+example is to consider the data needed to represent the state in an ambient environment [44, 59],
+an approach often taken in intelligent inhabited environments [52]. Thus, any information relevant
+to elements of the environment that can be obtained by the user’s computer, such as location,
+adjacency to other objects, critical environment states, computer states, imaginary companions and
+time can be considered [18]. Context can be divided according to user surroundings, human or
+material, thus defining it to be the constantly changing execution environment [94]. Similarly,
+from a computer programming perspective, context can take into account whatever affects
+computation except explicit input and output [65].
+The ‘ambient’ view of context is environment-centric. Yet, services adaptation needs to be
+driven by factors beyond the environment. To accommodate for such factors, context was
+classified into three categories, human factors, physical environment and time [96]. Human factors
+include user, social environment and tasks, while the physical environment includes conditions,
+infrastructure and location. Alternatively, enumeration of context categories can include physical,
+system, infrastructure, location and application context [88]. Similar classifications distinguish
+between physical, system, infrastructure and domain context, as well as between physical, internal
+and social context [40, 86]. Providing contextualized services to users must ultimately place the
+context focus on the user [81]. The environment, the given task, as well as the social, spatiotemporal and personal (user) context can all be considered as distinct categories [47]. In a similar
+setting, any information describing an entity can be classified in one of the following five
+categories: individuality (natural, human, artificial and group entity context); activity; location;
+time; and relations (social, functional and compositional relations) [119]. Personal context can be
+divided into physical or mental user state [47]. It can also be distinguished into identity (name,
+address, nationality) and mental context (mood, experience, interest) [57]. Depending on whether
+actionable context drives the application adaptation, mobile applications can be said to employ
+active or passive context [28]. Active context places the user at the centre of the adaptation
+strategy, either by presenting him the new or updated context or by making context persistent for
+later retrieval and use. It can be exploited by automatically linking actions to specified context
+(contextual adaptation), by discovering relevant resources (contextual resource discovery) or by
+providing situated augmentation (contextual augmentation) to offer relevant user aid [83].
+
+9
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+Other classifications distinguish between physical and conceptual [56, 83] context. Physical
+is the practical perception of a state of interest, while conceptual refers to an abstract concept with
+no material implications. A similar categorization is between physical and logical coordinates. The
+former represents the user location and orientation while the latter represents the current level-ofdetail explicitly requested by the user [89]. This categorisation is also termed as the operational vs.
+conceptual context [109]. The conceptual is user-centric, while the operational is environmentcentric. A different viewpoint considers sensed, static, profiled, or derived context [55], while
+another considers state-based and event-based context. State-based context consists of a set of
+attributes relevant to the entity (environmental, location, network, device and user-related), while
+event-based context consists of a set of events (internal events for the application; user-related
+events) [49]. In all definitions context generally refers to the whole situation relevant to an
+application and its users. Table 2 summarizes the main context categories considered in previous
+context classifications. These are largely relevant to research prototypes, as commercial guides
+have yet to exploit the full context breadth.
+
+4.2.
+
+●
+●
+
+●
+●
+●
+
+●
+●
+●
+●
+●
+●
+
+●
+●
+●
+
+●
+
+●
+●
+●
+●
+●
+●
+●
+
+infrastructure
+●
+
+●
+●
+●
+●
+●
+
+system
+
+●
+
+application
+
+●
+
+domain
+
+social
+
+environment
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+
+conditions
+
+●
+●
+●
+●
+●
+●
+●
+●
+
+task
+
+●
+●
+
+●
+●
+●
+●
+●
+●
+●
+
+user
+
+●
+
+location
+
+●
+
+time
+
+●
+●
+●
+●
+●
+
+human factors
+
+by categories
+
+[38]
+[94]
+[91]
+[19]
+[45]
+[96]
+[18]
+[88]
+[86]
+[40]
+[47]
+[119]
+[49]
+
+context
+synonyms
+
+Reference
+
+by example
+
+Table 2. Context Categories in Context Classification works
+
+●
+
+●
+
+●
+
+●
+
+●
+
+●
+●
+
+Context in Mobile Guides
+As an application niche, mobile guides’ usability can be significantly improved by context-
+
+based services adaptation. Although most of the context classification schemes are also relevant to
+mobile guides, they still treat context in a rather fragmented way, without considering the full
+complexity of the mobile guides’ application space. Taking into account the different context
+10
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+definitions and examples we adopt a context classification scheme containing five abstract context
+categories (Fig. 2), in order to describe context in the mobile guides domain.
+
+Fig. 2 Context taxonomy
+These are (i) User; (ii) Environment; (iii) System; (iv) Social; and (v) Service. Each of the
+five categories has distinct characteristics in this domain. Users are at the centre of personalized
+services; system refers to non-functional context, mostly relevant to technological constraints;
+environment provides the ambient context setting; social context becomes increasingly important,
+especially in collaborative settings; and the service context is particularly relevant to the offered
+functionalities in mobile guides.
+User-related context awareness is the basis upon which to adapt content and services
+according to the user’s profile and preferences. Although preferences may concern any other
+context category, they do originate from and are set by the user. Therefore we chose to place them
+under the “User” context category. Many mobile guides contain an initial customization phase
+during which a pre-existing profile (for example child/adult) is selected, or a set of preferences can
+be configured to create a custom-made profile for the visit. Developing a guide with a number of
+preconfigured profiles is simpler than allowing for a larger set of profiles to arise from multiple
+combinations of system preferences. However, the context sensitivity in the second case is
+potentially better, as the choices are more finely grained. The user’s emotional state may constitute
+an important factor to consider. For example, boredom or excitement detection can guide different
+recommended services or activities. User profiling (e.g. expert, inexperienced, learner, adult, child,
+11
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+etc) is central to achieving efficient mobile guide’s content and services adaptation. The user
+category can either be manually entered or inferred through interpreting user interaction with the
+system. A more challenging approach is to employ smart visit monitoring and current activity
+tracking. The concept is for the system to monitor user activity during the visit and adapt the
+content according to the inferred user preferences. Usage history data can also be exploited as a
+post-guidance evaluation method. Activity-based adaptation offers a more user-friendly service,
+since the user doesn’t have to configure the system manually; however, the learned preferences are
+error-prone. Finally, the current user’s activity can also be used in contextualizing any mobile
+guide proposed actions while the user’s location and orientation can indicate which objects the
+user may physically interact with.
+Basic system context categories include the mobile device characteristics, especially relevant
+to mobile guides that support multiple device types, and the network conditions during usage. The
+device energy consumption is an essential parameter that affects quality of service (QoS). The
+latter also largely depends on network conditions, since most applications receive their data on the
+client side from a remote server. Applications with heavy bandwidth requirements need to take
+into account both the network speed available as well as prioritize traffic depending on the timesensitivity of the information to be received. Privacy and security are important categories of
+system context as well, since contemporary mobile guides are network applications, often
+accessible through the Internet. User privacy protection is critical and needs to be enforced in both
+network transmission and mobile guide server database storage.
+Environment context categories may involve parameters such as time, sensor readings or
+crowding estimation. Time may be an option (i.e. preferred visit time) or a constraint (visit within
+time constraints). Sensor readings, sometimes referred to as ambient information, are important in
+many ambient intelligence applications but have been less applicable to mobile guidance.
+Crowding is also an essential factor. While it can be considered a social factor, the perceived
+quality of service can be significantly different depending on the number of other nearby people
+(e.g. in video delivery it can significantly degrade performance), and therefore can more
+appropriately be considered as a constraint, belonging to the environment context. Indeed, data
+delivery and localization may be affected by network congestion caused by the presence of several
+mobile guide users within a limited space.
+
+12
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+Social context also plays an important role in the guidance experience. Group visitsupporting systems may offer interaction services among the group visitors, as well as between the
+group leader and the group members, which enhance the experience and remove the sense of
+isolation that mobile guides can sometimes cause.
+Finally, the service context includes the determination of which services are available at any
+moment and is usually supported in large-area guides, where notifications about services like bus
+arrivals and departures or gift shop operating hours are sent to the mobile users. The service
+context also includes the ability to define higher-level goals and be guided through the appropriate
+task sequence to achieve them, helping a user through a complex multi-step task. It may also take
+into consideration any further service constraints, such as service interdependencies, which might
+affect the possibility of achieving a given task.
+Context-based adaptation can be of great value in enhancing users experience in practical
+situations. This can be highlighted by considering a hypothetic scenario of a museum visit, where
+User, Environment, System, Social and Service context adaptation can all contribute to making the
+visit more exciting. For example, in an implementation of user-context-adaptation, the User
+context category assigns the instance to a child visit and adapts content accordingly, e.g. by
+presenting text in story-telling mode. Preferences can be set to include some educational tests, to
+increase the educational impact of the visit, or distinguish between a specified or a random visit
+path. Emotional state recognition may detect boredom during the visit and bring up a game option
+to offer more excitement. Exploitation of History context can warn the child when returning to
+exhibits already visited, so as to direct the visit accordingly. In Activity-based adaptation the
+system may be programmed to detect whether a child prefers science or art exhibits and either
+direct the visit to such exhibits, or make available more relevant educational resources and games.
+Orientation context resolution may simply distinguish between two different exhibits of interest,
+based on the detected device orientation. In the same visit, the Environment context category can
+detect visitors Crowding, so as to re-plan the visit sequence to less crowded areas, take into
+account the Time to adjust the visit plan for a 2-hour visit or warn the child of imminent museum
+closure, as well as Sense the room light conditions to adjust the screen color layout and brightness
+according to whether the child is visiting a dark or brightly lit room. System context adaptation
+may refer to adjusting the offered user interface to the detected Device type, transmit a lower
+resolution or frames-per-second video to mitigate network congestion problems (Network
+13
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+conditions), offer a lower-resolution augmentation in mobile augmented reality navigation, as the
+localization element has much higher priority, compared to the superimposed image representation
+quality (QoS context), ensure non-sensitive data management and prevent other users from
+accessing the child’s own smartphone device (Privacy/security), adjust video quality, screen layout
+and data fetching mechanisms to reduce Energy consumption when a need for that is detected
+based on current battery levels. Social context can refer to a child opting to join or leave a Group
+visit with a guide, a parent instructing a child to follow the visit together (Relationship) or
+exchange messages between group members (Interaction), for example inviting another visitor to
+come to see a specific exhibit. Service context can implement a Service-discovery feature, for
+example a specific game is available when certain conditions are met (e.g. in large rooms, or in
+areas with science exhibits, etc.). Furthermore, Task-sequence dependence can be relevant in a
+treasure hunting game, where clues should be discovered in turn. Offered services can be affected
+by Constraints, e.g. in group mobile augmented reality navigation, some services are only offered
+if other visitors are in the same area of influence or interest. Although these are only some
+hypothetical examples, it is clear that in many mobile guidance practical application scenarios,
+context-based adaptation can greatly enhance user experience.
+
+4.3.
+
+Context identification
+The assignment of a situation or request to a specific context may be sound but still fail to
+
+reflect the actual context, when based on incomplete or wrong information, raising the issue of
+Quality of Context [21]. Context-aware systems which also consider the quality of the context
+need to address the issues of precision (the accuracy of the information in the context), correctness
+(whether the information represents reality or is borne of error), trust-worthiness (whether the
+supplier of the information is trustworthy), granularity (the data space to which the information
+refers) and aging (the degree to which the information is up-to-date). Therefore, it is important to
+make a distinction between actual and perceived context. For example, the environment is
+expected to be ‘sensed’ but readings may be inaccurate or may correspond to unknown situations.
+When considering different user profiles, these can be a-priori defined or inferred, based on
+user behavior. Depending on the sources of uncertainty about the perceived context, it can be
+classified as sensed (susceptible to sensing errors), static (system or user provided, potentially
+wrong), profiled (based on user interaction, with uncertainty about the interaction correctness), or
+14
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+derived (employing context aggregation mechanisms, which may be imperfect) [55].
+Simultaneously considering both user-centric (conceptual) and environment-centric (operational)
+context may reduce uncertainty [109].
+As the likely combinations of context instances can grow fast, it becomes difficult to identify
+a context-outcome for each such combination. Instead, a context agent has to be built to fuse the
+context information and anchor the offered services and content to it. Although an application can
+acquire, process, and store context data, it is the ability to fuse this information in order to link
+states and events to actions, which truly characterizes a context-adaptive system. Such a system
+perceives and processes the context in order to provide flexible, adaptable, responsive and
+localized information and/or services to the users. To this end, more advanced context processing
+is needed, up to the level of context reasoning [15, 25, 35, 51].
+A system designer has to determine which of the context categories can be supported,
+depending on the availability and the usefulness of relevant data. A first step would be to prune the
+context categories and only leave the ones whose context can be usefully employed to provide a
+better experience. For example, if the application data is stored on the device, the network
+conditions and QoS constraints need not be taken into consideration. The designer will also need to
+take into account the implementation feasibility of reasoning capabilities, taking into account both
+the hardware limitations and the accuracy of the perceived context data. If a specific source is
+known to be error-prone, for example, orientation data, then it may have to be excluded in order to
+both lighten the processing burden and not allow the decision making process to be misguided.
+Having positioned the key concept of context in mobile guides, the next section provides an
+analysis and taxonomy of the mobile guide literature, including an assessment of how the different
+reported applications deal with context-awareness.
+
+5. Mobile guides taxonomy analysis
+Mobile guides deliver touring services to the visitor devices or to dedicated devices on-site.
+Museum guides are amongst the most common applications, with city guides also increasingly
+employed. Fig. 3. illustrates the typical high-level components of a mobile guide system.
+
+15
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+
+Fig. 3 Mobile Guide Components
+It is typically structured as a three-tiered architecture. The data tier refers to the physical data
+storage and structure. In most cases, it resides in a remote server; however, it is also possible to be
+distributed across multiple servers. Mobile guide data may also be stored locally, at the client
+device. The middle tier offers middleware services, mostly related to the management and delivery
+of the data tier content. The middle tier also typically resides at the server-side, unless content data
+are stored locally. The third tier is the application-end of a mobile guide, typically comprising the
+software on the client device. A mobile guide system may deliver content to multiple client device
+types. The networking component interfaces the client and middleware tiers, ensuring content
+delivery. It can also be employed for data access by the middleware, when content resides at a
+location different from the middleware server, or when data resources are of distributed nature.
+The localization component is in most cases present at the client side, but has access and is linked
+to the middle tier, for services adaptation or data retrieval. It is the basis upon which to offer
+location-based services (LBS). Since the development of early mobile guide prototypes [7] the
+features of mobile guide systems have significantly advanced.
+Early mobile guides usually involved user localization and a location-based content
+adaptation mechanism. Recently, mobile guides may offer context-based personalization, user
+collaboration and social interaction. Commercial implementations emerged, usually acting as the
+electronic equivalent of a printed guide, without offering any kind of context-based adaptation
+(e.g.
+
+www.mobiexplore.com,
+
+closereachservices.net/ctc/GTA0808,
+
+unlike.net,
+
+www.traveldodo.com/content/free_mobile_city_guide). Other commercial systems offer some
+16
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+form
+
+of
+
+location-based
+
+content
+
+www.blackbookmag.com/mobile,
+
+and
+
+services
+
+adaptation
+
+(e.g.
+
+us.holland.com/iphone,
+
+www.lonelyplanet.com/mobile/iphone-city-guides.cfm).
+
+The
+
+majority of commercial systems are city guides, offering navigation support and tourist
+information. In the remainder of this section, we examine each aspect of the mobile guides’
+literature in turn, according to the methodology described in Section 2.
+
+5.1.
+
+Data Retrieval
+In mobile guides, data can be locally stored in the device memory and/or can be wirelessly
+
+retrieved either from a central server or from multiple distributed servers. In Table 3 the mobile
+guide literature is categorized by the employed data retrieval method. The majority of systems and
+especially most of the recent ones use remote data retrieval. Commercial city guides often do not
+presuppose network connection availability and therefore offer their basic functionality locally.
+Updates and dynamic information (e.g. weather conditions; special offers) are in most cases
+optionally offered through the Internet.
+Table 3. Literature Taxonomy by Data Retrieval Method
+
+Data Retrieval Method
+
+Remote
+distributed
+
+Remote
+central
+
+Local
+
+Year
+
+5.2.
+
+[29]
+
+[78,
+110]
+
+[42,
+112]
+
+[7]
+
+1997
+
+[67]
+
+[108]
+
+[72,
+[22,
+[1, 14,
+[31,
+[66,
+104,
+32, 48, [26]
+58,
+115]
+79, 82]
+113,
+69]
+106]
+117]
+
+2000
+
+2002
+
+[82,
+84, 93,
+97,
+100]
+
+[34,
+[13]
+67, 95]
+
+[8]
+
+1999
+
+[39,
+[24,
+[80]
+102] 30, 85]
+
+[16]
+
+2003
+
+2004
+
+2005
+
+2006
+
+2007
+
+[6, 35,
+[9, 27]
+105]
+[23,
+33, 37,
+41, 63, [9, 27,
+90,
+70]
+101,
+107]
+
+[20, [2, 4,
+46, 60] 5, 105]
+2008
+
+2009
+
+2010
+
+2011
+
+Localization Techniques and Environment Type
+Localization can be divided into two categories, depending on the way the user’s location is
+
+determined: direct and indirect (i.e., by proxy). Direct localization methods produce an absolute
+coordinate tuple to identify visitor location. Such methods include GPS, Wi-Fi triangulation and
+mobile phone network triangulation. With indirect localization, localization is inferred via “active”
+or “passive” elements whose position is known to the system. When the user interacts with these
+elements the system can infer that the user is near the element’s position in the environment. IrDA,
+RFID, Bluetooth, bar-coding as well as image recognition can be identified as indirect localization
+17
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+methods. It is also possible to avoid automated localization and rely on the user to indicate the
+location. This can be accomplished by tapping on a map, on an exhibit icon or even by simply
+typing in an exhibit code. Table 4 classifies the sampled literature in terms of localization
+technique used and the type of the environment (indoors/outdoors) of the application.
+Table 4. Literature Taxonomy of Localization Method by Environment Type
+
+Direct Localiz.
+
+Environment
+
+Indoors
+
+[7]
+
+Outdoors
+
+[7]
+
+GPS
+
+[7]
+
+[78,
+110]
+
+[8, 42]
+
+[29]
+
+Wi-Fi
+
+[39, 66,
+79, 84, [1, 30, [20, 46, [35, 63,
+93, 97, 58,
+80,
+90,
+100,
+106]
+113]
+105]
+102]
+
+[31, 34, [13,
+[16] 67, 95, 22, 32,
+115] 48, 69]
+
+[112]
+
+[108]
+
+[67]
+
+[2, 4-6,
+[60, 72,
+23, 33,
+[1, 14, 80,
+[26] [79, 82]
+35, 37, [9, 27]
+24, 85] 104,
+41, 101,
+117]
+107]
+
+[112]
+
+[108]
+
+[67]
+
+[26] [79, 82] [14, 85]
+
+[95]
+
+[26]
+
+[29]
+
+[66, 79,
+84]
+
+Cellular
+
+[24]
+
+Indirect Localization
+
+Image
+
+[110]
+
+[112]
+
+RFID
+IrDA
+
+[13]
+
+[42]
+[7]
+
+[78]
+
+[42]
+
+Barcode
+
+[115]
+[16]
+
+User
+
+[20]
+[79, 84,
+[1, 30,
+93, 97,
+58]
+102]
+
+[32,
+69]
+
+[31, 34,
+[69]
+67]
+
+[37, 41,
+90]
+
+[46,
+113]
+
+[27]
+
+[46,
+113]
+
+[39]
+
+[42]
+[13,
+22, 48]
+
+Bluetooth
+Year
+
+[2, 4-6,
+[72, 80, 33, 37,
+[9, 27]
+104] 41, 101,
+107]
+
+[7]
+1997
+
+1999
+
+[29]
+
+[8]
+
+2000
+
+2002
+
+[34]
+2003
+
+2004
+
+2005
+
+[106]
+[26]
+
+[100]
+
+[24]
+
+2006
+
+2007
+
+2008
+
+[20]
+
+[63]
+[105]
+
+2009
+
+2010
+
+2011
+
+Amongst direct localization techniques, consumer-grade GPS is appropriate for outdoor
+environments, when accuracy of several meters is sufficient, and can be accelerated by A-GPS,
+which can offer assisted GPS functionality that exploits mobile network services to achieve faster
+and more precise localization. Wi-Fi triangulation can be used both indoors and outdoors but
+suffers from rather low accuracy and the need to deploy a dense network of access points to
+achieve even moderately accurate results. In addition, the need to weather-proof the network nodes
+increases installation costs. On the other hand, cellular positioning is practical for both indoors and
+outdoors, but without high precision. It works by measuring signal levels and patterns between the
+mobile device and the base stations. In urban areas where there is a denser network of antenna
+towers, positioning can be achieved with a 50m precision, while in rural areas precision can
+
+18
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+deteriorate. Cellular positioning does not require special equipment on both the user and the area
+of visit. Low localization accuracy has limited utilization in mobile guides.
+Amongst indirect localization techniques, IrDA and Bluetooth implementations employ
+beacons which actively emit information, whereas RFID and bar-coding use low-cost tags which
+contain information (stored electronically or printed) to be read by the reader. IrDA beacons are
+highly directional, allowing greater pointing precision but hindering area-based positioning.
+Reversely, Bluetooth beacons can be used for area-based positioning but have low directionality
+and thus determining the direction in which the user is pointing becomes difficult. In both cases,
+providing one beacon per exhibit is not practical and has to be financially justified considering the
+scale of the application and the number of exhibits or points of interest. Bluetooth can be used as a
+direct localization method as well, in a similar manner to Wi-Fi triangulation but due to its limited
+range it has not found significant use. RFID localization is functionally similar to barcode-based
+localization. RFID costs are higher than bar-coding but this is may be justified by the ease of use
+as no alignment or correct positioning is required, though that advantage may be less significant
+with the advent of 2D (QR) barcodes, which can be can be produced cheaply and be used by
+standard camera-bearing client devices.
+Image recognition follows a different approach by using a camera to allow a user to specify
+the location by taking a picture of an object whose location is known. By superimposing virtual
+features to the picture, together with localization and directional support from GPS and inertial
+sensors, image recognition becomes an essential feature of mobile augmented reality interfaces,
+discussed in section 5.5.
+When building a mobile guide for wide areas [67, 79, 112], direct localization can be used for
+coarse localization (e.g. identifying area blocks or large city landmarks), while indirect (and more
+precise) ones can be used indoors to facilitate pointing at a specific object. Hybrid techniques can
+be employed indoors, too. For example it is possible to identify the room the user is in using
+Bluetooth or ZigBee beacons [63]. Recently, indoors/outdoors seamless positioning has been
+sought using multiple technologies [53, 87]. Alternatively, exhibit identification may be performed
+by image recognition [13, 20]. Although technically feasible, this approach places an additional
+burden on the application, requiring image processing and recognition software to be available.
+Apart from user localization, sensing the user orientation is also useful. This is especially so
+when there are multiple points of interest nearby, especially in museums. In such cases, exhibits
+19
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+can be located closely together. IrDA can be used to determine the user’s orientation, as direct line
+of sight is needed. The movement vector of the user or a digital compass can also be used to
+identify orientation. Accurate sensing of the user’s movement direction is important for
+Augmented Reality (AR) Systems, where the layer of extra information should be correctly placed
+on top of the user’s view.
+The current trend is to gradually abandon some of the older localization technologies such as
+Wi-Fi, IrDA and manual user position input. The near ubiquity of GPS receivers in mobile devices
+makes this technology extremely popular. At the same time, indirect localization technologies,
+such as RFID and 2D barcodes, have become more commonplace due to better device support.
+Amongst the surveyed literature, most applications support indoors localization, while
+commercial outdoor guides employ the device’s own GPS localization. In some cases, mobile
+guides are designed for outdoor environments and wide area navigation, while others operate both
+indoors and outdoors, usually combining different localization methods.
+
+5.3.
+
+Client-side device characteristics and software
+Mobile guides can employ different portable device types, such as PDAs, mobile phones,
+
+smartphones and tablets. Based on the specific application requirements, the mobile guide system
+may also be designed to provide content to other devices, such as infokiosks and laptops. Systems
+that are intended to augment the user’s senses may also employ an augmented reality (AR)
+visualization device, increasingly now integrated as standard feature in mobile augmented reality
+interfaces in smartphones.
+The mobile device choice influences to a large extent the available options for the
+development of the client software. The most important parameter is the device’s operating system
+(OS). In the reviewed literature, most PDA devices employed Microsoft operating systems, such as
+Windows CE and Windows Mobile. Others, mostly older ones, employ Palm OS. Tablet PCs in
+most cases carry Microsoft PC operating systems as well as most laptops. One work used a Linuxbased laptop [20]. Commercial mobile guides now support multiple smartphone devices that come
+with Windows Mobile, Apple iOS, Symbian or Android. The aforementioned operating systems
+support different types of applications, namely Native applications, Virtual Machine-based and
+Web-based, with the latter becoming more common recently. VM-based applications on PDAs
+
+20
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+were implemented with either Java or Microsoft .NET CE. Table 5 summarizes these client-side
+device characteristics in the form of a timeline.
+Table 5. Timeline of Client-side device characteristics and software
+
+Application Type
+
+Native
+Webbased
+
+[78]
+
+[29]
+
+Java
+.NET
+
+[42,
+[13, 48,
+[108] [31, 95]
+[26]
+112]
+69]
+[112] [16]
+
+[78]
+
+[29]
+
+[22, 32] [26]
+
+[42,
+[13, 48,
+[108] [31, 95]
+[26]
+112]
+69]
+
+Multiple
+
+Operating System
+
+MS PC
+OS
+
+Device Type
+
+[26]
+[78]
+
+[112]
+
+[84, 93]
+
+[8,
+42,
+112]
+
+MS PDA
+OS
+
+[34, 67,
+[48, 69]
+95]
+
+Linux
+
+[22]
+
+Symbian
+
+[106]
+
+[39, 79, 82, [1, 14,
+97, 102] 58, 85,
+[76]
+106]
+[106]
+[100]
+
+[41, 105]
+[113]
+
+[106]
+
+Android
+
+[72]
+
+Apple
+iOS
+PalmOS
+
+[72]
+[70]
+
+PDA
+
+[16]
+
+[110]
+
+[8,
+42,
+112]
+
+Cell
+phone
+Smartphone
+laptop [78]
+tablet PC
+[29]
+Info-kiosk
+AR
+Year
+1999 2000 2001
+
+5.4.
+
+[2, 4-6, 23,
+33, 37, 41,
+101]
+[35, 105,
+[102]
+[106] [80, 117]
+107]
+[60, 72,
+[79, 100]
+[30]
+80]
+[9]
+[104]
+[102]
+[63]
+[1, 106]
+[76]
+[27]
+[60, 80,
+[24]
+117]
+[4]
+[70]
+[72]
+[70]
+
+[58]
+
+[112]
+[112]
+[112]
+2002
+
+[35, 63]
+[27]
+[6, 23, 33,
+35, 37]
+[9]
+[6, 35,
+107]
+[2, 4-6, 35,
+101, 107]
+
+[31]
+
+[106]
+[39, 66, 79,
+[31, 34,
+[1, 24, [46, 60, [2, 5, 35,
+[16,
+[32, 48,
+82, 93, 97,
+67, 95,
+[26]
+58, 80, 113,
+63]
+108]
+69]
+102]
+115]
+106]
+117]
+[27]
+[76]
+[20, 60,
+[16]
+[26]
+[24, 30] 80]
+[35]
+[104]
+[14, 24, [60, 72, [4, 6, 23,
+[100]
+85, 80, 117] 33, 35, 37,
+106]
+[70]
+101, 107]
+[22] [26]
+[84]
+[13]
+[41, 105]
+[69]
+[106]
+[84]
+2003 2004
+2005 2006
+2007
+2008
+2009
+2010-11
+
+Context Aware Implementations
+
+Following the context categorization introduced in Section 4, Table 6 classifies systems according
+to the way context awareness is handled and supported. In general, location awareness is the most
+common feature. User profiling/categorization, activity history and preferences are also dealt with
+in some cases. Context-awareness is evidently rather poorly addressed in mobile guidance
+implementations. The still unexplored potential is further discussed in Section 6.
+
+21
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+
+User
+
+Table 6. Literature Taxonomy By Supported Context Awareness
+
+User Category
+
+[78]
+
+Preferences
+
+[78]
+
+History
+
+System
+
+Location
+
+Orientation
+Device
+Characteristics
+Network
+Conditions
+Privacy
+
+[7]
+
+[112]
+
+[78]
+
+[78,
+110]
+
+[16]
+
+[108]
+
+[39,
+[31,
+[1, 14, [20,
+[13,
+79, 82,
+[8, 42, [16, 34, 67,
+24, 30, 46, 80,
+[29]
+22, 32, [26] 84, 93,
+112] 108]
+95,
+85,
+113,
+48, 69]
+97,
+115]
+106] 117]
+102]
+[112]
+
+[78]
+[78]
+
+[39,
+66, 76,
+[1, 24, [46,
+[26] 79, 82,
+30, 85] 72, 80]
+97,
+102]
+[14,
+[60,
+[22,
+[76, 30, 58,
+[95]
+[26]
+80,
+32, 69]
+102]
+85,
+117]
+106]
+[79,
+[67,
+97,
+[14, [20,
+[32] [26]
+95]
+100, 58, 85] 46, 80]
+102]
+[32,
+69]
+
+[112]
+
+[67]
+[16]
+
+[69]
+
+Social
+Service
+
+[26]
+
+[39]
+
+[29]
+
+[35,
+107]
+[2, 4-6,
+33, 35,
+37, 41,
+63, [9, 27]
+101,
+105,
+107]
+[6, 41]
+
+[30]
+[24]
+
+[32]
+
+Interaction
+
+[8]
+
+[39,
+[24,
+66, 79,
+85]
+100]
+
+[115]
+
+Available
+Services
+
+[67]
+
+[46,
+80,
+113]
+
+[6]
+
+[33,
+107]
+[33,
+[1, 58]
+107]
+[14,
+[2, 5, 6,
+[80]
+24, 85]
+33]
+
+[115]
+
+Groups
+
+[32]
+
+Task Sequence
+Year
+
+[2, 4,
+35,
+107]
+
+[32]
+
+Relationships
+
+5.5.
+
+[84]
+
+[105]
+
+[33]
+1997 1999 2000
+
+2002
+
+2003
+
+2004
+
+2005 2006
+
+2007
+
+2008
+
+2009
+
+2010
+
+2011
+
+Mobile User Interfaces
+Mobile guides aim at aiding the visit, not substituting it with a virtual one. Therefore, the
+
+intention is to provide contextually relevant information and services to assist visitors in focusing
+on the real visit points of interest. To this end, some mobile guides offer spoken instructions and
+descriptions, so that the visitor’s gaze remains on the real visit objects. At the same time, mobile
+devices are characterized by their small form factor, resulting in special user interface
+requirements. The limited screen resolution increases the need for smart user interface design. In
+general, the mobile user interface must be clear, intuitive and consistent, leaving some flexibility
+to the user to decide upon the type and amount of information to receive. The interface should not
+contain all available functions within a single screen. The most common functions should be
+directly visible to the user, whereas secondary functions can be indirectly available through the use
+of navigation options which enhance and expand the limited capacity of small mobile device
+22
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+screens and as a result the ease of use and acceptance prospects. Fig. 4 illustrates the typical
+mobile device interface design patterns [11].
+
+Fig. 4 Mobile user interfaces Design Patterns
+Table 7 summarizes the main user interface features, commonly met in mobile guides. The
+command bar was a frequent feature, while the undo/back button still is, allowing a user to cancel
+the last action and go back to the previous screen, while the rest of the features are less common.
+Only a few systems offer the ability to change the system options (e.g. preferences for color and
+contrast) while using the guide. Many guides contain an initialization phase, where the user can
+configure the guide and these settings remains unchanged throughout the navigation session.
+Table 7. Literature Taxonomy By Mobile User Interface Features
+Command bar
+
+[7]
+
+List
+
+[78]
+
+[29]
+
+[78]
+
+Menus
+
+Breadcrumbs
+
+[48]
+
+[29] [112] [108]
+
+[95]
+
+[69]
+
+[112] [16]
+
+[67]
+
+[69]
+
+[78]
+[8]
+
+Hyperlinks
+[7]
+
+[26]
+
+[26]
+
+[39, 66, [14, 24, [46, 80,
+82, 93] 30, 85]
+113]
+
+[2, 4-6,
+105, 107]
+
+[39, 93,
+100]
+
+[14]
+
+[72, 117]
+
+[2, 4-6,
+23, 35,
+101, 107]
+
+[9]
+
+[84]
+
+[24]
+
+[46, 60,
+80, 117]
+
+[33]
+
+[9,
+70]
+
+[1, 14,
+24, 58]
+
+[72]
+
+[101]
+
+[9]
+
+[26]
+
+Interactive
+map
+
+Year
+
+[31, 34,
+67, 95,
+115]
+[95]
+
+Tab navigation
+
+Undo/Back
+button
+System
+Options
+Virtual 3D
+Guide
+Wearable
+device
+Voice
+Recognition
+
+[108]
+
+[67, 95]
+
+[29]
+
+[42] [108]
+
+[29]
+
+[16,
+108]
+
+[29]
+
+[1, 85,
+[39, 93]
+106]
+
+[31, 34,
+115]
+
+[48]
+
+[2, 5]
+[6, 33,
+[46, 72,
+101, 105,
+80, 117]
+107]
+
+[1, 14,
+[46, 60, [2, 4, 23,
+[102] 24, 85,
+72, 117] 35, 107]
+106]
+[39, 66, [1, 24, [60, 113, [4, 23, 33,
+[26]
+93]
+58]
+117]
+107]
+
+[8,
+112]
+
+[39] [14, 24]
+
+[9]
+
+[9]
+
+[23, 33]
+
+[84]
+
+[9]
+
+[84]
+[108]
+1997 1999 2000 2002 2003
+
+2004
+
+2005
+
+2006
+
+[84]
+
+[1]
+
+2007
+
+2008
+
+2009
+
+2010
+
+2011
+
+23
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+Amongst the different interface patterns, the list-based layout is more suitable for desktop
+applications, than for a mobile guide. List usage is now uncommon in higher-level mobile user
+interfaces but is reserved for lower level user options. It is useful to provide “Next”, “Previous”
+and “Done” commands, to allow for easier navigation to the next and previous item of the list, as
+well as to return back to the list. Common options are also soft keys and buttons that provide easy
+access to frequently used actions and remain always visible to the user. Soft keys and buttons were
+employed to provide consistent functionality for each screen or even for each item of the
+application. Scroll-and-select functionality was supported to extend beyond the typical screen size
+but is now replaced by full-screen scrolling. Tables were often used for the design of the main
+screen of an application, especially now that touch-based devices are extensively used, allowing
+quick access to different functions and applications. Menus offer a list of commands, suitable for
+scroll-and-select devices with button input. If the number of commands is large (usually more than
+ten), they can be broken down to submenus, according to the frequency of their use. It is standard
+practice now that lists, tables and menus are implemented as a grid of clearly identifiable icons.
+Applications employ tabs to offer rich selection options. It works the same way as desktop
+tab navigation, only restricted by the number of tabs that can fit on screen. They are often used in
+touch-based devices, but can also be used for scroll-and-select ones, provided that left and right
+navigation through the tabs is possible. Breadcrumbs were a common mechanism, usually
+employed in web pages, but are less appropriate for modern portable devices. An alternative
+breadcrumb style includes a drop-down list offering similar functionality. Application navigation
+for mobile applications is mostly designed to be split into more than one screen, due to the small
+screen form size.
+Map-based navigation is increasingly popular but still poses difficulties. Empirical studies
+have shown that people acquire a better understanding of space using paper rather than mobile
+maps [114], but this could be due to familiarity with paper maps and their larger size. Space in real
+life is conceived as quantifiable and bounded, thus communicating spatial information through a
+mobile device is harder. Yet interactive maps are a key feature of mobile guides.
+Touch-based interfaces have now become the norm in mobile devices. They are intuitive and
+fast to use and can also substitute a physical keyboard. Efforts continue to pursue designs that
+enable the user to make maximal use of the device and application options with as little physical
+interaction as possible with the device touchscreen and buttons. An increasing trend is the
+24
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+exploitation of multi-touch interfaces, enabling more complex HCI interaction with the mobile
+device. Some examples are shown in Fig. 5 (www.gestureworks.com).
+
+Fig. 5 Multi-touch interface gestures
+Voice interfaces make it possible to include a natural interfacing modality, allowing the
+mobile guide user to interact with the mobile guide, without physically touching the device, a
+feature which is highly desirable. Voice recognition in crowded or noisy environments require
+more robust features to be built in with increased noise immunity, tolerance in voice variations and
+some, but as little as possible, training for initialization. Beyond application control, voice
+synthesis can be exploited to move away from pre-recorded static messages to dynamically
+generated content, without the need to pre-record messages. Whether for static or dynamic content,
+the user-to-device interface remains more demanding compared to the device-to-user one, as it has
+to account for user voice and environment noise variability.
+More advanced features, such as image recognition utilizing the device camera, or mobile
+augmented reality-aided interfaces (MAR) are increasingly pursued [62]. MAR can be markerbased (ie based on visual cues or tags) and markerless, with the latter employing GPS or other
+localization capabilities, together with Augmented Reality (AR) browsers to display information in
+a fused manner, which makes the interaction with the system much more intuitive and natural.
+MAR takes advantage of GPS, compass and accelerometer data to constantly sync the user
+position and orientation and adapt the user interface accordingly. MAR interfaces have already
+made it to the mass market (e.g. Wikitude: www.wikitude.org, Layar: www.layar.com, Junaio:
+www.junaio.com,
+Acrossair:
+
+Sekai
+
+Camera:
+
+www.sekaicamera.com,
+
+www.acrossair.com,
+
+TagWhat:
+Google
+
+www.tagwhat.com,
+Goggles:
+25
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+http://www.google.com/mobile/goggles/#landmark).
+
+For
+
+example,
+
+layar
+
+combines
+
+GPS
+
+localization with user-selected information layers to augment the device real camera or the map
+view with information about points of interest or even social networking entries availability, such
+as nearby Facebook affiliates. On the other hand, solutions such as Junaio may also function
+indoors via marker-based navigation. Nonetheless, development efforts applicability is limited by
+the fact that such MAR-based solutions often need an AR browser, while is most cases rely on the
+availability of a backend infrastructure. An alternative user interface option is the use of a virtual
+3D Guide, a digital substitute to the human guide, offering an intuitive interface. Wearable input
+devices can substitute on-screen mobile user interfaces.
+Context-adaptive mobile user interfaces are still a largely unexplored option. Benefitting
+from a growing maturity in context-based adaptation, they are expected to become more prevalent,
+tailoring the offered interface options to the mobile device usage context.
+
+6. Challenges and Trends
+Significant progress has been achieved in designing and developing mobile guides in a range
+of applications, such as urban, museum and exhibition spaces. The growing maturity of the
+employed hardware and software components and platforms, as well as the advances in handling
+and exploiting context have enabled a transition from the early guides, often equivalent to
+electronic versions of guide books, to more sophisticated systems. In this paper, we reviewed the
+mobile guidance literature and classified it according to multiple criteria in order to encompass the
+significant complexity embedded in the space of mobile guidance applications. Rather than
+attempting an exhaustive listing of works, we focused on technical aspects of mobile guide
+development, applications availability and services delivery, while also considering networking,
+middleware and user interface issues, highlighting functional, architectural, and implementation
+issues. During this process, a number of open research issues and emerging trends were identified
+and are discussed in the following paragraphs.
+
+6.1.
+
+Technology Evolution
+Fig. 6 illustrates the evolution of some technological features in mobile guidance
+
+applications. A gradual change from older to newer technologies can be seen. IrDA-based
+localization was followed by RFID and Bluetooth-based localization. GPS has been used as an
+26
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+outdoors localization method. Fig. 6 also shows the emergence of some interesting trends: the first
+web-based mobile guide reviewed here appeared as early as 1997, while socially-aware guides
+took another 5 years to appear. In 2007 there was a significant spike in the usage of smartphones
+as client devices for mobile guides, and that was followed by the appearance of iPhone and
+Android mobile guides two years later, as the smartphone platform became the de-facto standard.
+
+Fig. 6 First usage of Technologies and Trends in Mobile Guides
+
+6.2.
+
+Hardware Devices
+
+6.2.1.
+
+Device characteristics
+
+The vast majority of works employed a PDA device. Mobile phones were also used, but in
+many cases they were supported as alternatives to PDAs. Mobile phones cost less and are already
+familiar to users. Although they offer almost universal connectivity, they are diverse and therefore
+extra design effort is required to achieve consistent interfaces across platforms. Smartphones are
+becoming increasingly popular and they offer the advantages of both device types. A few systems
+employed tablet PCs, with much larger screen than PDAs or cell phones, but these are bulkier to
+carry and have reduced battery life. As a part of multiple device-type support, some systems also
+used Infokiosks and stationary touchscreen PCs, while some lab prototypes also employed laptops.
+In the past a larger variety of device types were used in the literature, possibly in the process of
+trying to find the optimal mobile device for end-uses. Since 2008, consumer PDAs largely gave
+way to smartphones. Additionally, recent years have seen the introduction of more successful
+versions of the Tablet PC form. While there have been attempts at products with this form factor in
+the past, they were not commercially successful, mainly due to hardware limitations. With devices
+such as the Apple iPad (1&2) based on the iOS platform and Android-based devices such as the
+27
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+Samsung Galaxy Tab and the Motorola Xoom we now see a transition of a portion of the mobile
+guide applications to include these devices as well, particularly for meeting higher-end user
+application requirements. Such devices provide much improved usability due to larger displays
+and user interfacing options, as well as higher performance and battery capacity. Furthermore, the
+software development tools used are the same as the ones used for the respective smartphone
+devices making the porting process extremely easy.
+
+6.2.2.
+
+Performance and features
+
+Cellular and PDA devices continue to converge in the form of smartphones. The demand is
+for devices that offer cross-protocol connectivity, enhanced CPU power and memory capacity,
+screens of higher resolution, brightness and rigidity. Advanced characteristics like more powerful
+and improved graphics and multimedia handling capabilities, improved user interfaces and better
+support for Web2.0 technologies, are gradually becoming common in new smartphone devices.
+
+6.2.3.
+
+Power efficiency and operating autonomy
+
+Energy consumption and consequently battery life is expected to remain a concern. The
+increasing usage of advanced mobile application features and the need for constant connectivity
+will fuel the demand for enhanced energy efficiency and higher battery capacity. A power-aware
+operation, that makes rational power usage, is likely to remain a design concern for developers. As
+wireless networking operations are energy-costly, smart handling of network transmissions is also
+an issue to be taken into account at the device level. Additionally, applications are expected to
+make increased use of multimedia, 3D rendering, compression / decompression, as well as parsing
+and rendering complex web pages, all of which cause high power consumption. Thus, network
+communications and CPU management need to become increasingly energy efficient. The device
+display is usually the highest power consumer. Screens with improved energy efficiency are likely
+to emerge, following continuing efforts in this direction. Their power management could be
+pursued by shutting off the display back-light, but this is rarely practical during the usage of the
+mobile guide. Careful design of the application interface, making it easily viewable even with low
+levels of back-light, may be a suitable compromise.
+Optimizing the power consumption of wireless transmission, CPU and screen usage is a
+complex multi-criteria optimization issue as these resources are interlinked. For example, reducing
+28
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+the power draw of the wireless component, by using data compression, inadvertently increases
+processor usage to perform the decompression and therefore may not yield the expected results.
+The need for efficient power management becomes more prevalent in wide area guides, used for
+longer time periods in outdoors settings, without recharging options. As these guides are often
+accessed through the users’ personal device, power capacity and management differ amongst
+devices. Extensive testing is therefore needed, along with monitoring and exploiting advances in
+hardware, software and networking-related solutions for lowering power consumption.
+
+6.3.
+
+Software
+
+6.3.1.
+
+Context-Aware Implementations and Reasoning
+
+The analysis of the surveyed works indicates that location awareness is the most common
+feature (see Fig. 7) but most other types of context are still rather unexploited. Most of the guides
+today are able to directly or indirectly locate the user and adapt the presentation of the content
+accordingly. On location change, content may be automatically retrieved and displayed.
+Alternatively, some kind of user input to trigger content presentation may be required. A simple
+location awareness method is to detect the room or area the user is in, providing a set of available
+exhibits and expecting the user to select which particular exhibit to display. Only a few mobile
+guides are able to detect the user’s orientation, maximizing the accuracy of the presented content.
+The implementation of context-based adaptation in mobile guides is still very much open to
+research. The set of possible input combinations that need to be taken into account in defining the
+context can grow exponentially. Rather than defining an ‘input-output’ correspondence, wherein
+input is the perceived context and output is the system response, more efficient and intelligent
+ways of reasoning about context, producing actionable context identification, and determining a
+context-based services adaptation mechanism is needed. Thus, research into developing efficient
+context aggregation and reasoning mechanisms is highly sought and may have substantial impact
+on making mobile guides more practical to use in different applications [25, 35, 111, 118].
+
+29
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+
+Fig. 7 Qualitative context awareness support in surveyed works
+
+6.3.2.
+
+Data mining – exploiting visit data
+
+The usage pattern of a mobile guide application may also offer valuable input to a servicesadaptation mechanism. Data mining and knowledge processing of usage history data are features
+that have only recently started to be incorporated. Research should focus on methods for extracting
+knowledge out of usage patterns, as well as on exploiting this knowledge to offer more advanced,
+intuitive and personalized services. Many mobile guide applications, especially indoor museum
+guides, provide a set of predefined descriptions of the exhibits, offering little or no adaptation to
+the user profile. Supporting multiple user profiles, predefined or inferred from user behavior,
+demands smart design, user profiling capabilities and the development and customization of
+appropriate content. Information derived from mobile guide users can also be utilized to predict
+user behavior and offer recommendations that closely match user expectations or interests.
+
+6.3.3.
+
+Incorporation of social context
+
+Although social interaction has the potential to significantly enhance user experience, it is not
+a common part of current mobile guides. Incorporating social context and features introduces
+additional functional and non-functional requirements to be addressed. For example, real-time
+communication makes networking quality of service even more important. Beyond non-functional
+constraints, designers must carefully analyze the application scenario and developers need to come
+30
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+up with solutions so that social interaction does not distract the user, but rather enhances the visit
+experience. Alternatively, social context can be interactively resolved by means of augmented
+interfaces, such as in Mobile Augmented Reality (MAR) implementations. For example, in Layar
+(www.layar.com), different layers of social networking entities can be superimposed on a mapbased or camera-view-based interface, allowing the user to select the context of interest.
+
+6.3.4.
+
+Content aggregation from heterogeneous sources
+
+An increasing trend is to offer wide area (urban/rural spaces) mobile guide services, but also
+public transport mobile services. Such mobile guide applications need to rely less on a central
+repository of content but act more as content aggregators from a multitude of distributed and
+heterogeneous resources and services. Considerable research effort will need to be devoted on how
+to build applications which can act at a higher abstraction layer and yet are able to harvest and
+process data from such disparate resources. This new generation of applications will require
+greater focus on Web 2.0 and beyond, enabling seamless information sharing, supporting data
+interoperability and facilitating user collaboration at a much larger scale. Enabling the generation,
+processing and exploitation of user-generated content will emerge as a key research challenge for
+the next generation of mobile guides.
+The development of proactive and efficient data quality assurance mechanisms will become a
+key design issue, as user generated content cannot easily follow specified formalisms. However,
+the inclusion of the users themselves in the data quality assurance process may facilitate producing
+emergent, rather than centrally controlled quality assurance mechanisms. The integration of
+touring options with augmented navigation interfaces, such as those offered by MAR applications,
+can facilitate the inclusion of disparate content sources, by means of third-party developed layers
+of information, often with user-generated content. Apart from exploiting user-generated content,
+mobile guides will be expected to aggregate third-party services, acting as mediators for accessing
+services offered by a larger vendor and user community. Additional services are expected to
+emerge within this framework, such as e-shopping and online booking, thus expanding the range
+of services available to mobile users. The inclusion of such services may become a key contributor
+to the financial viability of mobile guide services.
+
+31
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+6.3.5.
+
+Privacy and security
+
+User and user-generated data will increasingly be placed at the centre of mobile guide
+applications. This will lead to increased demand for a more rigorous treatment of privacy
+preservation and security. Mobile guides to date do not actively protect user privacy and system
+security. Special care should be taken to ensure the application’s security and frequent updates
+should be applied to deal with new security issues. Data mining can be exploited to offer advanced
+personalization services. Usage patterns can provide important information about user interests and
+behavior but should be prevented from being revealed (intentionally or unintentionally) and used
+for other purposes. Care should be taken that only the necessary information for the knowledge
+processing is collected and processed and that no personal identifiable information (PII, i.e.
+information that can identify the person, such as their name, address or telephone number) are
+collected. Bearing in mind that a set of non-PII can also contain sufficient information to identify a
+person, privacy protection during knowledge processing can be sought by processing aggregated
+instead of raw data. This means that data derived from the users’ behavior is processed in groups,
+so that no individual record can be revealed. Another privacy preserving method of acquiring and
+processing user information is to collect obscured user data. This can be achieved, for example, by
+not collecting user birth date, but instead use the age group of users.
+
+6.4.
+
+Past and Future
+While mobile guide prototypes have flourished over the last several years, boosted by the
+
+evolution in hardware and software and the maturing competition in the smartphone and tablet
+segments, more drastic advancements are to be expected in the near future. A number of
+limitations have impeded progress in the past, turning the lifecycle of mobile guidance applications
+into a vicious circle, as illustrated in Fig. 8. The reasons for this are attributed to both hardware
+and the software aspects of mobile computing. As far as the hardware is concerned, limited device
+capabilities, such as slow CPU, limited RAM and storage capacity, small display size and few or
+no embedded sensors such as GPS, accelerometers and digital compasses, but critically also
+significant differences in device characteristics, resulted in higher cost development efforts and
+rather expensive market offerings. On the software development front, the high variability between
+devices and the severely limited hardware made mobile application development hard, with
+considerable compatibility problems across the different devices and platforms. Moreover,
+32
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+development was quite specialized and for that reason insufficiently served by a relatively small
+community of skilled but unaffordable developers. The immediate result was that the end-user of
+mobile guides experienced applications of insufficient usability on limited capabilities devices and
+thus formed a negative bias for such technologies. The high costs and the lack of cheap universal
+network availability further compounded the issue. Therefore, there was only limited consumer
+demand for such applications, closing the vicious circle loop and making hard for vendors to
+justify further investment.
+
+Fig. 8 Mobile Guide Applications in the past: Causes for vicious cycle of impediments
+
+With relatively cheap, powerful, highly connected and easier to develop software devices
+becoming increasingly available, the vicious circle was gradually broken. The initial breakthrough
+came with Apple’s iPhone. This offered a rather expensive but impressive and highly usable
+platform, which dramatically increased user demand for mobile devices and applications. Since
+then, a significant competitor, Google Android, has started to provide the means to easily create
+mobile applications. Device processing and storage capabilities have increased rapidly and at the
+same time costs have gone down. Developers today can use common development tools, versatile
+emulators and rich documentation to aid them. As application development became easier and
+cheaper, sufficient incentives were provided to larger communities of developers to be drawn to
+these platforms, simultaneously making their skills increasingly available and affordable.
+It is reasonable to expect that users will increasingly employ their own devices for mobile
+guidance applications, with networking optionally being provided by the visited venue where 3/4G
+33
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+network coverage is weak. With the increasing ubiquity of social networking applications, it is also
+expected that users will find it natural to combine mobile guidance usage with their commonly
+employed social tools and mobile guide solutions vendors will seek to exploit this trend by
+providing a tighter integration with social tools. The Web development model fits the need to
+support multiple devices and social networking services integration and is likely to be further
+strengthened with the latest set of technologies, such as HTML5 and Ajax. This in turn will make
+context awareness easier to implement, as context data integration into a single application will
+become easier, in a platform-neutral way, supported by some form of context-processing
+application engine. Thus, applications and devices usability will be further enhanced.
+Such developments are likely to have a clear impact on the business model fuelling further
+development in order to provide mobile guidance services. Mobile guides have been deployed in
+varying forms in both non-commercial and commercial settings. The most common case for noncommercial mobile guides consists of public authorities-sponsored deployment to enhance the
+services provided in an area or venue and in turn increase its attractiveness. A commercial mobile
+guide can also be offered for free, but a sustainable revenue stream is still needed. One way is
+through displaying in-application advertisements from an advertisement server, such as Google
+AdSense. Another way is by requiring that beneficiaries of the service (e.g. participating
+businesses in a city guide) contribute on a subscription or a per-customer-received basis. A
+subscription or per-use payment may be alternatively required from the mobile guide user but this
+tends to alienate visitors, especially if they cannot tell whether the guide will cover their needs
+before paying. As an example of such guides, mobile museum guides are often offered as an addon to the visit. They can be optional and paid-for-use or free with the extra cost included in the
+visit price. Finally, revenues can be drawn through the 3G/4G operator, as delivery of mobile
+guidance content can become a mainstream service offered to smartphone users.
+
+6.5.
+
+Conclusion
+This paper provided an updated review and analysis of the mobile guides’ literature. Our
+
+research methodology focused specifically on different aspects of the mobile applications space
+complexity. As the survey focus is on mobile guidance applications, research is contextualized by
+considering the different functionalities offered by such systems. A discussion on the different
+types of context relevant to mobile guide applications was included and a generic context
+34
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+classification definition scheme was adopted, more aligned with the mobile guides’ application
+space compared to previous classifications. We have reviewed the set of technological and
+functional features of mobile guide applications and discussed their various tradeoffs. In the light
+of this analysis, a novel, comprehensive mobile guide literature taxonomy was offered, including a
+discussion on emerging trends and research prospects. There is arguably considerable potential for
+placing the user well-inside the mobile guidance experience. Thus, any future wider adoption of
+mobile guides largely depends on the level to which mass-personalization and the social nature of
+humans when performing a visit are exploited by further research, as well as commercial
+development efforts. Currently, there is a clear lack of user-centered assessment of mobile
+guidance user experience and this line of research, currently actively pursued in personalization
+and recommendation systems [74], should invite more systematic active research in the field.
+
+Acknowledgment
+This work was partially supported by GSRT projects ‘myVisitPlanner’ (09SYN-62-1129),
+‘Virtual Guide’ (AMTH-5) and ‘Excellence’.
+References
+[1] Virtual Guide - The Xenagos Digital Guidance System. http://www.virtualguide.gr. 2008.
+[2] 2010 Guide - Vancouver 2010 Olympic winter games: the official mobile spectator guide.
+http://itunes.apple.com/ca/app/2010guide-vancouver-2010-olympic/id350892863?mt=8&ignmpt=uo%3D6#. 2010.
+[3] ABI Research, World Mobile Applications Market - Advanced Technologies, Global Forecast
+(2010 - 2015). 2010.
+[4] Amsterdam mobile guide. http://us.holland.com/iphone/. 2010.
+[5] Blackbook Guide http://www.blackbookmag.com/mobile. 2010.
+[6] Wikitude AR guide. http://www.wikitude.org/wikitude-ar-guide. 2010.
+[7] Abowd G, Atkeson C, Hong J, Long S, Kooper R, Pinkerton M. Cyberguide: A mobile
+context-aware tour guide. Wireless Networks. 1997;3:421-33.
+[8] Aoki PM, Grinter RE, Hurst A, Szymanski MH, Thornton JD, Woodruff A. Sotto Voce:
+Exploring the interplay of conversation and mobile audio spaces. CHI '02: Proceedings of the
+SIGCHI conference on Human factors in computing systems. 2002. p. 431-8.
+[9] Baldauf M, Fröhlich P, Masuch K, Grechenig T. Comparing viewing and filtering techniques
+for mobile urban exploration. Journal of location-based services. 2011;5:38-57.
+[10] Ballagas R, Kratz S, Yu Y, Borchers J, Walz SP, Fuhr C, et al. REXplorer: A mobile,
+pervasive spell-casting game for tourists. Proceedings of the 2007 Conference on Human Factors
+in Computing Systems (CHI2007). San Jose, California, USA, 2007. p. 1929-34.
+[11] Ballard B. Designing the mobile user experience: John Wiley & Sons; 2007.
+[12] Baus J, Cheverst K, Kray C. A survey of map-based mobile guides. Map-based Mobile
+Services2005. p. 193-209.
+[13] Bay H, Fasel B, Gool LV. Interactive museum guide. Ubicomp 2005. Tokyo, Japan, 2005.
+[14] Bellotti V, Begole B, Chi EH, Ducheneaut N, Fang J, Isaacs E, et al. Activity-based
+serendipitous recommendations with the Magitti mobile leisure guide. Proceeding of the twentysixth annual SIGCHI conference on Human factors in computing systems. Florence, Italy, 2008.
+[15] Bettini C, Pareschi L, Riboni D. Efficient profile aggregation and policy evaluation in a
+middleware for adaptive mobile applications. Pervasive and Mobile Computing. 2008;4:697-718.
+
+35
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+[16] Bombara M, Cal M, Santoro C. KORE: A multi-agent system to assist museum visitors.
+Proceedings of the Workshop on Objects and Agents (WOA2003). Villasimius, CA, Italy, 2003. p.
+175-8.
+[17] Brodt TL, Verburg RM. Managing mobile work—insights from European practice. New
+Technology, Work and Employment. 2007;22:52-65.
+[18] Brown PJ. The Stick-e document: A framework for creating context-aware applications.
+Proceedings of Electronic Publishing. 1996. p. 259-72.
+[19] Brown PJ, Bovey JD, Chen X. Context-aware applications: From the laboratory to the
+marketplace. IEEE Personal Communications. 1997;4:58-64.
+[20] Bruns E, Bimber O. Adaptive training of video sets for image recognition on mobile phones.
+Personal and Ubiquitous Computing. 2009;13:165-78.
+[21] Buchholz T, Küpper A, Schiffers M. Quality of context: What it is and why we need it. In
+Proceedings of 10th Workshop of the OpenView University Association. 2003.
+[22] Cano J-C, Manzoni P, Toh C-K. First experiences with bluetooth and java in ubiquitous
+computing. 10th IEEE Symposium on Computers and Communications (ISCC'05). Cartagena,
+Spain, 2005. p. 223-8.
+[23] Carlsson C, Walden P. Supporting Tourists at the Bomarsund Fortress with a Mobile Value
+Service. Journal of Information Technology Theory and Application (JITTA). 2010;11:4.
+[24] Carlsson C, Walden P, Yang F. Travel MoCo - A mobile community service for tourists.
+Proceedings of the 2008 7th International Conference on Mobile Business. 2008.
+[25] Caus T, Christmann S, Hagenhoff S. Hydra – application framework for the development of
+context-aware mobile services. Business Information Systems2008. p. 471-81.
+[26] Cena F, Console L, Gena C, Goy A, Levi G, Modeo S, et al. Integrating heterogeneous
+adaptation techniques to build a flexible and usable mobile tourist guide. AI Communications.
+2006;19:369-84.
+[27] Chang YJ, Lin BS. An inquiry-based ubiquitous tour system. 2011 International Conference
+on Complex, Intelligent, and Software Intensive Systems. Seoul, South Korea, 2011. p. 17-23.
+[28] Chen G, Kotz D. A survey of context-aware mobile computing research. Technical Report:
+TR2000-381, Dept. of Computer Science, Dartmouth College. 2000.
+[29] Cheverst K, Davies N, Mitchell K, Friday A. Experiences of developing and deploying a
+context-aware tourist guide: The GUIDE project. MobiCom '00: Proceedings of the 6th annual
+international conference on Mobile computing and networking. Boston, Massachusetts, United
+States, 2000. p. 20-31.
+[30] Choi J, Moon J. MyGuide: A mobile context-aware exhibit guide system. Computational
+Science and Its Applications – ICCSA2008. p. 348-59.
+[31] Chou L-D, Wu C-H, Ho S-P, Lee C-C, Chen J-M. Requirement analysis and implementation
+of palm-based multimedia museum guide systems. 18th International Conference on Advanced
+Information Networking and Applications (AINA'04). Fukuoka, Japan, 2004. p. 352.
+[32] Chou S-C, Hsieh W-T, Gandon FL, Sadeh NM. Semantic web technologies for context-aware
+museum tour guide applications. Proceedings of the 19th International Conference on Advanced
+Information Networking and Applications - Volume 2. 2005.
+[33] Choudary O, Baccot B, Grigoras R, Charvillat V. Evaluation of Multimedia Features in
+Mobile Guide Applications. Journal of Digital Information Management. 2010;8.
+[34] Ciavarella C, Paterno F. The design of a handheld, location-aware guide for indoor
+environments. Personal Ubiquitous Computing. 2004;8:82-91.
+[35] Coppola P, Della Mea V, Di Gaspero L, Menegon D, Mischis D, Mizzaro S, et al. The context
+aware browser. IEEE Inteligent Systems. 2010;25:38-47.
+[36] Cruz D, Barros E. Vital signs remote management system for PDAs. Proceedings of the 2005
+8th Euromicro conference on Digital System Design (DSD’05). 2005. p. 170-3.
+[37] De Ves E, Coma I, Fernández M, Gimeno J. Intelligent Eye: location-based multimedia
+information for mobile phones. Proceedings of The 12th International Conference on Information
+Integration and Web-based Applications and Services (iiWAS 2010). Paris, France, 2010.
+[38] Dey A. Understanding and using context. Personal and Ubiquitous Computing. 2001;5:4-7.
+[39] Dini R, Paterno F, Santoro C. An environment to support multi-user interaction and
+cooperation for improving museum visits through games. MobileHCI '07: Proceedings of the 9th
+international conference on Human computer interaction with mobile devices and services.
+Singapore, 2007. p. 515-21.
+[40] Dix A, Rodden T, Davies N, Trevor J, Friday A, Palfreyman K. Exploiting space and location
+as a design framework for interactive mobile systems. ACM Trans Comput-Hum Interact.
+2000;7:285-321.
+
+36
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+[41] El Choubassi M, Nestares O, Wu Y, Kozintsev I, Haussecker H. An augmented reality tourist
+guide on your mobile devices. Advances in Multimedia Modeling. 2010:588-602.
+[42] Fleck M, Frid M, Kindberg T, Rajani R, O’Brien-Strain E, Spasojevic M. From informing to
+remembering: Deploying a ubiquitous system in an interactive science museum. Pervasive
+Computing, IEEE. 2002;1:13-21.
+[43] Fox P, Rezania D, Wareham J, Christiaanse E. Will mobiles dream of electric sheep?
+Expectations of the new generation of mobile users: misfits with practice and research.
+Proceedings of the international conference on mobile business (ICMB'06). Copenhagen,
+Denmark, 2006. p. 44.
+[44] Franklin D, Flaschbart J. All gadget and no representation makes Jack a dull environment.
+Symposium on Intelligent Environments. 1998. p. 155-60.
+[45] Garzotto F, Paolini P, Speroni M, Proll B, Retschitzegger W, Schwinger W. Ubiquitous
+access to cultural tourism portals. Database and Expert Systems Applications, 15th International
+Workshop on (DEXA'04). Zaragoza, Spain 2004. p. 67-72.
+[46] Ghiani G, Paternò F, Santoro C, Spano LD. A location-aware guide based on active RFIDs in
+multi-device environments. Computer-Aided Design of User Interfaces VI2009. p. 59-70.
+[47] Goker A, Myrhaug H. User context and personalization. Proceedings of the European
+Conference on Case Based Reasoning (ECCBR 2002) - Workshop on Personalized Case-Based
+Reasoning. Aberdeen, Scotland, 2002. p. 4-7.
+[48] González-Castaño FJ, García-Reinoso J, Gil-Castiñeira F, Costa-Montenegro E, PousadaCarballo JM. Bluetooth-assisted context-awareness in educational data networks. Comput Educ.
+2005;45:105-21.
+[49] Grassi V, Sindico A. Towards model driven design of service-based context-aware
+applications. International workshop on Engineering of software services for pervasive
+environments. Dubrovnik, Croatia, 2007. p. 69 - 74
+[50] Grün C, Werthner H, Pröll B, Retschitzegger W, Schwinger W. Assisting tourists on the move
+- An evaluation of mobile tourist guides. Mobile Business, 2008 ICMB '08 7th International
+Conference on. 2008. p. 171-80.
+[51] Gu T, Pung HK, Zhang DQ. A service-oriented middleware for building context-aware
+services. Journal of Network and Computer Applications. 2005;28:1-18.
+[52] Hagras H, Callaghan V, Colley M, Clarke G, Pounds-Cornish A, Duman H. Creating an
+ambient-intelligence environment using embedded agents. IEEE Intelligent Systems. 2004;19:1220.
+[53] Hansen R, Wind R, Jensen CS, Thomsen B. Seamless Indoor/Outdoor Positioning Handover
+for Location-Based Services in Streamspin. Mobile Data Management: Systems, Services and
+Middleware, 2009 MDM '09 Tenth International Conference on. 2009. p. 267-72.
+[54] Harrison C, Medrington S, Stransom W. UCD Research Methods for Mobile Industry
+Practitioners. Proceedings of the 1st international workshop on observing the mobile user
+experience, in conjunction with NordiCHI 2010. Reykjavik, Iceland, 2010. p. 9-12.
+[55] Henricksen K, Indulska J. Modelling and using imperfect context information. Second IEEE
+Annual Conference on Pervasive Computing and Communications Workshops. 2004. p. 33-7.
+[56] Hsi S. The Electronic Guidebook: A study of user experiences using mobile web content in a
+museum setting. IEEE International Workshop on Wireless and Mobile Technologies in Education
+(WMTE'02). Växjö, Sweden, 2002. p. 48-54.
+[57] Hu B, Moore P, Chen HH. A semantic context model for location-based cooperative mobile
+computing. ICC-2007, The IEEE International Conference on Communications. Glasgow,
+Scotland, 2007. p. 326-31.
+[58] Huang Y-P, Chang T-W, Sandnes F. A Ubiquitous Interactive Museum Guide. In: Sandnes F,
+Zhang Y, Rong C, Yang L, Ma J, editors.: Springer Berlin / Heidelberg; 2008. p. 720-31.
+[59] Hull R, Neaves P, Bedford-Roberts J. Towards situated computing. 1st International
+Symposium on Wearable Computers 1997. p. 146-53.
+[60] Kenteris M, Gavalas D, Economou D. An innovative mobile electronic tourist guide
+application. Personal and Ubiquitous Computing. 2009;13:103-18.
+[61] Kenteris M, Gavalas D, Economou D. Electronic mobile guides: a survey. Personal
+Ubiquitous Comput. 2011;15:97-111.
+[62] Krevelen DWFV, Poelman R. A Survey of Augmented Reality Technologies, Applications
+and Limitations. The International Journal of Virtual Reality. 2010;9.
+[63] Lanir J, Wecker AJ, Kuflik T, Dim E, Beja I, Belinky I, et al. From a Research Prototype to a
+Deployed System: The Case of the Hecht Museum Visitor's Guide. MCIS 2010 Proceedings.
+2010:53.
+
+37
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+[64] Lassila O, Khushraj D. Contextualizing applications via semantic middleware. Proceedings of
+the The Second Annual International Conference on Mobile and Ubiquitous Systems: Networking
+and Services. 2005. p. 183-91.
+[65] Lieberman H, Selker T. Out of context: Computer systems that adapt to, and learn from,
+context. IBM Syst J. 2000;39:617-32.
+[66] Loon HV, Gabriëls K, Luyten K, Teunkens D, Robert K, Coninx K. Supporting social
+interaction: A Collaborative Trading Game On PDA. Museums and the Web. San Francisco,
+California 2007.
+[67] Luyten K, Coninx K. ImogI: Take control over a context aware electronic mobile guide for
+museums. Workshop on HCI in Mobile Guides, In conjunction with Mobile HCI 2004. Glasgow,
+Scotland, 2004.
+[68] Manesis T, Avouris N. Survey of position location techniques in mobile systems. Proceedings
+of the 7th international conference on Human computer interaction with mobile devices &
+services. Salzburg, Austria, 2005. p. 291 - 4.
+[69] Martin J, Trummer C. SCALEX — A personalized multimedia information system for
+museums and exhibitions. First International Conference on Automated Production of Cross Media
+Content for Multi-Channel Distribution (AXMEDIS'05). Firenze, Italy, 2005. p. 299-302.
+[70] Maurizio M, Cefalu V, del Monte M. Building own’s guided tour in a contemporary art guide.
+2011 Workshop on Personalized Access to Cultural Heritage, 2011 International Conference on
+Intelligent User Interfaces. Stanford University, Palo Alto, California, USA, 2011. p. 5-11.
+[71] Mazzoleni P, Tai S. Engineering mobile field worker applications. International workshop on
+Engineering of software services for pervasive environments. Dubrovnik, Croatia, 2007. p. 75-9.
+[72] Moore A, Goulding J, Brown E, Swan J. AnswerTree–a Hyperplace-based Game for
+Collaborative Mobile Learning. mLearn 2009. Orlando, Florida, U.S.A., 2009.
+[73] Motiwalla LF. Mobile learning: A framework and evaluation. Computers & Education.
+2007;49:581-96.
+[74] Mulwa C, Lawless S, Sharp M, Wade V. The Evaluation of Adaptive and User-Adaptive
+Systems: A Review. International Journal of Knowledge and Web Intelligence. 2011;To appear.
+[75] Ngaia EWT, Gunasekaranb A. A review for mobile commerce research and applications.
+Decision Support Systems. 2007;43:3-15
+[76] O’Grady MJ, O’Hare GMP, Donaghey C. Delivering adaptivity through context-awareness.
+Journal of Network and Computer Applications. 2007;30:1007-33.
+[77] Oppermann R, Specht M. Adaptive mobile museum guide for information and learning on
+demand. Proceedings of the HCI International '99, the 8th International Conference on HumanComputer Interaction. Munich, Germany, 1999. p. 642 - 6.
+[78] Oppermann R, Specht M. A nomadic information system for adaptive exhibition guidance.
+Cultural Heritage Informatics 1999: selected papers from ICHIM 99. Washington, D.C., USA,
+1999. p. 103-9.
+[79] Paganelli F, Bianchi G, Giuli D, Stephanidis C, Pieper M. A context model for context-aware
+system design towards the ambient intelligence vision: Experiences in the eTourism domain.
+Universal Access in Ambient Intelligence Environments: Springer Berlin Heidelberg; 2007. p.
+173-91.
+[80] Paganelli F, Parlanti D, Francini N, Giuli D. A SOA-based mobile guide to augment tourists'
+experiences with user-generated content and third-party services. Proceedings of the 2009 Fourth
+International Conference on Internet and Web Applications and Services. 2009.
+[81] Panagiotakis S, Alonistioti A. Context-aware composition of mobile services. IT Professional.
+2006;8:38-43.
+[82] Park D-J, Hwang S-H, Kim A-R, Chang B-M. A context-aware smart tourist guide
+application for an old palace. 2007 International Conference on Convergence Information
+Technology (ICCIT 2007). Gyeongju-si, Gyeongbuk, Korea, 2007. p. 89-94.
+[83] Pascoe J. Adding generic contextual capabilities to wearable computers. 2nd International
+Symposium on Wearable Computers. 1998. p. 92-9.
+[84] Peternier A, Righetti X, Hopmann M, Thalmann D, Repettoy M, Papagiannakis G, et al.
+Chloe@University: An indoor, mobile mixed reality guidance system. Proceedings of the 2007
+ACM symposium on Virtual reality software and technology. Newport Beach, California, 2007.
+[85] Porta D. A novel, community-enabled mobile information system for hikers. Proceedings of
+the 2008 The Second International Conference on Mobile Ubiquitous Computing, Systems,
+Services and Technologies. 2008.
+[86] Raptis D, Tselios N, Avouris N. Context-based design of mobile applications for museums: A
+survey of existing practices. In Proceedings of the 7th international Conference on Human
+
+38
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+Computer interaction with Mobile Devices & Services (MobileHCI '05) Salzburg, Austria, 2005.
+p. 153-60.
+[87] Reyero L, Delisle G. A Pervasive Indoor-Outdoor Positioning System2008.
+[88] Rodden T, Cheverst K, Davies K, Dix A. Exploiting context in HCI design for mobile
+systems. Workshop on Human Computer Interaction with Mobile Devices Glasgow, 1998. p. 21-2.
+[89] Roffia L, Raffa G, Pettinari M, Gaviani G. Context awareness in mobile cultural heritage
+applications. Smart Environments and their Applications to Cultural Heritage, A workshop held in
+conjunction with UbiComp’05. Tokyo, Japan, 2005. p. 33-6.
+[90] Ruf B, Kokiopoulou E, Detyniecki M. Mobile Museum Guide Based on Fast SIFT
+Recognition. In: Detyniecki M, Leiner U, Nürnberger A, editors. Adaptive Multimedia Retrieval
+Identifying, Summarizing, and Recommending Image and Music: Springer Berlin / Heidelberg;
+2010. p. 170-83.
+[91] Ryan NS, Pascoe J, Morse DR. Enhanced reality fieldwork: The context-aware archaeological
+assistant. Proceeding of the 25th Anniversary Computer Applications in Archaeology. University
+of Birmingham, 1997. p. 269-74.
+[92] Salmre I. Writing mobile code: Essential software engineering for building mobile
+applications: Addison Wesley Professional; 2005.
+[93] Santoro C, Paterno F, Ricci G, Leporini B, Moruzzi V. A multimodal mobile museum guide
+for all. Mobile Interaction with the Real World 2007/5th Workshop on HCI in Mobile Guides.
+2007. p. 21-5.
+[94] Schilit B, Theimer M. Disseminating active map information to mobile hosts. IEEE Network.
+1994;8:22-32.
+[95] Schmidt-Belz B, Hermann F. User validation of a nomadic exhibition guide. Mobile HumanComputer Interaction – MobileHCI 20042004. p. 39-44.
+[96] Schmidt A, Beigl M, Gellersen H-W. There is more to context than location. Computers and
+Graphics. 1999;23:893-901.
+[97] Schwieren J, Vossen G. Implementing physical hyperlinks for mobile applications using
+RFID tags. 11th International Database Engineering and Applications Symposium (IDEAS 2007).
+Banff, Alberta, Canada, 2007. p. 154-62
+[98] Schwinger W, Grün C, Pröll B, Retschitzegger W, Schauerhuber A. Context-awareness in
+mobile tourism guides - a comprehensive survey. Technical Report, Johannes Kepler University
+Linz, IFS/TK. 2005.
+[99] Seffah A, Javahery H. Multiple user interfaces: Cross-platform applications and contextaware interfaces: John Wiley and Sons; 2004.
+[100] Sharples M, Meek J, Vavoula G, Lonsdale P, Rudman P. An evaluation of MyArtSpace: A
+mobile learning service for school museum trips. 6th AnnualConferenceonMobileLearning,
+mLearn. Melbourne, Australia, 2007. p. 1-7.
+[101] Shi X, Sun T, Shen Y, Li K, Qu W. Tour-Guide: Providing Location-Based Tourist
+Information on Mobile Phones. 10th IEEE International Conference on Computer and Information
+Technology. 2010. p. 2397-401.
+[102] Sintoris C, Raptis D, Stoica A, Avouris N. Delivering multimedia content in enabled cultural
+spaces. 3rd International Mobile Multimedia Communications Conference, Mobimedia 2007.
+Nafpaktos, Greece, 2007. p. 1-6.
+[103] Spaccapetra S, Al-Jadir L, Yu S. Somebody, sometime, somewhere, something. Proceedings
+of the 2005 workshop on Ubiquitous Data Management. Tokyo, Japan, 2005. p. 6-16.
+[104] Suh Y, Shin C, Woo W. A Mobile Phone Guide: spatial, personal, and social experience for
+cultural heritage. IEEE Transactions on Consumer Electronics. 2009;55:2356-64.
+[105] Sung Y-T, Chang K-E, Hou H-T, Chen P-F. Designing an electronic guidebook for learning
+engagement in a museum of history. Computers in Human Behavior. 2010;26:74-83.
+[106] Takrouri BA, Detken K, Martinez C, Oja MK, Stein S, Zhu L, et al. Mobile HolstenTour:
+Contextualized multimedia museum guide. Proceedings of the 6th International Conference on
+Advances in Mobile Computing and Multimedia. Linz, Austria, 2008.
+[107] Tintarev N, Flores A, Amatriain X. Off the beaten track: a mobile field study exploring the
+long tail of tourist recommendations. 12th international conference on Human computer
+interaction with mobile devices and services. 2010. p. 209-18.
+[108] Umlauft M, Pospischil G, Niklfeld G, Michlmayr E. LOL@, a mobile tourist guide for
+UMTS. Information Technology & Tourism. 2003;5:151-64.
+[109] Van Bunningen AH, Feng L, Apers PMG. Context for ubiquitous data management.
+International Workshop on Ubiquitous Data Management (UDM2005). Tokyo, Japan., 2005. p.
+17-24.
+
+39
+
+Preprint of the 10.1016/j.jnca.2012.04.007 article to appear in Journal of Network and Computer
+Applications, ELSEVIER
+[110] Van Gool L, Tuytelaars T, Pollefeys M. Adventurous tourism for couch potatoes.
+Proceedings of the 8th International Conference on Computer Analysis of Images and Patterns.
+Ljubljana, Slovenia, 1999. p. 98-107.
+[111] Viterbo J, Endler M, Baptista G. A two-tier approach for decentralized reasoning in ambient
+intelligence. IEEE Intelligent Systems (to be published). 2010.
+[112] Vlahakis V, Karigiannis J, Tsotros M, Ioannidis N, Stricker D. Personalized augmented
+reality touring of archaeological sites with wearable and mobile computers. Sixth International
+Symposium on Wearable Computers (ISWC'02). Seattle, Washington, USA, 2002. p. 15.
+[113] Wakkary R, Hatala M, Muise K, Tanenbaum K, Corness G, Mohabbati B, et al. Kurio: A
+museum guide for families. TEI '09: Proceedings of the 3rd International Conference on Tangible
+and Embedded Interaction. Cambridge, United Kingdom, 2009. p. 215-22.
+[114] Willis K, Geelhaar J, Foth M. Information places: Navigating interfaces between physical
+and digital space. Handbook of Research on Urban Informatics: The Practice and Promise of the
+Real-Time City: Information Science Reference; 2008. p. 206-18.
+[115] Yatani K, Sugimoto M, Kusunoki F. Musex: A system for supporting children’s
+collaborative learning in a museum with PDAs. 2nd IEEE International Workshop on Wireless and
+Mobile Technologies in Education (WMTE'04). JungLi, Taiwan., 2004. p. 109.
+[116] Yu C-C, Chang H-p. A multi-facet requirement assessment of customer-oriented mobile
+tourism services. Proceedings of the 2008 The Second International Conference on Next
+Generation Mobile Applications, Services, and Technologies. 2008.
+[117] Yu C-C, Chang H-p. Personalized location-based recommendation services for tour planning
+in mobile tourism applications. E-Commerce and Web Technologies2009. p. 38-49.
+[118] Zhou L, Xiong N, Shu S, Vasilakos A, Yeo SS. Context-aware middleware for multimedia
+services in heterogeneous networks. IEEE Intelligent Systems (to be published). 2010.
+[119] Zimmermann A, Lorenz A, Oppermann A. An operational definition of context. Modeling
+and Using Context. 2007;4635/2007:558-71.
+
+40
+
+

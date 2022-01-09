@@ -1,0 +1,534 @@
+In-Sights into Mobile Learning 
+An Exploration of Mobile Eye Tracking Methodology for 
+Learning in Museums 
+
+ 
+ 
+
+Eva Mayr1, Kristin Knipfer2, Daniel Wessel3 
+1 Research Center KnowComm (Danube University Krems, Austria) 
+2 Dept. for Applied Cognitive and Media Psychology (University of Tuebingen, Germany) 
+3 Knowledge Media Research Center (Tuebingen, Germany) 
+
+ 
+Overview 
+Mobile  eye  tracking  provides  insights  into  cognitive  processing  of  visual  information 
+while  a  learner  moves  around.  This  chapter  presents  a  case  study  in  a  small  museum 
+exhibition  that  was  conducted  to  explore  the  suitability  of  mobile  eye  tracking  for 
+researching mobile learning. The study showed both potentials and limitations of mobile 
+eye  tracking  methodology  for  research  on  mobile  learning  in  general  and  in  science 
+exhibitions  in  particular:  Mobile  eye  tracking  provides  rich,  non-reactive  data  from  the 
+learner’s  perspective  which  can  be  further  analysed  qualitatively  and  quantitatively. 
+Concerns  were  raised  with  respect  to  interrelations  of  object  fixations  and  underlying 
+include  obtrusiveness,  accuracy,  selective 
+cognitive  processes.  Limitations  also 
+sampling, ethical concerns, financial effort, and effort of data analysis. These limitations 
+suggest  that,  to  increase  validity,  eye  tracking  is  best  used  in  combination  with  other 
+methods.  Nonetheless, mobile eye tracking can be a powerful data collection method in 
+research on mobile learning. 
+ 
+ 
+1. Mobile eye tracking 
+ 
+Why  are  eye  movements  interesting  for  mobile  learning?  Our  eyesight  is  our  most 
+important sense: most daily tasks involve visual input, and people need to look at objects 
+to  acquire information about them. Eye  movements are  not only important for research 
+on  natural  human  behaviour  but  especially  on  mobile  learning.  We  define  mobile 
+learning  in  the  context  of  this  chapter  as  learning  by  integrating  information  that  is 
+spatially  distributed  in  natural  environments  and,  therefore,  requires  movement  of  the 
+learner. This book chapter deals with a special case of mobile learning, namely informal 
+learning  in  science  museums  (see  also  Lelliott  and  Sharples  in  this  book).  Most 
+information  in  exhibitions  is  represented  visually  as  exhibits  with  corresponding  text 
+labels. The spatial distribution of exhibits requires that learners move around. We argue 
+that methods to examine learning in these visually dominated and spatial environments 
+should be chosen carefully in order to address the specifics of the setting, especially the 
+high  mobility of the learner. This paper discusses the suitability of tracking visitors’  eye 
+movements as a method to explore mobile learning in museums. 
+ 
+1.1 A short history of eye tracking 
+ 
+Research  on  eye  movements  dates  back  to  the  early  20th  century.  Historically,  it 
+focused  on  scene  perception  (see  Henderson,  2007)  and  reading  (see  Rayner,  1998). 
+Stationary  eye  trackers  were  used  for  the  limited  purpose  of  laboratory  studies 
+employing rather simple tasks requiring information processing. Only in recent years has 
+the  development  of  light-weight,  mobile  eye  tracking  technologies  (Pelz  et  al.,  2000) 
+
+preprintallowed the assessment of daily activities in a natural environment (e.g., Land & Hayhoe, 
+2001). This research has still, however, been limited to rather simple tasks.  
+ 
+1.2 How does mobile eye tracking work? 
+ 
+There  are  different  designs  of  eye  trackers  and  methods  of  analysis  to  determine  the 
+location of fixations. However, most mobile eye trackers use two cameras. One camera 
+records one eye of the participant, on which three invisible (infrared) dots are projected, 
+while  the  other  camera  records  the  scene  from  the  subject’s  perspective.  These  two 
+cameras must be calibrated to give accurate data about eye movements and fixations of 
+each individual. Both images are saved as alternate frames using a video recorder. The 
+most useful output format of mobile eye tracking data is a video that combines the scene 
+view  and  the  position  of  the  fixation  indicated  with  a  marker  (e.g.,  small  red  cross).  It 
+provides  insight  into  the  perspective  of  the  participant  and  the  point  where  his  or  her 
+tracked eye is fixated at a certain moment. This video can be analyzed via conventional 
+video-analysis software. 
+Fixations  and  saccades  are  the  basic  objects  of  the  analysis  of  eye  tracking  data 
+(Rayner,  1998).  During  fixations,  eyes  are  focused  on  one  location  and  visual 
+information  is  obtained.  Saccades  are  rapid  eye  movements  between  fixations  when 
+visual input is reduced or even totally suppressed. 
+ 
+2. Re-viewing the museum visitor’s view - an explorative study 
+ 
+The  aim  of  this  study  was  mainly  an  exploratory  one:  We  wanted  to  examine  the 
+potentials  and  limitations  of  mobile  eye  tracking  for  research  on  informal  learning  in 
+museums.  Mobile  eye  tracking  allowed  us  to  ‘re-view’  the  visitors’  view  –  beyond 
+observational or questionnaire methods. In this way, we hoped to literally ‘see’ what eye 
+movements  can  tell  us  about  exploration  behaviour  in  exhibitions  and  information 
+processing  of  exhibition  content.  To  supplement  our  observations,  we  performed  a 
+literature review on mobile eye tracking. However, in the literature we only found mobile 
+eye  tracking  studies  which  examine  well-structured,  temporally  restricted  tasks  like 
+making  a  sandwich,  finding  a  specific  door,  or  washing  one’s  hands  (e.g.,  Hayhoe  & 
+Ballard,  2005;  Land  &  Hayhoe,  2001;  Pelz  et  al.,  2000;  Turano,  Geruschat,  &  Baker, 
+2003).  Our study, in contrast, took place in  a complex setting  with  a  more open-ended 
+task:  the  exploration  of  a  science  exhibition.  This  is  an  example  of  a  setting  in  which 
+informal learning is likely to take place. As the exhibition was designed to communicate 
+the  basic  facts  and  figures,  chances  and  risks,  and  areas  and  concrete  applications  of 
+nanotechnology, we consider the exploration of the exhibition a learning task. However, 
+as with many informal settings, the subjects had not been instructed ‘to learn’, nor were 
+they  provided  with  other  concrete  instructions  concerning  the  exploration  of  the 
+exhibition  (like  learning  goals,  time  restrictions,  predefined  learning  activities;  see  for 
+example the chapter by Sharples in this book). Corresponding to the ‘open’ nature of this 
+task,  a  broad  range  of  visiting  behaviour  was  found:  for  example,  the  duration  of  the 
+visits ranged from 17 to 57 minutes. 
+ 
+ 
+2.1 Method 
+ 
+Setting.  We  had  the  opportunity  to  present  a  small  exhibition  about  nanotechnology  at 
+our  research  institute.  In  this  way,  we  ensured  a  fair  amount  of  external  and  internal 
+validity: The research setting was designed to be as close as possible to a ‘normal’ visit 
+
+preprintfor participants  and  at  the  same time  as controlled as possible to  reduce the  impact  of 
+interfering variables.  
+ 
+Technical  equipment.  For  this  study  we  used  an  ASL  MobileEye  eye  tracker  (see 
+Figure 1). 
+ 
+
+[Insert figure 1 approximately here] 
+
+insight 
+
+interview  provided 
+
+ 
+Sample. Two male adults and one female adult with normal vision were asked to explore 
+the exhibition with an eye tracker.  
+ 
+Procedure.  First,  the  purpose  of  the  study  and  the  function  of  the  eye  tracker  were 
+explained to the subjects. Then, the eye tracker was calibrated to a distance that visitors 
+would normally keep  while looking at exhibits (which varied interindividually and ranged 
+between 30 and 60 cm). The study participants were instructed to explore the exhibition 
+as  they  would  normally  do  in  a  science  museum.  After  exploration  of  the  exhibition,  a 
+into  visitors’  subjective  experiences  and 
+structured 
+introspective thoughts on reasons for exploration behaviour and on cognitive processes. 
+For  example,  the  participants  were  encouraged  to  report  on  criteria  and  reasons  for 
+information  selection  (e.g.,  “Which  exhibits  were  particularly  interesting  for  you  and 
+why?”) and their spatial orientation and sequence of exhibit exploration (“Did you explore 
+the exhibits in a certain order or randomly?”).  
+ 
+Analysis. Eye movement recordings were transformed to .avi-files and analyzed with the 
+video  analysis  software  Videograph©.  Similarly  to  Turano  et  al.  (2003),  we  did  not 
+analyze eye movements based on xy-coordinates (examining which points on a wall are 
+fixated  independent  of  their  denotation),  but  based  on  elements  and  categories 
+(examining  which  exhibits  on  a  wall  are  fixated).  For  our  purposes,  fixations  of  similar 
+elements  or  within  the  same  object  category  were  of  higher  interest  than  proximity  of 
+fixations.  Also,  elements  and  categories  are  more  easily  adjusted  to  background 
+changes  than  xy-coordinates  would  be.  This  makes  them  better  suited  to  analyze 
+complex mobile eye movement recordings. The categories were developed according to 
+information  elements  of  the  exhibition  (see  Figure  2).  Each  exhibit  or  text  unit  was  an 
+element.  Elements  were  grouped  in  larger  categories  like  “exhibits  with  corresponding 
+labels” or “exhibits on the same concept.”  
+ 
+
+[Insert figure 2 approximately here] 
+
+ 
+2.2 Exemplary results of the study 
+ 
+This exploratory study on mobile eye tracking provided information both about the way a 
+visitor explores the exhibition and about the usefulness of this method for gaining insight 
+into mobile, informal learning. The following exemplary results may illustrate the kind and 
+quality of information that is obtained by means of mobile eye tracking.  
+ 
+Intra-individual  analysis  of  each  visitor’s  eye  tracking  recording  revealed  that  exhibits 
+belonging  together  conceptually  are  more  likely  to  be  fixated  successively  and  also 
+several  times  alternately  (see  Figure  2  for  an  example)  than  adjacent  but  unrelated 
+exhibits.  This  may  indicate  that  people  integrate  multiple  information  units  into  an 
+underlying  concept  (Rayner,  Rotello,  Stewart,  Keir,  &  Duffy,  2001)  or  at  least  that  they 
+
+preprinttracking,  Rayner 
+
+do  not  process  these  information  units  independently  from  one  another  (Schwonke, 
+Berthold,  &  Renkl,  2007).  However,  in  one  case,  our  post-visit  interview  revealed  a 
+different explanation for  alternate fixation of objects: One participant stated that he was 
+not  comparing  the  content  but  the design of the  exhibition elements. Both explanations 
+of  the  participant’s  eye  movements  indicate  that  conceptually  intertwined  exhibits  were 
+processed  together.  However,  eye  movement  recordings  alone  cannot  reveal  which 
+information  is  being  processed  (in  our  case:  semantic  information  or  information  about 
+design) or what cognitive processes exactly are going on. 
+ 
+Analysis across all three participants showed that, overall, some exhibits were less likely 
+to be explored than others. This might be due to limitations in exhibition design: research 
+has  shown  that  the  probability  of  visual  exploration  depends  on  the  visual  salience  of 
+objects  (e.g.,  Holsanova,  Rahm,  &  Holmqvist,  2006).  An  alternative  explanation  is  that 
+these parts of the exhibition were attended to without direct fixations (Treisman, 2006). 
+ 
+All participants first scanned each exhibition wall as a whole (the exhibition consisted of 
+four exhibition walls arranged as a circle). They then began to explore single exhibits in 
+their  vicinity.  Research  suggests  that  the  first  process  serves  as  initial  selection  of 
+information and visual search – and is rather automated (Holmberg, 2004). During early 
+processing stages, pictorial information or text is quickly skimmed and scanned, so that 
+a viewer gets the gist of a scene very quickly (see for example Rayner, 1998, p. 398f.).  
+ 
+In a second step, late processing like reading text or exploring details of objects occurs. 
+However,  there  are  multiple  exploration  patterns  for  the  same  scene:  in  his  review  on 
+that  exploration  patterns  are  especially 
+eye 
+heterogeneous in scene perception. This is even more likely in our natural setting, as the 
+circular arrangement of the exhibition elements did not trigger a certain exploration path 
+but  provided  multiple  entry  points  and  exploration  directions.  An  exhibition  also  easily 
+allows for multiple changes between the exhibition elements.  
+ 
+2.3 Discussion of the study 
+ 
+Our  results  from  three  visitors’  eye  tracking  data  are  difficult  to  generalize  for  three 
+reasons.  First,  the  sample  size  is  small;  further  subjects  are  needed  to  allow 
+generalization  of  our  results.  Second,  the  ill-structured  task  of  visiting  an  exhibition 
+resulted in highly diverse inter-individual behaviour, which is difficult to compare across 
+subjects. To identify common patterns across subjects, more clearly defined tasks or at 
+least reduction of the amount of data per visitor would be necessary. Third, data analysis 
+was  not  based  on  a-priori  hypotheses;  we  tried  to  find  explanations  for  patterns  a-
+posteriori.  To validate the presented results from this study, further  research  has to be 
+conducted with larger samples and pre-defined tasks.  
+ 
+Still,  the  results  of  this  study  provide  a  first  insight  into  informal  mobile  learning  in 
+museums: We were able to identify common eye movement patterns, which allowed us 
+to  generate  hypotheses  about  information  processing  in  an  exhibition  (conceptually 
+heterogeneous exhibits are fixated successively; an exhibition wall is first skimmed then 
+explored in detail). These hypotheses can be tested in further studies. We also identified 
+elements in the exhibition that are less likely to be explored. This result could be used to 
+improve the design of exhibitions by changing salience, position, and information density 
+of less popular exhibition elements. 
+ 
+
+(1998)  states 
+
+preprint3. Potentials and limitations of mobile eye tracking 
+ 
+Based  on  mobile  eye  tracking  literature  and  our  own  exploratory  study,  we  identified 
+several  potentials  of  mobile  eye  tracking  for  research  on  mobile,  informal  learning. 
+Though  the  advantages  of  mobile eye tracking for examining  mobile  learning are  more 
+apparent and also very appealing, we would also like to allude to some limitations which 
+might be easily overlooked or underestimated. 
+ 
+3.1 Potentials of mobile eye tracking 
+ 
+Data richness. Eye tracking provides rich, continuous data of natural viewing behaviour 
+and – in the case of mobile eye tracking – also the context of this behaviour. In contrast 
+to other tracking methods (e.g., logfile analyses, see for example Trinder, Roy, & Magill 
+and  Wali,  Oliver,  &  Winters  in  this  book),  eye  tracking  can  additionally  provide  insight 
+into planning behaviour that requires visual input but does not result in easily observable 
+action.  For  example,  a  visitor  visually  explores  two  different  walls  from  a  distance  and 
+then  moves  to  one  of  them  to  explore  it  in  detail.  External  observation  (e.g.,  by  video 
+surveillance) can only show the visitor’s actual movements towards one of the walls but 
+not his or her prior visual exploration of both walls. 
+ 
+Data validity. Since the actual fixations are recorded objectively by means of a camera, 
+the  validity  of  mobile  eye  tracking  is  higher  than  the  validity  of  external  observation: 
+External observation can only determine the direction in which a person turns his or her 
+head  and  moves  but  not  the  point  on  which  his  or  her  eyes  are  fixated.  Since  eye 
+tracking  data  is  obtained  from  the  acting  subject’s  perspective,  it  reduces  perspective 
+errors as well. 
+ 
+In  contrast  to  retrospective  questionnaires/interviews,  eye  tracking  gathers  data  online, 
+that  is,  during  actual  behaviour.  If  one  considers  the  amount,  the  immediacy,  and  the 
+objectiveness of measurement – no error-prone memory or verbalization is needed (e.g., 
+Nisbett & Wilson, 1977) – it becomes apparent that eye tracking can provide insights into 
+unconscious 
+introspectively  accessible 
+processing (Pelz et al., 2000). 
+ 
+Mobile eye tracking by means of light-weight head-mounted cameras brings eye tracking 
+out of the laboratory into the natural environment. Behaviour can be measured where it 
+naturally occurs, providing data with high external validity.  
+ 
+Non-reactive  measurement. Data-collecting  methods like  questionnaires and interviews 
+are  considered  to  be  highly  reactive  (Fritsche  &  Linneweber,  2006).  In  contrast,  eye 
+movements are natural behaviour that can hardly be manipulated by the tracked subject, 
+especially not over longer periods of continuous measurement. While participants might 
+report in an interview that they did not see a particular piece of information, mobile eye 
+tracking can  reveal that they did at least look at it – even if they say otherwise for  any 
+reason or simply do not remember it. 
+ 
+Statistical  analysis.  Similar  to  other  tracking  methods,  data  from  eye  tracking  is  highly 
+structured and allows for further statistical analysis. Relevant data that can be extracted 
+from  the  raw  data  are,  for  example,  fixation  durations,  saccade  length  and  degree, 
+occurrences  of  specific  events,  holding  power  of  exhibits  or  navigation  sequences  (to 
+determine  scan  patterns,  see  for  example  Henderson,  2003).  Eye  tracking  can  also 
+
+information  processing 
+
+lies  beyond 
+
+that 
+
+preprintreveal  interesting  details  about  information  processing:  for  example,  which  information 
+has been  missed,  which information is fixated longer than other information, what gaze 
+patterns occurred overall, or what differences in gaze patterns across participants and/or 
+experimental groups exist.  
+ 
+3.2 Limitations of mobile eye tracking 
+ 
+Covert  attention  and  mental  spotlight.  The  first  and  most  important  limitation  is  the 
+limited  interpretation  of  a  location  of  a  fixation  with  respect  to  attention  processes. 
+Treisman  (2006,  p.  4)  stated  that “the  window of attention set by the  parietal scan can 
+take  on  different  apertures,  to  encompass  anything  from  a  finely  localized  object  to  a 
+global  view  of the  surrounding scene”. Therefore, eye tracking in fact delivers  accurate 
+data  about  eye  fixations,  but  this  data  does  not  always  lead  to  correct  conclusions 
+regarding  the  focus of  attention.  For  informal learning in  museums, this  means  while  a 
+participant’s eye is fixating  a specific exhibit, he may actually be attending to the whole 
+exhibition  wall  without  devoting  attention  to  the  fixated  exhibit  itself,  or  he  may  be 
+thinking about something completely different while his gaze still lingers on that specific 
+exhibit. 
+ 
+Limited conclusions about cognitive processing. A related problem is the limited validity 
+of the interpretation of eye movements. “Whereas a given cognitive event might reliably 
+lead  to  a  particular  fixation,  the  fixation  itself  does  not  uniquely  specify  the  cognitive 
+event”  (Hayhoe  &  Ballard,  2005,  p.  190).  Interpretations  of  eye  tracking  data  are  often 
+based  on  assumptions  and  heuristics  about  underlying  cognitive  processes.  We  may 
+have  an objective recording of a person’s eye  movements, but the cognitive processes 
+that take place in the meanwhile are subject to interpretation. 
+ 
+One  problem  here  is  that  eye  movements  are  determined  by  two  processes,  namely 
+bottom-up,  stimulus-led  processes  triggered  by  salience  of  stimuli  and  top-down, 
+cognitively-led  processes  based  on  prior  knowledge  and  goals  of 
+the  subject 
+(Henderson,  2003).  Whereas  the  influence  of  bottom-up  processes  can  be  modelled 
+(Turano  et  al.,  2003),  data  on  a  person’s  reasons  for  specific  behaviour  cannot  be 
+obtained by eye tracking. Cognitive processes cannot be observed directly through eye 
+movements. Such top-down processes might be modelled more easily for clearly defined 
+tasks, but only with great difficulty for open tasks like those involved in mobile, informal 
+learning.  
+ 
+The example from our explorative study – when our interpretation of a participant’s eye 
+movement was proven to be incorrect by the interview – illustrates the limited validity of 
+conclusions from eye tracking data on underlying cognitive processes. 
+ 
+Obtrusiveness  of  measurement.  In  contrast  to  static  eye  tracking  embedded  into 
+computer  monitors,  a  mobile  eye  tracker  is  obtrusive  for  both  the  subject  wearing  the 
+camera(s)  and  his  or  her  environment:  Participants  wearing  goggles  know  that  their 
+gazes are tracked, and the unfamiliar feeling may bother them. Other people can clearly 
+see the eye tracker and, thus, they might interact differently with the person wearing it. 
+This holds especially for informal settings like museums, which are highly social settings 
+(Gammon, 2004). While this  was not relevant for our study, since  we  allowed only one 
+visitor  in  the  exhibition  at  each  time,  this  might  be  a  major  problem  in  more  natural 
+settings.  
+ 
+
+preprintSelective sampling. Mobile eye tracking devices are difficult to calibrate for persons with 
+glasses  or  corneal  irregularity.  Therefore,  usually  only  people  with  normal  vision  are 
+invited  to  participate  in  eye  tracking  studies.  This  might  impair  the  generalization  of 
+results from eye tracking: If visual impairment is correlated with other relevant variables, 
+this restriction leads to a biased sample.  
+ 
+Limited  temporal  and  spatial  accuracy.  The  temporal  resolution  depends  on  the 
+recording  of eye tracking images. A 50 Hz PAL DVCR tape in a mobile recorder saves 
+two  camera  images  by  alternating  frames.  This  results  in  a  resolution  of  25  Hz.  Given 
+that  short  fixations  of  about  33  ms  were  observed  (Pelz  et  al.,  2000),  this  means  that 
+some fixations can easily be missed.  
+ 
+Eye  tracking  works  best  if  the  system  is  calibrated  to  a  specific  fixation  distance.  Yet 
+fixation distance  is  not constant  in  mobile settings but rather changing constantly. As a 
+consequence,  spatial  accuracy  of  mobile  eye  tracking  systems  is  worse  than  that  of 
+stationary  systems.  We  tried  to  reduce  this  problem  by  calibrating  the  device  at  a 
+distance  the  participants  would  typically  keep  to  an  exhibit  wall.  However,  in  other 
+settings with an even wider range of fixation distances (e.g., a museum with large rooms 
+and  exhibits  with  a  broad  range  of  sizes)  this  limitation  becomes  a  problem  for  mobile 
+eye tracking. 
+ 
+Laborious  data  analysis.  With  a stationary  eye tracker and  a given  background (e.g., a 
+website),  software  for  automatic  data  analysis  is  available.  However,  in  mobile  eye 
+tracking,  automatic  analysis  is  limited:  the  background  changes  constantly  and  the 
+inter-individually  variable. 
+participants’  behaviour  and  eye  movements  are  very 
+Therefore,  each  eye  tracking  recording  has  to  be  analyzed  manually.  To  automate  the 
+process,  software  would  be  necessary  that  can  recognize  the  elements  on  the  video 
+frame and combine this information with eye tracking data. As far as we know, there is 
+currently  no  software  capable  of  doing  so.  Thus,  many  studies  use  only  short  tasks 
+where  inter-individual  similar  eye  movements  can  be  expected  (e.g.,  Land  &  Hayhoe, 
+2001), which unfortunately limits the generalization of eye tracking data to more complex 
+(learning) tasks. 
+ 
+Price.  Mobile  eye  trackers  are  expensive;  for  example,  the  version  used  in  our  study 
+costs  about  24000 € .  The  price  of  the  equipment  limits  the  number  of  simultaneous 
+measurements  within  dyads  or  groups  that  could  be  useful  in  order  to  explore 
+collaborative  learning  and  social  engagement.  However,  instructions  on  how  to  build 
+mobile  eye  trackers  using  off-the-shelf  components  at  a  cost  of  about  350  USD  have 
+been presented recently (see for example Li & Parkhurst, 2006).  
+ 
+Ethical  concerns. As  eye tracking  also gathers data about unconscious or uncontrolled 
+eye  movements,  participants  have  no  control  about  the  information  they  reveal  during 
+eye  tracking.  Even  if  they  have  previously  agreed  to  the  study,  participants  might  be 
+embarrassed by a confrontation with their eye tracking videos. The videos might reveal 
+information they would rather have kept private.  
+ 
+We  propose the following procedure to meet these ethical concerns: Study participants 
+should  be  briefed  which  data  will  be  gathered  and  how  it  will  be  analyzed,  and  be 
+informed  about  the  general  purpose  of  the  eye  tracking  study  prior  to  data  collection 
+(e.g., via a sample video). When participants are confronted with their video feed during 
+data  analysis, only the  interviewing  researcher should  be  with them.  Before  publication 
+
+preprintof  image  or  video  files  for  any  audience,  participants  must  be  asked  for  permission. 
+Regarding  the  privacy  of  the  people  who  are  recorded  on  the  eye  tracking  video,  the 
+same conditions as in photography should be applied. 
+ 
+4. Conclusions 
+ 
+Given the described limitations, eye tracking should be combined with other methods to 
+increase the validity of interpretations. Such triangulation is recommended for other data 
+gathering methods – see for example the chapters by Lelliott; Sharples; and Wali et al. in 
+this  book.  Conclusions  from  eye  movements  about  underlying  cognitive  processes  are 
+error-prone  (Hayhoe  &  Ballard,  2005).  To  reduce  interpretation  bias,  clear  a-priori 
+hypotheses  about  cognitive  processes  and  their  influence  on  eye  movements  are 
+indispensable.  Interview  and  questionnaire  data  about  a  person’s  interests  and  prior 
+knowledge  can  be  used  to  examine  hypotheses  with  the  data  at  hand,  like  in  the 
+exploratory  study  presented.  A  combination  of  eye  tracking  with  Personal  Meaning 
+Mapping  (see  Lelliott  in  this  book)  could  be  interesting  for  the  purpose  of  explaining 
+changes  between  PM-maps  before  and  after  a  museum  visit.  An  alternative  is  to 
+confront visitors with their own eye movement record after the visit and ask them to think 
+aloud. 
+ 
+An important question is whether data should be analyzed intra- or inter-individually. As 
+eye  tracking  data  are  very  rich,  large  samples  are  rarely  used  (for  an  exception,  see 
+Wooding,  2002),  while  the  degree  to  which  results  from  small  samples  can  be 
+generalized  is  limited.  Especially  in  the  context  of  complex,  ill-defined  problems  (like 
+visiting  an  exhibition),  comparisons  across  subjects  are  restricted  because  of  highly 
+inter-individually variable behaviour.  To  be  able to generalize results, pre-defined tasks 
+should  be  used.  Still,  exploratory  case  studies  –  like  the  one  presented  here  –  can 
+provide  important insights into how information is processed  and how informal learning 
+happens on the move.  
+ 
+Further  technical  development  of  mobile  eye  tracking  devices  will  probably  eliminate 
+some  of  the  technical  and  pragmatic  constraints  of  mobile  eye  tracking  (e.g.,  fixation 
+distance, costs, temporal and spatial accuracy). Development of software that supports 
+automated  analysis  of  real-world-videos  with  changing  angles,  views,  distances,  and 
+objects is needed to reduce the complexity of the analysis of eye tracking data. 
+ 
+Despite  some  limitations,  mobile  eye  tracking  is  a  powerful  data  collection  method  in 
+mobile  learning  research.  Previous  research  has  used  mobile  eye  tracking  to  study 
+behavioural  planning,  coordination  of  vision  and  action,  and  visual  search  (Hayhoe  & 
+Ballard, 2005; Land & Hayhoe, 2001; Pelz et al., 2000; Turano et al., 2003). The study 
+presented here is the first to address information processing within the context of mobile 
+learning by means of mobile eye tracking. In our exploratory study, we gained valuable 
+in-sights  into  the  information  processing  performed  by  museum  visitors.  Although  the 
+presented  interpretations  of  our  results  need  further  validation,  we  would  have  hardly 
+gained  these  findings  otherwise.  For  this  reason,  we  would  like  to  encourage  further 
+research on mobile learning using mobile eye tracking. 
+ 
+Acknowledgements 
+ 
+
+preprintThis  research  was  conducted  within  the  research  project  “Learning  in  museums:  The 
+role of media” (see http://www.iwm-kmrc.de/museum/), funded by the "Pact for Research 
+and Innovation" of the German Federal Ministry of Education and Research.  
+We would like to thank Viktoria Schuster for her help in analyzing the data. 
+ 
+References 
+
+Fritsche, I. & Linneweber, V. (2006). Nonreactive Methods in Psychological Research. In 
+M.  Eid,  &  E.  Diener  (Eds.),  Handbook  of  Multimethod  Measurement  in  Psychology. 
+Washington, DC: American Psychological Association (APA), pp. 189-203. 
+
+Gammon,  B.  (2004).  Design  for  Museum  Visitors.  Paper  presented  at  UK  Usability 
+Professional’s 
+at 
+Association. 
+http://ukupa.org.uk/events/presentations/science_museum.pdf [04-02-07] 
+
+Available 
+
+Hayhoe,  M.  &  Ballard,  D.  (2005).  Eye  Movements  in  Natural  Behavior.  TRENDS  in 
+Cognitive Science, 9, pp. 188-194. 
+
+Henderson,  J.M.  (2003).  Human  Gaze  Control  during  Real-World  Scene  Perception. 
+TRENDS in Cognitive Science, 7, pp. 498-504. 
+
+Henderson,  J.M.  (2007).  Regarding  Scenes.  Current  Directions  in  Psychological 
+Science, 16, pp. 219-222. 
+
+Holmberg,  N.  (2004).  Eye  Movement  Patterns  and  Newspaper  Design  Factors:  An 
+Experimental  Approach.  Master 
+at 
+Thesis, 
+http://theses.lub.lu.se/archive/2006/04/12/1144841530-20432-695/NilsHolmberg.pdf  [06-
+25-07] 
+
+Lund  University.  Available 
+
+Holsanova, J., Rahm, H., & Holmqvist, K. (2006). Entry Points and Reading Paths on the 
+Newspaper  Spread:  Comparing  Semiotic  Analysis  with  Eye-Tracking  Measurements. 
+Visual Communication, 5(1), pp. 65-93.  
+
+Kliegl,  R., Nuthmann, A., & Engbert, R. (2006). Tracking the Mind During Reading: The 
+Influence  of  Past,  Present,  and  Future  Words  on  Fixation  Durations.  Journal  of 
+Experimental Psychology: General, 135(1), pp. 12-35. 
+
+Land,  M.F.  &  Hayhoe,  M.  (2001).  In  What  Ways  Do  Eye  Movements  Contribute  to 
+Everyday Activities? Vision Research, 41, pp. 3559-3565. 
+
+Li, D. & Parkhurst, D.J. (2006). OpenEyes: An Open-Hardware Open Source System for 
+Low-Cost Eye Tracking. Journal of Modern Optics, 53(9), pp.1295-1311. 
+
+Nisbett,  R.E. &  Wilson,  T.D. (1977).  Telling  More than  We  Can Know:   Verbal  Reports 
+on Mental Processes. Psychological Review, 84(3), pp. 231-259. 
+
+Pelz,  J.B.,  Canosa,  R.L.,  Kucharczyk,  D.,  Babcock,  J.,  Silver,  A.,  &  Konno,  D.  (2000). 
+Portable  Eye  Tracking:  A  Study  of  Natural  Eye  Movements.  In  B.E.  Rogowitz  &  T.N. 
+
+preprintPappas  (Eds.),  Human  Vision  and  Electronic  Imaging  V  (Proceedings  of  SPIE,  Vol. 
+3959). SPIE, pp. 566-582. 
+
+Rayner, K. (1998). Eye Movements in Reading and Information Processing: 20 Years of 
+Research. Psychological Bulletin, 124, pp. 372-422. 
+
+Rayner,  K.,  Rotello,  C.M.,  Stewart,  A.J.  Keir,  J.,  &  Duffy,  S.A.  (2001).  Integrating  Text 
+and  Pictorial  Information:  Eye  Movements  when  Looking  at  Print  Advertisements. 
+Journal of Experimental Psychology: Applied, 7, pp. 219-226. 
+
+Schwonke, R., Berthold, K., & Renkl, A. (2007, August). How Do Learners Actually Use 
+Multiple  External  Representations?  An  Analysis  of  Eye  Movements  and  Learning 
+Outcomes.  Paper  presented  at  the  12th  Biennial  Conference  of  the  European 
+Association  for  Learning  and  Instruction  (EARLI).  Budapest,  Hungary.  Available  at: 
+http://earli2007.hu/nq/home/scientific_program/programme/proposal_view/&abstractid=1
+89 [10-11-2007]. 
+
+Treisman, A. (2006). How the Deployment of Attention Determines What We See. Visual 
+Cognition, 14, pp. 411-443. 
+
+Turano,  K.A.,  Geruschat,  D.R.,  &  Baker,  F.H.  (2003).  Oculomotor  Strategies  for  the 
+Direction of Gaze Tested with a Real-World Activity. Vision Research, 43, pp. 333-346. 
+
+Wooding,  D.S.  (2002).  Fixation  Maps:  Quantifying  Eye-Movement  Traces.  In  A.T. 
+Duchowski,  R.  Vertegaal,  &  J.W.  Senders  (Eds.),  Proceedings  of  the  Eyetracking 
+Research & Application Symposium, ETRA 2002. New York: ACM Press, pp. 31-34. 
+ 
+List of figures 
+Figure 1. ASL MobileEye eye tracker (initial design October 2004). 
+Figure  2. One participant’s  episode  of 17 seconds. Ascending  numbers show the scan 
+path (fixations 1-25). Red borders highlight object categories. Attend to the fact that the 
+participant  fixated  different  objects  conceptually  belonging  together  several  times 
+alternately  (fixations  13-24,  where  three  subcategories  were  fixated  that  compare 
+different size measurements, here from cm to µm).  
+ 
+ 
+
+preprint
