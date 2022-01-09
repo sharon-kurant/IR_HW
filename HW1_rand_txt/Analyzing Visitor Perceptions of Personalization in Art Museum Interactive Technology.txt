@@ -1,0 +1,1811 @@
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY
+
+Analyzing Visitor Perceptions of Personalization in Art Museum Interactive Technology
+
+Gracie Loesser
+
+A dissertation
+Submitted in partial fulfillment of the
+Requirements for the degree of
+
+Master of Arts
+
+University of Washington
+2016
+
+Committee:
+Jessica J. Luke
+Brock Craft
+Katie Headrick-Taylor
+
+Program authorized to offer degree:
+Museology
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY
+
+©Copyright 2016
+Gracie Loesser
+
+2
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY
+
+3
+
+University of Washington
+Abstract
+Analyzing Visitor Perceptions of Personalization in Art Museum Interactive Technology
+Gracie Loesser
+Chair of the Supervisory Committee:
+Jessica J. Luke, Ph.D.
+Museology
+Although art museums are increasingly exploring the use of interactive technology to
+engage visitors, very little research has explored visitor perceptions of these technologies and the
+specific strategies employed through the technology to achieve increased engagement. This study
+investigates visitor perceptions of personalization strategies in art museum interactive
+technology, using interviews conducted with average museum visitors to understand their
+perceptions of technologies that attempt to make the visitor’s experience more personal and
+unique. Thirty-four visitors were interviewed in Gallery One at the Cleveland Museum of Art in
+Cleveland, Ohio. Results show that personalization did matter to museum visitors in the Gallery
+One space, but that despite the technology’s perceived value among visitors, most visitors did
+not engage with the personalization features. These results expand the available research on
+interactive technology in art museums, suggesting visitors value personalization features, and
+calling for further research into the difference between valuation and use.
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY
+
+4
+
+Table of Contents
+CHAPTER 1: Introduction_____________________________________________________ 7
+Rise in Art Museum Interactive Technology
+
+7
+
+Personalization in Art Museum Interactive Technology
+
+8
+
+Call for Research
+
+9
+
+Purpose and Research Questions
+
+10
+
+Implications
+
+10
+
+CHAPTER 2: Literature Review______________________________________________ _ 11
+Technology-based Interpretation in Art Museums
+
+11
+
+Defining Personalization
+
+13
+
+What We Know about Personalization
+
+15
+
+Future Research into Personalization
+
+17
+
+CHAPTER 3: Methods _______________________________________________________ 18
+Research Site
+
+18
+
+Data Collection Procedures
+
+22
+
+Description of Sample
+
+23
+
+Data Analysis
+
+24
+
+Limitations
+
+24
+
+CHAPTER 4: Results and Discussion____________________________________________25
+In what ways are visitors using the personalization options featured in art museum
+interactive technology?
+
+25
+
+In what ways do the personalization strategies utilized in art museum interactive
+technology matter to art museum visitors, and why?
+
+27
+
+Reactions to personalization features
+
+27
+
+Personalizing experiences with art
+
+29
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY
+
+5
+
+How and why personalization matters
+
+31
+
+How personalization influences interactions with artwork
+
+32
+
+How do visitors perceive of different digital personalization strategies?
+Which elements of personalization matter most to visitors?
+
+34
+
+CHAPTER 5: Conclusions ____________________________________________________ 36
+Conclusions
+
+36
+
+Further Research and Implications
+
+38
+
+REFERENCES______________________________________________________________ 40
+APPENDICES_______________________________________________________________43
+Appendix A: Interview Guide
+
+43
+
+Appendix B: Coding Rubric
+
+44
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY
+
+List of Figures
+Figure 1: Personalization Strategy Rankings by Visitor (n=34)
+
+34
+
+List of Images
+Image 1: Visitors walking through the Gallery One space.
+
+19
+
+Image 2: Visitor using the Make a Face feature of the Sculpture Lens
+
+19
+
+Image 3: Visitors using the Collections Wall in Gallery One
+
+20
+
+6
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY
+
+7
+
+Chapter 1
+Introduction
+Art museums are increasingly embracing technology as a method for engaging visitors
+with their collections. The Metropolitan Museum of Art is introducing virtual-reality goggles for
+viewing Jackson Pollock paintings, the Louvre is using Nintendo 3DS devices to provide
+interactive elements, including rotating 3D models of artworks and guided tours that supplement
+their exhaustive audio content, and the Getty is employing interactive, augmented reality,
+webcam technology to allow visitors to see inside a 17th century cabinet. These are just a few of
+the innovative ways art museums are using technology in their museums to encourage visitor
+engagement with collections. Interactive technology is being implemented in art museums across
+the world, as cultural heritage institutions search for new and exciting ways to engage their
+visitors (Schiele & Koster, 2000; vom Lehn, Heath, & Hindmarsh, 2005; Templeton, 2011).
+The topic of digital interactives in art museums is frequently referenced in journals,
+newspapers, conference proceedings, and other published materials. The most recent edition of
+the Association of Art Museum Director’s “Next Practices” series, which aims to share
+innovative initiatives in the museum field, focuses on “Next Practices in Digital and
+Technology” (AAMD, 2015). Containing 41 submissions from art museum directors on the
+various uses of digital technology in art museums from mobile apps to in-gallery interpretation,
+the publication highlights the importance art museum directors place on the increasing role of
+digital technology in the museum field. The recent surge of digital technology initiatives in art
+museums has also received significant media attention, with articles focusing on the rise of
+digital interactives in art museums written by the Atlantic, the New York Times, and the
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY
+
+8
+
+Washington Street Journal among others (Stevens, 2012; Lohr, 2014; Gamerman, 2015; Meyer,
+2015).
+Although there has been significant media coverage on and grant funding of digital
+technology initiatives, personalization in the museum field has still not fully been described.
+There is a lack of publically accessible research that focuses on visitor perceptions of these
+personalized technologies, and how the technology may or may not affect the visitor’s
+experience with art. Initiatives such as the $83 million Bloomberg Connects aim to “support the
+development of technology that transforms the visitor experience…encouraging interaction”
+(Bloomberg Philanthropies, 2016). Yet, more research is necessary in order to demonstrate how
+various digital strategies transform the visitor experience and encourage interaction as intended.
+It has been shown that interactivity in a museum environment “promotes engagement,
+understanding and recall of exhibits and their content” (Allen & Gutwill, 2004). Research has
+also shown that when using interactives in art museums, visitors value certain experiences over
+others. Adams and Moussouri (2002) found that museum visitors desired interactive experiences
+that “enable them to engage in genuine exploration, follow their own interests and facilitate
+social interaction” (p. 3).
+One element of this new technology has been a focus on providing, unique personalized
+experiences for every museum visitor. Using creative design, participatory strategies, and
+innovative technological programming, art museums have begun integrating technology into
+their galleries that allow visitors to design their own tours or websites, create their own digital
+artworks, and share their favorite pieces and new creations with friends and family via social
+media.
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY
+
+9
+
+There has been some research into personalization technology in the cultural heritage
+sector. Experiments in the use of personalization strategies in museums and other cultural
+institutions have been conducted since the 1990s, with developments such as ILEX or Intelligent
+Labelling Explorer, which was a system for generating object labels taken from material within a
+defined database (O’Donnell et al, 2001; Ardissono, Kuflik, & Petrelli, 2011). The system was
+designed in collaboration with the National Museums of Scotland. Some research has been
+conducted on the technical usability of personalized or adaptive systems (Weibelzahl, 2005; van
+Velsen, van der Geest, Klaassen, 2007; Kuflik et al, 2011). These studies have shown that users
+appreciate adaptive technology, but often do not recognize the personalization strategies
+implemented. As Weibelzahl (2005) highlights, personalization is good when it goes unnoticed
+by the user.
+However, despite over twenty years of innovation and experimentation with personalized
+digital interactive technology, there is still very little publically available research that articulates
+the various strategies that museums take to achieve personalization, or the ways that personalized
+technology in art museums affect the visitor experience. As Ardissono, Kuflik, and Petrelli
+(2011) astutely state in their article on personalization strategies in cultural heritage,
+“Concerning personalization, while there is room for continuing experimentation with new ideas
+and new technology, the real issue is to support realistic scenarios—real visitors and users, as
+individuals and groups in daily interactions with cultural heritage.” By studying the effect these
+digitally mediated experiences have on visitors’ experiences, the field can broaden their
+understanding of how visitors engage with art.
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 10
+
+The purpose of this study is to understand visitor perceptions of personalization strategies
+utilized in art museum interactive technology and its perceived effect on the visitor’s experience
+and engagement with art. The study is guided by three research questions:
+1. In what ways are visitors using the personalization options featured in museum
+interactive technology?
+2. In what ways do the personalization strategies utilized in art museum interactive
+technology matter to art museum visitors, and why?
+3. What are visitors’ perceptions of different digital personalization strategies? Which
+elements of personalization matter more to visitors than others?
+Results from this research add to the existing publically accessible data on the nature of
+visitor engagement with art through the use of digital mediation, allowing the field to better
+understand what connections visitors are making with art and how personalized digital
+interactives can facilitate a variety of visitor-driven methods of collections engagement. These
+results will inform not only digital interactive designers, but also interpretive and educational
+specialists within art museums so that they can better understand the role that personalization
+strategies found in digital technology affect the visitor’s engagement with art.
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 11
+
+Chapter 2
+Literature Review
+This literature review outlines the development of digital art engagement and
+interpretation strategies in museums, to give the reader a sense of how museums have
+approached the task of engaging audiences with their art collections, specifically exploring
+technology-based interpretation in art museums. Then, the section reviews the strategies
+museums have taken to create unique, personalized experiences for their visitors, discussing
+what the research tells us about the use and effectiveness of personalized interactive experiences
+in museums.
+As a place for the public to view and appreciate art, art museums have continuously
+pursued new strategies for engaging their visitors. Non-digital strategies include exhibit labels,
+docent-led tours, and even the inclusion of benches from which to view artwork.
+Technology-based interpretation in art museums
+One recent strategy for engaging visitors with art has been through the integration of
+technology. Indeed, the topic of engaging the public with the arts through the use of technology
+has received substantial attention, even inspiring the creation of Bloomberg Connects, an
+initiative aimed at “supporting the development of state-of-the-art technology, from mobile
+applications to immersive galleries and other dynamic tools, designed to transform the visitor
+experience, encouraging interaction and exploration of cultural institutions on and offsite”
+(Bloomberg Philanthropies, 2016, para. 2). Through this initiative, the Solomon R. Guggenheim
+Museum, the Metropolitan Museum of Art, the Art Institute of Chicago, the New York Botanical
+Garden, and the Museum of Modern Art received $15 million dollars to integrate mobile
+technology into their institution. In general, technology is seen as indispensable to arts
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 12
+
+organizations, as evidenced by a recent Pew Charitable Trust survey of 1,256 arts organizations,
+which found that 78% of the organizations felt that technologies were “very important” for
+increasing audience engagement (Pew Research Center, 2013).
+This implementation of technology has occurred in various dimensions. One way in
+which art museums have integrated technology into their organizations is through the
+development of an online presence. The same Pew study found that 99% of organizations
+surveyed had their own website, and 97% had some form of social media presence, such as an
+account on YouTube or Facebook (Pew Research Center, 2013). Research demonstrates that not
+only do visitors appreciate the existence of a website, but also expect online, “user-friendly”
+access to arts collections (Getty Foundation, 2007; Marty, 2008). This access to collections
+online has proven very valuable to visitors (Kravchyna & Hastings, 2002), and art museums are
+increasingly digitizing their collections in order to provide access remotely to the general public.
+Although additional research can still be conducted, a substantial collection of research has been
+conducted on visitor interest in and perceptions of online collections, concluding in a general
+understanding of who uses online collections databases, the frequency of usage, and user search
+strategies and preferences, among others (Hughes, 2011; Wickell, 2014).
+Another method of integrating technology into museums has occurred on site, with
+institutions introducing computer stations, mobile apps, and other interactive elements to
+encourage engagement. Much of the research that has been conducted on interactive technology
+in museums has been focused on science centers and other related institutions. However, that
+research tells us that technological integration in exhibits does attract visitors and holds their
+attention (Sandifer, 2003). However, a 2005 study by Heath et al. explored the use of stationary
+touch stations in museums, finding that these stations may limit the complexity of visitors’
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 13
+
+collaboration and co-participation (Heath, vom Lehn, & Osborne, 2005). The study hoped to
+explore how exhibits can facilitate interaction and collaboration among visitors. Researchers
+analyzed approximately 500 hours of video data collected at the Wellcome Wing of the Science
+Museum in London as well as the Explore@Bristol science center, which both featured “cuttingedge” interactive technology. In addition, interviews were conducted with designers, educators,
+and museum managers as well as visitors. The researchers suggest that the limited nature of
+visitors’ collaboration and co-participation is due in large part to the design of the interactives
+themselves, which privileged individual usage.
+The use of digital technology in art museums has also been explored. The American
+Alliance of Museum (2012) study on mobile technology in museums stated that “art museums
+have traditionally been at the forefront of mobile offerings,” and the study found that 35% of all
+art museums surveyed were using new mobile technology to engage visitors. A 2003 study
+examined the ways in which visitors to a contemporary art gallery used Personal Digital
+Assistant devices to navigate an exhibition, focusing on the ways the visitors used the device to
+examine objects, alone and with others, and how the PDA may have affected the way visitors
+organized their own visit (Von Lehm & Heath, 2003). The researchers conducted field
+observations and video recordings of visitors using a PDA in the galleries over a four-week
+period. They found that the PDAs changed the way that visitors navigate through the museum,
+significantly increasing dwell time in areas highlighted by the device.
+Defining personalization
+Personalization as a technological strategy has differing definitions within various
+disciplines and industries. On a technological level, personalization is “a process of providing
+relevant content based on an individual user preferences” (Kyung Lee, 2013, p. 25). More
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 14
+
+generally, and more applicable for the purposes of this study, personalization strategies allow
+museum visitors to have unique experiences, by leveraging technology to allow visitors to
+customize their tours through the galleries, navigate through a museum’s large collection, or
+design and share their own personal creations, to give a few examples. Rather than a typical
+museum experience, in which a visitor is confronted with a series of interpretive devices aimed
+at a large, diverse audience, a personalized museum experience is focused on the needs and
+desires of the individual.
+A number of art museums have begun incorporating personalization strategies into their
+interpretative plans, including the Cleveland Museum of Art, the Cooper Hewitt Design
+Museum, and the Dallas Museum of Art. These initiatives can vary, with the Cleveland Museum
+of Art and the Cooper Hewitt Design Museum focusing on collections, and the Dallas Museum
+of Art centering their initiative on membership. There has been much theory focused on the
+relevance of personalization strategies in museums to visitors. Nina Simon (2010), in her muchread book “The Participatory Museum,” states that “visitors need to see how cultural institutions
+are relevant and valuable to their own lives, and the easiest way to deliver that is via personalized
+entry points that speak to people’s individual needs and interests” (p. 35). Additionally, John
+Falk (2006) has expressed the need for personalized experiences in museums, stating that
+the more tightly aligned the experience is with individuals’ own fundamental needs, the
+more profoundly and intensely satisfied they will be...our research would suggest that any
+movement toward customization based upon motivation and identity will help ensure that
+the experiences your public has lead to a significantly enhanced perception of value (p.
+103).
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 15
+
+Overall, customization and personalization in museums has been highlighted by many prominent
+museum studies theorists as an effective and necessary engagement strategy.
+What we know about personalization
+In terms of the research that has been conducted on personalization in museums, Colleen
+Dillon (2015) has recently released data on visitor perceptions of non-digital personalization in
+museums. Drawing on a research conducted at an undisclosed organization that partners with the
+predictive technology company IMPACTS, Dillon looked at the effect that PFEs, or personal
+facilitated experiences, have on the museum visitor. A PFE is a “one-to-one or one-to few
+interaction that occurs between an onsite representative of the organization and a visitor.” Dillon
+analyzed visitor perceptions of perceived value of admission when visitors had a PFE and when
+visitors did not. She found that non-digital, personally facilitated experiences have an impact on
+visitor levels of satisfaction, increasing visitor’s perceived value of admission, perceptions of
+entertainment experience, and educational experience. Dillon also highlights research that
+demonstrates that standardized experiences are in decline, with fewer and fewer visitors valuing
+those experiences. From 2008 to 2014, IMPACTS presented visitors with the statement “Group
+tours are a fun way to visit a museum,” and asked visitors to respond with a level of agreement
+on a 1 to 100 scale. Over six years, perception has steadily declined, now under 50. Although her
+study does address visitor perceptions of personalized experiences in museums, it does not
+address the use of technology to achieve this aim.
+An Adams & Moussouri (2002) case study focused on three institutions: Eureka! The
+Museum for Children in Halifax, the Archaeological Resource Center in New York, and the
+Xperiment! Gallery at the Museum of Science and Industry in Manchester. Interviews were
+conducted and visitors were asked to describe their experience in interactive spaces in
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 16
+
+comparison with their experiences in traditional museum spaces. The study found that “museum
+visitors value interactive experiences that enable them to engage in genuine exploration, follow
+their own interests and facilitate social interaction” (p. 3).
+One evaluation study conducted at the Fine Arts Museum of San Francisco analyzed how
+visitor engagement with art was altered by the use of a mobile app. The app is designed as an
+immersive audio experience featuring the voices of museum curators, experts, and museum
+visitors as they interpret the institution’s outdoor art and architecture (Girardeau et al., 2015).
+The app is customizable, as visitors choose which perspectives they’d like to hear, and is also
+participatory, as visitors are encouraged to add to the discussion with their own recordings.
+Visitors who used the app were asked to fill out a survey with questions on a Likert scale
+regarding art engagement. The results showed that the majority of visitors were engaged with art
+while using the app, with 92% of visitors stating that they look more closely at works of art.
+Some studies have highlighted the issue of museum fatigue, or information overload,
+which refers to the decrease in visitor attention and interest with successive or prolonged viewing
+of objects (Bitgood, 2009). As Bitgood discusses, this decrease in visitor interest may in fact
+have an effect on visitor learning and engagement with art. Some researchers have suggested that
+personalization strategies could potentially mitigate some of the information overload that occurs
+in a traditional museum visit (Itmazi & Megias, 2008; Huang et al., 2012).
+Future research into personalization
+Despite the existing research on personalization technology in museums, there is still
+little research that addresses visitor perceptions of these strategies and how or if they facilitate
+visitor engagement with art. Many of the research studies do not focus directly on the
+personalization element of interactivity, and those that do often address personalization as an
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 17
+
+overarching strategy. There is very little research that has been conducted on the different
+elements of personalization in art museums, such as curatorial control or social media
+integration, and how visitors value these particular elements.
+This lack of research is particularly striking, as art museums expand their use of
+personalization strategies. The Cleveland Museum of Art has plans to extend their technological
+integration, specifically the elements that target personalization, as they “devise digital
+strategy…to examine the way we track individuals across all touch points and personalize not
+just their visit, but our array of interactions with them” (Alexander, 2014, Gallery One 2.0
+section, para. 3). As well, the San Francisco Museum of Modern Art is currently undergoing an
+extensive redesign that will incorporate on-site technologies that deliver personalized
+experiences, such as geolocation games and a participatory Photography Interpretive Center.
+These personalization strategies are being implemented and expanded, and yet there is very little
+data that addresses what effect these strategies have on the visitor’s relationship with artwork.
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 18
+
+Chapter 3
+Methods
+The purpose of this study is to understand visitor perceptions of personalization strategies
+utilized in art museum interactive technology and its perceived effect on the visitor’s experience
+and engagement with art. The study is guided by three research questions:
+1. In what ways are visitors using the personalization options featured in museum
+interactive technology?
+2. In what ways do the personalization strategies utilized in art museum interactive
+technology matter to art museum visitors, and why?
+3. What are visitors’ perceptions of different digital personalization strategies? Which
+elements of personalization matter more to visitors than others?
+This chapter describes the study’s methods, in particular the research site, data collection
+procedures, data analysis procedures, and methodological limitations.
+Research Site
+First open to the public in January 2013, Gallery One is the Cleveland Museum of Art’s
+interactive art gallery that incorporates cutting-edge technology to engage visitors with the
+collection and facilitate the visitor experience. The gallery was named Gallery One because it
+was designed to act as a starting point of the museum visitor, as they became acquainted with the
+vast collection of the CMA through interactive games and multimedia activities, interspersed
+with actual objects from the collections. The space consists of two rooms: the first space, located
+just to the left of the main museum entrance, features six interactive, touch-screen displays
+organized by various themes, such as Globalism or Sculpture. These interactives, called Lenses,
+utilize various engagement strategies, including allowing visitors to create their own works of art
+inspired by an Abstract Expressionist work and using gestural recognition software to map a
+visitor’s facial expressions or body movements and identify an artwork within the collection that
+matches their movements.
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 19
+
+Image 1: Visitors walking through the Gallery One space. Photography: Local Projects
+
+Image 2: Visitor using the Make a Face feature of the Sculpture Lens. Photography: Local
+Projects
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 20
+
+Image 1: Visitors using the Collections Wall in Gallery One. Photography: Gracie Loesser
+
+The second room within Gallery One at the Cleveland Museum of Art features a 40-foot,
+multi-touch wall called the Collections Wall that displays, in real time, every object currently on
+view at the museum. The screen rotates every 30 seconds from an all-encompassing view of the
+roughly 4,500 artworks on view to a thematic grouping of artworks curated by the Cleveland
+Museum of Art staff, which highlight various themes from “Love and Lust” to “Portraiture.” The
+Collections Wall is designed to function alongside the CMA’s ArtLens app, downloadable on the
+iPhone or iPad, which gives visitors the opportunity to create favorites collections, design
+personal tours, or discover more information about artworks in the collection. The Wall also
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 21
+
+allows visitors to “favorite” any items they enjoy, which can then be referenced later on the
+downloadable app. If a visitor chooses not to use the mobile technology feature, he/she can still
+favorite an object, and the tally of total “likes” is visible next to each item on the Collections
+Wall.
+The Cleveland Museum of Art cites some key motivations for developing the gallery and
+guiding goals for implementing the space. The museum hoped that visitors might “feel
+empowered to browse, explore, and create personal meanings about the museum’s
+collection…enjoy an organic, visitor-driven experience in the space…[and] create a personalized
+profile driven by their interests” (Alexander, Barton, & Goeser, 2013, Goals of Gallery One
+section, para. 4). The literature that informed the museum’s effort to build a dedicated gallery for
+digital interpretation included John Falk’s Identity and the Museum Visitor Experience (2009),
+which highlighted visitors’ motivations over demographic information as a critical component to
+understanding a museum audience. In addition, the Dallas Museum of Art’s 2011 research
+initiative Ignite the Power of Art helped the Cleveland Museum of Art better understand how
+visitors engage with art and what triggers cause engagement (Pitman & Hairy, 2011). Finally, the
+museum looked at their own internal studies, mainly the 1994 publication The Visitor’s Voice,
+which focused on visitor experience in the CMA’s Renaissance and Baroque galleries, and a
+more recent 2009 study conducted by Marianna Adams of Audience Focus, Inc. that focused on
+visitor meaning making in the reinstalled European and American art galleries. (Schloder,
+Williams, & Mann, 1993; Adams, 2013). The latter study informed the museum that their
+visitors were mostly interested in browsing and were “not seeming to have a predefined agenda
+for their visit other than gravitating to the works of art to which they respond strongly based on
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 22
+
+their tastes and prior knowledge” (Alexander, Barton, & Goeser, 2013, Audience Research
+section, para. 4).
+The Gallery One space at the Cleveland Museum of Art was chosen due to its specific
+focus on personalizing the museum visit through various technological strategies, including
+gestural recognition, social media integration, curatorial features, and creative production
+capacities. A relatively new and highly-praised addition, Gallery One is also recognized as one
+of the more innovative and cutting-edge technological galleries in current art museums.
+Data Collection Procedures
+With the approval of the University of Washington’s Institutional Review Board, semistructured interviews were conducted with 34 adult visitors at the Cleveland Museum of Art in
+Cleveland, Ohio. Visitors were chosen using a continuous random sampling method, and all
+interviews were conducted on-site at the museum in the newly implemented, technology-focused
+Gallery One space. Data were collected through audio-recorded, semi-structured interviews with
+adult visitors during regular museum hours on March 18th, 19th, and 20th of 2015. Interviews
+were conducted with visitors as they left the Gallery One space through the exit facing the
+Cleveland Museum of Art’s central atrium. Visitors were approached while exiting and asked if
+they would participate in the research project by answering questions regarding their experience
+within the Gallery One space. Of the visitors interviewed, 27 were return visitors, whereas 7
+were first-time visitors.
+The interview began with general questions regarding visitor motivation for attendance,
+followed by a series of questions addressing visitor actions while engaging with the technology
+(see Appendix A for the interview guide). The interview then asked visitors to reflect on the
+interactive technology, asking whether the technology personalizes their experience with art,
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 23
+
+whether this matters to them, and what influence, if any, these personalization strategies may
+have on their relationship with art. Breaking the personalization strategies into four separate
+categories (Curatorial Control, Gestural Recognition, Creative Production, and Social Media),
+visitors were then asked to rank these categories in terms of their importance.
+Description of Sample
+As part of the data collected in this study, visitors were asked about their motivations for
+visiting the museum. Visitors were not confined to a single answer, and a number of visitors had
+multiple reasons for choosing to visit. Of the visitors interviewed, 12 responded that they
+attended the museum as an outing with a family or friend. One visitor mentioned “It’s my wife’s
+birthday…and we decided to come here.” Another visitor responded that they were here for “a
+birthday lunch.” In addition, 11 visitors responded that they came to the Cleveland Museum of
+Art to see a particular object or exhibit. Most of these visitors responded that they were there to
+see the newly installed Pharaoh: King of Ancient Egypt exhibit which had opened that previous
+weekend. Some visitors mentioned that they came to the museum because it was convenience,
+with 5 interviewees responding that the museum was either free or close by. Finally, 2 visitors
+stated that they came to the museum for fun or entertainment, with one visitor stating it was
+“something fun” to do. In addition to the coded motivations, 6 visitors had responses that did not
+fit into the aforementioned categories, with visitors giving a variety of reasons from “for a school
+project” to “because its cold outside.”
+Data Analysis
+Interviews were qualitatively analyzed using the content analysis method. The researcher
+identified emergent themes using a coding rubric designed based on responses received from
+visitors (see Appendix B for coding rubric). The content analysis and subsequent coding rubric
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 24
+
+were developed based on the methodology outlined in John W. Creswell’s Research Design:
+Qualitative, Quantitative, and Mixed Methods Approaches (2014). All interviews were coded
+using this rubric.
+Limitations
+For this study, limitations include the absence of input from visitors who did not engage
+with the interactive technology while visiting the Cleveland Museum of Art. Results gathered in
+this study on are only applicable to visitors who chose to engage with that technology without
+the cuing or encouragement of the researcher, and is thus not representative of visitors as a
+whole. Additionally, this study collected data on what visitors perceived, rather than direct
+behavioral data. Interviews are only representative of visitors’ self-reported perceptions of and
+engagement with the technology, and do not represent actual use or engagement. Finally, visitor
+observations and interviews were only conducted at one site. This makes the data limited in its
+applicability to museums, or art museums, in general. Instead, the data should act as a foundation
+for further research.
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 25
+
+Chapter 4
+Results and Discussion
+This chapter summarizes the study results, and is organized according to the study’s
+research questions. Data were analyzed according to the coding rubric (see Appendix B).
+Research Question 1: In what ways are visitors using the personalization options featured
+in art museum interactive technology?
+Gallery One consists of two distinct spaces. The first space is a large room with six
+interactive touch screens, called Lenses, which utilize games and other multimedia to highlight
+specific elements or topics related to the collection, such as the “Sculpture Lens or “Globalism
+Lens.” The second space is a smaller room which contains the Collections Wall, a 40-foot multitouch screen that displays all of the works currently on view in the museum. The multi-touch
+screen transitions periodically from displaying the entire visible collection to smaller, focused
+groups of objects organized by themes which are curated by the museum.
+In order to address this research question, visitors were asked a series of closed-ended
+questions regarding their use of the technology within the Gallery One space. First, visitors were
+asked if they had visited the museum previously and, if so, whether they had ever used any of the
+interactive technology during a previous visit. Of the visitors interviewed, 27 had previously
+visited the Cleveland Museum of Art, whereas 7 interviewees were visiting for the first time. Of
+those visitors who had previously attended the museum, 16 had used at least one of the
+interactives within Gallery One during a previous visit. Of those individuals who had used one of
+the interactives in Gallery One on a previous visit, 14 had used the Collections Wall, and 8 had
+used one of the Lenses within Gallery One.
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 26
+
+Visitors were also asked whether they “favorited” any objects during their experience,
+which is a unique feature of the Collections Wall that allows visitors to choose their favorite
+works by pressing a small heart icon located below each object. Visitors are able to see how
+many times an object has been “favorited” by referencing the number located next to the heart
+icon. The “favoriting” feature can also be used in conjunction with a downloadable app available
+on the iPhone or iPad called the ArtLens app, which allows visitors to make favorites collections
+and personalized tours. When visitors were asked about their use of the “favorite” feature, 13
+visitors said that they had “favorited” at least one item during their visit. Visitors were also asked
+if they shared any objects on social media during their experience in the gallery. In order to share
+an object on social media, visitors must download the ArtLens app on their iPhone or iPad,
+through which they can send high definition photographs of objects to friends or family through
+Facebook or Twitter. Only one visitor responded that he/she shared an object using the
+Collections Wall interactive.
+Visitors were then asked whether they were aware of the ability to create a personalized
+tour of the museum using the ArtLens app, downloadable on a mobile phone or available on an
+iPad that can be rented through the museum for a $5.00 fee. Of those visitors, 21visitors
+responded that they were not aware of the ability to create your own tour using the app, while 13
+visitors responded that they were aware of the feature. Only 2 visitors reportedly made their own
+personalized tour while they were in the gallery. One visitor responded that he/she planned to
+create his/her own tour later in the visit, and two visitors said they would consider creating their
+own tour, but were ultimately not sure if they would. Of these visitors who were not aware, 1
+visitor indicated that they planned on creating their own tour later during their visit, and 3
+visitors indicated that they would consider the possibility.
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 27
+
+Research Question 2: In what ways do the personalization strategies utilized in art museum
+interactive technology matter to art museum visitors, and why?
+In order to address this research question, visitors were asked a series of open-ended
+questions regarding their perceptions of personalization strategies utilized in art museum
+interactive technology.
+Reactions to personalization features
+Visitors were asked whether features like creating their own tour or favorites collection
+appealed to them. Of those interviewed, 19 responded that these personalization features
+appealed to them. Of these 23 visitors, 10 said that it appealed to them because of the capacity
+for tailoring the visit to fit their interests or needs. Visitors in this category appreciated the way
+that the tour creation and favorites collection features allowed them to focus on artwork they
+already know or focus on styles, periods, and genres of art that they gravitate towards. One
+visitor responded,
+When I’m coming today, what I want to see probably changes…so today maybe
+Egyptian and Impressionist stuff. Maybe another time, I want to look at American
+stuff, so if there was something that said, ‘Okay today I’m interested in A, B, and
+C,’ and boom, it just gave me my tour around the museum, that would be really
+great.
+Another visitor commented, “Just the idea that you can already know what you want to see and
+pick out – so you don’t have to just sort of wander through and get an idea of what you want to
+see.”
+Similarly, 7 visitors responded that tour creation features appealed to them because it
+allowed them to clarify or focus their visit, making the visit less confusing, time intensive, and
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 28
+
+more streamlined. Although this category is similar to the previous one, visitors in this case
+focused specifically on the overwhelming aspect of the museum’s vast collection, and the
+technology’s ability to provide clarity. One visitor responded, “I understand this is a very big art
+gallery and I only know so much about art, so I believe it would be better if I can set a tour
+based on arts that I know and absolutely love.” Another visitor responded, “It gives you some
+sense of purpose.”
+Lastly, 3 visitors indicated that tour creation appealed to them because it allowed them to
+be introduced to new content, whether it be additional information from experts on objects the
+visitor found interesting or the introduction to objects the visitor was previously unaware of. In
+one case, a visitor responded that the technology allowed them “to find art objects that I might
+not be aware of that are in the museum.” Focusing on educational content, another visitor stated,
+“I still think that there’s things that other art historians can bring to the painting in that
+perspective in what was going on in that time period that I might not necessarily be aware of.”
+Although the majority of visitors found the personal tour and favorites collection features
+appealing, 13 visitors stated that the ability to create their own tours did not appeal to them. Of
+the visitors interviewed, 5 found it unappealing because they preferred a non-technological
+experience in the museum. One visitor stated, “I don’t really love the technology aspect of the
+museum. I’d rather kind of just walk through and see actual art.” Another visitor mentioned,
+“I’m not very excited about having that technology in the museum.” Many of these visitors seem
+to indicate that the technology interfered with or was in opposition with their desire to explore
+the wander, browse, or experience art “in person.”
+Additionally, 3 visitors cited issues with technology as a reason for their lack of interest
+in a tour creation feature. One visitor mentioned, “I don’t really want to have to use my phone to
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 29
+
+do it, because I’m pretty maxed out on my memory as it is.” Another stated they might take be
+interested in a tour creation feature “if I were a little more able to do that,” indicating a lack of
+ability to use the technology. Another stated that the technology could be confusing, explaining
+“you have to be glancing at the right part of the screen to find something that is interesting.”
+Finally, 3 visitors cited their own familiarity with the museum as a reason for their lack
+of interest in a tour creation feature. One visitor stated, “Probably not. Well, I’ve been to this
+museum, because I grew up in Cleveland, so many times. I almost kind of know it by heart.”
+Another said, “I’ve been to the museum so many times, and I studied art, that I can pretty much
+do my own tour.”
+Some other reasons for lack of interest in the tour creation feature was a lack of
+knowledge of the feature, and the visitor preferring the perspective or guidance of others when
+touring the museum, rather than relying on their own interests. Two visitors were unsure how
+they felt about the tour creation feature.
+Personalizing experiences with art
+When visitors were asked whether the technology allowed them to personalize or
+customize their experience with the art specifically, 31 visitors responded that they felt the
+interactive technology did allow them to personalize their experience with art. Of the visitors
+interviewed, 10 emphasized that the technology allowed them to collect works or design tours
+that appealed to their own personal interests in art. Visitors seemed to appreciate the ability to
+focus on one particular style, genre, or period of art that truly interested them, giving them more
+time with the artwork they enjoyed. Some visitors were able to identify a personal connection
+with the artwork, such as the visitor who stated that the technology allowed them to personalize
+their experience because “I just went to the one of the sections, and it had Ganesh, which is from
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 30
+
+South Asia where I from, so I felt like if I could browse and see more sections related to that, that
+would be…interesting to see” Another visitor stated, “There’s a lot to see, but if you want to
+look at things that appeal to you, that’s a very personal touch, instead of just kind of digging
+through everything and finding what really appeals to you.”
+Similarly, 7 visitors said that the interactive technology allowed them to personalize or
+customize their experience with art, because it gave them the ability to structure or clarify their
+visit in some way. Visitors appreciated the ability to structure their time spent with art, because
+of the museum’s large collection and physical size. One visitor mentioned this specifically,
+stating, “depending on how much time you set aside to come here, it can be overwhelming.”
+Visitors seemed to prioritize certain items they wanted to see, with one visitor stating that they
+liked being able to clarify their visit, because “you may not be able to go see [it] tomorrow.”
+Of the thirty-four visitors interviewed, 6 said that the interactive technology gave them
+the ability to personalize or customize their experience with art by providing them with more
+information than they might otherwise have. One visitor stated that the technology allowed them
+to see more of the object than they were previously able to, saying “like when you would bring
+up one piece, and then it would show you parts of it that you didn’t even notice.” Another visitor
+mentioned, “It gives you a stronger connection to the art and a better understanding, because
+you’re reading about it and seeing it as well.”
+Visitors also mentioned that the interactive technology personalized their experience with
+art by giving them the opportunity to browse through the collection and be introduced to new
+content. As well, some visitors mentioned the technology’s appeal to younger audiences,
+engaging a new generation of museum-goers.
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 31
+
+Only 3 visitors did not feel that the interactive technology allowed them to personalize or
+customize their experience, citing their preference for browsing the collection without
+technology or their lack of knowledge of the technology. One visitor stated, “I don’t think it
+makes a difference, because part of the charm of the museum is walking around the museum.”
+Finally, 5 visitors had answers that did not fit into any discernable category.
+How and why personalization matters
+Visitors were asked whether the ability to personalize or customize their experience with
+art mattered to them. Of the visitors interviewed, 20 responded that the ability to personalize
+their experience with art mattered to them. Some visitors offered reasons why the ability
+mattered to them, with 7 visitors stating that it allowed them to guide or customize their visit.
+Visitors felt that the technology prevented them from missing any important information or
+artworks, with one visitor responding, “I feel it’s very helpful, rather than just browsing around
+and missing a few things.” Another visitor answered that it was nice to be able to have a highly
+individualized experience with the art, stating, “everyone likes different things, so if you can find
+your own things and customize your experience.”
+Another 3 visitors responded that the ability to personalize their experience with art
+mattered to them, because it was a source of entertainment, making the museum visit more fun
+and exciting. One visitor stated, “It makes it more fun coming to the museum.” Another said,
+“When I come here, it’s more fun to do it that way.” Some visitors highlighted the element of
+play that the technology afforded and the hands-on nature of the interpretation. Finally, 7 visitors
+did not give a reason for why the personalization ability mattered to them.
+When asked about the ability to customize or personalize their experience with art, 14
+visitors responded that the ability did not matter to them, while 6 felt that the ability to
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 32
+
+personalize was irrelevant to their visit, and was generally unimportant to them. One visitor
+stated, “I probably would have came anyway.” Another visitor said, “I don’t know if it matters,
+if it’s [an] interesting little extra that you can get.”
+Lastly, 3 visitors stated that the personalization feature did not matter to them, because
+they preferred to browse. One visitor mentioned, “I kind of just like wandering through the
+museum and looking at stuff rather than being on a predetermined course.” Other visitors cited
+the technology’s redundant nature, or their personal familiarity with the museum as a reason for
+their lack of interest in the personalization technology, and 4 visitors did not state a reason for
+their lack of interest in the ability to personalize or customize their experience with art.
+How personalization influences interactions with artwork
+Visitors were asked how the interactive technology influenced the way they interacted
+with artwork. Of the visitors interviewed, 12 stated that the technology deepened or increased
+their knowledge and awareness of objects. Some visitors mentioned the technology’s ability to
+compare objects, which they felt allowed them to learn more about the items on display. Other
+visitors mentioned that the technology allows them to learn a variety of information from
+different sources and senses, whereas traditional interpretation might only feature a picture or a
+label. One visitor stated that “instead of just looking at a picture and having only my
+interpretation, I can maybe compare it to what other people have thought of or things like that.”
+Another mentioned, “I ended up seeing things – I’ve gone through this museum countless times,
+and I ended up seeing things there that I didn’t remember seeing in the actual galleries.”
+Another 6 visitors stated that the interactive technology allowed their experience with art
+to be more focused. Visitors felt that the personalization elements gave them the ability to
+narrow in on exactly what their interests were, and explore those throughout the museum, rather
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 33
+
+than browsing without concrete direction. This was both a negative and positive influence for
+different visitors. One visitor mentioned, “It has the danger of having me focus on things that
+I’m already familiar with.” On the other hand, another visitor highlighted the positive elements
+of a more focused visit, stating, “I need to see everything in the museum before closing time, now
+I can select and I can focus on a few. I don’t have to remember what I looked at. At my age, that
+gets increasingly difficult.”
+Rather than focusing on themselves, 4 visitors said that the interactive technology
+attracted younger audiences and helped to engage them with art. One visitor said, “I think for the
+younger crowd that they’re used to that technology and stuff moving, so it helps draw them in too
+and they’ll be able to find things here for them.” Another visitor reiterated this point, stating “I
+think it might attract kids more, because they’re all about being able to use their phone to do
+whatever they want to do with them, so I think it would attract a younger audience.”
+Additionally, 6 visitors said that the interactive technology had no effect on their
+experience with art, while 3 visitors felt that the technology gave them a sense of the scope of the
+collection, so that “it gives you an idea what you have and everything you have available you
+can see there.” Visitors also mentioned the convenience of the technology and its ability to draw
+comparisons between works of art.
+Research Question 3: How do visitors perceive of different digital personalization
+strategies? Which elements of personalization matter most to visitors?
+In order to address this final research question, visitors were given four examples of
+different personalization strategies used by the Cleveland Museum of Art within their Gallery
+One space designed to make visitor’s experiences feel personal and unique, including: 1)
+curatorial control; 2) gestural recognition; 3) creative production; and 4) social media. These
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 34
+
+categories were devised by the researcher during the initial design of the study, and before data
+were collected. These categories were developed and articulated based on existing research and
+discussion around personalization in museum technology (Valoriani, 2013; Gorgels, 2013;
+Rodney, 2016). Visitors were given a short description of each strategy as referenced below, and
+asked to rank these strategies on a scale of 1 to 5 in terms of the importance to their overall visit,
+with 1 being “not at all important” and 5 being “very important.”
+
+Figure 1: Personalization Strategy Rankings by Visitors (n=34)
+
+Personalization Strategy Rankings
+13
+
+13
+
+12
+11
+
+11
+10
+8
+6
+
+5
+
+6
+
+6
+
+5
+
+5
+
+5
+
+5
+
+4
+3
+
+3
+
+3
+2
+
+Curatorial Control
+Not Important at All
+
+Gestural Recognition
+Less Important
+
+Creative Production
+Neutral
+
+More Important
+
+Social Media
+Very Important
+
+Curatorial control included the ability to create or “curate” your own artwork collections
+or design your own tour. Figure 1 shows the distribution of visitors’ rankings in terms of how
+important they thought this strategy was to their visit. Visitors tended to rank this strategy highly
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 35
+
+on a scale of importance for their overall visit, with 26 visitors either indifferent or valuing
+curatorial control.
+Gestural Recognition is the ability for technology to recognize your body movements or
+facial expressions and identify artwork that matches your body positioning. For example, a
+visitor might stick out their tongue, and learn about the art historical depiction of the Aztec earth
+deity Tlaltecuhtli with its tongue out. This element is featured in the Gallery One Sculpture Lens,
+which features the Make a Face and Strike a Pose game. This feature was relatively unpopular
+with visitors, with 26 of visitors finding the strategy to be unimportant or indifferent.
+Creative Production is the ability to create your own works of art using the interactive
+technology, which is featured in the Make Your Mark activity within the Painting Lens. This
+interactive gives visitors three examples of Abstract Expressionist paintings, and then invites
+them to create a work of their own using the touch screen. Visitors did not find this particular
+feature important, with 13 visitors ranking the strategy as neutral.
+Finally, Social Media is the ability to share favorite artworks or personal creations online
+with friends and family. In Gallery One, visitors can share high resolution images of their
+favorite objects through Twitter or Facebook by accessing the ArtLens app downloadable for
+free on an iPhone or iPad. Visitors valued this feature, with 18 visitors ranking this strategy as
+either More Important or Very Important to them.
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 36
+
+Chapter 5
+Conclusions and Implications
+With the increasing use of both interactive digital technologies and personalized
+interpretation strategies in art museums, this study aimed to provide a foundation for
+understanding visitor perceptions of personalization utilized in interactive digital technology. By
+interviewing visitors at the Cleveland Museum of Art’s Gallery One space, the study examined
+the effect that personalization and interactive technology has on both the museum visitor’s
+overall experience and their own engagement with artwork.
+Conclusions
+Data from this study suggest that personalization matters to art museum visitors. Visitors
+stated that not only did the interactive technology allow them to personalize their experience in
+the museum in general, and with art in particular, but that the ability to have that personalized
+experience was important to them. This expands upon Dillon’s (2015) research that highlights
+visitors’ decreased interest in standardized experiences, and valuation of personal facilitated
+experiences, demonstrating that visitors value these personalized elements in digital technology
+as well. Although there were visitors who felt that the personalized interactive technology did
+not appeal to them, many of these same visitors expressed that they knew the technology
+improved the experiences of those around them. Additionally, many visitors highlighted the
+technology’s ability to engage young people with art.
+Of particular interest is the fact that a significant percentage of visitors stated that the tour
+creation feature and personalization options in general appealed to them because it allowed them
+to focus their visit. This relates to previous studies on the topic of museum fatigue, which
+comment on the decreased attention and interest experienced by visitors after successive
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 37
+
+viewings of art (Bitgood, 2009). As stated in the literature review, many scholars believe
+personalization strategies help to mitigate this feeling of information overload. The data
+collected in this study strengthens this argument, as many visitors commented on the
+overwhelming nature of the collection, or the time commitment necessary to view art, and the
+personalization features’ ability to provide much-needed structure to their visit.
+Although personalization matters to art museum visitors, many of them are not using
+those elements of the technology. Only a couple of visitors in this study shared objects on social
+media or created their own tours using the ArtLens app. One possible reason for this was the
+large data size of the iPhone app, which was too large for many visitors to download.
+Additionally, the download time was approximately 5 to 10 minutes, which is a substantial time
+commitment. However, even in the case of the “favoriting” feature, which did not require
+visitors to download the app, less than half of visitors participated in this feature. This may be
+due, in part, to the technical issues mentioned above, which echoes the results found in Heath,
+von Lehm, and Osbourne’s (2005) study that highlighted the issues of collaborative usage of
+technology designed for the individual.
+Interestingly, although the vast majority of visitors did not use the social media or tour
+creation elements of the Gallery One interactive experience, visitors found these strategies to be
+important to their overall museum experience.
+Further Research and Implications
+As a base for further research, this study contributes to building theory around
+personalization as a strategy for museums, a concept that is becoming increasingly important as
+museums continue to integrate personalized technology into their exhibits and interpretation.
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 38
+
+There is great value in museums better understanding what personalization is, what visitors think
+about it, and how visitors value personalization as a strategy for engagement.
+Calling for further research, this study highlights the need for further research into the
+discrepancy between use and value in art museum interactive technology. Although many
+visitors valued social media and curatorial control, these options were more often than not
+unused. Further studies might investigate the relationship between perception of value and use,
+and what barriers visitors face when interacting with art museum interactive technology.
+In addition, due to the limited scope of this study, further research could focus on
+expanding the analysis of visitor perceptions of interactive technology and personalization
+initiatives to other art museums. It would benefit the field to have a more robust collection of
+data on the topic of personalization strategies in digital technology, as many of the larger art
+institutions around the world are beginning to implement these kinds of initiatives.
+Although this study investigated the perceived values of various personalization
+strategies in art museum technology, there is still much more research that can be done on the
+topic of separating various approaches to personalization. Future research could focus either
+specifically on a strategy, or continue to compare different approaches to better understand
+visitor perceptions and valuation of these methods.
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 39
+
+References
+Adams, M. & Moussouri, T. (2002). The Interactive Experience: Linking Research and Practice.
+Paper prepared for Interactive Learning in Museums of Art and Design Conference.
+London: Victoria & Albert Museum.
+Adams, M., et al. (2009). Cleveland Museum of Art Permanent Collection Reinstallation
+Formative Evaluation Study. Unpublished 75-page report; PDF available through the
+Cleveland Museum of Art.
+Alexander, J. (2014). Gallery One, the First Year: Sustainability, Evaluation Process, and a New
+Smart Phone App, Museums and the Web, Baltimore, MD, April 2-5, 2014.
+http://mw2014.museumsandtheweb.com/paper/gallery-one-the-first-year-sustainabilityevaluation-process-and-a-new-smart-phone-app/.
+Alexander, J., Barton, J., & Goeser, C. (2013, February). Transforming the Art Museum
+Experience: Gallery One.
+Allen, S., & Gutwill, J. (2004). Designing with multiple Interactives: Five common pitfalls.
+Curator: The Museum Journal, 47(2), 199–212.
+American Alliance of Museums, Museums Association, & Fusion Research and Analytics.
+(2012). Mobile in Museums Study. Retrieved from https://aamus.org/docs/research/mobilemuseums2012-%28aam%29.pdf
+Ardissono, L., Kuflik, T., & Petrelli, D. (2011). Personalization in cultural heritage: The road
+travelled and the one ahead. User Modeling and User-Adapted Interaction, 22(1-2), 73–
+99.
+Association of Art Museum Directors. (2015). Next Practices in Digital and Technology. New
+York: Association of Art Museum Directors.
+Bitgood, S. (2009). Museum fatigue: A critical review. Visitor Studies, 12(2), 93-111.
+Bloomberg Philanthropies. (2016). Enhancing the visitor experience through technology.
+Retrieved from http://www.bloomberg.org/program/arts/bloomberg-connects/.
+Cannell, M. (17, March 2015). Museums Turn to Technology to Boost Attendance by Millenials.
+The New York Times. Retrieved from
+http://www.nytimes.com/2015/03/19/arts/artsspecial/museums-turn-to-technology-toboost-attendance-by-millennials.html.
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 40
+
+Creswell, J. W. (2014). Research design: Qualitative, quantitative, and mixed methods
+approaches. Los Angeles: Sage
+Dillon, C. (2015, May 6). Six Ways Personalization Trends are Affecting Museums and Cultural
+Centers. Retrieved from http://colleendilen.com/2015/05/06/six-ways-personalizationtrends-are-affecting-museums-and-cultural-centers-data/.
+Falk, J. (2009). Identity and the museum visitor experience. Walnut Creek, California: Left Coast
+Press.
+Falk, J. (2006). Thriving in the Knowledge Age: New Business Models for Museums and Other
+Cultural Institutions. Lanham, MD: Altamira Press.
+Gamerman, E. (2015, October 16). A look at the museum of the future. Washington Street
+Journal. Retrieved from http://www.wsj.com/articles/a-look-at-the-museum-of-thefuture-1444940447
+Getty Foundation. (2007). L.A. Art Online: Learning from the Getty’s Electronic Cataloguing
+Initiative. Los Angeles, California: Schneider, A.
+Girardeau, C., Beaman, A., Pressley, S., & Reinier, J. (2015, February). Voices:FAMSF: Testing
+a new model of interpretive technology at the Fine Arts Museums of San Francisco.
+Gorgels, Peter. (2013). Make Your Own Masterpiece! In Museums and the Web 2013, N. Proctor
+& R. Cherry (eds). Silver Spring, MD: Museums and the Web. Published January 28,
+2013. Consulted May 31, 2016 .
+Heath, C., vom Lehn, D., & Osborne, J. (2005). Interaction and interactives: Collaboration and
+participation with computer-based exhibits. Public Understanding of Science, 14(1), 91–
+101.
+Hornecker, E & Stifter, M. (2006). Learning from Interactive Museum Installations about
+Interaction Design for Public Settings. Australian Conference on Human-Computer
+Interaction 2006.
+Huang, Y. M., Liu, C. H., Lee, C. Y., & Huang, Y. M. (2012). Designing a Personalized Guide
+Recommendation System to Mitigate Information Overload in Museum Learning.
+Educational Technology & Society, 15(4), 150-166.
+Hughes, L. (2011). Evaluating and Measuring the Value, Use, and Impact of Digital Collections.
+London: Facet Publishing.
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 41
+
+Itmazi, J. A., & Megías, M. G. (2008). Using Recommendation Systems in Course Management
+Systems to recommend Learning Objects. Int. Arab J. Inf. Technol., 5(3), 234-240.
+Kelly, L. (2000). Use of Computer Interactives in Museum Exhibitions: Literature Review.
+AMARC – Australian Museum Audience Research Centre.
+Kravchyna, V. & Hastings, S. (2002). Informational Value of Web Sites. First Monday, 7.
+http://dx.doi.org/10.5210/fm.v7i2.929.
+Kuflik, T., Stock, O., Zancanaro, M., Gorfinkel, A., Jbara, S., Kats, S., ... & Kashtan, N. (2011).
+A visitor's guide in an active museum: Presentations, communications, and reflection.
+Journal on Computing and Cultural Heritage (JOCCH), 3(3), 11.
+Kyung Lee, M. (2013). Designing Personalization in Technology-Based Services (Doctoral
+dissertation). Retrieved from ProQuest.
+Lohr, S. (2014, November 12). The met and other museums adapt to the digital age. New York
+Times. Retrieved from http://www.nytimes.com/2014/10/26/arts/artsspecial/the-met-andother-museums-adapt-to-the-digital-age.html
+Marty, P. (2008). Museum websites and museum visitors: digital museum resources and their
+use. Museum Management and Curatorship, (23)1, 81-99.
+Meyer, R. (2015, January 20). Finally, the museum of the future is here. The Atlantic. Retrieved
+from http://www.theatlantic.com/technology/archive/2015/01/how-to-build-the-museumof-the-future/384646/
+National Endowment for the Arts. (2015). A Decade of Arts Engagement: Findings From the
+Survey of Public Participation in the Arts, 2002–2012 (NEA Research Report #58.
+Washington, D.C.
+O’Donnell, M., Mellish, C., Oberlander, J., & Knott, A. (2001). ILEX: An architecture for a
+dynamic hypertext generation system. Natural Language Engineering, 7(03), 225–250.
+Pew Research Center. (2013). Arts Organizations and Digital Technologies. Washington, D.C.:
+Thomson, K., Purcell, K., and Rainie, L.
+Pitman, B., & E. Hairy. (2011). Ignite the power of art: Advancing visitor engagement in
+museums. Dallas: Dallas Museum of Art Publications.
+Rodney, Seph. (2016). The Evolution of the Museum Visit, from Privelege to Personalized
+Experience. Hyperallergic. Retrieved from http://hyperallergic.com/267096/theevolution-of-the-museum-visit-from-privilege-to-personalized-experience/.
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 42
+
+Rosenbaum, L. (2015). The Brave New Museum Sputters Into Life. The Wall Street Journal.
+Retrieved from http://www.wsj.com/articles/the-brave-new-museum-sputters-into-life1441657298.
+Sandifer, C. (2003). Technology novelty and open-endedness: Two characteristics of interactive
+exhibits that contribute to the holding of visitor attention in a science museum. Journal of
+Research in Science Teaching, 40(2), 121-137.
+Schiele, B., Koster, E. H., & Koster, E. H. (2000). Science centers for this century.
+Schloder, J., M. Williams, & C. G. Mann. (1993). The visitor’s voice: Visitor studies in the
+Renaissance-Baroque Galleries of the Cleveland Museum of Art. Cleveland: Cleveland
+Museum of Art.
+Simon, N. (2010). The participatory museum. Santa Cruz, California: Museum 2.0.
+Stevens, H. (2012, April 19). Museums want to entertain you (and that’s not a bad thing). The
+Atlantic. Retrieved from
+http://www.theatlantic.com/entertainment/archive/2012/04/museums-want-to-entertainyou-and-thats-not-a-bad-thing/256042/
+Templeton, C. A. (2011). Museum Visitor Engagement Through Resonant, Rich and Interactive
+Experiences.
+Valoriani, Matteo. (2013). Technological and Methodological Tools for Personalized Interactive
+Applications. In CHItaly (Doctoral Consortium) (pp. 23-32).
+Van Velsen, L., Van der Geest, T., & Klaassen, R. (2007, October). Testing the usability of a
+personalized system: comparing the use of interviews, questionnaires and thinking-aloud.
+In Professional Communication Conference, 2007. IPCC 2007. IEEE International (pp.
+1-8). IEEE.
+Vom Lehn, D., Heath, C., & Hindmarsh, J. (2005). Rethinking interactivity: design for
+participation in museums and galleries. Work, Interaction & Technology Research
+Group, King’s College London. Retrieved January, 26, 2006.
+Weibelzahl, S. (2005). Problems and pitfalls in the evaluation of adaptive systems. Adaptable
+and adaptive hypermedia systems, 11, 285-299.
+Wickell, C. Great Expectations: Researching Usability of Online Museum Collections. Retrieved
+from ProQuest Dissertations Publishing.
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 43
+
+Appendices
+Appendix A: Interview Guide
+1. Have you been to this museum before?
+a. IF YES, Have you ever used any of the interactive technology before? Which
+ones?
+2. Why did you come to the museum today?
+3. Did you “favorite” or “save” any objects during your experience today?
+4. Did you share any objects on social media during your experience today?
+5. Are you aware of the ability to create your own tour using the ArtLens app?
+a. IF YES, Have you created your own tour?
+b. IF NO, do you plan on doing so today?
+6. Do features like creating your own tour, website, or “favorites” collection appeal to you?
+a. Why or why not?
+7. Do you feel this kind of technology allows you to personalize your experience with art?
+a. How so?
+8. Does having the opportunity to personalize your experience with art matter to you?
+9. How do you think this kind of technology influences the way you interact with artwork?
+10. This museum uses different technological strategies for making their visitors’ experiences
+feel personal and unique. I’m going to give you four examples of different strategies.
+Please rank these in terms of importance on a scale of 1 to 5, with 1 being “not at all
+important to me” and 5 being “most important to me.”
+a. Curatorial Control: i.e., the ability to create your own artwork collections, or
+design your own tours
+1
+
+2
+
+3
+
+4
+
+5
+
+b. Gestural Recognition: i.e., the ability for technology to recognize your body
+movements or facial expressions and identify corresponding artwork
+1
+
+2
+
+3
+
+4
+
+5
+
+c. Creative Production: i.e., the ability to create your own works of art
+1
+
+2
+
+3
+
+4
+
+5
+
+d. Social Media: i.e., the ability to share your favorite objects and personal creations
+online with friends and family
+1
+
+2
+
+3
+
+4
+
+5
+
+11. Is there any aspect of the technology that I haven’t mentioned that contributes to
+personalizing your experience with art?
+12. Do you have any plans to use or reference any of the artworks you saved after you leave
+the museum today?
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 44
+
+Appendix B: Coding Rubric
+Question 2: Why did you visit the museum today?
+Column
+1
+1
+
+Category
+
+Description
+
+Specific Object/Exhibit
+
+Motivation is described as based on
+seeing a particular item or exhibit
+within the museum, for example the
+recently opened “Pharaoh” exhibit
+
+Convenience
+
+Motivation is described as based on
+proximity of the museum, time
+factors, free admission, or other
+factors that relate to the museum’s
+convenience
+
+3
+
+Friend/Family Outing
+
+Motivation is described as based on a
+time to spend with friends and family,
+as a group social occasion
+
+4
+
+Entertainment
+
+Motivation is described as based on
+the museum’s fun or entertaining
+qualities
+
+2
+
+Examples
+• "Specifically to see
+the Pharaoh exhibit”
+ “To see Tut”
+• "We were at the
+Botanical Gardens and
+we parked in this lot,
+and we figured we’d
+come in and spend the
+day”
+• "We had a free day
+off, and it’s free”
+• "We were visiting my
+sister-in-law, so we
+decided we wanted to
+take her and go do
+something”
+• “Oh, I’m bringing my
+great nephews for their
+first visit to the
+museum”
+ “it’s fun, and I
+haven’t been in a
+while”
+ “Just for a whim. Just
+a “Hey, wanna go
+and check out this
+museum?”
+Something fun.”
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 45
+
+Question 6: Do features like creating your own tour or having your own favorites
+collection, does that appeal to you? Answer: Yes
+Column1
+
+Category
+
+1
+
+Technology
+
+Description
+Focus is on the technology, rather than
+on the content.
+
+2
+
+Clarifying
+
+Interest is based on the tour or collection
+feature's ability to make the museum
+visit less confusing and more
+streamlined
+
+3
+
+Personalization
+
+Interest is based on the tour or collection
+feature's ability to tailor the visit to fit
+the individual's interests or needs
+
+4
+
+New Content
+
+Interest is based on the ability to find
+new objects or content that the visitor
+was previously unaware of
+
+Examples
+• "It’s cool that
+it’s, like, digital."
+• "be able to see
+things that I’m
+interested in rather
+than just
+wandering"
+• "I understand
+this is a very big
+art gallery and I
+only know so
+much about art, so
+I believe it would
+be better if I can
+set a tour based on
+arts that I know
+and absolutely
+love and go
+around the place"
+• "it personalizes
+the visit"
+• "So when I’m
+coming today,
+what I want to see
+probably changes.
+Today maybe
+Egyptian and
+Impressionist
+stuff. Maybe
+another time, I
+wanna look at
+American stuff."
+• "the idea of
+being able to find
+art objects that I
+might not be
+aware of that are
+in the museum"
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 46
+
+Question 6: Do features like creating your own tour or having your own favorites
+collection, does that appeal to you? Answer: No
+
+Column1
+
+Category
+
+Description
+
+Examples
+
+1
+
+Technology Issues
+
+Visitor cites inability to use
+technology as a reason why
+they are not interested
+
+• "if I were a little more able to do
+that"
+
+2
+
+Familiarity
+
+Visitor cites existing
+knowledge of the museum and
+its collections as a reason why
+they do not need a digital tour
+or favorites collction
+
+• "I’ve been to this museum,
+because I grew up in Cleveland, so
+many times. I almost kind of know
+it by heart"
+
+3
+
+Lack of
+Knowledge
+
+Visitor cites their unawareness
+of the technology as a reason
+for their lack of interest
+
+• "I didn’t know much about it
+until right now"
+• "I’m not really sure what it is"
+
+4
+
+Prefers NonTechnological
+Experience
+
+Visitor cites the desire to
+experience art without the use
+of technology
+
+• I’d rather just come here and see
+it in person"
+
+5
+
+Prefers Perspective
+of Others
+
+Visitor cites an interest in
+gaining the perspective of
+other visitors or professionals,
+rather than their own
+
+• "I’d prefer someone else creating
+a tour for me, because I’m not
+quite sure what I would be
+interested in"
+
+Question 7: Do you feel like this kind of technology allows you to sort of personalize or
+customize your experience with art? How so?
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 47
+
+Column1
+
+Category
+
+Description
+
+1
+
+Younger Generation
+
+Visitor describes the technology as
+being better for engaging children and
+younger visitors.
+
+2
+
+Structure/Clarification
+
+Visitor describes the technology as
+allowing them to structure or clarify
+their visit.
+
+3
+
+Information
+
+Visitor describes the technology as
+being able to provide them with
+additional information.
+
+4
+
+Browsing/Introduction to
+New Content
+
+Visitor describes the ability to browse
+through artworks, or be introduced to
+new works related to their interests.
+
+Examples
+• "I think it’s a great
+opportunity to get
+younger people
+involved, yeah"
+• "It gives us a reason
+to bring children here
+rather than some other
+place"
+• "if there’s certain art
+that catches your eye,
+it’s nice to be specific
+and go to that location"
+• "You usually have
+something of a time
+commitment you
+wanna make in a given
+day. You want to get as
+much out of it as you
+can on the stuff that
+you want to see that
+day, so I think it helps a
+lot"
+• "Well, I had just
+talked to her about
+being able to get more
+information about a
+piece of art that you see
+at the museum, so
+that’s what I’m hoping
+to use"
+• "Where I was looking
+at, I think the porcelain,
+and it was saying where
+it came from and who
+made it and why they
+made it. I thought it
+was pretty neat"
+• "it had Ganesh, which
+is from South Asia
+where I from, so I felt
+like if I could browse
+and see more sections
+related to that, that
+would be – it would be
+interesting"
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 48
+
+5
+
+Personal Interests
+
+Visitor describes the ability to collect
+works or design tours that appeal to
+their own interests.
+
+6
+
+Control
+
+Visitor describes the ability to take
+charge of their own experience.
+
+• "that if you’re
+interested in some
+particular theme or
+some particular period
+you can quickly put
+together a list of the
+items at the museum"
+• "if you want to look at
+things that appeal to
+you, that’s a very
+personal touch, instead
+of just kind of digging
+through everything and
+finding what really
+appeals to you"
+• "I feel like any
+situation where
+someone is able to be
+more in control of their
+tourist experience, they
+like that"
+
+Question 8: Does having the opportunity to personalize your experience with art matter to
+you? Answer: Yes
+
+Column1
+
+Category
+
+Description
+
+1
+
+Guidance
+
+Visitor describes the
+personalization features as being
+able to guide them through their
+experience.
+
+2
+
+Entertainment
+
+Visitor describes the
+personalization feature as being fun
+or entertaining.
+
+Examples
+• "So, yeah, I guess as far as using it
+as a map in general, would be nice"
+• " I feel it’s very helpful, rather than
+just browsing around and missing a
+few things"
+• "Just because everyone likes
+different things, so if you can find
+your own things and customize your
+experience"
+• "It makes it more fun coming to the
+museum"
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 49
+
+Question 8: Does having the opportunity to personalize your experience with art matter to
+you? Answer: No
+
+Column1
+
+Category
+
+Description
+
+1
+
+Redundancy
+
+Visitor describes the
+personalization feature as being
+redundant or unnecessary.
+
+Irrelevant
+
+Visitor describes the
+personalization feature as being
+unimportant to their visit, and
+not a determining factor.
+
+Prefer Browsing
+
+Visitor describes the
+personalization feature as being
+too focused or predetermined,
+and prefer a browsing
+experience.
+
+Familiarity
+
+Visitor describes their existing
+familiarity with the museum as a
+reason for their disinterest in the
+personalization features.
+
+2
+
+3
+
+4
+
+Examples
+• "No, because
+when I come here I
+have – well, I’ve
+already customized
+it"
+• "Um, not really,
+because I probably
+would have came
+anyway."
+• "I guess it doesn’t
+like matter"
+• "I kind of just like
+wandering through
+the museum and
+looking at stuff
+rather than being on
+a predetermined
+course."
+• "Not today, we
+were just kind of
+browsing"
+• "if I was probably
+in a different – like
+in a city where I
+hadn’t been to the
+museum, but since I
+know this one so
+well, it’s not as big"
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 50
+
+Question 9: How do you think that this kind of technology influences the way you interact
+with artwork?
+Column1
+
+Category
+
+Description
+
+Deepen or Increase Knowledge
+and Awareness
+
+Visitor describes the technology as
+strengthening or deepening their
+connection with art or increasing their
+knowledge of the artwork.
+
+2
+
+Scope
+
+Visitor describes the technology as
+giving them an understanding of all the
+items as a collection, or in relation to
+one another.
+
+3
+
+No Change
+
+Visitor describes the technology as
+having no effect on their relationship
+or experience with art
+
+4
+
+Comparison
+
+Visitor describes the technology as
+allowing them to compare between
+works.
+
+5
+
+No Idea
+
+Visitor doesn't have an answer, or is
+unaware of how it may affect their
+experience with art.
+
+• "I don't know."
+• "Not sure"
+
+Visitor describes the technology as
+allowing them to focus on their
+particular interests, or limiting their
+ability to learn about new topics or
+objects they may have been unaware
+of.
+
+• "it has the
+danger of having
+me focus on
+things that I’m
+already familiar
+with"
+• "rather than
+view art going
+period by period
+…instead just
+target some
+particular items
+and see those"
+
+1
+
+6
+
+Focuses
+
+Examples
+• "I think it will
+help continue to
+deepen it"
+• "getting more
+in depth
+information
+about it than just
+what’s in front
+of you"
+• "getting to
+know more
+about the art that
+I’m looking at"
+• "it gives you
+an idea what you
+have and
+everything you
+have available
+you can see
+there"
+• "Probably
+pretty little for
+me, at least"
+• "I get more out
+of it seeing it in
+person"
+• "just
+comparing more
+objects maybe at
+the same time"
+
+ANALYZING VISITOR PERCEPTIONS OF PERSONALIZATION IN ART MUSEUM INTERACTIVE TECHNOLOGY 51
+
+7
+
+Convenience
+
+Visitor describes the technology as
+being convenient and providing them
+access to information more readily
+
+• "allow for
+information to
+be
+communicated
+more readily"
+• "you can
+quickly put
+together a list of
+the items at the
+museum that
+you’d like to
+see, and record
+that and keep
+that handy for
+yourself"
+
+

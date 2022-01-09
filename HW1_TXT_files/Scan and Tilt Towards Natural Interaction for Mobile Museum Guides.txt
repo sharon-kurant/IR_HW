@@ -1,0 +1,399 @@
+Scan and Tilt – Towards Natural Interaction for Mobile
+Museum Guides
+Jani Mantyjarvi1, Fabio Paternò, Zigor Salvador, Carmen Santoro
+ISTI-CNR
+Via G.Moruzzi 1
+56126 Pisa, Italy
+
+{jani.mantyjarvi, fabio.paterno, zigor.salvador, carmen.santoro}@isti.cnr.it
+devices, enabling the implementation of new interaction
+modalities for mobile devices. In this paper, we present our work
+on enabling gesture interaction through the scan and tilt paradigm,
+by extending a previous museum guide [4], which already
+supported graphical and vocal modalities and location detection
+through infrared beacons.
+To this end, we have designed an interaction technique based
+on two important concepts:
+i) it should not be intrusive on the user experience, by
+leaving the visual channel open to enjoy the artwork;
+ii) it should be able to somehow directly interact with the
+available physical objects.
+The first concept is motivated by previous analysis of museum
+visitors and how they perceive the support of computer-based
+devices [4]. The results clearly indicated that the users would not
+be interested in spending much time understanding how the
+electronic guide works, especially because they will probably not
+visit the museum again. On the other hand, the information
+usually provided by museums regarding artworks is rather limited
+(e.g.: mainly short textual labels), which raises the need for
+additional support to be dynamically activated when something
+interesting is found during the visit. For this purpose, it would be
+useful for visitors to have the possibility of pointing at the artwork
+of interest and controlling audio information with small hand
+gestures.
+The organization of the paper is as follows. First, we discuss
+related work in the area of mobile guides; next, we provide some
+information on the previous version of our guide. Then, we
+present the novel interaction paradigm for museum guides,
+followed by an explanation of how users interact with scan and tilt
+and a report on an early evaluation. Lastly, some concluding
+remarks and indications for future work are provided.
+
+ABSTRACT
+This paper presents a new interaction technique –scan and
+tilt– aiming to enable a more natural interaction with mobile
+museum guides. Our work combines multiple modalities –
+gestures, physical selection, location, graphical and voice. In
+particular, physical selection is obtained by scanning RFID tags
+associated with the artworks, and tilt gestures are used to control
+and navigate the user interface and multimedia information. We
+report on how it has been applied to a mobile museum guide in
+order to enhance the user experience, providing details on a first
+user test carried out on our prototype.
+
+Categories and Subject Descriptors
+H5.m. Information interfaces and presentation (e.g., HCI).
+
+General Terms
+Design, Human Factors.
+
+Keywords
+Mobile guides, Gesture interaction, Tilt interfaces, Physical
+selection, RFID, Museum guides, Multi-modal user interfaces.
+
+1. INTRODUCTION
+Seamless interoperability of intelligent computing
+environments and mobile devices is becoming more and more
+popular in various application domains. A potential application
+area is the so-called “intelligent guides”. Several location-aware,
+context-aware and multi-modal prototypes have been developed
+since the beginning of ubiquitous computing in the early 90’s [see
+for example, 2, 3, and 4]. Through the advances in
+microelectronics – under the impetus of the mobile device
+industry – novel sensing devices, e.g. accelerometers and RFIDreaders have started to be supported in mainstream mobile
+
+2. RELATED WORK
+The museum domain has raised an increasing interest
+regarding the support that can be provided to visitors through
+mobile devices. One of the first works in this area was the Hippie
+system [9], which located users via an IR system with beacons
+installed at the entrance of each section and emitters installed on
+the artworks. The GUIDE project [3] addresses visitors in outdoor
+environments supported through several WLANs. In our work, we
+focus on indoor visitors: it requires consideration of different
+solutions for supporting them. While such works provided a
+useful contribution in the area, we noticed that in the museum
+domain innovative interaction techniques were not yet
+
+_______________________________________
+1
+
+This work was carried out during the tenure of an ERCIM fellowship
+
+Permission to make digital or hard copies of all or part of this work for
+personal or classroom use is granted without fee provided that copies
+are not made or distributed for profit or commercial advantage and that
+copies bear this notice and the full citation on the first page. To copy
+otherwise, or republish, to post on servers or to redistribute to lists,
+requires prior specific permission and/or a fee.
+MobileHCI'06, September 12–15, 2006, Helsinki, Finland.
+Copyright 2006 ACM 1-59593-390-5/06/0009...$5.00.
+
+191
+
+investigated. They can be useful to improve user experience by
+making the interaction more natural.
+Research on gesture interaction for mobile devices includes
+various types of interactions: measure and tilt, discrete gesture
+interaction and continuous gesture interaction [8]. In [6] a
+continuous, control theory-based approach for tilt-based
+interaction for mobile terminals equipped with 6DOF
+accelerometers is presented. In [5] a study discussing the effects
+of ergonomics in tilt interaction is presented. An accelerometerbased tilt interaction system for scrolling and determining screen
+orientation is presented in [7]. Tilt interaction to be utilised in
+navigating menus and scrolling documents and maps is described
+in [10]. A distinction from [6] is that we use mobile terminals
+with 4DOF accelerometers and discrete tilt events instead of
+continuous control signals. Our study differs from related work
+since we extend the tilt interaction by associating tilt events with a
+few easy-to-use interaction commands for the museum guide, and
+combine such tilt interaction with other modalities, following a
+consistent interaction logic at different levels of the application.
+Physical browsing [1] allows users to select information
+through physical objects and can be implemented through a
+variety of tag-based techniques. Even mobile phones that can
+support it through RFIDs have started to appear on the market.
+However, we think that it needs to be augmented with other
+techniques in order to make museum visitors’ interaction more
+complete and natural. To this end, we have selected the use of
+accelerometers able to detect tilt events, allowing users to easily
+select specific information regarding the artwork identified
+through physical pointing with small hand movements, so that the
+user visual channel can be mainly dedicated to looking at the
+artworks..
+
+Figure 1. User in the Marble Museum with mobile guide.
+
+4. SCAN & TILT INTERACTION
+4.1 Design Rationale
+Digital metadata on artwork facilitates electronic guides for
+museums (e.g. it is easier to arrange temporary exhibitions when
+metadata can be made available to electronic guides). Also, our
+concept of guide interaction potentially benefits from the fact that
+artwork metadata can be structured in a nested, tree-type structure.
+The scan modality operates on a higher level (i.e. it can be used to
+choose the main element of interest), while the gesture modality
+enables operations between elements in the metadata structure
+(i.e. horizontal tilt allows navigating among pieces of information
+at the same level). These aspects make the interaction more
+immediate and potentially easier for visitors to orient themselves
+within the information presented by the device.
+
+3. CICERO
+Our interaction technique for museum visitors has been
+applied to a previously existing application for mobile devices:
+Cicero [4]. This is an application developed for the Marble
+Museum located in Carrara, Italy and provides visitors with a rich
+variety of multimedia (graphical, video, audio, …) information
+regarding the available artworks and related items. This
+application is also location-aware. This is implemented through a
+number of infrared beacons located on the entrance of each
+museum room. Each of them is composed of several infrared
+emitters and generates an identifier that can be automatically
+detected by the application, which thus knows what room the user
+is entering (see Figure 1) and immediately activates the
+corresponding map and vocal comments. This level of granularity
+regarding the location (the current room) was considered more
+flexible and useful than a finer granularity (artwork), which may
+raise some issues if it used to drive the automatic generation of
+the guide comments.
+
+4.2 User Interaction
+A summary of user interactions using multiple modalities
+with illustrations of the corresponding user interface
+modifications is presented in Figure 2. When a visitor enters a
+space, this is detected through the infrareds signals, and a map of
+the room is provided automatically. A visitor then scans a RFID
+tag associated with an object by physical selection, and the object
+is highlighted graphically on the room map. That is, information
+on a mobile device is associated to an object in the physical
+environment. In the detailed data-view, navigation among
+different pieces of information can be done by tilting horizontally.
+Alternatively, when users enter a room and get information
+regarding it, they can use the tilt to identify/select different
+artworks in the room through simple horizontal tilts. Whenever a
+new artwork is selected, then the corresponding icon in the room
+map is highlighted and its name is vocally rendered. In order to
+access the corresponding information, a vertical tilt must then be
+performed. Note that the current interpretation of the tilt event can
+also be enabled/disabled through a PDA button. In general, the
+tilt interface follows a simple to learn pattern: horizontal tilts are
+used to navigate through different pieces of information at the
+same level or to start/stop some activity, vertical tilt down events
+are used to go down in the information hierarchy and access more
+detailed information, whereas vertical tilt up events are used to get
+
+In addition to information regarding artworks, sections and
+the museum, the application is able to support some services such
+as showing the itinerary to get to a specific artwork from the
+current location. Most information is provided mainly vocally in
+order to allow visitors to freely look around and the visual
+interface is mainly used to show related videos, maps at different
+levels (museum, sections, rooms), and specific pieces of
+information.
+
+192
+
+TiltRight, TiltBackward, TiltForward) by the tilt manager-data
+processing module of the mobile device. User-generated tilt-based
+events can then be used to execute interactions (selection,
+navigation or activation) according to the user interface at hand.
+
+up in the information hierarchy. Since there are different levels of
+information supported (the museum, the thematic sections, the
+artworks, and the information associated to specific artworks and
+its rendering,.), when a specific artwork is accessed, it is still
+possible to navigate by horizontal tilting to access voice control
+(to decrease/increase the volume), control the associated video
+(start/stop), and access information regarding the author.
+
+5.2 Scan - Modality
+The scan modality employs RFID technology by Socket
+Communications. The RFID reader (ISO 15693) is connected to
+the Compact Flash socket of a PDA. Artworks in the museum
+environment are equipped with RFID-tags containing identifiers
+of the given artwork. A user can obtain information related to a
+work of art by placing the device near the tag and having the data
+associated with the tag code passed to the guide application
+through the RFID reader hardware.
+
+5.3 The Algorithm
+The first release of the software prototype uses a simple tilt
+monitoring algorithm based on static angle thresholds and taking
+into account the initial tilt angle of the device when the
+application starts. The tilt of both horizontal and vertical axes is
+measured every 1/10 second. These values are then compared to
+the original tilt measurement performed at application start-up
+time, and if a 15 degree threshold is exceeded for over 500ms in
+one of the axes, this is interpreted as the appropriate tilt gesture
+for that axis: 'forward', 'backward', 'left' or 'right'. Although the
+algorithm might be deemed as a simple solution, its usage has
+allowed us to obtain valuable preliminary user feedback.
+
+Figure 2. The use of gesture and physical selection modalities.
+Information affecting interaction is in CAPITAL LETTERS
+while interaction actions are written in italic.
+
+Figure 3. The Architecture of our interactive system.
+
+5. THE INTERACTIVE SYSTEM
+6. THE FIRST EVALUATION
+
+The scan modality is used to orient users in a physical
+environment and to select data on a higher level. After summary
+information is provided on the mobile device, gesture modality is
+used to navigate between various views/levels of detail by tilting.
+Figure 3 shows the architecture of our interactive system: when
+users receive scan data through the RFID manager, it is
+communicated to the museum application, and when the device is
+tilted, the tilt manager feeds the tilt data to the application
+accordingly.
+
+We have performed a first evaluation of our prototype to
+assess the ideas associated to this novel interaction technique. The
+test involved 12 people (10 men, 2 women), ages ranging between
+24 and 50 years old, recruited in the institute community: 3 had
+secondary school education level, while the others had university
+degrees or higher levels of education.
+Before starting the exercise, users were instructed to read a
+short text in which the different movements that have to be done
+in order to activate the scan and the tilt procedure were explained.
+Then, a short description about the task that they were expected to
+carry out was provided: users were asked to scroll a number of
+artworks belonging to a specific section (main window); then,
+they were expected to select one artwork (secondary window) and
+navigate through the different pieces of information available
+(e.g.: author, description, image, ...), to finally get back to the
+
+5.1 Tilt - Modality
+The gesture modality in our approach utilizes 2D
+acceleration sensor hardware from Ecertech. The sensor hardware
+is attached to an iPAQ PDA with Pocket PC operating system and
+can be used also in other Pocket PC PDAs and SmartPhones. The
+sensor produces signals that are interpreted as events (TiltLeft,
+
+193
+
+algorithm that manages tilt events, in order to support dynamic
+angle thresholds to allow for a more natural interaction with the
+device. The use of combined axis movement (i.e. 'up' and 'right' at
+the same time) also opens up new interaction possibilities which
+could further improve the interaction richness between the user
+and the application. The complexity of such an algorithm is
+however not to be underestimated, therefore requiring a thorough
+analysis.
+
+initial window in order to finish the exercise. After carrying out
+the exercise, users were asked to fill in a questionnaire, which was
+divided into two parts. In the first part some general information
+was requested by the user (age, education level, level of expertise
+on using desktop/PDA systems, etc.). The second part was
+devoted to questions more specifically related to the exercise.
+People involved in the tests reported to be, on average, quite
+expert in using desktop systems, but not particularly expert in
+using PDAs. Roughly half of them had already used a PDA before
+the exercise (7/12), only a few reported to have ever heard about
+scan and tilt interaction. On average they judged scan and tilt
+useful, with interesting potentialities.
+
+8. REFERENCES
+[1] Ailisto, H., Plomp, J., Pohjanheimo, L., Strömmer E.: A
+Physical Selection Paradigm for Ubiquitous Computing.
+Proceedings EUSAI 2003: 372-383.
+
+The majority of them (8/12) reported some difficulties in
+performing the exercise. Only 2 reported no difficulty, while other
+2 reported many difficulties. People that experienced difficulties,
+generally self-explained this fact saying that it could have been
+motivated by the novelty of the technique and their complete lack
+of experience with such an interaction technique. As for the kind
+of difficulties encountered, there were aspects connected to the
+initial difficulty in using the technique and understand the tilt
+thresholds expected for activating the tilt event, but most of these
+problems diminished after the initial interaction phases. Vertical
+tilt was found to be the most difficult interaction, while horizontal
+tilt was found the easiest one for the majority of users. Almost all
+the users judged the application user interface to be clear (in a 1-5
+scale, only one reported a value of 2, whereas the others reported
+4 or 5). Users judged scan and tilt interaction fairly easy to use
+(on average, the mean value was 3 in a 1-5 scale) and in fact
+several of them pointed out that it is just a matter of time to get
+used to it. They judged that scan and tilt makes interaction slightly
+easier with respect to traditional graphical interfaces, even if they
+conceded that it would be quite difficult to use it without looking
+at the PDA. All in all the feedback was positive, even if we are
+aware that more empirical test is needed in order to draw definite
+conclusions.
+
+[2] Burigat S., Chittaro L. (2005). Location-aware Visualization
+of VRML Models in GPS-based Mobile Guides, Proc. of
+Web3D 2005, ACM Press, pp. 57-64.
+[3] Cheverst K, Davies N, Mitchell K, Friday A, Efstratiou C
+(2000) Developing a context - aware electronic tourist guide:
+some issues and experiences. In: Proceedings of CHI 2000,
+ACM Press, The Hague, The Netherlands, pp 17–24.
+[4] Ciavarella, C., Paterno F., The design of a handheld,
+location-aware guide for indoor environments Personal
+Ubiquitous Computing (2004) 8: 82–91.
+[5] Crossan, A., Murray-Smith, R., Variability in Wrist-Tilt
+Accelerometer-based
+Gesture
+Interfaces,
+Proc. of
+MobileHCI’04, Glasgow, September 13-16, 2004. LNCS
+3160, Springer-Verlag, pp. 144-155, 2004.
+[6] Eslambolchilar, P., Murray-Smith, R., Tilt-based Automatic
+Zooming and Scaling in Mobile Devices - a state-space
+implementation, Proc. of MobileHCI’04, Glasgow,
+September 13-16, 2004. LNCS 3160, Springer-Verlag, p120131, 2004.
+[7] Hinckley, K., Pierce, J., Sinclair, M., Horvitz, E., Sensing
+Techniques for Mobile Interaction, ACM UIST 2000 CHI
+Letters 2 (2), pp. 91-100.
+
+7. CONCLUSIONS and FUTURE WORK
+We have proposed a new interaction paradigm – scan and tilt
+– for mobile museum guides aiming at enabling more effective
+interactions through the combination of multiple modalities –
+gesture, physical selection, location, graphical and voice reporting how it has been applied in a mobile museum guide. A
+preliminary user test was carried out, which provided encouraging
+feedback and indications for further refinements: further user
+studies are planned in the near future aiming also to understand
+the most effective parameters for the tilt monitoring algorithm.
+Our solution for a mobile museum guide considerably
+extends interaction towards more natural ways of interacting with
+the environment. Related approaches which focus on scan
+modality, such as [11], exploit similar ideas, but our solution
+offers a greater degree of freedom for users to move around and
+more control in obtaining information only when they want and
+without overloading the visual channel by having to graphically
+browse the application. Some future work is also planned for the
+
+[8] Mäntyjärvi, J., Kallio, S., Korpipää, P., Kela, J., Plomp, J.,
+Gesture interaction for small handheld devices to support
+multimedia applications, In Journal of Mobile Multimedia,
+Rinton Press, Vol.1(2), pp. 92 – 112, 2005.
+[9] Oppermann R, Specht M (2000) A context-sensitive nomadic
+exhibition guide. In: The proceedings of symposium on
+handheld and ubiquitous computing, LNCS 1927, Springer,
+pp 127–142.
+[10] Rekimoto J., Tilting operations for small screen interfaces,
+ACM UIST 1996, 1996., pp. 167-168.
+[11] Valkkynen P., Korhonen I., Plomp J., Tuomisto T.,
+Cluitmans L., Ailisto H., Seppa H., A User Interaction
+Paradigm for Physical Browsing and Near-object Control
+Based on Tags, Physical Interaction ’03 – Workshop on Real
+World User Interfaces, in conjunction with Mobile HCI’03.
+
+194
+
+

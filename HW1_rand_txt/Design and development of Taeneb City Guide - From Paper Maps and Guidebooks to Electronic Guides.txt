@@ -1,0 +1,306 @@
+1
+
+Design and development of Taeneb City Guide From Paper Maps and Guidebooks to Electronic Guides
+Dr Mark D Dunlopa, Dr Piotr Ptasinskia, Dr Alison Morrisonb,
+Stephen McCalluma, Chris Risbeyb, Fraser Stewarta
+a
+
+Computer and Information Sciences Department
+University of Strathclyde, UK
+mark.dunlop@cis.strath.ac.uk
+b
+
+Scottish Hotel School
+University of Strathclyde, UK
+alison.j.morrison@strath.ac.uk
+Abstract
+This paper reports the design, development and feedback from the initial trial of the Taeneb
+City Guide project developing tourist information software on Personal Digital Assistant (PDA)
+handheld computers. Based on the users’ requirements for electronic tourists guides already
+published in the literature, the paper focuses on the three main technology features of the
+systems, which would give the advantage over the existing paper publication:
+•
+Query-able dynamic map interface;
+•
+Dynamic information content;
+•
+Community review systems and users’ forum.
+The paper also reports the results of an initial trial of a City Guide for Glasgow conducted as
+part of the EMAC 03 conference.
+
+1
+
+Introduction
+
+Previous research on tourist behaviour and practices suggest that to be successful,
+electronic guidebooks must offer compelling advantages over their paper equivalents
+(e.g. Brown and Chalmers, 2003). Some guidebooks and maps have been already
+computerised, but with very little penetration into the market place (even for users
+already owning a palmtop/PDA). Brown and Chalmers suggested that this limited
+success could be put to a lack of knowledge about how tourists arrange their activities
+in particular how maps and guidebooks are actually used by tourists. While new
+
+2
+
+mobile technologies (with the exception of mobile phones) have been slow to
+penetrate markets, there are strong niche markets for handheld devices and in the near
+future combined PDA / “smart” phones are very likely to be in widespread use thus
+permitting easier deployment of electronic tourist guides on mass market devices. We
+believe that, given mass market devices, the most important elements of successful
+tourist information systems are the availability of quality data content and a user
+interface allowing easy, accurate and quick access to that content. User interface
+design is a significant challenge for any handheld software development due to the
+limited power and interaction possibilities (e.g. small screen size and more difficult
+ways of data entry when compared to desktop interface design) (Brewster and
+Dunlop, 2000). In our design of Taeneb City Guide we focused on creating an
+intuitive interface based on requirements and recommendations from previous
+ethnographic studies on tourist practices and ways of using information sources
+(Brown and Chalmers, 2003; Brown, and Perry, 2002).
+
+2
+
+Dynamic Map Display
+
+Tourists most often use two commonly available types of publications: guidebooks
+and maps and often use these in combination (Brown and Chalmers, 2003).
+Guidebooks provide in a standardised and catalogue way information about
+attractions and places of interest in a city (accommodation, pub/bars, night clubs,
+restaurants, museums etc.). Maps are used for both localising where things are while
+searching for particular attractions or
+browsing the names of attractions for given
+locations. Using maps with guidebooks
+solves the problem of where attractions are
+and what attractions are in a given location.
+Using guidebooks as a reference, tourists
+find out on a map where the listed places are
+located, the approximate distance between
+two different places and how to navigate
+from one place to another. Using map as a
+reference, tourists can search in a guidebook
+relevant descriptions of places that they
+found on the map.
+The user interface for Taeneb City Guide
+was designed with two types of views
+providing both map and list-index
+Fig. 1. Map View Display (MVD)
+
+3
+
+information access: Map View Display (MVD) and List View Display (LVD).
+The main part of the MVD shows a map of a city centre with an overlay set of
+attractions represented by squares. (see Fig 1.). Users can browse a selected set of
+attractions by pointing and tapping on symbols of attractions in a selected area. The
+map interface offers typical electronic map features such as zooming and panning. A
+user tapping on the display in Fig. 1 over, say, Central Station would zoom the map
+into that location, a further tap zooms further into that location and then the user can
+tap on square attraction icons to see the name and then again for more details on that
+attraction. Users can pan the display by dragging with their stylus. Around the edge of
+the map in the MPV view are control icons – the most important being a set of filters,
+here showing type of attractions as restaurant ( ), the restaurant type filter ( ) and
+the restaurant price filter ( ). These filters are discussed in more detail later.
+LVD is a list displaying the names of attractions in a sorted order in a similar manner
+to an index at the end of a guidebook (see Fig. 2). An electronic method of
+presentation can give the advantage over paper editions by providing different sorting
+criteria (e.g. alphabetic, distance from a given location, relevance according to a
+search criteria or proximity to previous browsing behaviour).
+Simply switching between the displays allows making a quick connection between
+where attractions are, brief descriptions and reviews.
+One of main concerns with using maps on handheld devices is a limited screen size
+with low density (a typical size of Palm display is 6 x 6 cm with a standard resolution
+of 160x160 – some PalmOS devices now have a 320x320 “high resolution” screens,
+as used in our study). In order to achieve the best visual performance for our system,
+we decided to use simplified bitmap/raster formatted maps. The maps were specially
+drawn for easy reading and use by a tourist while
+walking. However, it gives the disadvantage over
+more traditional vector maps of increased storage
+cost and reduced flexibility in scalability and
+zooming. While new screens will increase their
+dots-per-inch resolution, the screen size will
+remain small by nature thus although high
+quality digital vectors maps may be possible in
+the future the design constraints of readability
+may still require hand-drawn bitmap graphics.
+Fig. 2. List View Display (LVD) of
+Taeneb City Guide
+
+4
+
+Brown and Chalmers note that during the studies of tourist behaviour users
+bookmarked pages in guidebooks by placing fingers into the pages. The Taeneb City
+guide attempts to support similar style of bookmarking by allowing users to record an
+attraction as “My Attraction” (and later to see only those attractions). Showing all
+selected attractions on a MVD can help in easy route planning for a sightseeing walk
+in a city and, when combined with filters, allows users to see higher level clustering
+of attractions (discussed below). The system could easily be extended to support
+automatic route planning functions between attractions, however Brown and
+Chalmers emphasise that tourists quite often wander randomly, only checking on a
+map their correct walk direction in order to have a more relaxed visit to a city.
+As mentioned above a core functionality of Taeneb City Guide user interface is
+incorporating dynamic query filters for searching and finding tourist attractions.
+Query filters are predefined for different types of attractions and designed for rapid
+selection as pop-up lists for single choice or a separate view with a checklist for multi
+choice selections (see Fig. 3). For example for restaurants there is a multi-choice filter
+with a food type (Fig. 3A) and a single choice filter with a price range (Fig. 3B). The
+results of a query are displayed as a subset of data either as a list using LVD or as a
+scattered plot of matching attraction-icons on a map display using MVD. The second
+type of information presentation is known as a starfield display.
+
+A
+
+B
+
+Fig. 3. Restaurant query filters (A: restaurant type, B: price band)
+Starfield display technology has been proven to provide quick, dynamic and easy
+access to large amounts of data on desktop displays for both map-based information
+and more abstract data using simple X-Y scatterplots (Ahlberg.and Shneiderman,
+1994). Starfield displays have also been shown suitable for accessing abstract data
+collections on palmtop computers (Dunlop and Davidson, 2000). The scatter plot does
+not only allow quick browsing through a desired subset of attractions but provides
+
+5
+
+solutions to many problems of traditional searching: for example if helping users
+understand why they have no matching point displayed and showing locations of
+clusters within the data. Again Brown and Chalmers note that tourists often prefer to
+choose an area with more than one potential facility, for example heading into a
+“restaurant zone” of a city, often with one restaurant in mind but with flexibility to go
+elsewhere if that restaurant proves to be busy or unsuitable. Tourists can quickly look
+and browse through a cluster of facilities in particular areas before heading towards a
+specific establishment.
+
+3
+
+Dynamic Content
+
+Tourist sites quite often change or can be temporarily closed. Museums and galleries
+have temporary exhibitions or host special events. Venues such as concert halls,
+theatres and cinemas change their program regularly on a weekly or monthly basis. It
+is desired to provide current and up to date information to tourists, so they can fully
+participate in the cultural life of a city, by not only seeing permanent attractions,
+buildings or monuments. Paper guidebooks cannot provide this kind of information
+due to their long publishing process. Taeneb City Guide uses a central database server
+to store its content including the data about all the attractions and associated events. It
+means that it is maintained centrally and can be easily administered and updated via a
+web-based interface. The data on mobile devices can be synchronised through a PC
+connected to the Internet via a Hot Synch process or using wireless Internet (Wi-Fi) at
+Hot Spots or via GSM or GPRS mobile phone networks. A future option may include
+providing synchronisation facilities at Tourist Information Centres or at popular
+tourist venues.
+A very popular source of information used by tourist during their research for finding
+up-to-date date information before visiting a place is obviously the Internet. Taeneb
+City Guide provides a web-based interface (www.citygogo.com). The web interface
+was designed allowing the same set of functionalities as the PDA interface so it would
+help users to learn how to use the application on the PDA. PC web-based access was
+designed as a complementary element of the whole systems having in mind users
+arranging their trips in advance from home and then downloading the relevant
+information and synchronising it with their PDA devices. The use of a core central
+database for synchronisation means that users’ data is kept up-to-date transparently
+between palmtop and web views.
+
+6
+
+4
+
+Community review- forum for exchanging tourist information
+
+One recommendation is for new tourist information technologies to support sharing
+comments and reviews on different tourist attractions (Brown and Chalmers, 2003;
+Woodruff, A., et al., 2001). Taeneb City Guide incorporates a users’ review system,
+which is available on handheld devices as well as through the Internet. The review
+system was created in a similar manner as forum systems for exchanging information
+already existing on the Internet and links reviews with the descriptions of attractions
+included in the electronic guide. It extends tourist experience through sharing
+opinions and advices with others who intend to visit a city. For tourist planning
+activities and collecting information this informal type of information is found very
+useful and according to conducted interviews was even better than information given
+by guidebooks or tourist staff (Crang 1999). Furthermore, the use of electronic guide
+allows reviews to be filtered so that, say, a user is initially only presented with
+reviews from peer-users using demographic information (e.g. young students would
+see reviews from other young students while middle-aged business travellers would
+see reviews for their peers).
+An end-user can rate each attraction by selecting a rating from a pop-up scale menu
+and can add a text review (see Figure 4). Each review is by default private, to be
+stored for personal reference only, but can be marked as “Publish” making it public to
+be shared with other users. During the synchronisation process new reviews are
+uploaded and downloaded to mobile device.
+
+Fig. 4. Review attraction view
+
+7
+
+5
+
+Usability trials
+
+Following the development of Taeneb City Guide System an initial usability trial was
+conducted with visitors attending an international conference in Glasgow. Twenty
+users were selected from the conference delegates, each of whom was lent a Sony
+Clié PEG-SL10 PalmOS devices (a device with a high-resolution but, unfortunately,
+only greyscale screen and rather poor contrast), and some other users who had their
+own PalmOS devices downloaded our software for the trial period. During the trial
+the available dataset was attractions covering restaurants, pubs, cinemas, theatres and
+accommodations for Glasgow city centre and included up-to-date “what’s on”
+information. At the conference venue the participants were provided with access to
+synchronise the software and were encouraged to do so on at least a daily basis. The
+feedback was gathered after 2 day of trial in a form of informal interviews.
+A lot of interest in the application was shown by people who had experience of
+palmtop computers / PDAs and by those interested in high-tech applications. People
+who had other than PalmOS devices, mostly PocketPC-based, expressed considerable
+disappointment that they could not download Taeneb City Guide to their own
+palmtop. One user found our PDA device in general too small and difficult to read
+and gave up using the system after the first day of trial. In general most of the users
+found the interface easy to use and intuitive even those who had never used a PDA
+before and did not want to spend too much time trying to figure out how to use
+another electronic gadget (all delegates were also participating heavily in the
+conference activities). They used the application mostly for searching for restaurants
+and they appreciated an easy way of finding a restaurant based on a location displayed
+on a map. They found the review system very helpful during their selection of
+restaurant and they were very pleased that they could use opinion of other delegates
+attending the conference but also stressed the importance of “professional” reviews
+being included along side community reviews. Most users added their own reviews of
+places they visited. Local users, i.e. those who lived in Glasgow, also found the
+system very useful – in particular the restaurants guide and cinema programs. One of
+the local users suggested adding an option allowing restaurants or cinema booking via
+GSM/SMS or GPRS network and others suggested that even information on
+restaurants that could normally cater for larger groups at short notice would be
+invaluable for conference delegates.
+The overall feedback was positive with many suggestions of extending the data
+content (such as adding museums, galleries, train timetables etc.). Much of which
+could be achieved by augmenting the Taeneb interface either directly or through other
+palmtop software such as AvantGo channels.
+
+8
+
+6
+
+Conclusions
+
+By analysing the requirements based on how people use traditional tourist
+publications we designed an electronic guide with an easy to use interface. All new
+distinctive elements of the system (dynamic query able map interface, synchronisation
+methods securing up to date content, and community review system) proved to give
+new advantages over traditional maps and guides. Although many people are still
+reluctant on using PDA type of devices in general, as the market of PDAs and smartphones grows (e.g. European PDA market saw 239 per cent increase in PDA
+shipments between 2002 and 2003 (Canalys, 2003)), there will be more and more
+users who would search for new software providing tourist information as a
+complementary source of information. Our user trials have given support for use of
+this complex tourist guide on small handheld computers.
+
+References
+Ahlberg, C. and Shneiderman, B. (1994). Visual Information Seeking: Tight Coupling of
+dynamic query filters with Starfield displays. Proceedings of CHI '94, 313-317 & 479-480,
+Brewster, S. A. and Dunlop, M. D. (2000). Human computer interaction with mobile devices.
+Editorial for special edition of Personal Technologies on Mobile HCI, vol. 4(2).
+Brown, B. and M. Chalmers (2003). Tourism and Mobile Technology. Proc. Euro. Conf.
+Computer Supported Cooperative Work 2003 (ECSCW 2003)
+Brown, B. and M. Perry (2002). Of maps and guidebooks: designing geographical technologies.
+Proceedings of Designing Interactive Systems (DIS) 2002. 246-254
+Canalys (2003). Canalys research release 2003/071, http://www.canalys.com/pr/r2003071.htm
+[22 September 2003]
+Dunlop, M. D. and Davidson, N. (2000). Visual information seeking on palmtop devices.
+Proceedings of HCI2000, volume 2, 19-20.
+Woodruff, A., Aoki, P.M., Hurst, A., and Szymanski, M.H. (2001). Electronic Guidebooks and
+Visitor Attention. Proc. 6th Int'l Cultural Heritage Informatics Meeting, Milan, Italy, Sep.,
+437-454.
+
+

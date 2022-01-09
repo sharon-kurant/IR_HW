@@ -1,0 +1,858 @@
+A Novel Image Based Positioning 
+Technique Using Mobile Eye Tracker 
+For A Museum Visit
+
+ 
+
+ 
+ 
+
+Moayad Mokatren 
+
+The University of Haifa 
+
+ 
+
+ 
+
+Mount Carmel, Haifa, 31905 
+
+moayad.mokatren@gmail.com 
+ 
+
+Tsvi Kuflik 
+
+The University of Haifa 
+
+Mount Carmel, Haifa, 31905 
+
+tsvikak@is.haifa.ac.il 
+
+ 
+
+Ilan Shimshoni 
+
+The University of Haifa 
+
+Mount Carmel, Haifa, 31905 
+
+ishimshoni@mis.haifa.ac.il 
+
+ 
+ 
+ 
+Permission to make digital or hard copies of part or all of this work for 
+personal or classroom use is granted without fee provided that copies are 
+not made or distributed for profit or commercial advantage and that 
+copies bear this notice and the full citation on the first page. Copyrights 
+for third-party components of this work must be honored. For all other 
+uses, contact the Owner/Author.  
+Copyright is held by the owner/author(s). 
+MobileHCI '16 Adjunct, September 06-09, 2016, Florence, Italy 
+ACM 978-1-4503-4413-5/16/09. 
+http://dx.doi.org/10.1145/2957265.2962647 
+ 
+
+continues 
+
+research  and 
+
+Abstract 
+Eye  tracking  can  be  an  easy  way  for  identifying  users' 
+focus of attention and interests. This promise triggered 
+large  and 
+technology 
+development  efforts  with  remarkable  results.  In  this 
+paper  we  aim  at  developing  a  novel  technique  for 
+location  awareness,  interest  detection  and  focus  of 
+attention  using  computer  vision  techniques  and  mobile 
+eye-tracking  technology.  Our  focus  will  be  on  museum 
+visit  and  optimizing  the  positioning  procedure  by 
+exploiting  the  visit  style  to  choose  the  appropriate 
+algorithm.  
+
+Author Keywords 
+Mobile guide; Mobile eye tracking; Personalized 
+information; Smart environment; Context aware 
+service. 
+
+ACM Classification Keywords 
+H.5.2. Input devices and strategies (e.g., mouse, 
+touchscreen) 
+
+1. Introduction 
+
+In  daily  life,  vision  is,  by  far,  the  most  useful  sensing 
+mechanism we have, especially when we are in a mobile 
+scenario, we look around to gather information about our 
+environment. We use vision to identify objects, recognize 
+
+ 
+
+Figure 1:  Pupil eye-tracker 
+(http://pupil-labs.com/pupil) 
+
+ 
+
+ 
+
+persons,  and  find  our  way. However,  with  vision,  we  get 
+only  what  we  can  see.  Nowadays,  vast  amounts  of 
+information,  about  almost  everything,  are  available 
+online. Given todays' performance of our mobile devices, 
+we  should  be  able  to  gain  access  seamlessly  to 
+information of interest, without the need to take pictures 
+or  submit  queries  and  look  for  results,  which  are  the 
+prevailing  interaction  methods  with  our  mobile  devices. 
+As  we  move  towards  "Cognition-aware  computing" 
+[Bulling  and  Zander  2014],  it  becomes  clearer  that  eye-
+gaze  based  interaction  should  and  will  play  a  major  role 
+in  human-computer 
+interaction  before/until  brain 
+computer  interaction  methods  will  become  a  reality 
+[Bulling et al. 2012]. 
+
+An 
+intelligent  mobile  museum  visitors’  guide  is  a 
+canonical  case  of  a  context-aware  mobile  system. 
+Museum  visitors  move  in  the  museum,  looking  for 
+interesting  exhibits,  and  wish  to  acquire  information  to 
+deepen  their  knowledge  and  satisfy  their  interests.  A 
+smart context-aware mobile guide may provide the visitor 
+with  personalized  relevant  information  from  the  vast 
+amount of content available at the museum, adapted for 
+his or her personal needs.  
+
+What  is  usually  common  to  most  context  aware  services 
+nowadays  is  that  they  make  use  of  the  communication 
+and  computational  power  (and  sensors)  of  the  users’ 
+mobile  devices  (e.g.  mostly  smartphones).  In  addition 
+they  interact  with  their  users  mainly  by  their  mobile 
+device's  touch  screens,  which  has  one  major  limitation: 
+the  users  have  to  look  at  them  during  the  interaction, 
+even  though,  voice  commands  can  be  performed  with 
+applications  this  option  is  still  very  limited.  Moreover,  a 
+major challenge in this aspect is to know exactly what the 
+user  is  interested  in.  In  classical  human-computer 
+interaction,  the  users  use  a  pointing  device,  most 
+commonly  a  mouse  or  by  touching  a  touch  screen. 
+However,  this  is  becoming  a  major  challenge  in  the 
+mobile  setting  as  noted  by  Calvo  and  Perugini  [2014], 
+
+who  surveyed  novel  pointing  approaches  for  wearable 
+computing. 
+
+So  far  sensors  like  GPS,  compass,  accelerometers  and 
+voice detectors were used in modeling users' context and 
+interests, (see for instance [Dim & Kuflik. 2014]). Adding 
+eye  tracking  as  a  new  sensing  mechanism  opens  a  new 
+opportunity  for  better  modeling  the  user  and  offering 
+better  personalized  services.    When  we  mention  mobile 
+scenarios,  we  refer  to  a  large  variety  of  different 
+scenarios  –  pedestrians'  scenario  differs  from  jogging  or 
+shopping  or  cultural  heritage  scenario.  The  tasks  are 
+different  and  users'  attention  is  split  differently.    The 
+cultural heritage domain is an example where users have 
+long  term  interests  that  can  be  modeled  and  the  model 
+can  be  used  and  updated  during  a  museum  visit  by 
+information  collected  implicitly  from  various  sensors, 
+including  eye-gaze.  Still,  even  though  a  lot  of  research 
+effort  was  invested  in  monitoring,  analyzing  and  using 
+eye gaze for inferring user interests, so far, little research 
+attention was paid to users gazing behavior "on the go". 
+This  scenario  poses  major  challenges  as  it  involves 
+splitting  attention  between  several  tasks  at  the  same 
+time  –  avoiding  obstacles,  gathering  information  and 
+paying  attention  to  whatever  seems  relevant,  for  many 
+reasons. 
+
+Our goal is to examine the potential of integrating the eye 
+tracking  technology  with  a  mobile  guide  for  a  museum 
+visit.  Our  focus  will  be  on  developing  a  technique  for 
+location  awareness  based  on  eye  gaze  detection  and 
+image  matching,  and  integrate  it  with  a  mobile  museum 
+visitor’s  guide  that  provides  personalized  multimedia 
+content to the visitor.  
+
+2. Background 
+
+2.1 Toward using eye tracking technology 
+
+Eye  tracking  is  an  active  area  of  research,  where 
+significant  progress  is  continuously  made  over  a  long 
+time.  Hansen  and  Ji  [2010]  surveyed  eye  tracking 
+
+ 
+
+ 
+
+ 
+
+in  scale, 
+
+location,  and 
+
+research  and  the  challenges  it  faces  and  noted  that 
+"Despite  active  research  and  significant  progress  in  the 
+last  30  years,  eye  detection  and  tracking  remains 
+challenging  due  to  the  individuality  of  eyes,  occlusion, 
+variability 
+light  conditions." 
+Recently,  Yousefi,  et  al.  [2015]  surveyed  a  large  variety 
+of  mobile  eye  tracking  applications  and  technologies, 
+including  aviation,  marketing,  learning,  medicine  and 
+more.  In  recent  years,  as  predicted  (and  surveyed  by 
+Yousefi, 2015), relatively inexpensive, easy to use mobile 
+eye 
+they  are 
+experimented  in  specific  areas  of  applications  and  tasks, 
+as noted above. With the advent of mobile and ubiquitous 
+computing,  it  is  time  to  explore  the  potential  of  this 
+technology for natural, intelligent interaction of users with 
+their  smart  environment,  not  only  in  specific  tasks  and 
+uses,  but  for  a  more  ambitious  goal  of  integrating  eye 
+tracking  into  the  process  of  inferring  mobile  users’ 
+interests  and  preferences 
+for  providing  them  with 
+relevant  services  and  enhancing  their  user  models,  an 
+area that received little attention so far.  
+
+trackers  are  appearing.  Usually, 
+
+2.2 Mobile eye tracker as a pointing device 
+
+Modern  mobile  eye  trackers  usually  record  video  by  a 
+front  camera  of  the  scenes  for  further  analysis  [Kassner 
+et  al.  2014]  (see  figure  1  for  example).  With  the  advent 
+of  computer  vision  technology,  we  can  exploit  it  for 
+developing  a  positioning  tool.  An 
+image  matching 
+procedure  can  be  used  for  identifying  the  museum’s 
+visitor  location/position  by  comparing  the  front  camera 
+scene  with  a  set  of  known  dataset  images.  In  that  way, 
+position  can  be  identified  in  a  pre-defined  environment. 
+Furthermore, the gaze data can be used for inferring the 
+in  a  specific  scene,  and  as  a 
+user’s  attention 
+consequence,  personalized 
+information  related  to  a 
+specific object in the scene can be delivered. 
+
+3. Research Goal and Questions 
+
+Eye  tracking  can  be  an  easy  way  for  identifying  users' 
+focus  of  attention  and  interests.  This  promise  triggered 
+technology 
+large 
+
+continues 
+
+research 
+
+and 
+
+and 
+
+development  efforts  with  remarkable  results.  Current 
+mobile  eye  tracking  technology  seems  to  getting  to  the 
+point where it can be used to enhance our daily lives. It is 
+not  clear  however,  in  which  way  this  technology  can  be 
+applied  in  practice  and  used  by  end  users  while  being 
+integrated with todays' mobile devices. The goal of this 
+work  is  to  take  eye  tracking  research  to  the  next 
+stage  and  to  explore  the  potential  of  mobile  eye 
+tracking to improve the ability of a system to model 
+the user and provide better personalized services in 
+smart environments by using gazing behavior. 
+
+In this paper we aim at developing a novel technique for 
+location  awareness,  interest  detection  and  focus  of 
+attention  using  computer  vision  techniques  and  mobile 
+eye-tracking  technology.  We  will  answer  the  following 
+question:  How  can  we  use  mobile  eye  tracker  to 
+identify location and object of interest? 
+
+Our  focus  will  be  on  developing  a  technique  for  location 
+awareness  based  on  eye  gaze  detection  and  image 
+matching, and integrate it with a mobile museum visitor’s 
+guide that provides multimedia content to the visitor. For 
+that  we  will  design  and  develop  a  system  that  runs  on 
+handheld device and uses Pupil Dev [Kassner et al. 2014] 
+eye  tracker  for  identifying  objects  of  interest  and 
+delivering  multimedia  content  to  visitor  in  the  museum. 
+In  our  study,  we  have  to  consider  different  factors  and 
+constraints  that  may  affect  the  performance  of  the 
+system,  such  as  the  real  environment  lighting  conditions 
+which  are  different  from  laboratory  conditions  and  can 
+greatly  affect  the  process  of  image  matching.  Another 
+aspect may be the position of the exhibits relative to the 
+eye  tracker  holder,  since  the  eye  tracker  device  is 
+mounted as this is constrained by the museum layout. 
+
+4. Location Awareness Using Computer 
+Vision – How It Works? 
+
+Object recognition in cluttered real-world scenes requires 
+local image features that are unaffected by nearby clutter 
+or  partial  occlusion.  The  features  must  be  at  least 
+
+Figure  2:  Example  of  eye-
+tracker  scene  camera.  The 
+green  point  is  the  fixation 
+point. 
+
+Image-to-image 
+Figure  3: 
+matching. 
+yellow 
+The 
+rectangles  are  the  regions 
+around each object. The green 
+point is the fixation point after 
+performing  proposed  mapping 
+transformation. 
+The 
+corresponding region would be 
+R3. 
+
+ 
+
+ 
+
+ 
+
+to 
+
+invariant 
+
+partially 
+illumination,  3D  projective 
+transforms,  and  common  object  variations.  On  the  other 
+hand, the features must also be sufficiently distinctive to 
+identify specific objects among many alternatives. 
+SIFT [Lowe 1999] was presented as an object recognition 
+system  that  uses  a  class  of  local  image  features.  The 
+features  are  invariant  to  image  scaling,  translation,  and 
+rotation,  and  partially  invariant  to  illumination  changes 
+their 
+and  affine  or  3D  projection.  We  will  use 
+algorithm/technique to match a current scene’s camera to 
+a  set  of  images  from  a  predefined  dataset  for  locating 
+visitor’s position. 
+What  remains  after  locating  the  visitor’s  location  is 
+inferring  his/her  object  of  interest.  Since  we  have  a 
+matched  image  from  the  dataset,  transforming  the 
+fixation point that we get from the eye tracker would lead 
+us  to  a  point  in  the  dataset  image.  Hence,  with  a 
+predefined regions/labels in every dataset image we infer 
+the visitor’s object of interest. 
+
+4.1 Data-Set Preparation 
+
+A  set  of  images  of  the  exhibits  were  taken,  each  image 
+contains  one  or  more  objects.  For  each  object  that 
+appears  in  an  image,  a  distinct  label  value  and  size  of 
+region  around  the  object  were  given  (in  terms  of  width 
+and height – rectangular shape). 
+
+4.2 Object Matching 
+
+The matching procedure had done in two steps: 
+
+1.  Eye-tracker scene camera frame was taken (see figure 
+2  for  example)  and  image-to-image  matching  procedure 
+was applied using SIFT technique. The result is an image 
+with  labeled  regions  in  the  current  scene’s  frame  (see 
+figure  3  for  example).  Pair  of  images  have  been  marked 
+as  matched  if  the  percentage  of  the  matched  feature 
+points (as presented by [Lowe 1999]) is larger than 0.15 
+(threshold is 0.15). 
+
+2.  Mapping 
+to 
+transform  the  fixation  point  in  the  eye-tracker  scene 
+
+transformation  –  We  were  needed 
+
+#Exhibit  Accuracy 
+
+ 
+
+ 
+
+E1 
+
+E2 
+
+E3 
+
+E4 
+
+E5 
+
+E6 
+
+E7 
+
+E8 
+
+E9 
+
+E10 
+
+E11 
+
+E12 
+
+E13 
+
+E14 
+
+E15 
+
+E16 
+
+E17 
+
+E18 
+
+100% 
+
+100% 
+
+100% 
+
+100% 
+
+42.85% 
+
+100% 
+
+100% 
+
+100% 
+
+66.66% 
+
+100% 
+
+11.11% 
+
+100% 
+
+100% 
+
+100% 
+
+100% 
+
+100% 
+
+100% 
+
+100% 
+
+Table 1: Accuracy of exhibits’ 
+matching 
+
+Exhibit Type  Distance (cm) 
+
+Vitrine 
+shelves 
+Art gallery 
+Small statues 
+Large exhibits 
+
+50-70 
+
+70-100 
+50-70 
+100-150 
+
+Table 2: Standing distances 
+
+ 
+
+camera  to  a  suitable/matched  region  in  the  image  that 
+we got in step one (image from the data-set with labeled 
+regions),  since  the  viewpoint  of  the  objects  can  be 
+different from this in the data set. For example one image 
+is rotated relative to the other or one is zoomed in/out as 
+a  result  of  standing  in  different  distance  from  the  object 
+when the data-set image was taken. 
+
+For  that,  K-Neighbors  SIFT  feature  points  around  the 
+fixation  point  were  considered  (from  the  scene  camera 
+frame)  along  with  their  corresponding/matched  features 
+points 
+image),  
+in our case-study that will be described in section 6, K=5 
+(see  for  instance  figure  4a  and  4b).  Then  the  object  of 
+interest  (OOI)  had  been  detected  by  computing  scores 
+per region as follows: 
+
+data-set  matched 
+
+(from 
+
+the 
+
+Sᵢ = (Number of features points that lies in Rᵢ) / K   
+
+∀ Rᵢ ∈ Regions: 
+
+OOI=Max {Sᵢ } 
+
+Figure 4a: SIFT matched features points. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Figure 5: Vitrine shelf 
+
+ 
+
+Figure 4b: (Left: scene camera. Right: dataset image), are 
+zoomed in features around fixation point. 
+
+5. Museum Layout Dataset Preparation – 
+Challenges and Solutions 
+
+As mentioned above, image based position can be 
+identified in a pre-defined environment by preparing 
+dataset of images that represent the museum layout. 
+Considering a visitor entering the museum, s/he can 
+stop/stand in front of each exhibit in different viewpoints 
+(in terms of distance and angle). So preparing the 
+dataset that represent the museum layout plays a crucial 
+role in getting correct/high-accuracy matching results. 
+One option may be capturing several images from 
+different viewpoints for each exhibit. Time complexity is 
+the limitation of this option since the image-to-image 
+matching procedure is massive, and this can be 
+expressed in delay of delivering the current position. 
+
+It’s clear that there is a tradeoff between time complexity 
+and high-accuracy matching results. In contrast, if we 
+know where visitors tend to stand/stop for each “type” of 
+exhibit, we can build dataset accordingly and reduce as 
+possible the amount of stored images. This could be 
+important when considering large-scale museums. 
+
+Figure 6: Art exhibit 
+
+Figure 7: Small statue 
+
+Figure 8: 
+Large 
+exhibits 
+
+  
+
+                                                              
+
+    
+
+ 
+
+5.1 observations 
+
+Ten persons were observed when visiting Hecht1 museum 
+which is a small museum, located at the University of 
+Haifa that has both an archeological and art collections. 
+The focus was on standing distance from the exhibits, 
+four types of exhibits were considered, vitrine shelves 
+(figure 5), art galleries (figure 6), small statues (figure 7) 
+and large exhibits (figure 8). Distances outcomes are 
+described in table 2. 
+
+It’s worth mentioning that in the observations, we 
+ignored the angle between the visitor and the exhibit, 
+since there is a little options/situations to stand in front of 
+an exhibit, therefore we just considered the distances. 
+
+6. Preliminary Results – Image Based 
+Positioning 
+
+When  a  visitor  enters  a  museum,  s/he  may  walk  around 
+or  stand  and  look  at  an  exhibit.  We  have  to  distinguish 
+between  these  two  cases.  To  recognize  the  event  of 
+looking  at  an  exhibit,  we  set  a  time  interval  (three 
+seconds)  of  looking  at  a  scene.  We  use  this  as  a  trigger 
+for  starting  a  matching  procedure,  comparing  the  scene 
+camera frame with a set of existing position-representing 
+images  (that  were  taken  beforehand,  after  the  above 
+observations,  by  the  same  type  of  camera,  at  every 
+position  from  several  different  angles).  The  matching 
+procedure  yields  a  set  of  scores  and  the  image  with  the 
+highest  score  is  selected  as  representing  the  visitor’s 
+current  position.  During  a  study  that  was  conducted  in 
+Hecht1  museum,  one  person  was  asked  to  walk  in  the 
+museum and look at exhibits. When he looked steadily at 
+an exhibit for about three seconds, the matching process 
+started  (using  SIFT  algorithm  [Lowe  1999])  and  the 
+position is identified. After applying transformation on the 
+fixation  point,  we  get  also  the  object  of  interest  (fig  3). 
+
+                                                 
+
+1 http://mushecht.haifa.ac.il/Default_eng.aspx 
+
+ 
+
+With  DB  of  24  positions’  images  that  represent  18 
+exhibits, the process took on average 1.5 (one and half) 
+seconds. 
+
+The experimental results of the accuracy study of the 
+matching procedure are presented in table 1. It is clear to 
+see that in most cases. The positions were correctly 
+defined. However, there were three positions where the 
+performance of the process was poor or even failed most 
+of the time. Examining these cases revealed that low-
+accuracy results have been gotten for “special” exhibits 
+(see figure 9, 10 and 11 for example). These exhibits are 
+challenging in the sense that the user can either look at 
+them from a distance and from a wide variety of angles 
+(large exhibits) or that the user looks at them from a 
+very close distance (small objects), so many small 
+reference images are needed. A possible solution to this 
+situation is by adding several images from different 
+distances and angles for each special exhibit. 
+
+7. Exploiting Visiting Style to Optimize the 
+Positioning Procedure  
+
+When  considering  the  vision-based  positioning  procedure 
+described  above,  the  challenge  is  how  to  start  the 
+matching  process,  as  there  may  be  a  large  number  of 
+images to compare in a large database that represents a 
+large  museum.  We  aim  at  developing  fast  methods  for 
+matching large number of database images. One option is 
+to  consider  visitors’  behavior  in  order  to  select  the 
+starting point and the order of the images to be matched.  
+Behavioral traits have been taken into consideration when 
+modelling museum visitors. 
+
+Sparacino  [2002]  proposed  categorization  of  user  types 
+into  three  main  categories:  (i)  the  greedy  visitor  who 
+wants  to  know  and  see  as  much  as  possible;  (ii)  the 
+selective  visitor  who  spends  time  on  artefacts  that 
+represent  certain  concepts  only  and  neglects  the  others; 
+and (iii) the busy visitor who prefers strolling through the 
+museum  in  order  to  get  a  general  idea  of  the  exhibition 
+without spending much time on any exhibits. 
+In this  paper,  we  will  refer  to  the  visiting  style  proposed 
+by  the  ethno  methodologists  Veron  and  Levasseur 
+[1983].  Starting  from  ethnographic  observations  of  the 
+behaviour  of  a  number  of  visitors  in  several  museums, 
+they  argued  that  visitors’  movements  may  be  compared 
+to  the  behaviour  of  four  “typical”  animals,  and  they 
+proposed  using  this  strategy  as  a  way  of  classifying  the 
+“style” of a visitor. 
+ 
+ 
+Specifically,  they  suggests  that  the  ANT  visitor  tends  to 
+follow  a  specific  path  and  spends  a  lot  of  time  observing 
+almost all the exhibits; the FISH  visitor most of the time 
+moves  around  in  the  center  of  the  room  and  usually 
+avoids  looking  at  exhibits'  details;  the  BUTTERFLY  visitor 
+does not follow a specific path but rather is guided by the 
+physical orientation of the exhibits and stops frequently to 
+look  for  more  information;  finally,  the  GRASSHOPPER 
+visitor  seems  to  have  a  specific  preference  for  some 
+preselected  exhibits  and  spends  a  lot  of  time  observing 
+them while tending to ignore the others. 
+There  is  overhead  time  in  matching  the  camera  scene 
+image  with  every  image  from  the  dataset.  If  the  visitor 
+stands at a fixed point and a little time has passed since 
+the  last  match  procedure  then  we  can  search  for  a 
+matched image from the physical nearest neighbors only. 
+The  visit  “style”  can  be  exploited  in  order  to  better  find 
+the  visitor  location  in  the  museum  in  terms  of  time  by 
+optimizing  the  search  for  the  next  exhibit.  For  that  a 
+graph representing the museum layout can be built, each 
+node will represent the exhibit label and the arc value will 
+represent the physical distance. 
+
+ 
+
+ 
+
+ 
+
+Figure 9: E5 exhibit. A large 
+exhibit which needs to add 
+more dataset images from 
+different viewpoints. 
+
+Figure 10: E9 exhibit, which 
+has small objects, it needs 
+adding more images from 
+different angles/distances. 
+
+Figure 11: E11 exhibit. It’s 
+needed to add more dataset 
+images closely. 
+
+ 
+
+So, choosing the algorithm for searching the next position 
+image is influenced by style of the visit. Considering three 
+types of styles: 
+1.  ANT: Since this type of visitor tends to observe 
+almost all exhibits, s/he likely move with fixed 
+directions. Hence the search heuristic gives priority 
+to the next exhibit/s neighbors in the same vector of 
+direction (in terms of distance and angle). 
+2.  FISH: Since this type of visitor most of the time 
+
+moves around in the center of the room, the search 
+for the next exhibit would be circular around the 
+current node. 
+
+3.  BUTTERFLY: Since this type of visitor does not follow 
+a specific path but rather is guided by the physical 
+orientation of the exhibits, the search heuristic gives 
+priority to the next exhibit/s neighbors in the same 
+vector of direction ignoring the angle, precisely the 
+right and left neighbors. 
+
+Regarding the GRASSHOPER style,  it  is more challenging 
+style and we don’t know whether we can exploit this style 
+for  the  optimization  process.  One  option  may  be  to  take 
+into account the visitor’s preferences and start looking at 
+positions that are within the visitor’s reach given the time 
+that  passed  (how  far  s/he  could  have  moved)  and  the 
+visitor’s interest. 
+ 
+
+8. Conclusion and Future Work 
+
+technology  offers  a  variety  of  ways 
+
+Current 
+for 
+information  delivery  to  mobile  users.  Context  awareness 
+is  the  general  term  describing  the  attempt  to  deliver 
+relevant information at the relevant time and place to the 
+user.  The  most  challenging  aspect  however,  is  still 
+determining  what  the  user  is  interested  in  and  at  the 
+moment, the user's position is the best hint, but there are 
+many  possibly  interesting  objects  near  and  around  the 
+user.  If  we  know  what  the  user  is  looking  at,  and  what 
+the  specific  user's  gazing  profile  is,  then  we  can  narrow 
+down the possibly relevant objects of interest and we can 
+better  serve  the  user  with  relevant  service/information 
+when needed. 
+
+This  paper  presents  a  novel  image  based  positioning 
+technique  using  mobile  eye  tracker.  We  conducted  case-
+study  in  a  museum  in  order  to  gain  initial  results  about 
+the accuracy of the system. Moreover, preparing a data-
+set  that  represents  the  museum  layout  is  a  challenging 
+operation  since  visitors  can  stop/stand  in  different 
+viewpoints 
+regards  different  exhibits.  Based  on 
+observations,  we  found  out  where  visitors  tend  to  stand 
+regarding four different exhibits types, vitrine shelves, art 
+galleries,  small statues and large exhibits.  The outcomes 
+can  be  generalized  to  other  museums  since  standing 
+distance  is  determined  mainly  by  the  exhibit’s  type.  In 
+most cases the positioning procedure yields correct/high-
+accuracy results, However, there is some cases where the 
+procedure  gave 
+failed. 
+Examining these cases revealed that low-accuracy results 
+have  been  gotten  for  “special”  exhibits.  A  possible 
+solution to this situation (which we are going to explore) 
+is  adding  several  images  from  different  distances  and 
+angles for each special exhibit. 
+
+low-accuracy  or  sometimes 
+
+Furthermore,  optimization  for  the  positioning  procedure 
+was  proposed  by  exploiting  the  visit  “style”  that  was 
+suggested  by  the  ethno  methodologists  Veron  and 
+Levasseur [1983].  
+
+Future  work  will  focus  on  examining  the  accuracy  of  the 
+the  proposed  optimization, 
+procedure  when  using 
+moreover,  a  museum  mobile  guide  will  be  built  that 
+extends  the  image  based  positioning  technique  when 
+using  mobile  eye 
+to  deliver  personalized 
+information. 
+
+tracker 
+
+References 
+1.  Bulling, A., Dachselt, R., Duchowski, A., Jacob, R., 
+Stellmach, S., & Sundstedt, V. (2012, May). Gaze 
+interaction in the post-WIMP world. In CHI'12 
+Extended Abstracts on Human Factors in 
+Computing Systems,  1221-1224. ACM. 
+
+ 
+
+ 
+
+2.  Bulling, A., & Zander, T. O. (2014). Cognition-
+aware computing. Pervasive Computing, IEEE, 
+13(3), 80-83. 
+
+3.  Calvo, A. A., & Perugini, S. (2014). Pointing 
+
+Devices for Wearable Computers. Advances in 
+Human-Computer Interaction, 2014. 
+
+4.  Dim, E., & Kuflik, T. (2014). Automatic detection of 
+
+social behavior of museum visitor pairs. ACM 
+Transactions on Interactive Intelligent Systems 
+(TiiS), 4(4), 17. 
+
+5.  Kassner, M., Patera, W., & Bulling, A. (2014, 
+
+September). Pupil: an open source platform for 
+pervasive eye tracking and mobile gaze-based 
+interaction. In Proceedings of the 2014 ACM 
+International Joint Conference on Pervasive and 
+Ubiquitous Computing: Adjunct Publication. 1151-
+1160. ACM. 
+
+6.  Lowe, David G. "Object recognition from local 
+
+scale-invariant features."Computer vision, 1999. 
+The proceedings of the seventh IEEE international 
+conference on. Vol. 2. Ieee, 1999. 
+
+7.  Sparacino, F.: The Museum Wearable: Real-Time 
+Sensor-Driven Understanding of Visitors Interests 
+for Personalized Visually-Augmented Museum 
+Experiences. Museums and the Web, Boston, 
+Massachusetts (2002) 
+
+8.  Marilyn Schwartz. 1995. Guidelines for Bias-Free 
+
+Writing. Indiana University Press, Bloomington, IN. 
+
+9.  Veron, E., Levasseur, M.: Ethnographie de 
+
+l’exposition, Paris, Bibliothèque Publique 
+d’Information, Centre Georges Pompidou (1983) 
+
+10.  Yousefi, M. V., Karan, E. P., Mohammadpour, A., & 
+Asadi, S. (2015). Implementing Eye Tracking 
+Technology in the Construction Process. In 51st 
+ASC Annual International Conference Proceedings. 
+
+

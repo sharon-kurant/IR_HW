@@ -1,0 +1,1212 @@
+Aalborg Universitet
+
+Understanding and modelling built environments for mobile guide interface design
+Paay, Jeni; Kjeldskov, Jesper
+Published in:
+Behavior and Information Technology
+DOI (link to publication from Publisher):
+10.1080/01449290512331319012
+
+Publication date:
+2005
+Document Version
+Accepted author manuscript, peer reviewed version
+Link to publication from Aalborg University
+
+Citation for published version (APA):
+Paay, J., & Kjeldskov, J. (2005). Understanding and modelling built environments for mobile guide interface
+design. Behavior and Information Technology, 24(1), 21-35. https://doi.org/10.1080/01449290512331319012
+
+General rights
+Copyright and moral rights for the publications made accessible in the public portal are retained by the authors and/or other copyright owners
+and it is a condition of accessing publications that users recognise and abide by the legal requirements associated with these rights.
+? Users may download and print one copy of any publication from the public portal for the purpose of private study or research.
+? You may not further distribute the material or use it for any profit-making activity or commercial gain
+? You may freely distribute the URL identifying the publication in the public portal ?
+Take down policy
+If you believe that this document breaches copyright please contact us at vbn@aub.aau.dk providing details, and we will remove access to
+the work immediately and investigate your claim.
+Downloaded from vbn.aau.dk on: December 04, 2021
+
+Behaviour & Information Technology, Vol. 24, No. 1, January – February 2005, 21 – 35
+
+Understanding and modelling built environments for mobile guide
+interface design
+J. PAAY{ and J. KJELDSKOV{*
+{Department of Information Systems and Faculty of Architecture, Building and Planning, The University
+of Melbourne, Parkville, Victoria 3010, Australia
+{Human-Computer Interaction Group, Department of Computer Science, Aalborg University, DK-9220
+Aalborg East, Denmark
+The research presented in this paper aims to inform interface design for mobile guides by
+understanding and modelling the built environments in which the guide will be used. This
+is important because research into the use of mobile guides has shown that people have a
+strong ability to make sense of the physical space in which they are situated and make use
+of this when using mobile guides. Based on a ﬁeld study and architectural analysis of the
+recently built Federation Square in Melbourne, Australia, we present a descriptive
+framework, MIRANDA, which provides a summarized abstraction of the fundamental
+architectural and informational features of a built environment. The use of this
+descriptive framework in HCI design for mobile guides is exempliﬁed through the design
+of a mobile guide system for Federation Square that was informed by the identiﬁed
+architectural characteristics. On the basis of the ﬁeld study and example design, we argue
+that mobile guides interface design can beneﬁt from making use of ‘knowledge-in-theworld’ by streamlining and indexing information and functionality to physical
+information cues implicit in the built environment surrounding the user.
+
+1. Introduction
+Mobile guides are increasingly becoming a part of the way
+in which we operate in the physical world, and studies
+suggest that one of the major applications of future mobile
+information technology will be to digitally enhance user
+activities by giving access to contextually adopted information through such guides. Hence, the design of mobile
+guides has received considerable attention over the last
+decade within the ﬁeld of human – computer interaction
+(HCI) (see Abowd et al. 1996, Cheverst et al. 2000, Cheverst
+et al. 2002, Pospischil et al. 2002). The HCI research
+literature indicates a broad spectrum of diﬀerent application
+areas for mobile guides. Mobile city guides provide the user
+with maps and other relevant information such as the
+location of restaurants, public oﬃces, tourist sites etc.
+adapted to the user’s location (Cheverst et al. 2000, Cheverst
+
+et al. 2002, Pospischil et al. 2002, Iacucci et al. 2003,
+Schmidt-Belz and Poslad 2003, Laakso et al. 2003). Mobile
+guides for speciﬁc tourist-sites provide users with the
+opportunity to follow guided tours or access additional
+information about the site being visited (Hermann and
+Heidmann 2002, Bornträger and Cheverst 2003, Bornträger
+et al. 2003) and mobile museum guides provide additional
+information about the speciﬁc items on display (Aoki and
+Woodruﬀ 2000, Opperman and Specht 2000, Rocchi et al.
+2003). Other mobile guide systems support the user’s social
+or personal life, such as mobile personal guides and event
+planners keeping track of friends and upcoming social
+events (Fithian et al. 2003, Kolari and Virtanen 2003,
+Paulos and Goodman 2004) or mobile shopping assistants
+keeping track of shopping lists and informing the users
+about special oﬀers within their vicinity (Randell and
+Muller 2000, Bohnenberger et al. 2002). Assisting people
+
+*Corresponding author. Email: jesper@cs.aau.dk
+Behaviour & Information Technology
+ISSN 0144-929X print/ISSN 1362-3001 online # 2005 Taylor & Francis Ltd
+http://www.tandf.co.uk/journals
+DOI: 10.1080/01449290512331319012
+
+22
+
+J. Paay and J. Kjeldskov
+
+commuting and travelling, mobile navigation guides provide route planning information and directions for wayﬁnding (Holland and Morse 2001, Chincholle et al. 2002,
+Kulju and Kaasinen 2002) and mobile travel planners keep
+track of users’ itineraries, upcoming meetings etc. (Ricci et
+al. 2002, Kjeldskov et al. 2003).
+Many of these mobile guide systems involve the user
+being situated in the built environment of a public space.
+Yet only a few references have investigated the challenges
+imposed and opportunities oﬀered by the use of mobile
+guide systems in the context of buildings and other
+architectural structures in urban spaces. Exceptions include
+Vainio et al. (2002) who study navigation and way ﬁnding
+supported by a 3D model-based mobile city guide with
+clear architectural features such as landmarks, Kulju and
+Kaasinen (2002) who compare the use of photographs and
+semi-realistic 3D models augmented with textual information on mobile guides for supporting the user’s experience
+of a physical space, and Laakso et al. (2003) who study the
+use of realistic 3D maps with topological as well as
+architectural features as a planning and navigational aid
+for leisure boat tourists at sea and in the cities they visit.
+These studies show that people often have a strong ability
+to make sense of the physical space in which they are
+situated and typically make extensive use of this when using
+mobile guides in a built environment. Consequently, it is
+argued that the use of mobile guides for navigation, way
+ﬁnding, etc. in environments with distinct architectural or
+other physical features (such as landmarks, noticeable
+physical structures or special topology) can beneﬁt from
+taking these features into account by, for example, simply
+including visual representations of them using street
+perspective or bird’s-eye views (Vainio et al. 2002, Laakso
+et al. 2003, Nakanishi et al. 2004). However, in order to
+exploit the user’s ability to make sense of architectural
+features in their physical surroundings in HCI design for
+mobile guides, we need to better understand the role of the
+user’s physical environment in deﬁning their context and
+the contribution of existing information embedded into
+that environment to people’s experience of it (Agre 2001,
+Bradley and Dunlop 2002, Tamminen et al. 2003). Also, we
+need to learn how to make a clear connection between the
+user’s physical surroundings and the information presented
+on their mobile guide (Dix et al. 2000, Persson et al. 2002).
+So far, systematic methods for gathering, analyzing and
+understanding the properties of a built environment that
+help deﬁne the user’s physical context, and appropriate
+analytical abstractions suitable for informing interaction
+design on the basis of this, have not yet been developed.
+1.1
+
+Indexicality: relating interfaces to their context
+
+An interesting approach to making a clearer relation
+between mobile device interfaces and the user’s context is
+
+to apply the idea of indexicality. Indexicality is a concept
+drawn from semiotics describing the relation between
+information representations and the context in which an
+interpreter (user) perceives them. Semiotics operates with
+three types of representations: symbolic (conventional),
+iconic (similarity) and indexical (material/causal). Symbols
+and icons are ways of representing information independent of context like, for example, text and graphical
+illustrations. Indexes, on the other hand, are ways of
+representing information with a strong relation to, for
+example, their spatial and/or temporal context exploiting
+information present in the interpreter’s surroundings. Thus,
+indexical representations are highly context-speciﬁc and
+only make sense in particular situations; at a speciﬁc time,
+in a speciﬁc location, in relation to a speciﬁc activity, to
+speciﬁc people, etc. As an example, signposts and information boards are typically highly indexical in the sense that
+their meaning is tied to a speciﬁc location. By locating
+information in time and space, symbolic and iconic
+representations can be converted into temporal and spatial
+indexical representations (Andersen 2001). As shown by
+Kjeldskov (2002), increasing the level of indexicality
+typically results in a signiﬁcant reduction of required
+symbolic and iconic representations.
+The concept of indexicality has previously been applied
+to the design of mobile guide interfaces (Kjeldskov 2002,
+Graham and Kjeldskov 2003, Kjeldskov et al. 2003) in
+order to streamline the information and functionality
+delivered to the user. The idea of applying indexicality to
+interface design for mobile guides is that if information and
+functionality on a mobile guide can be indexed to the user’s
+context, then information already provided by the context
+becomes implicit and does not need to be displayed by the
+system. Hence, the user’s environment becomes a vital part
+of the interface. This way of making use of ‘knowledge-inthe-world’ (Norman 1990) allows the limited screen real
+estate of mobile guides to be optimized to contain only the
+most vital content and the required user interaction with
+the mobile guide to be reduced. As a simpliﬁed example of
+this, an indexical mobile guide for patrons entering a
+cinema complex could be made temporally and spatially
+indexical by taking into account the time and location of
+the user, providing only information about the upcoming
+movies playing within a limited frame of time (temporal
+indexicality) in that speciﬁc cinema (spatial indexicality)
+(Kjeldskov 2002).
+In the studies mentioned above, the mobile guide
+interface designs only explored temporal and spatial
+indexicality. However, the idea of indexical interfaces could
+also be broadened to exploit other aspects of the user’s
+context. In addition to time and location, for example,
+factors such as existing information in our surroundings,
+the features of the built environment itself and the use of
+that environment by other people also play an important
+
+Built environments for mobile guide interface design
+
+role in the context surrounding a mobile user (Paay 2003),
+and may also be indexed to in a mobile guide.
+Relying heavily on the user’s knowledge about, for
+instance, when, where and why they are situated, successful
+design of indexical interfaces for mobile guides require that
+HCI designers have a strong understanding of the aspects
+of the user’s context that they are indexing to. Hence, in
+order to include indexes to the built environment in the
+design of a mobile guide, the features of the built
+environment contributing to the user-experience of the
+physical space in which it will be used, needs to be analyzed
+and modelled in a way that extracts the essence of the place
+and provides an overview. Information embedded into the
+built environment and carrying parts of its meaning
+through its architectural features needs to be identiﬁed
+and proposals for how this can be applied to mobile guide
+design needs to be developed and evaluated.
+This paper contributes to this discussion by presenting 1)
+a possible approach to enquiring into the features of a built
+environment informed by theories and methods derived
+from architecture, 2) a method for creating a descriptive
+abstraction on the basis of the ﬁeld data, and 3) an example
+of how this abstraction can be used to inform the design of
+a mobile guide prototype. In section 2, we present and
+discuss the architectural theories and methods used in the
+study. In section 3, we report from a ﬁeld study into the
+architectural and informational properties of a speciﬁc built
+environment, Federation Square in Melbourne, Australia.
+The idea and early results from this study are described by
+Paay (2003). The outcome of the ﬁeld study is presented in
+the form of a descriptive framework for modelling and
+understanding the built environment called MIRANDA,
+which captures positive and negative architectural and
+informational properties of a physical space. In section 4,
+the use of this descriptive framework in HCI design for
+mobile guides is exempliﬁed through the design of a mobile
+guide system for Federation Square, in which the interface
+is indexed to the built environment by exploiting information already implicitly present in the user’s physical
+surroundings. Finally, section 5 concludes our work and
+outlines our present and future directions of research.
+2. Analyzing the built environment
+Architectural design has a history of incorporation of social
+theories and user needs into design methods. Of special
+interest, urban planner, Kevin Lynch (1960) and architect,
+Christopher Alexander (Alexander et al. 1977) both
+modelled built environments, speciﬁcally cities, with regard
+to the people that inhabit those places, hence implicitly
+including the users in their analysis of physical space.
+Lynch (1960) developed a method for visual analysis of
+city precincts through descriptions of key aspects of the
+space held by people as they navigate and orient themselves
+
+23
+
+within city precincts. This was done by diagramming the
+interplay of visible elements in the environment that
+contribute to a person’s environmental image of a place.
+His purpose was to develop ideas and methods, rather than
+to prove facts in a ﬁnal and determinate way. The method
+proved successful at assisting in the analysis of types of
+elements of a city, how they are put together, and what
+makes for strong identity. It also proved to be a useful
+technique for predicting the probable public image of that
+city. Lynch documented this technique for describing and
+understanding key aspects of the environmental image of
+space held by people as they navigate and orient themselves
+within city precincts and noted that it would be interesting
+to apply this method to an environment of a diﬀerent scale.
+To understand the role of environmental images of cities in
+the lives of those who inhabit them, Lynch carried out two
+basic analyses. Firstly, interviews were conducted with
+people who either lived or worked in that area. The city
+dwellers image of the city was elicited from them using
+interview techniques which included asking participants to
+describe features of the city from memory, asking them to
+draw sketches of the city, and having them make imaginary
+trips to destinations within the city precinct. Secondly, a
+ﬁeld reconnaissance was done by an architecturally trained
+observer, who mapped the presence of various elements of
+the physical environment, using categories that had proven
+signiﬁcant in analysis of earlier pilot interviews: districts,
+landmarks, nodes, edges and paths. The observer made
+subjective judgments based on the immediate appearance of
+these elements in the ﬁeld and about their visible contribution to the image of the city, which resulted in maps
+representing the visual form of a city in respect to these ﬁve
+elements. These maps were then compared to those maps
+derived from consensus information collected in the verbal
+interviews and the sketch maps made by the inhabitants to
+draw conclusions about ‘imageability’ of built environments.
+Alexander et al. (1977) empirically investigated the
+interplay between architectural space and its inhabitants
+and identiﬁed architectural design problems in context and
+their impact on inhabitants of that environment. Drawn
+from observations of historical solutions to common design
+problems, he created a method of analyzing aspects of the
+built environment and generated a ‘checklist’ of plausible
+solutions for design. This checklist was constituted by a
+collection of 253 hierarchically ordered patterns making up
+a ‘Pattern Language’ (Alexander et al. 1977) that begins
+with patterns deﬁning towns and communities, through the
+design of individual buildings, down to the detailed design
+of building elements. The pattern language provides a
+framework for solutions to these common design problems.
+Each pattern describes the ﬁeld of physical and social
+relationships required to solve a design problem in its
+stated context. These patterns in themselves are a form of
+
+24
+
+J. Paay and J. Kjeldskov
+
+composite pictures including: photographs, sketches, descriptive explanations detailing the context for the pattern,
+its relationship to parent patterns, a description of the
+problem, the empirical background of the pattern, evidence
+for its validity, and the design solution.
+The methods of Lynch (1960) and Alexander et al. (1977)
+have not only proven their value within architecture, but
+have also demonstrated usefulness in HCI research in
+analyzing the interplay between architectural, informational and social space with the purpose of designing
+computerized information systems.
+The work of Lynch (1960) is often referenced in relation
+to the design of computer systems supporting orientation
+and navigation in complex virtual information spaces,
+virtual environments and in the real world, and is claimed
+to be one of the most inﬂuential and useful pieces of
+research on spatial orientation and navigation for interaction designers (Sparacino et al. 2000). Information City
+(Dieberger and Frank 1998) is an ontology of spaces and
+connections based on Lynch’s ﬁve major elements developed to support navigation in large information spaces
+where a spatial metaphor supports a user’s sense of
+orientation by the use of recognizable landmarks. Similarly,
+Sparacino et al. (2000) present a 3D web browser using an
+urban-like information landscape following the guidelines
+proposed by Lynch (1960) to fetch and represent information from the web. Supporting navigation in virtual reality,
+Ingram and Benford (1996) apply urban planning principles to the design of virtual environments using Lynch’s
+work to improve the navigation of a virtual environment
+including districts, landmarks, paths, nodes and edges.
+Vinson (1999) proposes a series of guidelines for how
+designers can create and place landmarks in virtual
+environments for supporting navigation and orientation.
+Informing the design of a mobile guide system, Kulju and
+Kaasinen (2002) draw on the work of Lynch (1960) to
+include landmarks in a 3D city model on a mobile device
+and augment them with additional textual information to
+optimize spatial orientation.
+The work of Alexander (Alexander et al. 1977) has been
+successfully applied within various areas of computing;
+from object-oriented software design (Gamma 1996) to
+human – computer interaction (Tidwell 1999, Borchers
+2001). Inspired by, among others, Alexander et al. (1977),
+Harrison and Dourish (1996) deﬁne a distinction between
+space and place, and illustrate the inﬂuence of peoples sense
+of place on their interactive behavior. Designing information technologies for the domestic environment, Crabtree
+and Hemmings (2001) use an adapted pattern framework to
+inform requirements analysis and describe day-to-day use
+of technologies within that environment. Informing novel
+design of pervasive and mobile device services, Paulos and
+Goodman (2004) enquire into the application of new
+technologies by city inhabitants, and draw an analogy
+
+between Alexander’s patterns and the movement and
+activities of people in urban settings. In line with this
+research, McCullough (2001) points out that as interest in
+information technologies for physical contexts increases,
+what we already know from the work of people such as
+Alexander about the built environment and how people
+operate in it, can inform our understanding of peoples’
+situated interactions, and guide the design of technologies
+that consider the user’s physical context.
+3. Field study: Federation Square
+Inspired by Lynch (1960) and Alexander et al. (1977), we
+conducted a ﬁeld study of the architecturally designed built
+environment at Federation Square, Melbourne, Australia.
+Federation Square (ﬁgure 1) is a new civic structure,
+opened to the public in October 2002, to provide the people
+of Melbourne with a ‘unifying square, a landmark, a civic
+focus’ (oﬃcial brochure), by bringing together a creative
+mix of attractions and public spaces. The design intention
+for the space was to incorporate digital technologies into
+the building fabric creating a meeting of virtual information space and physical building space for people to
+experience. We chose Federation Square for this study
+because it is a multi-modal public space with a mixture of
+distinct architectural features and embedded digital elements that provide a variety of activities to visitors.
+The aim of the ﬁeld study was to inquire into how
+informational and architectural elements of the built
+environment contribute to the visitor’s experience of a
+public place, and how this could subsequently be modelled.
+Thus, we wanted to identify important properties of the
+built environment as an inhabited public space and create
+an analytical abstraction, which could inform the design of
+a mobile guide supporting visitors to this place. The result
+of the ﬁeld study is a descriptive framework called
+MIRANDA (Multilayer Information Related to Architecture aNalysis Data Abstraction), representing the human
+experience of the informational (analogue and digital
+signage) and architectural properties of a physical space.
+The result of the subsequent prototype design is a proof of
+concept for a mobile guide which takes these properties
+into consideration.
+The study consisted of the following sequential activities:
+.
+.
+.
+.
+.
+
+Field inspection of Federation Square.
+Data coding (based on Lynch (1960) and Alexander et
+al. (1977)).
+Data analysis.
+Data synthesizing: developing MIRANDA.
+Development of mobile guide prototype design.
+
+The ﬁeld inspection took approximately three hours, data
+coding took eight hours, and data analysis took approxi-
+
+Built environments for mobile guide interface design
+
+25
+
+Figure 1. Federation Square.
+
+mately three days. Synthesizing the data took eight hours
+and developing the preliminary prototype design took
+approximately two days. Although these estimates can
+serve as guidelines for similar analysis by other mobile guide
+designers, the exact time spent on these activities would
+depend on the size of the physical site being analyzed.
+The details of these activities are described below.
+3.1
+
+Inspecting Federation Square
+
+An initial visit was made to Federation Square by the ﬁrst
+author, and resulted in the development of a scenario of the
+experience of a ﬁrst-time visitor to the square. Observational expert audits were then made of Federation Square
+for both architectural and information space, in two
+separate ﬁeld visits. These expert audits were inspired by
+the method outlined by Lynch (1960) in his visual analysis
+of city precincts for the purpose of identifying types of
+elements of a city. In his method, an architecturally trained
+observer maps the presence of various elements of the
+physical environment. In this adapted method, the trained
+observer records, through photographs and ﬁeld notes, the
+elements of the physical environment for later classiﬁcation
+
+using signiﬁcant categories. These visits, each taking about
+three hours to complete, resulted in a collection of 250
+digital photographs of physical elements of the built
+environment. The location of each photograph was
+recorded on a map of Federation Square, and corresponding observations of the relationship between the elements
+being photographed and the environment (including
+interaction with people inhabiting the space) were recorded
+in the form of ﬁeld notes.
+3.2
+
+Coding the data
+
+The photographs were stored electronically in a format
+where they could be directly associated with their corresponding observational ﬁeld notes and sketches, and could
+be annotated further during the process of coding and
+analysis. For the information elements, each sign and
+media screen was sketched showing its relationship to
+building fabric, viewing direction and distance, and then
+annotated with general ﬁeld notes explaining the sketches
+and detailing auditor observations of human activity in
+relationship to the signage. For the architectural elements,
+ﬁeld notes recorded observations made by the trained
+
+26
+
+J. Paay and J. Kjeldskov
+
+auditor including general descriptions of elements and
+human responses to physical spaces within the architecturally designed environment. The coding of this data was
+necessarily a two-phase process, given that the original
+source data was a mixture of images and descriptive text.
+The ﬁrst pass through the data used the encoding schemas
+to convert classiﬁed elements of the images into corresponding text. The second pass combined the classiﬁcationgenerated image descriptions with existing observational
+ﬁeld data and highlighted those aspects of the resulting
+prose that contributed to the encoded abstraction of that
+data.
+In coding the information elements, the graphic communication theories and concepts of Bowman (1968), Tufte
+(1990) and Bertin (2003) were used to derive the following
+set of classiﬁcations for the information elements: type,
+direction, distance, visibility, readability, and location.
+These categories were used as an encoding schema, to
+group and order descriptions of sketches and ﬁeld notes in
+the electronic ﬁle. The ordered descriptions were then read
+through in their entirety several times, and repeating
+phrases and key concepts associated with the encoding
+schema were highlighted in the descriptions associated with
+the images. Bowman (1968), Bertin (1983) and Tufte (1990)
+were used to develop the categories for the analysis of
+information space because their graphic communication
+theories are based on human interpretation and human
+understanding of graphic elements in signage, and therefore
+necessarily incorporate human experience of information
+into the analysis.
+The architectural elements were classiﬁed initially using
+Lynch’s (1960) categories of: district, landmark, node,
+path, and edge, as an encoding schema. Using Lynch’s
+detailed descriptions of what constitutes each of these
+categories, the key element of each image was classiﬁed in
+respect to the schema, by the architecturally trained auditor
+using a visual inspection technique. The photographs were
+annotated with a legend indicating their association with
+one or many of the ﬁve categories. An additional
+classiﬁcation of this data was then conducted on the
+architectural elements using the 253 patterns of Alexander’s
+pattern language as an encoding schema. Sketches and
+notes showing the applicability of each pattern were
+appended to the existing ﬁeld notes. Each image was
+associated with one or many Alexandrian patterns, and the
+photograph annotated with the pattern number and pattern
+title of each associated pattern. The text descriptions
+associated with each architectural photograph were then
+read through several times to identify key concepts and
+repeating phrases in the loosely structured data that related
+to the encoding schema. These key themes were highlighted
+in the text data.
+Lynch (1960) and Alexander et al. (1977) were used to
+derive the encoding schemas for this analysis because the
+
+categories that they provide were the outcomes of empirical
+studies of the interplay between architectural space and
+people, and this study aims to understand and model the
+human experience of a place.
+3.3
+
+Analyzing the data
+
+Using a form of content analysis adopted from rapid
+ethnographic method (Millen 2000), the highlighted concepts and themes were extracted from the descriptive prose,
+and analysed to see if some kind of ‘vocabulary’ of the
+space would emerge.
+The architectural data was analysed ﬁrst. The Lynchian
+categories derived from the image data were directly
+mapped and overlaid onto an existing two-dimensional
+map of Federation Square to produce a colour-coded
+abstraction indicating the location of the environmental
+categories. From this diagram it was clear that four key
+districts and four key landmarks could be identiﬁed in the
+complex. District 1 is a transit zone, a connector to the city,
+and has a focus on Landmark 1, the information centre.
+District 2 is the main plaza, an earthy uneven textured
+sloping open space with outdoors activities, which focuses
+on Landmark 2, the stage and large media screen. District 3
+is the atrium precinct, sheltered, noisy, and constructed of
+machine-made materials. Its focus is Landmark 3, the
+entrance, a large opening to this area. District 4 is the river
+precinct, which has the feeling of being at the back; ﬂat,
+damp and lower than the rest of the spaces, Landmark 4,
+the river, is the focus of this district (see ﬁgure 2).
+The next stage was to use aﬃnity diagramming adapted
+from the contextual design methodology (Beyer and
+Holtzblatt 1998) to group and reﬁne the repeating phrases
+and key concepts that were identiﬁed in the data through
+the encoding process. Each phrase and word was written on
+a post-it note, and these notes were stuck on a large white
+board. After several iterations of grouping, regrouping,
+forming sets of words and reﬁning words to a concise set of
+representative terms, the following themes emerged: words
+that described the space in terms of how it felt to people
+(aﬀect), words that gave rich descriptions of architectural
+features, words that described the location of elements in
+relation to each other, and words that described human
+activity in the space. The emerging words were, by virtue of
+the encoding schema, inﬂuenced by the categories of Lynch
+(1960) and Alexander et al. (1977).
+The same process of aﬃnity diagramming was used with
+the informational data, and the following themes emerged:
+words that related to the readability of signs, words that
+related to the visibility of signs, words that related to the
+physical location of the sign, words that described how
+people were using the signs, and words that described the
+quality and usefulness of information given (including the
+understandability and eﬀectiveness of the information).
+
+Built environments for mobile guide interface design
+
+27
+
+Figure 2. Federation Square: district and landmarks.
+
+The emerging words were, by virtue of the encoding
+schema, inﬂuenced by the classiﬁcations and descriptions of
+graphic communication used by Bowman (1968), Bertin
+(1983) and Tufte (1990).
+3.4
+
+Synthesizing the data: MIRANDA
+
+The process of grouping, sorting, dissecting and reﬁning
+word sets using the aﬃnity diagramming method had
+resulted in an emergent ‘vocabulary’, for both the
+architectural and the informational data, which described
+the physical environment using a concise set of words and
+clariﬁed and identiﬁed the essence of the characteristics of
+the space. The process had been iterated until the syntax of
+a ‘language’ and a stable and concise set of words,
+representing the semantics of that language, evolved. This
+language was necessarily reﬁned to a point where it could
+be used to completely replace the text descriptions
+associated with each of the images, and hence be used to
+represent a concise and abstracted description of that
+space, providing a minimalistic representation of human
+understanding of that space.
+The syntax of the language, MIRANDA, became a
+signed word-pair:
+[+, / , 7]5descriptor4.5place4
+Explaining this syntax, the ﬁrst set indicates that only
+one of these signs, ‘ + ’, ‘/’, or ‘7’, applies to the phrase,
+
+where ‘ + ’ indicates the positive form of the phrase, ‘/’
+indicates the in-part form of the phrase and ‘7’ indicates
+the negative form of the phrase. The sign is then followed
+by a word-pair, the ‘descriptor’ and ‘place’ words, each
+chosen from a ﬁnite set of describing words, and a ﬁnite set
+of place words, which were deﬁned during the context
+analysis phase of the space. Together, they give the
+adjective and noun for a ‘language’ statement that can
+represent the human understanding of the environmental
+element being described. For example, ‘ + inviting.path’
+indicates that an inviting path is pictured, whereas ‘7
+inviting.path’ indicates that the path is uninviting to
+people. The two sets of words that represent the
+architectural characteristics of Federation Square, in
+respect to the expert audit can be seen in ﬁgure 3 and 4,
+where descriptor words are on the left-hand side, and place
+words on the right-hand side.
+The same synthesis process was completed for the
+information elements. The syntax of the information
+language that was emerged was:
+[+, / , 7]5descriptor4.5attribute4
+To conﬁrm the richness of MIRANDA, one or many
+language statements were then used to replace the detailed
+prose description associated with each photograph to
+ensure that the key element of every image could be
+comprehensively described using the language. For example, the description associated with ﬁgure 1 was replaced by
+
+28
+
+J. Paay and J. Kjeldskov
+
+Figure 3. Abstraction of MIRANDA: positive description of architectural characteristics.
+the language statements: ‘7 clear.path’, ‘ + activity.ﬂoor’,
+and ‘7 activity.middle’. These collected statements can be
+interpreted to indicate that the paths in this area are
+undeﬁned, the paving on the ground and the steps in this
+area are primarily used as places to sit and watch, and the
+middle of the space is clear of activity. In the interest of a
+concise descriptor set, the word ‘activity’ was a composite
+descriptor that emerged from the grouping process,
+representing the following diﬀerent types of activities that
+were extracted from the image descriptions: walking,
+sitting, strolling, meeting, watching, being seen, shopping,
+and dining. Future iterations of the language may have to
+
+include these more detailed activity descriptions, depending
+on the granularity of its use. To conﬁrm the succinctness of
+MIRANDA, word pairs were associated diagrammatically
+using the abstraction shown in ﬁgure 3 and 4 to visualize
+variations and frequencies of word pairs.
+This was done using layered drawing software, with each
+diﬀerent coloured layer representing the links from a signed
+place word, to its associated set of descriptors. This made it
+possible to view diﬀerent combinations of word pairs for
+comparisons with each other, and to make it possible to view
+all pairs simultaneously. Each occurrence of a word pair
+within the dataset was plotted on the diagram as an
+
+Built environments for mobile guide interface design
+
+29
+
+Figure 4. Abstraction of MIRANDA: negative description of architectural characteristics.
+
+additional one-point line width to the connecting link
+between the words. When all the language statements had
+been plotted on the diagram, the width of the word pair link
+therefore represented the number of occurrences of this word
+pair in the total dataset. This gave a visual form to the
+‘language’ and helped to validate the choice of words in
+the ﬁnite word sets by indicating whether word-pairs
+were actually used in describing the space, the existence of
+a link, and frequency of use of those pairs, and the width of
+the link.
+This abstraction of architectural characteristics provided
+an additional beneﬁt as a tool for visualising a summary of
+
+human experience of architectural elements of that
+environment, that is, an overview of the physical context
+of that space. In surveying the diagram, it is possible to
+draw summary conclusions about the space which would
+not be evident from viewing the original data, or from
+merely visiting the space, because it represents a composite
+view of that space, judiciously extracted from historical
+understanding of human experience of architectural space,
+as a lens for expert observation and analysis of this built
+environment.
+MIRANDA was also applied to the information layer of
+Federation Square (analogue and digital signage), but for
+
+30
+
+J. Paay and J. Kjeldskov
+
+the purpose of clarity and exempliﬁcation of indexing to
+physical context in mobile guide interface design, the
+remainder of the paper will focus on the outcomes of the
+architectural analysis as illustrated in ﬁgure 3 and 4.
+In analyzing ﬁgure 3, it is evident that activity in
+Federation Square occurs primarily along the edges and
+spaces generally have little activity in the middle. This can be
+surmised because the link between ‘activity’ and ‘edge’ is
+thick ( + activity.edge). We can also infer that the square
+looks out at the views of its surroundings, evidenced by the
+thick link between ‘visible’ and ‘surrounds’ ( + visible.surrounds). Many of the spaces have activities associated with
+them, such as places that are designed speciﬁcally for an
+activity such as sitting or dining, and so the link between
+‘activity’ and ‘space’ is moderately thick ( + activity.space).
+Similarly, landmarks can be used to orient oneself, from most
+places around the square, indicated by the thick link between
+‘focal’ and ‘structure’ ( + focal.structure). Other moderately
+thick links can be seen between ‘major’ and ‘entrance’ ( +
+major.entrance) and ‘major’ and ‘path’ ( + major.path),
+indicating that Federation Square has a few main entrances
+into buildings and main pathways around these structures, as
+opposed to a network of small pathways and multiple
+openings you might ﬁnd in the centre of an old city.
+Additionally, ﬁgure 4 enhances our understanding of the
+space by representing additional summary information
+about it in the form of the negation of these word-pairs.
+For instance, those major paths, that is, pedestrian links
+between two key destinations in Federation Square, are not
+inviting (7 inviting.path). They are often either a narrow gap
+between two tall walls of adjacent buildings (7 humanscale.
+wall) or they are down badly lit dark underground corridors
+(7 light.path). When you are trying to ﬁnd a speciﬁc place
+within the complex it is often diﬃcult to see your destination,
+in several places you begin to follow a sign to a speciﬁc place,
+but the place that you are aiming for is not visible through the
+entrance indicated, leaving visitors unsure that it is the way to
+go (7 visible.goal). In many places the pathway that you are
+supposed to take is unclear (7 clear.path) because paths are
+not speciﬁcally indicated in open spaces.
+This visual abstraction of MIRANDA represents a
+descriptive framework for understanding and modelling
+the physical context of a public place. MIRANDA makes
+available a vocabulary of a speciﬁc space that can then be
+used to understand the key physical characteristics of that
+built environment, and to describe the user’s surroundings
+in a way that is grounded in human observation of that
+place, and formed with reference to collected knowledge
+about human understanding of architectural form and
+graphical communication. MIRANDA is unique, in so far
+as it is a systematic tool for creating an abstract
+representation of physical context, which does not exist in
+the literature surveyed, and yet that same literature often
+laments a lack of in-depth understanding of the physical
+
+context for which pervasive information systems are being
+designed. The aim of creating MIRANDA is to provide
+mobile system designers with knowledge about elements in
+the user’s physical context, so that information that already
+exists in the world can be indexed to in the interface. The
+use of MIRANDA for this purpose is exempliﬁed below.
+4. Mobile guide design
+To explore the contribution of MIRANDA to the design of
+physically indexed interfaces, we have designed a mobile
+guide system for use at Federation Square as a proof of
+concept. The design presented below is currently being
+implemented as a functional prototype running on handheld computers using Bluetooth for positioning within
+districts and GPRS for wireless access to the internet. The
+prototype will be lab and ﬁeld-tested early 2005.
+The design of the prototype guide system is based on a
+combination of the ﬁndings from the Lynchian analysis of
+Federation Square and MIRANDA. The Lynchian analysis
+showed that clear districts can be identiﬁed within the space
+of Federation Square. MIRANDA showed for each of these
+districts, key architectural characteristics can be identiﬁed on
+a level of abstraction that allows a conceptual image of the
+space rather than a catalogue of speciﬁc physical elements.
+Combining the ﬁndings from the Lynchian analysis and
+MIRANDA, we have developed three overall design ideas
+for a mobile guide for Federation Square, which exploits
+unique characteristics of the physical space and indexes to
+features of the built environment:
+.
+
+.
+
+.
+
+The mobile guide responds to the user’s location in
+terms of one of the deﬁned districts rather than
+Cartesian coordinates.
+Each district is represented in the mobile guide by an
+interactive photorealistic depiction of the physical
+surroundings augmented with textual or symbolic
+information needed to better understand the place.
+Locations and instructions for navigation are expressed through rich descriptions derived from the
+distinctive characteristics of the place rather than
+through Euclidian coordinates.
+
+The implementation of three design ideas in our mobile
+guide system is detailed below.
+4.1
+
+Location by district
+
+In our mobile guide for Federation Square, the user’s
+location is deﬁned by four districts. These four districts
+were identiﬁed by the Lynchian analysis, each with their
+own distinct characteristics and a corresponding landmark.
+The location districts we are using make use of people’s
+ability to make sense of the physical environment in which
+
+Built environments for mobile guide interface design
+
+they are situated and are not deﬁned by coordinates but by
+the human experience of the physical layout of the space.
+Basing positioning on location within a limited number of
+districts rather than on exact x, y coordinates also makes it
+possible to implement positioning using, for example,
+Bluetooth beacons rather than GPS.
+The location districts of the mobile guide for Federation
+Square and corresponding screens are illustrated in ﬁgure 5.
+The information pushed to the mobile guide is tailored to
+information needs within a speciﬁc district. When a user
+moves into another district, their context changes, and so
+does the information that appears on the screen of their
+mobile device. To allow the user to align the information in
+the guide to their physical surroundings, the initial screen
+displays the corresponding landmark for that district.
+In the following subsections, we describe the speciﬁc
+design of the screens associated with only one district: the
+main plaza.
+4.2
+
+Augmented interactive photorealistic depictions
+
+When the user enters a district, an interactive photorealistic
+depiction augmented with textual and symbolic information pertinent to that district is pushed to their device. For
+the main plaza, MIRANDA identiﬁed six central architectural characteristics:
+.
+.
+.
+.
+
+Activity edges.
+Focal structures.
+No visible goals.
+Visible surrounds.
+
+.
+.
+
+31
+
+Major entrances and paths.
+No clear paths.
+
+These six features informed the interface design of the
+screens for the main plaza.
+Wishing to represent the main plaza district in the
+system, we chose to use a 3608 panoramic depiction of the
+plaza because MIRANDA tells us that the main plaza has
+‘activity edges’ and is open in the middle. Focusing on the
+edges of the plaza will match the guide to the user’s
+experience of the physical space and allow them to easily
+align the information presented in the system with their
+physical surroundings. We use photorealistic depictions in
+the design because we also know from MIRANDA that the
+main plaza has ‘focal structures’. This enables users to align
+the image in the interface to the architectural features of the
+built environment in their current district (for example, as
+seen in Pospischil et al. 2002). Subsequently, they can easily
+scan through the virtual representation of the space and
+index the information presented in the mobile guide to the
+corresponding physical objects in their surroundings. Like
+when operating a QuickTime VR movie, panning is done
+by pointing on the panoramic depiction and dragging in the
+desired direction.
+In a situation where the physical analysis of a district
+indicated that features of interest were, for example,
+clustered or spread out over a very large physical area, it
+might be more appropriate to use a diﬀerent depiction
+such as a bird’s eye view approaching the user’s perception
+of that space (Kulju and Kaasinen 2002, Laakso et al
+2003).
+
+Figure 5. Location districts of the mobile guide for Federation Square and corresponding screens.
+
+32
+
+J. Paay and J. Kjeldskov
+
+Figure 6. Mobile guide for Federation Square: location
+and event ﬁnding screen.
+
+Figure 7. Mobile guide for Federation Square: navigation
+screen with rich descriptions.
+
+The main screen for the main plaza is shown in ﬁgure 6.
+MIRANDA also identiﬁed a characteristic of the space
+as having ‘no visible goals’. This feature of the space led to
+the augmentation of the 3608 panoramic depiction of the
+plaza with white text labelling visitor destinations not
+clearly indicated by the architectural design. In many cases,
+the actual location of activities lies behind the visible
+facades, but the facades function as clear ‘focal structures’
+that can be indexed to in the system, linking information
+provided by the system to those visitor destinations. A
+location is automatically selected when it is positioned in
+the centre of the display. This is indicated by the
+enlargement of the text label of that location and by
+displaying the associated detailed information, as shown in
+ﬁgure 6. From this screen, the user can access additional
+details by clicking on the underlined links. Access to
+navigation information about that location is also now
+available by clicking on the ‘How do I get there?’ tab.
+
+informed by MIRANDA identifying the architectural
+characteristics of ‘activity edges’, ‘visible surrounds’, ‘major
+entrances and paths’ and ‘no clear paths’. On the
+navigation screen, the user is presented with rich descriptions derived from the distinctive characteristics of the
+place. The descriptions used in the guide have two parts.
+The ﬁrst describes the location in relation to focal
+structures. The second part describes the steps taken to
+get there.
+Based on the knowledge from MIRANDA that activities
+are located on the edges, it follows that we are able to
+describe selected locations as being ‘next to’ and/or
+‘opposite’ other locations on the edge of the main plaza.
+We use these terms in our rich descriptions, thereby
+indexing locations relative to one another. This is an
+alternative to absolute location descriptions typically used
+in mobile guides, for example ‘located at the corner of
+Flinders and Swanston Streets’, but holds more meaning to
+the users of the system, because it makes use of their
+understanding of the built environment in which they are
+situated.
+The second part of the navigation information describes
+the path which the user should take to get there. We know
+from MIRANDA that paths in the main plaza are not
+clearly marked but that the urban surroundings are visible.
+
+4.3
+
+Rich descriptions for navigation
+
+When the user clicks on the ‘How do I get there?’ tab from
+the main screen, they are presented with location and
+navigation information about the selected destination. The
+design of the navigation screen, as shown in ﬁgure 7, was
+
+Built environments for mobile guide interface design
+
+This allows us to use descriptions, such as ‘away from the
+train station’ or ‘towards the river’, indexing to visible
+elements of the surrounding city. MIRANDA also tells us
+that access to the diﬀerent locations surrounding the main
+plaza is aﬀorded by major entrances. Based on this, the
+navigation screen contains an image of the entrance that
+the user must pass through to get there. Again, this indexes
+the information given by the mobile guide to the user’s
+physical environment.
+Since some of the characteristics of a physical space may
+sometimes change in accordance to the time of day, season,
+special events etc., the rich descriptions in the system
+should be designed so that they can adapt accordingly.
+5. Conclusions
+As digital information becomes a part of the way we
+operate in the physical world, human – computer interaction with mobile guides can beneﬁt from making use of
+‘knowledge-in-the-world’ by indexing to implicit information cues in the built environment. People have a strong
+ability to make sense of the physical space in which they are
+situated and often make use of this when using mobile
+guides in urban spaces. In order to exploit this ability in
+mobile guide design, we need to better understand the role
+of the user’s physical environment in deﬁning their context
+and the contribution of existing information embedded in
+that environment to people’s experience of it. Also, we need
+to make clear connections between the user’s physical
+surroundings and the information presented on their
+mobile guide.
+This paper has presented the outcome of a ﬁeld study
+into the properties of a built environment that contributes
+to people’s experience of their physical context. Synthesizing the outcome of the ﬁeld study, we have proposed a
+descriptive framework, MIRANDA, which provides a
+summarized abstraction of the fundamental architectural
+and informational features of a built environment. The
+usefulness of MIRANDA in interface design has been
+exempliﬁed through the design of an indexical mobile guide
+system for Federation Square, Melbourne, Australia.
+Unlike other location-aware guide systems, the proposed
+design explicitly uses insight into user perceptions of
+architectural characteristics of the built environment to
+tailor the information presented to the physical context in
+which it is being used.
+While the outcomes of our analysis are speciﬁc to
+Federation Square, the empirical analysis of an environment used to create the MIRANDA framework could be
+applied to other cases of mobile guide design for the built
+environment. In physical spaces where a MIRANDAbased analysis reveals similar architectural characteristics
+to Federation Square, the speciﬁc design ideas of exploring
+indexicality presented above could also be applied.
+
+33
+
+The proposed design sketches are currently being
+implemented as a functional prototype. Through laboratory- and ﬁeld-based evaluations at Federation Square, the
+prototype will allow us to validate the usefulness of
+MIRANDA for informing the design of mobile guides
+for use in built environments.
+In future research, the proposed descriptive framework
+of MIRANDA should be reﬁned and validated through
+further studies of other built environments, both similar to,
+and diﬀerent from, Federation Square. Additionally, it
+would be interesting to investigate further the dynamic
+aspects of physical spaces; characteristics changing according to time of day, season, special events etc. The proposed
+method does not take this issue explicitly into account
+during the data collection phase and would have to be
+extended for this purpose.
+Acknowledgements
+The authors thank Steve Howard and Bharat Dave for
+valuable supervision on the project and comments on the
+paper. The ﬁeld study was designed and conducted by the
+ﬁrst author, who was also responsible for the data analysis
+and development of MIRANDA. The design of the mobile
+guide for Federation Square was done in collaboration with
+the second author as a part of the ‘Design and Use of
+Context-Aware Mobile Multimedia Systems’ and ‘Indexical Interaction Design for Context-Aware Mobile
+Computer Systems’ research projects supported by the
+Danish Technical Research Council (project references 2603-0341 and 26-04-006). Graphical Federation Square
+illustrations courtesy of Federation Square Management
+(www.federationsquare.co.au).
+References
+ABOWD, D., ATKESON, C., HONG, J., LONG, S. and PINKERTON, M., 1996,
+Cyberguide: a mobile context-aware tour guide. Wireless Networks, 3,
+421 – 433.
+AGRE, P., 2001, Changing places: contexts of awareness in computing.
+Human – Computer Interaction, 16, 177 – 192.
+ALEXANDER, C., ISHIKAWA, S., SILVERSTEIN, M., JACOBSON, M., FIKSDAHLKING, I. ANGEL, S., 1977, A Pattern Language: Towns, Buildings,
+Construction (New York: Oxford University Press).
+ANDERSEN, P., 2002, Pervasive computing and space. In Organizational
+Semiotics: Evolving a Science of Information Systems, L. Kecheng, R.J.
+Clarke, P.B. Andersen, R. Stamper and El-Sayed Abou-Zeid (Eds.),
+IFIP TC8/WG8.1, 23 – 25 July 2002, Montreal, Quebec, Canada
+(Amsterdam: Kluwer) pp. 133 – 152.
+AOKI, P. and WOODRUFF, A., 2000, Improving electronic guidebook
+interfaces using a task-oriented design approach. Proceedings of DIS
+2000, New York, USA (New York: ACM), pp. 319 – 325.
+BERTIN, J., 1983, Semiology of Graphics (Wisconsin: The University of
+Wisconsin Press).
+BEYER, H. and HOLTZBLATT, K., 1998, Contextual Design: Deﬁning
+Consumer-Centered Systems. (San Francisco: Morgan Kaufmann Publishers).
+
+34
+
+J. Paay and J. Kjeldskov
+
+BOHNENBERGER, T., JAMESON, A., KRÜGER, A. and BUTZ, A., 2002,
+Location-aware shopping assistance: evaluation of a decision-theoretic
+approach. In Proceedings of Mobile HCI 2002, Pisa, Italy (Berlin:
+Springer-Verlag), pp. 155 – 169.
+BORNTRÄGER, C., CHEVERST, K., DAVIES, N., DIX, A., FRIDAY, A. and
+SEITZ, J., 2003, Experiments with multi-modal interfaces in a contextaware city guide. Proceedings of Mobile HCI 2003, Udine, Italy (Berlin:
+Springer-Verlag), pp. 116 – 130.
+BORNTRÄGER, C. and CHEVERST, K., 2003, Social and technical pitfalls
+designing a tourist guide system. Proceedings of HCI in Mobile Guides,
+Udine, Italy, available online at http://www.mguides.info
+BOWMAN, W.J., 1968, Graphic Communication (New York: John Wiley &
+Sons, Inc.).
+BRADLEY, N. and DUNLOP, M., 2002, Understanding contextual interactions. Proceedings of Mobile HCI 2002, Pisa, Italy, LNCS (SpringerVerlag), pp. 349 – 353.
+BORCHERS, J., 2001, A Pattern Approach to Interaction Design (Chichester:
+John Wiley & Sons).
+CHEVERST, K., DAVIES, N. and MITCHELL, K., 2002, Exploring contextaware information push. Personal and Ubiquitous Computing, 6, 276 –
+281.
+CHEVERST, K., DAVIES, N., MITCHELL, K., FRIDAY, A. and EFSTRATIOU, C.,
+2000, Developing a context-aware electronic tourist guide: some issues
+and experiences. Proceedings of CHI’00, The Hague, Netherlands (New
+York: ACM), pp. 17 – 24.
+CHINCHOLLE, D., GOLDSTEIN, M., NYBERG, M. and ERIKSON, M., 2002,
+Lost or found? A usability evaluation of a mobile navigation and
+location-based service. Proceedings of Mobile HCI 2002 Pisa, Italy,
+LNCS (Springer-Verlag), pp. 211 – 224.
+CRABTREE, A., HEMMINGS, , T. and RODDEN, , T. 2001, Domestic legacy and
+design. Proceedings of the 1st Equator Workshop on Ubiquitous
+Computing in Domestic Environments, Nottingham, UK (Nottingham:
+The University of Nottingham), pp. 147 – 164.
+DIEBERGER, A. and FRANK, A., 1998, A city metaphor to support
+navigation in complex information spaces. Journal of Visual Languages
+and Computing, 9, 597 – 622.
+DIX, A., RODDEN, T., DAVIES, N., TREVOR, J., FRIDAY, A. and PALFREYMAN, K., 2000, Exploiting space and location as a design framework for
+interactive mobile systems. ACM Transactions on Computer-Human
+Interaction, 7, 285 – 321.
+FITHIAN, R., IACHELLO, G., MOGHAZY, J., POUSMAN, Z. and STASKO, J.,
+2003, The design and evaluation of a mobile location-aware handheld
+event planner. Proceedings of Mobile HCI 2003, Udine, Italy (Berlin:
+Springer-Verlag), pp. 145 – 160.
+GAMMA, E., 1997, Going beyond objects with design patterns. Proceedings
+ECOOP ‘97 – Object-Oriented Programming: 11th European Conference,
+June 1997, Jyväskylä, Finland, p. 530.
+GRAHAM, C. and KJELDSKOV, J., 2003, Indexical representations for
+context-aware mobile devices. Proceeding of The IADIS e-Society
+Conference, Lisbon, Portugal, pp. 373 – 380.
+HAKKILA, J. and HEXEL, R., 2003, Interaction in location-aware messaging
+in a city environment. Proceedings of OZCHI2003: New Directions in
+Interaction: Information Environments, Media & Technology, December
+2003, Brisbane, Australia (Brisbane: CHISIG), pp. 84 – 93.
+HARRISON, S. and DOURISH, P., 1996, Re-placing space: the roles of place
+and space in collaborative systems. Proceedings of the ACM CSCW 96
+Conference on Computer-Supported Cooperative Work (New York:
+ACM), pp. 67 – 76.
+HERMANN, F. and HEIDMANN, F., 2002, User requirement analysis and
+interface conception for a mobile, location-based fair guide. Proceedings
+of Mobile HCI 2002, Pisa, Italy, LNCS (Springer-Verlag), pp. 388 – 392.
+
+HOLLAND, S. and MORSE, D.R., 2001, AudioGPS: spatial audio in a
+minimal attention interface. Proceedings of Mobile HCI 2001: Third
+International Workshop on Human Computer with Mobile Devices, Lille,
+France, available online at http://www.mobilechi.org
+IACUCCI, G., KELA, J. and PEHONEN, P., 2004, Computational support to
+record and re-experience visits. Personal and Ubiquitous Computing, 8,
+100 – 109.
+INGRAM, R., BENFORD, S. and BOWERS, J., 1996, Building virtual cities:
+applying urban planning principles to the design of virtual environments.
+Proceedings of ACM symposium on Virtual Reality Software and
+Technology (VRST96), July, 1996 (ACM), pp. 83 – 91.
+KJELDSKOV, J., 2002, Just-in-place: information for mobile device interfaces. Proceedings of Mobile HCI 2002, Pisa, Italy (Berlin: SpringerVerlag), pp. 271 – 275.
+KJELDSKOV, J., HOWARD, S., MURPHY, J., CARROLL, J., VETERE, F. and
+GRAHAM, C., 2003, Designing TramMate – a context aware mobile
+system supporting use of public transportation. Proceedings of DUX
+2003: Designing for user experiences, San Francisco, CA, USA (ACM).
+KOLARI, J. and VIRTANEN, T., 2003, In the zone: views through a contextaware mobile portal. Proceedings of HCI in Mobile Guides, Udine, Italy.
+KULJU, E. and KAASINEN, E., 2002, Route guidance using a 3D city model
+on a mobile device. Proceedings of Mobile Tourism Support, Pisa, Italy,
+available online at http://www.mguides.info
+LAAKSO, K., GJESDAL, O. and SULEBAK, J.R., 2003, Tourist information
+and navigation support by using D maps displayed on mobile devices.
+Proceedings of HCI in Mobile Guides, Udine, Italy, available online at
+http://www.mguides.info
+LYNCH, K., 1960, The Image of the City (Cambridge, Mass.: MIT Press).
+MCCULLOUGH, M., 2001, On typologies of situated interaction. Human –
+Computer Interaction, 16, 337 –
+MILLEN, D.R., 2000, Rapid ethnography: time deepening strategies for
+HCI ﬁeld research. Proceedings of DIS 2000, Brooklyn, New York, USA
+(New York: ACM), pp. 280 – 286.
+NAKANISHI, H., KOIZUMI, S., ISHIDA, T. and ITO, H., 2004, Transcendent
+communication: location-based guidance for large-scale public spaces.
+Proceedings of CHI 2004, Vienna, Austria (ACM), pp. 655 – 662.
+NORMAN, D., 1990, The Psychology of Everyday Things (New York: Basic
+Books).
+OPPERMAN, R. and SPECHT, M., 2000, A context-sensitive nomadic
+information system as an exhibition guide. Proceedings of Handheld
+and Ubiquitous Computing Second International Symposium, Bristol, UK
+(Berlin: Springer-Verlag), pp. 127 – 142.
+PAAY, J., 2003, Understanding and modeling physical environments for
+mobile location aware information services. Proceedings of Mobile HCI
+2003, Udine, Italy (Berlin: LNCS, Springer-Verlag), pp. 405 – 410.
+PAULOS, E. and GOODMAN, E., 2004, The familiar stranger: anxiety,
+comfort and play in public places. Proceedings of CHI 2004, Vienna,
+Austria (New York: ACM), pp. 223 – 230.
+PERSSON, P., ESPINOZA, F., SANDIN, A. and COSTER, R., 2002, GeoNotes: a
+location-based information system for public spaces. Proceedings of
+Mobile HCI 2002, Pisa, Italy, LNCS (Berlin: LNCS, Springer-Verlag),
+pp. 151 – 173.
+POSPISCHIL, G., UMLAUFT, M. and MICHLMAYR, E., 2002, Designing
+LoL@, a mobile tourist guide for UMTS. Proceedings of Mobile HCI
+2002, Pisa, Italy (Springer-Verlag), pp. 140 – 154.
+RANDELL, C. and MULLER, H., 2000, The shopping jacket: wearable
+computing for the consumer. Personal and Ubiquitous Computing, 4,
+241 – 244.
+
+Built environments for mobile guide interface design
+RICCI, F., CAVADA, D. and NGUYEN, Q.N., 2002, Integrating travel
+planning and on-tour support in a case-based recommender system.
+Proceedings of Mobile Tourism Support, Pisa, Italy, available online at
+http://www.mguides.info
+ROCCHI, C., STOCK, O. and ZANCANARO, M., 2003, Semantic-based
+multimedia representations for the museum experience. Proceedings of
+HCI in Mobile Guides, Udine, Italy, available online at http://
+www.mguides.info
+SPARACINO, F., DAVENPORT, G. and PENTLAND, A., 2000, A city of news:
+cataloguing the world wide web through virtual architecture. KOS,
+Aug – Sept 2000, pp. 179 – 180.
+SCHMIDT-BELZ, B. and POSLAD, S., 2003, User validation of a mobile
+tourism service. Proceedings of HCI in Mobile Guides, Udine, Italy,
+available online at http://www.mguides.info
+TAMMINEN, S., OULASVIRTA, A., TOISKALLIO, K. and KANKAINEN, A., 2003,
+Understanding mobile contexts. Proceedings of Mobile HCI 2003, Udine,
+Italy (Berlin: LNCS, Springer-Verlag), pp. 17 – 31.
+
+35
+
+TIDWELL, J., 1999, Common Ground: A Pattern Language for Human –
+Computer Interface Design. Available online at: http://www.mit.edu/
+*jtidwell/interaction_patterns.html
+TUFTE, E., 1990, Envisioning Information (Cheshire, Conn.: Graphics
+Press).
+VAINIO, T., KOTALA, O., RAKKOLAINEN, I. and KUPILA, H., 2002, Towards
+scalable user interfaces in D city information systems. Proceedings of
+Mobile HCI 2002, Pisa, Italy (Berlin: LNCS, Springer-Verlag), pp. 354 –
+358.
+VINSON, N.G., 1999, Design guidelines for landmarks to support
+navigation in virtual environments. Proceedings of CHI 1999, Pittsburgh,
+PA, USA (New York: ACM), pp. 278 – 285.
+
+

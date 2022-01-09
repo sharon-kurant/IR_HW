@@ -1,0 +1,1156 @@
+Antoniou, A., Katifori, A., Roussou, M., Vayanou, M., Karvounis,
+M., Kyriakidi, M. and Pujol-Tost, L. (2016) Capturing the Visitor Profile
+for a Personalized Mobile Museum Experience: an Indirect Approach. In:
+24th ACM Conference on User Modeling, Adaptation and Personalisation
+(UMAP 2016), Workshop on Human Aspects in Adaptive and Personalized
+Interactive Environments (HAAPIE), Halifax, Canada, 13-17 July 2016
+This is the author’s final accepted version.
+There may be differences between this version and the published version.
+You are advised to consult the publisher’s version if you wish to cite from
+it.
+http://eprints.gla.ac.uk/143234/
+
+Deposited on: 29 June 2017
+
+Enlighten – Research publications by members of the University of Glasgow
+http://eprints.gla.ac.uk33640
+
+Capturing the Visitor Profile for a Personalized Mobile
+Museum Experience: an Indirect Approach
+Angeliki Antoniou
+University of Peloponnese
+Terma Karaiskaki 22100
+Tripolis, Greece
++302710372264
+
+angelant@uop.gr
+
+Akrivi Katifori, Maria Roussou,
+Maria Vayanou,
+Manolis Karvounis, Marialena
+Kyriakidi
+University of Athens
+Panepistimioupoli, Department of
+Informatics and Telecommunications,
+15784 Ilisia, Greece
+
+Laia Pujol-Tost
+Pompeu Fabra University
+Department of Humanities
+Barcelona, Spain
+
+pujol.laia@gmail.com
+
+vivi@mm.di.uoa.gr, {mroussou,
+vayanou, manosk,
+marilou}@di.uoa.gr
+ABSTRACT
+An increasing number of museums and cultural institutions
+around the world use personalized, mostly mobile, museum
+guides to enhance visitor experiences. However since a typical
+museum visit may last a few minutes and visitors might only visit
+once, the personalization processes need to be quick and efficient,
+ensuring the engagement of the visitor. In this paper we
+investigate the use of indirect profiling methods through a visitor
+quiz, in order to provide the visitor with specific museum content.
+Building on our experience of a first study aimed at the design,
+implementation and user testing of a short quiz version at the
+Acropolis Museum, a second parallel study was devised. This
+paper introduces this research, which collected and analyzed data
+from two environments: the Acropolis Museum and social media
+(i.e. Facebook). Key profiling issues are identified, results are
+presented, and guidelines towards a generalized approach for the
+profiling needs of cultural institutions are discussed.
+
+CCS Concepts
+• Human-Centered
+computing➝	  HCI
+evaluation➝ user models and user studies
+
+design
+
+and
+
+Keywords
+Personalization, user modeling, profiling, mobile systems
+
+1. PERSONALIZED APPLICATIONS
+Personalized museum applications are becoming increasingly
+popular [1] as a means to approach the vast amounts of available
+digital information. Especially with regards to museums and
+museum learning, personalized applications can be a valuable tool
+[2], since they can adapt to a diverse audience’s needs. An
+increasing number of museums and cultural institutions around
+the world use personalized, mostly mobile, museum guides to
+enhance visitors’ experiences [3], attract new visitors [4], and
+address the needs of a diverse audience [5].
+In addition, personalized applications in cultural heritage seem to
+be preferred by the visitors [6]. There are adaptive applications for
+different target groups in museums [7]. In addition, there is a wide
+range of mobile and space sensitive devices that provide
+personalized content [8]. Recent developments include the use of
+social media in personalization processes and popular media, like
+YouTube and Pinterest [9], Instagram [10], Twitter [11] and
+Facebook [12], which are used to create and evaluate personalized
+
+cultural heritage content. Even social media games have been
+adopted to extract user profiles for future museum visits [13], and
+visitors have been asked to create recommendations for their
+friends and loved ones [14]. Ardisonno et al. [15] provide a
+detailed survey of the field of personalized applications in cultural
+heritage.
+Personalization is based on the assumption that the application
+can understand the user’s needs, to provide the most relevant and
+interesting context, and its success relies greatly on the successful
+elicitation of the user profile. In a typical museum visit, in some
+cases carried out in the context of a city site-seeing tour, visitors’
+time is limited. It may last as little as a few minutes [16], and
+visitors might only visit the cultural site once. In this context,
+applying a user profiling method that will engage the user into
+providing the relevant profiling information may in fact decide the
+success or failure of the museum experience.
+Thus, visitor-profiling processes need to be quick and efficient;
+but the main question is how to start. The problem of “cold start”
+is well recognized in the literature, and still a state-of-the-art
+topic. Indicatively, [17] used various heuristic techniques and
+algorithms to tackle the problem. In another approach, [18] used
+reading experts and probability-based algorithms to enhance a
+personalized news recommendation system. The user profile
+initialization is also an important aspect for personalized museum
+applications and a particularly challenging problem to tackle [19].
+Thus, in the field of cultural heritage there have also been efforts
+to minimize the problems of personalization initialization with the
+use of ‘personas’ [20].
+The different approaches to the “cold start” problem can be
+distinguished as either explicit, meaning that the visitor is aware
+of the process, or implicit, meaning that the visitor is not aware of
+the process (e.g. [21]). Explicit approaches can be split into two
+categories: direct and indirect. Asking directly the user about her
+specific museum interests and where she would like to go next is
+an example of a direct approach; so is asking the visitor to set her
+own profile through questionnaires. However, visitors seem to not
+be so keen on direct interrogation or form-filling activities [1].
+Indirect explicit approaches also ask the user questions, but these
+are only indirectly related to the museum content [22]. Moreover,
+if carefully designed, they may inject an element of excitement,
+and therefore increase positive involvement in the profiling
+process.
+
+Implicit approaches include methods like the one described in
+[22], where visitors were asked to customize avatars,
+hypothesizing that this process might reflect individual traits. On
+the other hand, the PIL (Personal experience with active cultural
+heritage – IsraeL) project uses information previously gathered
+from the user’s interaction with a webpage, collecting information
+prior to the visit [19]. Finally, visitors’ pattern of movement in the
+museum is another way to gather valuable information, since
+research shows a correlation between physical movement and
+cognitive needs [21].
+In this paper, we investigate the use of indirect profiling methods
+in museum-personalized visits, in order to adapt the museum
+content according to the different visitor profiles. Research was
+conducted in the context of the EU-funded project (Project name
+removed for anonymity purposes), which developed a system
+aimed at enriching museum visiting through adaptive personalized
+interactive storytelling. The application contained several levels of
+personalization, from initial selection of the most appropriate
+story given visitors’ interests, visiting style and available time, to
+real-time adaptation of the initial plot depending on visitors’
+actions in relation to exhibits, the story or the museum space. A
+short questionnaire or quiz, the (project name removed) Visitor
+Questionnaire (CVQ), was designed to initially identify the users’
+characteristics, preferences, and visiting context, as a basis for
+early personalization and subsequent adaptation. Yet, in order to
+enhance enjoyment and surprise, it was designed as part of the
+visit. Since the quiz is the first step in a personalized museum
+experience, its design and implementation should be tailored not
+only to the needs of a particular museum, but also to particular
+mobile storytelling experiences. Moreover, it is also part of the
+authoring process and therefore museum professionals should be
+able to create and update it.
+The research presented in this paper was conducted at the
+Acropolis Museum of Athens, as part of a multi-phased
+investigation about personalization. The design of the CVQ
+started with an initial pilot study, described briefly below. Based
+on its results, two stories were authored, the application was
+implemented, and its overall performance was tested during the
+summative evaluation of the (project name removed) experience.
+A parallel study, which is the focus of this paper, explored further
+some of the previous results, by assessing two different, albeit
+complementary, approaches to quiz design: the first involved
+visitors’ various art preferences in the cultural setting; the second
+was conducted through on-line quizzes distributed in social
+media. Our approach also adopted elements from the available
+past research in the area of implicit user profiling methods.
+Although the ultimate goal of the present study was the design of
+an effective profile initialization method for (project name
+removed), its conclusions can be applied to any museum mobile
+application employing personalization.
+
+2. THE CVQ PILOT STUDY
+We initially explored whether certain film and reading preferences
+could be indirectly linked to museum preferences, and in
+particular to specific stories. Stories, in this setting, are coherent
+narrations by fictional characters (e.g the mythical hero Theseus
+or a woman from Archaic Athens), which evolve around the
+exhibits. Two stories with specifically designed characteristics
+were created, and 10 people were asked to choose one of the two.
+Participants were also asked to specify their reading preferences
+(possible
+answers:
+literature/fiction,
+non-fiction,
+newspapers/magazines, comics/graphic novels) and their film/TV
+preferences (possible answers: science/technology programs,
+
+history documentaries, cooking, drama/comedy, sci-fi/ fantasy).
+The motivation behind these choices given to the participants is
+the fact that preferences like these (i.e. film and book
+preferences), are usually indicated by users in different social
+media. If our hypotheses were supported these would imply that
+social media user profiles could be directly linked to specific
+museum narrations (i.e. specific style of language). All
+participants were selected amongst both staff and graduate
+students
+of
+the
+Department
+of
+Informatics
+and
+Telecommunications of the University of Athens (Greece). 5 were
+male and 5 were female, with ages ranging from 20 to 39 years
+old. The responses to each question were given weights, adding
+up to a total relevance score for each user, which was then
+compared to the score assigned to each of the two stories. The
+results of this initial study indicated that specific film and reading
+preferences could be indeed linked to a certain story.
+Following this short pilot study, the quiz application was designed
+and implemented. The CVQ was conceived as a configurable web
+application that enables visitors to reveal their preferences to the
+system, by answering a series of multiple-choice questions. The
+system is generic and can be used to implement any quiz,
+provided it uses the constructs supported (single choice, multiple
+choice and ranking questions) and any of the presentation formats
+supported (textual, visual, single/multiple column layout, etc.). It
+also supports a flexible model for mapping the answers to
+personalization variables. The quiz logic is based on an abstract
+quiz description, which is accompanied by assets that control the
+presentation, namely images, style sheets and templates. The full
+specification of how answers map to variables is expressed
+through an XML representation. The application is able to present
+the quiz, collect the results, and generate the visitor variables
+necessary for content personalization. It is built with an industry
+standard approach, using JAVE2EE technology, and implemented
+in JBOSS Java Beans and the Google Web Toolkit framework
+(http://www.gwtproject.org/). This allows the quiz to be created,
+edited, and adjusted dynamically, according to each museum
+needs and delivery platforms (e.g., web, tablet, smartphone). An
+overview of the personalization approach implemented in the
+(project name removed) system may be found in (removed for
+anonymity purposes).
+The CVQ has two versions, one for adults and one for children.
+Both include two initial questions about age and gender.
+Subsequently, adults are offered the possibility to choose their
+favorite film type (superhero, romantic, war, myths, or animal
+film) and newspaper section (“politics and economy”, “sports”,
+“society and everyday life”, or “comics”). The children’s version
+asks about their preferred activities (choice from: “horse riding”,
+“karate”, “basketball”, and “cooking”), and preferred kind of
+character (choice from: “Gods, warriors and heroes”, “Everyday
+people”, “Men of sports”, and “Animals and monsters”). The quiz
+can be found at http://chess.madgik.di.uoa.gr:10005/cvsacropolis/.
+In parallel, two new stories matching visitors’ traits and
+film/reading preferences were created through an iterative coauthoring process involving several specialists. The stories were
+based on the characteristics of 2 personas (there were 6 personas
+in total) that had been previously identified at the Acropolis
+museum [20]:
+Theseus: “Theseus, the famous hero of Athens needs your help to
+build an army after exiting the Cretan labyrinth! Join him in an
+exciting adventure to get all sorts of human, animal and divine
+aides!”
+
+Melesso: “Melesso, a noble Athenian woman, talks about her life
+in the city of Athens. She has many things to say! Join her journey
+of memories, choose the ones you want her to share with you, and
+learn about the historical events that affected her life.”
+In the story of Theseus, the visitor interacts mostly with its main
+character in a quest to find different potential fighters that are
+represented by the exhibits (e.g. statues of Hercules or the Rampin
+horse rider). The visitor must decide whether a particular fighter
+should join the fictional team in aiding Theseus. In the process,
+the visitor “meets” other characters and hears stories about Greek
+mythology, war, or sports.
+The second story is different on several levels. Melesso is the sole
+character and describes life in ancient Athens. The story is less
+explorative, but much longer, with many branches and
+opportunities for personalization. It covers different topics,
+including love and marriage, women’s life, the Acropolis temples,
+religion, historical events, etc.
+The CVQ was tested with these two stories during a two-day
+summative usability and user experience evaluation at the
+Acropolis Museum. 28 visitors (16 male and 12 female), all of
+ethnic Greek background, with ages ranging from 11 to 45+,
+participated in the evaluation. The recruitment was mainly based
+on demographic information (such as gender, age or profession).
+At the beginning of the experience, a small tutorial of the (project
+name removed) application was given. Then, users filled in the
+CVQ and one of the two stories was suggested to them, based on
+their elicited profile. To assess the CVQ performance on the
+initial story suggestion phase, a short pre-visit interview was
+conducted. Firstly, users were given a short description of the two
+stories (summarizing the plot and the main topics covered) and
+they were asked to rate them in a five-point Likert scale.
+Participants were only given the short version of the stories, due
+to the fact that the full duration of the stories was more than 30
+minutes each. Secondly, they were asked to justify their ratings,
+explaining what they liked or/and disliked in each story
+description. In addition, after the visit the participants discussed in
+depth with the researchers about exhibits and story elements and
+the results were combined with the pretest results to form the
+ground truth of the study.
+
+user could not choose between stories. The results show that the
+system matched the user’s manual selection of story, in 75% of
+cases (18 right and 6 wrong). However, the qualitative analysis of
+user input revealed that in many cases, users did not have a strong
+or even clear preference over one of the two stories; two users
+actually remarked that they made an impulsive selection, driven
+mainly by their familiarity with the narrating characters. Focusing
+on the 10 cases where a strong preference was expressed, both in
+terms of rating (i.e. having distance greater than one) but also
+during the discussion afterwards, we observed that some visitor
+decisions were solely based on their likes, and especially dislikes
+on particular topics, others were based exclusively on their
+preference over the game-flavor of the Theseus story (independent
+of the topics covered), and the rest of them were influenced by
+both of these factors. Over this set of 10 cases, the system’s
+performance reached 90% (9 right and 1 wrong suggestions),
+indicating that the CVQ has been successfully employed so as to
+measure, prioritize and combine both of the main factors driving
+visitor decisions (i.e. topics covered and type of story).
+Once the pre-visit interview was completed, a story was assigned
+to each visitor by the evaluators (the assignment was predetermined so as to have a balanced set of story experiences) and
+the visit started. The elicited profile (based on the visitor’s CVS
+answers) is used by the CHESS system in order to make
+personalized suggestions and decisions on how the story will
+evolve. Throughout the visit, the initial profile is continuously
+updated based on visitor actions, using implicit feedback
+techniques [23].
+After the experience, the visitors were interviewed again, and
+asked to assess whether the story assigned to them had actually
+evolved according to their likings or not. To answer this question,
+a detailed post-visit interview was conducted; the complete story
+graphs were presented to the visitors along with all the available
+story options and corresponding system decision at each point,
+and visitors rated the system’s decisions in a 3 Likert scale (right
+decision, neutral, wrong decision). Overall, the (project name
+removed) system reached approximately 89% of right decisions
+during the visits performed in the two-day evaluation in the
+Acropolis Museum, thus tailoring them so as to better match the
+visitors’ profiles.
+
+3. EXLPORING EXPLICIT INDIRECT
+PROFILING FURTHER: THE PARALLEL
+STUDY
+Following the positive results about film and reading preferences
+obtained from the pilot study, later confirmed in the summative
+evaluation, new potential indicators of museum preferences were
+explored through a parallel study. In particular, the research team
+investigated how different visitor features and choices might
+correlate with different elements of exhibition design that can be
+personalized. The study was divided in two phases, during which
+information was collected from two different environments: the
+Acropolis Museum and social media.
+
+3.1 In-situ study at the acropolis Museum
+Fig. 1 Evaluation of mobile experience with visitors at the
+Acropolis museum
+User input and ratings were analyzed and they served as “ground
+truth” for evaluating CVQ performance for the initial story
+suggestion phase. The analysis was conducted on 24 viable cases;
+3 users did not perform the CVQ due to time constraints and 1
+
+The purpose of the study at the Acropolis Museum was to
+determine whether visitors’ artistic choices might relate to their
+visiting preferences. A questionnaire was administered in the form
+of an interview (in English, Greek or Spanish) to 100 visitors (37
+male and 63 female). From them, 12 were under 18 years of age,
+42 were between 19 and 35, 34 were between 36 and 55, and 12
+were above 56. Visitors were approached after their visit, either as
+
+they entered the museum café or on their way out of the museum.
+The
+questionnaire
+can
+be
+found
+at
+http://www.chessexperience.eu/v2/index.php?option=com_phoca
+download&view=category&id=15.
+The first questions were demographic (age, gender, nationality,
+and whether they had visited the Acropolis Museum before).
+Although the museum experts did not consider gender as a
+defining factor in the appreciation of museum content, the design
+team reckoned that gender might account for some aspects of the
+user experience [24]. The question about previous visits was
+relevant because the system could suggest different activities for
+returning visitors.
+The next set of questions was related to art preferences, including
+favorite type of music and artistic style. Music preferences were
+collected through an open-ended question to allow participants
+describe their exact predilections. For artistic style, three different
+portraits of Mona Lisa were presented (images not used here for
+copyright purposes, the links are given instead):
+1. the original painting, representing a more classical taste
+2. a pixelated version (Cubea Lisa by David Grebeling,
+http://www.ciphermysteries.com/mona-lisa-but-made-of),
+representing modern art inclinations
+3. a Lego version, representing a fondness for Pop Art (Mona
+Lego by Marco Pece, http://www.ciphermysteries.com/mona-lisabut-made-of).
+
+participants; and 2) control preferences seems to be influenced by
+factors depending on both the visitor (e.g. personality, cognitive
+style) and the situation (e.g. tiredness, desired information depth).
+Consequently, two kinds of questions were included. The first
+kind asked visitors about their level of introversion/extraversion.
+In this case, low user control corresponded to the answers “I
+prefer to do one thing at a time” or “I want clear instructions”,
+while answers like “I prefer to do lots of things at once” or “I
+prefer to figure things out” would correspond to the fully
+interactive option with high user control. The second kind of
+questions, linked to the situation, asked about visitors’ general
+state (“Today I feel tired” / “Today I feel energetic”) and about
+the required depth of information (“Today I want to get a general
+feeling of the place”, “Today I am interested in facts”).
+On the other hand, a personalized museum application should also
+consider the visitors’ location and path. Past research has
+identified and classified different kinds of visiting patterns.
+According to Véron and Levasseur [26], there are four “visiting
+styles”, which can be described by means of animal metaphors
+(ant, fish, butterfly and grasshopper). Given that previous studies
+[21] have shown that visiting style self-reports can provide valid
+information, one multiple-choice question asked visitors to
+describe their movement in the museum, in order to capture their
+visiting style.
+
+Similarly, three paintings of the Acropolis of Athens, all from
+famous Greek artists, were also presented:
+1. a realistic representation of the monument, corresponding to
+classic art preferences (“The Parthenon” by Louis Dupre, 18101837, http://www.wikigallery.org/wiki/painting_216639/(after)Dupre,-Louis/The-Parthenon-Athens)
+2. a more abstract approach, corresponding to modern art
+preferences (“Acropolis” by Agenor Asteriadis, 1897-1977,
+http://lesxianagnosisbiblioudegas.blogspot.no/2013/11/18981977.html)
+3. one corresponding to romantic style art preferences
+(“Acropolis”
+by
+Lykourgos
+Kogevinas,
+http://www.nationalgallery.gr/site/content.php?sel=247&artwork_
+id=71534).
+The next question dealt with language style in texts. Three
+different fragments describing the same museum object (a threebodied monster) were used: a more formal text; a more personal
+text, narrated in first person; and a more playful text, narrated in
+first person and including prompts to the user (Table 1). As the
+narrative style was considered by museum authors a primary
+personalization feature, this question was included in order to see
+possible connections to other variables (e.g. gender, age, etc.).
+The next question asked visitors what activities they would like to
+do in the museum. Such activities included listening to stories,
+playing games, creating museum inspired art, commenting on
+exhibitions, and engaging in a dialogue with other visitors.
+The next set of questions (3 questions) was related to visitors’
+cognitive preferences and features. Some of these questions were
+inspired from the Myers-Briggs Type Indicator for Cognitive
+Style
+[25]
+to
+assess
+extraversion/introversion.
+Extraversion/Introversion, since extraversion/introversion is
+related to user control [21]. Control is an important aspect of
+personalized technologies, but our pilot tests of the questionnaire
+had shown that: 1) a direct question was not always understood by
+
+Fig. 2. A researcher with visitors during the study at the
+Acropolis Museum
+Finally, a question related to visitors’ interest in the museum
+topics was also included. The topics presented were: everyday
+life; mythology; sports; society and politics; history and
+Architecture of the Acropolis; and animals. All these themes
+corresponded to material developed by the museum’s curators and
+educators for the permanent exhibition.
+
+3.2 Study via Social Media
+The second phase of the parallel study on indirect profiling
+intended to collect additional data from the general public using
+social media. The questionnaire was distributed among the
+researchers’ social network (asking friends to share with their
+friends). This was done independently of a museum visit, since we
+only wanted to see if art preferences in general correlated with
+specific preferences in museum content. An online survey was
+prepared and distributed on Facebook. However, it did not use the
+same material, except for one question. The reason was to
+minimize possible bias due to user familiarity with particular
+objects, as for example, it seemed that most visitors interviewed at
+the Acropolis Museum chose the original Mona Lisa picture
+
+possibly because of its artistic importance, instead of taking into
+account the general style. Hence, it was decided that in this new
+study more neutral stimuli, avoiding famous art objects, would be
+used.
+The
+online
+questionnaire
+(available
+at
+http://chess.madgik.di.uoa.gr:8082/cvs-exp/) gathered information
+about the following variables: gender; age; music preferences
+(pop-rock, classical-jazz, ethnic-folk) and art preferences. For art
+preferences three images of tulips were used:
+• one for classic art preferences (“Tulips IV” by Anja Slijkhuis,
+http://www.globalartnet.org/images/tulips-iv);
+• one for abstract art preferences (Step 1 image from
+http://www.dragoart.com/tuts/3924/1/1/how-to-drawtulips.htm);
+• one for pop art preferences (Final Step from
+http://www.dragoart.com/tuts/3924/1/1/how-to-drawtulips.htm).
+
+In addition, the design preferences of users were also recorded
+and three images of armchairs were used:
+• the first represented classic design (Victor Armchair,
+http://yuarmcha.com/green-arm-chairs/);
+• the
+second
+represented
+modern
+design
+(http://i.telegraph.co.uk/multimedia/archive/01666/p_habitatchair_1666734i.jpg);
+• the third represented pop art design (Proust’s Geometrica Chair,
+http://cappellini.it/en/products/sofas-and-armchairs/proustgeometrica).
+Book preferences were also recorded (3 book summaries without
+the title: Dostoyevsky’s “Crime and Punishment”, Larsson’s “The
+Girl with the Dragon Tattoo”, and Robin’s “Still Life with
+Woodpecker”) (Table 2) together with language stylistic
+preferences and label length. Over a period of 2 months 155 valid
+questionnaires were collected and analyzed.
+
+Table 1 Three-bodied monster descrptions
+Formal
+
+First person narration
+
+Informal using questions
+
+The Three-Bodied Monster is a
+composite creature consisting of
+three winged male figures
+conjoined at the waist with
+intertwining snaky tails. The
+Three-bodied Monster in the
+Acropolis museum is a unicum: it
+is the only representation of this
+kind that we have in the Greek
+world. We don’t know who really
+the Three-bodied monster is. He
+is also called ‘Bluebeard’ because
+on each head, the beard was
+painted with blue. The color was
+more intense when the sculpture
+came to light during the
+excavations in 1888.
+
+Don’t be fooled by his wry smiles;
+he’s a proper daemon. Some call
+him Bluebeard because his
+beards were painted a bright
+blue, back in the ancient times.
+You should have seen him when
+he was unearthed in 1888; the
+blue was more intense then.
+We’re not quite sure who he is,
+but no matter who he is, he’s one
+of
+a
+kind.
+It’s
+what
+archaeologists call a unicum,
+meaning
+it
+is
+the
+only
+representation of its kind in the
+Greek world.
+
+Monsters here, monsters there,
+monsters everywhere! Hey, look
+to your right, there’s another
+horrible monster, a daemon with
+three heads! Have you spotted
+it? Come on, it’s staring you in
+the face– all three faces! This
+scary
+monster
+was
+called
+Bluebeard because his beards
+were painted a bright blue. Can
+you see the traces of color?
+
+Classic book preference – Crime
+and Punishment
+Saint Petersburg, year of
+salvation 1866. A double murder
+is committed. Victims: an old
+female usurer and her
+defenseless sister. Perpetrator:
+Raskolnikof, an ex-student
+consumed by the idea that he is
+super-human and is entitled to
+commit murder for the benefit of
+humanity… The action brings reaction and the crime causes
+punishment. What will be his
+punishment? And where will it
+come from?
+
+Contemporary book preference The Girl with the Dragon Tattoo
+Harriet
+Vanier
+disappeared
+thirty six years ago during a
+summer festival at the Swedish
+resort Hendeby. There was a
+police investigation, but there
+was never any trace of the
+sixteen year old girl. Did she run
+away? Was she abducted? Or
+murdered? Nobody knows. – the
+case is closed, everybody has
+forgotten the details. Everybody,
+except her uncle, Henrik Vanier,
+an elderly industrialist who has
+made it a life objective to solve
+the mystery before he dies.
+
+Table 2 Available book choice
+Pop book preference - Still Life
+with Woodpecker
+It is a kind of love story taking
+place in a Camel cigarette pack.
+It reveals the goal of the moon,
+describes the difference between
+criminals and outlaws, examines
+the conflict between an engaged
+socialist
+and
+a
+romantic
+individualist, and paints the
+portrait of a modern society with
+rich Arabs, exiled kings and
+pregnant cheerleaders. Lastly, it
+discusses the mystery of the
+pyramids…
+
+4. RESULTS
+4.1 Results from the Acropolis Museum
+The results of the two studies were statistically analyzed with
+SPSS. Since all data were categorical, Chi Square tests for
+independence of attributes were performed. For the analysis of
+expected low frequencies (e.g. for questions with several possible
+answers), Likelihood Ratio tests were used. Finally, Bonferroni
+corrections were also applied.
+Comparisons from the study at the Acropolis Museum that
+provided statistically significant correlations are summarized here.
+Different personal characteristics and preferences (e.g. age, mood,
+art predilections) were compared to the different important
+personalization variables (e.g. narration style, museum activities,
+museum themes). The main goal was to find indirect ways to link
+stories to different variables.
+We will start with the exhibition design variables. Regarding
+narration style, it was found that it significantly correlates with:
+Age [χ² (6, N=99)= Pearson .034, p<.05], since older visitors
+preferred the formal description of the Three-bodied monster.
+Music choices [χ² (4, N=99)= Likelihood Ration .05, p=.05], since
+people who liked classical music also chose the formal description
+of the Three-bodied monster.
+Game choices [χ² (2, N=99) Pearson = .019, p <.05], since people
+who chose the formal descriptions of the Three-bodied monster
+also stated they were not interested in participating in museum
+games, whereas people who chose the least formal text, stated
+they would like to play games like museum treasure hunting or
+role playing games.
+A second set of results concerns museum activities that visitors
+were likely to engage with, which significantly correlate with:
+Art preferences [χ² (2, N=99) Pearson = .049, p <.05]. Although
+not many visitors chose to play mini games in the museum, it
+seems that this is especially the case of people who chose the
+classic Mona Lisa. This is an important finding, since simply by
+asking visitors’ art preferences in an initial quiz, applications
+could adapt their activities accordingly.
+Museum themes [χ²(1, N=99) Pearson = .041, p <.05]. People
+interested in art activities in the museum chose the mythology
+theme. The mutual dependence between preferred activities and
+themes may constitute a powerful instrument for a successful
+adaptive application, since preferred topics of interest can be
+detected early in the visit.
+Mood [χ²(2, N=99) Pearson = .048, p <.05]. Again, it was not
+surprising to find that people feeling energetic and relaxed were
+more likely to engage in exploratory museum games than people
+who report feeling tired. Consequently, asking visitors’ mood
+should be useful to define the adaptive content, especially
+regarding paths and activities.
+Visiting style [χ² (3, N=99) Pearson = .05, p =.05]. “Butterfly”
+visitors were not very likely to write any museum related
+comments, compared to other visiting styles, and especially to
+“fish” visitors, who seemed to like the option of writing
+comments. An application that could record visitors’ moving
+patterns and extract their visiting style, could suggest different
+museum activities for different styles, adapting to visitors’
+preferences.
+
+A third set of observations regarded the museum themes, which
+correlated with:
+Gender [χ²(1, N=99) Pearson = .039, p <.05]. Women were found
+to like everyday life in Ancient Greece and in particular, aspects
+like clothing, body care, etc. A quiz asking visitors to provide
+gender information could allow effective adaptation.
+Place of origin [χ²(6, N=99) Pearson = .039, p <.05]. Greeks,
+other Mediterranean and Northern Europeans were mostly
+interested in mythology. On the contrary, visitors from Oceania
+(Australia and New Zealand) were not very interested in it.
+Knowing visitors’ place of origin may be important in
+determining what information about exhibits will be presented.
+However, the present study used a limited sample (Greece=40,
+North America=20, Oceania=10, Other Mediterranean =8, North
+Europe = 11, South America = 5, Other =5), implying that all the
+statistical analysis can only show possible indications, worth
+studying further though in future works.
+Age [χ²(3, N=99) Pearson = .002, p <.05]. Younger visitors were
+more interested in mythology than older visitors. Again, visitors’
+age can give important information about different thematic
+preferences and should definitely be included as a personalization
+instrument in adaptive applications.
+Other museum themes [χ²(1, N=99) Pearson = .044, p <.05; χ²(1,
+N=99) Pearson = .039, p <.05]. Visitors who did not like mini
+games, did not like themes about sports in Ancient Greece either.
+On the other hand, visitors who were not interested in sports were
+not interested in animals in ancient Athens either. It seems that
+there was a correlation between different themes. This is a useful
+information for adaptive applications, which may extrapolate
+information obtained with the quiz to avoid asking too many
+questions and at the same time allow more effective adaptivity.
+Returning visitors [χ²(1, N=99) Pearson = .017, p <.05]. People
+who had come to the museum before seemed to be more
+interested in society and politics than people who visited for the
+first time. It seems plausible that having previously been in
+contact with the exhibits’ basic information, visitors wanted to
+explore other aspects in their returning visit. Thus, a profiling quiz
+should take this piece of data into account, so that the application
+presents basic or “alternative” knowledge.
+The analyses also provided relevant results regarding visitor
+personal features and choices. The first set of results concerns
+visiting style, which significantly correlated with:
+Place of origin [χ² (18, N=99) Pearson = .013, p <.05]. This
+correlation has been evidenced by other studies (Antoniou and
+Lepouras 2010). Hence, it was decided to pursue further the
+investigation, by dividing the participants into 7 main
+geographical areas. The results showed that Greeks followed
+mostly an “ant” visiting style, with “fish” in second position. It
+seems that Greeks had a clear preference for linearity of
+movement, whereas northern European seemed to follow nonlinear patterns in their movement (“butterfly” visiting style). It is
+interesting to note that no Greek showed “grasshopper” behavior.
+Although the representability of the sample requires further
+research, the current and other studies seem to point at a strong
+connection between visitor’s place of origin and museum
+movement. If this is the case, then future museum applications
+should take into account visitors’ origin and adapt accordingly.
+Cognitive traits [χ² (3, N=99) Pearson = .019, p <.05]. Previous
+studies (Antoniou and Lepouras 2010) have also indicated that
+
+visiting style correlates with cognitive style. In our case, the most
+extravert visitors showed a “fish” behavior; while the most
+introvert visitors showed, by far, an “ant” behavior. As above, the
+system’s awareness of visitors’ personality would allow
+suggesting different visiting approaches (e.g. more collaborative
+or individual). At this point it is important to note that cognitive
+traits in this study were assessed with only 3 questions from the
+MBTI, implying that extraversion and introversion here are rather
+indications of extraverted/introverted behavior and not definite
+personality analysis.
+Mood [χ² (6, N=99) Likelihood Ratio .02, p <.05]. More active
+visitors were more likely to show “ant” behavior. In addition,
+active visitors did not show any “grasshopper” behavior.
+Understandably, tired visitors do not have the stamina to see each
+and every exhibit on detail, and consequently adopt different
+visiting styles. Therefore, a quiz question asking visitors about
+their mood upon arrival provides valuable information about their
+potential moving patterns, thus allowing for an adaptive system to
+suggest the most suitable museum paths.
+The second set of results regards other art preferences, which
+correlated with:
+Art preferences [χ² (4, N=99) Pearson = .008, p <.05]. Most
+people who chose the original Mona Lisa also chose the classic
+postcard of the Acropolis, which indicates a consistency in
+people’s artistic preferences. This is a useful information for an
+adaptive application, which may extrapolate information obtained
+with the quiz to avoid asking too many questions and at the same
+time allow more effective adaptivity.
+Returning visitors [χ² (2, N=99) Pearson = .029, p <.05]. People
+who chose the romantic style postcard had been in the museum
+before, while people who chose the classic postcard had not. It
+may seem that first- timers were interested in a realistic version of
+the monument, whereas returning visitors, having seen the
+monument before, were more interested in alternative
+interpretations of the site. This is consistent with the correlation
+between returning visits and museum themes: if indeed returning
+visitors allow space for other interpretations, it could be used to
+adapt the quantity and quality of information in cultural heritage
+personalized applications.
+Cognitive traits [χ² (2, N=99) Pearson = .001, p <.05]. This is an
+interesting finding, since this very high correlation indicates that
+people who chose the classic postcard were mostly introverts,
+while people who chose the romantic one were mostly extraverts.
+As cognitive traits are linked to both visiting style (see above) and
+art preferences, knowing the latter might provide valuable
+information to suggest different paths and visiting approaches
+(e.g. collaborative activities). The same results are observed when
+all extraversion questions were combined [χ² (2, N=99) Pearson =
+.034, p <.05], which validates the findings.
+The last results of the study conducted in situ at the Acropolis
+Museum concern visitors’ mood, which seems to be heavily
+affected by age [χ²(6, N=99) Pearson = .017, p <.05]. Not
+surprisingly, the older visitors are, the more tired they report.
+Since visitors’ mood also affected their visiting style (see above),
+personalized applications should ask for the age and adapt the
+visit to this variable (e.g. tend to propose more relaxed, “fish”-like
+paths to elder people).
+
+4.2 Results from Social media
+The second part of the parallel study analyzed data gathered from
+Facebook. There were only three significant findings, although
+only one can be applied to the design of museum personalized
+applications. Firstly, it was found that age and gender highly
+correlated, which implies a biased sample due to its limited size
+(N=155). Secondly, there was a correlation between gender and
+furniture style preferences [χ² (2, N=155)< .005 and Likelihood
+Ratio (2, N=155) < .005]. It seems that males preferred modern
+furniture compared to other styles like classic or pop. Thirdly, and
+most interesting for us, gender highly correlated with text style
+preferences. In particular, women seem more open to alternative
+text styles, like personal and informal, whereas men seem to
+prefer standard and formal text styles [χ² (2, N=155) <.05 and
+Likelihood Ratio (2, N=155) < .05]. For the design of museum
+adaptive technologies, this finding implies that women could
+easily accept a more playful and informal text or narration style.
+
+5. DISCUSSION
+Profiling for museum application personalization is a very
+challenging task. Visitors are not only unique personalities with
+specific goals and preferences; they are also affected by particular
+circumstances, such as mood or available time for the visit. Any
+profile initialization method has to take into account all these
+factors in order to be truly effective and usable in a museum
+context. It needs also to be based on an appealing and nonintrusive design, and to be brief and interesting.
+The study presented in this paper produced useful results
+regarding quiz design on several aspects of the museum
+experience. Correlations between exhibition elements (topics,
+activities, and text style), visitor choices (in art, style, and music)
+and personal traits (age, gender, origin, personality, mood,
+returning visit and visiting style) were found. The personalization
+approach followed in the present work combines situational
+dependent personal traits (like mood, visiting style, etc) with
+situation independent traits (like extraversion, age, gender) and
+exhibition elements, showing specific relations among all these.
+Asking about gender and age may be also useful for the
+personalization of topics and narrative style. Women seem to
+prefer empathic approaches like information on people’s lives and
+fantasy tales. Equally, visitors’ country of origin has a role in the
+topics they are interested in. Museum professionals should take
+into account these different cultural perspectives, and design
+contents that are meaningful to different visitors or that help them
+better understand the museum’s own cultural context.
+Applications also should take into account whether visitors have
+already visited the museum. In this case, the system should
+propose topics other than the basic, descriptive information about
+exhibits. It seems logical that visitors who have already been at
+the museum will have different museum interests than newcomers. Moreover, it is worth mentioning here that returning
+visitors also wanted to go beyond the realistic representation of
+the monument (unlike new-comers) and move towards less
+realistic representations that emphasize on emotions, as romantic
+art does. It might be the case that the first time visitors view a
+monument, they are engaged in rational cognitive processes in
+order to understand the characteristics of the place, and after they
+have done that, they are able to engage in more affective
+processes. In any case, this is a very interesting finding, which
+definitely requires further psychological research.
+
+Visitors’ mood is also a good indicator for personalization, since
+it influences the kind of activities visitors would like to engage
+with. The more energetic the visitor feels, the more he/she is
+willing to undertake explorative activities and exchange with
+others. Finally, different movement patterns (visiting style)
+appeared to be related with different museum activities. The
+specific results obtained in this study are difficult to interpret, but
+may be explained by the third level of correlation, where
+associations between personal characteristics have been found. In
+particular, visiting style is related to country of origin, personality,
+and mood. It is therefore possible that the wish or not to live
+written comments respectively by “fish” and “butterfly” visitors is
+related to their cultural background and/or their level of
+extroversion/introversion. What seems clear is that introverts tend
+to follow “ant” patterns, while extraverts move like “fishes” (who
+expressed their wish to leave comments). On the other hand,
+visitors who feel energetic tend to visit the exhibition with more
+detail (“ant” style) than those who are tired. Considering that it is
+difficult for visitors to directly reflect and report on their
+movement patterns in the museum, having indirect ways to
+estimate their visiting style might be very helpful.
+In addition, Art preferences (including painting and music) are
+powerful instruments for indirect profiling and personalization,
+since they can be related to several elements: narrative style
+(music), preferred activities (painting), and topics of interest
+(style). The general conclusion to be drawn for personalization is
+that visitors who like “classical” art, prefer more “traditional”
+museum experiences.
+Certain correlations can also allow extrapolations, and therefore
+the quiz can be shorter (by using questions that are related to
+several variables) and more engaging (by using “catchy” instead
+of challenging or sensitive questions). For example, visiting style
+(see above) or personality. Adapting psychometric questionnaires
+to ask visitors about their character may be tricky. Art preferences
+come in handy again, as the results of this study support their
+direct correlation to personality types. In our case, classic artistic
+preferences imply higher chances of introversion, while more
+romantic styles imply higher changes of extroversion.
+A similar kind of extrapolation could be performed with mood.
+Visitors’ disposition influenced the activities they would like to
+undertake at the museum, and is linked to both visiting style (see
+above) and age. It would be logical to link visiting style, activities
+and age through mood and assume that the older the visitor, the
+lighter the path and activities he/she will like to follow.
+Finally, there are correlations between visitor choices and
+between museum features. In the first case, different kinds of
+artistic styles or presentation formats correlate between them (e.g.
+“classical” Mona Lisa with “classical” Acropolis). In the second
+case, independent museum themes that were conceptually linked
+were also statistically linked (e.g. sports and animals). Moreover,
+specific themes were also linked with specific activities (e.g. art
+and mythology). This intellectual consistency may prove very
+helpful to personalize more in depth information and museum
+activities from an initial general question about interests.
+It is interesting to note here that during the evaluation process
+many participants were interested in finding out what their
+answers might mean for their personality. It seemed that many
+viewed this quiz as a pop psychology test and were interested in
+the results. In addition, in the Melesso story there was one such
+quiz, as part of the activities associated with that character, called
+“"What role would you have in the ancient Athens Panathenaea
+
+procession?". It was very interesting to see how involved
+participants became, since information as given back to the users
+concerning her personality. Thus, creating quizzes that give
+(personality) information back to the user are important
+participation motivators and our future work will explore this
+aspect further.
+
+6. CONCLUSIONS
+This paper presented a study related to indirect user profiling in a
+museum context. In order to investigate how different visitor
+characteristics and choices might correlate with different elements
+in a museum experience that can be personalized, quiz-like
+questionnaires were designed for the Acropolis Museum and
+administered both in situ and through social media.
+Our experience confirms that there is a trade-off between using
+questions that can lead to concrete decisions on user preferences
+in a time efficient manner and making the quiz both an accurate
+profiling tool for authors and an interesting experience for
+visitors. If the aim is to transform the traditional museum visit to
+an appealing storytelling experience, the quiz needs to become an
+appropriate introduction to the experience; it must be short and
+intriguing, and attempt to record the user’s profile in a subtle and
+non-intrusive manner. Our study seems to indicate that art
+preferences (i.e. film, visual arts, music) and other visitor
+characteristics (i.e. age, gender, mood, etc.) may be a powerful
+instrument for personalization. However, this is an exploratory
+study, which aims to provide preliminary results that open the
+way for further research in several directions.
+Although our research design was tailored to the user profiles and
+the storytelling purposes of the Acropolis Museum, our findings
+can be extrapolated in different ways, depending on the particular
+goals of each museum. As an example, we provide two possible
+scenarios. In the first scenario, a museum would like to offer
+collaborative and/or gaming activities. In this case, age, mood,
+origin, preferred topics, and artistic preferences might be
+important factors to gather through a profiling application. In the
+second scenario, a museum would like to offer multiple stories of
+different themes (possibly based on different interpretations of the
+exhibits). In this case, it would be useful to collect information
+about visitors’ gender, age, place of origin, artistic preferences,
+and whether it is or not their first visit.
+In conclusion, a carefully designed visitor quiz can lead to
+effective personalization and consequently enhance the museum
+experience. Although asking direct questions could provide more
+accurate information, we observed that people find the indirect
+approach of a quiz interesting and intriguing. Based on our
+observations on participant motivators, our future work will focus
+on the actual quiz itself beyond the context of storytelling. We are
+planning to adopt a pop psychology approach in the quiz design,
+such as those that have become popular in social media (e.g.
+“What is your dream holiday place?” “Which famous character
+are you?”). We would then like to test this approach in a real
+museum setting, using the inferred user profile to offer different
+visit paths in the exhibition. In addition, marketing theory will be
+considered, especially related to hedonic consumption to study
+further demographic characteristics, like age, gender, cultural
+background and their relation to museum content (e.g. [27]).
+
+7. ACKNOWLEDGMENTS
+The present study was conducted within the framework of the
+CHESS project. CHESS (Cultural Heritage Experiences through
+Socio-personal interactions and Storytelling) was co-funded by
+
+the European Commission within FP7 Framework Programme.
+We thank all of the project team members for their contribution.
+We would especially like to thank Manolis Tsangaris, Vassilis
+Kourtis, Manolis Synodinos, and Fabien Mairesse for their
+contribution in the development of the CHESS quiz system, as
+well as Stavrina Poulou for her help in conducting the large study
+at the Acropolis Museum.
+
+8. REFERENCES
+[1] Aoidh, E.M., Bertolotto, M., and Wilson, D.C. 2012.
+Towards dynamic behavior-based profiling for reducing
+spatial information overload in map browsing activity.
+GeoInformatica, 16, 409–434.
+[2] Noor, S., and Martinez, K. 2009. Using social data as context
+for making recommendations: an ontology based approach.
+Proceedings of the 1st Workshop on Context, Information
+and Ontologies (CIAO '09), Jose Manuel Gomez-Perez,
+Peter Haase, Marcel Tilly, and Paul Warren (Eds.). ACM,
+New York, NY, USA, Article 7 , 8 pages.
+DOI=10.1145/1552262.1552269.
+[3] Lykourentzou, I., Claude, X., Naudet, Y., Tobias, E.,
+Antoniou, A., Lepouras, G., and Vassilakis, C. 2013.
+Improving museum visitors' Quality of Experience through
+intelligent recommendations: A visiting style-based
+approach. Proceedings of the Intelligent Environments
+(Workshops), 507-518.
+[4] Tan, E.S., and Oinonen, K. 2009. Personalising Content
+Presentation in Museum Exhibitions - A Case Study.
+Proceedings of the 2009 15th International Conference on
+Virtual Systems and Multimedia (VSMM '09). IEEE
+Computer Society, Washington, DC, USA, 232-238.
+DOI=10.1109/VSMM.2009.42.
+[5] Gaeta, A., Gaeta, M., and Ritrovato, P. 2009. A grid based
+software architecture for delivery of adaptive and
+personalised learning experiences. Personal Ubiquitous
+Comput. 13 (3), 207-217. DOI=10.1007/s00779-007-0183-y.
+[6] Findlater, L., and McGrenere, J. 2004. A comparison of
+static, adaptive, and adaptable menus. Proceedings of the
+SIGCHI Conference on Human Factors in Computing
+Systems (CHI '04). ACM, New York, NY, USA, 89-96.
+DOI=10.1145/985692.985704.
+[7] Walczak, K., Wojciechowski, R., and Cellary, W. 2006.
+Dynamic interactive VR network services for education.
+Proceedings of the ACM symposium on Virtual reality
+software and technology (VRST '06). ACM, New York, NY,
+USA, 277-286. DOI=10.1145/1180495.1180552.
+[8] Jacucci, G., Spagnolli, A., Chalambakis, A., Morrison, A.,
+Liikkanen, L., Roveda, S., and Bertoncini, M. 2009. Bodily
+Explorations in Space: Social Experience of a Multimodal
+Art Installation. Proceedings of the 12th IFIP TC 13
+International Conference on Human-Computer Interaction:
+Part II (INTERACT '09), T. Gross, J. Gulliksen, P. Kotzé, L.
+Oestreicher, P. Palanque, R. Oliveira Prates, and M.
+Winckler, Eds. Springer-Verlag, Berlin, Heidelberg, 62-75.
+DOI=10.1007/978-3-642-03658-3_11.
+[9] Feinberg, M., Geisler, G., Whitworth, E., and Clark, E. 2012.
+Understanding personal digital collections: an
+interdisciplinary exploration. Proceedings of the Designing
+Interactive Systems Conference (DIS '12). ACM, New York,
+NY, USA, 200-209. DOI=10.1145/2317956.2317988.
+
+[10] Weilenmann, A., Hillman, T., and Jungelius, B. 2013.
+Instagram at the museum: communicating the museum
+experience through social photo sharing. Proceedings of the
+SIGCHI Conference on Human Factors in Computing
+Systems (CHI '13). ACM, New York, NY, USA, 1843-1852.
+DOI=10.1145/2470654.2466243.
+[11] Lin, Y., Bai, X., Ye, Y., and Real, W. 2012. Constructing
+narratives using fast feedback. Proceedings of the 2012
+iConference (iConference '12). ACM, New York, NY, USA,
+486-487. DOI=10.1145/2132176.2132258.
+[12] Talavera, A.S., Darias, A.J.R., Rodriguez, P.D., and Ávila,
+L.A. (2012). Facebook, heritage and tourism reorientation.
+The cases of Tenerife and Fuerteventura (Canary Isles,
+Spain). Int. J. Web Based Communities, 8 (1), 24-39.
+DOI=10.1504/IJWBC.2012.044680
+[13] Antoniou, A., Lykourentzou, I., Rompa, J., Tobias, E.,
+Lepouras, G., Vassilakis, C., and Naudet, Y. 2013. User
+Profiling: Towards a Facebook Game that Reveals Cognitive
+Style. Games and Learning Alliance, 349-353. Springer
+International Publishing.
+[14] Fosh, L., Benford, S., Reeves, S., and Koleva, B. 2014.
+Gifting personal interpretations in galleries. Proceedings of
+the SIGCHI Conference on Human Factors in Computing
+Systems (CHI '14). ACM, New York, NY, USA, 625-634.
+DOI=10.1145/2556288.2557259.
+[15] Ardissono, L. Kufli, T., and Petrelli, D. 2012.
+Personalization in cultural heritage: the road travelled and the
+one ahead. User Modeling and User-Adapted Interaction, 22
+(1-2), 73-99. DOI=10.1007/s11257-011-9104-x.
+[16] Falk, J.H., Koran Jr., J.J., Dierking, L.D., and Dreblow, L.
+2010. Predicting Visitor Behavior. Curator: The Museum
+Journal, 28, 249–258.
+[17] Hameed, M.A., Ramachandram, S., and Al Jadaan, O. 2012.
+Information Gain Clustering through Prototype-Embedded
+Genetic K-Mean Algorithm (IGCPGKA): a novel heuristic
+approach for personalisation of cold start problem.
+Proceedings of the Second International Conference on
+Computational Science, Engineering and Information
+Technology (CCSEIT '12). ACM, New York, NY, USA,
+390-395. DOI=10.1145/2393216.2393282.
+[18] Lin, C., Xie, R., Guan, X., Li, L., and Li, T. 2014.
+Personalized news recommendation via implicit social
+experts. Inf. Sci. 254, 1-18. DOI=10.1016/j.ins.2013.08.034.
+[19] Kuflik, T., Stock, O., Zancanaro, M., Gorfinkel, A., Jbara, S.,
+Kats, S., Sheidin, J., and Kashtan, N. 2011. A visitor's guide
+in an active museum: Presentations, communications, and
+reflection. J. Comput. Cult. Herit. 3 (3), Article 11, 25 pages.
+DOI=10.1145/1921614.1921618.
+[20] Roussou, M., Katifori, A., Pujol, L., Vayanou, M., and
+Rennick-Egglestone, S.J. 2013. A life of their own: museum
+visitor personas penetrating the design lifecycle of a mobile
+experience. CHI '13 Extended Abstracts on Human Factors
+in Computing Systems (CHI EA '13). ACM, New York, NY,
+USA, 547-552. DOI=10.1145/2468356.2468453.
+[21] Antoniou, A., and Lepouras, G. 2010. Modeling visitors'
+profiles: A study to investigate adaptation aspects for
+museum learning technologies. J. Comput. Cult. Herit. 3 (2),
+Article 7, 19 pages. DOI=10.1145/1841317.1841322.
+
+[22] Bonis, B., Stamos, J., Vosinakis, S., Andreou, I.,and
+Panayiotopoulos, T. 2009. A platform for virtual museums
+with personalized content. Multimedia Tools Appl. 42 (2),
+139-159. DOI=10.1007/s11042-008-0231-2.
+[23] Vayanou, M., Karvounis, M., Katifori, A., Kyriakidi, M.,
+Roussou, M., Ioannidis, Y. 2014. The CHESS Project:
+Adaptive Personalized Storytelling Experiences in Museums,
+UMAP Project Synergy Workshop
+[24] Sheng, C. W., & Chen, M. C. (2012). A study of experience
+expectations of museum visitors. Tourism
+management, 33(1), 53-60.
+
+[25] Briggs Myers, I., and Myers, P.B. 1995. Gifts differing:
+Understanding personality type. Mountain View, CA:
+Davies-Black Publishing.
+[26] Veron, E., and Levasseur, M. 1983. Ethnographie de
+l’exposition: l'espace, le corps et le sens. Centre Georges
+Pompidou, Paris: Bibliothèque Publique d’Information.
+[27] Hirschman, E.C., and Holbrook, M.B. 1982. Hedonic
+consumption: emerging concepts, methods and propositions.
+The Journal of Marketing, 92-101.
+
+

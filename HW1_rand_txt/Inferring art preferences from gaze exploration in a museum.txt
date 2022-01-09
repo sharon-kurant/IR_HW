@@ -1,0 +1,664 @@
+Inferring Art Preferences from Gaze Exploration in a Museum
+
+Sylvain Castagnos
+CNRS - LORIA - Univ. of Lorraine
+Vandoeuvre, France
+sylvain.castagnos@loria.fr
+
+Florian Marchal
+CNRS - LORIA - Univ. of Lorraine
+Vandoeuvre, France
+florian.marchal@loria.fr
+
+Alexandre Bertrand
+IDMC - Univ. of Lorraine
+Nancy, France
+
+alexandre.bertrand5@etu.univ-lorraine.fr
+
+Morgane Colle
+IDMC - Univ. of Lorraine
+Nancy, France
+morgane.colle8@etu.univ-lorraine.fr
+
+Djalila Mahmoudi
+IDMC - Univ. of Lorraine
+Nancy, France
+djalila.mahmoudi2@etu.univ-lorraine.fr
+
+ABSTRACT
+This paper is a first step towards identifying the links between
+the characteristics of gaze behaviour and visitor preferences in a
+museum. In the long term, the real-time analysis of visitors’ gaze
+should allow a fine estimation of their interest for the different
+artworks exhibited and should replace the fastidious and time-
+consuming elicitation of preferences commonly used in traditional
+recommender systems. To study these links, we carried out a user
+study at the Nancy Museum of Fine Arts in the North-East of France.
+This pilot study involved 13 volunteers who had the opportunity to
+freely explore the museum and contemplate hundreds of artworks
+for more than 50 minutes on average in May 2018. We were able to
+analyze millions of fixation points so as to find correlations between
+the number of fixation points per painting, the time spent looking
+at a painting, and whether or not this painting is appreciated. We
+plan to extend this study to 100 visitors in the coming months.
+
+CCS CONCEPTS
+• Human-centered computing → User studies; • Information
+systems → Recommender systems.
+
+KEYWORDS
+cultural heritage, implicit user modelling, gaze behaviour, user
+study
+
+ACM Reference Format:
+Sylvain Castagnos, Florian Marchal, Alexandre Bertrand, Morgane Colle,
+and Djalila Mahmoudi. 2019. Inferring Art Preferences from Gaze Explo-
+ration in a Museum. In 27th Conference on User Modeling, Adaptation and
+Personalization Adjunct (UMAP’19 Adjunct), June 9–12, 2019, Larnaca, Cyprus.
+ACM, New York, NY, USA, 6 pages. https://doi.org/10.1145/3314183.3323871
+
+1 INTRODUCTION
+Museums are places of art and culture. Very diverse, they are present
+all over the world, whether in small towns or in capitals, and brew
+
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for components of this work owned by others than ACM
+must be honored. Abstracting with credit is permitted. To copy otherwise, or republish,
+to post on servers or to redistribute to lists, requires prior specific permission and/or a
+fee. Request permissions from permissions@acm.org.
+UMAP’19 Adjunct, June 9–12, 2019, Larnaca, Cyprus
+© 2019 Association for Computing Machinery.
+ACM ISBN 978-1-4503-6711-0/19/06. . . $15.00
+https://doi.org/10.1145/3314183.3323871
+
+an audience with very broad horizons, from the art expert to the cu-
+rious tourist. To attract visitors, museums must reinvent themselves,
+propose new services, and take advantage of the digital revolution
+to transform the visitor experience. Museum guides open the way
+to more interactivity, more content, and allow visitors’ paths to be
+personalized thank to recommender systems.
+
+In this context, the goal of recommender systems is to maximize
+visitor satisfaction by ensuring, for example, that they do not miss
+works that may interest them [16], surprise them or experience
+positive emotions whatever their level of knowledge in art [18],
+that they learn something [9] and/or that they engage a reflection
+around a theme [8]. In order to achieve these goals, a recommender
+system must build a reliable profile of the active user. However,
+collecting visitors’ museum preferences is a very difficult task. Cul-
+tural heritage suffers far more from cold start than other application
+domains like VOD, online music services or e-commerce. Indeed,
+visitors often come only once to the museum, meaning that the
+user modelling process has to be achieved in a single session. To
+initialize the profiles, it is possible to ask the visitors to choose
+exhibits that they like in the catalog before the visit, in the same
+way they choose a small panel of TV shows or films when they
+connect for the first time to a service like Netflix.1 Nevertheless, it
+is difficult for visitors to form an opinion on exhibits from thumb-
+nails, as the feeling is not the same. In addition, visiting time should
+be primarily spent exploring the museum, rather than making the
+preferences explicit in a mobile application.
+
+Recently, within the frame of the European project H2020 Cross-
+Cult2, we have proposed a recommender system based on visitors’
+behaviours in museums [17]. These recommendations in a mu-
+seum context presuppose to have the location of visitors to whom
+they address. By observing the way they behave in the museum,
+we aim at inferring their implicit preferences and characteristics
+on-the-fly during their visit. We argue that this is a good way to
+support CH exploration for first-time and anonymous visitors, by
+recommending them a personalized route that is dynamically re-
+computed periodically according to where they go, what they see
+and how they behave. We can for example hypothesize that the
+time spent looking at a specific painting may reveal an interest for
+this painting. This hypothesis has to be validated so as to confirm
+the relevance of a recommender system based on visitor behaviour.
+In order to do so, we designed a user study in the museum of fine
+
+1https://www.netflix.com/
+2https://www.crosscult.eu/
+
+Personalized access to Cultural Heritage (PATCH 2019) WorkshopUMAP’19 Adjunct, June 9–12, 2019, Larnaca, Cyprus425arts of Nancy3 in which visitors are free to explore the museum
+while wearing eye-tracking glasses and to provide their preferences
+regarding the exhibits of the museum at the end of the visit. Our
+goal is then to see if we can find correlations between some gaze
+data and the expressed preferences. Such correlations would tend
+to prove that it is possible to use exploratory and gaze behaviour to
+infer visitor preferences and adapt recommendations accordingly.
+We conducted a pilot study with 13 participants and we will discuss
+the results in this paper.
+
+The rest of this paper is organized as follows: Section 2 will
+present the state-of-the-art as regards the analysis of visitors’ be-
+haviour in museums. Section 3 will introduce our research hypoth-
+esis. Section 4 will describe our experiment protocol. Section 5 will
+summarize the results of our user study. Finally we will conclude
+the paper and present our perspectives.
+
+2 RELATED WORK
+Museum institutions have the desire to know their audience. Indeed,
+the large number of surveys carried out by questionnaire testifies
+to this [3, 4]. These surveys aim to gather on-site information
+about their visitors such as gender, age, educational level, family
+status, the means of transportation to the museum, the intention
+to visit, the duration of the visit, the cost or the motivations. There
+are also national surveys. In France, for example, the Ministry of
+Culture publishes each year a report entitled Patriostat on museum
+attendance [5]. All these reports allow to know if a collection or
+a temporary exhibition was successful, and at the same time, to
+know the public for each collection or more widely for each type of
+museum - Fine Arts, Contemporary Art, Archeology, Military, etc.
+In parallel, some studies aim at determining the visitors’ profile
+– socio-professional category, personal characteristics – and their
+behaviours, which can be studied for example via architectural or
+ethnographic approaches.
+
+The architectural approach, also called spatial syntax, is a field of
+research initiated in the 1980s by Hillier and Hanson. The purpose
+of their work was to highlight the link between the architecture of
+the place and the activity of people, alone or in groups, whether
+they are living or visiting the place. The basic idea is that archi-
+tectural variables have a social dimension. Thus, according to this
+paradigm, architecture prefigures behaviour, influences and condi-
+tions social relations. Among the 3 interesting variables from this
+area of research, the permeability determines, for a given space,
+the ability of an individual to move from one room to another. The
+permeability will be high if a large number of doors or transitional
+spaces - corridors, lifts - allow free movement. Another important
+notion in spatial syntax is visibility: what an individual can perceive
+from a given point in space. Benedikt names this two-dimensional
+space surface an isovist, and has studied its various properties [13].
+According to him, isosists affect our judgment of space, and could
+therefore predict it in a closed architectural space. Finally, the third
+variable is the sequencing: the classical architectural plans are trans-
+formed into undirected related graphs, with the nodes representing
+the museum rooms and the edges the permeability relationships.
+While the architectural approach makes it possible to draw the
+main behavioural trends of a population, it struggles to explain
+
+3https://musee-des-beaux-arts.nancy.fr/
+
+individual behaviours. Other studies then approach the analysis
+of visitor behaviour from an ethnographic point of view. Veron
+and Levasseur carried out a study during which they observed
+the routes, attitudes and comments of of the visitors [21]. A video
+recording device was used to track the movements of individuals.
+After their visit, the visitors were thoroughly interviewed. Course
+analysis resulted in five categories, which were eventually reduced
+to four types of visitors (ants, fishes, grasshoppers, and butterflies).
+The classification was made on the basis of the mode of crossing
+the space, the distance at which the visitor looks at a work, the
+order of the visit and the variations of this order. The ants stand
+at a relatively close distance from the works, scrupulously follow
+the chronology of the exhibition, read their descriptions and rarely
+cross the empty spaces. The fishes describe a circular trend trajec-
+tory while remaining in the center of the room. They give little time
+to visit and rarely stop. Grasshoppers make successive leaps punctu-
+ated by stops at exhibits that interest them. Finally, butterflies have
+an unpredictable course, guided by chance or for their attraction
+to certain exhibits. This topology was made from data collected
+in a single showroom. Zancarano et al. [23] sought to validate the
+classification of Veron and Levasseur. To do this, they equipped
+143 subjects with a guide device, for the visit of the Torre Aquila
+museum in Italy. An infrared transmitter and receiver system was
+used to locate visitors and record their movements. They then used
+the empirical data they collected – visit time, percentage of exhibits
+seen, order of the visit – and have managed to categorize them
+into 4 clusters using two supervised learning techniques: a Recur-
+rent Artificial Neural Network and Kmeans. They then compared
+the characteristics of the clusters with the Veron and Levasseur
+categories, which favours the validation of the classification. Subse-
+quently, as a continuation of this study, Kuflik et al. [11] wanted to
+know if the different types of behaviour could be predicted during
+the early stages of visits. For this, they collected visitor data to be
+able to model their behaviour by a vector every two minutes, cu-
+mulatively, and tried to predict the type of visitor at early stages of
+the visit. The results show that the quality of the predictions varies
+according to the category of visit and the moment at which the
+prediction is made. The authors show that visitors do not always
+behave consistently - they may change their style during the visit.
+However, the prediction of their type of visit at early stages remains
+possible.
+
+Although the classification of Veron and Levasseur is widely
+used, it is not the only one. For example, Falk [6], in a study fo-
+cusing on what visitors remember from their visits and what they
+remember about them learn, studied transcripts of telephone in-
+terviews of 22 subjects who had visited museums in the last six
+months. From this study, he constructed five categories of visitors,
+based on what motivates them to come to the museum: the Ex-
+plorers, motivated by their curiosity; the Facilitators, who see the
+visits as social experiences, times of sharing with those who accom-
+pany them; the Professionals, who want to link their passions to
+what they see in the museum, to satisfy an objective;the Experience
+Seekers who see the visit as an essential experience: having been
+there and having seen something; and finally the Rechargers, who
+see the museum as a refuge and seek to live a restorative, even
+spiritual and contemplative experience. We see here, with these
+two classifications, that museum visitors can be characterized in
+
+Personalized access to Cultural Heritage (PATCH 2019) WorkshopUMAP’19 Adjunct, June 9–12, 2019, Larnaca, Cyprus426several ways: as Veron and Levasseur by the way they move around
+the museum, as Falk by the search for the motivations of the visits.
+In summary, both architectural and ethnographic approaches
+allow us to analyze the exploratory behaviour of visitors and the
+associated flows. Nevertheless, they struggle to determine precisely
+what attracts attention and arouses the interest of visitors. Very
+recently, Kuflik [10] proposed a research agenda in which mobile
+eye-trackers should be used as offline as well as online educational
+aid in art appreciation, since the technology is now mature enough.
+Eye-tracking systems have been used in museums since the 2000s.
+For example, Wooding et al. [22] installed a fixed and autonomous
+eye-tracking device. A visitor sits down, and the eye-tracker is
+automatically calibrated. Then the visitor views a succession of
+exhibits on the screen in front of him. The AOIs are then highlighted
+and studied. More than 5000 subjects participated in this study over
+nearly three months. However, this experiment was not in the
+natural situation of a museum visit.
+
+At the Indianapolis Museum of Art, a study was conducted to
+evaluate the applications of oculometry in museums [20]. The ob-
+jective was to know if it was possible to obtain an accurate measure
+of the time spent in front of an exhibit and the points of view of
+people who stop in front of the work without having to calibrate
+the eye-tracker. Due to the characteristics of infra-red emitters, the
+area in which the person was to be placed was quite small, and he or
+she had to sit down, which makes it difficult to study the ecological
+conditions of the visit. The evaluation was therefore conducted for
+a single table, and once the data were collected and analyzed, the
+authors concluded that their system was not adequate.
+
+Milekic conducted a study in which an eye-tracker is positioned
+above an artwork [14]. Once the visitor is positioned in front of
+what he calls the viewing station, the viewpoints are detected, and
+audio information is delivered based on the elements being viewed.
+Mokatren et al. [15] proposed a similar system in which a mobile
+eye-tracker identifies objects of interest, and delivers multimedia
+content to museum visitors.
+
+The advantages of using an eye-tracker in a museum context
+are numerous: it makes it possible to investigate the behaviour of
+visitors without any conscious contribution on their part, without
+them having to verbalize what they do, or even to access behaviours
+that they would not be able to explain, or that they do not even have
+conscience to perform. It also provides access to memory, attention
+and other cognitive functions of the subjects. With the arrival of
+more mature technologies, the uses of eye-trackers in museums
+have diversified and is becoming more widespread, thanks to the
+reduction in material costs and to its easier and easier handling.
+In [2], Cantoni et al. rely on an eye-tracker to enhance the user
+experience through a museum guide. Gaze allows users to select
+artworks, perform image scrolling, change the size of displayed
+pictures, define sensitive areas, and generate static images showing
+a summary of what visitors watched. In the same year, Felicio et
+al. [7] proposed to integer gaze data in recommender systems. Their
+algorithm computes visual perception’s similarities among users to
+build a visual perception network of exhibits. Then, this networked
+information is provided to recommender system to generate rec-
+ommendations. In [12], the authors suggest using eye-trackers for
+indoor positioning. Finally, some recent works [1, 19] use the eye-
+tracking technology as a reminiscence tool after the visit to explain
+
+the visitors’ decision making process and motivations, or to analyze
+their emotions.
+
+Through our user study, we propose a novel way to take advan-
+tage of eye-trackers. We aim at inferring visitors’ preferences from
+gaze data.
+
+3 HYPOTHESIS
+Our hypothesis is the following: "The gaze data differ according to
+whether the artwork being viewed is appreciated or not". Visitors
+look differently at an artwork they appreciate and an artwork they
+do not appreciate. For the definition of appreciation, we mean that
+a visitor appreciated an exhibit if he/she likes it, if it appeals to
+him/her, if it arouses his/her interest and/or are relevant according
+to his/her visit objectives. We assume that visitors not only spend
+time looking at artworks they are interested in, and not always
+skip or shorten time next to items they do not like. Time spent
+next to a painting can be explained in many different ways: trying
+to understand the scene depicted on the painting, accompanying
+someone who is interested by the painting, being physically or
+mentally tired and having a loss of attention... For this reason, we
+need to analyze gaze data rather than just measuring time spent
+close to each exhibit. From this assumption ensues the following
+sub-assumption: "The collected gaze data can infer what visitors
+have appreciated". In other words, for a given artwork, by studying
+how the subject looked at it, we should be able to predict whether
+he/she likes it or not. Thus, gaze data can be classified into two cat-
+egories: those associated with appreciated artworks, and the others.
+We suppose that the gaze data linked to appreciated artworks share
+common characteristics that distinguish them from the works not
+appreciated, and vice versa.
+
+4 EXPERIMENT SETUP
+4.1 Environment
+We did our study at the Nancy Museum of Fine Arts. This museum
+includes nearly 400 works exhibited to the public and distributed
+in chronological order over 3 floors. The second floor is devoted to
+painting from the fourteenth to the sixteenth century, the first floor
+to painting from the seventeenth to the eighteenth century, and the
+ground floor is dedicated to the nineteenth and twentieth centuries.
+If the course on the floors is rather linear leaving visitors to pass
+from room to room, the ground floor is a much more open space
+and offers more freedom to visitors (see Figure 1). For this reason,
+we focused our study on the exploration of the ground floor. This
+space contains 117 paintings.
+
+4.2 Material
+For this experiment, we used the eye-tracker Tobii Pro Glasses 2,
+whose sampling frequency is 100 Hz. We recorded the data with the
+Tobii Pro Glasses Controller software and analyzed it with the Tobii
+Pro Lab software version 1.64.6879 on a computer Dell Precision
+7720 running Windows 10.
+
+4.3 Experiment Procedure
+First and foremost, the subject signs an informed consent form
+that informs him or her of the purpose and conduct of the study,
+
+Personalized access to Cultural Heritage (PATCH 2019) WorkshopUMAP’19 Adjunct, June 9–12, 2019, Larnaca, Cyprus427part, museums a few times a year, or even once or several times a
+month for a third of the subjects. We collected, with the help of the
+videos of the scene cameras, for each participant, the duration of
+their visit, and the time spent on the ground floor (see Figure 3), i.e.
+the duration of the study strictly speaking since we did not analyze
+the data collected when the subjects were in the floors. Of the 16
+subjects, we only selected 13 visitors who spent time looking at the
+artworks on the ground floor.
+
+Figure 1: Ground floor of the Nancy museum of fine arts.
+
+as well as the rights regarding his or her data. A declaration to
+the CIL register has been made to ensure that the data comply
+with the legal framework. He is then equipped with eye-tracking
+glasses, which are calibrated, and instructed to visit the museum as
+naturally as possible, as if he was not wearing the glasses. During
+the visit, the experimenter has access to the video filmed live by the
+eye-tracker’s scene camera, and can thus quickly intervene in case
+of a problem. The subject can take as much time as he wants to
+visit. When the subject has finished his visit, he is invited to answer
+an online questionnaire on his museum visiting habits, preferences,
+and feelings about his visit. He also indicates, on a mosaic of the
+paintings from the ground floor, which takes the form of an Internet
+page, those he has appreciated (see Figure 2). In order not to solicit
+visitors too long, we only ask them to express their preferences in
+the form of likes (a click on the painting is equivalent to a click on
+a like button).
+
+Figure 2: Extract from the mosaic of the paintings from the
+ground floor.
+
+4.4 Participants’ Background
+A total of 16 subjects participated in the experiment in May 2018: 9
+women, 6 men, and one person who did not wish to indicate his/her
+gender. The vast majority - 81.3% - were 18 to 24 years old, the
+others were between 25 and 34 years old. They visit, for the most
+
+Figure 3: On the left boxplot of the time spent visiting the
+whole museum and on the right boxplot for the ground
+floor.
+
+As regards their level of knowledge in art, 12.4% of participants
+were art students with a strong knowledge, 43.8% had a general
+level, and 43.8% considered they had a low level.
+
+5 RESULTS AND DISCUSSION
+Before testing our hypothesis, we analyzed the data collected by
+the eye-tracker with Tobii Pro Lab software to extract the eye-data
+from the 117 paintings - of which we had the photos - on the ground
+floor of the museum. To do this, the software splits the part of the
+video previously selected into a set of images, then the matching
+algorithm detects the points of interest on the snapshot (i.e. the
+desired image, in this case the picture of the painting) and compares
+with the points of interest of each image in the selection. Point of
+interest detection is generally done using the contrasts and shapes
+contained in the images. Once the matching is done, the software’s
+graphical interface allows you to visualize the points of view that
+match, i.e. those that the software has recognized as being in the
+snapshot, in other words when the subject looks at the painting.
+We had to process the 117 paintings for each participant, one after
+the other, which is extremely time-consuming.
+
+We looked at two variables that we considered relevant for data
+discrimination, that is to say the distinction between artworks that
+the visitor likes and the others: the number of fixation points on the
+painting and the time spent looking at the painting. The goal was
+to determine if these gaze data differ significantly when a visitor
+looks a painting he appreciates. We consider that a painting is
+appreciated by our visitor if it was chosen in the mosaic at the end
+of the visit. The subjects on average said they enjoyed 11.14 tables
+on the ground floor.
+
+5.1 Number of fixation points per painting
+Tobii Pro Lab allowed us to retrieve the gaze data for each painting
+and each participant, in the form of a csv file containing the pixel
+coordinates of the fixation points every 10 ms. We then recovered
+
+Personalized access to Cultural Heritage (PATCH 2019) WorkshopUMAP’19 Adjunct, June 9–12, 2019, Larnaca, Cyprus428the number of distinct fixation points for a given painting and
+visitor, and repeated this operation on all 117 paintings and 13
+visitors. We then carried out statistical tests on these data.
+
+We have chosen to carry out statistical tests from two angles:
+local tests taking into account the data of only one participant at
+a time, in order to determine the relevance of the "fixation point"
+variable for a particular participant, and a global test, including the
+data of all participants to be able to observe if there is a general trend
+to produce more fixation points when we appreciate an artwork:
+this would confirm the significance of the difference in the number
+of fixation points between artworks that are appreciated and those
+that are not, despite the fact that visitors do not necessarily have
+the same gaze behaviours.
+
+We started with local tests: we divided the gaze data of each
+visitor into two groups: a group containing the number of fixation
+points of the paintings that the visitor has seen and appreciated, and
+another containing the number of fixation points of the paintings
+that the visitor has seen, but of which he did not mention his
+appreciation in the mosaic: in both groups, we did not take into
+account the paintings that had no fixation points, so were not seen.
+The null hypothesis H0 of the statistical test was that there is
+no significant difference between the distribution of the data of the
+two groups, i.e. the number of fixation points does not allow the
+appreciated paintings to be distinguished from the other paintings.
+In order to test this hypothesis, we previously used a normality test
+on the data groups - 2 groups for each participant, i. e. 26 groups,
+and concluded that for all participants, the groups of appreciated
+artworks followed a normal distribution, unlike the groups of other
+artworks for which only two followed a normal law.
+
+We were then able to test H0. We had two independent samples
+- the two groups. For each visitor, if the data - those of the two
+groups - followed a normal distribution, we performed a Student
+test, parametric, and a Wilcoxon-Mann-Whitney test.
+
+We observe very mixed results: out of 13 participants, 6 have
+a number of fixations that differ significantly when they look at
+an artwork they like and one they do not like. For the other 7
+participants, this difference is not significant (see Figure 4).
+
+For the global test, we grouped all visitor data into 2 groups:
+number of fixation points for artworks seen and appreciated on
+the one hand, and number of fixation points for artworks seen
+but not mentioned in the mosaic on the other hand. Shapiro’s
+normality tests showed that the two groups did not followed a
+normal distribution, so we performed a Wilcoxon test and obtained
+a p − value = 3.857 ∗ 10−11. There is thus a significant difference
+between the data of the two groups. Thus, although the results of
+local tests do not provide a reliable answer to the hypothesis, the
+global test confirms that the fixation points can be considered as a
+variable discriminating in the appreciation of artworks.
+
+5.2 Time spent looking at the paintings
+Tobii Pro Lab does not give direct access to the viewing time of
+a snapshot, so we retrieved this data by counting the number of
+fixation points, including repetitions, and multiplying this number
+by 10 (time stamp interval) to obtain times in milliseconds. We then
+carried out local tests and a global test on the same principle as
+before.
+
+Figure 4: Analysis of the number of fixation points.
+
+For the local tests, 7 participants have a viewing time that differs
+significantly when they watch an artwork they appreciate, while
+the 6 other participants do not show any difference.
+
+The global test shows a significant difference between the data
+of the two groups (Wilcoxon-Mann-Whitney, p − value = 4.158 ∗
+10−12). Thus, the conclusion is the same as for fixations: the results
+of local tests are mixed, and the global test favours the discriminat-
+ing power of the viewing time for the appreciation of artworks, a
+result that must be confirmed by a larger amount of data.
+
+Figure 5: Analysis of the time spent looking at paintings.
+
+Personalized access to Cultural Heritage (PATCH 2019) WorkshopUMAP’19 Adjunct, June 9–12, 2019, Larnaca, Cyprus4296 CONCLUSION AND PERSPECTIVES
+We carried out a pilot study at the Nancy Museum of Fine Arts,
+the objective of which was to show that there are correlations
+between the number of fixation points and the fact of appreciating
+an artwork on the one hand, and between the time spent looking at
+an artwork and the fact of appreciating it on the other hand. This
+work is a first step towards modelling the preferences of visitors
+in a museum based solely on their exploratory and gaze behaviour.
+We believe that these are promising results towards recommender
+systems adapted to first-time and anonymous visitors, who do not
+wish to waste time explicitly communicating their preferences.
+
+Among our perspectives, we want to increase the number of
+subjects in our study to 100 visitors. In this way, we will increase
+the statistical power of our tests. We will then deepen our statistical
+analysis by studying in particular the correlation between the time
+spent in front of a painting and the number of fixation points to
+check the degree of attention of the subjects. We will also try to
+normalize the time spent in front of each painting according to the
+longest time spent in front of an exhibit for each subject and for all
+our users combined. In addition, we plan to study the discriminating
+power of other gaze characteristics such as pupil dilation. The
+literature shows that there is a correlation between pupil dilation
+and the person’s emotions, especially positive emotions. Finally, in
+the short term, we planned to design a classification algorithm for
+predicting visitors’ preferences based on their gaze data.
+
+ACKNOWLEDGMENT
+This project has received funding from the European Union’s Hori-
+zon 2020 research and innovation programme under grant agree-
+ment No 693150.
+
+We would also like to thank the Nancy Museum of Fine Arts and
+the City of Nancy4for allowing us to carry out our study on their
+premises. Finally, we would like to thank the Institute of Digital
+Sciences, Management and Cognition (IDMC) for its support.
+
+REFERENCES
+[1] G. Arbelaez Garces, P. Parra, M. Camargo, S. PeÃśarete, and L. Dupont. Under-
+standing museum visitors’ experience through an eye-tracking study and a living
+lab approach. In 22nd ICE/IEEE International Technology Management Conference,
+Trondhiem, Norway, 2016.
+
+[2] V. Cantoni, L. Merlano, N. Nugrahaningsih, and M. Porta. Eye tracking for cul-
+tural heritage: A gaze-controlled system for handless interaction with artworks.
+In Proceedings of the 17th International Conference on Computer Systems and
+Technologies 2016, CompSysTech ’16, pages 307–314, 2016.
+
+[3] L. Cohen.
+
+Culture track 2017 report.
+content/uploads/2017/02/CT2017-Top-Line-Report.pdf, 2017.
+
+https://culturetrack.com/wp-
+
+[4] O. des publics des ESF.
+
+Le profil des visiteurs individuels des musées
+royaux des beaux-arts de belgique synthèse de lâĂŹenquête de 1996/97.
+http://www.belspo.be/belspo/pubobs/files/SyntheseannuaireBaugardMRBAB.pdf,
+2003.
+
+[5] O.
+
+des
+
+Publics
+
+des
+http://www.culture.gouv.fr/Thematiques/Connaissance-des-
+patrimoines/Connaissance-des-publics/Publics-et-patrimoines/PatrimoStat,
+2016.
+
+Patrimoines.
+
+Patrimostat.
+
+[6] J. H. Falk. An identity-centered approach to understanding museum learning.
+
+Curator: The Museum Journal, 49(2):151–166, 2006.
+
+[7] C. Z. Felício, C. M. M. de Almeida, G. Alves, F. S. F. Pereira, K. V. R. Paixão, and
+S. de Amo. Visual perception similarities to improve the quality of user cold start
+recommendations. In Advances in Artificial Intelligence, pages 96–101, 2016.
+[8] K. Kontiza, O. Loboda, L. Deladiennee, S. Castagnos, and Y. Naudet. A museum
+app to trigger users’ reflection. In 2nd Workshop on Mobile Access to Cultural
+Heritage, MobileCH 2018, Barcelona, Spain, September 03, 2018, 2018.
+
+[9] J. Krukar. Walk, look, remember: The influence of the gallery’s spatial layout on
+human memory for an art exhibition. J. Behavioral Sciences, 4:181–201, 2014.
+
+[10] T. Kuflik. Mobile eye tracking in (cultural heritage) education âĂŞ ideas and
+research agenda. In 2nd Workshop on Mobile Access to Cultural Heritage, MobileCH
+2018, Barcelona, Spain, September 03, 2018, 2018.
+
+[11] T. Kuflik, Z. Boger, and M. Zancanaro. Analysis and Prediction of Museum Visitors’
+
+Behavioral Pattern Types. 2012.
+
+[12] T. Kuflik, J. Lanir, E. Dim, A. J. Wecker, M. Corrà, M. Zancanaro, and O. Stock.
+Indoor positioning: challenges and solutions for indoor cultural heritage sites. In
+Proceedings of the 16th International Conference on Intelligent User Interfaces, IUI
+2011, Palo Alto, CA, USA, February 13-16, 2011, pages 375–378, 2011.
+
+[13] B. M. Information in space is space in information. In Billeder fra det Fjerne/Images
+
+from Afar, pages 161–171. 1996.
+
+[14] S. Milekic. Gaze-tracking and museums: Current research and implications. In
+
+Museum and the Web (MW 2010), Toronto, Canada, 2010.
+
+[15] M. Mokatren, T. Kuflik, and I. Shimshoni. Using eye-tracking for enhancing
+the museum visit experience. In International Conference on Advanced Visual
+Interfaces, AVI 2016, Bari, Italy, June 07-10, 2016, pages 330–331, 06 2016.
+[16] P. Osche, S. Castagnos, and A. Boyer. Antrs: Recommending lists through a
+multi-objective ant colony system. In 41st European Conference on Information
+Retrieval, ECIR 2019, Cologne, Germany, April 14-18, 2019, 2019.
+
+[17] P. Osche, S. Castagnos, A. Napoli, and Y. Naudet. Walk the line: Toward an
+efficient user model for recommendations in museums. In 11th International
+Workshop on Semantic and Social Media Adaptation and Personalization, SMAP
+2016, Thessaloniki, Greece, October 20-21, 2016, pages 83–88, 2016.
+
+[18] N. C. L. Reed. Understanding visitor happiness in museums. PhD thesis, University
+
+of Washington, 2018.
+
+[19] D. Schmitt and O. Aubert. Remind: a method to understand the micro-dynamics
+of the museum visitors experience. Journal of Human Mediated Interactions,
+17(1):43–70, 2016.
+
+[20] R. J. Stein and S. Filippini-Fantoni. Evaluating the practical applications of eye
+tracking in museums. In Museum and the Web (MW 2012), San Diego, USA, 2012.
+[21] E. Verón and M. Levasseur. Ethnographie de l’exposition: l’espace, le corps et le
+sens. Centre Georges Pompidou, Bibliothèque publique d’information, 1989.
+[22] D. S. Wooding, M. D. Mugglestone, K. J. Purdy, and A. G. Gale. Eye movements of
+large populations: Implementation and performance of an autonomous public eye
+tracker. Behavior Research Methods, Instruments and Computers, 34(4):509âĂŞ517,
+2002.
+
+[23] M. Zancanaro, T. Kuflik, Z. Boger, D. Goren-Bar, and D. Goldwasser. Analyzing
+In International Conference on User
+
+museum visitorsâĂŹ behavior patterns.
+Modeling (UM2007), pages 238–246, Corfu, Greece, 2007.
+
+4https://www.nancy.fr/
+
+Personalized access to Cultural Heritage (PATCH 2019) WorkshopUMAP’19 Adjunct, June 9–12, 2019, Larnaca, Cyprus430

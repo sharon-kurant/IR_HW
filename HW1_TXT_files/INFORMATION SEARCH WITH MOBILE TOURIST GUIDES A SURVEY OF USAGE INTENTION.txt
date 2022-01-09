@@ -1,0 +1,1716 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/220542854
+
+Information Search with Mobile Tourist Guides: A Survey of
+Usage Intention
+Article in Information Technology & Tourism · September 2007
+DOI: 10.3727/109830507782166962 · Source: DBLP
+
+CITATIONS
+
+READS
+
+77
+
+1,372
+
+3 authors, including:
+Matthias Fuchs
+
+Wolfram Höpken
+
+Mid Sweden University
+
+Hochschule Ravensburg-Weingarten
+
+136 PUBLICATIONS 3,334 CITATIONS
+
+100 PUBLICATIONS 2,024 CITATIONS
+
+SEE PROFILE
+
+SEE PROFILE
+
+Some of the authors of this publication are also working on these related projects:
+
+Aconcagua Knowledge Destination View project
+
+Handbook of e-Tourism View project
+
+All content following this page was uploaded by Matthias Fuchs on 16 November 2017.
+The user has requested enhancement of the downloaded file.
+
+1098-3058/07 $60.00 + .00
+Copyright  2007 Cognizant Comm. Corp.
+www.cognizantcommunication.com
+
+Information Technology & Tourism, Vol. 9 pp. 177–194
+Printed in the USA. All rights reserved.
+
+INFORMATION SEARCH WITH MOBILE TOURIST GUIDES:
+A SURVEY OF USAGE INTENTION
+
+JÖRG RASINGER, MATTHIAS FUCHS, and WOLFRAM HÖPKEN
+ECCA-eTourism Competence Center Austria, Innsbruck, Austria
+
+As mobile tourist guides show huge potentials to support tourists’ information search, executives
+need to know which mobile systems characterized by which specific functionalities should be
+provided. This article proposes an empirical approach combining qualitative and quantitative methods to deduce both product definition and product marketing information related to mobile tourist
+guides. First, a methodology mix combining qualitative (i.e., explorative survey, focus group interviews) and quantitative techniques (i.e., pilot study, expert interviews) responds to the question
+“Which services should be developed?” Secondly, again in the preprototype phase and based on
+survey data, ideal functionality compositions for promising tourist guides are deduced with regression analysis. Finally, based on technology acceptance theory customer prejudices towards mobile
+tourist guides are identified. The obtained results support the hypotheses, indicating strong performance expectations and pronounced effort expectancies towards the deduced concepts designed to
+support information search by means of mobile tourist guides.
+Key words: Mobile tourist guide; Functionality composition; Customer prejudices;
+Preprototype phase
+
+Introduction
+
+site tourist information centers. Mobile information services, due to their ubiquitous nature, may
+overcome many of the shortcomings of traditional
+stationary Internet services. Mobile guides entail
+high usage opportunities to support tourists’ information search. Benefits from ubiquity on which
+tourists may capitalize stem from spatial, temporal, and contextual mobility, respectively (Fuchs
+& Höpken, in press). Put differently, tourists may
+be in touch with the destination-specific information network and be reached at any place and any
+time using their personal portable devices (e.g.,
+
+The Internet has grown to be the number one
+source for acquiring information for travel purposes in the pretrip phase (Bieger & Laesser,
+2004a). Thus, much effort has been spent in investigating the “does and don’ts” of tourism websites. However, in the on-site phase Internet services have by far not reached their full potential
+(A.T. Kearney, 2004). Possible reasons are a lack
+of destination infrastructure or simply the fact that
+there are less demanding alternatives, such as on-
+
+Address correspondence to Jörg Rasinger, ECCA-eTourism Competence Center Austria, Technikerstr. 21, 6020 Innsbruck, Austria.
+Tel: +43 (512) 27 39 11 16; Fax: +43 (512) 27 39 11 50; E-mail: joerg.rasinger@etourism-austria.at
+
+177
+
+178
+
+RASINGER, FUCHS, AND HÖPKEN
+
+mobile, smart-phone). Thus, travel and tourism is
+defined as a highly attractive and rewarding application field for mobile information services (Accenture, 2001).
+Nevertheless, many examples of recently failed
+pilot projects concerning mobile guides in tourism
+exist (Pugh, Jupp, & Collomb, 2004; Rasinger,
+Fuchs, Höpken, & Tuta, 2006). Due to enormous
+investments in both mobile technologies and frequency-band licenses, providers of mobile services were heavily forced to implement services
+in the market as fast as possible (Muthaiyah,
+2004). In doing so, less demanded and immature
+services were introduced (Forge, 2004). As a consequence, at the demand side the image of mobile
+services was seriously damaged (Accenture, 2001).
+Today, however, not only investors (e.g., mobile
+phone operators), product developers, product
+managers, and marketers (UMTS Forum, 2005)
+but also destination managers (Höpken et al.,
+2006) have the strong need for answers concerning the question “Which mobile services featuring
+which functionalities should be offered to a specific tourist target group?” in order to optimally
+support tourists’ information search needs. In addition, even though the right product configuration
+can be identified (and subsequently developed), a
+big marketing challenge remains with respect to
+existing prejudices towards mobile services among
+targeted users. Based on these specific managerial
+requirements this article proposes and empirically
+tests an approach combining qualitative and quantitative methods to deduce both product definition
+and product marketing information related to mobile information services in tourism.
+First, based on tourism literature (Bieger &
+Laesser, 2004a; Chen & Gursoy, 2000; Fodness &
+Murray, 1997, 1998, 1999; Murphy & Schegg,
+2006; Snepenger, Meged, Snelling, & Kelly, 1990;
+Staab & Werthner, 2002) and information search
+theory (Atkin, 1973; Raitz & Dakhil, 1989; Schul
+& Crompton, 1983), a qualitative and pilot studybased methodology mix was employed to systematically approach the research question “Which
+mobile services should be developed?” Second,
+based on mobile systems literature (Berger, Lehmann, & Lehner, 2003; Hinze & Voisard, 2003;
+Schwinger, Grün, Pröll, Retschitzegger, & Schauerhuber, 2005; Wohltorf, Cissée, & Rieger, 2005),
+
+promising future functionalities for mobile services applied in tourism were qualitatively deduced. Third, after the development of appropriate
+research models the question “Which functionality
+compositions should be envisioned for specific
+mobile services?” was answered through regressive methods. Finally, again in the preprototype
+phase and based on technology acceptance literature (Davis, Bagozzi, & Warshaw, 1989; Davis &
+Venkatesh, 2004; Venkatesh, Morris, Davis, &
+Davis, 2003; Venkatesh, Ramesh, & Massey,
+2003) and domain-specific innovativeness theory
+(Goldsmith & Hofacker, 1991), a marketing-related
+diagnosis of existing “prejudices towards promising mobile information services in tourism” was
+undertaken in order to optimize product-related
+communication with the end user. Figure 1 summarizes the structure of the presented research approach.
+Preliminary Research
+Qualitative Explorative Study
+Existing literature distinguishes between external and internal information sources (Raitz & Dakhil, 1989; Schul & Crompton, 1983). Accordingly,
+information search may take place, and almost always does initially, internally, such as when past
+experiences are used as the basis for planning a
+repeat visit to a destination (Fodness & Murray,
+1997). Internal sources include personal experience, either with the specific destination or with
+similar destinations. However, if the contents of
+memory are not sufficient for decision making,
+search activities extend out into the external environment. In the case of vacation travel, information
+search is often predominantly external, involving
+considerable effort and a variety of information
+sources (Raitz & Dakhil, 1989). During their onsite phase, tourists usually satisfy their information needs by posing specific questions at particular points of information. Thus, in a very first
+methodological step, interviews with representatives of various information points in a prominent
+alpine tourism destination gave first insights into
+the information requirements as typically articulated by tourists. By consulting both tourism and
+information search literature (Bieger & Laesser,
+2004b; Chen & Gursoy, 2000; Fodness & Murray,
+
+INFORMATION SEARCH WITH MOBILE TOURIST GUIDES
+
+179
+
+Figure 1. Research approach.
+
+1997, 1998, 1999; Murphy & Schegg, 2006; Snepenger et al., 1990), the following list of on-site
+information sources emerged: auto club, conventions & visitors bureau, tourist office, highway information point, hotel concierge, guide book &
+magazine, Internet, train & rail service, station
+agent, state travel guide, tour company & travel
+agent, TV/radio, airline & airport, taxi driver, gas
+station, and kiosk.
+A total of 16 interviews with representatives of
+the mentioned information points were conducted
+in the capital city of Tyrol (Austria) during September 2005 in order to record typical information
+requirements most often articulated by tourists.
+The following information typology distinguishing
+between “archetypical” information needs was used
+to structure the obtained answers: hedonic information (Dhar & Wertenbroch, 2000), surveillance
+information (i.e., satisfies the need to understand
+the environment relevant for well-being), guidance
+information (i.e., satisfies the need to know which
+alternative is best), performance information (i.e.,
+
+satisfies the need to know how to behave to get
+the highest possible performance from a chosen
+alternative), and reinforcement information (e.g.,
+satisfies the need to boost one’s confidence) (Atkin, 1973; Rasinger et al., 2006). Finally, a total
+of 290 information requirements typically stated
+by tourists were gathered and subsequently mapped
+according to the corresponding information need
+(Raffée & Silberer, 1981). In doing so, a total of
+12 differing information services adequate to support tourists during their stay emerged, namely:
+(1) transport information, (2) accommodation information, (3) security information, (4) event information, (5) information on wellness offers, (6)
+gastronomy/nightlife information, (7) information
+on sights (8) information on hiking and skiing
+tours, (9) car rental information, (10) information
+about currency & money exchange, (11) sports information, and (12) information on day-trips. Although these findings support the categories described in Pröll and Palkoska (2002), existing
+research has so far not identified how information
+
+180
+
+RASINGER, FUCHS, AND HÖPKEN
+
+support should be realized by means of mobile devices. Therefore, in a next step, literature from the
+mobile information systems field was consulted to
+deduce promising functionalities for electronic
+tourist guides.
+Mobile information systems comprising services for the tourism domain are often referred to
+as mobile tourist guides (Höpken et al., 2006;
+Schwinger et al., 2005). In academia as well as in
+the industry, many initiatives for developing such
+systems took place. For instance, a total of 14
+projects with a specific focus on the on-site phase
+have been identified by the POSITION team
+(Murphy & Schegg, 2006; Pugh et al., 2004).
+Many differing services are offered by these systems, such as location-based tour guides (Anegg,
+Kunczier, Michlmayr, & Pospischil, 2002; Hinze
+& Voisard, 2003), interactive route planners (Wohltorf et al., 2005), access on local event, nightlife,
+restaurant, shopping, and sightseeing information,
+to name a few (Berger et al., 2003). A prominent
+recent project is etPlanner (Höpken et al., 2006), a
+mobile information system for tourists, supporting
+recommendation, adaptation, and personalization
+functionalities on a wide variety of content, including event, accommodation, gastronomy, weather, and
+transportation information, respectively. The project also promotes adaptation of the mobile device
+(i.e., multimodality), content (i.e., multilinguality,
+user-based content adaptation), and process.
+At a very general level, Hess et al. (2005) classifies mobile information services by means of a
+generic service market process model. Similarly,
+one can differentiate for the tourism domain between mobile information services that support a
+specific market transaction phase, such as information, agreement, settlement and after sales
+(Rayport & Sviokla, 1996), and those information
+services being defined as final service products
+having clear economic values and prices (Hess et
+al., 2005). For the empirical evaluation purpose
+presented below, the focus lies on mobile information services supporting market transactions. Furthermore, literature suggests the coverage of information requirements along the phases of the
+tourist life cycle, namely, the pretrip, the on-site,
+and the after trip phase, respectively (Werthner &
+Ricci, 2004). The focus of the below discussion
+clearly is on mobile information services support-
+
+ing the on-site phase. The following taxonomy intends to classify promising functionalities of mobile information services for the tourism domain.
+In detail, they comprise search and browse functionalities providing user-triggered search processes for retrieving content explicitly initiated by
+the (e.g., mobile) user. The basic methods are
+“keyword search on structured data” and “directory-based browsing” (e.g., Sights > Churches >
+St. Paul’s Cathedral). The push functionality automatically delivers information to the user (i.e.,
+tourist) without explicit requests (Staab & Werthner, 2002). The information push is mainly triggered by contextual events, such as changes in the
+user’s location or opening times of attractions
+(Beer, Fuchs, Höpken, Rasinger, & Werthner,
+2007). Recommendation functionalities satisfy the
+individual information need to know which alternative is best according to a specific purpose (i.e.,
+recommending those tourism products that are
+most relevant to tourists by taking into account
+their specific tour history). Furthermore, mCommerce
+functionalities allow users to initiate transactional
+processes, such as reservation, booking, or ticketing (Barnes, 2002). Finally, the feedback functionality enables users to share tourism experiences
+and to annotate objects of interests with comments
+and/or evaluative ratings (UMTS Forum, 2005).
+The answers gathered from the qualitative explorative survey were in a last step related to the stated
+functionalities. For instance, the need for surveillance information can typically be covered best by
+search & browse functionalities. Additionally context-aware pull (e.g., recommendation) and push
+functionalities may satisfy this specific information need (Staab & Werthner, 2002). Table 1 summarizes the coverage of “archetypical” tourist information needs through specific functionalities of
+mobile information services (UMTS Forum,
+2005). It should only be interpreted as a suggestion for the most plausible relationships between
+tourists’ information needs and the corresponding
+(i.e., most convincing) functionalities of mobile
+information services.
+Focus Group Interviews
+In order to record people’s attitudes towards
+various usage scenarios for mobile devices sup-
+
+INFORMATION SEARCH WITH MOBILE TOURIST GUIDES
+
+181
+
+Table 1
+Coverage of Information Needs Through Functionalities of Mobile Information Services
+Types of Information Needs
+Hedonic information
+Surveillance information
+Guidance information
+Performance information
+Reinforcement information
+
+Search &
+Browse
+
+Recommendation
+
+X
+X
+
+porting on-site information search, focus group interviews (Krueger, 1998) were conducted in the
+fall of 2005 with a total of 17 individuals from
+different European countries (Italy, Germany, and
+Austria). The opening question was: “Imagine getting a mobile device from your hotel in order to
+support your destination stay. Which information
+would be of main interest to you?” Interestingly,
+relatively strong skepticism towards mobile information services became apparent. The main barriers and limitations identified in the literature (Accenture, 2001; BC Group, 2000), such as display
+size, bandwidth, I/O interface, stability, durability,
+connection quality, and costs, were immediately
+emphasized. Nevertheless, the participants also
+came up with promising ideas. A first suggestion
+was a navigation system designed as a mobile version of GoogleEarth, allowing to freely search and
+browse the virtual space to obtain information
+about streets, restaurants, sights, shopping possibilities, points of interest, buildings, and public exhibitions. Furthermore, a mobile tourist guide
+should calculate routes not only for car usage but
+in particular also support exploration of destinations by foot. Secondly, an emergency service
+helping users to get assistance in case of accidents
+(e.g., car), traffic jams, or natural disasters was
+proposed. Furthermore, participants of the focus
+group came up with the idea of searching, booking, and buying tickets for events for a specific
+genre at a specific time period. Furthermore, a mobile platform supporting full access to the shopping possibilities of a tourism destination was emphasized. Finally, a mobile search and browse
+service was discussed that should offer fast Internet access to ensure the searchability of typical
+Internet information such as weather, dictionaries,
+
+X
+X
+
+Context-Aware
+Push
+
+mCommerce
+
+Feedback
+
+X
+X
+X
+
+X
+
+X
+X
+X
+
+X
+
+local news, news from the home country, and
+phone numbers.
+The findings from the qualitative studies were
+translated into a list comprising a total of 15 mobile information services to be used by tourists
+during destination stay. Due to size restrictions
+only a selection of six mobile information services
+is described in greater detail below (Table 2).
+Pilot Study
+Next, the obtained 15 mobile information services were abstractly described by their functionalities, costs, and usability potentials and were
+then evaluated by tourists by means of a quantitative pilot survey (N = 100) in Tyrol (Austria) in
+the fall of 2005. Evaluation of usage propensity
+was performed based on a self-administrated questionnaire using 6-point Likert scales (1 = very unlikely to 6 = very likely). The sample was composed as follows. Forty-seven percent of respondents
+were female. The respondents were to a large part
+younger than 30 years (63%); 23% were between
+30 and 40 years old while 14% were 40 years of
+age or older. Sixty-eight percent of the respondents had a high school degree. At the time of the
+survey 92 individuals had a mobile phone, 50 used
+laptops, 13 had a car navigation system, 11 had a
+Personal Digital Assistant (PDA), and 5 used a
+smart-phone and/or a Tablet-PC (multiple answers
+allowed). When filling out the questionnaire, half
+of the respondents were given the additional information that the mobile information service would
+be offered absolutely free of charge, while the
+other sample half was not provided with this information. The results depicted in Figure 2 show that
+mobile information services when offered for free
+
+182
+
+RASINGER, FUCHS, AND HÖPKEN
+
+Table 2
+Mobile Information Services Qualitatively Deduced From Typical Tourists’ Information Needs
+Search & Browse
+
+Recommendation
+
+Context-Aware
+Push
+
+mCommerce
+
+Transport
+
+Routing service, incl.
+public transport
+
+Inclusion of local position, daytime, traffic
+into the routing
+
+Actively informs on de- Booking public translays
+portation (i.e., ticketing)
+
+Event
+
+Event search by keywords; categorybased search
+
+Automated search for
+events nearby, recommendation
+
+Active informing on
+relevant events, delays, or cancellation
+
+Sights
+
+Search sights, museums, historic info.,
+etc., by key words;
+category-based
+search
+
+Automated search for
+Active informing on
+sights nearby, recomimportant sights
+mendation e.g. “what
+along the way, tour
+to see”
+guide functionality
+
+GastronSearch for restaurants
+omy &
+and places to go out
+Nightlife
+by keywords; category based search
+
+Automated search for
+restaurants and
+places to go out
+nearby, recommendation
+
+Weather &
+News
+
+Weather forecasts and
+news
+
+Recommendation of
+news most essential
+to the users
+
+Security
+
+Browse for risks/threats Risks/threats at current
+at specific locations
+position at current
+or when pursuing actime
+tivities
+
+—
+
+Feedback
+—
+
+Booking events directly Reading and giving
+feedback for/to specific event
+—
+
+Feedback on sights,
+museums, etc.
+
+Directly making reservations
+
+Reading and giving
+feedback for/to specific restaurant, pub,
+etc.
+
+Active informing on
+weather and news
+
+—
+
+—
+
+Active informing on
+acute threats (e.g.,
+avalanche, storm)
+
+—
+
+—
+
+Figure 2. Intended information search with mobile tourist guides.
+
+INFORMATION SEARCH WITH MOBILE TOURIST GUIDES
+are considered much more attractive than those
+where no price indications was given; thus, respondents would have disproportional cost expectations in mind.
+Structured Expert Survey
+The final analytical step involved a survey to
+capture expert views concerning the relevance of
+the identified mobile information services for tourists (Fuchs, Rasinger, Höpken, & Grün, 2007).
+Thus, in February 2006, by means of an online
+questionnaire, a total of 40 international wellknown industry experts and scientists in the field
+of information technologies and tourism were
+asked to evaluate the identified mobile information services on a 6-point scale (6 = highly relevant to 1 = completely irrelevant). First, the experts attached great importance to the trend that
+tourists will in the future satisfy their information
+needs through mobile devices (i.e., the average
+score value over all services stood at 4.91). Second, for the majority of information services a
+ranking highly similar to that of the final users
+emerged. For instance, mobile devices to gather
+“transport information,” “event information,” “information on sights,” and “gastronomy & nightlife
+information” were given top priority by the experts. In contrast to the final users, however, mobile devices for gathering “weather information &
+news” as well as “security information” were classified as being relatively unimportant by the experts.
+Modeling the Intention to Use Mobile
+Information Services in Tourism
+The well-established Technology Acceptance
+Model (TAM) (Davis, 1989) takes into account
+the perceived usefulness and the perceived ease of
+use for statistically explaining the intention to use
+an information system and explains about 40% of
+a system’s usage levels (Legris, Ingham, & Collerette, 2003). TAM has been verified and extended
+in several ways, following the traditional path of
+evaluating systems in a job context. As a consequence, Venkatesh and Davis (2000) introduced
+TAM2, extending the original TAM by a number
+of key forces underlying judgments towards perceived usefulness, such as subjective norm, volun-
+
+183
+
+tariness, and image. A similar approach was taken
+by Rogers (1995), introducing the Innovation Diffusion Theory (IDT). IDT defines key variables
+behind the adoption of innovations. These are the
+(1) relative advantage (i.e., degree to which the innovation is perceived as being better than the practice it supersedes), (2) compatibility (i.e., extent to
+which adopting the innovation is compatible with
+what people do), (3) complexity (i.e., degree to
+which an innovation is perceived as relatively difficult to understand and use), (4) trialability (i.e.,
+degree to which an innovation may be experimented with before making the adoption or rejection decision), and (5) observability (i.e., degree
+to which the results of an innovation are visible to
+others) (Kaasinen, 2005). In an attempt to bring
+together TAM, IDT, and other predecessor models
+[Theory of Reasoned Action (Fishbein & Ajzen,
+1975), Theory of Planned Behaviour (Ajzen,
+1991)], Venkatesh, Morris, et al. (2003) empirically tested a Unified Theory of Acceptance and
+Use of Technology (UTAUT) and were able to
+explain as much as 70% of the variance pertaining
+to intentions to use a technological system, thus
+claiming a substantial improvement over any of
+the original partial models. Due to its high explanatory power, UTAUT was selected as the base
+model to explain intentions to use mobile information services to support individual information
+search strategies during a trip.
+UTAUT theorizes that four constructs play a
+significant role as direct determinants of user acceptance and usage behavior (i.e., behavioural intention (BI)), namely performance expectancy
+(PE), effort expectancy (EE), social influence (SI),
+and facilitating conditions (FC). PE is defined as
+the degree to which an individual believes that using the system will help him or her to attain gains
+in the respective performance. EE is defined as the
+degree of ease associated with the use of the system. Further, SI is defined as the degree to which
+an individual perceives that important others believe he or she should use the new system. Finally,
+FC are defined as the degree to which an individual believes that an organizational and technical
+infrastructure exists to support the use of the system. Venkatesh, Morris, et al. (2003) deliver strong
+evidence that the construct FC, as opposed to perceived usefulness, perceived ease of use, and sub-
+
+184
+
+RASINGER, FUCHS, AND HÖPKEN
+
+jective norm, does not have a significant direct effect on BI. Rather, EE mediates the effect of FC
+on usage intention (Venkatesh & Davis, 2000).
+Further, a direct influence of FC on usage behavior could be observed. Finally, Venkatesh, Morris,
+et al. (2003) found proof for moderating effects of
+gender, age, experience, and voluntariness of use.
+The above models provide a theory-based view
+of causes and effects involved in technology acceptance on a clearly technology-independent
+level. Thus, UTAUT has to be extended by the
+various specifics typical for mobile information
+services in tourism. TAMs have so far successfully been used to study user acceptance of Internet services (Barnes & Huff, 2003; Chen, Gillenson, & Sherrell, 2004; Fuchs, Höpken, Lehmann,
+& Wöckl, 2006; Lederer, Maupin, Sena, & Zhuang, 2000; Steinbauer & Werthner, 2007) and B2C
+e-Commerce applications (Chen et al., 2004). Especially for the latter, aspects such as familiarity
+and trust have been included (Gefen, 2000; Lin &
+Wang, 2006; Lu, Liu, Yu, & Yao, 2004; Swan,
+Bowers, & Richardson, 1999;). Chen et al. (2004)
+define trust as feeling secure about relying on an
+entity. Swan et al. (1999) detect a positive influence on positive customer attitude, intention to
+purchase, and purchasing behavior. Also, tourists
+have to rely on information about tourism services
+because their experience quality can only be evaluated after consumption (Dunstall et al., 2003).
+Thus, trust may be a key driver for intentions to
+use an information source, such as a mobile information service (Gefen, 2000; Chen et al., 2004).
+More precisely, perceived trust (PT) towards a
+mobile service is theorized to directly determine
+the BI to use the system.
+Mobile information services primarily fulfill
+the task of providing tourists with relevant information before, during, and after a trip (Höpken et
+al., 2006). In this sense, service quality may be
+defined as the discrepancy between the information customers expect and the information customers get from the mobile information service (Chen
+et al., 2004). Parasuraman, Zeithaml, and Berry
+(1988) identified five dimensions that consumers
+use when evaluating service quality: tangibles, reliability, responsiveness, assurance, and empathy.
+Based on these constructs, Chae, Kim, Kim, and
+Ryu (2002) postulate an empirically tested quality
+
+model for mobile Internet services. The latter comprises four quality constructs: connection quality,
+content quality, interaction quality, and contextual
+quality. Gefen and Devine (2001) found empirical
+evidence that service quality of information systems has a positive influence on both satisfaction
+and loyalty. Thus, for the mobile information service acceptance model proposed below, a perceived service quality (PSQ) construct is added as
+a direct determinant of PE and an indirect determinant of BI.
+Mobile information services, besides being
+functional instruments for acquiring information,
+also have value for the user due to their ergonomic
+and pure hedonic characteristics (De Wulf, Niels,
+Muylle, & Rangarajan, 2006; Hassenzahl, 2002).
+Fun of use, as it is often called, however, plays a
+minor role in the TAM literature (Hassenzahl,
+Platz, Burmester, & Lehner, 2000). Davis, Bagozzi, and Warshaw (1992) showed that perceived
+fun, defined as the extent to which using a software is enjoyable in its own right, has a positive
+impact on the intention to use a system given that
+the software is perceived as useful. When looking
+at this observation, one must bear in mind that
+TAM was primarily intended for a job context. In
+contrast, for mobile information systems designed
+for the tourism domain, the hedonic factor may be
+hypothesized to play an important role in determining the behavioral intention to use mobile information systems. Thus, as reported by Hassenzahl, Burmester, and Koller (2003) and Hassenzahl
+et al. (2002), perceived hedonic quality (PHQ) was
+included to directly influence the BI construct.
+Major barriers for mobile service proliferation
+are costs and missing cost transparency (A.T.
+Kearney, 2004). Acceptance models, however,
+due to their job-related backgrounds, only in rare
+cases incorporate cost issues. Nevertheless, for
+mobile services, Amberg, Wehrmann, and Zimmer
+(2004a, 2004b) define perceived costs (PC) as one
+of four major determinants of mobile information
+service acceptance. Similarly, Köhne, Totz, and
+Wehmeyer (2005) include monetary costs by considering pricing models that in many cases lack
+transparency. Thus, PC and perceived cost transparency (PCT) have been added to the proposed
+acceptance model for mobile information services
+in tourism (Fig. 3).
+
+INFORMATION SEARCH WITH MOBILE TOURIST GUIDES
+
+185
+
+Figure 3. Model of mobile information service acceptance.
+
+Amberg et al. (2004a) and Venkatesh, Morris,
+et al. (2003) point out that the importance of the
+factors influencing behavioral intention strongly
+depends on the user’s familiarity with a system.
+Accordingly, in TAM literature familiarity was included as a factor influencing EE. The proposed
+model, however, is restricted to users having the
+same defined state of familiarity with a system,
+such as (T1) post-first contact, (T2) 1 month after,
+or (T3) 3 months after, as suggested by Venkatesh,
+Morris, et al. (2003) and, thus, familiarity was not
+included in the model.
+Research Methodology
+The research presented in this article was conducted in the preprototype phase when no working
+prototype was present (Höpken et al., 2006). Conventional wisdom among system developers as-
+
+serts that prospective users must have direct handson experience with at least a working prototype of
+a new system before they can provide assessments
+that accurately reflect future usage behavior
+(Davis & Venkatesh, 2004). Nevertheless, Davis
+and Venkatesh give empirical evidence that this
+assumption is only partially true. They point out
+that stable and predictive assessments of a system’s perceived ease of use should be based on
+experience with the technological system. However, they continue that stable and behaviorally
+predictive measures of perceived usefulness can
+also be captured from target users who have received information about a system’s functionality,
+but have not had direct hands-on usage experience
+at all (Davis & Venkatesh, 2004, p. 31). Accordingly, the six most promising mobile information
+services identified in the preliminary research
+phase (i.e., mobile services providing transport in-
+
+186
+
+RASINGER, FUCHS, AND HÖPKEN
+
+formation, event information, information on sights,
+gastronomy & nightlife information, weather &
+news information, and security information) and
+their corresponding functionalities (i.e., search &
+browse, recommendation, context-aware push functionalities, mCommerce functionalities, and feedback functionalities) were expressively described
+to survey participants using both examples and
+typical usage scenarios.
+These descriptions served as “device under
+test” and were subsequently used to determine attitudes of potential future users. Thus, it is not the
+service per se that was evaluated, but rather the
+mental picture the participants had of the specific
+mobile information service. First, based on service
+descriptions, survey participants were asked whether
+or not they would use a mobile service that provided these functionalities during their current
+stay, and also whether or not they would use a
+specific functionality. Each functionality was expected to positively affect the expected BI (Fig. 4a).
+The survey was based on a self-administered
+questionnaire, thereby reducing the necessary time
+for questioning. Furthermore, in contrast to Davis
+
+and Venkatesh (2004), no extensive explanation to
+gain a deeper understanding of the various aspects
+of the system’s functionalities was given. As a further consequence of evaluating on a very abstract
+level, it made sense to employ only two items for
+measuring intention to use the functionality and
+only one single item for measuring BI on the level
+of the mobile information service.
+Second, the marketing-related question “Which
+prejudices exist towards the most promising mobile information services?” was targeted. As stated
+above, in the preprototype phase only the mental
+picture of a specific mobile information service
+can be evaluated. Thus, the mobile service acceptance model proposed above had to be reduced to
+those constructs that would be rather measurable
+already in the preprototype phase. Therefore, the
+constructs had to be adapted by using expectancies
+instead of perceptions (e.g., behavioral intention
+→ expected behavioral intention).
+A further model adjustment took place with regard to use behavior (UB), which cannot be assessed without the presence of a working prototype, and was therefore omitted from the following
+
+Figure 4. (a) Functional configuration model and (b) expectancy-based acceptance model.
+
+INFORMATION SEARCH WITH MOBILE TOURIST GUIDES
+empirical considerations. Further, as only direct
+predecessors of BI were included into the preprototype model, PSQ was not considered. In contrast, EE was included as it may allow clear insight into eventual “prejudices” towards the ease
+of use of a specific mobile information service. As
+already observed in the pilot study, cost perceptions have a major impact on usage intentions towards mobile information services. In order to
+prevent a systematic devaluation of BI due to disproportional cost sensitivity, a statement that the
+service would be free of charge was added. Thus,
+PC and PCT were further omitted from the model.
+Each of the remaining expectation constructs
+were expected to have a positive impact on the
+expected BI (Fig. 4b). According to Davis and
+Venkatesh (2004), stable and predictive assessments of a system’s perceived ease of use are not
+possible without a working prototype. Therefore,
+measures taken besides expected performance
+(i.e., usefulness) can be interpreted only as “prejudice” towards these specific service dimensions
+(see Fig. 4b). In contrast to the functionality constructs, the expectancy constructs were empirically
+measured by only one item. Finally, participants
+were asked about their level of innovativeness. For
+this aim, the six item-based Domain Specific Innovativeness (DSI) scale (Goldsmith & Hofacker,
+1991) was employed. Based on the notion that the
+DSI concept was primarily developed to differentiate user groups according to their first usage intention after product release, the variable was not
+included as a predictor of BI. Rather, the DSI
+scale was employed as a grouping variable to
+identify significant group differences among innovators, middle majority, and laggards.
+Empirical Results
+Survey
+A survey comprising 952 German-speaking
+tourists was undertaken in Tyrol (Austria) in February 2006. A total of 705 questionnaires could be
+used for statistical analyses. The average age of
+the participants was 33.6 years with a range from
+9 to 64 years. Forty percent of respondents were
+female and the majority (92%) declared skiing and
+other sports activities as their main purpose of the
+current trip, while 3% were present for business
+
+187
+
+reasons. Forty percent of respondents held a high
+school, 32% a college, and 28% a university degree. Over half (54.9%) of the respondents visited
+Tyrol for 3 days or less and 21.2% booked at least
+one tourism service via the Internet. Literature asserts a strong relationship between culture and innovation potential (Fife & Pereira, 2005; Hui,
+2004). This is why the survey focused solely on
+German-speaking winter tourists. Nevertheless, in
+order to gain representative results, at least for
+German-speaking skiing tourists, the nationality
+distribution within the sample corresponds to the
+population distribution in typical alpine tourism
+destinations, such as Tyrol (Table 3).
+The questionnaire used 6-point Likert scales
+(1 = strongly agree to 6 = strongly disagree) and
+was divided into three sections. With regard to the
+first section participants were asked to give some
+information on their mobile phone usage and general innovation habits. In the second questionnaire
+section participants were asked to rate the usage
+intention of mobile services and corresponding
+functionalities for their current stay. In order to
+reduce the effort of filling out the questionnaire,
+respondents were asked to evaluate only two mobile information services, thereby reducing the
+sample size (N) for service-dependent statistical
+analyses to 235 on average. Finally, the last section collected information on the current travel
+context as well as on sociodemographics.
+Results From Descriptive Analyses
+Mean values were calculated to descriptively
+show the general BI towards the various mobile
+information services under study (Table 4).
+Table 3
+Sample Nationality Distribution in Relation
+to Population Distribution
+
+Origin
+
+Overnight
+Staysa
+
+Percentage
+Shareb
+
+Nationality
+Distribution
+in Sample
+
+Germany
+Netherlands
+Austria
+Switzerland
+
+14,064,217
+3,312,286
+1,719,374
+866,599
+
+56.17%
+13.23%
+6.87%
+3.46%
+
+65.4%
+14.6%
+9.3%
+2.9%
+
+a
+
+Figures for Tyrol from Winter 04/05 provided by Statistics Austria.
+Total overnights = 23,317,536.
+
+b
+
+188
+
+RASINGER, FUCHS, AND HÖPKEN
+Table 4
+Descriptive Statistics
+
+Service
+BI service
+BI funct. search & browse
+BI funct. recommendation
+BI funct. context-aware push
+BI funct. mCommerce
+BI funct. Feedback
+Expected performance
+Expected social influence
+Expectancy effort
+Expected trust
+Expected hedonic quality
+
+Weather
+& News
+(N = 227)
+
+Transport
+& Navigation
+(N = 227)
+
+Security
+(N = 256)
+
+Gastronomy
+& Nightlife
+(N = 256)
+
+2.31 (1.20)
+2.64 (1.31)
+2.56 (1.31)
+2.71 (1.37)
+—
+—
+2.65 (1.04)
+2.93 (1.27)
+2.51 (1.16)
+3.09 (1.16)
+3.12 (1.48)
+
+2.40 (1.23)
+2.80 (1.31)
+2.59 (1.33)
+2.51 (1.26)
+3.22 (1.59)
+—
+2.65 (1.10)
+2.83 (1.18)
+2.58 (1.20)
+3.12 (1.19)
+3.11 (1.34)
+
+2.61 (1.42)
+2.86 (1.50)
+2.77 (1.43)
+2.63 (1.51)
+—
+—
+2.45 (1.14)
+2.87 (1.28)
+2.61 (1.29)
+2.98 (1.42)
+3.56 (1.42)
+
+3.15 (1.50)
+3.33 (1.51)
+3.26 (1.50)
+—
+3.23 (1.56)
+3.64 (1.58)
+2.83 (1.37)
+3.46 (1.42)
+3.15 (1.52)
+3.24 (1.50)
+3.50 (1.53)
+
+Event
+(N = 219)
+3.25
+3.37
+3.35
+3.66
+3.33
+4.01
+2.79
+3.40
+3.13
+3.33
+3.20
+
+(1.48)
+(1.52)
+(1.42)
+(1.40)
+(1.51)
+(1.49)
+(1.30)
+(1.31)
+(1.30)
+(1.36)
+(1.46)
+
+Sights
+(N = 219)
+3.29
+3.43
+3.52
+3.67
+3.64
+4.09
+2.66
+3.42
+3.07
+3.28
+3.21
+
+(1.45)
+(1.45)
+(1.41)
+(1.42)
+(1.48)
+(1.47)
+(1.16)
+(1.25)
+(1.26)
+(1.33)
+(1.47)
+
+Table entries are mean values with standard deviations in parentheses. Measurement item (BI): “I would use this service/
+functionality for my current stay.” Scale: 6-point Likert scale (1 = strongly agree to 6 = strongly disagree).
+
+In general, the empirical results of the pilot
+study were confirmed as the same mobile information services proved to be attractive. More precise,
+mobile information services providing information
+on weather & news (2.31), transport & navigation
+(2.40), and security (2.61) showed lower mean
+scores, signifying higher intention to use them.
+Thus, product managers should firstly focus on
+these mobile services to support tourists’ on-site
+information needs. In terms of functionality, feedback was clearly rated as least interesting to users
+throughout all services. This supports results from
+the focus group interviews where participants declared their skepticism about users entering long
+text on their mobile devices, which would be necessary for giving written feedback. When looking
+at the various expectancies, the observed services
+showed lowest mean values with respect to expected performance (2.45–2.83) and expected effort (2.51–3.28), indicating relatively strong expectancies in terms of performance, but also in
+terms of use effort.
+Results From Regression Analyses
+In a next step, an explorative factor analysis
+using principal components analysis with Varimax
+rotation was performed in order to aggregate those
+item pairs measuring the BI to use each functionality (Hair, Anderson, Tatham, & Black, 2005). As
+reported in Table 5, all the obtained functionality
+
+constructs showed to have a highly satisfactory
+construct reliability (i.e., Cronbach alpha well
+above 0.75). For determining the optimal functionality configuration for each mobile information
+service, multiple regression analyses were performed with the factor score values being the independent variables and the BI to use the mobile information service being the dependent variable
+(Hair et al., 2005). Table 5 summarizes the obtained regression results for each of the six examined mobile information services.
+First of all, the employed regressive approach
+to statistically “explain” the dependent variable
+“intention to use a specific information service”
+by its typical functionalities proved to be adequate
+because for all the six examined mobile services
+the corresponding regression model showed significant F-values as well as relatively high adjusted R 2 values (ranging between 0.38 and 0.63).
+Secondly, the search & browse functionality can
+be classified as a base functionality because it
+proved to be significant for all the six examined
+mobile information services. Interestingly enough,
+for a totality of four information services the context-aware push functionality seems to play a significant role in determining the intention to use
+mobile information services while at a destination.
+More precisely, for the three most attractive services in the eyes of the customers, namely (1)
+transport & navigation, (2) the security assistant
+and (3) news & weather service, the corresponding
+
+INFORMATION SEARCH WITH MOBILE TOURIST GUIDES
+
+189
+
+Table 5
+Behavioral Intention to Use Mobile Information Services in Tourism Determined by Functionalities
+Information
+Services
+
+Functionalities
+
+Beta
+
+1. Transport & Navigation
+
+Search & browse
+0.275**
+Recommendation
+NS
+Context-aware push
+0.407**
+mCommerce
+0.186*
+Feedback
+NS
+N = 218, F-value: 32.461, sig. = 0.000, Adj. R2 = 0.38
+
+2. Security Assistant
+
+Search & browse
+0.360**
+Recommendation
+NS
+Context-aware push
+0.442**
+mCommerce
+NS
+Feedback
+NS
+2
+N = 248, F-value: 130.63, sig. = 0.000, Adj. R = 0.62
+
+Cronbach
+Alpha
+0.786
+0.822
+0.825
+0.878
+
+Description
+Route and transport mean, actual and target position
+Event-based (e.g., congestion) actively proposes routes
+Ticketing and reservation for public transport
+
+0.911
+0.927
+0.945
+
+Active warning (e.g., storm, avalanche, etc.)
+
+3. News & Weather
+
+0.890
+0.893
+0.917
+
+Actual news and weather forecasts for various regions
+Location and preference-specific information filter
+Location-, activity-, & preference-based actively informs
+
+4. Event Guide
+
+0.899
+0.909
+0.941
+0.924
+0.938
+
+Simple and category-based search
+Filter for local/regional events during stay period
+
+Search & browse
+0.544**
+Recommendation
+0.521**
+Context-aware push
+0.456**
+mCommerce
+NS
+FeedbackNS
+N = 214, F-value: 84.159, sig. = 0.000, Adj. R2 = 0.54
+Search & browse
+0.461**
+Recommendation
+0.365**
+Context-aware push
+NS
+mCommerce
+0.216*
+Feedback
+NS
+N = 207, F-value: 58.81, sig. = 0.000, Adj. R2 = 0.59
+
+5. Gastronomy & Nightlife
+
+Search & browse
+0.573**
+Recommendation
+0.301**
+Context-aware push
+NS
+mCommerce
+0.216*
+Feedback
+0.230**
+N 2 = 214, F-value: 100.94, sig. = 0.000, Adj. R2 = 0.63
+
+6. Sightseeing
+
+Search & browse
+0.736**
+Recommendation
+NS
+Context-aware push
+NS
+mCommerce
+0.226*
+Feedback
+NS
+N = 214, F-value: 44.468, sig. = 0.000, Adj. R2 = 0.53
+
+Search for risks per region and tourism activity
+
+Online ticketing
+
+0.932
+0.921
+
+Simple and category-based search
+Recommendation for restaurants and bars
+
+0.909
+0.930
+
+Checking occupancies and making reservations
+Evaluating and reading customer evaluations
+
+0.822
+0.820
+0.853
+0.836
+0.896
+
+Simple and category-based search
+
+Ticketing (e.g., museums, etc.)
+
+Dependent variable: intention to use.
+Sig. of (std.) beta: *<5%, **<1%, NS, not significant.
+
+context-aware push functions are acting as the
+most prominent functionalities, which can be seen
+from the high and strongly significant standardized regression coefficients (Hair et al., 2005). In
+fact, for the security assistant and the transport &
+navigation service the push functionality has a
+stronger influence on BI than the pull-based functionalities, indicating most interesting usage cases
+for push-based systems. Apparently, for security
+(e.g., critical warnings, such as storm warnings,
+avalanches, etc.) and transport information (e.g.,
+
+traffic jams) the advantages of push-based systems
+are most convincing for prospective users. To
+summarize, the signs of the emerging significant
+regression coefficients were in line with the above
+proposed model.
+Multiple regression was further employed to
+determine the relative influence of expected performance, expected social influence, expected
+trust, expected effort of use, and expected hedonic
+quality on the BI to use the mobile information
+service. As explained above, the exogenous deter-
+
+190
+
+RASINGER, FUCHS, AND HÖPKEN
+
+minants of use intention (i.e., independent variable) were measured with a unique manifest variable. Consequently, no statistical measure for the
+construct reliability can be indicated. Table 6 summarizes the obtained regression results for each of
+the six examined mobile information services in
+tourism.
+Again, the corresponding regression model
+showed significant F-values as well as relatively
+high adjusted R2 values (ranging between 0.44 and
+
+0.65). Nevertheless, the obtained results should be
+treated with caution. One must keep in mind that
+it is not the service that was evaluated, but rather
+the mental picture the participants of the survey
+had of the specific mobile information service. As
+stated earlier, social influence, trust, effort of use
+(usability)’, and hedonic quality may be interpreted as major prejudice factors towards mobile information services. The obtained results impressively show in particular the strong influence of
+
+Table 6
+Use Intention of Mobile Information Services Determined
+by Acceptance Dimensions
+Information Services
+
+Determinants of Use Intention
+(Independent Variables)
+
+Exp. performance (usefulness)
+Expected social influence
+Expected trust
+Expected effort (of use)
+Expected hedonic quality
+N = 220, F-value: 36.049, sig. = .000, Adj. R2 = 0.44
+
+Beta
+
+1. Transport & Navigation
+
+0.275**
+0.249**
+NS
+0.248**
+0.141*
+
+2. Security Assistant
+
+0.126**
+0.194**
+NS
+0.549**
+NS
+
+3. News & Weather
+
+0.173**
+0.242**
+NS
+0.506**
+NS
+
+4. Event Guide
+
+0.129*
+0.147*
+NS
+0.512**
+NS
+
+5. Gastronomy & Nightlife
+
+NS
+NS
+0.1*
+0.625**
+0.126*
+
+6. Sightseeing
+
+NS
+NS
+NS
+0.529**
+NS
+
+Exp. performance (usefulness)
+Expected social influence
+Expected trust
+Expected effort (of use)
+Expected hedonic quality
+N = 246, F-value: 92.516, sig. = 0.000, Adj. R2 = 0.65
+
+Exp. performance (usefulness)
+Expected social influence
+Expected trust
+Expected effort (of use)
+Expected hedonic quality
+N = 211, F-value: 68.825, sig. = 0.000, Adj. R2 = 0.62
+
+Exp. performance (usefulness)
+Expected social influence
+Expected trust
+Expected effort (of use)
+Expected hedonic quality
+N = 205, F-value: 67.016, sig. = 0.000, Adj. R2 = 0.62
+Exp. performance (usefulness)
+Expected social influence
+Expected trust
+Expected effort (of use)
+Expected hedonic quality
+N = 245, F-value: 86.999, sig. = 0.000, Adj. R2 = 0.64
+Exp. performance (usefulness)
+Expected social influence
+Expected trust
+Expected effort (of use)
+Expected hedonic quality
+N = 206, F-value: 47.785, sig. = 0.000, Adj. R2 = 0.51
+
+Dependent variable: intention to use.
+Sig. of (std.) beta: *<5%, ** <1%, NS, not significant.
+
+INFORMATION SEARCH WITH MOBILE TOURIST GUIDES
+expected effort of use (usability)’ on BI (Table 6).
+Thus, participants apparently tend to have services
+in mind that would be difficult to use. Possible
+reasons are failures of hyped WAP Services in the
+past (Forge, 2004) or simply low levels of selfefficacy (Compeau & Higgins, 1995). Interestingly enough, for the mobile transport & navigation service the influence of expected effort of use
+(usability) was relatively low. A possible explanation could be a higher state of familiarity with
+these systems and, consequently, less skepticism
+in terms of usability. To summarize, again, the regression results were in line with the above proposed model.
+Results From Analysis of Variances
+In a final step, the influence of the users’ affinity towards technology on BI was examined. For
+this aim, the six DSI items (Goldsmith & Hofacker,
+1991) were subjected to a factor analysis, reducing
+the number of items to four as loading commonly
+to one factor (Hair et al., 2005). As suggested by
+Goldsmith (2001), the z-standardized factor score
+values were subsequently used to define three different user groups: innovators (first quartile), middle majority (second and third quartile), and laggards (fourth quartile). Finally, the mean scores of
+BI to use both mobile service and corresponding
+
+191
+
+functionalities were statistically compared among
+these groups using one-way ANOVA (Hair et al.,
+2005). In contrast to the ability to discriminate usage patterns for established mobile services (e.g.,
+Mobile Internet, MMS, video-telephony), DSI
+showed only little ability to discriminate BI to use
+mobile information services in tourism. Significant group differences were observed only for the
+services and functionalities listed in Table 7.
+To summarize, mean values appertaining to the
+group of innovators throughout all the observed
+mobile information services and functionalities
+were lower than those of both the middle majority
+group and the laggards. Significant mean differences could only be observed for the transport and
+navigation, news & weather, event, and gastronomy service. Innovators show a higher BI to use
+a mobile information service for buying tickets for
+public transport and events taking place during
+their vacation. Further, innovators rated the news
+& weather service as being significantly more useful than members of the middle majority and laggard group. Interestingly enough, for the gastronomy-related information service four out of five
+functionalities showed significantly different effects on BI. In particular, innovators seem to be
+more susceptible to mobile services providing information on gastronomy services within a tourism destination.
+
+Table 7
+ANOVA With DSI Groups and Behavioral Intention to Use Mobile Information Services
+Grouping Variable DSI
+Innovators
+
+Majority
+
+Laggards
+
+F
+
+df
+
+eta2
+
+Transport & Navigation
+BI functionality: mobile commerce
+
+N = 48
+2.479a,b
+
+N = 132
+3.106a
+
+N = 42
+3.464b
+
+5.651
+
+2, 219
+
+0.049
+
+News & Weather
+Expected performance
+Event
+BI functionality: mobile commerce
+Gastronomy
+BI use mobile gastronomy guide
+BI functionality: search & browse
+BI functionality: recommendation
+BI functionality: mobile commerce
+
+N = 47
+2.362a
+N = 47
+2.840a
+N = 58
+2.948a
+2.879a
+2.862a
+2.868a
+
+N = 130
+2.669
+N = 132
+3.193
+N = 128
+2.931b
+3.082b
+3.008b
+3.008b
+
+N = 39
+2.949a
+N = 36
+3.653a
+N = 60
+3.754a,b
+3.839a,b
+3.767a,b
+3.742a,b
+
+3.510
+
+2, 213
+
+0.031
+
+5.651
+
+2, 219
+
+0.030
+
+7.312
+8.080
+8.070
+6.741
+
+2, 246
+2, 242
+2, 243
+2, 241
+
+0.056
+0.063
+0.062
+0.052
+
+3.276a
+
+3.426
+
+3.992a
+
+3.850
+
+2, 243
+
+0.031
+
+Dependent Variable
+
+BI functionality: feedback
+
+Explanation
+
+Ticketing and reservation for public
+transport
+
+Booking events directly
+
+Simple and category-based search
+Restaurant recommendation
+Checking occupancies and making
+reservations
+Give and read comments on restaurants
+
+Measurement scale: 6-point Likert scale (1 = strongly agree to 6 = strongly disagree). Measurement item: “I would use this service for my
+current stay.” Means with the same superscripts are significantly different at the 0.05 level (Hair et al., 2005).
+
+192
+
+RASINGER, FUCHS, AND HÖPKEN
+Conclusion
+
+The purpose of the presented study was to propose a method to support investors (e.g., mobile
+phone operators), product developers, product
+managers, and marketers but also destination managers in their complex decision process regarding
+both development and marketing of mobile tourist
+guides. Light was shed onto the usage potential
+of mobile information services supporting on-site
+tourist information search, particularly for the urban-alpine setting.
+To conclude, the presented empirical study can
+be defined as a snapshot of users’ (i.e., tourists)
+expectancies and prejudices regarding mobile information services supporting information search
+during a vacation. Thus, one must keep in mind
+that it was not the service per se that was evaluated, but rather the mental image the survey participants (i.e., alpine tourists) had in mind of a specific mobile information service. Nevertheless, the
+survey results can strongly contribute to enhancing
+future requirement definitions for mobile information service prototypes. However, future research
+efforts should be based on both the establishment
+of working prototypes as well as the extensive
+gathering and analysis of usage data, thereby comprehensively validating the proposed acceptance
+model for mobile information services.
+Biographical Notes
+Jörg Rasinger received his master of business informatics
+at the Technical University of Vienna in 2003 and is now
+a researcher at the eTourism Competence Center located in
+Tyrol, Austria. He is project manager of a mobile information service for the tourism industry (etPlanner). His main
+research interests include the development of mobile information services and the determination of acceptance barriers of mobile services.
+Matthias Fuchs, Ph.D., is head of the e-Tourism Competence Centres Austria and Associated Professor at the Centre of Tourism and Service Economics at University of
+Innsbruck, Austria. Matthias Fuchs was rewarded with the
+Austrian state-sponsored Rudolf-Sallinger Research Price
+and was nominated by the World Scientist Forum for the
+Eminent Scientist of the Year 2003. His research interests
+fall into eTourism, Tourism Management and Labor Market Research.
+Wolfram Höpken is director of the eTourism Competence
+Center Austria (ECCA). He studied computer science at the
+
+University of Erlangen-Nürnberg and received his Ph.D.
+from the University of Darmstadt. His main research areas
+are intelligent trip planning and recommendation systems,
+semantic web & interoperability, and the harmonization of
+electronic markets in the field of tourism. Wolfram Höpken
+is president of the HarmoNet initiative (network for harmonizing the data exchange within the tourism domain) and
+vice president and commercial director of IFITT.
+References
+Accenture. (2001). The future of wireless: different than
+you think, bolder than you imagine.
+Ajzen, I. (1991). The theory of planned behavior. Organizational Behavior and Human Decision Processes,
+50(2), 179–211.
+Amberg, M., Wehrmann, J., & Zimmer, R. (2004a). Identification of factors influencing the design of mobile services. In IFIP TC8 Working Conference on Mobile Information Systems (MOBIS). Oslo: Springer Verlag.
+Amberg, M., Wehrmann, J., & Zimmer, R. (2004b). Towards a theory based identification of influencing factors for the design of mobile services. Conference on
+Cybernetics and Information Technologies, Systems and
+Application (CITSA).
+Anegg, H., Kunczier, H., Michlmayr, E., & Pospischil, M.
+(2002). Lol@: Designing a location based UMTS application. ÖVE-Verbandszeitschrift e&i.
+A.T. Kearney. (2004). Mobile Datendienste auf dem Vormarsch. Telefonieren wird für Mobilfunkkunden zur Nebensache. A.T.Kearney and Cambridge University.
+Atkin, C. (1973). Instrumental utilities and information
+seeking. In P. Clarke (Ed.), New models for communication research (pp. 207–239). Beverly Hills: Sage.
+Barnes, S. J. (2002). The mobile commerce value chain:
+analysis and future developments. International Journal
+of Information Management, 22(2), 91–108.
+Barnes, S. J., & Huff, S. L. (2003). Rising Sun: iMode and
+the wireless Internet. Communications of the ACM, 46,
+79–84.
+BC Group. (2000). Mobile commerce: Winning the on-air
+consumer.
+Beer, T., Fuchs, M. Höpken, W., Rasinger, J. & Werthner,
+H. (2007). CAIPS: A context-aware information push
+service in tourism. In Information and communication
+technologies in tourism. New York: Springer Wien.
+Berger, S., Lehmann, H., & Lehner, F. (2003). Locationbased services in the tourist industry. Information Technology & Tourism, 5, 243–256.
+Bieger, T., & Laesser, C. (2004a). Information sources for
+travel decision toward a source process model. Journal
+of Travel Research, 42, 357–371.
+Bieger, T., & Laesser, C. (2004b). Reisemarkt Schweiz.
+IDT-HSG.
+Chae, M., Kim, J., Kim, H., & Ryu, H. (2002). Information
+quality for mobile Internet services: A theoretical model
+with empirical validation. Electronic Market, 12(1),
+38–46.
+
+INFORMATION SEARCH WITH MOBILE TOURIST GUIDES
+Chen, J. S., & Gursoy, D. (2000a). Cross-cultural comparison of the information sources used by first-time and
+repeat travelers and its marketing implications. Hospitality Management, 19, 191–203.
+Chen, L.-d., Gillenson, M., & Sherrell, D. (2004). Consumer acceptance of virtual stores: A theoretical model
+and critical success factors for virtual stores. ACM
+SIGMIS Database, 35, 8–31.
+Compeau, D. R., & Higgins, C. A. (1995). Computer selfefficacy: Development of a measure and initial test. MIS
+Quarterly, 19(2), 189–211.
+Davis, F. D. (1989). Perceived usefulness, perceived ease
+of use, and user acceptance of information technology.
+MIS Quarterly, 319–333.
+Davis, F. D., Bagozzi, R. P., & Warshaw, P. R. (1989).
+User acceptance of computer technology: A comparison
+of two theoretical models. Management Science, 35(8),
+982–1003.
+Davis, F. D., Bagozzi, R. P., & Warshaw, P. R. (1992).
+Extrinsic and intrinsic motivation to use computers in
+the workplace. Journal of Applied Psychology, 22(14),
+1111–1132.
+Davis, F. D., & Venkatesh, V. (2004). Toward preprototype
+user acceptance testing of new information systems: Implications for software project management. IEEE Transactions on Engineering Management, 51(1), 31–46.
+De Wulf, K., Niels, S., Muylle, S., & Rangarajan, D.
+(2006). The role of pleasure in web site success. Information & Management, 43, 434–446.
+Dhar, R., & Wertenbroch, K. (2000). Consumer choice between hedonic and utilitarian goods. Journal of Marketing Research, 37(1), 60–71.
+Dunstall, S., Horn, M., Kylbi, P., Krishnamoorthy, M.,
+Owens, B., Sier, D., & Thiebaux, S. (2003). An automated itinerary planning system for holiday travel. Information Technology & Tourism, 6(3), 195–210.
+Fife, E., & Pereira, F. (2005). Global acceptance of technology (GAT) and demand for mobile data services.
+Hong Kong Mobility Roundtable.
+Fishbein, M., & Ajzen, I. (1975). Belief, attitude, intention
+and behavior: An introduction to theory and research.
+Reading, MA: Addison-Wesley.
+Fodness, D., & Murray, B. (1997). Tourist information
+search. Annals of Tourism Research, 24(3), 503–523.
+Fodness, D., & Murray, B. (1998). A typology of tourist
+information search strategies. Journal of Travel Research, 37, 108–119.
+Fodness, D., & Murray, B. (1999). A model of tourist information search behavior. Journal of Travel Research, 37,
+220–230.
+Forge, S. (2004). Is fourth generation mobile nirvana or
+. . . nothing? info, 6(1), 12–23.
+Fuchs, M., & Höpken, W. (in press). Structural and behavioural changes on account of new information and communication technologies in tourism. In: From the old
+to the new tourism—managing change in the tourism
+industry. Innsbruck: University of Innsbruck.
+Fuchs, M., Höpken, W., Lehmann, P., & Wöckl, J. (2006).
+
+193
+
+Destination website evaluation—a technology acceptance modeling approach. London: Eye For Travel (Research Track).
+Fuchs, M., Rasinger, J., Höpken, W., & Grün, C. (2007).
+Exploring information services for mobile tourist
+guides—results from an expert survey. Nice: TTRA Europe.
+Gefen, D. (2000). E-commerce: The role familiarity and
+trust. Omega—The International Journal of Management Science, 28, 725–737.
+Gefen, D., & Devine, P. (2001). Customer loyalty to an online store: The meaning of online service quality. Proceedings of the 22nd International Conference on Information Systems (pp. 613–617).
+Goldsmith, R. E. (2001). Using the domain specific innovativeness scale to identify innovative Internet consumers.
+Internet Research: Electronic Networking Applications
+and Policy, 11(2), 149–158.
+Goldsmith, R. E., & Hofacker, C. F. (1991). Measuring
+consumer innovativeness. Journal of the Academy of
+Marketing Science, 19(3), 209–221.
+Hair, J. F., Anderson, R. E., Tatham, R. L., & Black,
+W. C. (2005). Multivariate data analysis. Englewood
+Cliffs, NJ: Prentice Hall.
+Hassenzahl, M. (2002). The effect of perceived hedonic
+quality on product appealingness. International Journal
+of Human Computer Interaction, 13, 479–497.
+Hassenzahl, M., Burmester, M., & Koller, R. (Eds.).
+(2003). AttrakDiff: Ein Fragebogen zur Messung wahgenommener hedonischer und pragmatischer Qualität.
+Mensch & Computer 2003. Interaktion in Bewegung.
+Stuttgart, Leipzig: B.G. Teubner.
+Hassenzahl, M., Platz, A., Burmester, M., & Lehner, K.
+(2000). Hedonic and ergonomic quality aspects determine a software’s appeal. CHI Letters, 2, 201–208.
+Hess, T., Figge, S., Hanekop, H., Hochstatter, I., Hogrefe,
+D., Kaspar, C., Rauscher, B., Richter, M., Riedel, A., &
+Zibull, M. (2005). Technische Möglichkeiten und Akzeptanz mobiler Anwendungen, Eine interdisziplinäre
+Betrachtung. Wirtschaftsinformatik, 47, 6–16.
+Hinze, A., & Voisard, A. (2003). Locations- and timebased information delivery in tourism. Advances in Spatial and Temporal Databases, 8th International Symposium. Santorini Island, Greece.
+Höpken, W., Fuchs, M., Zanker, M., Beer, T., Eybl, A.,
+Flores, S., Gordea, S., Jessenitschnig, M., Kerner, T.,
+Linke, D., Rasinger, J., & Schnabl, M. (2006). etPlanner: An IT framework for comprehensive and integrative travel guidance. In Information and communication
+technologies in tourism 2006. Lausanne: Springer.
+Hui, T. K., & Wan, D. (2004). The role of consumer innovativeness in the adoption of Internet shopping in Singapore. The Internet Business Review, 1.
+Kaasinen, E. (2005). User acceptance of mobile services—
+value, ease of use, trust, and ease of adoption. Ph.D.
+thesis, Tampere University of Technology.
+Köhne, F., Totz, C., & Wehmeyer, K. (2005). Consumer
+preferences for location-based services attributes: A
+
+194
+
+RASINGER, FUCHS, AND HÖPKEN
+
+conjoint analysis. International Journal of Management
+and Decision Making, 6(1), 16–32.
+Krueger, A. R. (1998). Developing questions for focus
+groups. London/New Delhi: Sage Publications.
+Lederer, A. L., Maupin, D. J., Sena, M. P., & Zhuang, Y.
+(2000). The technology acceptance model and the
+World Wide Web. Decision Support Systems, 29, 269–
+282.
+Legris, P., Ingham, J., & Collerette, P. (2003). Why do people use information technology? A critical review of the
+technology acceptance model. Information & Management, 40, 191–204.
+Lin, H.-H., & Wang, Y.-S. (2006). An examination of the
+determinants of customer loyalty in mobile commerce
+contexts. Information & Management, 43, 271–282.
+Lu, J., Liu, C., Yu, C.-S., & Yao, J. E. (2004). Exploring
+factors associated with wireless Internet via mobile
+technology acceptance in mainland China. Communications of the International Information Management Association, 3, 101–120.
+Murphy, H., & Schegg, R. (2006). Information requirements of hotel guests for location based services: Identifying characteristic segments. In Information and communication technologies in tourism 2006. Lausanne:
+Springer.
+Muthaiyah, S. (2004). Key success factors of 3rd generation mobile network services for M-Commerce in Malaysia. American Journal of Applied Sciences, 1(4),
+261–265.
+Parasuraman, A., Zeithaml, V. A., & Berry, L. L. (1988).
+SERVQUAL: A multiple-item scale for measuring consumer perceptions of service quality. Journal of Retailing, 64(1), 12–40.
+Pröll, B., & Palkoska, J. (2002). On accessing and customizing cultural heritage objects in Tiscover. DEXA
+Workshops 2002.
+Pugh, S., Jupp, M., & Collomb, F. (2004). Project POSITION—supporting the exploitation of innovative tourism technologies. In Information and communication
+technologies in tourism. Cairo: Springer.
+Raffée, H., & Silberer, G. (1981). Informationsverhalten
+des Konsumenten—Ergebnisse empirischer Studien (pp.
+29–31). Wiesbaden: Gabler.
+Raitz, K., & Dakhil, M. (1989). A note about information
+sources for preferred recreational environments. Journal
+of Travel Research, 27(1), 45–49.
+Rasinger, J., Fuchs, M., Höpken, W., & Tuta, M. (2006). A
+customer based approach to discover accepted mobile
+
+View publication stats
+
+information services in tourism. London: Eye for
+Travel.
+Rayport, J. F., & Sviokla, J. J. (1996). Exploiting the virtual
+value chain. McKinsey Quarterly, 1, 20–36.
+Rogers, E. M. (1995). The diffusion of innovations. New
+York: Free Press.
+Schul, P., & Crompton, J. L. (1983). Search behavior of
+international vacationers: Travel-specific lifestyle and
+sociodemographic variables. Journal of Travel Research, 22(2), 25–31.
+Schwinger, W., Grün, C., Pröll, B., Retschitzegger, W., &
+Schauerhuber, A. (2005). Context-awareness in mobile
+tourism guides. Johannes Kepler University Linz IFS/
+TK. Retrieved from http://www.ifs.uni-linz.ac.at/ifs/
+research/publications/papers05.html
+Snepenger, D., Meged, K., Snelling, M., & Kelly, W.
+(1990). Information search strategies by destinationnaive tourists. Journal of Travel Research, 29(2),
+13–16.
+Staab, S., & Werthner, H. (2002, November/December). Intelligent systems for tourism. IEEE Intelligent Systems,
+53–66.
+Steinbauer, A., & Werthner, H. (2007). Consumer behaviour in e-Tourism. In Information and communication
+technologies in tourism 2007. Ljubljana, Slovenia. New
+York: Springer Wien.
+Swan, J. E., Bowers, M. R., & Richardson, L. D. (1999).
+Customer trust in the salesperson: An integrative review
+and meta-analysis of the empirical literature. Journal of
+Business Research, 44(2), 93–107.
+UMTS Forum. (2005). Magic mobile future 2010–2020.
+London: Author.
+Venkatesh, V., & Davis, F. D. (2000). Theoretical extension of the Technology Acceptance Model: Four longitudinal field studies. Management Science, 46(2), 186–
+204.
+Venkatesh, V., Morris, M., Davis, G. B., & Davis, F. D.
+(2003). User acceptance of information technology: Toward a unified view. MIS Quarterly, 27(3), 425–478.
+Venkatesh, V., Ramesh, V., & Massey, A. P. (2003). Understanding usability in mobile commerce. Communications of the ACM, 46, 53–56.
+Werthner, H., & Ricci, F. (2004). E-Commerce and tourism. Communications of the ACM, 47, 101–105.
+Wohltorf, J., Cissée, R., & Rieger, A. (2005). BerlinTainment: An agent-based context-aware entertainment
+planning system. IEEE Communications Magazine, 43,
+102–109.
+
+

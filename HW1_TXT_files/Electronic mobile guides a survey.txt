@@ -1,0 +1,1767 @@
+Pers Ubiquit Comput (2011) 15:97–111
+DOI 10.1007/s00779-010-0295-7
+
+ORIGINAL ARTICLE
+
+Electronic mobile guides: a survey
+Michael Kenteris • Damianos Gavalas
+Daphne Economou
+
+•
+
+Received: 29 September 2009 / Accepted: 2 March 2010 / Published online: 8 April 2010
+ Springer-Verlag London Limited 2010
+
+Abstract Mobile tourist guides have been in the spot
+light for the past decade and are becoming increasingly
+available in various forms to tourists visiting places. The
+majority of these mobile tourist guides are to be used via a
+constant network connection and some as proprietary
+standalone mobile applications installed on-device. Some
+are solely navigational assistants using positioning technologies for large cities offering exploratory services and
+others are used indoors, for example as museum guides.
+This research paper attempts to categorize these mobile
+guides using a detailed set of evaluation criteria in order to
+extract design principles which can be used by application
+designers and developers.
+
+1 Introduction
+The convergence of information technology, the Internet
+and telecommunication industry has generated massive
+changes in the tourism industry field. Those changes were a
+result of the evolution of technologies used to spread
+information amongst tourists and the industry. Amongst
+other activities, tourists use information technology to
+search for destination information regarding prospective
+places to visit and the industry makes use of such technologies to offer information to tourists. In addition, due to
+M. Kenteris (&)  D. Gavalas  D. Economou
+Department of Cultural Technology and Communication,
+University of the Aegean, Mytilene, Lesvos, Greece
+e-mail: m.kenteris@ct.aegean.gr
+D. Gavalas
+e-mail: dgavalas@aegean.gr
+D. Economou
+e-mail: d.economou@ct.aegean.gr
+
+the increase of Web 2.0 technologies such as social networks, blogs, wiki’s, etc., tourists seek out information
+from their tourist peers. There are numerous Websites on
+hand which offer this sort of personal information space to
+tourists such as tourist blogs, tourist diary notes and communication technologies to connect with family and friends
+and with others.
+In parallel, an increase in mobile phone usages for services other than voice calls and text messaging has been
+also observed. This is owed to the mobile phone transcending from a traditional voice communication device to
+an instrument facilitating an interaction of the three major
+sectors noted above [1]. The mobile phone sector is
+showing a large increase in mobile phones with personal
+navigational systems along with an increase in the usage of
+the mobile Web platform. However, by nature, mobile
+phones will always have differences in comparison with
+the desktop computer; let it be screen size, input methods,
+or just capabilities. Also, there has been some advancement
+in mobile Web technologies, gone are the days of WAPbased Web pages which have been replaced by dynamic
+XHTML pages and partial scripting compliance, making
+the mobile phone a strong predecessor of traditional Web
+technologies (i.e. mobile blogs, mobile Webmail, mobile
+sites, etc.). However, the mobile phone is still evolving,
+which brings about problems in the making of standards.
+This has heightened the need for solutions which can
+compensate on constraints of mobile browser capabilities
+and the lack of device standards compliance (some
+attempts have been made with mobile Ajax). Current trends
+indicate an increase in the need of mixed mode Web
+applications running both on the static and on the mobile
+Web (i.e. gmail, google maps, facebook, youtube, etc.).
+One of the most popular solutions of using the mobile Web
+in conjunction to the static Web is the use of robust stand
+
+123
+
+98
+
+alone applications running on the mobile phone which
+compensates on constraints of the mobile Web browser.
+Due to the large number of mobile devices available
+amongst users each having unique features, raises issues of
+factoring to fragmented mobile phone types readily available. Most mobile application developers build separate
+applications for each of the mobile devices; the software
+companies want to target resulting in large development
+overheads and the expense of many man hours. This in turn
+has raised issues of development platforms and different
+variations in porting to mobile phone devices. The question
+lies in what standards will prevail to facilitate tourists
+mixed mode usage of the Web in a static home/office situation and what for the dynamic mobile situation in regards
+to mobile navigational tourist guide applications; what
+standards do developers have to build tourist Web applications running on the Web and what for the mobile phone
+sector.
+This paper focuses on the evaluation of research and
+commercial applications used by tourists to retrieve information, navigation and guidance using some form of
+mobile devices. For this evaluation, a large number of
+relevant projects have been investigated addressing a
+number of different issues. Yet, in order to extract design
+principles for such a mixed mode platform area, a set of
+design criteria were extracted. Focus has been given to
+mobile tourist guides systems running on any hardware
+architecture with or without a network connection medium.
+The remainder of this paper is organized as follows:
+Sect. 2 analyses the design criteria sought out to complete
+this research. Section 3 evaluates the projects with respect
+to the issues stated in Sect. 2. Section 4 comprises a
+summary of research findings and includes some tables of
+summarizing data. Section 5 discusses the extracted design
+principles and concludes the paper.
+
+Pers Ubiquit Comput (2011) 15:97–111
+
+situational factors, adaptation capabilities, user interaction
+and architecture. Others like Chen and Kotz [3] took into
+consideration the issue of context awareness to evaluate
+mobile guides. As such, our evaluation attempts to address
+two main questions; what design principles can be used by
+application designers for the design of mobile tourist
+guides; what technological choices do developers have
+while embarking on this specific domain area. During the
+evaluation, these two fundamental questions brought forward a new sub-set of evaluation criteria which took into
+consideration our vision for the creation of a nomadic1
+tourist information platform running on readily available
+mobile technology.
+The accumulated findings of the design criteria from the
+angle of both application designers and technology developers brought out our main evaluation criteria which are
+summarized below in the form of questions:
+•
+
+–
+
+–
+
+–
+
+•
+
+123
+
+–
+
+–
+
+1
+
+What information models were developed for
+mobile guides; do they make use of personal
+profiling and/or collaborative filtering techniques
+to offer personalized information and services;
+could the information model be updated easily;
+could it support different languages?
+What types of input/output modalities were used?
+Did the projects offer various types of information
+using multimodality technologies such as 3D
+graphics or speech?
+What unique services were designed and how were
+they implemented (e.g. using web agents, web
+services, etc.); were these services well accepted by
+tourists? Did the projects integrate any existing
+standards-based frameworks or initiatives to support tourist users or were all services proprietary?
+
+In respect to technology developers:
+–
+
+2 Design criteria
+In the scope of mobile tourist guides, the research carried
+out over the past decade falls into two main categories [32]:
+application-led research and technology-led research.
+Application-led being research led by a domain problem
+which is evaluated by deploying a solution and quantifying
+the benefits of this solution and technology-based research
+is motivated by the benefits of the solution, yet challenging
+technologically wise. Thus, these two categories of
+research are basically brought about from usability
+designers and by device technology designers [21].
+Until today, evaluation research of mobile guides has
+mostly been presented by scope of issue [3, 17, 23]. Kray
+et al. [17] studied map-based navigational guides evaluating guides based upon five basic issues: features offered,
+
+In regards to application designers:
+
+What architecture was used; which technology
+platform was chosen to implement the applications
+in stake; could these be used in today’s mass mobile
+technology devices?
+What type of network infrastructure was required to
+support the project at hand; what network infrastructure was used (e.g. WiFi, BT and 3G); could
+the application adapt to changing networking environments? What was usage cost of such systems for
+the end-users?
+What type of positioning technologies and map
+technologies was used to support indoor and
+outdoor use; were maps used to support the user;
+
+Nomadic Tourist Information platform being access to tourist
+information and to personal space anytime anywhere [9].
+
+Pers Ubiquit Comput (2011) 15:97–111
+
+99
+
+could they be used to support route finding,
+dynamic itinerary support to users? What types of
+location-based and context-aware services were
+offered? How did navigational technology support
+the user context with respect to information
+published to them?
+
+Mobile guide
+applications
+
+In enhancing the above-stated questions, five issues
+where extracted and summarized in Fig. 1 below. All the
+projects reviewed in section three are reviewed in respect
+to the aforementioned issues.
+Mobile
+Phone
+Navigational
+assistants
+
+3 The evaluation
+The field of mobile tourism has only been around the past
+decade or so, yet includes a large number of research and
+commercial applications database. The majority of related
+projects addressed are in the form of Websites, Web
+applications and mobile guide applications all addressing
+ubiquitous mobile tourism solutions. The projects investigated were classified into four groups: mobile guides,
+navigational assistants, web-to-mobile applications and
+mobile web-based (Fig. 2).
+Mobile guide applications are projects that use mobile
+devices as the key user platform offering tourist information
+and the use of services in various forms. The majority of the
+overall projects that were evaluated were thick applications
+running as a stand-alone application or on a networked
+centralized application mode. Due to the incompatibility of
+mobile devices, many different development platforms
+were used [8]. One of the original milestone mobile guide
+projects was Cyberguide [1]. The main goal of the Cyberguide project (see Fig. 3) was to support rapid prototyping
+Fig. 1 Evaluation criteria used
+to review mobile guide projects
+
+Information
+InformationModels
+Models
+
+Web-to-mobile
+applications
+
+Mobile Webbased
+applications
+
+Fig. 2 Projects were classified into four main groups
+
+[20] resulting into many separate systems prototyped for
+outdoor and indoor use. The guide system [5] was a mobile
+tourist guide project implemented for the city of Lancaster.
+The project was designed to be flexible, to enable visitors to
+explore and learn about the city without the need to follow
+guided tours (see Fig. 3b). The Local Location Assistant
+(LoL@) [38] was a research project which investigated
+location-based multimedia Universal Mobile Telecommunications System (UMTS) applications (See Fig. 3c). The
+main idea behind the usage scenario of LoL@ was being
+able to access tourist information via tourist mobile phones
+without renting a project-specific device. HIPS (Hyper
+Interaction within Physical spaces) [27, 28] was a hypermedia-based guide application (see Fig. 3d) designed to
+offer support in the multiple stages of a museum visit:
+
+Positioning
+Positioning/ /MAP
+MAP
+Technologies
+Technologies
+
+Personalized content
+Personalized content
+Personal Profiling
+Personal Profiling
+Collaborative Filtering
+Collaborative Filtering
+Context Aware
+Context Aware
+Updating content
+Updating content
+
+Mapping Technology
+Mapping Technology
+Out/In door technology
+Out/In door technology
+Route Finding/Itineraries
+Route Finding/Itineraries
+Adaptation techniques
+Adaptation techniques
+
+Input/Output
+Input/Output
+Modalities
+Modalities
+
+Mobile
+MobileTourist
+Tourist
+Guides
+Guides
+
+User Situations
+User Situations
+Accessability
+Accessability
+Multimodality e.g. 3D
+Multimodality e.g. 3D
+Input methods
+Input methods
+
+Network
+Network
+Infrastructure
+Infrastructure
+
+Cognitive Capabilities
+Cognitive Capabilities
+Adaptation to changing
+Adaptation to changing
+environments
+environments
+WiFi, BT, 3G
+WiFi, BT, 3G
+
+Architecture/
+Architecture/
+Development
+Development
+Platforms
+Platforms
+Frameworks
+Frameworks
+Multilingual
+Multilingual
+
+Unique
+UniqueServices
+Services
+
+Communication
+Communication
+Content Sharing
+Content Sharing
+E-Commerce, Pre and
+E-Commerce, Pre and
+post visit Social Networks
+post visit Social Networks
+
+123
+
+100
+
+Pers Ubiquit Comput (2011) 15:97–111
+
+Fig. 3 Various screenshots of
+the mobile guide projects. a
+Cyberguide: Screenshot of the
+mapping service. b Guide:
+Custom built browser using
+WLAN for LBS. c LoL@ guide
+running on a UMTS mobile
+phone. d Hippie browser–based
+user interface
+
+Preparation at home (pre-visit), execution on site (on-site)
+and evaluation process (post-visit).
+TellMaris, a Nokia Research centre prototype [18, 33],
+was one of the first mobile systems to use OpenGL-based
+3D maps prototype in combination with 2D maps (see
+Fig. 4a) for the city of Tonsberg in Norway targeting
+boating tourists in the Baltic Sea area. The project presented 2D and 3D maps on mobile devices in a way in
+which to provide easier orientation for tourist [31]. The
+DeepMap project [22] was a research framework conducted by the European Media Lab and several cooperating
+institutions that envisioned the future of tourist guidance
+systems that worked as mobile guides and as a web-based
+planning tool (see Fig. 4b). The CRUMPET project [29,
+34] implemented, validated and tested tourism related
+value-added services for nomadic users across mobile and
+fixed networks (see Fig. 4c). SmartKom [40] was a multimodal dialog project which combined speech, gesture and
+facial expressions for both input and output (see Fig. 4d).
+REAL [2] was a hybrid (combination of client–server with
+application-based architecture) pedestrian navigation system, which helped the user to find information by generating a graphical route description. The REAL project
+developed a pedestrian navigation system that combined
+active and passive location sensitivity in such a way that
+the changeover between both adaptation paradigms was
+barely noticeable for the user.
+
+123
+
+The web-to-mobile projects are projects that use the web
+to offer tourist information and services to tourists by
+deploying a mobile application to the user’s device. In
+general, there are quite a few projects that use the web to
+deploy mobile applications to their users. A popular webto-mobile application is the Google maps [11] application,
+due to incompatibility of mobile web browsers, when a
+user opens the Google maps website via a mobile phone,
+instead of opening the map in the users’ browser; it redirects them to a webpage where the user can download the
+Google map Java ME [24] application. This is the case for
+gmail and for youtube.com, when a user accesses these
+pages instead of prompting them to download a thick
+mobile application the mobile sites state the benefits of
+their mobile applications in respect to the mobile websites,
+allowing for users to decide to download the mobile
+application or to use the web application as a limited
+mobile web application. In the scope of tourism web
+applications, there are not that many web-to-mobile projects that allow mobile applications to be customized
+online then built and downloaded to the mobile phone. The
+Mycitymate [26] is a web-to-mobile project (see Fig. 5a)
+providing information namely of city locations like venues,
+café, pubs, bars, accommodation etc., but also offering
+personalized social features like where are my friends,
+make new friends etc. The system has a Web interface for
+the pre-visit stage where users select content and then can
+
+Pers Ubiquit Comput (2011) 15:97–111
+
+Fig. 4 Screenshots of PDA-based mobile guides. a TellMaris used
+2D maps and 3D representation. b DeepMap PDA–based mobile
+guide. c Crumpet PDA browser–based mobile application. d SmartKom used mapping technologies
+
+build their customized mobile phone guide application for
+download and install the application on a mobile phone.
+Also, in this category, the Mytilene guide (see Fig. 5b)
+project is an electronic guide for the city of Mytilene,
+Greece [16]. One of the outstanding features of this project
+was the initiative of giving tourists multimedia information
+for designated tourist locations of the Municipal Council,
+running both online via a PC and offline via a mobile
+device.
+As for navigational assistants, these are classified as
+mobile applications using a map as the basic user interface,
+offering routing and guidance services to tourists through
+the use of Points of Interest (POI) displaying specific
+
+101
+
+tourist information. A large number of off-the-shelf commercial navigational applications were investigated but
+because these applications were not solely targeting tourist
+users not having tourist guides as an option, only the Nokia
+Maps application [9] was incorporated. Nokia Maps is a
+navigational mobile application found on most new Nokia
+phones or is readily available to download from the Nokia
+website. This application comprised of mapping and navigation services which require either built-in GPS or
+external Bluetooth GPS receivers, yet it works in simulation mode for those who do not have a GPS unit. It was
+stated as having maps for more than 150 countries, and
+with 15 million points of interest (POI) pre-loaded as such
+offering navigational and route-planning features [35]. This
+application gives the tourist the ability to enhance the
+Navigational assistant via the Nokia Map application (see
+Fig. 6) electronic guides from traditional tourist guide
+companies like BerlitzTM, Insight GuidesTM, Lonely PlanetTM etc., offering photos, video, audio commentary and
+informed coverage on places of interest to tourists [10].
+The mobile web-based applications refer to mobile
+tourist (XHTML Mobile or WAP-based) portals which
+offer tourist information to mobile device browsers through
+a client–server HTTP interaction (e.g. [6, 7, 25] etc.).
+Practically, these applications do not differentiate from
+traditional ‘desktop’ web applications, as they treat mobile
+devices like thin (web) clients; hence, they are not thoroughly reviewed in this article.
+The three out of the four groups of projects were
+included in this research resulting in an overall evaluation
+of mobile tourist guides whereby design principles
+extracted are summarized. Following is the summarized
+evaluation ordered by design criteria.
+3.1 Information models
+The information models used varied from project to project. Table 1 summarizes all information models stated in
+this section. Some used a centralized hypermedia model
+
+Fig. 5 Screenshots of mobile
+phone guides. a MyCityMate
+main user interface. b Mytilene
+Guide usability study using
+map-based services
+
+123
+
+102
+
+Pers Ubiquit Comput (2011) 15:97–111
+
+Fig. 6 Screen shot of a mobile navigational mapping application
+(Nokia Maps mobile phone–based navigational tourist guide)
+
+wherein a browser-based application is used to browse
+through hypermedia content. Others used distributed
+dynamic information models where the network would
+push information to the users’ application upon entering
+the network vicinity. While other projects used a decentralized on-device storage facility system allowing for
+users to have unlimited connectivity to the information, yet
+not allowing for the easy updating of content. Notably, the
+majority of projects used a centralized approach, i.e. a
+connection of some sort to feed information to networked
+mobile devices, which meant costly wireless metropolitan
+installations or cost incurred for tourists using such connections directly from a mobile phone device. Apart from
+the information models, this section also references projects that make use of personal profile and context-aware
+systems and discusses the support of multiple languages.
+Table 1 Summary of
+information models
+
+On device
+storage
+Cyberguide
+
+The Cyberguide project used a centralized hypermedia
+information model basing information on maps. The system was conceptually divided into four independent components: the Cartographer offered users knowledge of their
+physical surroundings through maps, the Librarian provided access to sights information, the Navigator provided
+navigational information and the Messenger offered communication services for tourists to communicate with sight
+staff and for the system to communicate with visitors or
+groups of visitors. The GUIDE project provided multilingual information and was based upon a distributed and
+dynamic information model [5]. It extended traditional
+hypermedia models [4] offering information based on
+personal context. The project named it ‘dynamic information serving’, informing users of sudden change of sight
+operating times, if sights are closed, the status of ticket
+queues etc. The personal context involved the use of a
+personal profile, in which the system explicitly prompted
+the visitors to complete an entry-level survey of their
+personal information, getting information based upon age,
+technical background and the preferred language and also
+involved the use of environment context, e.g. the time of
+day, the opening times of the attractions, etc. The content
+was adaptable with respect to, what the visitors had already
+seen, e.g. welcomed back visitors if re-visited a site.
+The LOL@ project used a hierarchical approach to
+model information enabling a centralized browser metaphor of hypertext links, linking to text and multimedia
+information [30]. The content was based on XML/XSL
+using flexible templates, and the multimedia data were
+accessed using the browser’s functionality. The Hippie
+project also used a centralized information model and was
+based on context sensitive models which apart from location, positioning and direction also used an adaptable
+personal profile, determined explicitly and implicitly logging the users’ preferences which resulted to a context-
+
+Centralized hypermedia
+model
+
+Propriety application
+model
+
+4
+4
+
+LoL@
+
+4
+
+Hippie/HIPS
+
+4
+
+4
+4
+
+TellMaris
+
+4
+
+Deep map
+
+4
+4
+4
+
+CRUMPET
+SmartKom
+
+4
+
+REAL
+4
+
+4
+
+4
+
+4
+
+TIP
+Nokia maps
+
+123
+
+Contextaware
+4
+
+GUIDE
+
+MyCityMate
+
+Personal
+profile
+
+4
+4
+
+4
+
+4
+
+4
+
+4
+
+Pers Ubiquit Comput (2011) 15:97–111
+
+103
+
+aware system. The HIPS project was based on an adaptive
+hypermedia information model which provided information about the exhibits through a hierarchical method using
+dynamically created Web pages having additional knowledge of the user model and interests, e.g. each time an
+object was visited was marked by the system so as to adapt
+information provision. The user model was one of the key
+strengths of this project: by evaluating user interactions and
+physical navigation, recommended tours of exhibits to visit
+were offered. The TellMaris project was based on a centralized client/server application model, which meant all
+data was downloaded upon request via a wireless communications network connection. In the mobile version, the
+system displayed both 2D and 3D maps.
+The core of DeepMap was the centralized geographical
+information system (GIS) and other databases. The GIS
+database stored spatial data while there was a database to
+store temporal data (i.e. historical information of sights) and
+a separate database to store topological information such as
+user information and general information about places (i.e.
+restaurants, cafes, shops). The information model was quite
+complex as it was connected to the spatial and the other
+databases. The CRUMPET project also integrated GIS as a
+means to integrate large volumes of geographical data. This
+meant that the project offered information on topics such as
+personal tours, navigational assistance and route finding.
+Map adaptation examples include culture-specific map
+colouring, map generalization, user-orientation-dependent
+maps, focus maps and personalization. As of personalized
+services, this project argued that the solution to the problems associated to mobile devices (such as restricted screen
+size, input methods, network capacity) could lie within the
+adaptation of personalized information and services for
+nomadic users i.e. view the same information on any device.
+In CRUMPET, the adaptation of such services resided on
+the notion of filtering based on a user profile which was
+Table 2 Summary of
+positioning and mapping
+technologies
+
+gathered by getting information of interests, abilities and
+characteristics of the user.
+The MyCityMate mobile system used a decentralized
+hierarchical information model based on XML documents
+and user menus. The MyCityMate system was one of the
+first systems using the web-to-mobile dynamic application
+generation technology to mass deploy applications to users
+mobile phones. The MyCityMate system used the web
+platform to attract users to choose tourist content of personal interest or automatically generate selection using an
+explicit personal profile system. The system would then
+deploy an application to be downloaded to the users’
+mobile phone to run on an adaptable standalone mode or
+connected mode. The Mytilene guide used a similar propriety XML information model but also used maps to show
+location of a specific sight and incorporated multimedia
+tours in the mobile application.
+3.2 Position and map technologies
+The use of maps and positioning technologies prevailed in
+most of the projects reviewed. Table 2 summarizes all
+position and map technologies stated in this section. Some
+systems were somewhat simplistic using raster image maps
+whereas a number of systems used GIS running a client/
+server functionality model. This meant that all GIS data
+were stored on a central server and when needed were
+rendered to be viewed on the mobile device. This method
+surely needs a network connection to run, but allows for
+heavy calculations to be carried out on the server side and
+not on mobile devices. In the same way, a mobile network
+connection is needed to extract routing information. Some
+projects used sophisticated routing systems to map navigational paths for users whereas other used the map just to
+show an area of interest. The use of positioning technologies varied by indoor outdoor use, yet most projects used
+
+Map
+
+Outdoor positioning
+
+Indoor positioning
+
+Cyberguide
+
+4
+
+GPS
+
+IRDA
+
+GUIDE
+
+4
+
+WLAN
+
+LoL@
+
+4
+
+GPS/CELLID
+
+Hippie/HIPS
+
+User adaptable
+positioning
+
+4
+Electronic compass/IRDA
+
+TellMaris
+
+4
+
+Deep Map
+
+4
+
+CRUMPET
+
+4
+
+GPS
+4
+
+SmartKom
+
+4
+
+GPS
+
+REAL
+
+4
+
+GPS
+
+MyCityMate
+
+4
+
+4
+
+TIP
+Nokia Maps
+
+4
+
+4
+
+4
+IRDA
+
+4
+
+123
+
+104
+
+Pers Ubiquit Comput (2011) 15:97–111
+
+finding features. The CRUMPET project took the Deepmap
+project one step further incorporating GIS maps as guidance and route finding features using personal profile and
+an agent-based recommendation system also. The Mycitymate used a Google maps mash up application to show
+POI’s and used GPS for location tracking. The Mytilene
+city guide used raster map to show the specific POI on the
+map. No route finding or positioning technologies were
+stated as being used. The NOKIA map application used
+maps stored on the device. The user could track POI on the
+device using GPS positioning. No means of adaptation was
+available in the Nokia maps application. The route finding
+is calculated via the server and later returned and showed
+on the device map.
+
+GPS systems outdoors and IrDA/RFID/Bluetooth technologies indoors. Some projects offered user position adaptation which allowed for users to manually calibrate their
+position on the map.
+The Cyberguide project used image maps for indoor
+situations using IrDA positioning technologies and vector
+maps stored and run on device using GPS positioning
+technology outdoors. The Cyberguide project also used a
+logging system to track user sight visits. The GUIDE system incorporated maps to allow visitors to use in specific
+situations, but did not use them as a means of route finding
+or did not use the installed WLAN technology for showing
+positioning on the map, yet showed position by using the
+identity of the wireless hotspot. The LOL@ used maps as
+guidance and proposed an adaptable user positioning system using GPS but also using mobile networks cell id
+positioning system. The system also offered route finding
+functionality and used a manual logging system as a means
+for the user to capture the sights visited as a means to create
+a user diary log. The Hippie/HIPS project offered guidance
+not using maps but using IrDA positioning sensors at room
+level and at object level and also incorporated an electronic
+compass to proactively notify users of upcoming exhibits.
+When a user visited a sight, this was automatically logged;
+and when revisited, different information was provided.
+The TellMaris project used both 2D and 3D maps as a
+navigational aid for the city of Tonsberg, Norway. The use
+of such technology allowing for routing functionality used
+a client/server infrastructure as well as GPS positioning in
+order to generate on the server side the geospatial representation and to portray this information on the mobile
+device. The DeepMap and SmartKom projects also used
+GIS server side technology to generate the 2D maps
+including user adaptable GPS positioning as well as route-
+
+3.3 Architecture/network infrastructure
+The architecture and network infrastructure of the projects
+also varied from project to project. Table 3 shows a summary of all architecture and network infrastructure stated in
+this section. As such, a trend to use generic mobile applications and customized user interfaces was seen as
+enhancing user experience. These mobile applications
+needed a specific hardware platform to run, incurring
+fragmentation problems which arose to newly available
+devices with new operating systems. The projects basically
+could be split up to four main platform groups: the personal
+computer platform, the Personal Digital Assistant (PDA)
+platform, the Java mobile platform and the browser technology–based platform. Only applications which used
+native browser technology could claim platform independence. The network technology used mirrored available
+infrastructure of the projects and to the availability of such
+network infrastructure. Emphasis was given to projects
+
+Table 3 Summary of architecture/network infrastructure used in stated projects
+Application programming environment
+
+Offline use
+
+WLAN
+
+4
+
+4
+
+GPRS, UMTS,
+GSM HSDPA
+
+4
+
+Cyberguide
+
+Visual basic runtime
+
+GUIDE
+
+Java portable PC
+
+LoL@
+
+Java Applet
+
+Hippie/HIPS
+
+Microsoft.net
+
+TellMaris
+
+Windows CE PDA
+Nokia s60
+
+4
+
+4
+
+Deep map
+
+Standards compliant open source agent
+
+4
+
+4
+
+CRUMPET
+
+Standards compliant open source agent
+
+4
+
+SmartKom
+
+Agent architecture
+
+REAL
+
+PalmOS/Pocket PC;
+
+4
+
+4
+
+MyCityMate
+
+Java ME application based system
+
+4
+
+4
+
+4
+
+4
+
+4
+
+Symbian S60 3rd edition platform
+
+4
+
+4
+
+4
+
+4
+4
+
+123
+
+4
+
+4
+
+4
+
+TIP
+Nokia maps
+
+Resource
+adaptive
+
+4
+
+Pers Ubiquit Comput (2011) 15:97–111
+
+which were cognitive resource adaptable i.e. the software
+adapts seamlessly to a change in the network environment.
+Cyberguide used the Microsoft Visual Basic runtime
+system running on portable device technology. The portable devices used a WLAN infrastructure installed on the
+campus university test site. No cognitive resource adaptation was mentioned for this project. The technological
+infrastructure varied because of the different prototype
+projects implemented. The system used a commercial
+PDA; yet, at some stage, the project stated to use the Apple
+MessagePad 100 with Newton 1.3. This indoor version of
+the system was tested using IrDA sensors for location
+tracking. The prototype was also tested on the Dauphin
+DTR-1 palmtop. The GUIDE system used specific mobile
+devices, namely Fujitsu TeamPad 7600 portable PC
+empowered by custom Java applications. The Java application included a Hot Java browser [36] and also included
+gauges to show signal strength, an indication to which
+WLAN hotspot the user was connected and another indication when the mobile guide was downloading information. This project did not have a system of cognitive
+resource adaptation due to the fact it could only run using
+the WLAN as it was also its means for user position
+finding. Yet, the project was adaptable to failing connections where a caching system would download and store
+content on device at earlier stages allowing for the device
+to gracefully degrade.
+The LoL@ system was based on conventional Internet
+software technology and user interface paradigms, extended by concepts to improve usability for the mobile
+domain. This application targeted high-end mobile phones
+and smart phones with Java Applet enabled fully fledged
+Web browsers and used touch screens as input. The mobile
+terminal used applet technologies, while Java Servlets
+technology was employed on the server side. A networkcentric 3-tier application architecture was chosen for this
+implementation enhanced with telecommunication-specific
+constant network connection using UMTS (3G) or GPRS
+network via a mobile phone. The fact that the LoL@
+project required constant network connectivity where all
+content data were stored on a server database and prepared
+on demand resulted to data intensive costs for the user
+which was observed as a disadvantage during user tests,
+visitors were reluctant to use the system considering the
+high roaming fees [38]. No adaptation capabilities were
+designed for failing network shortages. The clients of the
+HIPS system were PDAs which used a thin client (Web
+browser) application with client–server architecture
+requiring a stable network connection to operate. The PDA
+devices were called HIPPIES and were connected via a
+wireless LAN (WLAN) infrastructure. Apart from the use
+of PDA devices, the project stated the use of notebooks or
+PCs to access web content. The TellMaris project was
+
+105
+
+based on a client/server model, which meant all data were
+downloaded upon request via a wireless communications
+network connection. The OpenGL system was developed
+on Linux, Windows and Windows CE platforms; however,
+the system also ran on the Nokia communicator 92XX. In
+the mobile version, the system displayed both 2D and 3D
+maps simultaneously; however, the user could choose the
+desired type of map. No reference was found for support of
+cognitive network resource adaptation. These databases
+were accessed using four main agents: The database agent
+to retrieve non-spatial information; the geo-spatial database
+to retrieve spatial information and to calculate geo-spatial
+information (i.e. place with regards to user location); the
+route agent used to compute and manage routes; the map
+agent which generated at first raster maps as a picture case
+and later as vector maps used to display features on the
+maps. The architecture of the Deep map system was based
+on the agent-oriented software paradigm which allowed
+reusability of various system components. The prototype
+was implemented using two technologies; one of a belt
+worn Xybernaut mobile assistant IV having a visual output
+on a flat touch screen mounted on the arm and the other a
+laptop PC placed in the user’s backpack.
+The CRUMPET implementation was based on a standards-compliant open source agent framework, extended to
+support nomadic applications, devices and networks. The
+system was built using a 3-tier structure; with mobile clients and user services on the two ends and the use of multiagent systems in between both. At the stage of usability
+testing, a PDA was used as the client device using GPS as
+positioning technology. Yet, it was argued that any mobile
+device able to display rendered maps and simple HTML
+pages could be used. The system could use all types of
+networks that a tourist might be exposed to, i.e. WLAN,
+GSM, GPRS, UMTS. The REAL project developed a
+pedestrian navigation system that combined active and
+passive location sensitivity in such a way that the
+changeover between both adaptation paradigms was barely
+noticeable for the user. The REAL project uses both PalmOS and Pocket PC platform for indoor and uses a SONY
+VAIO notebook outdoor for computational power but for
+graphical and textual presentations; a special clip-on for
+glasses from MicroOptical was used in conjunction with a
+customized Garmin GPS unit as a pointing device. For both
+indoor and outdoor systems, the 2D- and 3D-graphics are
+generated via the embedded Cortona VRML1-browser.
+The SmartKom uses distributed component architecture
+using an agent-based multi-blackboard system. The integration platform is called MULTIPLATFORM (Multiple
+Language Target Integration Platform for Modules), built
+on top of open-source software, making it open, flexible
+and scalable able to integrate heterogeneous software
+modules implemented in diverse programming languages
+
+123
+
+106
+
+Pers Ubiquit Comput (2011) 15:97–111
+
+separate criteria for all projects reviewed. In this section,
+the projects are reviewed with respect to input technologies
+used by the users of the mobile devices also as to output
+technologies. In addition, the projects are evaluated in
+regards to accessibility and their ability to seamlessly
+internationalize
+the
+specifically
+targeted
+tourist
+applications.
+The mobile device used in Cyberguide was a standard
+PDA using a pen input and a standard PDA screen as an
+output. In its documentation, there was no reference to
+multi lingual support or use of any other modality technology to support other forms of output. The GUIDE
+project employed devices with larger input area for use
+with an input pen and a transreflective screen for use in
+direct sunlight. The GUIDE project stated multilingual
+support in its documentation but that was not referenced
+extensively. The LOL@ project used speech as a form of
+input. Tourist used speech to input control to the hierarchical interface gaining access to menu items. This project
+allowed speech access in three different languages English,
+German, French using not only one-word commands but
+also natural language input phrases to control the menu.
+This system did not use natural language processing other
+than menu control for input purposes. The system used a
+VoIP solution based on the Session Initiation Protocol
+(SIP) [39] and the GSM voice codec [14].
+The Hippie/HIPS system was a pen input-based system
+not offering multilingual support to its users. Standard
+pen input and PDA screen output were also used in the
+TellMaris project, along with 3D representation on 2D
+maps in an augmented reality environment to depict
+buildings of historic nature (including buildings that did
+not exist anymore). The DeepMap project integrated
+natural language processing to mobile devices. The
+Deepmap user could gain access to information by
+
+and running on different operating systems. SmartKom
+modules were coded in C, C??, Java and Prolog. SmartKom supported dynamic multi-lingual interaction by
+introducing a semantic layer that encoded interactions in a
+language-independent way.
+The MyCitymate and the Mytilene guide systems
+included a mobile application developed on the top of the
+Java ME Platform [24], essentially comprising a certified
+collection of Java APIs for the development of software for
+small, resource-constrained devices such as cell phones and
+PDAs etc. These two projects are purposely custom built
+‘stand alone’ applications not needing a network connection to operate. ‘Tourists’ incorporate people visiting
+international locations where roaming charges apply and
+not needing a network connection to operate could be
+critical in choosing a mobile tourist application. However,
+just like the Nokia navigational assistant if needed, many
+features are available if users want to use a network connection. Features such as ‘where are my friends’ in the
+MyCitymate project or the ‘download more information’ in
+the Mytilene guide project.
+The Nokia Navigational project has been developed
+using Nokia Symbian platform supporting all s60 3rd
+edition phones and other Nokia platforms. The Nokia maps
+also has a free pc-based application where users upon
+installation to their pc can download extra maps and voice
+navigation files instead of downloading them straight to the
+user’s phone.
+3.4 Input/output modalities
+At a first glance, the use of input/output technologies in
+mobile devices seems trivial. Table 4 shows a summary of
+input/output modalities stated in this section. Yet, in the
+context of this in depth review, it was considered as
+
+Table 4 Summary of input/
+output modalities
+
+Keypad
+
+Pen/screen
+input
+
+Cyberguide
+
+4
+
+4
+
+GUIDE
+
+4
+
+4
+
+4
+
+LoL@
+
+4
+
+4
+
+4(3)
+
+Hippie/HIPS
+
+4
+
+4
+
+TellMaris
+
+4
+
+4
+
+Deep Map
+
+4
+
+4
+
+4
+
+4
+
+4
+
+4
+
+4
+
+4
+
+MyCityMate
+
+4
+
+4
+
+4
+
+TIP
+Nokia Maps
+
+4
+
+4
+
+4
+
+CRUMPET
+SmartKom
+
+Multilingual
+support
+
+3D Modelling
+output
+
+4
+
+4
+
+4
+
+4
+
+4
+4(input)
+
+REAL
+
+123
+
+Voice/speech
+input/output
+
+4(output)
+
+4
+
+Pers Ubiquit Comput (2011) 15:97–111
+
+107
+
+queering the system using natural language. The system
+upon queering, the database used text-to-speech to output
+the information findings. The project could also be used
+as a translator to interact with locals in their local language. Again, VoIP technology was used to transfer the
+voice to a server for further processing and speech recognition system to translate the spoken text to a query
+towards the database. Also, GIS maps in conjunction to
+3D representation were used to create an augmented
+environment. The CRUMPET project supported multilingual content and used a PDA browser application,
+having a pen/screen modality. The SmartKom project was
+a multimodal dialog system which provided for full
+symmetric multimodality in which all input methods were
+also available for output. The SmartKon system captured
+speech, gesture and facial expressions using sensor technology trying to capture a natural experience for the user
+in the form of daily human-to-human communication, by
+allowing both the user and the system to interact. The
+Mycitymate, Mytilene and Nokia maps make use of the
+current mobile telephony devices available using keypad
+and joystick as input. No reference is given for pen input
+support. The Mytilene guide project offers video or audio
+guide as output information of sights while Nokia Maps
+offers speech output as navigation support. All the three
+above-stated projects offer multilingual support. The
+REAL system used speech input to accept a request for a
+route description. This request was then transformed into
+a user-specific request, taking into account limited cognitive and network resources. The request was then passed
+to the route-finding module which determined and forwarded the optimal route to the presentation planning
+module. This module optimized the presentation of the
+route not only according to the resolution, screen size and
+colour capabilities of the output device, but also to the
+
+quality of the given sensor information (i.e. precision of
+location, orientation and speed of the user).
+3.5 Unique services
+Many unique services where highlighted in the aforementioned reviewed projects. Table 5 summarizes unique services stated in this section. The services basically fall into
+three main categories: communication amongst users, tour
+generator and a log system. These projects felt that communication amongst tourist users was important. It was
+interesting to see that most projects tied the user’s personal
+profile with the tour generator offering tours that reflect the
+users’ personal interests. The log system was found in
+various forms, but as a fundamental system was used to
+allow users to keep track of visited sights and in some cases
+included a commenting system which was used to input
+comments about sights visited.
+Cyberguide using rapid prototyping design methods
+implemented a number of applications. One such implementation had a messaging service whereby users could
+contact each other and also contact members of university
+stuff. For the messaging service, a wireless access system
+was designed to cater for communication between tourist
+users and the system. The system could document a user’s
+visits which at a later stage could be sent via email to the
+visitor. The GUIDE project developed an intelligent tour
+guide builder which calculated customized tour guides
+based on time constraints and dynamic changes to the
+user’s environment (stopped, for coffee, slow walker). The
+users could override the guided tour to change the next
+location giving them freedom of choice. The guide system
+also offered support for interactive services; a communication tool for visitors to contact the local Tourist Information Center, messaging tool amongst visitors. It also had
+
+Table 5 Summary of unique services
+Added agent based
+services
+
+Exploratory
+
+Messaging/group
+communication services
+
+Cyberguide
+
+4
+
+4
+
+GUIDE
+
+4
+
+4
+
+LoL@
+
+4
+
+Hippie/HIPS
+
+4
+
+TellMaris
+
+4
+
+Deep Map
+
+4
+
+4
+
+Pre visit
+website
+
+Post-visit
+web
+
+Friend position
+finding
+
+Ticket
+eservices
+
+4
+
+4
+4
+
+4
+
+4
+
+4
+
+4
+
+Guided
+tours
+
+4
+
+4
+4
+
+CRUMPET
+SmartKom
+
+4
+4
+
+REAL
+
+4
+
+MyCityMate
+
+4
+
+4
+4
+
+4
+
+4
+
+4
+
+TIP
+Nokia Maps
+
+4
+
+4
+
+123
+
+108
+
+a built-in ticketing service where visitors could book
+accommodation and buy tickets avoiding queues.
+In the LOL@ project, a tourist diary service was offered
+to users upon confirmation of arrival to a sight and/or by
+accessing the My Data menu item to enter information. The
+visitor could enter comments in the form of text via a
+predefined screen including title, text and a link to a photo
+or a video taken from the tourist mobile device. This was
+later uploaded to the server and offered to the user for
+viewing as a log of visited sights. The log file was not
+integrated in existing Web technologies but was implemented on a propriety-based Web platform in the form of
+Web pages. Similarly to the Cyberguide project, the Hippie
+guide also allowed for interpersonal communication and
+general public communication of ideas through message
+sending. The mobile system also allowed for personal
+annotation added to the user’s personal space to be
+accessed at the post-visit stage. Other prototypes of the
+HIPS project implemented dynamic generation of presentations depending on the distance the user has to the object
+and how long they stood in front of the object. The
+TellMaris project quoted a number of services which could
+be implemented to be offered for both portable PC systems
+and for mobile systems. For portable PC services like
+weather forecasts, hotel reservation and navigational
+guidance services were thought of and for mobile devices
+users would be able to request information about various
+sights or restaurants, find closest facilities or to buy specific
+products. The CRUMPET system implemented guided
+tours and a group messaging service.
+
+4 Evaluation results
+In this section, we discuss the results stated from the five
+(5) evaluation tables listed above. Clearly, with respect to
+the information model, most systems used a decentralized
+web-based approach, yet others implemented proprietarybased applications using some sort of an adaptable information model offering personalized information to its users
+via a hierarchical menu system.
+Most systems used a map as a central feature which in
+turn offered navigational and routing services. With only a
+few exceptions, GPS has been the standard choice as outdoor positioning technology. Certainly, this can also be
+confirmed by today’s increasing tendency of mobile phones
+incorporating GPS units and not the use of say, telecommunication cell-id positioning (used in the LoL@ system).
+Apart from navigational and route-finding capabilities,
+only the GUIDE and the CRUMPET system offered basic
+itinerary planning for its users based on a personal profile.
+This feature was noted as being popular amongst tourist
+users visiting the city for the first time.
+
+123
+
+Pers Ubiquit Comput (2011) 15:97–111
+
+As of network capabilities, all systems used a HTTP IP
+connection which could be used in all cases of network
+connectivity being WLAN, GPRS, UMTS. However, only
+a few systems had the ability to adapt to network fluctuations offering on device cached content to the user. Also,
+systems such as the CRUMPET and the REAL system
+were stated as being cognitive resource adaptable. This is
+the ability to sense changes in network connectivity and
+being able to change the network connection without
+interrupting content flow.
+Coming to situational factors, only some systems
+enabled alternative input and output modalities. The systems implementing speech modalities for input or output
+were said to be resource constrained acquiring constant
+large bandwidth network connection to function properly
+and efficiently due to the fact that all speech processing
+was completed on the server side.
+As of architecture, only systems using agent-based
+architecture (CRUMPET, SmartKom) were said to be
+standards based and could be easily extended offering other
+services and integrating other sources of repository, other
+than proprietary based. Notably, only a few systems used
+thin clients of some sort to visualize hypermodel; most
+systems employed the use of thick client applications to
+offer a richer customizable interface.
+Finally, as of services offered to tourists, it could be seen
+that these were split into three different stages of a tourism
+lifecycle: the pre-visit stage, the visit stage and the postvisit stage. The pre-visit stage was implemented by some
+systems offering the use of information for the places to
+visit and the ability of explicitly collecting personal
+information to build a personal profile. During the visit
+stage, services offered were mostly combined communication—friend finder tools and diary-commenting systems
+were also implemented. The post-visit stage stressed the
+need of documenting the visit offering it to tourists as a
+means of logging their visit to be retrieved via the internet
+at a later stage.
+
+5 Design principles versus current trends
+This paper focused on the evaluation of a large number of
+research and commercial applications used by tourists to
+retrieve information, navigation and guidance using some
+form of mobile device in the scope of application designers
+and technology developers. In order to evaluate these
+projects, a number of design criteria were extracted targeting both designers and developers. These projects were
+grouped into four groups: mobile guide applications, webto-mobile guides, mobile phone navigational assistants
+(with built in tourist guides) and mobile web-based applications (the latter have not been extensively evaluated due
+
+Pers Ubiquit Comput (2011) 15:97–111
+
+to their resemblance with their web counterparts). A
+number of milestone projects were incorporated which
+according to the considered bibliography offered unique
+experimental features and so was a number of commercial
+projects offering unique services.
+After analysing the above-evaluated findings (see Sect.
+3), an application designer should keep in mind at least
+three principles: the Information model to be used, the
+Unique Services to be provided and the input/output
+modalities to be incorporated in the overall project. As of
+information models, there are basically three main choices:
+•
+•
+•
+
+Decentralized information model
+Centralized information model
+Distributed dynamic information model
+
+The decentralized approach is an on-device solution
+where the information content is stored on the device. A
+number of solutions used this approach where some projects used memory cards to store and encrypt the content.
+This approach though brought about content update issues
+and is mostly used in solutions that do not need the content
+to be updated, i.e. static tourist guides. The distributed
+dynamic information model was used to push specific
+content to a user entering the vicinity of the network node.
+This approach works in environments wherein a network
+installation exists or in scenarios where the system can use
+the mobile network cell ID to push information to the
+users. The centralized approach in most cases was used in
+conjunction to hypermedia content models. This was the
+case for the majority of projects evaluated and certainly
+there are a number of advantages of using the centralized
+hypermedia model (easy updating of content, access on a
+number of different mobile devices, etc.); the problems that
+arise in this case are normally due to compatibility problems in mobile browsers which normally lead to project
+developers implementing a custom browser–based application and also in some case where the cost of connection
+is incurred by the user, roaming charges are very high
+making. The use of a personal profiling system could
+increase the usability of the system in issue. Using a personal profiling system means the information model must
+be dynamically generated in regards to the explicit profile
+of the user and the implicit usage history. In conjunction
+with a personal profile and knowing the users whereabouts
+(using context awareness methods) as stated in the relevant
+projects (see Sect. 3) increase the usability of such systems.
+An application designer should design a tourist mobile
+guide system keeping in mind the multilingualism; a case
+of easily bringing more languages to the tourist guide
+should be designed at the start of the system design. Also,
+the application designer should cater for users that do not
+have easy access to keyboard input and screen output
+implementing alternative input/output modalities, like
+
+109
+
+speech input and output. This solution is network dependant and might increase the cost of fast network
+connection.
+Finally, the case of unique services which should be
+incorporated comes down to the scope of each application
+designer’s project. Below is a potential list of ‘common
+denominator’ services:
+•
+•
+•
+•
+•
+•
+•
+
+guided tours,
+communication amongst users and the system,
+e-services (e.g. diary service, currency conversion, etc.)
+group meeting scheduler,
+registering position to friends,
+pre-visit and post-visit services support,
+rating/commenting service.
+
+Indeed, a technology developer should surely keep in
+mind the three above-mentioned design choices which an
+application designer has to choose from but also choose
+from a range of architecture, development platforms, network infrastructure, positioning technologies and map
+technologies.
+The architecture chosen by the evaluated projects’
+developers reflected the devices which they had to choose
+from. There was no real drift to particular devices or
+development platforms due to the large fragmentation
+problem which mobile developers face. Most of the systems implemented used the client–server architecture and
+some used propriety-based architecture, while a few used
+agent-based systems. The agent-based ones were noted as
+being standards compliant, which meant that they were
+being able to add more services to the existing infrastructure without major changes. As of development platforms,
+Visual basic.NET was popular for PDA-based projects
+while Java-based systems where popular for every other
+mobile device stated. All available network platforms were
+used (i.e. WLAN, GPRS, UMTS and GSM); notably,
+WLAN is an expensive solution and GPRS, GSM was a
+slow solution as was the UMTS a costly solution which the
+users of the systems incurred.
+Most systems used some sort of maps in the mobile
+guides, some of which were raster-based maps and others
+which were GIS-based vector maps. Surely, in situations
+where routing and guidance was necessary, a GIS map
+server is useful; yet, raster maps better suited systems
+where maps were solely used as a means of displaying the
+location of POIs, when comparing the network usages and
+technology requirements. As of positioning in outdoor
+situations, GPS represents a reliable technology, while for
+indoor positioning, IrDA and RFID tags are better suited.
+As such, our evaluation revealed open research issues
+and some specific areas of mobile tourist guides research
+that need to be systematically investigated tying them to
+current trends of the Web. Specifically, more work could
+
+123
+
+110
+
+be carried out on social networking for tourist users especially in the eye of recent advent of mobile social networks
+[19]. The Mycitymate attempts to add such functionalities
+in the form of ‘locate your friends’ services and via commenting of POIs service but no attempt to connect content
+to current social networks (i.e. Facebook, twitter, etc.) has
+been carried out. Even though much work has been already
+carried out on personal profiling systems, no research has
+been noted on server-side clustering of users or collaborative filtering techniques of tourist content used in many
+popular sites (e.g. Amazon) [13]. This server side attempt
+would decrease device system resources (heavy algorithm
+calculations would be done on the server), while clustering
+of user profiles would enable proper assignment of users to
+group of tourists with similar interests, thereby providing
+space for the development of innovative personalized
+features.
+Lastly, this evaluation identified a few projects stated
+the use of dynamic tour generation which the system apart
+from proposing specific POIs’ to visit would also consider
+the user’s profile in dynamically choosing the tour before
+generating it. Yet, there was no claim of dynamic itinerary
+generation, wherein users would state the time and days
+they have available for visiting tourist sights and the system depending on external parameters (i.e. opening times,
+weather conditions, peers choices and ratings) could generate a n-day itinerary for the specific user keeping in mind
+the ‘must see’ sites and the user’s profile. Recent works
+proposing algorithmic solutions for optimizing personalized tourist itineraries [12, 37] have revealed the potential
+of such services but remain to be implemented and evaluated through field trials.
+
+References
+1. Abowd A, Atkeson C, Hong J, Long S, Pinkerton M (1996)
+Cyberguide: a mobile context-aware tour guide. Wirel Netw
+3(5):421–433
+2. Baus J, Kruger A, Wahlster W (2002) A resource-adaptive
+mobile navigation system. In: International conference on intelligent user interfaces archive, proceedings of the 7th international
+conference on intelligent user interfaces, pp 15–22
+3. Chen G, Kotz D (2001) A survey of context-aware mobile
+computing research. Dartmouth Computer Science Technical
+Report TR2000-381
+4. Cheverst K, Mitchell K, Davies N (2002) The role of adaptive
+hypermedia in a context-aware tourist GUIDE. Commun ACM
+45(5):47–51
+5. Davies N, Cheverst K, Mitchell K, Friday A (1999) ‘Caches in
+the Air’: disseminating tourist information in the guide system.
+WMCSA, pp 11–19
+6. Dublin.mobi (2009) Welcome to Dublin.Mobi. http://www.
+dublin.mobi/mobi/, last visited March 2009
+7. eIndia.mobi (2009) eIndia.mobi India’s mobile portal. http://
+eindia.mobi/, last visited March 2009
+
+123
+
+Pers Ubiquit Comput (2011) 15:97–111
+8. Economou D, Gavalas D, Kenteris M, Tsekouras GE (2008)
+Cultural applications for mobile device: issues and requirement
+for authoring tools and development platforms. ACM SIGMOBILE Mobile Comput Commun Rev 12(3):18–22
+9. Europe, Nokia. Nokia Europe. Nokia Europe—Maps—Main.
+Nokia, http://europe.nokia.com/maps. Last visited October 2008
+10. Europe, Nokia. Nokia Europe. Nokia Europe—Guides—map.
+Nokia Europe. http://europe.nokia.com/A41407071. Last visited
+October 2008
+11. Google. Google. Google mobile mops. http://www.google.com/
+mobile/default/maps.html
+12. Hagen K, Kramer R, Hermkes M, Schumann B, Mueller P (2005)
+Semantic matching and heuristic search for a dynamic tour guide.
+In: Frew AJ, Hitz M, O’Connor P (eds) Information and communication technologies in tourism. Springer
+13. Herlocker J, Konstan J, Terveen L, Riedl J (2004) Evaluating
+collaborative filtering recommender systems. ACM Trans Inf
+Syst 22(1):5–53
+14. Huerta JM, Stern RM (1998) Speech recognition from GSM
+codec parameters. In: ICSLP-1998, paper 0626
+15. Jeff A (2006–2007) Methods of understanding and designing for
+mobile communications. Dissertation, The University Of
+Queensland
+16. Kenteris M, Gavalas D, Economou D (2009) An innovative mobile
+electronic tourist guide application. Personal and ubiquitous
+computing, 13(2). Springer Science, 2009, ISSN: 1617-4909
+17. Kray C, Baus J, Cheverst K (2005) A survey of map-based
+mobile guides. In: Map-based mobile services—theories, methods and implementations, pp 197–216
+18. Kray C, Laakso K, Elting C, Coors V (2003) Presenting route
+instructions on mobile devices. In: Proceedings of the 2003
+international conference on intelligent user interfaces, IUI’03, pp
+117–124
+19. Larsena J, Urryb J, Axhausenc KW (2007) Networks and tourism:
+mobile social life. Ann Tourism Res 34(1):244–262
+20. Long S, Kooper R, Abowd GD, Atkeson CG (1996) Rapid prototyping of mobile context-aware applications: the Cyberguide
+case study. In: MobiCom ’96: proceedings of the 2nd annual
+international conference on mobile computing and networking
+21. Luyten K, Coninx K, Houben G, Winters F (2005) Blended maps
+and layered semantics for a tourist mobile guide. In: The 11th
+international conference on human-computer interaction, Las
+Vegas, Nevada, USA. July 2005, pp 22–27
+22. Malaka R, Zipf A (2000) DEEP MAP—challenging IT research
+in the framework of a tourist information system. In: Information
+and communication technologies in tourism, proceedings of
+ENTER 2000. 7th, 2000
+23. Meng L, Zipf A, Reichenbacher T (2005) Map-based mobile
+services: theories, methods and implementations. Springer
+24. Microsystems, Sun The Java ME platform—the most ubiquitous
+application platform for mobile devices. Sun Microsystems.
+http://java.sun.com/javame/index.jsp
+25. mobiletravelaide.com (2009) Mobile travel aide—Mobilefriendly travel information center. http://www.mobiletravelaide.
+com, last visited March 2009
+26. Mycitymate. mycitymate home page. Mycitymate mobile guide.
+http://www.mycitymate.com. Last visited October 2008
+27. Opperman R, Specht M (2000) A context-sensitve nomadic
+exhibition guide. In: Proceedings of the 2nd symposium on
+handheld and ubiquitous computing, pp 127–149
+28. Oppermann R, Specht M (1999) A nomadic information system
+for adaptive exhibition guidance. In: Proceedings of the international conference on hypermedia and interactivity in museums
+(ichim 99), Sept 1999, pp 103–109
+29. Poslad S, Laamanen H, Malaka R, Nick A, Buckle P, Zipl A
+(2001) CRUMPET: Creation of user-friendly mobile services
+
+Pers Ubiquit Comput (2011) 15:97–111
+
+30.
+
+31.
+
+32.
+33.
+
+34.
+
+35.
+
+personalised for tourism. 3G Mobile Communication Technologies, 2001. Second International Conference on (Conf. Publ. No.
+477), pp 28–32
+Pospischil G, Umlauft M, Michlmayr E (2002) Designing LoL@,
+a Mobile Tourist Guide for UMTS. In: Proceedings 4th international symposium on human computer interaction with mobile
+devices (Mobile HCI ‘02), Pisa, Italy. Sept 2002
+Przybilski M, Campadello S, Saridakis T (2004) Mobile on
+demand access of service-annotated 3D maps. In: Proceedings of
+the 22nd IASTED international conference on SOFTWARE
+ENGINEERING (SE 2004), pp 719–725
+Sharp R, Rehman K (2005) The UbiApp workshop: what makes
+good application-led research? IEEE Pervasive Comput 4(3):80–82
+Schilling A, Coors V, Giersich M, Aasgaard R (2003) Introducing
+3D GIS for the mobile community technical aspects in the case of
+TellMaris. In: IMC workshop 2003 proceedings: assistance,
+mobility, applications. Fraunhofer IRB Verlag, Stuttgart
+Schmidt-Belz B, Laamanen H, Poslad S, Zipf A (2003) Locationbased mobile tourist services first user. Information and Communication Technologies in Tourism (ENTER 2003)
+s60blog.com (2008) Nokia Maps 3.0—Maps with Ovi—Mail on
+Ovi—consumer messaging. The S60 Blog. http://s60blog.com/
+
+111
+
+36.
+
+37.
+
+38.
+
+39.
+
+40.
+
+2008/12/nokia-ovi-just-got-bigger-and-better. Last visited Oct
+2008
+Sun_Microsystems (2008) Sun Microsystems. Hot Java Browser.
+http://java.sun.com/products/archive/hotjava/, Sun Microsystems.
+Last visited August 2008
+Souffriau W, Vansteenwegen P, Vertommen J, Berghe GV, Oudheusden D (2008) A personalized tourist trip design algorithm
+for mobile Tourist guides. Appl Artif Intell 22(10):964–985
+Umlauft M, Pospischil G, Niklfeld G, Michlmayr E (2003)
+LoL@, a Mobile Tourist Guide for UMTS. J Inf Technol Toursim. In: Werthner H, Veit E (eds) Cognizant, vol 5, no. 3. March
+2003, pp 151–164
+Kim W, Kim M, Lee K, Yu C, Lee B (2004) Link layer assisted
+mobility support using SIP for real-time multimedia communications. In: Proceedings of the second international workshop on
+mobility management & wireless access protocols, 01-01 October
+2004, Philadelphia, PA, USA
+Wahlster W (2001) SmartKom a transportable and extensible
+multimodal dialogue system. In: International seminar on coordination and fusion in multimodal interaction, Schloss Dagstuhl
+international conference and research center for computer science, Wadern, Saarland, Germany
+
+123
+
+

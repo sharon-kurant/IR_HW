@@ -1,0 +1,455 @@
+SuperAvatar
+Children and mobile tourist guides become friends using superpowered avatars
+Fabio Sorrentino, Lucio Davide Spano, Riccardo Scateni
+University of Cagliari
+Department of Mathematics and Computer Science
+Cagliari, Italy
+fabio.sorentino@unica.it, davide.spano@unica.it, riccardo@unica.it
+Abstract—When tourists are wandering around in a town or city
+they do not know, it is normal to use a guide to make up their
+mind on what is more interesting in the surrounding.
+If the guide is an interactive one on a mobile device, they can also
+consult multimedia material and listen to audio descriptions. But
+what if the user is a children that is much more prone to get
+distracted?
+In this paper, we propose the presentation of touristic and
+cultural information to children through an augmented-reality
+approach. In order to keep focused the attention of the young
+users we make use of a virtual tourist guide, appearing as a comic
+book superhero. To get a realistic representation of the avatar we
+exploit a technique for fast simulating talking heads, which is
+portable on mobile devices. The technique is based on preloading a set of meshes representing different phonemes and
+switching among them in order to simulate animation, without
+the need of computing the update for an entire face model. In
+addition, we report on a first Android prototype, which shows
+the effectiveness of the approach for increasing children's
+learning.
+Keywords—Mobile
+learning
+
+guide,
+
+I.
+
+Avatar,
+
+Animation,
+
+Children
+
+INTRODUCTION
+
+The wide availability of smartphones and tablets and their
+continuous development allows the combination of real-world
+perception and multimedia contents directly on a personal
+device, by providing directions or describing and enhancing the
+surrounding environment with text, images or other media.
+This is specifically important if we consider travellers that can
+be provided with touristic and cultural contents through an
+Augmented Reality (AR) approach.
+The combination of real word and virtual contents has a
+particular relevance for conveying information to a young
+audience, who may benefit from a playful and enjoyable
+presentation. In order to stimulate the children's curiosity and
+to attract their attention, we propose to enhance city visits
+through a virtual guide with the appearance of a comic book
+superhero (e.g., Batman), which describes the different points
+of interest (POI) through ad-hoc multimedia contents.
+The superhero guide can be activated downloading a mobile
+application on the visitor's mobile device.
+
+Following recent studies on Embodied Pedagogical Agent
+(EPA), which show a preference for cartoonish and stylized
+character representations for different age ranges [5, 4] for
+learning companions, we choose a superhero as virtual guide.
+On a mobile device, the real-time visualization and
+animation of the virtual character still establish a set of
+technical challenges. In this paper, we describe a technique for
+a fast simulation of talking heads, which can be effectively
+used on mobile devices. The technique is based on pre-loading
+a set of meshes for the different phonemes, and the animation
+is simulated through a fast switching of such pre-computed
+face configurations. This technique avoids the entire face
+model update, which can be expensive for a mobile device.
+We, then, describe how we exploited such technique for
+creating an Android prototype of the AR guide for visiting the
+city of Cagliari.
+II.
+
+RELATED WORK
+
+The Embodied Pedagogical Agents, also knows as
+Guideboots, have been embedded in learning applications
+targeted for different types of users, ranging from elderly [10]
+to different categories of young people, such as college
+students [8] or children [5, 4]. They can have different roles in
+the software, such as mentors, learning companions or
+instructors. Their effectiveness is related to the social nature of
+the interaction they support, since they might be able to
+establish an affective link with the user [7].
+Therefore, their visual appearance is crucial for their
+communication success. Different studies in literature provided
+contributions to this topic: here we focus on the childrenrelated work. Haake and Gulz [5] conducted a user study on 90
+school children between 12 and 15 years old. They established
+three dimension related to the selection of a particular EPA: the
+static visual appearance (detailed or simplified), its role
+(instructor or learning companion) and the communicative
+style (task or task-and-relation oriented). The analysis of the
+collected data shows a preference for a more stylised
+appearance of the EPA, in particular for female students.
+Similar results were found by Girard and Johnson [4] with a
+study on 86 primary school children, aged between 7 and 11.
+
+978-1-4673-8242-7/15/$31.00 ©2015 IEEE
+19-20 November 2015, Thessaloniki, Greece
+2015 International Conference on Interactive Mobile Communication Technologies and Learning (IMCL)
+Page 222
+
+The children had to choose between an instructor and a
+learning companion EPA, simplified or detailed in appearance
+and humanoid or smiley shaped. In general, children preferred
+learning companions over instructors, simplified characters for
+both roles, humanoid-shaped for instructors and stylized for
+learning companions. According to these results, we selected
+familiar comic-book superheroes (Batman and Joker in our
+prototype) appearance for the EPA to be included in the AR
+visiting guide, for increasing the children's affection towards
+the virtual guide.
+
+contains a picture of Batman, and a text that invites to frame it
+with a smartphone camera. Intrigued by the strange message,
+Paolo uses his smartphone and finds out that there is a virtual
+city guide which can be installed on his own smartphone,
+simply by shooting the Batman poster. Once the application
+has been installed, he sees that a virtual Batman appears on the
+screen. Paolo calls Marco and shows the strange application to
+his son. Marco is incited to see his favourite superhero on the
+mobile phone, and starts listening to him describing the
+monument.
+
+The idea of exploiting agents for enhancing the visiting
+experience has been investigated in different work in literature,
+in particular in museum settings. Most works exploit them in
+stationary positions.
+For instance, in [9] the authors describe their experience
+with Max, a conversational agent as guide for a computer
+museum in Paderborn.
+The case study demonstrated that the visitors communicated
+with the agent as if it was a human being. In [11], two
+conversational agents provided information to the visitors
+answering questions at the Museum of Science in Boston.
+Other solutions such as [6] distributed the agents on the whole
+museum, providing robots as physical counterparts of the
+virtual agents. The visual appearance of the robots and the
+museum contents are enhanced by the guide software through
+head-mounted displays. The robot allows taking the interaction
+initiative e.g. moving towards a particular artwork in order to
+be followed by the visitor. Our approach exploits the agents in
+a ubiquitous setting, deploying the guide on the user's personal
+device.
+
+After 20 minutes, the family moves towards another
+monument, the Tower of San Pancrazio. When they reach its
+location, Batman appears again and Marco listens to history of
+that monument. Sara and Paolo found how to enjoy the city and
+entertain Marco at the same time.
+
+III.
+
+VIRTUAL GUIDE
+
+In this section, we detail our idea for exploiting the
+Embodied Personal Agents for enhancing city visiting. We
+start from describing an application scenario, highlighting the
+requirements and describing the envisioned application usage
+during the visit. After that, we detail the technical solution we
+adopted for the facial animation and finally we introduce the
+guide prototype implementation.
+
+Talking head animation
+Exploiting the user's personal device in order to visualize
+the EPA poses a set of technical problems. First of all, having
+updated contents is crucial for the success of a touristic
+application. Therefore, information providers such as
+municipalities, itinerary curators or event organisers must be
+able to create contents easily. Most of the times they want to
+produce different descriptive texts. In addition, since cities
+have many points of interest that can be described during the
+visit and it is not possible to establish a-priori the users' path,
+contents should be downloaded by the virtual guide ondemand.
+The solution we adopted is to keep the content that have to
+be presented by EPAs in a text format, which can be easily and
+quickly downloaded, and to exploit avatar animation together
+with text-to-speech for simulating the talking-head on the
+mobile device.
+The problem has been solved using an improved version of
+our THAL-k [12] for Android. For the vocal rendering we
+exploited the text-to-speech (TTS) engine set as default by
+users on their Android device. We tested it with the Google
+TTS engine [2] and IVONA [3].
+
+Usage Scenario
+Sara and Paolo, together with their son Marco are an Italian
+family from Milan, and they are visiting Cagliari in October.
+They have already been in Sardinia for vacation, but last time
+they went to the seaside since it was August. This time, they
+want to discover the history of the city. Sara and Paolo would
+like to find a way for entertaining Marco, who is 8 years old, in
+order to do not bore him during the visit.
+When they arrive at the first monument, called “Bastione di
+San Remy”, Paolo reads the information panel, searching for
+information on its history. Oddly, he sees that the panel
+
+Fig. 1. A subset of the meshes for the ‘A’ phoneme pronunciation
+
+The THAL-k library animates the eyes and the mouth of an
+avatar, in order to simulate the speech movements. To achieve
+this goal, it exploits a preloaded 3D head model, which consists
+of different parts: the inner and the outer mouth, the eyes and
+
+978-1-4673-8242-7/15/$31.00 ©2015 IEEE
+19-20 November 2015, Thessaloniki, Greece
+2015 International Conference on Interactive Mobile Communication Technologies and Learning (IMCL)
+Page 223
+
+the eyelids and finally the rest of the head. In addition, it is
+possible to use some complementary meshes for representing,
+for instance, different hairstyles.
+In order to animate the head, the library switches the
+meshes for the “movable” parts of the head, such as the mouth
+(inner and outer), the eyes and eyelids.
+Concerning the outer mouth, the speech movements are
+simulated using different sets of meshes for each phoneme.
+Each set consists of ten meshes; each one represents a specific
+mouth position, based on different openness degrees (Figure 1).
+Before the execution of the animation, all meshes are
+loaded in the 3D scene.
+At the beginning, among all the outer-mouth meshes, only
+the closed-mouth mesh is displayed, while the other are hidden.
+When a text is passed to the vocal synthesizer the animation
+starts and the phonemes animations are showed working frame
+by frame on the visibility of a single mouth mesh, increasing
+the mouth openness and simulating a realistic and languageindependent speech. In order to reduce the number of meshes
+that need to be loaded in the mobile application, we empirically
+selected a subset of all the phonemes of the target language
+(Italian in our case, but the approach can be easily extended to
+other ones). We tried to keep the phonemes that involve mouth
+movements clearly distinguishable from each other. The
+selected ones are the following: `A', `O', `C' and `F'. The other
+phonemes have been modeled mapping them on the selected
+ones, using the mouth openness for fine-tuning such
+association.
+Figure 1 shows three examples of pre-computed meshes
+used by the library for animating the outer part of the EPA
+mouth. They represent three key frames (respectively the first
+the fifth and the tenth) for the pronunciation of the `A'
+phoneme. The library switches their visibility in order to
+provide the animation simulation.
+
+approach. We render the phonemes associated to the vowels in
+text string. We obtain a sequence of phonemes, which should
+be “pronounced” by the EPA while the TTS is rendering the
+text. We empirically established that changing the mouth
+frames every 30ms is acceptable, without a real
+synchronization between the TTS and the animation engine. It
+is worth pointing out that we separated the problem of selecting
+the meshes for the different phonemes from the
+synchronization of speech and face appearance. This allows
+e.g. changing the proposed approach for the synchronization
+with a precise algorithm based on TTS events.
+Besides the mouth animation, the THAL-k allows to define
+the look-at point for the avatar (Figure 2). We exploited such
+capability for engaging more the child user, looking at her or
+him while talking, or looking in a different direction for
+suggesting where to look for finding the current subject in the
+real world.
+
+Fig. 3. Batman and Joker describe a point of interest
+
+In order to use a superhero as EPA, we need to build the
+appropriate 3D model of the character. Figure 3 shows two
+EPA configurations, representing Batman and Joker, but many
+more can be created changing the default textures or adding
+new ones and setting the relative parameters.
+
+Fig. 2. Speech animation screenshots
+
+Given the phrase string to be read by the TTS, we need to
+synchronize the mouth movements with the pronounced text.
+In order to keep low the resource consumption thus
+providing a realistic effect, we exploit an approximate
+
+We used FaceGen [1] for the model creation, a software
+that allows users an easy customization of the appearance of a
+human face. In order to create Batman, we exploited a basic
+man face and we added a supplementary 3D model for the
+well-known character's mask. Instead, Joker required some
+work on face texture for simulating the make-up, together with
+the selection of his hairstyle and color.
+It is clear that an easy work is sufficient in order to
+customize the avatar and to add supplementary models (e.g. the
+mask) for obtaining different EPAs. Instead, the animation is
+
+978-1-4673-8242-7/15/$31.00 ©2015 IEEE
+19-20 November 2015, Thessaloniki, Greece
+2015 International Conference on Interactive Mobile Communication Technologies and Learning (IMCL)
+Page 224
+
+completely handled by our THAL-k library, just providing the
+text to be read.
+
+City guide prototype
+As described by the application scenario, our main goal is
+presenting touristic and cultural information to children,
+through an augmented-reality approach.
+In order to build a first city guide prototype, we considered
+Cagliari as case study, provided the availability of tourist
+information previously acquired through a related work on
+visiting the city [13]. The main role of the talking head is to
+describe and explain this information like a real touristic guide,
+by using a language and through an appearance more
+interesting for a young audience.
+
+For attracting the children's attention and to invite them to use
+the application, a super-hero poster is displayed nearby the POI
+information panel. When the child frames it with the mobile
+phone, application matches the poster and the super hero
+wakes-up, greeting the child and starting to explain the
+monument history, as shown in figure 5.
+This matching is achieved by an image-processing
+algorithm that tracks and estimates in real time the camera pose
+correlating the real-world coordinate system and the 2D image
+taken from the camera thus allowing the visualization of 3D
+objects overimposing them in the exact position over the
+printed poster.
+
+The talking head animation is launched nearby monuments
+and points of interest (POIs). Every POI is associated with its
+GPS coordinates (longitude, latitude, altitude), a title and a
+description. In addition, it is possible to add other multimedia
+content, such as images and videos.
+The application catches the user's position via GPS and, if
+there is a POI nearby, the application shows the EPA and the
+content presentation starts. Figure 3 shows the two sample
+EPAs describing the Bastione of San Remy, one of the most
+famous fortifications in Cagliari.
+Apart from the textual description, the push notification
+provides also information on the additional multimedia content
+availability, which can be opened directly from the guide
+application.
+
+Fig. 5. A poster inviting to listen to the monument description
+
+IV.
+
+CONCLUSION AND FUTURE WORK
+
+In this paper we described the design and a prototype
+implementation of a mobile guide for city visits for a children
+audience. In order to attract their attention, a comic-book
+superhero avatar presents the information. This choice is
+grounded over recent studies about the Embodied Pedagogical
+Agents, which demonstrates the preference for cartoonish and
+stylized characters as learning companions.
+We discussed our solution to the problem of animating the
+superhero while talking, with a low consumption of resources,
+suitable for mobile devices. In addition, we detailed how we
+created the guide prototype.
+
+Fig. 4. Application as it appears on an Android device.
+
+In future work, we will refine the guide implementation and
+we will perform a user study with real children. Our hypothesis
+is that the proposed approach may increase the children
+learning during the city visit, if compared to reading
+information on a printed or electronic guide.
+
+Users can easily install the application, using a QR-code
+printed on the monument description panel.
+In addition, the QRCode can be used as a fallback
+localization mechanism, in order to start the talking animation.
+
+978-1-4673-8242-7/15/$31.00 ©2015 IEEE
+19-20 November 2015, Thessaloniki, Greece
+2015 International Conference on Interactive Mobile Communication Technologies and Learning (IMCL)
+Page 225
+
+ACKNOWLEDGMENT
+Fabio Sorrentino and Lucio Davide Spano gratefully
+acknowledge Sardinian Regional Government for the financial
+support (P.O.R. Sardegna F.S.E. operational Programme of the
+Autonomous Region of Sardinia, European Social Found 20072013 - Axis IV Human Resources, Objective I.3, Line of
+Activity I.3.1.). Reso1.).
+REFERENCES
+[1]
+[2]
+
+[3]
+
+[4]
+
+[5]
+
+FaceGen Modeller 3.0 from Singular Inversions Inc.
+http://www.FaceGen.com. Accessed: 2014-01-18.
+Google Text-to-Speech
+https://play.google.com/store/apps/details?id=com.google.android.tts.
+Accessed: 2014-01-18.
+IVONAText-to-Speech
+http://www.ivona.com/en/.
+Accessed: 2014-01-18.
+Girard, S., and Johnson, H. What Do Children Favor as Embodied
+Pedagogical Agents? In Intelligent Tutoring Systems, V. Aleven, J. Kay,
+and J. Mostow, Eds., vol. 6094 of Lecture Notes in Computer Science.
+Springer Berlin Heidelberg, 2010, 307-316.
+Haake, M., and Gulz, A. A Look at the roles of look & roles in
+embodied pedagogical agents-a user preference perspective.
+International Journal of Artificial Intelligence in Education 19, 1
+(2009), 39-71.
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+
+[11]
+
+[12]
+[13]
+
+Holz, T., Dragone, M., O'Hare, G. M., Martin, A., and Duffy, B. R.
+Mixed reality agents as museum guides. In ABSHL'06: Agent-Based
+Systems for Human Learning, AAMAS Workshop (2006).
+Johnson, W. L. Interaction tactics for socially intelligent pedagogical
+agents. In Proceedings of the 8th international conference on Intelligent
+user interfaces, ACM (2003), 251-253.
+Kim, Y., and Baylor, A. L. A social-cognitive framework for
+pedagogical agents as learning companions. Educational Technology
+Research and Development 54, 6 (2006), 569-596.
+Kopp, S., Gesellensetter, L., Krämer, N. C., and Wachsmuth, I. A
+conversational agent as museum guide-design and evaluation of a realworld application. In Intelligent Virtual Agents, Springer (2005), 329343.
+Ortiz, A., del Puy Carretero, M., Oyarzun, D., Yanguas, J. J., Buiza, C.,
+Gonzalez, M. F., and Etxeberria, I. Elderly users in ambient intelligence:
+Does an avatar improve the interaction? In Universal access in ambient
+intelligence environments. Springer, 2007, 99-114.
+Swartout, W., Traum, D., Artstein, R., Noren, D., Debevec, P.,
+Bronnenkant, K., Williams, J., Leuski, A., Narayanan, S., Piepol, D., et
+al. Ada and Grace: Toward realistic and engaging virtual museum
+guides. In Intelligent Virtual Agents, Springer (2010), 286-300.
+Sorrentino F., Scateni R. THAL-k: TalkingHead Animation Library
+CG Libs Smart Libraries for Computer Graphics, 2013
+Gattullo M., Di Donato M., Sorrentino F. VisitAR: a mobile application
+for tourism using AR, SIGGRAPH Asia 2013 Symposium on Mobile
+Graphics and Interactive Applications, ACM 2013
+
+978-1-4673-8242-7/15/$31.00 ©2015 IEEE
+19-20 November 2015, Thessaloniki, Greece
+2015 International Conference on Interactive Mobile Communication Technologies and Learning (IMCL)
+Page 226
+
+

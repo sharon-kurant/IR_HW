@@ -1,0 +1,282 @@
+Accelerat ing t he world's research.
+
+A taxonomy for the evaluation of
+mobile museum guides
+Areti Damala, Hub Kockelkorn
+Proceedings of the 8th conference on …
+
+Cite this paper
+
+Downloaded from Academia.edu 
+
+Get the citation in MLA, APA, or Chicago styles
+
+Related papers
+
+Download a PDF Pack of t he best relat ed papers 
+
+Nomadic comput ing in indoor cult ural set t ings: Int elligent connect ivit y, cont ext awareness a…
+Aret i Damala, Marc Brelot
+Merging augment ed realit y based feat ures in mobile mult imedia museum guides
+Aret i Damala
+Bridging t he gap bet ween t he digit al and t he physical: design and evaluat ion of a mobile augment ed re…
+Aret i Damala
+
+A Taxonomy for the Evaluation of Mobile Museum Guides
+Areti Damala
+
+Hub Kockelkorn
+
+France Telecom R&D
+4, rue du Clos Courtel
+35512, Cesson Sevigne, France
+++33-2-99-1248143
+
+Museon Museum
+Stadhouderslaan 37
+2517 HV, The Hague, Netherlands
+++31-70-3381338
+
+areti.damala@orange-ft.com
+
+hkockelkorn@museon.nl
+
+ABSTRACT
+Museums are a fertile ground for experimentations with
+edutainment applications conceived for mobile devices. However
+the design, implementation and maintenance of mobile
+multimedia guides is a time and resources consuming iterative
+process to which ideally all involved stakeholders should
+participate. Evaluation therefore is of outmost importance.
+Drawing from already published results and on site experience
+from DANAE project we define three categories of evaluation key
+points, under which all possible evaluation questions measuring
+the effectiveness of an edutainment application can be classified;
+we then match them with all involved stakeholders, mainly
+museums, their visitors and information technologies companies.
+Finally, we argue that the proposed taxonomy can be used for the
+classification of different evaluation questions so as to constitute a
+comprehensive and adjustable guide for evaluation purposes of
+applications for different and heterogeneous museum
+environments.
+
+Categories and Subject Descriptors
+H.5.2
+[Information
+interfaces
+and
+presentation]: User Interfaces - ergonomics,
+evaluation, methodology, theory and methods,
+user
+centred
+design.
+J.5
+[Arts
+and
+Humanities]: Fine Arts. K.3.1 [Computer and
+Education]:
+Computers
+in
+education
+collaborative
+learning,
+Computer-assisted
+instruction.
+
+General Terms
+Design, Experimentation, Human Factors.
+
+Keywords
+Museum handheld devices, evaluation, experimentation,
+geolocalization, multimedia applications, edutainment, mobility.
+
+1. INTRODUCTION
+Museums constitute an ideal environment for experimentation
+with mobile, interactive applications dedicated to the
+interpretation of tangible and intangible cultural heritage as they
+are –by definition- “permanent institutions in the service of
+society and of its development, open to the public, which acquire,
+Copyright is held by the author/owner(s).
+MobileHCI'06, September 12-15, 2006, Helsinki, Finland.
+ACM 1-59593-390-5/06/0009.
+
+conserve, research, communicate and exhibit, for purposes of
+study, education, enjoyment, the tangible and intangible evidence
+of people and their environment" (ICOM 2001 definition) and
+where learning has always been a “mobile” experience conducted
+usually not individually but with other companions. More
+recently, the increasing need for museums to become financially
+self sustained has opened up new perspectives for a long lasting
+relationship (before, during and after the visit) in between
+museums and its audiences.
+The use of handheld devices in the museum setting can be
+examined under two perspectives. First, they make part of
+interpretation methods employed to convey the meaning and
+facilitate the contextualisation of an exposed object. Secondly,
+mobile guides can be considered as making part of other
+multimedia and information technologies applied in the museum
+setting for purposes that vary from cataloguing, ticketing and
+administration, to knowledge dissemination, publication and on
+site interpretation.
+
+2. EVALUATION OF MOBILE GUIDES IN
+THE MUSEUM SETTING
+One of the most important aspects of the introduction of mobile
+guides in the museum setting is that due to their character they
+could be used as a linking entity for the delivery of all kind of
+information delivered through more traditional means, such as
+explanatory textual labels, posters, educational programs, audio
+guides, guided tours, printed material or stationary multimedia
+applications. However, there are still issues that constitute barriers
+for the adoption of mobile cutting-edge technology in the museum
+premises[1]. The cost is sometimes prohibiting, additional
+personnel can be required for the distribution while museum
+curators sometimes fear for a heads down approach [2] in an
+environment where the museum display is considered to be the
+major form of pedagogy. These are some of the reasons why
+evaluation should be introduced from the beginning of a project.
+Several evaluation studies have been conducted during the last
+years. They all share a common characteristic: measuring the
+effectiveness of the introduction of handheld devices in the
+museum setting. Evaluation questions are sometimes mentioned
+as well as more or less measurable aspects of this intervention.
+Some of the most common ones are enjoyability, usefulness, ease
+of use, ergonomics, user satisfaction, navigation, interface,
+content design, geolocalization, knowledge acquisition,
+fragmentation of attention and isolation, attentional balance and
+social interaction.
+
+In order to better conduct our experimentations in DANAE
+project, we proceeded in a comparative study of numerous
+evaluation results conducted in the last five years and tried to
+classify evaluation questions with the aforementioned different
+evaluation aspects in order to better define which are the key
+evaluation points that should be taken under consideration in the
+process of the assessment of a mobile, location aware, multimedia
+museum guide. This classification yielded two conclusions. The
+first one is that evaluation key points can fall under three
+categories: technological evaluation points, information impact
+evaluation points and logistics/administration evaluation points.
+The second one is that further classification can be obtained if one
+matches particular key points with different stakeholders namely
+museums and information technology companies and museum
+visitors.
+
+3. KEY EVALUATION POINTS FOR
+MOBILE MUSEUM GUIDES
+3.1
+Technological Evaluation Key Points
+Technological evaluation points are related with choices made
+regarding the actual software and hardware used to design and
+implement multimedia applications for museum handheld guides.
+In this case, evaluation with museum stuff should include
+evaluation questions relevant with the content implementation, the
+effectiveness of the chosen way of content distribution (either
+wireless or locally stored), the geolocalization modules, in case
+they exist to help with visitors’ orientation and, finally, the
+content delivery and adaptation to potentially different platforms
+and available bandwidths. Technological evaluation points must
+also be assessed with museum visitors. Under this category we
+classified issues such as the usability and ease of use of a
+proposed application, the overall user interface, including
+navigation, multimedia and interaction design, the recovery of the
+system after a potential crash, ergonomics (such as the use of
+stripes or headphones), the positioning and messaging system and
+the system’s accessibility. Personalization, according to language,
+age, different learning abilities, preferred themes, available time
+for the visit, falls also under this category.
+
+3.2
+Information Impact Evaluation Key
+Points
+Information Impact evaluation points are relevant with the impact
+of introducing a mobile multimedia guide in the museum setting.
+These two can also be examined under two different perspectives,
+the museum’s point of view and the visitors’ point of view. This
+category is strongly linked with the previous one. For example the
+choice of specific tools for the content implementation influences
+the process of content creation and updating as well the process
+for the creation of different user groups and profiles.
+Information Impact evaluation points are more numerous when
+examining the visitors’ side. Here, one of the main evaluation
+points is the content quality. Content quality can be treated either
+as such, meaning the quality of the multimedia content included
+as well as its overall structure and design as well as in relation
+with the actual exhibition that is accompanied and interpreted
+with the multimedia guide.
+Other important aspects that are often treated in assessment
+sessions have to do with the usability, enjoyability and usefulness
+of the application as well as with the overall user satisfaction
+
+Distraction and attentional balance as described by Aoki [3] et al.
+falls under this category as well as learning and knowledge
+acquisition and isolation in contrast with the issue of social
+interaction and general interaction impact.
+
+3.3
+
+Administration Evaluation Key Points
+
+There is finally a third category, which groups evaluation points
+relevant with administration/logistics issues. Regarding the
+museum professionals, evaluation needs to be conducted in
+relation to maintainability. Maintainability covers many different
+aspects such as battery life and recharging, updating older
+versions of the multimedia applications, security not only of the
+devices but of the overall museum information system, as well as
+distribution and recovery of the terminals after the end of each
+session. An important issue is to examine whether the number of
+existing terminals is sufficient as well as the personnel charged
+with the distribution and recovery of the devices. Distribution and
+registration process needs also to be evaluated with visitors in
+order to see if the full process of getting and using a mobile
+device is smooth and not time and energy consuming.
+
+4. CONCLUSIONS
+Even though more and more museums throughout the world have
+started experimenting with mobile, location aware and multimedia
+capable devices there is still skepticism as to which extent
+applications conceived for portable, able to be personalized
+devices are effective with regards to the mission, the policies and
+the available funds in a museum setting. Therefore evaluation and
+assessment is of great importance. In this paper we argued that
+even thought several evaluation studies regarding the
+effectiveness of museum handheld devices have been published,
+there is still no unanimity in what the term effective means. This
+study suggests that effectiveness can be examined using three
+different kinds of evaluation key points, related with the
+technology chosen, the information impact of the proposed
+application as well as with logistics/ administration issues. We
+believe that this categorization and formalization of
+heterogeneous evaluation points could be further developed by
+matching evaluation key points with all kind of possible
+evaluation questions present in other studies so as to form an
+easily adjustable and comprehensive guide able to be used for the
+assessment, modification and evaluation of various aspects of
+mobile, location aware, multimedia guides for the museum
+setting.
+
+5. REFERENCES
+[1]
+
+M. Brelot, A. Cotarmanach, A. Damala, and H.
+Kockelcorn, "Nomadic computing in indoor cultural
+settings: Intelligent connectivity, context awareness and
+the mobile museum experience," presented at ICHIM
+2005, Paris 21-23 September 2005, CD-ROM
+proceedings
+
+[2]
+
+D. von Lehn and C. Heath, "Displacing the object: Mobile
+Technologies and Interpretive Resources," presented at
+ICHIM2003, Paris, 8-12 September 2003, CD-ROM
+proceedings.
+
+[3]
+
+M. Aoki, A. Woodruff, A. Hurst, and M. H. Szymanski,
+"Electronic Guidebooks and visitor attention," presented
+at ICHIM 2001, Milan, Italy, 2001.
+
+

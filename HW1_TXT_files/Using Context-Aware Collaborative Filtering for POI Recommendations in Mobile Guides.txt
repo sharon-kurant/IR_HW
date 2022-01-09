@@ -1,0 +1,715 @@
+Huang, H. & Gartner, G., 2012 Using Context-aware Collaborative Filtering for
+POI Recommendation in Mobile Guides. In G. Gartner & F. Ortag, eds. Advances
+in Location Based Services. Lecture Notes in Geoinformation and Cartography.
+Springer Berlin Heidelberg, pp 131-146.
+
+Chapter 9
+
+Using Context-Aware Collaborative Filtering for
+POI Recommendations in Mobile Guides
+Haosheng Huang and Georg Gartner
+Institute of Geoinformation and Cartography,
+Vienna University of Technology, Austria
+{haosheng.huang, georg.gartner}@tuwien.ac.at
+
+Abstract
+Mobile guide is one of the most popular Location Based Services. Currently,
+providing context-aware services/information is still very challenging in mobile
+guides. Collaborative filtering (CF), known as “Amazon-like recommendations”,
+is a promising solution for providing context-aware recommendations. The
+paper investigates how context-aware CF (CaCF) can be introduced into mobile
+guides. Specifically, we focus on applying CaCF methods on the highly available
+GPS trajectories to enhance visitors with context-aware POI (Point of Interest)
+recommendations.
+After analysing the key issues of CaCF, we present a methodology for addressing
+them. Firstly, a two-stage method is proposed to identify context parameters which
+are relevant and thus needed to be modelled in a CaCF application. After identifying relevant context parameters, we explore a statistic-based approach (SBA)
+to measure similarity between different contexts (situations). In considering two
+different ways of incorporating context information into the CF process, two CaCF
+methods are designed: SBA_CP_CaCF (using SBA and contextual pre-filtering),
+and SBA_CM_CaCF (using SBA and contextual modelling). With these CaCF
+methods, smart services like “in similar contexts, other people similar to you
+often …” can be provided.
+Finally, the proposed methods are evaluated with some real GPS trajectories collected from Vienna Zoo (Austria). The results of the experiments show
+that the proposed CaCF methods are feasible and useful for providing contextaware POI recommendations in mobile guides. More importantly, we show that
+
+132
+
+Haosheng Huang and Georg Gartner
+
+including context information in the CF process can improve the recommendation
+performance.
+Keywords: Location Based Services, mobile guides, context-aware recommendations, collaborative filtering, GPS trajectory
+
+9.1 Introduction
+Recent years have seen an increasing interest in Location Based Services (LBS) with
+the continual evolution of mobile devices and communication technology. Mobile
+guide is the largest group of LBS applications (Raper et al. 2007). One of the key
+goals of mobile guides is to provide users with relevant information/services for
+satisfying their needs, e.g. recommending some Points of Interest (POIs) to visit.
+Providing context-aware POI recommendations in mobile guides is still very
+challenging. Currently, in order to provide context-awareness, mobile guides mostly
+rely on an adaptation engine to determine the appropriateness of POIs for satisfying
+users’ needs and context. However, building the adaptation engine has to undergo a
+long process of knowledge acquisition, which is very time-consuming and impractical for many mobile guides.
+Additionally, the increasing ubiquity of GPS-enabled devices has led to the accumulation of large spatio-temporal datasets, such as GPS trajectories. These trajectories may reflect the perspectives and experiences of other people who solve their
+spatial tasks (e.g. choosing which POI to visit next) in this situation. It is obvious
+in daily life that experiences from past users (especially similar users) in similar
+contexts can help current users solve their own problems efficiently (Wexelblat
+1999). Therefore, by aggregating the trajectories, mobile guides can provide
+users with smart services, such as providing “social advice” for making decisions.
+However, little research has addressed these considerations.
+Collaborative filtering (CF, “Amazon-like recommendations”) is a promising
+solution for the above problems. It uses “opinions” of similar users in similar
+contexts to help the current user efficiently identify information of interest (Resnick
+& Varian 1997). As a result, by incorporating CF into mobile guides, relevant
+information (e.g. POIs) matching the user’s current situation can be identified (by
+aggregating opinions from similar users in similar contexts).
+The goal of this paper is to investigate methods of introducing context-aware CF
+(CaCF) into mobile guides to provide context-aware recommendations. Specifically,
+we aim at applying CaCF methods on the highly available GPS trajectories to
+enhance visitors with context-aware POI recommendations. With CaCF, smart
+services like “in similar contexts, other people similar to you often visited POI A”
+can be provided in mobile guides.
+
+Using Context-Aware Collaborative Filtering for POI Recommendations
+
+133
+
+The rest of this paper is structured as follows. In Section 9.2, we outline related
+work. Section 9.3 identifies the key issues of incorporating CaCF into mobile
+guides. In Section 9.4, a methodology for addressing these issues is presented. In
+Section 9.5, the proposed methods are implemented and evaluated with GPS trajectories collected from Vienna Zoo (Austria). Some major results are also discussed in
+Section 9.5. Finally, we draw conclusions and present future work in Section 9.6.
+
+9.2 Related Work
+The research concerns how CaCF can be incorporated into mobile guides for
+providing context-aware POI recommendations. It integrates several mainstream
+trends and concepts, such as POI recommendations in mobile guides, CF in LBS
+applications and trajectory mining. From these aspects, we summarize the related
+work.
+
+9.2.1 POI Recommendations in Mobile Guides
+To provide context-aware POI recommendations, current mobile guides mainly rely
+on knowledge about POIs (domain model, DM), knowledge about the user (user
+model, UM) and her/his context (context model, CM). An adaptation engine is also
+employed: It measures the appropriateness of objects (DM) for satisfying a user’s
+needs and context (UM and CM), and returns the relevant objects.
+UM includes information about users’ interests, preferences, and needs. It can be
+static (Baus et al. 2001, Kray 2003) and dynamic (Cheverst et al. 2000, Wiesenhofer
+et al. 2007). For building DM and the adaptation engine, a long underlying learning
+(knowledge acquisition) process has to be carried out in the field, which is often
+very time-consuming and impractical for many mobile guides. More importantly,
+current mobile guides are unable to effectively provide users with context-aware
+services in unseen situations or situations with little previous knowledge. However,
+real-world applications often need to operate in these kinds of situations.
+In contrast to the above approaches, we aim to use CF to providing contextaware recommendations. In the following, we analyse CF’s potential in solving the
+problems of current context-aware recommendation systems (i.e. a long process of
+knowledge acquisition in providing context-awareness).
+One of the key goals of context-awareness in mobile guides is to provide a user
+with relevant information according to her/his context. This goal matches with the
+aim of CF, especially CaCF, which aggregates opinions of similar users in similar
+contexts to help individuals efficiently identify interesting information (Resnick &
+Varian 1997). Opinions from other users may reflect their perceptions on the fitness/
+
+134
+
+Haosheng Huang and Georg Gartner
+
+appropriateness of a particular item (information) for their contexts. If similar users
+in similar contexts like that item, this item can be considered as a matching item for
+the current user in the current context. As a result, CaCF can be viewed as a realtime underlying learning process of building DM and UM, and an automatic engine
+for identifying relevant information. Moreover, as CF solely relies on user feedback
+(i.e. trajectories in this paper) and requires no previous domain knowledge, mobile
+guides employing CF will be able to effectively provide context-aware services
+in dynamic environments and unseen situations. Therefore, CaCF can be a novel
+method of providing context-aware recommendations in mobile guides.
+
+9.2.2 CF in LBS
+CF is often applied in Web-based applications, such as movie recommendations,
+and product recommendations (see Amazon.com). Currently, context-aware CF in
+Web-based applications is still very challenging (Adomavicius & Tuzhilin 2010).
+There are some tries on applying CF in LBS, such as restaurant recommendations
+(Horozov et al. 2006), event recommendations (de Spindler et al. 2006, Li et al.
+2009), shop recommendations (Takeuchi & Sugimoto 2006), recommendations in
+museums (Bohnert et al. 2008), and POI recommendations for tourism (van Setten
+et al. 2004). However, most of the researches only employed location as contextual
+factor, and did not consider other contextual factors which are also relevant for
+generating recommendations, e.g. weather and companion (with whom).
+Context-awareness is a key element when introducing CF into LBS. For example,
+recommending a place for the same person to visit may vary according to different
+weather conditions and different companion conditions (alone or with children).
+“There is more to context than location” (Schmidt et al. 1999). When incorporating
+more context information into CF for LBS, the problem becomes very challenging.
+A comprehensive investigation of how context can be incorporated into LBS-based
+CF is urgently needed. It is also important to note that none of the research focused
+on experimentally studying whether including context information in a CF for LBS
+can improve the recommendation performance.
+
+9.2.3 Trajectory Mining
+With the increasing ubiquity of GPS-enabled devices, more and more people start to
+record their travel/sport experiences with GPS loggers. Therefore, large spatio-temporal datasets (e.g. trajectories) are created every day, or even every hour. Recently,
+mining these kinds of user-generated GPS data is receiving considerable attention.
+There are researches focusing on mining personal location history based on individual trajectories, e.g. detecting significant locations of a user, predicting a user’s
+
+Using Context-Aware Collaborative Filtering for POI Recommendations
+
+135
+
+behaviour among these locations, identifying a user’s spatio-temporal behaviour
+patterns, and recognizing a user’s activities on each location (Li et al. 2008). In the
+meantime, many other researches mined multiple users’ trajectories to understand
+mobility-related phenomena, e.g. Giannotti et al. (2007) aggregated many users’
+trajectories to identify spatio-temporal behaviour patterns. Zheng et al. (2009a)
+mined interesting locations and travel sequences from multiple users’ trajectories.
+Li et al. (2008) proposed a user similarity measure based on different users’ trajectories; however, they did not incorporate the similarity measure into the CF process.
+There are also some researches focusing on using trajectories for recommendations. Takeuchi & Sugimoto (2006) recommended shops to users based on their
+individual preferences and needs, estimated by analysing their location history (i.e.
+GPS trajectories). Bohnert et al. (2008) developed a system for exhibit recommendations based on users’ trajectories in a museum. However, it is necessary to note
+that context information (except location) was not considered in these researches.
+In contrast to the above researches, this paper aims at designing context-aware
+CF methods to utilize trajectories for context-aware POI recommendations.
+Incorporating context information into the CF process for LBS applications is the
+main research focus.
+
+9.3 Key Issues of Context-Aware CF
+CaCF aggregates what similar users chose in similar contexts for recommendations.
+Several key issues have to be considered when providing CaCF in LBS: annotating
+user profiles with context, measuring similarities between contexts and similarities
+between users, and incorporating context information into the CF process.
+1) Annotating user profiles with context: In CaCF, user profiles (e.g. trajectories1)
+should be annotated with context. A context (situation) can be characterized by a
+set of context parameters. Not all context parameters are relevant for generating
+recommendations. In order to annotate user profiles with context, a main question has to be answered: Which context parameters are relevant and thus needed
+to be modelled. Many researches chose some features of the world as context
+parameters from their own views (e.g. Panniello et al. (2009), and Adomavicius
+et al. (2005)). What is missing, however, is a method of identifying relevant
+context parameters for CaCF.
+2) Measuring context similarity and user similarity: The goal is to determine which
+ratings (or user profiles, i.e. trajectories in this paper) are more relevant for the
+Raw trajectories can be processed and enriched with some semantic information to generate
+meaningful user profiles (e.g. places where users visit). Alvares et al. (2007) proposed a method
+on this aspect.
+1
+
+136
+
+Haosheng Huang and Georg Gartner
+
+current user in the current context (i.e. more useful for making recommendations
+for the current context).
+3) Incorporating context information into the CF process: Adomavicius & Tuzhilin
+(2010) proposed three approaches to incorporate context information into CF: 1)
+contextual pre-filtering: filter out irrelevant ratings (i.e. trajectories in our case)
+before using non-contextual CF method (i.e. the traditional method); 2) contextual post-filtering: use the traditional CF method, and then filter the results with
+context information; 3) contextual modelling: use context information directly
+inside the recommendation process. Currently, the approaches have not been
+applied to provide CaCF in LBS. How these approaches can be combined with
+the other key issues to provide CaCF in LBS should be carefully investigated.
+
+9.4 Methodology
+In this section, we explore some methods to address the key issues identified
+above.
+
+9.4.1 Identifying Relevant Context Parameters
+As mentioned before, context-dependent user profiles are important for contextaware recommendations. For annotating user profiles with context, we have to
+answer the question: Which context parameters are relevant and thus needed to be
+modelled.
+We adopt an “interactional perspective” on context (Dourish 2004). Something
+is context (parameter) only if users’ decision-making (e.g. choosing which POIs
+to visit), interaction with the system, or the behaviour of the system depends on it,
+otherwise it is just a feature of the world (Winograd 2001, Huang & Gartner 2009).
+For example, the temperature of the room is a relevant context parameter only if the
+adaptation of the interaction between human and the current system depends on it
+(or the behaviour of the system depends on it, e.g. when the temperature is higher
+than 30°C, start the air-conditioner), but otherwise it is just a feature of the world.
+Based on this understanding, a two-stage method to identify relevant context
+parameters is designed:
+1) A preliminary set of context parameters can be identified from literature or brainstorming. Data from users are then collected in different situations characterized
+by the preliminary set of context parameters.
+2) The final set of context parameters can be created by refining the preliminary set
+according to the collected data. The basic strategy of refining is to analyse how
+some key aspects (e.g. the number of visited POIs, length of visit, and duration
+
+Using Context-Aware Collaborative Filtering for POI Recommendations
+
+137
+
+of visit) of users’ trajectories differ with different values of each context parameter in the preliminary set. If context parameter c1 has n values, and the differences of the key aspects of visits are significant among these n values, then the
+current context parameter is relevant and thus needed to be modelled, otherwise
+it is irrelevant. T-test or analysis of variance (ANOVA) can be employed to test
+the significance. For example, if context parameter “weather” has two values
+“sunny” and “rainy”, and the difference between the key aspects of visits (e.g.
+the number of visited POIs) in “sunny” and the key aspects of visits in “rainy” is
+significant (i.e. “people behave differently in different weather condition”), then
+“weather” is relevant and thus needed to be modelled for CaCF, otherwise it is
+irrelevant.
+It is necessary to note that we do not need to consider location as a relevant context
+parameter when annotating user profiles (trajectories) with context. The reason is
+that users’ current location and location history are already stored in their trajectories. A trajectory includes a series of different stops (i.e. POIs). Every POI has a
+location. When recommending a POI for the current user, his/her current location
+(POI) is used to select relevant POIs which are “close” to the user (see step 1 of
+SBA_CP_CaCF in Section 9.4.4).
+
+9.4.2 Measuring User Similarity
+For each user, a series of stops2 (POIs) visited by him/her can be identified from
+his/her trajectory, e.g. using the SMoT method developed by Alvares et al. (2007).
+Therefore, a simple user similarity measure is adopted. It compares the POIs visited
+by the two users. It is obvious that two users accessed a POI visited by a few people
+might be more correlated than others who share a POI history accessed by many
+people (Zheng et al. 2009b). As a result, the visited popularity of a POI is considered
+when measuring similarity between users. Following is the proposed user similarity
+measure:
+
+
+
+pPOISa ,b
+
+SIM user (a, b) 
+(
+
+
+
+pPOISa
+
+1
+Fp
+
+1
+1
+)*( 
+)
+Fp
+pPOISb Fp
+
+where POISa and POISb are the set of visited POIs of user a and user b. POISa,b is the
+set of POIs which are visited both by user a and user b. Fp is the visited popularity
+of POI p considering all the trajectories.
+When a visitor has stayed in a certain distance threshold over a time period, we consider him/
+her has a stop. Visitors tend to have a longer stay at a POI if they are interested in it. Therefore, in
+this paper, the time threhold is set big enough to eliminate POIs which were passed and not liked
+by the visitor.
+
+2
+
+138
+
+Haosheng Huang and Georg Gartner
+
+9.4.3 Measuring Context Similarity
+The similarity between the context (situation) in which the visit (trajectory) was
+made and the current context of the active user (who asks for recommendations)
+determines the usefulness of the trajectory in recommending POIs for him/her.
+In the following, we explore a statistic-based approach (SBA), which adopts a
+machine-learning technique.
+With the method proposed in Section 9.4.1, relevant context parameters can be
+identified. By varying values for each parameter, all different situations can be identified. In the following, we propose an approach to measure the similarity between
+any two situations.
+We assume that if visits in a situation (e.g. A) are similar to visits in another situation (e.g. B); these two situations can be considered as similar. Therefore, similarity
+between different contexts (situations) can be measured as some statistical metrics.
+1) Measuring the distance of visits in situation A and visits in situation B:
+1
+
+Dist ( A, B) 
+
+F
+
+
+pP
+
+* ( Ap  B p ) 2
+
+p
+
+1
+
+F
+
+
+pP
+
+p
+
+−
+
+is the set of all POIs. Ap and Bp are the visit frequencies of POI p in situation A
+and B. Fp is the visited popularity of POI p considering all the trajectories.
+2) Translating the distance measure into a similarity measure:
+Shepard (1987) proposes that distance and perceived similarity are related via
+an exponential function. As a result, the following context similarity measure is
+designed:
+P
+
+SIM conx ( A, B)  e  Dist ( A,B )
+
+With these two steps, similarity between any two situations can be calculated.
+
+9.4.4 Making Recommendations
+As mentioned in Section 9.3, context information can be incorporated into CF by
+contextual pre-filtering, contextual post-filtering, and contextual modelling. In this
+paper, we mainly focus on contextual pre-filtering and contextual modelling. As a
+result, two kinds of CaCF methods are designed. The steps of each method are as
+follows. We assume that the current user u is finishing the current POI p, and asking
+“which POI to visit next”.
+
+Using Context-Aware Collaborative Filtering for POI Recommendations
+
+139
+
+SBA_CP_CaCF: Using SBA and contextual pre-filtering
+1) Identifying users whose next POI after visiting p has not been visited by the
+current user.
+2) Filtering users whose context similarities with the current user do not exceed a
+threshold δ. Context similarity is measured by the SBA method.
+3) For the results of step 2, identify the N most similar users. The user similarity
+measure proposed in Section 9.4.2 is employed.
+4) For the N most similar users, aggregating every similar user’s next POI after
+visiting p (considering user similarity values).
+5) Selecting the POI with the highest predicted value, and recommending it to the
+current user.
+SBA_CM_CaCF: Using SBA and contextual modelling
+1) The same as step 1 in SBA_CP_CaCF.
+2) For the results of step 1, identify the N most useful users. The usefulness is
+measured by considering both context similarity and user similarity.
+
+Utility (a, b)  l * SIM user (a, b)  (1  l ) SIM conx (Ca , Cb )
+where Ca and Cb are the contexts of user a and b. SIMconx (Ca, Cb) is calculated
+using the SBA method in Section 9.4.3.
+3) For the N most useful users, aggregating every useful user’s next POI after
+visiting p (considering usefulness values).
+4) The same as the step 5 in SBA_CP_CaCF.
+With the above CaCF methods, context-aware recommendations can be provided
+in mobile guides.
+
+9.5 Evaluation and Discussion
+In this section, we discuss some experimental evaluations. The data collection and
+processing are discussed in Section 9.5.1. Section 9.5.2 employs the proposed method
+in Section 9.4.1 to identify relevant context parameters for the CaCF methods. We
+describe the experiment setting in Section 9.5.3. The evaluation and results are
+presented and discussed in Section 9.5.4, and summarized in Section 9.5.5.
+
+140
+
+Haosheng Huang and Georg Gartner
+
+9.5.1 Data Collection and Processing
+Thanks to a cooperation with Vienna Zoo (Tiergarten Schönbrunn), we collected
+trajectories in the zoo in the first half of 2010. We encouraged visitors to carry GPS
+loggers with them while walking through the zoo. Before they start, we recorded
+some additional information (e.g. context information) about them and their visits,
+i.e. weather condition (sunny or rainy), age (>=45 or <45), time limit (Yes or No),
+annual ticket (Yes or No), first time in the zoo (Yes or No), and companion with
+small children (Yes or No). In total, we collected 53 valid trajectories of all kinds
+of visitors in different situations. For every trajectory, we extracted the following
+information: visited POIs and their orders, duration of visit, and length of visit.
+We employed the SMoT method developed by Alvares et al. (2007) to identify
+stops from every trajectory. To simplify the process of identifying the visited POIs
+from every trajectory, 36 POIs (candidate stops) were defined in the zoo by considering the layout of the zoo and GPS accuracies. When a user’s stop is within a
+defined POI, the user is considered to have been visited the POI. With this, a series
+of POIs which users visited can be identified. Therefore, for every trajectory, the
+following information was modelled:
+<ID, visited POIs and their orders, the number of visited POIs, length of visit
+(km), duration of visit (hour), age, first time in the zoo, companion with small
+children, time limit, annual ticket, weather>
+We only considered trajectories with at least 6 POIs for the experimental evaluations. In total, we had 41 valid trajectories. The average number of POIs visited was
+13.9 (ranging from 6 to 23), with a standard deviation of 4.
+
+9.5.2 Identifying Relevant Context Parameters
+The recorded context information (i.e. < “age”, “first time in the zoo”, “companion
+with small children”, “time limit”, “annual ticket”, “weather”>) was the preliminary
+set of context parameters. We applied the proposed method in Section 9.4.1 to identify relevant context parameters from this preliminary set.
+We mainly compared the follow key aspects of visit among different situations:
+the number of visited POIs, length of visit, and duration of visit. In order to test
+whether the differences among different conditions for each context parameter were
+significant, we employed the independent group two-tailed t-test. Due to the small
+size of the dataset, p < 0.2 was used to denote statistical significance. Table 9.1 shows
+the results of the comparison. Each data cell in Table 9.1 contains the following
+information: p-value of t-test, mean of condition1, and mean of condition2.
+The t-tests indicated that the numbers of visited POIs among different “age”
+conditions were significantly different. Similar results can be found for length of
+
+Using Context-Aware Collaborative Filtering for POI Recommendations
+
+141
+
+Table 9.1. How visits differed among different conditions for each context parameter.
+Age (>=45, <45)
+
+The number of visited POIs
+
+Length of visit (km)
+
+Duration of visit (hour)
+
+p=0.18 (15.45 vs. 13.23)
+
+p=0.19 (4.56 vs. 3.09)
+
+p=0.16 (2.88 vs. 2.01)
+
+First Visit (Yes, No)
+
+p=0.52 (14.46 vs. 13.56)
+
+p=0.26 (4.19 vs. 3.18)
+
+p=0.30 (2.58 vs. 2.08)
+
+Annual Ticket (Yes, No)
+
+p=0.63 (13.50 vs. 14.77)
+
+p=0.79 (3.66 vs. 3.41)
+
+p=0.28 (2.62 vs. 2.05)
+
+Companion (Yes, No)
+
+p=0.93 (13.88 vs. 14.00)
+
+p=0.71 (3.39 vs. 3.89)
+
+p=0.74 (2.30 vs. 2.03)
+
+Time Limit (Yes, No)
+
+p=0.29 (13.00 vs. 14:32)
+
+p=0.31 (2.98 vs. 3.74)
+
+p=0.60 (2.10 vs. 2.32)
+
+Weather (Sunny, Rainy) p=0.01 (15.07 vs. 11.64)
+
+p=0.04 (4.01 vs. 2.52)
+
+p=0.01 (2.62 vs. 1.52)
+
+visit in different “age” conditions, and duration of visit in different “age” conditions. In other words, people at different “age” groups visited the zoo differently.
+Similarly, for different “weather” conditions, people also behaved differently (see
+the bold parts in Table 9.1). Therefore, “age” and “weather” were considered as
+relevant, and taken as the final set of context parameters. In Section 9.5.4, we
+provide an evaluation to test the correctness of this decision.
+
+9.5.3 Experiment Setting
+We used the dataset in Section 9.5.1 to evaluate the recommendation performance
+of SBA_CP_CaCF and SBA_CM_CaCF. In order to experimentally study whether
+including context information in a CF can improve the recommendation performance, we also implemented a non-contextual CF method (nonCa_CF, i.e. SBA_
+CP_CaCF ignoring step 2) as a benchmark.
+Due to the small size of the dataset, we used a leave-one-out validation. We
+trained the recommendation models on 40 of the 41 visitors (trajectories) in the
+dataset, and tested them on the remaining visitor (the active user). We used accuracy
+to evaluate the performance of the CaCF methods, and accuracy was defined as the
+ratio of the number of correct recommendations (i.e. the recommended POI was
+actually viewed immediately by the active user) and the number of recommendation
+processes (i.e. 41 in our dataset).
+In order to identify optimized values for different parameters in the proposed
+CaCF methods, we evaluated several thousand parametrisations (i.e. varying the
+threshold in SBA_CP_CaCF, and the important weights in SBA_CM_CaCF), and
+used the best-performing one for the final experiments.
+Two evaluations were performed. The first evaluation studied whether using the
+proposed set of context parameters “<age, weather>” can achieve the best recommendation performance. As we had 6 preliminary context parameters (candidates),
+in total we had another 62 (=C61+C62+C63+C64+C65+C66-1) possible sets of context
+parameters. The proposed CaCF methods using different sets of context parameters
+were compared when making recommendations for the last 5 POIs of every trajectory (we used the average accuracy of the 5 POIs). This evaluation is very useful for
+
+142
+
+Haosheng Huang and Georg Gartner
+
+testing the effectiveness of the method proposed in Section 9.4.1 and Section 9.5.2
+(i.e. identifying relevant context parameters).
+The second evaluation focused on how the recommendation performances of
+the proposed CaCF methods differed when making recommendations for different
+places of a visit (i.e. from the 1st last to the 5th last). “<age, weather>” was used
+as the set of relevant context parameters. nonCa_CF was implemented as a benchmark. This evaluation can help us answer the following questions: 1) Does including
+context information in a CF for LBS improve the CF recommendation performance
+(context-aware CF vs. non-contextual CF)? 2) How do the recommendation
+performances of the proposed methods change when making recommendations for
+different places of a visit?
+9.5.4 Results and Discussion
+9.5.4.1 Making Recommendations with Different Sets of Context
+Parameters
+Figure 9.1 shows how the recommendation performances of the proposed CaCF
+methods changed when using different sets of context parameters.
+Using different sets of context parameters: Figure 9.1 shows that among all
+the possible sets of context parameters, both CaCF methods using the proposed set
+“<age, weather>” achevied the best recommendation performances. Therefore, the
+proposed method (Section 9.4.1 and 9.5.2) to identify relevant context parameters is
+feasible and useful.
+
+Fig. 9.1. The recommendation performances of the proposed CaCF methods changed
+when using different sets of context parameters (when predicting for the last 5 POIs of every
+trajectory).
+
+Using Context-Aware Collaborative Filtering for POI Recommendations
+
+143
+
+In the meanwhile, It is also important to note that incorporating more context
+parameters into the CF process did not mean an improvement of performance. This
+can be explained by the increasing difficulty of developing an accurate context
+similarity measure when using more context parameters, and the increasing demand
+of data.
+Contextual modelling vs. contextual pre-filtering when using different sets of
+context parameters: For most different sets of context parameters, the performance
+of SBA_CM_CaCF was at least as good as the performance of SBA_CP_CaCF.
+The two-tailed t-test showed that the difference between performance of SBA_
+CM_CaCF and that of SBA_CP_CaCF was statistically significant (p=2.08E-15 <<
+0.01). An explanation for this would be: The latter suffered from the problems of
+sparsity as lots of trajectories were filtered out, while in contextual modelling, more
+users (trajectories) were involved in making recommendations.
+9.5.4.2 Making Recommendations for Different Places of a Visit
+Figure 9.2 shows the results of how the recommendation performances of the CaCF
+methods changed when making recommendations for different places of a visit (i.e.
+from the 1st last to the 5th last). The proposed set of context parameters (“<age,
+weather>”) was employed.
+non-contextual CF vs. context-aware CF: when making recommendations for
+different places of a visit, the performances of CaCF methods (i.e. SBA_CP_CaCF,
+and SBA_CM_CaCF) were considerably better than the performances of noncontextual CF method (i.e. nonCa_CF). This is consistent with what we expected:
+as CaCF methods were aware of the context (suitation) the user was in, they might
+generate more appropriate recommendations.
+
+Fig. 9.2. The recommendation performances of the proposed CaCF methods changed
+when making recommendation for different places of a visit (using “<age, weather>” as
+relevant context parameters).
+
+144
+
+Haosheng Huang and Georg Gartner
+
+Making recommendations at different places of a visit: Different places (positions) reflect the different amount of information available about a visitor. Figure
+9.2 shows an upwards trend for the accuracy of all CaCF methods and the nonCa_
+CF when the positions of the predicted POI increased. This is consistent with our
+expectation: with the increase of the positions of the predicted POI, more information about a visitor was available for the recommendation methods, and therefore
+the recommendation performances were improving.
+Contextual modelling vs. contextual pre-filtering when making recommendations for different places of a visit: When making recommendations for different
+places of a visit, the performance of contextual modelling approach (i.e. SBA_CM_
+CaCF) was at least as good as the performance of contextual pre-filtering approach
+(i.e. SBA_CP_CaCF). Similarly, this might be explained by the sparsity problem as
+lots of trajectories were filtered out in the contextual pre-filtering approach.
+
+9.5.5 Summary
+In summary, the main findings of the experiments are as follows:
+1) When including context information in the CF process, choosing a suitable set of
+relevant context parameters is very important and may affect the recommendation performance.
+2) The proposed method to identify relevant context parameters is feasible and
+useful, and using the proposed “<age, weather>” can achieve a higher recommendation accuracy for all the designed CaCF methods.
+3) The recommendation performance of contextual modelling approach is at least
+as good as the performance of contextual pre-filtering approach.
+4) Most importantly, the proposed CaCF methods can provide better recommendation performance than non-contextual CF, which means including context
+information in a CF for mobile guides can improve the recommendation
+performance.
+
+Using Context-Aware Collaborative Filtering for POI Recommendations
+
+145
+
+9.6 Conclusions and Future Work
+Currently, providing context-aware services/information is still very challenging in
+mobile guides. In this paper, methods of introducing CaCF into mobile guides were
+proposed. To be more specific, CaCF methods were applied on the highly available
+GPS trajectories to enhance visitors with context-aware POI recommendations in
+mobile guides.
+The main contributions are as follows:
+1) Key issues of incorporating CaCF into LBS applications (e.g. mobile guides)
+were identified.
+2) A two-stage method was designed to identify relevant context parameters for
+CaCF.
+3) A statistic-based approach (SBA) was proposed to measure context similarity.
+4) In considering two different ways (i.e. contextual pre-filtering, and contextual modelling) of incorporating context information into the CF process, two
+CaCF methods were designed for LBS applications: SBA_CP_CaCF, and
+SBA_CM_CaCF.
+5) Experimental studies were designed to evaluate the proposed methods. The
+results of the experiments show that the proposed CaCF methods are feasible
+and useful for providing context-aware recommendations in mobile guides.
+From the experiments, following conclusion can be drawn: including context information in the CF process can provide more appropriate recommendations to users.
+Our next step is to collect more trajectory data in both outdoor and indoor to
+evaluate the methods. We propose that with more trajectories available, the recommendation performances of CaCF methods will be improved and will have a significant difference with that of non-contextual CF methods. We are also interested in
+exploring more complex CaCF methods in considering different types of context
+information.
+
+Acknowledgement
+Haosheng Huang is a recipient of the Austrian Marshall Plan Scholarship. Special
+thanks to Prof. Martin Raubal at the ETH Zurich for his supervision on Huang and
+his useful comments to the draft of the paper. We also gratefully acknowledge the
+contributions of students from the LBS class (VU 126.099, SS2010) for collecting
+the data in Vienna Zoo.
+
+146
+
+Haosheng Huang and Georg Gartner
+
+References
+Adomavicius G, Sankaranarayanan R, Sen S, Tuzhilin A (2005) Incorporating contextual information in recommender systems using a multidimensional approach. ACM
+Transactions on Information Systems, 23 (1): 103–145.
+Adomavicius G, Tuzhilin A (2010): Context-aware recommender systems. In: Ricci F, Rokach
+L, Shapira B, Kantor P (Eds), Recommender Systems Handbook. Springer, 217–253.
+Alvares L, Bogorny V, Kuijpers B, Macedo J, Moelans B, Vaisman A (2007) A Model for
+Enriching Trajectories with Semantic Geographical Information. In Proc. of ACM-GIS
+2007.
+Baus J, Kray C, Krüger A (2001) Visualization of route descriptions in a resource-adaptive
+navigation aid. Cognitive Processing, 2 (2–3):323–345.
+Bohnert F, Zukerman I, Berkovsky S, Baldwin T, Sonenberg L (2008) Using collaborative
+models to adaptively predict visitor locations in museums. In Proc. of the Fifth Intl. Conf.
+on Adaptive Hypermedia and Adaptive Web-Based Systems (AH-08).
+Cheverst K, Davies N, Mitchell K, Friday A, Efstratiou C (2000) Developing a context-aware
+electronic tour guide: Some issues and experiences. In Proc. of the Conference on Human
+Factors in Computing Systems (CHI 2000), 17–24.
+de Spindler A, Norrie M, Grossniklaus M, Signer B (2006) Spatio-temporal proximity
+as a basis for collaborative filtering in mobile environments. In Proc. of UMICS’06,
+Luxemburg, June 5–9, 2006.
+Dourish P (2004) What we talk about when we talk about context. Personal and Ubiquitous
+Computing, 8(1): 19–30.
+Giannotti F, Nanni M, Pedreschi D, Pinelli F (2007) Trajectory pattern mining. In Proc. of
+KDD’07, ACM Press, 330–339.
+Horozov T, Narasimhan N, Vasudevan V (2006) Using location for personalized POI
+recommendations in mobile environments. In Proc. of the International Symposium on
+Applications on Internet 2006, 124–129.
+Huang H, Gartner G (2009) Using Activity Theory to Identify Relevant Context Parameters.
+In Gartner G, Rehrl K (Eds) Location Based Services and TeleCartography II – From
+Sensor Fusion to Context Models, Springer Verlag Berlin Heidelberg.
+Li Q, Zheng Y, Xie X, Chen Y, Liu W, Ma W (2008) Mining user similarity based on location
+history. In Proc. of GIS’08 (Santa Ana, CA, Nov.2008). ACM Press, 298–307
+Li L, Lee F, Chen Y, Cheng C (2009) A multi-stage collaborative filtering approach for mobile
+recommendation. In Proc. of the 3rd International Conference on Ubiquitous Information
+Management and Communication, January 15–16, 2009, Suwon, Korea.
+Kray C (2003) Situated interaction on spatial topics. PhD thesis, Saarland University,
+Germany.
+Panniello U, Gorgoglione M, Palmisano C (2009) Comparing pre-filtering and postfiltering approach in a collaborative contextual recommender system: An application to
+E-Commerce. In Noia T, Buccafurri F (Eds), Proc. of EC-Web 2009, Springer LNCS
+5692, 348–359.
+Raper J, Gartner G, Karimi H, Rizos C (2007) Applications of location-based services: a
+selected review. Journal of Location Based Services, 1(2): 89–111.
+Resnick P, Varian H (1997) Recommender systems. Communications of the ACM,
+40(3):50–58.
+
+Using Context-Aware Collaborative Filtering for POI Recommendations
+
+147
+
+Schmidt A, Beigl M, Gellersen H (1999) There is more to context than location. Computers
+and Graphics, 23(6): 893–901.
+Shepard R (1987) Toward a universal law of generalization for psychological science.
+Science, 237:1317–1323.
+Takeuchi Y, Sugimoto M (2006) CityVoyager: An outdoor recommendation system based
+on user location history. In: Ma J. et al. (Eds), UIC 2006. Springer Berlin/Heidelberg,
+625–636.
+van Setten M, Pokraev S, Koolwaaij J (2004) Context-aware recommendations in the mobile
+visitor application COMPASS. In Nejdl W, de Bra P (Eds), Proc. of AH 2004, Springer
+LNCS 3137.
+Wexelblat A (1999) Footprints: Interaction history for digital objects. PhD thesis, MIT
+Program in Media Arts & Sciences.
+Wiesenhofer S, Feiertag H, Ray M, Paletta L, Luley P, Alexander A, Mathias S, Josef R,
+Beyer P (2007) Mobile city explorer: An innovative GPS and camera phone based travel
+assistant for city visitors. In Location Based Services and TeleCartography, Springer,
+557–573.
+Winograd T (2001) Architectures for context. Human-Computer Interaction, 16(2/4):
+401–419.
+Zheng Y, Chen Y, Xie X, Ma W (2009a) GeoLife2.0: A Location-Based Social Networking
+Service. In Proc. of the 2009 Tenth International Conference on Mobile Data Management:
+Systems, Services and Middleware, p.357–358, May 18–20, 2009
+Zheng Y, Zhang L, Xie X, Ma W (2009b) Mining interesting locations and travel sequences
+from GPS trajectories. In Proc. of WWW 2009.
+
+

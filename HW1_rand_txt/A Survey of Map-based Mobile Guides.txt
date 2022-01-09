@@ -1,0 +1,76 @@
+13 A Survey of Map-based Mobile Guides
+Jörg BAUS¹, Keith CHEVERST², Christian KRAY²
+1Department
+2
+
+of Computer Science, Saarland University
+Computing Department, Lancaster University
+
+Abstract. In this chapter, we present an overview of mobile guides that rely
+on maps or map-like representations in providing their services. We discuss
+technical issues as well as problems related to human factors that mobile
+guides have to cope with in order to assist their respective users. The main
+part of the chapters describes a number of relevant systems in the field of
+mobile guides, ranging from influential work such as Cyberguide to systems that offer unique services such as TellMaris. The comparison is based
+on the issues we identified initially. We conclude with an outlook on future
+directions such as collaborative usage, new means of interaction and further
+personalisation of mobile services.
+
+13.1 Introduction
+Mobile guides and navigational assistants have come a long way since the first research prototypes (e.g. (Abowd et. al. 1996)). For the time being, there are not
+only many different research projects working on the topic (some of which we
+will present in this chapter), but also several commercial services available to mobile phone users and car drivers (e.g. (Garmin 2003)). Recent developments such
+as the emergence of ubiquitous computing (Weiser 1991) and the evolution of
+portable computing devices (such as Portable Digital Assistant (PDAs) and laptop
+computers), wireless communication (such as wireless LAN or the General Packet
+Radio Service (GPRS)) and localisation means (such as the Global Positioning
+System (GPS)) have further increased the pace of progress. The arrival of the new
+generation of mobile phones that provide a higher bandwidth and allow for a more
+precise localisation will most likely have a similar effect.
+Therefore, there is a need for a survey of systems providing mobile guidance.
+Instead of traversing the large number of available systems, we selected systems
+that either offer unique features (such as resource adaptation) or have influenced
+the development of later systems. All systems reviewed in this chapter share one
+common point: they rely to some degree on maps to provide certain services.
+Maps are used by these systems to represent, for example, the absolute and relative location of objects of interest, their features and spatial relations. For most of
+the systems reviewed, maps constitute a major part of the interface, and they are
+also highly relevant in human cognition (e.g. for conveying survey knowledge or
+wayfinding (Golledge 1999)). Since the benefits, drawbacks and potential applica-
+
+194
+
+Jörg BAUS, Keith CHEVERST, Christian KRAY
+
+tions of maps in a mobile context are discussed in depth elsewhere in this book,
+we will focus on analysing the capabilities of existing mobile guides.
+However, before we compare the different systems, it is important to introduce
+the notion of context-awareness we will use throughout this chapter. Various definitions for this term exist, but for the purposes of this chapter we adopt the definition provided by Dey (Dey 1998):
+“Any information that can be used to characterize the situation of entities (i.e.,
+whether a person, place, or object) that are considered relevant to the interaction between a user and an application, including the user and the application
+themselves. Context is typically the location, identity, and state of people,
+groups, and computational and physical objects.”
+Exploring the issues (both human factors and engineering challenges) surrounding context-aware systems was a key motivation behind many of the early mobile
+guide systems including both Cyberguide (Abowd et. al. 1996) and Guide
+(Cheverst et. al. 2000). As one might expect, the most important aspect of context
+to be utilised by mobile guides is that of location. Obviously, such mobile guidance systems belong to a class of systems commonly referred to as location-based
+services (LBS).
+Mobile guidance systems provide their users with location-based services such
+as navigational assistance where and when they need them most. However, this
+convenience does come at a cost: A system aimed at supporting the user in situ requires some compromises compared to a stationary system, such as a traditional
+desktop computer. Firstly, the technical resources (such as bandwidth, storage capacity, display size, and computational power) available in a mobile scenario are
+severely restricted – a situation that is not likely to change in the short to medium
+term. In addition to technical resources, the user’s cognitive resources are also
+likely to be under strain in a mobile scenario, e.g. when the user is performing a
+secondary task.
+Furthermore, situational factors gain importance compared to a stationary
+setup, where the situation is more or less static (i. e. the user sitting in front of
+their computer). The affordances of the environment, for example, strongly influence the way, in which the user interacts with a device: if they are driving a fast
+car, navigational instructions should differ from those given to a slow-walking pedestrian. Additionally, the user's abilities and properties can have a strong impact
+not only on the way the system best interacts with the user but also on what services a user requests. For example, a deaf user has little interest in acoustic directions, and a user that is fairly familiar with an area most likely does not appreciate
+elaborate explanations about known sites.
+A key factor for determining the current situation is the position of the user.
+Unfortunately, there is no technology that can measure the current position precisely at all times. For example, electromagnetic devices such as electronic compasses or accelerometers suffer from interference by electromagnetic fields, the
+popular Global Position System (GPS) does not work properly inside buildings or
+in narrow alleys (due to occlusion and reflections off the wall) and light-based
+
+

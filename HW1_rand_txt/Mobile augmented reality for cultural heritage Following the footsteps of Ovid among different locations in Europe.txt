@@ -1,0 +1,2783 @@
+sustainability
+Article
+
+Mobile Augmented Reality for Cultural Heritage:
+Following the Footsteps of Ovid among Different
+Locations in Europe
+Răzvan Gabriel Boboc 1, *, Mihai Duguleană 1 , Gheorghe-Daniel Voinea 1 ,
+Cristian-Cezar Postelnicu 1 , Dorin-Mircea Popovici 2 and Marcello Carrozzino 3
+1
+
+2
+3
+
+*
+
+Department of Automotive and Transport Engineering, Transilvania University of Brasov,
+RO-500036 Brasov, Romania; mihai.duguleana@unitbv.ro (M.D.); daniel.voinea@unitbv.ro (G.D.V.);
+cristian-cezar.postelnicu@unitbv.ro (C.-C.P.)
+Department of Mathematics and Computer Science, Ovidius University of Constanta,
+8700 Constanta, Romania; dmpopovici@univ-ovidius.ro
+Scuola Superiore Sant’Anna, 56127 Pisa, Italy; carrozzino@sssup.it
+Correspondence: razvan.boboc@unitbv.ro; Tel.: +40-745-987-710
+
+Received: 31 January 2019; Accepted: 18 February 2019; Published: 22 February 2019
+
+
+
+
+Abstract: There are many examples of cultural events that distinguish people nationally. Celebrating
+this can bring people closer, as inhabitants of different countries share similar cultural values.
+This study investigates a sustainable way to enhance these types of events. On the occasion of
+the 2000-year anniversary of the death of the Roman poet Ovid, we propose a mobile augmented
+reality (MAR) application that contains historical information related to his life. As Ovid often stated
+in his last poems, he feared his work would be forgotten after his exile from Rome. This paper
+focuses on assessing whether this is the case, while also disseminating factual, historic data to
+people who tested the application. Experiments were conducted in Italy and Romania, in three
+different cities: Sulmona, Rome, and Constanta. Based on the results collected, four constructs were
+investigated: comprehensibility, manipulability, enjoyment, and usefulness. The results revealed
+that the usability of the MAR application, and the interaction metaphor, are appropriate for the
+general public. The MAR application provided a positive experience, and thus, increased the extent
+of the occasion.
+Keywords: augmented reality; mobile phones; cultural heritage; evaluation
+
+1. Introduction
+The development of technology during the last decades has allowed the implementation of
+new ways of interacting between people and computers. The progress of digital information has
+also significantly affected the evolution of cultural heritage (CH) dissemination [1], offering new
+possibilities for developing, e.g., the market of tourist services [2]. Whether it is a mobile application,
+an online catalog, or a social media exchange, these new paradigms are affecting all aspects of our
+lives, reshaping the way we communicate, learn, and approach the world around us [3]. One of
+these technologies that offers new ways of interacting is augmented reality (AR). This technology
+has a tremendous potential for the promotion and preservation of CH. People are starting to be
+receptive—they want social and collaborative experiences that combine learning with having fun.
+CH organizations have to address their needs by creating innovative applications [4], and AR and
+mixed reality can make this happen. Computers have become more accessible and cheap enough
+for widespread applications in various fields [5]. CH can take advantage of this development by
+
+Sustainability 2019, 11, 1167; doi:10.3390/su11041167
+
+www.mdpi.com/journal/sustainability
+
+Sustainability 2019, 11, 1167
+
+2 of 20
+
+bringing cultural vestiges to light with the help of systems that can integrate computer-generated
+digital information with the physical world.
+AR technology gives a different perception of reality, as it enriches reality with a
+computer-generated
+containing
+object
+Sustainability 2019, 11, xlayer
+FOR PEER
+REVIEW visual, audio, and tactile information. In this way, 2any
+of 22
+can be recreated and used as content for AR applications. Using a ‘virtual’ representation of a classic
+gives
+a different itperception
+of reality,dynamic
+as it enriches
+realityand
+withit aallows
+computermuseum AR
+itemtechnology
+has several
+advantages:
+may incorporate
+elements,
+access to
+generated layer containing visual, audio, and tactile information. In this way, any object can be
+aspects of the artifact that may otherwise be hidden [6]. However, in order to build a complete and
+recreated and used as content for AR applications. Using a ‘virtual’ representation of a classic
+complex cultural representation via digital heritage technologies, developers must also understand
+museum item has several advantages: it may incorporate dynamic elements, and it allows access to
+how users
+with the
+system
+or interface
+[5]. When
+designinginAR
+applications,
+it is important
+to
+aspectsinteract
+of the artifact
+that
+may otherwise
+be hidden
+[6]. However,
+order
+to build a complete
+and
+choose
+the
+best
+combination
+of
+techniques
+for
+presenting
+the
+appropriate
+electronic
+information
+to
+the
+complex cultural representation via digital heritage technologies, developers must also understand
+users.how
+Theusers
+content
+must
+meet
+interests
+and[5].
+needs
+in order
+to be
+[7]. Thus,
+the usability
+interact
+with
+the their
+system
+or interface
+When
+designing
+ARaccepted
+applications,
+it is important
+to choose
+the best
+combination
+of prime
+techniques
+for presenting
+theisappropriate
+information
+to are
+evaluation
+of AR
+applications
+is of
+concern.
+Since AR
+a relativelyelectronic
+new technology,
+there
+the users.
+content
+meet their
+interests
+and needs
+in order to be their
+accepted
+[7]. Thus, the
+few papers
+thatThe
+address
+themust
+evaluation
+of AR
+interfaces,
+and furthermore,
+sustainability
+in cases
+evaluation
+of AR
+applications
+is ofthis
+prime
+concern.
+is a relatively
+newapplication
+technology, with
+such usability
+as the one
+presented
+in this
+paper. For
+reason,
+weSince
+haveAR
+developed
+an AR
+there are few papers that address the evaluation of AR interfaces, and furthermore, their
+the aim of investigating its usability, taking into account perceptual and ergonomic aspects.
+sustainability in cases such as the one presented in this paper. For this reason, we have developed an
+The 2000th anniversary of the death of the Roman poet Publius Ovidius Naso, known as Ovid,
+AR application with the aim of investigating its usability, taking into account perceptual and
+was in
+2017. This poet was “one of the most brilliant personalities of the Augustan Age”, as described
+ergonomic aspects.
+in [8]. Ovid
+born
+in 43 BC,
+in the
+town
+ofRoman
+Sulmopoet
+(today:
+Sulmona),
+located
+in the
+middle of
+The was
+2000th
+anniversary
+of the
+death
+of the
+Publius
+Ovidius Naso,
+known
+as Ovid,
+Italy,was
+approximately
+140 was
+km from
+Rome.
+Hebrilliant
+lived in
+Rome after
+studies, becoming
+famous and
+in 2017. This poet
+“one of
+the most
+personalities
+of his
+the Augustan
+Age”, as described
+appreciated
+for was
+his work.
+masterpiece,
+the (today:
+“Metamorphoses”,
+he was
+exiled
+in of
+8 AD
+in [8]. Ovid
+born inAfter
+43 BC,his
+in the
+town of Sulmo
+Sulmona), located
+in the
+middle
+Italy,to the
+approximately
+140
+km
+from
+Rome.
+He
+lived
+in
+Rome
+after
+his
+studies,
+becoming
+famous
+and edge
+isolated town of Tomis (today: Constanta, Romania), on the shore of the Black Sea at the outer
+appreciated
+for
+his
+work.
+After
+his
+masterpiece,
+the
+“Metamorphoses”,
+he
+was
+exiled
+in
+8
+AD
+to
+the
+of the Roman Empire. He was abruptly removed from the stimulating artistic and social community,
+isolated
+town
+of
+Tomis
+(today:
+Constanta,
+Romania),
+on
+the
+shore
+of
+the
+Black
+Sea
+at
+the
+outer
+edge
+which had nourished his extraordinarily successful poetic career, for reasons which were lost in the
+of the Roman Empire. He was abruptly removed from the stimulating artistic and social community,
+millennia.
+He died in Tomis 9 years later, still hoping for a pardon, which never came [9].
+which had nourished his extraordinarily successful poetic career, for reasons which were lost in the
+In line with the linguistic community, this anniversary highlights a good opportunity to give
+millennia. He died in Tomis 9 years later, still hoping for a pardon, which never came [9].
+people a In
+variety
+of ways to remember this great personality, whose vast influence and popularity
+line with the linguistic community, this anniversary highlights a good opportunity to give
+continues
+this day
+[10]. toThis
+heritage
+not be lost,
+yet vast
+keeping
+it isand
+notpopularity
+an easy task.
+peopletoa variety
+of ways
+remember
+thisshould
+great personality,
+whose
+influence
+The methodology
+of
+this
+study
+is
+based
+on
+bringing
+to
+life
+some
+creative
+moments
+fromThe
+Ovid’s
+continues to this day [10]. This heritage should not be lost, yet keeping it is not an easy task.
+existence.
+We have
+chosen
+three
+significant
+thecreative
+poet: moments
+Sulmona,
+Rome,
+and
+Constanta.
+methodology
+of this
+study is
+based
+on bringingcities
+to lifefor
+some
+from
+Ovid’s
+existence.
+We have
+three significant
+for the
+poet: devices,
+Sulmona, we’ve
+Rome, and
+Constanta.
+By means ofthat
+AR was
+By means
+of chosen
+AR technologies
+andcities
+using
+mobile
+created
+an application
+technologies
+and using
+mobile devices, we’ve created an application that was presented to the
+presented
+to the general
+public.
+general
+In
+this public.
+regard, the application tested had appropriate content for each location: Sulmona,
+In this regard, the application tested had appropriate content for each location: Sulmona, where
+where Ovid
+was born; Rome, where he has lived most of his life; and Tomis, where he died (Figure 1).
+Ovid was born; Rome, where he has lived most of his life; and Tomis, where he died (Figure 1). Each
+Each version of the application recreates some aspects of his life, presenting his 3D animated model in
+version of the application recreates some aspects of his life, presenting his 3D animated model in the
+the three
+stages of his life: as a child, as a famous public person, and as an exiled person in decline,
+three stages of his life: as a child, as a famous public person, and as an exiled person in decline, but
+but still
+artistically
+creative.
+still artistically creative.
+
+Figure
+1. Three
+cities
+significant
+Ovid’slife,
+life, where
+where the
+was
+tested
+by the
+general
+public.
+Figure
+1. Three
+cities
+significant
+ininOvid’s
+theapplication
+application
+was
+tested
+by the
+general
+public.
+
+Sustainability 2019, 11, 1167
+
+3 of 20
+
+AR and virtual reality (VR) are technologies that allow us to bring to life lost historical periods
+of time, while protecting the real artifacts for generations to come. From this point of view, the main
+objective of this research was to introduce mobile augmented reality (MAR) as a means to present CH,
+and to sustainably reuse digital content for general public dissemination.
+We proposed the corresponding research objectives: to model and design an attractive application
+that could be used by tourists and local citizens to learn more about the life of Ovid. To recreate the
+historical context of that time by using graphical representations enhanced with audio content. Finally,
+to evaluate the effectiveness of that application.
+This article is structured as follows: Section 2 describes related work and sets the context of this
+paper. Section 3 describes the application and the experiment setup. Section 4 presents the evaluation
+results. In Section 5, the findings are summarized and, finally, Section 6 reports conclusions and
+future work.
+2. Related Work
+Preserving cultural heritage provides the reasoning to investigate the opportunities offered by
+digital technology. There is a vast body of work within the field of AR in CH contexts, especially for
+education, learning, and improving tourist experience [11–17].
+From a historical perspective, AR was developed from VR, with the specificity that allows the
+visualization of both real and virtual objects at the same time. The first VR system is considered to
+be Sensorama machine, developed in the late 1950s [18], while the history of AR started in 1968 with
+the head-mounted display system developed by Ivan Sutherland. The term “augmented reality” was
+coined only in 1990 by Tom Caudell and David Mizell [19]. With the development of technology
+over time, the concept has evolved and the advancements in handheld computers have opened
+new opportunities for AR [1]. The first handheld mobile phone was presented by Motorola in 1973,
+and the first personal digital assistant (PDA) appeared on the market in the early 90s. Only a few
+years later, Bruce H. Thomas developed ARQuake, the first outdoor mobile AR game on PDA [20].
+The mobility offered by handheld devices, and the increased progress in terms of software, led to the
+spread of AR applications as well as the development of new interfaces and new technologies. In 2014,
+Google announced Project Tango, an Android solution for AR that combines three core technologies:
+depth perception, motion tracking, and area learning [21].
+Since then, stand-alone AR has gradually become more common as computing power on PDAs
+and smartphones has increased. AR applications implemented on mobile devices were named mobile
+AR, or handheld mobile AR (HMAR). Such a system is, in its basic form, a mobile device with a display
+to show an augmentation using the appropriate software [22], with the following characteristics [23]:
+
+•
+•
+•
+
+it combines real and virtual objects in a real environment;
+it is interactive, works in real time;
+it registers and aligns real and virtual objects with each other.
+
+There are 2 key issues that need to be considered when developing MAR applications: the accuracy
+of user tracking and the registration of 3D models with real-world features [24]. The tracking, or the
+estimation of camera position, can be realized in two ways:
+
+•
+•
+
+marker-based tracking, which requires labels with a colored or black and white pattern;
+marker-less tracking, which uses the mobile device’s GPS or image recognition systems to identify
+a location [25].
+
+In the case of a CH application, placing markers in the scene is not practical; thus, marker-less
+methods are required for extracting features from the environment. These features are used for correct
+alignment of virtual information with real information, a process known as registration. There are two
+methods of registration:
+
+Sustainability 2019, 11, 1167
+
+•
+•
+
+4 of 20
+
+without prior knowledge—the registration is realized ‘on-line’, without any prior
+scene knowledge;
+with prior knowledge—predefined patterns are taken into account from the environment in order
+to identify a match. An overview on the history of tracking for MAR is given in [26].
+
+The surveys on MAR work performed in different application domains [27], or strictly related to
+the touristic context [28], highlight some determinants and issues that have impact on the utilization
+of this type of application [15]. Although MAR applications were first designed and tested in indoor
+environments, the advantage of portability provided by mobile devices facilitated their expansion
+to the outdoors. This allowed visualization of 3D models of heritage sites to be superimposed over
+the video stream from the outside environment [29], visualizing virtual points of interest (POIs)
+overlaid on top of the phone’s camera view [30], or textual annotation of outdoor locations based
+on GPS measurements [31]. Reference [32] proposed an application for outdoor site exploration
+throughout different periods of time, enriching travel experiences with important historic facts. In other
+research papers, the authors have used MAR applications “in situ” so that the visitors were able to
+explore and visualize building details in an intuitive way [33], to educate students visiting an outdoor
+archaeological site in a game-like approach—“Oracle of Delphi app” [34], or for huge reconstructed
+models of heritage monuments (e.g., Roman Theatre of Byblos) [35]. A novel paradigm is proposed
+in [36] based on presenting user artwork, in terms of 3D models, videos, and photos, in virtual kiosks
+augmented on the camera view of a handheld device.
+AR has been introduced in the CH sector over the last decade primarily as a useful technology
+for assisting visitors inside museums or in heritage sites [37–39]. It allows visitors to explore and
+appreciate the objects showcased by overcoming barriers in time, space, and language [40]. It also
+improves the learning experience in CH with the aid of better user interaction methods [24,41].
+For instance, in [42] the information is organized in finite triplets (visual representation, context,
+and corresponding audiovisual content) in order to be presented in a personalized, interactive manner
+on users’ personal mobile devices. Using AR techniques, geomatic resources were also developed,
+allowing the valorization of the geological heritage [43]. MAR applications can provide real-time
+information based on the user’s preferences and context [44], and can also generate revenue or
+economic returns [45]. A thorough review of AR applications for CH is provided in [46].
+Moreover, AR technologies have proven their importance in the virtual reconstruction of
+historical monuments, having the potential to provide a new approach to the past by reproducing
+on-site historical experiences [13]. In the last decade, many objects, monuments, or historical sites
+were reconstructed into digital formats. The significance of reconstruction is to preserve, protect,
+and interpret culture and history [4], and to bring to life elements from the past [47,48]. According
+to [49], every two years the digital heritage is doubling in size and is expected to grow tenfold
+between 2013 and 2020. While digital heritage is primarily concerned with preservation of CH, virtual
+heritage (VH) involves the synthesis, conservation, reproduction, representation, digital reprocessing,
+and display [50] of monuments, artifacts, buildings, and culture, aiming to be more open to global
+audiences [11]. CH does not end with objects and collections. It also includes information such as
+traditions, performing arts, social practices, rituals, festive events, activities related to nature and the
+universe, or skills to produce traditional crafts [51]. According to UNESCO this is the intangible CH,
+and in order to be celebrated and contemplated more easily, requires the creation of specific conditions
+to ensure its viability when it is materialized in the form of a media resource [2].
+However, the development of applications that targets reactivation of CH in local citizens remains
+a challenge [52]. In this sense, it is of the utmost importance to take into account the process of
+evaluation of digital cultural resources. Digital resources are a combination of cultural resources that
+are created using computer and multimedia technologies. They can be accessed and used in digital
+form [53].
+Given their diversity, evaluation is not a simple process. In this paper we focus only on the
+evaluation of MAR applications. These should be carefully designed and improved based on user
+
+Sustainability 2019, 11, 1167
+
+5 of 20
+
+feedback [54]. An important component, which is studied in several papers, is the usability of the
+application. Relying on five usability principles developed in [55], and on a compilation of heuristic
+evaluation checklists for mobile interfaces proposed in [56], an MAR application was evaluated in [57]
+in terms of usability and user expectations. Usability was evaluated in [58] using four different
+methods. In [52] a methodological framework was proposed, which allowed developers to categorize
+the type of CH application and to determine which resources should be used. Santos designed a
+questionnaire for usability evaluation (HARUS), which was composed of two sub-questionnaires,
+namely the comprehensibility scale and the manipulability scale [59].
+Tourist requirements for the development of mobile AR applications were investigated
+in [60], concluding that tourists are increasingly expecting methods to access information instantly.
+Other components of experience with AR applications in public were examined in [61], including
+designing interface features, augmentation features, and so on. Good results after an evaluation of user
+experience in a mobile AR tourist guide, in terms of ease-of-use and intuitiveness, were obtained in [62].
+Users’ perceptions and experiences were measured by applying a modified technology acceptance
+model (TAM) in [63]. Immersion, seen as a form of cognitive and emotional absorption in AR settings,
+was studied in [64].
+In conclusion, there are various studies regarding augmented reality applications in the CH
+area. Most of them show that the use of new technologies creates innovative and attractive options
+that increases the users’ interest in learning more about CH. However, there are just a few that try
+to target people from more than one country. Project Tango represents a high-end technology that
+provides stable and reliable motion tracking. Based on this technology, we’ve developed an application
+and assessed its adoption using a questionnaire adapted from [54] and [65], which characterizes
+the following four subjective parameters: perceived comprehensibility, perceived manipulability,
+perceived enjoyment, and perceived usefulness. To the best of our knowledge, this is one of the most
+extensive user studies in AR conducted in outdoor environments.
+3. Materials and Methods
+3.1. Mobile Augmented Reality (MAR) Setup
+The AR application presented in this paper was developed with the aim of bringing to life specific
+moments from Ovid’s life. It was designed for the Lenovo Phab 2 Pro phablet (which incorporates
+the Google Tango technology). At the time of the research, this was the only Tango-enabled device
+available on the market. Phab 2 Pro used a Qualcomm Snapdragon 652 processor, 4 GB of RAM,
+and 64 GB storage. It used specialized Tango-related sensors—a fisheye camera that can handle the
+motion tracking, and an infrared depth sensor that used the “time-of-flight” principle to corroborate
+data with the video stream outputted by the camera [66]. Google Tango incorporates three core
+components:
+1.
+
+2.
+
+3.
+
+Motion tracking—Tango implements visual–inertial odometry that is used to estimate the
+trajectory of the device (i.e., its position in the scene relative to the starting point). The inertial
+sensors of the mobile device are used to provide data regarding the acceleration and rotation of
+the device.
+Area learning—This allows the ability to see and remember certain visual features of a physical
+space (edges, corners, unique features). Thus, the device is able to “recognize” the area.
+The motion tracking alone can be affected by “drift”, which is caused by the integration of
+inertial data. Area learning improves the accuracy of the trajectory (through a process called
+“drift correction”) and allows a Tango device to perform “localization” (orient and position itself
+when it recognizes a previously learned area).
+Depth perception—Tango-enabled devices can understand what is the distance to any object in
+the real world. A common use is to obtain point clouds of scanned objects in real time.
+
+Sustainability 2019, 11, 1167
+
+6 of 20
+
+The AR application that was developed by our team was called OvidAR and used motion tracking
+and
+area
+learning.
+required
+a map in order to start the 3D scene. The workflow for using a6 Google
+Sustainability
+2019, 11,It
+x FOR
+PEER REVIEW
+of 22
+Tango-enabled device is presented in Figure 2. The area learning application was a demo provided by
+provided
+byand
+Tango
+only benew
+used
+to descriptions.
+create new area
+The OvidAR
+Tango
+Project
+can Project
+only beand
+usedcan
+to create
+area
+Thedescriptions.
+OvidAR application
+started
+started
+scene if there
+was amap
+previously
+map the
+andkey
+if it visual
+detected
+the keythat
+visual
+theapplication
+3D scene if
+there the
+was3D
+a previously
+saved
+and if itsaved
+detected
+features
+were
+features
+that
+were
+saved
+in
+the
+area’s
+description
+file.
+saved in the area’s description file.
+
+Figure 2. Proposed augmented reality workflow using Project Tango.
+Figure 2. Proposed augmented reality workflow using Project Tango.
+
+Real-time tracking and localization ensures that the user is immersed in the scene. Various
+Real-time tracking and localization ensures that the user is immersed in the scene. Various
+animations of the 3D versions of Ovid created a feeling of interaction. Another key element that
+animations of the 3D versions of Ovid created a feeling of interaction. Another key element that
+enhances
+the reverberation
+reverberationzones
+zonesthat
+thatdistort
+distort
+audio
+enhancesthe
+theexperience
+experience isis the
+the sound,
+sound, specifically
+specifically the
+thethe
+audio
+depending
+on
+the
+location
+of
+the
+audio
+listener
+in
+the
+reverb
+zone.
+depending on the location of the audio listener in the reverb zone.
+The
+developed
+on Tango-compatible
+Tango-compatibledevices.
+devices.There
+There
+were
+some
+devices
+The
+developedapplication
+applicationcan
+can run
+run only
+only on
+were
+some
+devices
+that
+supported
+Google
+Tango,
+like like
+AsusAsus
+Zenfone
+AR, but
+project
+closed.is Google
+that
+supported
+Google
+Tango,
+Zenfone
+AR,now
+butthe
+now
+the is
+project
+closed.introduced
+Google
+a new
+AR
+platform,
+known
+as
+ARCore.
+Users
+can
+still
+develop
+AR
+application
+using
+Tango
+technology,
+introduced a new AR platform, known as ARCore. Users can still develop AR application using
+but
+theretechnology,
+are no other
+releases
+or no
+provided
+support.
+Tango
+but
+there are
+other releases
+or provided support.
+3.2.
+3D3D
+Reconstruction
+3.2.
+Reconstructionand
+andApplication
+Application Development
+Development
+A Apreliminary
+the work
+workwas
+wasthe
+the
+design
+of the
+objects
+served
+as content
+preliminarystage
+stage of the
+design
+of the
+3D 3D
+objects
+that that
+served
+as content
+for thefor
+theMAR
+MARapplication.
+application.
+purpose,
+used
+historical
+references
+reconstruction
+ForFor
+thisthis
+purpose,
+wewe
+used
+historical
+references
+forfor
+thethe
+reconstruction
+of of
+archaeologicalartifacts
+artifactsdiscovered
+discovered in
+in Dobrogea,
+Dobrogea, aa historical
+inin
+the
+southeast
+part
+of of
+archaeological
+historicalregion
+regionsituated
+situated
+the
+southeast
+part
+Romania,
+enhancedwith
+withanimated
+animatedelements.
+elements. The ruins
+in in
+anan
+archeological
+Romania,
+enhanced
+ruinsof
+ofaaRoman
+Romanhouse
+housesituated
+situated
+archeological
+site
+thecenter
+centerofofConstanta,
+Constanta, known
+known as Tomis
+and
+measured
+in in
+site
+inin
+the
+Tomis in
+in the
+the past,
+past,were
+werephotographed
+photographed
+and
+measured
+order
+createa a3D
+3Dobject.
+object.Photogrammetry
+Photogrammetry allowed
+representation
+of the
+walls,
+order
+toto
+create
+allowedus
+ustotoobtain
+obtaina agood
+good
+representation
+of the
+walls,
+which
+we
+used
+as
+a
+base
+for
+the
+house.
+A
+3D
+model
+of
+an
+ancient
+Roman
+house
+was
+designed
+using
+which we used as a base for the house. A 3D model of an ancient Roman house was designed
+Autodesk
+3D Studio
+Max software,
+version
+2016 (Autodesk,
+California,
+USA) [67]
+(Figure
+Local 3).
+using
+Autodesk
+3D Studio
+Max software,
+version
+2016 (Autodesk,
+California,
+USA)
+[67]3).
+(Figure
+experts
+from
+the
+Museum
+of
+Archeology
+from
+Constanta
+provided
+information
+regarding
+the
+design
+Local experts from the Museum of Archeology from Constanta provided information regarding the
+of the house, more specifically, how the roof and windows should look in order to accurately present
+design of the house, more specifically, how the roof and windows should look in order to accurately
+a building from that period of time.
+present a building from that period of time.
+
+(a)
+
+(b)
+
+Figure3.3.The
+The3D
+3DRoman
+Romanhouse:
+house:(a)
+(a)Outdoor
+Outdoorview;
+view;(b)
+(b)Indoor
+Indoorview.
+view.
+Figure
+
+The virtual 3D character of Ovid included animations and an audio source to play the poem.
+Visitors used the Lenovo phablet to explore the inside and outside of the Roman house, observe the
+gestures of Ovid while he recited his own poem, or when he sat at the table writing a poem. If
+someone passed by or stood next to the virtual character, the device displayed both that person and
+
+Sustainability 2019, 11, 1167
+
+7 of 20
+
+The virtual 3D character of Ovid included animations and an audio source to play the poem.
+Visitors used the Lenovo phablet to explore the inside and outside of the Roman house, observe the
+gestures of Ovid while he recited his own poem, or when he sat at the table writing a poem. If someone
+passed by or stood next to the virtual character, the device displayed both that person and Ovid on the
+screen, as in real life.
+Ovid’s 3D models, as child, adult in Rome, and elder in Tomis, were obtained using MakeHuman,
+version 1.1.0 [68] and Blender, version 2.77a (Blender Foundation, Amsterdam, Netherlands) [69],
+which are free, open-source software. They were animated using Adobe Mixamo [70]. The characters
+were designed based on the historical figure of Ovid. The selected animations corresponded to
+activities such as walking, sitting, writing, and idle behaviors. These models were integrated in the
+MAR application using Unity software, version 5.2.5 (Unity Technologies, San Francisco, USA) [71].
+In Figure 4 is presented the development process of Ovid3D.
+Roman house
+(3D Max)
+
+3D models of
+Ovidiu
+(MakeHuaman)
+
+3D models
+optimization
+(Blender)
+
+3D models
+animation
+(Maxamo)
+
+Ovid3D AR
+application
+(Unity)
+
+Figure 4.Figure
+Development
+stages ofstages
+Ovid3D.
+4. Development
+of Ovid3D
+
+3.3. Research Method
+For the purpose of this study, several locations were selected to perform the experiment.
+The reason for choosing these specific places was that we wanted to present the application in
+cities where there was a greater possibility that tourists or residents have heard of the poet Ovid.
+As mentioned above, the three locations were the following:
+
+•
+•
+•
+
+Constanta, Romania—In an archeological site of ancient Tomis, near the cathedral of the Apostles
+Saint Peter and Saint Paul;
+Rome, Italy—At the south part of Piazza de Colosseo, near Colosseum, the famous Roman
+amphitheater located in the center of the city;
+Sulmona, Italy—A historic town located in the province of L’Aquila in Abruzzo. The experiment
+took place in one of the city’s main squares, Piazza XX Settembre, which is adjacent to the main
+street, Corso Ovidio, and very close to Piazza Garibaldi.
+
+Not only was the location different, but also the content of the application was slightly different.
+For instance, in Constanta the virtual building was placed on top of the ruins of a real ancient Roman
+house. By doing so, users had a more realistic experience when navigating inside and outside the
+house (Figure 5a). This version of Ovid was reciting a short part of the poem “Sorrows”, in which he
+expresses his complaints and fears regarding the place where he was exiled. The animated virtual
+model of Ovid writing at a table was located in the last room of the house, and is presented in Figure 5b.
+In Rome, the application was similar, except that Ovid could be seen in Roman clothes,
+walking through the square (Figure 5c) while reciting a small part of his work The Metamorphoses,
+Book I—Fable 1. The Roman poet spent his childhood in Sulmona; as such, we decided to use a child
+version of Ovid. In this scenario, Ovid was walking outside the house, while in the background users
+could hear a poem recited by a child in an old Italian dialect (Figure 5d).
+Therefore, there were three different applications, with different scenarios and audio content
+heard in the background. Each application build in Unity contained a scene with one or two characters
+and some objects, as follows:
+
+Sustainability 2019, 11, 1167
+
+•
+
+•
+
+•
+
+8 of 20
+
+For Sulmona, the scenario featured a Roman house, the child version of Ovid walking in circles
+near the house, and a child voice that recited the poem “Metamorphoses”, Fable I in old Italian
+language. There were also some objects around the house, such as marble columns or barrels.
+The poem can be heard in a loop, and the animation of the child created with Mixamo repeated
+itself after 30 s. The time needed to discover the whole MAR scene was roughly 150 s, depending
+on the pace of the participants.
+For Rome, the application showcased a Roman house with two rooms and different pieces of
+furniture. The adult version of Ovid was walking in front of the house in a 15-second animation
+loop, and as audio content, the “Metamorphoses” narrative poem was recited by an adult voice.
+To discover the entire MAR scene it took around 110 s.
+For Constanta, the scene was comprised of a Roman house and two versions of elder Ovid:
+one moving around the house and one writing at the table located in the second room of the
+house. In the background, users could hear a voice reciting Ovid’s poem “Sorrows”. Around 150 s
+were needed to discover the whole MAR scene.
+
+A survey was performed following the same procedure in all locations. Participants that agreed
+to take part in the experiment received a verbal introduction about the purpose of the experiment and
+a short tutorial regarding the usage of the AR application. They received the Lenovo phablet with the
+OvidAR application, after which they were allowed to explore the 3D scene as much as they wanted
+(each participant used the app between 4 and 12 min). After the experiment, participants completed a
+questionnaire in order to provide feedback on the experience they had using the application.
+From the previous literature regarding the evaluation of MAR applications, we adopted four
+measurement items: perceived comprehensibility, perceived manipulability [59], perceived enjoyment,
+and perceived usefulness [65].
+
+(a)
+
+(b)
+
+(c)
+
+(d)
+
+Figure
+Photos
+takenduring
+duringthe
+theexperiments—screenshots
+experiments—screenshots taken
+looking
+Figure
+5. 5.
+Photos
+taken
+taken in
+indifferent
+differentplaces:
+places:(a)(a)user
+user
+looking
+from
+insideofofthe
+thehouse,
+house, in
+in Rome;
+Rome; (b)
+at at
+Ovid
+writing
+at his
+in Constanta;
+(c)
+from
+thethe
+inside
+(b)user
+userlooking
+looking
+Ovid
+writing
+at table,
+his table,
+in Constanta;
+user
+exploring
+the
+outside
+of
+the
+house,
+in
+Rome;
+(d)
+user
+exploring
+the
+outside
+of
+Ovid’s
+home
+from
+(c) user exploring the outside of the house, in Rome; (d) user exploring the outside of Ovid’s home
+childhood,
+in Piazza
+XX Settembre,
+Sulmona.
+from
+childhood,
+in Piazza
+XX Settembre,
+Sulmona.
+
+3.4. Participants
+Participants included citizens and tourists that showed interest in trying a mobile AR
+application. A total of 63 subjects, 37 males and 26 females, aged between 17 and 62 (mean = 33.8, SD
+= 11.1) got the opportunity to try the application. Approximately 1/3 of the respondents were between
+20 and 29 years old (34.9%), and another 1/3 were between 30 and 39 years old (33.3%). Participants
+were asked to rate their usage of mobile devices on a Likert-type scale (from 1 = “never use a mobile
+
+Sustainability 2019, 11, 1167
+
+9 of 20
+
+3.4. Participants
+Participants included citizens and tourists that showed interest in trying a mobile AR application.
+A total of 63 subjects, 37 males and 26 females, aged between 17 and 62 (mean = 33.8, SD = 11.1) got
+the opportunity to try the application. Approximately 1/3 of the respondents were between 20 and
+29 years old (34.9%), and another 1/3 were between 30 and 39 years old (33.3%). Participants were
+asked to rate their usage of mobile devices on a Likert-type scale (from 1 = “never use a mobile device”
+to 7 = “daily use of mobile devices”) and if they have ever previously used an AR application. Each of
+them used a smartphone or tablet almost every day (mean = 5.9, SD = 1.1) and about half of them (32)
+had never used or seen an AR application.
+Figure 6 summarizes the demographic characteristics of the respondents. Individual
+characteristics for each of the places where the application was tested are briefly presented in Table 1.
+
+Figure
+Figure 6.
+6. Showing
+Showing individual
+individual variables
+variables of
+of all
+all the
+the participants.
+participants.
+
+Participants that were not familiar with AR applications received a brief introduction
+introduction of how AR
+works and how to use
+use the
+the OvidAR
+OvidAR application.
+application. This
+This was
+was necessary
+necessary to
+to allow
+allow participants
+participants to
+to familiarize
+familiarize
+themselves
+they
+could
+evaluate
+thethe
+ARAR
+more
+accurately,
+eveneven
+if they
+had
+themselves with
+withthe
+theapplication
+applicationsosothat
+that
+they
+could
+evaluate
+more
+accurately,
+if they
+never
+heard
+or seen
+such
+an an
+application.
+Then,
+visitors
+were
+asked
+had never
+heard
+or seen
+such
+application.
+Then,
+visitors
+were
+askedtotouse
+usethe
+the application
+application for
+approximately
+or more,
+to then
+participate
+the survey.
+The users
+whonever
+had never
+approximately 5 minutes
+min or more,
+and and
+to then
+participate
+in theinsurvey.
+The users
+who had
+used
+used
+AR applications
+advised
+to evaluate
+OvidAR
+as objectively
+as possible,
+referring
+AR applications
+were were
+advised
+to evaluate
+OvidAR
+as objectively
+as possible,
+referring
+strictlystrictly
+to the
+to
+the application
+to its content.
+application
+and toand
+its content.
+The first research stage involved mostly Romanian tourists with very little AR experience, but
+the application was also tested and evaluated by people who had previous AR knowledge, such as
+the attendees of the 6th Edition of creatiVE Summer School in Virtual Environments, organized at
+Ovidius University of Constanta. Participants from Rome were mostly foreign tourists from
+Germany, USA, Canada, or Romania, but also from Italy. In Sulmona, all participants were local,
+Italian inhabitants of the area.
+
+Sustainability 2019, 11, 1167
+
+10 of 20
+
+The first research stage involved mostly Romanian tourists with very little AR experience, but the
+application was also tested and evaluated by people who had previous AR knowledge, such as the
+attendees of the 6th Edition of creatiVE Summer School in Virtual Environments, organized at Ovidius
+University of Constanta. Participants from Rome were mostly foreign tourists from Germany, USA,
+Canada, or Romania, but also from Italy. In Sulmona, all participants were local, Italian inhabitants of
+the area.
+Table 1. Individual characteristics of participants for each location.
+Variables
+
+No.
+
+Percent (%)
+
+No.
+
+Constant, a
+
+Percent (%)
+
+No.
+
+Rome
+
+Percent (%)
+Sulmona
+
+Gender
+Male
+Female
+
+18
+15
+
+55.0
+45.0
+
+12
+7
+
+63.0
+37.0
+
+7
+4
+
+64.0
+36.0
+
+1
+11
+11
+6
+3
+1
+
+3.03
+33.33
+33.33
+18.18
+9.09
+3.03
+
+1
+7
+7
+3
+0
+1
+
+5.26
+36.84
+36.84
+15.78
+0.00
+5.26
+
+1
+4
+3
+2
+1
+0
+
+9.09
+36.36
+27.27
+18.18
+9.09
+0.00
+
+22
+11
+
+67.00
+33.00
+
+6
+13
+
+32.00
+68.00
+
+4
+7
+
+36.00
+64.00
+
+Age
+Under 20
+20–29
+30–39
+40–49
+50–59
+60+
+AR
+experience
+Yes
+No
+
+3.5. Questionnaire Design
+The measurement items of the proposed questionnaire (22 in total) are summarized in Table 2
+by each construct: perceived comprehensibility (eight items), perceived manipulability (six items),
+perceived enjoyment (four items), and perceived usefulness (four items). The participants had absolute
+freedom to fill the questionnaire to their own discretion.
+The questionnaire was divided into three parts:
+
+•
+
+•
+
+•
+
+The first section intended to collect some individual variables such as age and gender, participants’
+degree of familiarity with mobile devices and AR applications, and if they had knowledge of who
+Ovid was;
+The second section (statements 1 to 14) intended to evaluate the usability of the application using
+the handheld augmented reality usability scale (HARUS) [54]. The HARUS questionnaire had
+been developed for evaluating the comprehensibility and manipulability of MAR applications.
+The HARUS questionnaire contained eight statements for the comprehensibility scale and eight
+statements for the manipulability scale, but we decided to remove two of the manipulability
+questions (“I found it easy to input information through the application”, “I think the operation of
+this application is simple and uncomplicated”) because they were not relevant to the evaluation
+of the proposed application;
+The last section (statements 15 to 22) aimed to assess the perceived enjoyment and usefulness of
+the application. The questions have been extracted from the questionnaires proposed in [65]. QU 3
+and QU 4 was added in order to evaluate the feature that allowed users to hear audio content.
+
+Sustainability 2019, 11, 1167
+
+11 of 20
+
+Table 2. Questionnaire items.
+No.
+
+Construct
+
+Abbreviation
+
+1
+2
+3
+4
+5
+6
+7
+8
+
+Comprehensibility
+
+QC 1
+QC 2
+QC 3
+QC 4
+QC 5
+QC 6
+QC 7
+QC 8
+
+The interaction with this application requires a lot of mental effort
+The amount of information displayed on screen was appropriate
+The information displayed on screen was difficult to read
+The information display was responding fast enough
+The information displayed on screen was confusing
+The display was flickering too much
+The information displayed on screen was consistent
+The position error of the information displayed on the screen was negligible or null
+
+Statement
+
+9
+10
+11
+12
+13
+14
+
+Manipulability
+
+QM 1
+QM 2
+QM 3
+QM 4
+QM 5
+QM 6
+
+Interaction with this application requires a lot of body muscle effort
+Using the application was comfortable for my arms and hands
+The device was difficult to hold while operating the application
+My arm or hand became tired after using the application
+I felt that I was losing grip and dropping the device at some point
+The application is easy to control
+
+15
+16
+17
+18
+
+Enjoyment
+
+QE 1
+QE 2
+QE 3
+QE 4
+
+I liked to use this application
+I found using the application unpleasant
+I found using the application exciting
+I found the application boring
+
+19
+20
+21
+22
+
+Usefulness
+
+QU 1
+QU 2
+QU 3
+QU 4
+
+Using the application, I could quickly and easily find historical pictures and information
+Using the application, I have improved my knowledge about the life of Ovid
+Listening to a poem of Ovid and was useful and interesting
+Listening to Ovid in some circumstances was useful and interesting
+
+All the questions used a 7-point Likert scale, ranging from 1—“strongly disagree”, to 7—“strongly
+agree”. Depending on the time availability, users were asked to fill in the questionnaire on site,
+or instead, access a survey link sent to their e-mail to be completed at a later time. Out of the
+63 questionnaires collected, 21 were completed online and 2 incomplete questionnaires were eliminated.
+A total of 61 questionnaires were used for this study (96.82%).
+The online survey questionnaire was developed in English, and the paper-based questionnaire
+was translated into Romanian and Italian for participants who had difficulties understanding English.
+4. Results
+Responses were put together to obtain a value for each of the four constructs defined by the
+questionnaire: comprehensibility, manipulability, enjoyment, and usefulness. The questionnaire
+contained both positive and negative worded items. For the negatively formulated questions, we first
+reversed the results in order to have the same scale. We chose to alternate positive and negative
+items. In this way, the user may be more careful when completing the questionnaire, and the answer
+was, thus, more relevant for the survey. After that, the scores were converted to a range of 0 to 6.
+All the values were then summed, and the sum was mapped to a range of 0 to 100. This method
+of data aggregation was done according to the instructions from the original HARUS questionnaire
+assessment [54].
+Figures A1–A3 from Appendix A show the obtained scores for each of the questions for the three
+experiments, represented as box charts. In each figure, mean, median, interquartile values, whiskers,
+and outliers were reported.
+For validating our measurement model, we evaluated reliability and sampling adequacy.
+Reliability was assessed by calculating Cronbach’s α, and the proportion of variance was assessed by
+the Kaiser-Meyer-Olkin index. Each of the measures exceeded the recommended threshold (Cronbach’s
+alpha = 0.902, Kaiser-Meyer-Olkin = 0.796).
+When participants were asked: “Do you have any knowledge of who Ovid is?”, the majority
+of them answered “Yes” from all three locations. Results showed that Ovid was known by 95% of
+the participants in Sulmona, 91% of the participants from Rome admitted to have heard of Ovid,
+while only 73% of the participants in Constanta heard of him. The values obtained for each question
+for all the users are displayed in Figure 7.
+
+The values for each construct—comprehensibility (mean = 91.06; SD = 4.46), manipulability
+(mean = 93.81; SD = 2.66), enjoyment (mean = 95.88; SD = 4.11) and usefulness (mean = 87.57; SD =
+2.61)—are reported in Figure 8, separately for each experiment, and overall. The vertical axis is
+displayed from 80 to 105 to make the results visible.
+At the2019,
+end11,
+of1167
+the experiment, some participants showed interest in learning more about AR
+Sustainability
+12 and
+of 20
+how it could change the way people explore and learn new things about heritage and education.
+
+(a)
+
+(b)
+
+(c)
+
+(d)
+
+grouped into
+into the
+the four
+four constructs.
+constructs
+Figure 7. Boxplots showing the outcomes for the questions, grouped
+
+The values
+for each construct—comprehensibility (mean = 91.06; SD = 4.46), manipulability
+5. Findings
+and Discussion
+(mean = 93.81; SD = 2.66), enjoyment (mean = 95.88; SD = 4.11) and usefulness (mean = 87.57;
+The survey was performed to identify users’ appreciation for mobile AR applications in the
+SD = 2.61)—are reported in Figure 8, separately for each experiment, and overall. The vertical axis is
+context of urban heritage. The following sections discuss the results from the survey, for each of the
+displayed from 80 to 105 to make the results visible.
+four parameters that were evaluated.
+At the end of the experiment, some participants showed interest in learning more about AR and
+how it could change the way people explore and learn new things about heritage and education.
+
+Sustainability 2019, 11, 1167
+
+13 of 20
+
+Sustainability 2019, 11, x FOR PEER REVIEW
+
+(a)
+
+(c)
+
+3 of 22
+
+(b)
+
+(d)
+
+Figure
+8. Boxplot
+showing
+results
+constructs
+Figure
+8. Boxplot
+showing
+thethe
+results
+for for
+the the
+fourfour
+constructs.
+
+5. Findings
+and Discussion
+5.1. Comprehensibility
+TheThe
+survey
+was
+performed
+to identify
+appreciation for
+mobile AR
+applications
+in the
+values
+obtained
+for each
+questionusers’
+of comprehensibility
+indicated
+a positive
+evaluation.
+The
+context
+of
+urban
+heritage.
+The
+following
+sections
+discuss
+the
+results
+from
+the
+survey,
+for
+each
+of the of
+responses to QC1 and QC5 had a median of 6.0 and a mean over 5.5. All the others had a median
+four
+that
+were evaluated.
+5.0parameters
+and a mean
+between
+4.91 and 5.27. Item QC6 received the lowest, and item QC1 obtained the
+highest score. This showed that the application was easy to use and it was intuitive, but there were
+5.1. Comprehensibility
+still small stability tracking issues that determined a slight flickering of the 3D content.
+TheAtvalues
+obtained
+question
+of obtained
+comprehensibility
+a positive
+the same
+time,for
+theeach
+overall
+values
+from the indicated
+three surveys
+were evaluation.
+very similar:
+TheConstanta
+responses(mean
+to QC1
+and QC5
+had (mean
+a median
+of 6.0and
+and Sulmona
+a mean over
+5.5.=All
+the others had a median
+= 91.58),
+Rome
+= 89.76),
+(mean
+90.23).
+of 5.0 and a mean between 4.91 and 5.27. Item QC6 received the lowest, and item QC1 obtained the
+5.2. Manipulability
+highest
+score. This showed that the application was easy to use and it was intuitive, but there were
+still small stability tracking issues that determined a slight flickering of the 3D content.
+On perceived manipulability in the survey, QM4 and QM6 items had a median of 6.0 and a mean
+At the same time, the overall values obtained from the three surveys were very similar: Constanta
+over 5.4. The others had a median of 5.0 and a mean between 5.08 and 5.44. While QM4 obtained the
+(mean = 91.58), Rome (mean = 89.76), and Sulmona (mean = 90.23).
+highest score, QM3 had the lowest median. The device was small, and the users did not have
+problems related to their arm comfort. Only small difficulties in holding the device while operating
+the application were reported.
+Similar to the comprehensibility construct, very close values were obtained for all the
+experiments for the manipulability construct: Constanta (mean = 93.16), Rome (mean = 93.65), and
+Sulmona (mean = 94.53).
+
+Sustainability 2019, 11, 1167
+
+14 of 20
+
+5.2. Manipulability
+On perceived manipulability in the survey, QM4 and QM6 items had a median of 6.0 and a mean
+over 5.4. The others had a median of 5.0 and a mean between 5.08 and 5.44. While QM4 obtained
+the highest score, QM3 had the lowest median. The device was small, and the users did not have
+problems related to their arm comfort. Only small difficulties in holding the device while operating
+the application were reported.
+Similar to the comprehensibility construct, very close values were obtained for all the experiments
+for the manipulability construct: Constanta (mean = 93.16), Rome (mean = 93.65), and Sulmona (mean
+= 94.53).
+5.3. Enjoyment
+For perceiving enjoyment, only QE3 had a median of 5.0, while the other three items had a
+median of 6.0. The mean ranged from 5.13 to 5.68. For this construct we obtained the highest values.
+QE1 achieved the highest score from all the questions that were proposed in the survey. The users liked
+to use the application. Good results were also obtained for QE3, which indicated that the objective set
+at the beginning was met. Only eight participants rated 5 in the Likert-scale for this question, and the
+others rated it 6 and 7.
+The values obtained for this construct were: Constanta (mean = 94.87), Rome (mean = 96.19),
+and Sulmona (mean = 96.88).
+5.4. Usefulness
+On perceived usefulness, all four items had a median of 5.0 and a mean between 4.84 and
+5.12. Item QU1 had the lowest average score. Some users suggested that the application might be
+improved with text to better reflect its purpose and to have more historical information about Ovid.
+Better scores were obtained for the items related to audio content, i.e., when Ovid’s poem was heard in
+the background.
+Perceived usefulness achieved the lowest score in the three cases: Constanta (mean = 88.55),
+Rome (mean = 86.43), and Sulmona (mean = 85.16).
+Usefulness was the area of the survey where the users had the most variable results. The standard
+deviation ranged from 0.81 to 0.90. However, the highest value for standard deviation was obtained
+for item QM3 (SD = 0.94).
+Briefly, we can conclude that participants enjoyed using the application and were mostly satisfied
+with its content. Although some historical data were missing, the application was easy to use, it was
+useful, and it confirmed the fact that the development of new interfaces for promoting CH is a
+sustainable action well-received by the public. Relevant photos and screenshots from the experiments
+are presented in Figure 9.
+In Figure 9a2 the modelled house of Ovid is presented, placed on the top of the ruins of the real
+ancient house from Constanta. Figure 9c represents another modelled house, and the child version of
+Ovid walking.
+The technology allowed registration of the model in different places accessible to tourists. It took
+into account their orientation, and adapted to their viewpoint. A wide variety of tourists can use the
+device (Figure 9a1,a3,b).
+
+Sustainability 2019, 11, 1167
+
+15 of 20
+
+(a1)
+
+(a2)
+
+(b)
+
+(a3)
+
+(c)
+
+Figure
+MobileAugmented
+Augmented
+Reality
+(MAR)
+application
+(a) Constanta,
+(b)and
+Rome,
+Figure9.9. Mobile
+Reality
+(MAR)
+application
+used used
+in (a) in
+Constanta,
+(b) Rome,
+(c)
+and
+(c) Sulmona.
+Sulmona.
+
+6. 6.
+Conclusions
+Conclusions
+Despite
+the
+fact
+CH area,
+area, the
+thenumber
+numberof
+ofworks
+works
+Despite
+the
+factthat
+thatMAR
+MARapplications
+applicationsshow
+showgreat
+greatpotential
+potential in
+in the
+the CH
+that
+provide
+work aimed
+aimed to
+to add
+add value
+valuein
+inthis
+this
+that
+provideanananalysis
+analysisofofuser
+useracceptance
+acceptance isisrelatively
+relatively low.
+low. This
+This work
+respect,
+and
+proposed
+a
+user
+study
+to
+assess
+participants’
+perception
+regarding
+the
+use
+of
+an
+MAR
+respect, and proposed a user study to assess participants’ perception regarding the use of an MAR
+application
+with
+application was
+wasimplemented
+implemented
+application
+withhistorical
+historicalinformation
+informationrelated
+relatedto
+toCH.
+CH. A
+A prototype
+prototype AR
+AR application
+asas
+a subject
+for
+data. Three
+Three sessions
+sessionswere
+were
+a subject
+forthe
+thestudy,
+study,and
+anda aquestionnaire
+questionnairewas
+wasused
+usedfor
+for collecting
+collecting the data.
+conducted
+in
+three
+different
+locations,
+with
+participants
+from
+several
+countries.
+The
+questionnaire
+conducted in three different locations, with participants from several countries. The questionnaire
+items,
+the following
+following four
+four constructs:
+constructs:
+items,other
+otherthan
+thandemographic
+demographic information,
+information, intended
+intended to analyze
+analyze the
+comprehensibility,
+manipulability,
+enjoyment,
+comprehensibility,
+manipulability,
+enjoyment,and
+andusefulness.
+usefulness.
+The
+resultsshow
+showthat
+thatthe
+theusability
+usabilityofofthe
+theMAR
+MARapplication
+application and the interaction
+The
+results
+interaction was
+was considered
+considered
+appropriate.Good
+Goodresults
+resultswere
+wereobtained
+obtainedfor
+forall
+allfour
+fourconstructs
+constructs that
+that were analyzed.
+appropriate.
+shouldbebenoted
+notedthat
+thatMAR
+MARtechnology
+technologyhas
+has proved
+proved to
+to increase
+increase the accessibility
+It It
+should
+accessibility of
+of tourists
+touriststoto
+intangible
+heritage.Tango
+Tangotechnology
+technologyallows
+allowsusers
+users to
+to create
+create and save maps
+intangible
+heritage.
+maps of
+of the
+the environment
+environmentthat
+that
+are
+linked
+to
+the
+starting
+point
+of
+a
+scene,
+thus
+making
+it
+easy
+for
+developers
+to
+create
+AR
+applications.
+are linked to the starting point of a scene, thus making
+for developers to create AR applications.
+Theapplication
+applicationmeets
+meetsthe
+theproposed
+proposedobjectives.
+objectives. Most
+The
+Most of
+of the
+the users
+users agreed
+agreed that
+that OvidAR
+OvidARhad
+had
+attractive
+content
+and
+met
+the
+usability
+requirements,
+providing
+a
+positive
+experience
+during
+the
+attractive content and met the usability requirements, providing a positive experience during the
+interaction.
+AR
+a technology
+that
+will
+more
+accessible
+upcoming
+years,
+and
+people
+will
+interaction.
+AR
+is is
+a technology
+that
+will
+bebe
+more
+accessible
+inin
+thethe
+upcoming
+years,
+and
+people
+will
+be
+be more
+receptive
+in it.
+using
+it. field
+In the
+field institutions
+of CH, institutions
+and companies
+use this
+more
+receptive
+in using
+In the
+of CH,
+and companies
+started to started
+use thistotechnology
+in ordermore
+to provide
+more
+realistic experiences
+tourists
+and museum
+this
+intechnology
+order to provide
+realistic
+experiences
+for touristsforand
+museum
+visitors. visitors.
+In this In
+regard,
+regard,
+we
+think
+that
+AR
+technology
+represents
+a
+proper
+media
+for
+the
+sustainability
+of
+CH
+we think that AR technology represents a proper media for the sustainability of CH conservation
+conservation
+and/or
+documentation.
+and/or documentation.
+Nevertheless, this study is not exhaustive. Our aim was not to obtain data that was statistically
+Nevertheless, this study is not exhaustive. Our aim was not to obtain data that was statistically
+reliable, but to present a method that can be used sustainably to disseminate CH events at an
+reliable, but to present a method that can be used sustainably to disseminate CH events at an
+international level. Future developments can include: improving tracking stability by fine tuning the
+international level. Future developments can include: improving tracking stability by fine tuning the
+Tango-related parameters, improving the 3D models to make them more realistic, or conducting
+Tango-related parameters, improving the 3D models to make them more realistic, or conducting further
+further usability evaluations that involve more constructs and participants. That being said, we
+usability evaluations that involve more constructs and participants. That being said, we conclude
+conclude that MAR could be one of the answers to various problems faced by the CH area in the 21st
+that MAR could be one of the answers to various problems faced by the CH area in the 21st century,
+Sustainability2019, 11, x; doi: FOR PEER REVIEW
+
+www.mdpi.com/journal/sustainability
+
+Sustainability 2019, 11, 1167
+x FOR PEER REVIEW
+Sustainability 2019, 11, x FOR PEER REVIEW
+
+16
+of 20
+2 of
+22
+2 of 22
+
+century, such as the lack of funding, the poor impact on cultural growth, and the weak cultural
+century,
+such as
+lack ofthe
+funding,
+the poor
+impact on
+cultural
+growth,
+andcultural
+the weak
+culturalof
+such
+as the
+ofthe
+funding,
+poor impact
+on cultural
+growth,
+and
+the weak
+cohesion
+cohesion
+of lack
+neighboring
+countries.
+cohesion of countries.
+neighboring countries.
+neighboring
+Author Contributions: Conceptualization, R.G.B., C.C.P. and M.P.; methodology, G.D.V and C.C.P.; software,
+Author
+methodology,G.D.V
+G.D.V.and
+andC.C.P.;
+C.-C.P.;
+software,
+AuthorContributions:
+Contributions:Conceptualization,
+Conceptualization,R.G.B.,
+R.G.B.,C.-C.P.
+C.C.P.and
+andD.-M.P.;
+M.P.; methodology,
+software,
+R.G.B. and
+and G.D.V.;
+G.D.V.;validation,
+validation,D.-M.P.,
+M.P., and
+M.C.;
+data
+curation,
+G.D.V.;
+writing—original
+draft
+preparation,
+R.G.B.;
+R.G.B.
+and
+M.C.;
+data
+curation,
+G.D.V.;writing—original
+writing—originaldraft
+draft
+preparation,
+R.G.B.;
+R.G.B. and
+G.D.V.; validation,
+M.P., and
+M.C.;
+data
+curation,
+G.D.V.;
+preparation,
+R.G.B.;
+visualization,
+M.C.;
+supervision,
+M.D.
+and
+M.C.;
+project
+administration,
+M.D.
+visualization,
+M.C.;
+supervision,
+M.D.
+and
+M.C.;
+project
+administration,
+M.D.
+visualization, M.C.; supervision, M.D. and M.C.; project administration, M.D.
+Funding: This paper is supported by European Union’s Horizon 2020 research and innovation program under
+Funding: This paper is supported by European Union’s Horizon 2020 research and innovation program under
+grant
+692103, project
+project eHERITAGE
+eHERITAGE (Expanding
+Cultural
+grant agreement
+agreement No
+No 692103,
+(Expanding the
+the Research
+Research and
+and Innovation
+Innovation Capacity
+Capacity in
+in Cultural
+grant agreement
+No 692103,
+project eHERITAGE (Expanding the Research and Innovation Capacity in Cultural
+Heritage
+Virtual
+Reality
+Applications).
+Heritage Virtual Reality Applications).
+Heritage Virtual Reality Applications).
+Acknowledgments: We also acknowledge the participants of the 6th Edition of the Summer School on Virtual
+Acknowledgments:
+We also
+acknowledge
+the participants
+ofRomania.
+the 6th Edition of the Summer School on Virtual
+Environments
+organized
+Ovidius
+University
+Constanta,of
+Acknowledgments:
+We at
+also
+acknowledge
+the of
+participants
+the 6th Edition of the Summer School on Virtual
+Environments
+organized
+at
+Ovidius
+University
+of
+Constanta,
+Romania.
+Environments
+organized
+at Ovidius
+University
+of Constanta,
+Romania.
+Conflicts
+of Interest:
+The authors
+declare
+no conflict
+of interest.
+Conflicts
+ConflictsofofInterest:
+Interest:The
+Theauthors
+authorsdeclare
+declare no
+no conflict
+conflict of
+of interest.
+interest.
+
+Appendix A
+Appendix
+AppendixAA
+
+FigureA1.
+A1.Boxplots
+Boxplotsshowing
+showingthe
+theoutcomes
+outcomes for
+for the
+the questions
+questions for
+Figure
+for the
+the first
+first
+experiment
+(Constanta).
+firstexperiment
+experiment(Constanta)
+(Constanta)
+
+Figure
+the second
+second experiment
+experiment(Rome)
+(Rome).
+FigureA2.
+A2.Boxplots
+Boxplotsshowing
+showingthe
+theoutcomes
+outcomes for
+for the
+the questions, for the
+Figure A2. Boxplots showing the outcomes for the questions, for the second experiment (Rome)
+
+Sustainability 2019, 11, 1167
+Sustainability 2019, 11, x FOR PEER REVIEW
+
+17 of 20
+3 of 22
+
+Figure
+Figure A3.
+A3. Boxplots
+Boxplots showing
+showing the
+the outcomes
+outcomes for
+for the
+the questions,
+questions, for
+for the
+the third
+third experiment
+experiment (Sulmona).
+(Sulmona)
+
+References
+References
+1.
+
+Palombini, A. Storytelling and telling history. Towards a grammar of narratives for Cultural Heritage
+
+References
+dissemination in the Digital Era. J. Cult. Herit. 2017, 24, 134–139. [CrossRef]
+2.
+1.
+3.
+2.
+
+3.
+
+4.
+
+4.
+5.
+6.
+5.
+7.
+6.
+
+7.
+8.
+
+8.
+
+9.
+10.
+9.
+11.
+
+10.
+11.
+12.
+
+Madirov, E.; Absalyamova, S. The influence of Information Technologies on the Availability of Cultural
+Palombini, A. Storytelling and telling history. Towards a grammar of narratives for Cultural Heritage
+Heritage. Procedia-Soc. Behav. Sci. 2015, 188, 255–258. [CrossRef]
+dissemination in the Digital Era. J. Cult. Herit. 2017, 24, 134–139.
+Economou, M. Use and Impact of Digital in Cultural Heritage: Insights from the Scottish Network of Digital
+Madirov, E.; Absalyamova, S. The influence of Information Technologies on the Availability of Cultural
+Cultural Resources Evaluation, MW17: Museums and the Web 2017, Cleveland, OH, USA, 19–22 April 2017;
+Heritage. Procedia - Soc. Behav. Sci. 2015, 188, 255–258.
+Museums and the Web 2017: Silver Spring, MD, USA, 2017. Available online: https://mw17.mwconf.org/
+Economou, M. Use and Impact of Digital in Cultural Heritage: Insights from the Scottish Network of
+paper/evaluating-impact-and-use-of-digital-cultural-resources-lessons-from-the-scotdigich-network/
+Digital Cultural Resources Evaluation, MW17: Museums and the Web 2017, Cleveland, OH, USA, 19–22
+(accessed on 17 October 2018).
+April 2017; Museums and the Web 2017: Silver Spring, MD, USA, 2017. Available online:
+Creed, C.; Sivell, J.; Sear, J. Multi-Touch Tables for Exploring Heritage Content in Public Spaces. In Visual
+https://mw17.mwconf.org/paper/evaluating-impact-and-use-of-digital-cultural-resources-lessons-fromHeritage in the Digital Age; Ch’ng, E., Gaffney, V., Chapman, H., Eds.; Springer London: London, UK, 2013;
+the-scotdigich-network/ (accessed 17 October 2018).
+pp. 67–90.
+Creed, C.; Sivell, J.; Sear, J. Multi-Touch Tables for Exploring Heritage Content in Public Spaces. In Visual
+Thwaites, H. Digital Heritage: What Happens When We Digitize Everything? In Visual Heritage in the Digital
+Heritage in the Digital Age; Ch'ng, E., Gaffney, V., Chapman, H., Eds.; Springer London: London, UK, 2013;
+Age; Ch’ng, E., Gaffney, V., Chapman, H., Eds.; Springer London: London, UK, 2013; pp. 327–348.
+pp. 67–90.
+Malpas, J. Cultural heritage in the age of new media. In New Heritage: New Media and Cultural Heritage;
+Thwaites, H. Digital Heritage: What Happens When We Digitize Everything? In Visual Heritage in the Digital
+Kalay, Y.E., Kvan, T., Affleck, J., Eds.; Routledge: London, UK, 2008; pp. 13–26.
+Age, Ch'ng, E., Gaffney, V., Chapman, H., Eds.; Springer London: London, UK, 2013; pp. 327–348.
+Tahoon, D.M.A. Case Study: Pyramids and Giza Plateau cultural heritage site, Egypt. In Proceedings
+Malpas, J. Cultural heritage in the age of new media. In New Heritage: New Media and Cultural Heritage,
+of the 1st BUE Annual Conference & Exhibition (BUE ACE1), Cairo, Egypt, 7–9 November 2016.
+Kalay, Y.E., Kvan, T., Affleck, J., Eds.; Routledge: London, UK, 2008, pp. 13–26.
+Available online: https://pdfs.semanticscholar.org/5365/cce55e220ea8ee1034d5b70c170e890fabaf.pdf?_ga=
+Tahoon, D.M.A. Case Study: Pyramids and Giza Plateau cultural heritage site, Egypt. In Proceedings of the
+2.66583277.2118423092.1550735871-1930073487.1544169653 (accessed on 24 October 2018).
+1st BUE Annual Conference & Exhibition (BUE ACE1), Cairo, Egypt, 7–9 November 2016. Available online:
+Boldrer, F. Recalling Ovid 2000 years later between lights and shadows: Memory and rework of a Latin
+https://pdfs.semanticscholar.org/5365/cce55e220ea8ee1034d5b70c170e890fabaf.pdf?_ga=2.66583277.21184
+poet in the Italian literature of the 20th century. In Proceedings of the Classical antiquity & memory
+23092.1550735871-1930073487.1544169653 (accessed 24 October 2018).
+in 19th–20th–21st century International conference, Bonn, Germany, 28–30 September 2017. Available
+Boldrer, F. Recalling Ovid 2000 years later between lights and shadows: memory and rework of a Latin
+online: http://memory.strikingly.com/blog/recalling-ovid-2-000-years-later-between-lights-and-shadows
+poet in the Italian literature of the 20th century. In Proceedings of the Classical antiquity & memory in 19th
+(accessed on 17 October 2018).
+– 20th–21st century International conference, Bonn, Germany, 28–30 September 2017. Available online:
+Wise, C.N. Banished to the Black Sea: Ovid’s poetic transformations in Tristia 1.1. Master’s Thesis,
+http://memory.strikingly.com/blog/recalling-ovid-2-000-years-later-between-lights-and-shadows
+Georgetown University, Washington, DC, USA, 16 October 2014.
+(accessed 17 October 2018).
+Currie, H.M. Ovid’s Personality. Class. J. 1964, 59, 145–155.
+Wise, C.N. Banished to the Black Sea: Ovid's poetic transformations in Tristia 1.1. Master Thesis,
+Noh, Z.; Sunar, M.S.; Pan, Z. A Review on Augmented Reality for Virtual Heritage System. In Learning by
+Georgetown University, Washington, D.C., USA, 16 October 2014.
+Playing. Game-based Education System Design and Development: 4th International Conference on E-Learning and
+Currie, H.M. Ovid's Personality. Class. J. 1964, 59, 145–155.
+Games, Edutainment 2009, Banff, Canada, 9–11 August 2009; Springer: Berlin, Germany, 2009.
+Noh, Z.; Sunar, M.S.; Pan, Z. A Review on Augmented Reality for Virtual Heritage System. In Learning by
+Wu, H.-K.; Lee, S.W.-Y.; Chang, H.-Y.; Liang, J.-C. Current status, opportunities and challenges of augmented
+Playing. Game-based Education System Design and Development: 4th International Conference on Ereality in education. Comput. Educ. 2013, 62, 41–49. [CrossRef]
+Learning and Games, Edutainment 2009, Banff, Canada, 9–11 August 2009, Springer: Berlin, Germany,
+2009.
+
+Sustainability 2019, 11, 1167
+
+13.
+14.
+
+15.
+16.
+17.
+
+18.
+
+19.
+20.
+
+21.
+
+22.
+23.
+24.
+25.
+26.
+
+27.
+
+28.
+29.
+30.
+31.
+
+18 of 20
+
+Chung, N.; Han, H.; Joun, Y. Tourists’ intention to visit a destination: The role of augmented reality (AR)
+application for a heritage site. Comput. Hum. Behav. 2015, 50, 588–599. [CrossRef]
+Garrido, R.M.; Jimenez, D.V.; Baldiris, S.; Fabregat, R. “Social Heritage” Augmented Reality
+Application to Heritage Education. In Proceedings of the Second International Conference on
+Augmented and Virtual Reality, VR 2015, Lecce, Italy, 31 August–3 September 2015. Available
+online: https://www.springer.com/cda/content/document/cda_downloaddocument/9783319228877-c2.
+pdf?SGWID=0-0-45-1524302-p177647007 (accessed on 17 September 2018).
+Kečkeš, A.L.; Tomičić, I. Augmented Reality in Tourism—Research and Applications Overview. Interdiscip.
+Descr. Complex Syst. 2017, 15, 157–167. [CrossRef]
+tom Dieck, M.C.; Jung, T.H. Value of augmented reality at cultural heritage sites: A stakeholder approach. J.
+Destin. Mark. Manag. 2017, 6, 110–117. [CrossRef]
+Velázquez, F.D.C.; Méndez, G.M. Augmented Reality and Mobile Devices: A Binominal Methodological
+Resource for Inclusive Education (SDG 4). An Example in Secondary Education. Sustainability 2018, 10, 3446.
+[CrossRef]
+Martins, J.; Gonçalves, R.; Branco, F.; Barbosa, L.; Melo, M.; Bessa, M. A multisensory virtual experience
+model for thematic tourism: A Port wine tourism application proposal. J. Destin. Mark. Manag. 2017, 6,
+103–109. [CrossRef]
+Berryman, D.R. Augmented reality: A review. Med Ref. Serv. Q. 2012, 31, 212–218. [CrossRef]
+Clemens, A.; Lukas, G.; Raphael, G.; Tobias, L.; Alessandro, M.; Dieter, S.; Daniel, W. The History of Mobile
+Augmented Reality. Inst. for Computer Graphics and Vision, Graz University of Technology, Austria.
+11 November 2015. Available online: https://arxiv.org/pdf/1505.01319.pdf (accessed on 17 September
+2018).
+Tomaštík, J.; Saloň, Š.; Tunák, D.; Chudý, F.; Kardoš, M. Tango in forests—An initial experience of the use of
+the new Google technology in connection with forest inventory tasks. Comput. Electron. Agric. 2017, 141,
+109–117. [CrossRef]
+Gjøsæter, T. Affordances in Mobile Augmented Reality Applications. Int. J. Interact. Mob. Technol. 2014, 8,
+45–55. [CrossRef]
+Chatzopoulos, D.; Bermejo, C.; Huang, Z.; Hui, P. Mobile Augmented Reality Survey: From Where We Are
+to Where We Go. Ieee Access 2017, 5, 6917–6950. [CrossRef]
+Bostanci, E.; Kanwal, N.; Clark, A.F. Augmented reality applications for cultural heritage using Kinect.
+Hum.-Cent. Comput. Inf. Sci. 2015, 5, 20. [CrossRef]
+Mota, J.M.; Ruiz-Rube, I.; Dodero, J.M.; Arnedillo-Sánchez, I. Augmented reality mobile app development
+for all. Comput. Electr. Eng. 2017, 65, 250–260. [CrossRef]
+Wagner, D.; Schmalstieg, D. History and Future of Tracking for Mobile Phone Augmented Reality.
+In Proceedings of the 2009 International Symposium on Ubiquitous Virtual Reality, Gwangju, South Korea,
+8–11 July 2009. Available online: https://ieeexplore.ieee.org/iel5/5232241/5232242/05232244.pdf (accessed
+on 14 August 2018).
+Mekni, M.; Lemieux, A. Augmented reality: Applications, challenges and future trends. In Proceedings
+of the 13th International Conference on Applied Computer and Applied Computational Science
+(ACACOS ‘14), Kuala Lumpur, Malaysia, 23–25 April 2014; pp. 205–214.
+Available online:
+https://www.semanticscholar.org/paper/Augmented-Reality-%3A-Applications-%2C-Challengesand-Mekni-Lemieux/a77e78e46a0cdfdc191e732e23da3deac57fd366 (accessed on 12 September 2018).
+Yovcheva, Z.; Buhalis, D.; Gatzidis, C. Overview of Smartphone Augmented Reality Applications for Tourism.
+e-Rev. Tour. Res. (Ertr) 2012, 10, 63–68.
+Han, J.-G.; Park, K.-W.; Ban, K.-J.; Kim, E.-K. Cultural Heritage Sites Visualization System based on Outdoor
+Augmented Reality. Aasri Procedia 2013, 4, 64–71. [CrossRef]
+Dünser, A.; Billinghurst, M.; Wen, J.; Lehtinen, V.; Nurminen, A. Exploring the use of handheld AR for
+outdoor navigation. Comput. Graph. 2012, 36, 1084–1095. [CrossRef]
+Larabi, S. Augmented Reality for Mobile Devices: Textual Annotation of Outdoor Locations. In Augmented
+Reality and Virtual Reality: Empowering Human, Place and Business; Jung, T., tom Dieck, M.C., Eds.; Springer
+International Publishing: Manchester, UK, 2018; pp. 353–362. Available online: https://link.springer.com/
+chapter/10.1007/978-3-319-64027-3_24 (accessed on 13 September 2018).
+
+Sustainability 2019, 11, 1167
+
+32.
+
+33.
+
+34.
+35.
+
+36.
+
+37.
+
+38.
+39.
+40.
+41.
+42.
+43.
+44.
+45.
+
+46.
+47.
+48.
+
+49.
+
+50.
+
+51.
+
+19 of 20
+
+Duguleana, M.; Brodi, R.; Girbacia, F.; Postelnicu, C.; Machidon, O.; Carrozzino, M. Time-Travelling with
+Mobile Augmented Reality: A Case Study on the Piazza DeiMiracoli. In Digital Heritage. Progress in Cultural
+Heritage: Documentation, Preservation, and Protection: 6th International Conference, EuroMed 2016,
+Nicosia, Cyprus. 2016. Available online: https://link.springer.com/chapter/10.1007/978-3-319-48496-9_73
+(accessed on 25 September 2018).
+Puyuelo, M.; Higón, J.L.; Merino, L.; Contero, M. Experiencing Augmented Reality as an Accessibility
+Resource in the UNESCO Heritage Site Called “La Lonja”, Valencia. Procedia Comput. Sci. 2013, 25, 171–178.
+[CrossRef]
+Ekonomou, T.; Vosinakis, S. Mobile Augmented Reality games as an engaging tool for cultural heritage
+dissemination: A case study. Sci. Cult. 2018, 4, 97–107.
+Younes, G.; Kahil, R.; Jallad, M.; Asmar, D.; Elhajj, I.; Turkiyyah, G.; Al-Harithy, H. Virtual and augmented
+reality for rich interaction with cultural heritage sites: A case study from the Roman Theater at Byblos. Digit.
+Appl. Archaeol. Cult. Herit. 2017, 5, 1–9. [CrossRef]
+Sekhavat, Y.A. KioskAR: An Augmented Reality Game as a New Business Model to Present Artworks. Int. J.
+Comput. Games Technol. 2016, 2016, 7690754. Available online: https://www.hindawi.com/journals/ijcgt/
+2016/7690754/ (accessed on 30 July 2018). [CrossRef]
+Hammady, R.; Ma, M.; Temple, N. Augmented Reality and Gamification in Heritage Museums. In Serious
+Games: Second Joint International Conference, JCSG 2016, Brisbane, QLD, Australia, 26–27 September 2016;
+Springer International Publishing: Manchester, UK, 2016; pp. 181–187.
+Madsen, J.B.; Madsen, C.B. Handheld Visual Representation of a Castle Chapel Ruin. J. Comput. Cult. Herit
+2015, 9, 1–18. [CrossRef]
+Pedersen, I.; Gale, N.; Mirza-Babaei, P.; Reid, S. More than Meets the Eye: The Benefits of Augmented Reality
+and Holographic Displays for Digital Cultural Heritage. J. Comput. Cult. Herit. 2017, 10, 1–15. [CrossRef]
+Chung, N.; Lee, H.; Kim, J.-Y.; Koo, C. The Role of Augmented Reality for Experience-Influenced
+Environments: The Case of Cultural Heritage Tourism in Korea. J. Travel Res. 2018, 57, 1–17. [CrossRef]
+Damala, A.; Hornecker, E.; van der Vaart, M.; van Dijk, D.; Ruthven, I. The Loupe: Tangible Augmented
+Reality for learning to look at ancient greek art. Mediterr. Archaeol. Archaeom. 2016, 16, 73–85.
+Deliyiannis, I.; Papaioannou, G. Augmented Reality for archaeological environments on mobile devices: A
+novel open framework. Mediterr. Archaeol. Archaeom. 2014, 14, 1–10.
+Martínez-Graña, A.; González-Delgado, J.Á.; Ramos, C.; Gonzalo, J.C. Augmented Reality and Valorizing
+the Mesozoic Geological Heritage (Burgos, Spain). Sustainability 2018, 10, 4616.
+Chen, W. Historical Oslo on a Handheld Device—A Mobile Augmented Reality Application.
+Procedia Comput. Sci. 2014, 35, 979–985. [CrossRef]
+Cranmer, E.E.; tom Dieck, M.C.; Jung, T. How can Tourist Attractions Profit from Augmented Reality?
+In Augmented Reality and Virtual Reality: Empowering Human, Place and Business; Jung, T., tom Dieck, M.C., Eds.;
+Springer International Publishing: Manchester, UK, 2018; pp. 21–32.
+Bekele, M.K.; Pierdicca, R.; Frontoni, E.; Malinverni, E.S.; Gain, J. A Survey of AugmentedVirtual, and Mixed
+Reality for Cultural Heritage. J. Comput. Cult. Herit. 2018, 11, 7:1–7:36. [CrossRef]
+Kysela, J.; Štorková, P. Using Augmented Reality as a Medium for Teaching History and Tourism. Procedia-Soc.
+Behav. Sci. 2015, 174, 926–931. [CrossRef]
+Boboc, R.G.; Girbacia, F.; Duguleana, M.; Tavčar, A. A handheld Augmented Reality to revive a
+demolished Reformed Church from Brasov. In Proceedings of the VRIC 2017—19th ACM Virtual Reality
+International Conference, Laval, France, 22–24 March 2017; ACM: New York, NY, USA, 2017. Available online:
+https://dl.acm.org/citation.cfm?id=3110311 (accessed on 15 October 2018).
+Tan, K.L.; Lim, C.K. Digital heritage gamification: An augmented-virtual walkthrough to learn and explore
+historical places. In Proceedings of the 2nd International Conference on Applied Science and Technology
+2017 (ICAST’17), Langkawi, Kedah, Malaysia, 3–5 April 2017. Available online: https://aip.scitation.org/
+doi/pdf/10.1063/1.5005472?class=pdf (accessed on 16 October 2018).
+Roussou, M. Virtual Heritage: From the Research Lab to the Broad Public. In Proceedings of the VAST
+2000 Euroconference, Arezzo, Italy, 24–25 November 2000; Oxford, A., Ed.; Archaeopress: Oxford, UK, 2000;
+pp. 93–100.
+ICH. Available online: https://ich.unesco.org/en/what-is-intangible-heritage-00003 (accessed on
+5 December 2017).
+
+Sustainability 2019, 11, 1167
+
+52.
+
+53.
+
+54.
+
+55.
+56.
+57.
+
+58.
+
+59.
+
+60.
+
+61.
+
+62.
+
+63.
+64.
+
+65.
+
+66.
+67.
+68.
+69.
+70.
+71.
+
+20 of 20
+
+Hincapie, M.; Diaz, C.; Zapata, M.; Mesias, C. Methodological Framework for the Design and Development of
+Applications for Reactivation of Cultural Heritage: Case Study Cisneros Marketplace at Medellin, Colombia.
+J. Comput. Cult. Herit 2016, 9, 1–24. [CrossRef]
+Gao, Y.; Wu, X.; Zhang, Y.; Shen, Y.; Yang, X. The value evaluation system and applications of digital
+cultural resources. In Proceedings of the 6th International Conference on Information Management,
+Innovation Management and Industrial Engineering, Xi’an, China, 23–24 November 2013. Available online:
+https://download.atlantis-press.com/article/20591.pdf (accessed on 18 September 2018).
+Santos, M.E.C.; Taketomi, T.; Sandor, C.; Polvi, J.; Yamamoto, G.; Kato, H. A usability scale for handheld
+augmented reality. In Proceedings of the 20th ACM Symposium on Virtual Reality Software and Technology,
+Edinburgh, Scotland, 11–13 November 2014; ACM: New York, NY, USA, 2017; pp. 167–176.
+Ko, S.M.; Chang, W.S.; Ji, Y.G. Usability Principles for Augmented Reality Applications in a Smartphone
+Environment. Int. J. Hum. Comput. Interact. 2013, 29, 501–515. [CrossRef]
+Yáñez Gómez, R.; Cascado Caballero, D.; Sevillano, J.-L. Heuristic Evaluation on Mobile Interfaces: A New
+Checklist. Sci. World J. 2014, 19, 434326.
+Tsai, T.-H.; Chang, H.-T.; Yu, M.-C.; Chen, H.-T.; Kuo, C.-Y.; Wu, W.-H. Design of a Mobile Augmented Reality
+Application: An Example of Demonstrated Usability. In Universal Access in Human-Computer Interaction.
+Interaction Techniques and Environments: 10th International Conference, Toronto, ON, Canada, 17–22 July, 2016;
+Springer International Publishing: Basel, Switzerland, 2017.
+Schaeffer, S.E. Usability Evaluation for Augmented Reality. Department of Computer Science, University
+of Helsinki, 2014. Available online: https://core.ac.uk/download/pdf/33725105.pdf (accessed on
+20 February 2019).
+Santos, M.E.C.; Polvi, J.; Taketomi, T.; Yamamoto, G.; Sandor, C.; Kato, H. Toward Standard Usability
+Questionnaires for Handheld Augmented Reality. Ieee Comput. Graph. Appl. 2015, 35, 66–75. [CrossRef]
+[PubMed]
+Han, D.-I.; Jung, T. Identifying Tourist Requirements for Mobile AR Tourism Applications in Urban
+Heritage Tourism. In Augmented Reality and Virtual Reality: Empowering Human, Place and Business; Jung, T.,
+tom Dieck, M.C., Eds.; Springer International Publishing: Manchester, UK, 2018; pp. 3–20.
+Javornik, A. Directions for Studying User Experience with Augmented Reality in Public. In Augmented
+Reality and Virtual Reality: Empowering Human, Place and Business; Jung, T., tom Dieck, M.C., Eds.; Springer
+International Publishing: Manchester, UK, 2018; pp. 199–210.
+Střelák, D.; Škola, F.; Liarokapis, F. Examining User Experiences in a Mobile Augmented Reality Tourist
+Guide. In Proceedings of the 9th ACM International Conference on Pervasive Technologies Related to
+Assistive Environments, Corfu Island, Greece, 29 June–1 July 2016; pp. 1–8. Available online: https://www.
+fi.muni.cz/~{}liarokap/publications/PETRA2016.pdf (accessed on 29 September 2018).
+Rese, A.; Baier, D.; Geyer-Schulz, A.; Schreiber, S. How augmented reality apps are accepted by consumers:
+A comparative analysis using scales and opinions. Technol. Forecast. Soc. Chang. 2017, 124, 306–319. [CrossRef]
+Georgiou, Y.; Kyza, E.A. The development and validation of the ARI questionnaire: An instrument for
+measuring immersion in location-based augmented reality settings. Int. J. Hum. Comput. Stud. 2017, 98,
+24–37. [CrossRef]
+Haugstvedt, A.C.; Krogstie, J. Mobile augmented reality for cultural heritage: A technology acceptance study.
+In 2012 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Georgia Tech, Atlanta, USA,
+5–8 November 2012; IEEE Computer Society: Washington, DC, USA, 2017.
+Tango. Available online: https://developers.google.com/tango/ (accessed on 27 December 2017).
+3DS MAX. Available online: https://www.autodesk.com/products/3ds-max/overview# (accessed on
+4 January 2018).
+Makehuman. Available online: http://www.makehumancommunity.org/ (accessed on 2 January 2018).
+Blender. Available online: https://www.blender.org/ (accessed on 2 January 2018).
+Mixamo. Available online: https://www.mixamo.com/#/ (accessed on 2 January 2018).
+Unity. Available online: https://unity3d.com/ (accessed on 3 January 2018).
+© 2019 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access
+article distributed under the terms and conditions of the Creative Commons Attribution
+(CC BY) license (http://creativecommons.org/licenses/by/4.0/).
+
+

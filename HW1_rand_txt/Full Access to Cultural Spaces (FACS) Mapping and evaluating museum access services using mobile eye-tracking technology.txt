@@ -1,0 +1,1832 @@
+DOI: 10.1515/aa-2017-0007
+
+Full Access to Cultural Spaces (FACS): Mapping and evaluating museum
+
+access services using mobile eye-tracking technology 
+
+Francesca Raffi
+
+Francesca  Raffi  holds  a  PhD  in  audiovisual  translation  and  is  currently  lecturer  in  English 
+language and translation at the University of Macerata, Italy. She was a research team member of 
+the  Full  Access  to  Cultural  Spaces  (FACS)  project  at  the  University  of  Macerata,  and  she  is 
+currently a member of the INRESET (Interdisciplinary Research with Eye-Tracking Technology)
+research  team  (University  of  Macerata).  Her  main  research  interests  include  audiovisual 
+translation (mainly from a diachronic and historical perspective) and accessibility to media, arts 
+and culture.
+
+Abstract
+The  present  paper  aims  to  present  significant results  stemming  from  the  FACS  (Full  Access  to 
+Cultural Spaces) project, launched in 2014 by the University of Macerata and concluded in 2016. 
+In particular, this paper reports on stages one and two of the FACS project which aimed first to 
+explore the state of the art of universal access services across a large variety of museums in Italy 
+and nine other EU countries. Based on the first stage, an analysis of some of the most significant 
+data obtained from a questionnaire sent out to over 1,200 European museums will be presented, 
+with  a  special  focus  on  multilingual  devices  and  access  services  for  the  sensory  impaired.  The
+first stage was followed by an eye-tracking study on an Italian museum, Turin’s Museo Nazionale 
+del Cinema (National Cinema Museum), aimed at evaluating visitors’ experience, attitudes and 
+patterns of fruition through a test with a portable eye tracker (Tobii Pro Glasses 2, 50 Hz). Based 
+on this  second  stage,  the  fruition  of  information panels  by  museum  visitors  at  the  Museo 
+Nazionale del Cinema will be explored, specifically focusing on reading patterns and behaviours.
+
+1. Introduction 
+
+The number  of  museums  around  the  world has increased from 22,000 in  1975 to 55,000 today 
+
+(UNESCO 2017).1 While physical accessibility to cultural heritage is a paramount concern, there 
+
+is an increased awareness that museums carry not only an educational responsibility but also an 
+
+ethical  one  to  create  spaces  geared  towards  the  needs  of  all  audiences,  thus  overcoming  social 
+
+exclusion and promoting universally accessible culture. 
+
+Several guidelines and protocols have been issued to guide museums in achieving the goal of 
+
+ 
+
+18 
+
+universal  accessibility,  such  as  Article  30  of  the  United  Nations’  Convention  on  the  Rights  of 
+
+Persons with Disabilities (2007). Moreover, a number of organizations and institutions have led 
+
+the field in raising awareness of this challenge and suggesting best practices at both European and 
+
+international levels. As such, a number of museums were asked to meet the needs of their visitors 
+
+(Komarac, 2014) and improve visitor experiences (Kawashima, 1999).
+
+In light of the above, the present paper aims to present some significant results stemming from 
+
+the  FACS  (Full  Access  to  Cultural  Spaces)  project,  launched  in  2014  by  the  University  of 
+
+Macerata  and  concluded  in  2016.  Originating  out  of  collaboration  among  researchers  in 
+
+audiovisual  translation,  psychology,  museology,  IT  and  usability,2 the  project  aimed  first  to 
+
+explore the state of the art of universal access services across a large variety of museums in Italy 
+
+and nine other EU countries. This first stage was then followed by  an eye-tracking study on an 
+
+Italian  museum,  Turin’s  Museo  Nazionale  del  Cinema  (National  Cinema  Museum),  aimed  at 
+
+evaluating visitors’ experience, attitudes and patterns of fruition through a test with a portable eye 
+
+tracker  (Tobii  Pro  Glasses  2,  50  Hz),  and  a  brief  final  survey.  Finally,  the  analyses  stemming 
+
+from the first stage and the data from the eye-tracking test were joined, in an attempt to draw up a 
+
+comprehensive model for universal accessibility to museums and cultural spaces, to be tested on
+
+more museums across Europe.
+
+In particular, this paper reports on stages one and two of the FACS project. Based on the first 
+
+stage, an analysis of some of the most significant data obtained from a questionnaire sent out to 
+
+over  1,200  European  museums will  be  presented,  with  a  special  focus  on  multilingual  devices 
+
+and  access  services  for  the  sensory  impaired.  An  overview  of  the  access  services  available  in 
+
+museums for each country as well as for the whole sample will also be provided.
+
+Based on the second stage, the fruition of information panels by museum visitors at the Museo 
+
+Nazionale del Cinema will be explored, focusing on reading patterns and behaviours. 
+
+Before moving on to the studies conducted in phases one and two, in the following section the 
+
+concept of accessibility that the FACS project embraces, in line with the principles of universal 
+
+design, will be discussed, together with the motivations for the integration of mobile eye-tracking 
+
+(MET) technology. 
+
+2. Accessibility for all and the FACS project
+
+ 
+
+19 
+
+Defining  accessibility  is  an  ongoing and  constantly  changing  process,  both  across  time  and 
+
+societies  (Ryhl, 2009).  In  the  past,  the  accessibility  framework  focused  on  physiology  (Ryhl, 
+
+2016, p. 118)  and  was  mainly  intended  as  the  removal  of  architectural  or  sensory  barriers  to 
+
+ensure equal access to persons with physical or sensory impairments.
+
+Today,  most  societies  feel  the  impact  of  demographic,  economic,  social  and  technological
+
+transformations  which  are  in  turn  shaping  our  local,  national  and  international  communities. 
+
+Population  ageing,  global  migration  and  rapid  technological  advances,  to  name  but  a  few,  are 
+
+broadening the concept and definition of disability to also include all age-related, technological, 
+
+cultural, social and language-related issues.
+
+Therefore,  the  term  accessibility  can  now  be  defined  as  the  degree  to  which  a  product,  a 
+
+service device or environment is available to everyone, to the greatest extent possible, including
+
+(but not exclusively) people with physical, sensory or cognitive disabilities. Therefore, this new 
+
+definition suggests that the concept of accessibility should be intended in its broadest sense, and 
+
+combined with those of inclusion (i.e. participation) and universality (i.e. equality).
+
+In  line  with  the  universal  design  principles,  that  is  “a  process  that  enables  and  empowers  a 
+
+diverse  population  by  improving  human  performance,  health  and  wellness,  and  social 
+
+participation” (Steinfeld, Maisel, 2012), the expression universal accessibility has been coined to 
+
+describe  “the  nature  of  a  product,  process,  service,  environment  or  means  of  access  to 
+
+information  which,  in  an  inclusive  view,  allows  all  users,  including  those  that  may  have  (or 
+
+experience)  limitations,  to  obtain  by  themselves  equivalent  results  in  activities”  (Rocque et  al.,
+
+2015, p. 175).
+
+As  a  consequence,  the  old  homogeneous  concept  of  accessibility,  which  only  addressed  the 
+
+needs  of  certain  categories  of  the  population  with  some  kind  of  physical,  sensory  or  cognitive 
+
+impairment,  has  evolved  into  a  more  heterogeneous  concept  which  has  been  embraced  by 
+
+scholars theorizing on how the right to accessibility should be intended today (Greco, 2016). In 
+
+this sense, the field of media accessibility has proven to be very fruitful, emphasizing and further 
+
+expanding in many directions the question of accessibility for all (Díaz Cintas, 2005; Díaz Cintas, 
+
+Orero, Remael, 2007, pp. 11-20; Mangiron, Orero, O’Hagan, 2014, among others).
+
+As for the field of cultural heritage, Davidson, Heald and Hein (1991) focused on the need for 
+
+and  benefits  of  extending  accessibility  to  the  entire  museum  public  at  the  Boston  Museum  of 
+
+Science,  in  order  to  make  both  the  environment  and  the  content  more  available  to  all  visitors,
+
+ 
+
+20 
+
+including (but not exclusively) to those with disabilities. Ang (2005) made a further step towards 
+
+the omni-comprehensive concept of museum accessibility, trying to overcome class and cultural 
+
+hierarchies at the Art Gallery of New South Wales (Sydney) and to engage cultural diversity in 
+
+the art museum.
+
+As  for  technological  tools  applied  to  museum  accessibility,  Ruiz  et  al.  (2010)  adopt  a 
+
+Multimedia Guides for All approach to facilitate universal access to museums via multimedia and 
+
+portable  guides,  making access  available  to  all,  independent  of  their  sensory  disabilities  or 
+
+technological competency. Along the same lines, Hurtado et al. (2012) propose the development 
+
+of a multimedia guide prototype for Granada’s Parque de las Ciencias (Science Park Museum)
+
+based  on  a  combination  of  translation  and  interpreting  modalities  to  improve  museum 
+
+accessibility for all. Álvarez de Morales Mercado and Hurtado (2016) strengthen the interrelation 
+
+between  translation  and  accessibility  while  Sørmoen,  Arenghi  and  Garofalo (2016)  further 
+
+develop the  issues  related  to  participation  by  everyone  in  the  enjoyment  of  cultural  heritage, 
+
+conceiving accessibility as a key strategy for building a truly inclusive society.
+
+Therefore, in keeping with the principles of universal design and following the path traced by 
+
+the  above-mentioned  contributions,  in  2014  the  University  of  Macerata  (Italy)  launched  a  two-
+
+year  project,  FACS  (Full  Access  to  Cultural  Spaces).  The  aim  was  to  address  the  question of 
+
+accessibility to museums and exhibitions focusing on all variables in the provision of appropriate, 
+
+innovative access services: from the technologies used to their effective usability, from the texts 
+
+designed for access to their appropriate reception by diverse categories of the population.
+
+The  project,  founded  on  a  full  integration  of  competences,  knowledge,  and  experiences, 
+
+comprised two different but interrelated steps. First, practices and experiences of 128 museums in 
+
+Italy and 9 other EU countries were examined in order to map the state of the art in the field of 
+
+museum access services, at the time the FACS project was launched.
+
+Bringing  together  the  results  from  the  previous  stage,  in  2015-2016  an  important  Italian 
+
+museum, the Museo Nazionale del Cinema (National Cinema Museum, Turin), which agreed to 
+
+support the project throughout and collaborated as an active case study, was explored in order to 
+
+study the museum visit experience, evaluate the accessibility services provided, as well as their 
+
+possible simplification and standardization.
+
+Even though many studies have been conducted over the years to understand the whole visitor 
+
+and  visit  experience  in  cultural  heritage  settings  (Falk, 2009),  little  research  has  been  done  to 
+
+ 
+
+21 
+
+monitor,  analyse  and  use  eye  gaze  for  inferring  user  interests  in  mobile  scenarios  (Mokatren, 
+
+Kuflik, 2016). This is the case of the cultural heritage domain, which forces users to split their 
+
+attention  between  several  tasks  at  the  same  time:  gathering  information,  paying  attention  to 
+
+objects exhibited, interacting with available tools, accessing the services provided, among other 
+
+things.
+
+In light of  the above,  mobile  eye-tracking (MET) technology was integrated  into  the  second 
+
+phase  of  our  project  in  order  to  monitor  and  analyse  users’  visit  experience  at  the  Museo 
+
+Nazionale del Cinema, thus trying to investigate the correlations between the observed patterns, 
+
+meanings  and the  goals of attention (Holmqvist et  al., 2011) to possibly  draft a  comprehensive 
+
+model for a strong, integrated and universal museum accessibility.
+
+Finally,  data  derived  from  step  one  and  step  two  was  combined  in  order  to  draft  a 
+
+comprehensive,  integrated  model  for  true,  technologically based,  easy-to-use  accessibility  for 
+
+museums, to be perfected and possibly further developed through larger-scale studies.
+
+In the following sections, the first and second phase of our project will be presented and some 
+
+of  the major  results  achieved  will  be  discussed,  thus  offering  a  tentative  picture  of  the  main 
+
+access  services  available  in  Europe  (see  Section  3)  and  of  how  these  resources  are  actually 
+
+accessed by museum visitors (see Section 4).
+
+3. The FACS Project: Mapping museum access services in Europe (Stage One)
+
+Following the categorization proposed by Hurtado (2012), museum accessibility can be divided 
+
+into two main areas: accessibility to the museum’s physical environment; and accessibility to the 
+
+museum’s contents. The first step of the FACS project focused on the latter, namely accessibility 
+
+resources  that  museums  provide  to  visitors,  thus  adapting  their  contents  to  different  types  of 
+
+If inclusion and universal design constitute the main reference framework for this project (see 
+
+Section 2), its pioneering nature made it possible to focus mainly on access services for certain 
+
+categories  of  the  population.  Therefore,  besides  the  traditional  portable  guides  and  information
+
+panels  for  different  languages,  it  will  evaluate  the  effective  implementation  by  European 
+
+museums  of  more  contemporary  tools  such  as  tagging  systems  for  mobile  phones,  tablet-
+
+supported  multifunctional  guides,  specific  materials  for  the  visually,  hearing,  and  cognitive 
+
+22 
+
+users.
+
+ 
+
+impaired as well as access services designed for children.
+
+3.1 Study design
+
+According  to  the  Abridged  List  of  Key  Museum  Indicators  (EGMUS, 2012),  we  can  count 
+
+around  20,000  medium  and  large museums  in  Europe.  As  a  consequence,  considering  that  the 
+
+size of the population was too large to attempt to survey all of its members, we randomly selected 
+
+125  museums  in  10 European  countries  (Italy,  Spain,  France,  Germany,  Poland,  Greece, 
+
+Portugal, Sweden, Belgium and the UK). Therefore, our results and preliminary conclusions do 
+
+not intend to make any generalizations. Still, we can provide a rich and detailed picture of some 
+
+trends which could be detected at the European level, as far as our sample is concerned.
+
+We  invited  participants  to  answer  a  questionnaire  composed  of  34  questions,  divided  into 
+
+seven  different  groups:  demographics  information;  multilingual  access  services;  access  for  the 
+
+visually impaired; access for the hearing impaired; access for people with cognitive impairment; 
+
+access for children/young; and future projects (i.e. access services to be implemented in the near 
+
+future).
+
+and Spanish).
+
+From March to December 2014, we sent more than 1,200 questionnaires using Lime Survey 
+
+(2003), a free and open source online survey application, together with a cover letter presenting 
+
+the study and providing simple instructions, available in four languages (Italian, English, French 
+
+In  the  following  sections,  the  key  findings  for  each  of  the  access  service  sections  will  be 
+
+discussed.  In  particular,  we  will  focus  on  multilingual  access  services,  access  services  for  the 
+
+visually impaired, and access services for the hearing impaired.
+
+For each category, participants were provided with a close-ended question listing all options 
+
+available, from which they could choose all that applied; if no options applied, participants could 
+
+freely add further options. Interestingly enough, this resulted in being particularly useful for the 
+
+visually  impaired  and  hearing  impaired  groups  of  questions,  as  will  be  shown  in  the  following 
+
+sections.
+
+3.2 Key findings
+
+ 
+
+23 
+
+We received  128  answers  from  all  the  selected  countries,  and  more precisely:  29%  Italy;  23% 
+
+Greece;  18%  Spain;  13%  Poland;  12%  Sweden;  11%  Portugal;  10%  Germany;  9%  France  and 
+
+UK, respectively; and 5% Belgium.
+
+It was agreed that the sample should be heterogeneous with regard to museum types in order 
+
+to provide a picture which was as comprehensive as possible. As for the predominant collections, 
+
+among  the  more  than  40  different  museum  typologies  gathered,  archaeological  (15%),  history 
+
+(10%), science/technology (11%), and military/war museums (7%) are the most represented (see 
+
+Table 1). 
+
+What type of museum is yours?
+
+Contemporary Art museum/Gallery
+
+Music/Musical instruments museum
+
+Ancient Art museum/Gallery
+
+Archaeological museum
+
+Astronomy museum
+
+Cinema museum
+
+City museum
+
+Costumes/Fashion museum
+
+Ethnographic museum
+
+Folk museum
+
+Toy museum
+
+Historic house museum
+
+Theatre/Opera museum
+
+%
+
+7
+
+15
+
+0
+
+1
+
+3
+
+4
+
+0
+
+3
+
+2
+
+1
+
+4
+
+1
+
+History museum
+
+Industry museum
+
+Literary museum
+
+Military/War museum
+
+Modern Art museum/Gallery
+
+Natural History museum
+
+Performing Arts museum
+
+Photography museum/Gallery
+
+Planetarium
+
+Transport museum
+
+Virtual museum
+
+Wax museum
+
+Science/Technology museum
+
+11
+
+Table 1 Museum typologies
+
+In  terms  of  size,  our  sample  included  small, medium and  large sized  museums, with  different 
+
+numbers of  visitors  during  the  2012–2014  two-year  period,  as  well  as  museums  based  in  both 
+
+well-known cultural districts  and in  smaller  geographical areas: from Casa Leopardi located in 
+
+Recanati,  a  small  village  in  the  Marche  region,  to  the  Picasso  Museum  in  Barcelona;  from  the 
+
+Übersee-Museum Bremen to London’s British Museum.
+
+As  for  the  section  “Multilingual  Access”,  we  asked  what  kind  of  service(s)  museums  were 
+
+offering their visitors. As shown in Table 2 below, almost 80% of museums reported that printed 
+
+materials  still  represented  the  major  resources  provided  (print  guides/brochures/leaflets), 
+
+ 
+
+%
+
+10
+
+1
+
+1
+
+7
+
+5
+
+1
+
+3
+
+1
+
+0
+
+0
+
+1
+
+0
+
+0
+
+24 
+
+followed by panels and posters (53%). 
+
+What multilingual access service(s) does your museum offer to its visitors?
+
+Downloadable guides for use on smartphones and/or tablets
+
+Print guides/brochures/leaflets
+
+Panels/posters
+
+Portable audio guides
+
+Tagging systems
+
+Guides available on tablets
+
+Google glasses or similar
+
+%
+
+78
+
+53
+
+33
+
+13
+
+8
+
+7
+
+0
+
+Table 2 Multilingual access service(s) for our European sample
+
+Along  with  the  more  traditional  portable  audio guides  (33%),  it  seemed  that  technologically 
+
+advanced  solutions  were  timidly  gaining  ground,  with  downloadable  guides  for  use  on 
+
+smartphones and/or tablets (13%), tagging systems (8%), and finally guides available on tablets 
+
+As shown in Table 3 below, while print materials were the preferred solution for all countries 
+
+included in our study, with the highest percentages in France and Belgium, where all museums 
+
+selected  this  option,  the  majority  of  European  museums  seemed  to  be  reluctant  to  provide 
+
+multilingual access services through technological devices.
+
+BEL
+
+FRA
+
+GER
+
+GRE
+
+ITA
+
+POL
+
+POR
+
+SPA
+
+SWE
+
+UK
+
+Print guides/brochures/leaflets
+
+100
+
+100
+
+Panels/posters
+
+Portable audio guides
+
+Downloadable guides for use 
+on smartphones and/or tablets
+
+Guides available on tablets
+
+Tagging systems
+
+Google glasses or similar
+
+71
+
+29
+
+43
+
+0
+
+0
+
+0
+
+40
+
+20
+
+40
+
+40
+
+20
+
+0
+
+70
+
+30
+
+50
+
+0
+
+10
+
+10
+
+0
+
+73
+
+72
+
+36
+
+18
+
+5
+
+9
+
+0
+
+83
+
+79
+
+38
+
+8
+
+0
+
+4
+
+0
+
+92
+
+31
+
+46
+
+0
+
+0
+
+0
+
+15
+
+75
+
+33
+
+17
+
+0
+
+0
+
+0
+
+0
+
+62
+
+31
+
+31
+
+23
+
+15
+
+8
+
+0
+
+67
+
+58
+
+17
+
+17
+
+25
+
+8
+
+0
+
+75
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+Table 3 Multilingual access service(s) for each European country
+
+As far as technology is concerned, significant percentages were observed only in France, which 
+
+seemed to provide a larger and more varied range of technologically advanced services. Finally, 
+
+Google glasses or similar tools seemed to be completely ignored by European museums.
+
+25 
+
+#
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+(7%). 
+
+ 
+
+Interestingly enough, moving to access services offered for the visually impaired, as shown in 
+
+Table 4 below,  the  majority  of  museums  did  not  find  in  any  of  the  solutions  provided  a  valid 
+
+option (41%). 
+
+What access service(s) for the visually impaired does your museum offer to its visitors?
+
+#
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+Large print on guides/brochures/leaflets and/or panels/posters
+
+Downloadable audio guides for use on smartphones and/or tablets
+
+None of the above
+
+Tactile material
+
+Audio descriptions
+
+Portable audio guides
+
+Braille on panels/posters
+
+Braille portable guides
+
+Magnification equipment
+
+Guided tours on tablets
+
+Table 4 Access service(s) for the visually impaired for our European sample
+
+Consequently,  they  autonomously  indicated  further  alternatives,  and  it  was  found  that  specific 
+
+sessions  led  the  way,  with  “workshops”  as  the  most  frequent  option  provided  (15%),  which 
+
+clearly falls out of universal design and the “for all” inclusive policies.
+
+However,  as  shown  in  Table  4 above,  printed  resources  seemed  to  occupy  again  a  primary 
+
+position in the range of museum access services, in particular tactile  materials  (23%)  and large 
+
+print  on  guides/brochures/leaflets  and/or  panels/posters  (18%).  Quite  unpredictably,  audio 
+
+resources  did  not  record significant  percentages,  with  portable  audio guides  and  audio 
+
+descriptions accounting  for less than 20% of  all  available options.  As for  more technologically 
+
+advanced services, downloadable audio guides for use on smartphones and/or tablets and guided 
+
+tours on tablets only accounted for less than 5%. 
+
+As shown in Table 5 below, print materials were the preferred access services offered by the 
+
+majority of European museums participating in the study.
+
+BEL
+
+FRA
+
+GER
+
+GRE
+
+ITA
+
+POL
+
+POR
+
+SPA
+
+SWE
+
+UK
+
+50
+
+0
+
+33
+
+17
+
+0
+
+0
+
+17
+
+4
+
+24
+
+0
+
+0
+
+10
+
+25
+
+0
+
+11
+
+11
+
+9
+
+0
+
+0
+
+13
+
+Portable audio guides
+
+Downloadable audio guides for 
+use on smartphones and/or
+tablets
+
+ 
+
+%
+
+41
+
+23
+
+18
+
+15
+
+15
+
+9
+
+7
+
+4
+
+3%
+
+2%
+
+26 
+
+Guided tours on tablets
+
+Audio descriptions
+
+Braille portable guides
+
+Braille on panels/posters
+
+Tactile material
+
+Large print on 
+guides/brochures/leaflets 
+and/or panels/posters
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+17
+
+0
+
+0
+
+17
+
+33
+
+17
+
+13
+
+13
+
+0
+
+0
+
+25
+
+13
+
+0
+
+4
+
+0
+
+4
+
+13
+
+22
+
+0
+
+14
+
+10
+
+10
+
+19
+
+19
+
+0
+
+20
+
+10
+
+30
+
+40
+
+30
+
+0
+
+13
+
+13
+
+25
+
+38
+
+25
+
+22
+
+0
+
+0
+
+6
+
+22
+
+11
+
+0
+
+27
+
+18
+
+9
+
+27
+
+27
+
+13
+
+38
+
+13
+
+25
+
+0
+
+0
+
+Magnification equipment
+
+25
+
+0
+
+0
+
+4
+
+0
+
+10
+
+0
+
+0
+
+9
+
+0
+
+Table 5 Access service(s) for the visually impaired for each European country
+
+Despite  the  success  of  print  materials,  large  print  on  guides/brochures/leaflets  and/or 
+
+panels/posters seemed to be totally  absent from museums in Belgium and in the UK which, on 
+
+the  other  hand,  seemed  to  largely  rely  on  tactile  materials  (25%).  However,  audio  descriptions
+
+were the preferred  option selected by  British  museums  (38%),  which is also  the country  which 
+
+relied more heavily on audio description than any other European country.
+
+Similar  to  what  happened  for  the  previous  section,  European  museums  participating  in  the
+
+study  did  not  select  any  of  the  options  provided  among  the  services  for  the  hearing  impaired 
+
+listed in the questionnaire (see  Table 6 below).  Once again, guided  tours, workshops, activities 
+
+and  special  projects  were  the  most  frequent  options  added  by  respondents,  thus  confirming  the 
+
+tendency  to  create  special and  temporary opportunities  of  inclusion  instead  of  a  permanent
+
+inclusive environment for everyone.
+
+What access service(s) for the hearing impaired does your museum offer to its visitors?
+
+None of the above
+
+Live subtitles/captions on screens
+
+Pre-recorded subtitles/captions on screens
+
+Live sign language interpretation
+
+Downloadable subtitles for use on smartphones and/or tablets
+
+Guided tours on tablets
+
+Pre-recorded sign language interpretation on screens
+
+Table 6 Access service(s) for the hearing impaired for our European sample
+
+Subtitling  seemed  to  lead  the  way,  with  live  subtitles/captions  on  screens  and  pre-recorded 
+
+subtitles/captions  on  screens  as  the  preferred  option,  together  with  live  sign-language 
+
+interpretation  (6%).  As  far  as  technology  is  concerned,  only  3%  of  all  European  museums 
+
+%
+
+67
+
+6
+
+6
+
+6
+
+3
+
+3
+
+2
+
+27 
+
+#
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+ 
+
+seemed to provide hearing impaired visitors with downloadable subtitles for use on smartphones 
+
+and/or  tablets  and  guided  tours  on  tablets. Interestingly  enough,  the  implementation  of  new 
+
+technological tools seems to play a major role in the future agenda of all European museums.
+
+In  the  last  section  of  the  questionnaire,  we  asked  through  two related  open-ended  questions
+
+what new or additional services museums were planning to develop in the following three-year 
+
+period  (2015-2018),  and  for  what  kind  of  visitors.  As  for  the  former,  we  grouped  the  received 
+
+answers according to six macro-categories, as shown in Table 7 below.
+
+What new or additional services your museum is planning to include in the next three years
+
+Smartphone/tablet technology
+
+Audio guides
+
+Multimedia technology
+
+Tactile material
+
+Braille
+
+Website/online sources/social media
+
+Print material
+
+Nothing
+
+Audio description
+
+Tagging system
+
+%
+
+35.4
+
+30.9
+
+23.6
+
+14.5
+
+7.2
+
+9
+
+9
+
+3.6
+
+3.6
+
+1.8
+
+Table 7 Additional services for the future
+
+Despite  the  fact  that  until  2014  advanced  technology  seemed  to  have  been  disregarded  by 
+
+European  museums,  the  implementation  of  smartphone/tablet  technology  was  listed  as  the  top 
+
+priority for providing future access services to visitors.
+
+As for the target visitors to which these additional services would be addressed, we find: 30% 
+
+visually  impaired;  20%  hearing  impaired  and  foreigners,  respectively;  9%  children/young;  4% 
+
+disabled (without any reference to the kind of disability); and 2% elderly.
+
+The above-discussed results date back to 2014 and we are not able to say if the situation has 
+
+changed  since  then,  as  far  as  our  sample  of  10 European  countries  is  concerned.  However,  the 
+
+picture  that  can  be  drawn  is  quite  clear,  even  when  taking  into  account  the  above-mentioned 
+
+limitations.
+
+If the concept of accessibility is widespread and present in every modern society, the results 
+
+achieved show that museums have not implemented it in their practice in either a developed or 
+
+committed way. Despite the fact that museums play a clear role as disseminators of all types of 
+
+28 
+
+#
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+ 
+
+knowledge, our analysis of the situation of European museums also shows that the percentage of 
+
+museums  having  adopted  comprehensive  and  successful  accessibility  plans  in  line  with  the 
+
+principles of universal design is very low.
+
+This  is  hardly  surprising  if  we  consider  that  comprehensive  accessibility  plans  entail 
+
+significant  financial  investment,  as  well  as  a  great  deal  of  work  by  various  professionals  from 
+
+different fields of expertise. In fact, from the data collected, it is clear that paper materials, being 
+
+less expensive, were still the preferred access services provided.
+
+Therefore, starting from this result, in the following section we will investigate how museum 
+
+visitors interact with these materials, thus exploring visitors’ reading patterns and behaviours.
+
+4. The  FACS  Project:  Mapping  museum  experience  at  Turin’s  Museo  del  Cinema (Stage 
+
+Two)
+
+The second stage of the FACS project aimed to evaluate users’ attitudes and patterns of fruition 
+
+at  an  Italian  museum  which  collaborated  as  an  active  case  study,  Turin’s  Museo  Nazionale  del 
+
+Cinema (National  Cinema  Museum).  This  museum  was  selected  not  only  for  its  importance  at 
+
+national and international level but also because its main aim is to provide visitors with different 
+
+stimuli,  so  as  to  reproduce  the  experience  of  being  in  a  cinema  and  watching  a  film. 
+
+Consequently, the museum provides visitors with all the typologies of access services which have 
+
+already  been  mapped  in  Section  3,  from  multilingual  to  tactile  materials,  from  text  panels  to 
+
+audio guides,  thus  perfectly  representing  the  concept  of  accessibility  that  this  project  has
+
+embraced.
+
+We  focused  on  a  permanent  collection  of  the  museum,  specifically,  the  “Archaeology  of 
+
+Cinema”, which is composed of eight sections. These sections are thematically arranged to guide 
+
+visitors  through  the  history  of  cinema  and  offer  rare  collections  which  also  narrate  the 
+
+development of new technologies and new cinematic techniques. For a more accurate evaluation 
+
+of  the  visitor  experience,  we  concentrated  on  only  four  of  these  areas:  Optics,  Peepshows, 
+
+Stereoscopy and Panorama. These four areas are positioned in sequence, one following the other, 
+
+on  the  right  side  of  the  exhibition  room.  The  first  one  “Optics”,  traces  the  history  of  optical 
+
+science, which boomed in the field of cinema in the 17th century. The second one is dedicated to 
+
+“Peepshows”, also called perspective boxes in the UK, an optical device which used lenses and 
+
+ 
+
+29 
+
+candles to magnify images. The third one “Stereoscopy”, is dedicated to the stereoscope, which 
+
+was  invented  in  the  19th century  to  create  two-dimensional  images.  The  last  one  “Panorama”, 
+
+offers a  wide-angle  view  or  representation  of  a  physical  space  or  landscape  exhibited  inside  a 
+
+circular building, and dating back to the 18th century. While Optics, Peepshows, Stereoscopy and 
+
+Panorama are placed on the right of the room, on the left there are a few recesses with (mostly 
+
+interactive) objects related to some of the showcases.
+
+Each section includes a showcase with the objects exhibited and distributed on two different 
+
+shelves, one above the other; an information panel including one or two Italian texts divided into 
+
+different  columns,  along  with  their  respective  English  translations;  an  interactive  screen;  and  a 
+
+red  non-interactive  screen  called  “highlight”.  Since  the  main  intention  of  the  museum  was  to 
+
+make  this  collection  as  accessible  as  possible  to  everyone,  a  highlighted  path  (or  simply 
+
+highlights) was introduced for those visitors who do not have enough time to enjoy a full visit but 
+
+who,  at  the  same  time,  do  not  want  to  miss  the  most  important  and  representative  objects 
+
+exhibited in the showcases. 
+
+Figure 1 Highlight path: red screen and highlighted objects in the showcase
+
+As shown in Figure 1 above, the highlighted path is signalled by the red screen, which is intended 
+
+to direct visitors’ attention towards the objects highlighted in red and exhibited in the showcases.
+
+In our study, we discovered that only 12.5% of visitors actually looked at the red screen. Even 
+
+more interestingly, when they looked at the red screen, they did not follow the red line, so they 
+
+did not in fact look  at the objects outlined  in  red. We  also detected that  they mostly interacted
+
+with the red screen in the “wrong” way: they initially thought it was an interactive screen, only to 
+
+be disappointed to learn that it was not, so they simply left it or ignored it completely.
+
+In  the  present  paper,  we  will  focus  on  the  information panel  of  each  section  in  order  to 
+
+investigate how visitors interact with these materials and to try to evaluate visitors’ experience. 
+
+30 
+
+ 
+
+Therefore,  we  monitored  eye  gaze  through  Tobii  Pro  Glasses  2,  a  new  generation  eye  tracker 
+
+which enables researchers to infer user interests in mobile scenarios.
+
+4.1 Study design 
+
+Even  if  Tobii  Pro  Glasses  2  enable  researchers  to  analyse  a  dynamic  environment,  for 
+
+quantitative analysis to be meaningful the collected eye-tracking data needs to be analysed using 
+
+fixed objects. Therefore, we first took 42 photos using a digital camera. These would be used as 
+
+snapshots, i.e. still images of objects of interest in the environment under scrutiny.
+
+Bearing  our  objective  in  mind,  we  divided  the  snapshots  into  three  groups,  according  to  the 
+
+objects  included:  showcases  with  objects  exhibited;  showcases,  information panels  and 
+
+interactive/information screens; 
+
+information panels  and 
+
+interactive/informative  screens. 
+
+Snapshots were then imported into a computer running analysis software to be later used for the 
+
+qualitative and quantitative analysis of the collected data.
+
+We then selected our sample of visitors randomly, only excluding those with corrective vision 
+
+devices such  as glasses  and  contact  lenses.  After  providing  visitors  with  all  the  necessary 
+
+information  that  would  help  them  in  deciding  whether  or  not  they  wished  to  take  part  in  the 
+
+experiment, participants were asked to wear the Tobii Pro Glasses (50 Hz) and to simply visit the 
+
+four sections freely, without any further instruction.
+
+Finally,  visitors  were  asked  to  complete  a  questionnaire  at  the  end  of  the  visit  in  order  to 
+
+collect personal information and to establish whether previous experiences in the same or similar 
+
+museums could  have influenced their visit. Data from  the questionnaire  were then qualitatively 
+
+elaborated both to be implemented in our analysis and to more precisely define our sample (age, 
+
+occupation, nationality, previous visits to the museum, etc.).
+
+We collected  a total of  20 participants  but  only  16  provided  usable  video recordings for the 
+
+analysis.  This  was  because  we  had  some  losses  in  terms  of  precision,  during  extreme  eye 
+
+movements,  in  cases  where the  head  unit  moved  slightly  on  the  wearer,  or  in  cases  where the 
+
+participant moved in areas which were too far from the recording unit. Since this could somehow 
+
+negatively  impact  on  the  data  analysis  and  final  results,  we  decided  to  include  only  those 
+
+recordings which provided at least 85% of valid data, reaching a fairly high 88% on average. 
+
+Our final sample was composed of 9 men and 7 women, with ages ranging from 18 to 60 years 
+
+ 
+
+31 
+
+old, so a broad sample in terms of age.
+
+4.2 Key findings
+
+As  for  the  first  section,  “Optics”,  6.6%  participants  ignored  the  area  under  scrutiny,  and  the 
+
+average visit duration was one minute and 13 seconds.
+
+Considering the total visit duration,3 visitors dedicated more than 80% of their time interacting 
+
+with  the  informative  area  (i.e. information panel  and  interactive  screen),  and  less  than  20% 
+
+looking at the objects exhibited. In terms of fixation duration,4 around 85% is concentrated on the 
+
+informative  tools,  and  less  than  15%  on the objects exhibited.  Interestingly  enough,  despite the 
+
+interactive  and  more  dynamic  nature  of  the  informative  screen,  it  is  the  information panel, 
+
+comprising  only  an  Italian  text  together  with  its  English  translation,  which  attracted  visitors’ 
+
+attention the most: 67% against 32%, in terms of fixation duration.
+
+As far as the information panel is concerned, the  English  text  was  only  quickly scanned for 
+
+less than 200–250 milliseconds by all visitors, thus resulting in no fixations.
+
+As  for  the  Italian  text,  it  is  made  up  of  20 lines  and  divided  into  two  columns.  A  detailed 
+
+analysis of the way participants read its content shows that users devoted most of the time (total 
+
+fixation duration) to the first column, which averaged 34%, while the second column and the title 
+
+totalled 17%, respectively. 
+
+The  first  column  contains  expressions  such  as  “anamorfosi  catottriche”  (catoptric 
+
+anamorphosis)  and “paradossi  diottrici” (dioptrical paradoxes). All four  words  are  absent from 
+
+Nuovo  Vocabolario  di  Base  della  Lingua  Italiana  De  Mauro  (2016),  which  integrates  high 
+
+frequency vocabulary ranges, thus describing the most used and understood words of the Italian 
+
+language. In addition to that, Dizionario della Lingua Italiana De Mauro (2017, online) labels all 
+
+the above-mentioned terms as technical-specific ones, not belonging to the general language but 
+
+to jargon. Consequently, they are all rather complex to process for the average audience, and this 
+
+is likely to be the reason for the high percentage of fixations on that portion of text.
+
+Interestingly enough, 30% of readers started directly from the second column, thus shortening 
+
+their reading effort by skipping both the title and the first column altogether. In particular, 24% of 
+
+the time was spent on the first four lines and around 5% on the remaining text. Again, in the first 
+
+part  of  the  second  column  we  find  a  complex  sentence  “la  galassia  proteiforme  delle  mirabili 
+
+visioni […]” (The protean galaxy of wondrous visions […]), whose terms are again absent from 
+
+ 
+
+32 
+
+Nuovo Vocabolario di Base della Lingua Italiana De Mauro (2016).
+
+Moving  to  the  second  section,  “Peepshows”,  this  section  ranked  first  in  terms  of  time  spent 
+
+visiting it, with an average visit duration of one minute and 37 seconds. However, 13.3% visitors 
+
+ignored it. After carefully examining all video recordings, we can say that the smaller number of 
+
+visitors  is  maybe  due  to  the  fact  that  in  front  of  this  section  participants  found a  mostly 
+
+entertaining  area  called  “Phantasmagoria”,  with various  interactive  tools  which  reproduced  the 
+
+experience of this form of horror theatre.
+
+Going back to the area under scrutiny, considering the total visit duration, visitors dedicated 
+
+more than 65% of their time interacting with the information panel and 32% with the interactive 
+
+screen. The objects exhibited were only quickly scanned for less than 200–250 milliseconds, thus 
+
+resulting in no fixations.
+
+As  far  as  the  information panel  is  concerned,  once  again  no  fixation  was  detected  on  the 
+
+English version. As for the Italian section, which comprises two different texts of nearly 30 lines 
+
+each, visitors focused  mostly  on  the  title  of the first  text and, interestingly  enough, on the first 
+
+column of the second text, entitled “Scatole ottiche per diorami teatrali”.
+
+Participants  reached  this  area  after  visiting  the  previous  section,  “Optics”,  to  the  right. 
+
+Consequently, the first text in front of them is the second text of the information panel, and this 
+
+may explain the higher proportion of fixation for the second text. More specifically, participants 
+
+spent almost 64% of the time on the first section (title and first paragraph), 23% on the following 
+
+paragraph, and 12% on the last one.
+
+Moving to the third section, “Stereoscopy”, all participants visited this section, ranking second 
+
+in  terms  of  time  spent  visiting  it  (one  minute  and  34  seconds). In  particular,  participants  spent 
+
+57%  of  the  overall  time on  the  informative  area  (information panel  and  interactive  screen)  and 
+
+less than 20% looking at the objects exhibited. However, with respect to previous sections, it is 
+
+the interactive screen which proved to be the most popular informative tool.
+
+As  far  as  the  information panel  is  concerned,  it  comprises  two  texts  (together  with  their 
+
+English translation), of nearly 30 lines each. The first text entitled “La Stereoscopia” attracted the 
+
+attention of participants the most. In particular, dividing the text into three main areas of interest 
+
+(two halves of the first column and the entire second column), the first part obtained 58% of the 
+
+total time, the second 29%, and 11% for the third. The text does not describe the objects in the 
+
+showcases but provides visitors with details and information on stereoscopy in general. The only 
+
+ 
+
+33 
+
+reference to an object displayed in the showcase, and specifically the stereoscope, can be found in 
+
+the first half of our area of interest, which obtained the highest percentage of fixations (58%).
+
+Once again, no fixation was detected for its English translation. Despite that, the reference to a 
+
+non-Italian  figure,  the  Scottish  inventor  “David  Brewster”,  attracted  the  attention  of  readers
+
+considerably,  registering  a  higher  number  of  fixations,  as  shown  in  the  heat  map5 of  Figure  2
+
+below:
+
+Figure 2 “Stereoscopy”: Heat map
+
+The same pattern, as well as the average reading behaviour, was detected in the following area, 
+
+called  “Panorama”.  More  generally,  13.3%  of  participants  ignored  the  area  under  scrutiny,  and 
+
+the average visit duration was one minute and three seconds. Therefore, it ranks fourth together 
+
+with the “Peepshows” section in terms of number of visitors, and again fourth in terms of time 
+
+spent visiting it.
+
+Even in this section, 92% of the total time was devoted to the informative area, only leaving 
+
+less  than  8%  for  the  objects  exhibited  in  the  showcase. Once  again,  the  information panel 
+
+comprises  two  different  two-column  texts,  of  nearly  30 lines  each,  and  fixations  again 
+
+concentrated at the beginning of the first columns of each text. 
+
+In particular, after analysing the heat maps, we detected a higher concentration of fixations at 
+
+the  beginning  of  column  one  of  the  first  text,  and  precisely  in  correspondence  to  the  French 
+
+expression “La nature à coup d’œil” (nature at a glance), left untranslated for Italian audiences. A 
+
+similar behaviour was found in column three, where the gaze mostly focused on the French word 
+
+“Daguerre”  (referring  to  French  artist  and  photographer  Louis  Daguerre),  and  the  English 
+
+expression  “Portable  Diorama”.  Being  both  foreign  expressions  to  the  Italian  reader,  they 
+
+required more cognitive effort and thus longer fixations. The same mechanism was replicated in 
+
+column  four,  containing  the  foreign  and  very technical  expression  “Polyorama  Panoptique”, 
+
+34 
+
+ 
+
+referring to a device based on Daguerre’s Diorama.
+
+5. Conclusions
+
+Museums,  heritage  organizations  and  cultural  spaces  in  general  have  transformed  from  object-
+
+based collections to people-based institutions (Komarac, 2014). Therefore, they are changing to 
+
+ensure that all people, including (but not exclusively) those with disabilities can enjoy the same 
+
+experiences, thus being accessible to all (see Section 2).
+
+Despite this, for many museums, access still means physical access, thus failing to embrace a 
+
+more  heterogeneous  concept  of  accessibility,  which  combines  inclusion  and  universality  (see 
+
+Section  2). Even  if  museums  have  made  progress  in  the  past  decades  in  terms  of  accessibility, 
+
+there is still room for improvement.
+
+The  analysis  carried  out  on our  European  sample  shows that  museums  still  rely  heavily  on 
+
+paper  resources  to  provide  access  services to  their visitors  (print  guides/brochures/leaflets  and 
+
+information panels/posters) and that the implementation of new technologies was listed as the top 
+
+priority for providing future access services.
+
+As for paper materials, these are formats which cannot be printed or downloaded for people to 
+
+adapt them according to their needs, such as changing the font size or converting them using text-
+
+to-speech software. Print or downloadable versions of documents and informative materials are 
+
+not only essential for people with visual, learning, cognitive or physical disabilities (such as co-
+
+ordination  problems,  among  others),  but  also  to  foreign  visitors  who  can  select  the  appropriate 
+
+language to access the information provided. 
+
+As far as language is concerned, visitors may be unfamiliar with the specific terminology used 
+
+in a given field of expertise. Our study at Turin’s Museo Nazionale del Cinema also demonstrated 
+
+that  the  length,  the  layout,  the  use  of  special  language  and  the  number  of  technical  terms  may 
+
+have  a  negative  impact  on  the  way  visitors  experience  the  museum.  The  eye-tracking  study 
+
+showed  that  reading  was  neither  linear  nor  focused,  with  fixations  mainly  concentrated on the 
+
+beginning of each section of the informative texts, and at foreign and technical-specific terms.
+
+The time spent reading depended on the duration of fixations, which in turn increased with the 
+
+increased  cognitive  effort  demanded  by  the  decoding  of  the  words. Furthermore,  as  shown  in 
+
+Section 4, foreign and technical terms in the Italian texts required more cognitive effort (therefore 
+
+longer  fixations).  This,  in  addition  to  the  absence  of  a  “pyramidal” structure  in  which  the 
+
+ 
+
+35 
+
+information  is  placed  in  a  hierarchal  order,  did  not  offer  a  clear  reading  path  to  visitors,  thus 
+
+leading visitors to spend much more time on reading than on observing the objects exhibited.
+
+Therefore, simplifying the text, breaking texts down into logical chunks or using bullet points 
+
+may  have  a  positive  impact  on  museum  visits,  enabling  visitors  to  dedicate  their  time  on  the 
+
+exhibition  rather  than  on  decoding  complex  texts. This  would  make  not  only  the  informative 
+
+elements but also the whole visiting experience more widely enjoyable and accessible.
+
+As  a  consequence,  accessibility  may  contribute  to  both  attracting  and  building  long-term 
+
+relationships  with  a  wide  range  of  audiences,  thus  reflecting  the  expectations  of  an  ongoing 
+
+political, social,  environmental and economic context and responding to the  needs of the wider 
+
+community.
+
+Endnotes
+1 https://en.unesco.org/themes/museums (Accessed 15 October 2017).
+2 The  FACS  project  was  coordinated  by  Elena  Di  Giovanni, and  the complete  list  of  all  research  team 
+members  is  available  on  the  official  FACS  website  (http://blog.unimc.it/facs/partners/). I  am  deeply 
+grateful to Elena Di Giovanni, principal researcher, and to all team members who actively participated in 
+the studies presented in Section 3 and 4 of the present paper, although I acknowledge sole responsibility 
+I  am  also  grateful  to Tomaso  Vido  and  Lorena  Del  Vino  from  SR  Labs 
+for  any  mistakes.
+(http://www.srlabs.it)  for  their  support  and  helpful  feedback  during  and  after  our  experiment at  Museo 
+Nazionale del Cinema (Turin, Italy).
+3 The  total  time  each  participant  has  fixated  on each  area/object  of  interest,  expressed  in 
+HH:MM:SS:mmm.
+4 The  total  time  each  participant  has  fixated  on each  area/object  of  interest,  expressed  in 
+HH:MM:SS:mmm. The average fixation duration is normally 200–250 milliseconds.
+5 It shows how looking is distributed over the stimulus, using different colours to illustrate the number of 
+fixations or for how long (duration) they fixated within that area. Red usually indicates the highest number 
+of fixations or the longest time, and green the least, with varying levels in between.
+
+References
+AA.VV.  2015.  Conference  Proceedings:  The  Future  of  Education:  5th  Conference. Padova: 
+Libreria Universitaria.
+Álvarez  de  Morales  Mercado,  C.  and  Jiménez  Hurtado,  C.  2016. Patrimonio  Cultural  Para 
+Todos: Investigación Aplicada en Traducción Accesible. Lachar, Granada: Tragacanto.
+Ang,  I.  2005. The  Predicament  of  Diversity:  Multiculturalism  in  Practice  at  the  Art  Museum.
+London Sage.
+Davidson,  B.,  Heald,  C.L.  and  Hein,  G.E.  1991.  “Increased  Exhibit  Accessibility  Through 
+Multisensory Interaction.” In Curator: The Museum Journal, vol. 34, no. 4, pp. 273-290.
+De  Lauretis,  T.  1987.  Technologies  of  Gender:  Essays  on  Theory,  Film  and  Fiction.
+Bloomington: Indiana University Press.
+Díaz Cintas, J. 2005. “Audiovisual Translation Today – A Question of Accessibility for All.” In 
+Translating Today vol 4, pp. 3-5.
+Díaz Cintas, J., Orero P., and Remael, A. 2007. “Media For All: A Global Challenge.” In: Díaz 
+Cintas,  J.,  P.  Orero  and  A.  Remael  (eds.) Media  for  All:  Subtitling  for  the  Deaf,  Audio 
+
+36 
+
+ 
+
+Description, and Sign Language. Amsterdam: Rodopi, pp. 11-20.
+Dizionario della Lingua Italiana De Mauro Online. 2017. Available at:
+<https://dizionario.internazionale.it >. [Accessed 15 October 2017]
+EGMUS (2012). Museum Statistics. Available at:
+http://www.egmus.eu/nc/en/statistics/complete_data/z/0/. [Accessed 15 October 2017].
+Falk, J.H. 2016. Identity and The Museum Visitor Experience. London: Routledge. 
+Greco,  G.M.  2016.  “On  Accessibility  as  a  Human  Right,  with  an  Application  to  Media 
+Accessibility.”  In:  Matamala,  A.  and  P.  Orero  (eds.). Researching Audio Description New
+Approaches. Palgrave Macmillan: London, pp. 11-33.
+Holmqvist, K., Nyström M., Andersson R., Dewurst R., Jarodzka H., Van de Weijer J. 2015. Eye 
+tracking: A Comprehensive Guide to Methods and Measures. Oxford: Oxford University Press.
+Jiménez Hurtado, C., Seibel, C., Soler Gallego, S. and Herrero Díaz, S. 2012. Museums for All: 
+Translation  and  Interpreting  for  Multimodal  Spaces  As  a  Tool  for  Universal  Accessibility.
+Universitat d’Alacant. Available at: <http://hdl.handle.net/10045/26955>. [Accessed 15 October 
+2017].
+Kawashima,  N.,  1999.  “Knowing  the  Public:  A  Review  of  Museum  Marketing  Literature  and 
+Research.” In Museum Management and Curatorship, vol. 17, no. 1, pp. 21-39.
+Komarac,  T.  2014.  “A  New  World  for  Museum  Marketing?  Facing  the  Old  Dilemmas  While 
+Challenging New Market Opportunities.” In Market-Tržište, vol. 26, no. 2, pp. 199-214.
+Limesurvey  GmbH.  2003.  Limesurvey:  An  Open  Source  Survey  Tool. Hamburg,  Germany: 
+LimeSurvey GmbH. Available at: <http://www.limesurvey.org>.
+Mangiron, C., Orero, P. and O’Hagan, M. 2014. Videogame Localisation and Accessibility: Fun 
+for All. Bern: Peter Lang.
+Mokatren M. and Kuflik, T. 2016. “Exploring the Potential Contribution of Mobile Eye-Tracking 
+Technology in Enhancing the Museum Visit Experience.” In CEUR Workshop Proceedings, pp.
+23-31.
+Nuovo  Vocabolario  Base  della  Lingua  Italiana  De  Mauro  Online.  2016.  Available  at: 
+<https://www.internazionale.it/opinione/tullio-de-mauro/2016/12/23/il-nuovo-vocabolario-di-
+base-della-lingua-italiana>. [Accessed 15 October 2017]
+Rocque,  S.,  Langevin,  J.,  Chalghoumi,  H., Gorayeb,  A.  2015.  “Universal  Accessibility.” In 
+Conference  Proceedings  - The  Future  of  Education:  5th  Conference,  Florence,  8-9  June  2017.
+Padova: Libreria Universitaria, pp. 175-179.
+Ruiz, B., Pajares, J.L., Utray, F. and Moreno, L. 2011. “Design for All in Multimedia Guides for 
+Museums.” In Computers in Human Behavior, vol. 27, no. 4, pp. 1408-1415.
+Ryhl,  C.  2009.  “Architecture  for  Senses.”  In:  Vavik,  T.  (ed.).  Inclusive  Buildings,  Products  & 
+Services: Challenges in Universal Design. Trondheim, Norway: Tapir Academic Press, pp. 104-
+27.
+Ryhl,  C.  2016.  “So  Much  More  Than  Building  Regulations:  Universal  Design  and  the  Case  of 
+Practice.”  In: Sørmoen,  O.,  A.  Arenghi  and  I.  Garofolo  (eds.). Accessibility  As  a  Key  Enabling 
+Knowledge for Enhancement of Cultural Heritage. Milano: Franco Angeli, pp. 115-130.
+Sørmoen, O., Arenghi, A. and Garofolo, I. 2016. Accessibility As a Key Enabling Knowledge for 
+Enhancement of Cultural Heritage. Milano: Franco Angeli.
+Steinfeld,  E.  and  Maisel,  J.L.  2014. Universal  Design: Creating  Inclusive  Environments.
+Johanneshov: MTM.
+UN General Assembly. 2007. Convention on the Rights of Persons with Disabilities: Resolution / 
+adopted  by 
+the  General  Assembly,  24  January  2007, A/RES/61/106.  Available  at: 
+http://www.refworld.org/docid/45f973632.html. [Accessed 15 October 2017].
+
+37 
+
+ 
+
+Francesca Raffi
+University of Macerata
+Via Crescinbeni, 30/32, Macerata, Italy
+francesca.raffi@unimc.it
+
+ 
+
+38 
+
+

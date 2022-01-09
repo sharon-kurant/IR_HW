@@ -1,0 +1,636 @@
+Aalborg Universitet
+
+Augmenting the City with Fiction: Fictional Requirements for Mobile Guides
+Kjeldskov, Jesper; Paay, Jeni
+Published in:
+Proceedings of HCI in Mobile Guides, Mobile HCI 2007
+
+Publication date:
+2007
+Document Version
+Early version, also known as pre-print
+Link to publication from Aalborg University
+
+Citation for published version (APA):
+Kjeldskov, J., & Paay, J. (2007). Augmenting the City with Fiction: Fictional Requirements for Mobile Guides. In
+K. Cheverst (Ed.), Proceedings of HCI in Mobile Guides, Mobile HCI 2007 (pp. 1-6). University of Lancaster.
+http://people.cs.aau.dk/~jesper/pdf/conferences/Kjeldskov-C45.pdf
+
+General rights
+Copyright and moral rights for the publications made accessible in the public portal are retained by the authors and/or other copyright owners
+and it is a condition of accessing publications that users recognise and abide by the legal requirements associated with these rights.
+? Users may download and print one copy of any publication from the public portal for the purpose of private study or research.
+? You may not further distribute the material or use it for any profit-making activity or commercial gain
+? You may freely distribute the URL identifying the publication in the public portal ?
+Take down policy
+If you believe that this document breaches copyright please contact us at vbn@aub.aau.dk providing details, and we will remove access to
+the work immediately and investigate your claim.
+Downloaded from vbn.aau.dk on: December 04, 2021
+
+Augmenting the City with Fiction:
+Fictional Requirements for Mobile Guides
+Jesper Kjeldskov and Jeni Paay
+Aalborg University
+Department of Computer Science
+Fredrik Bajers Vej 7E
+DK-9220 Aalborg East, Denmark
+
+{jesper, jeni}@cs.aau.dk
+ABSTRACT
+
+the move with facts about the reality that they are in. However,
+let’s face it, people cannot live by reality alone! Reality is
+everywhere. It is right there in our face when we wake up in the
+morning, and it continues to sneak up on us throughout our day, in
+the car, in our offices, in the tearoom, and at the dinner table. In
+recent years it has even invaded our TVs; not only through eternal
+streams of live news from wherever, but also through endlessly
+boring reality TV shows documenting minute-by-minute details of
+peoples’ mundane lives. Perhaps this is why we spend quite a lot
+of effort (and money) on escaping reality. People need
+wonderment [19]. We daydream, we go to the cinema, we rent a
+video, or we read or listen to a book. We like to immerse
+ourselves in imaginary worlds and stories as way of escaping
+every day life. We like to immerse ourselves in fiction.
+
+In this position paper, we discuss the user experience of a new
+genre of mobile guide services, which augments the users’
+physical surroundings with fiction rather than with facts. First, we
+outline sources of inspiration from fiction, storytelling in place
+and on the move, and related research within the area of
+interactive narratives and location-based games. We then present
+and discuss five overall types of fictional mobile guides embodied
+by the metaphors of 1) treasure hunts, 2) jig-saw puzzles, 3)
+playing dominos, 4) playing scrabble, and 5) collecting butterflies.
+Finally, we describe a preliminary design idea for a prototype
+system intended to explore the design, implementation, and user
+experience of fictional mobile guides.
+
+So why not let mobile guides provide people with fiction about
+their physical surroundings rather than just facts? Inspired by this
+question, we have engaged with a stream of research exploring the
+user experiences achieved by “augmenting the city with fiction”
+and looking at some fundamental questions related to doing this.
+How can mobile guides provide for peoples’ desire for fictional
+content? How can quality storytelling benefit from its listeners
+being on the move or located in a particular place? How can we
+characterise different types of context-aware or location-based
+stories? How can we narrate engaging stories, which take into
+consideration the listener’s location, movements over time, and
+perhaps even social context? How can we design and implement
+useable media for this genre of storytelling? In short, what are the
+fictional requirements of a mobile guide?
+
+Categories and Subject Descriptors
+H5.2. [Information interfaces and presentation (e.g., HCI)]:
+User Interfaces - User-centred design, Graphical user interfaces.
+
+General Terms
+Design, Human Factors.
+
+Keywords
+Location-Based Services, Interactive Narratives, Fiction
+
+1. BACKGROUND
+In our recent research, we have been exploring the design,
+implementation, and user experience of context-aware and
+location-based mobile information services, which “augment the
+city” with a digital layer of information about, for example,
+people, places and the users’ physical surroundings [14]. Common
+for our research has been that the systems and services explored
+have provided users with factual information, that would
+sometimes otherwise be invisible, from which people could then
+decide what to do while socialising out on the town; where to go,
+how to get there, what to do there, who to meet up with etc. In
+many ways, this matches the majority of research and design
+being done within the area of mobile guides: providing users on
+
+2. INSPIRATION AND RELATED WORK
+Making interactive narratives and relating stories to locations are
+not new ideas on their own. However, combining the two into
+dynamic narratives that respond to the users/receiver’s location
+and interactions in physical space over time is a relatively new
+phenomenon with key references in the research literature dating
+only a few years back.
+Early context-aware mobile guides such as Cyberguide [1], the
+Lancaster GUIDE [7] and Hippie [18] provided visitors, city
+travellers and museum tourists with location-based experiences
+which included pertinent information and guidance about their
+current location, but did not focus on narrative issues. However
+they act as useful vehicles for exploring and understanding
+important interaction and technical issues about designing mobile
+guides. Location-based mobile games such as Pirates! [4],
+ARQuake [20], Mindwarping [21] and Can You See Me Now? [2]
+offer inspiration for potential new applications for location-based
+technologies, and offer us additional vehicles for studying
+
+Permission to make digital or hard copies of all or part of this work for
+personal or classroom use is granted without fee provided that copies are
+not made or distributed for profit or commercial advantage and that
+copies bear this notice and the full citation on the first page. To copy
+otherwise, or republish, to post on servers or to redistribute to lists,
+requires prior specific permission and/or a fee.
+MobileHCI ’07, September, 2007, Singapore.
+Copyright 2004 ACM 1-58113-000-0/00/0004…$5.00.
+
+1
+
+important aspects of interaction design for emerging contextaware technologies designed to operate ‘in the wild’. In particular,
+Can You See Me Now?, with its engaging artistic experience of
+seamlessly connecting online players in a virtual world to play
+against real players in the actual city, demonstrates new potentials
+for human interaction with computers and with each other.
+
+an element of storytelling to our lives in situations where we have
+previously had to resort to the printed word (i.e. on the way to
+work in the train) or broadcast media and narratives, and therefore
+centrally controlled (i.e. listening to the radio while driving). Now
+we can decide what we want to listen to and where – so why not
+take this further and incorporate our surrounding environment into
+the story.
+
+Beyond these applications that provide users with a
+straightforward gaming experience, is the emerging area of
+location-based games, which incorporate stories into the mix to
+enhance the user experience with fiction. Backseat Playground
+[12] provides a narrated experience interweaving a crime mystery,
+visible physical elements of the environment and gaming for
+children sitting in the back seat of a car, while on a journey. Uncle
+Roy All Around You [3] is a programmed game that involves the
+surrounding city, live actors, online and street players to follow a
+set of pre-scripted clues to find Uncle Roy’s office.
+
+3. AUGMENTING THE CITY w. FICTION
+Inspired by the works and research described above, we have
+explored conceptual ideas for mobile guide systems that augment
+the city with fiction related to the users’ location and immediate
+surroundings. So far, our work has consisted of literature research
+and a series of open-ended brainstorming sessions and design
+workshops during the first half of 2007. In these sessions and
+workshops we have particularly focussed on the interplay between
+stories, locations, time, and people’s social context, as well as
+exploring the interplay between interactivity and narrative
+structure. From this preliminary work, we have produced five
+metaphors for different types of fictional mobile guides:
+
+The delivery of location-based stories using mobile technology is
+a new area of research, which includes applications such as Urban
+Tapestries [13], Riot! [5], Hopstory [17] and Geist [15]. Urban
+Tapestries is a collection of stories, histories, experiences and
+events of a community linked to familiar and related locations.
+Riot! delivers authored episodes triggered by specific locations
+about an historical riot that happened in and around Queens
+Square where the installation operates. Hopstory allows visitors to
+an historic brewery to collect location related video vignettes as
+they navigate the building, and then view their collected story at
+the end of the visit. Geist provides and augmented reality
+experience for visitors to the city of Heidelberg, which combines
+history and fiction to allow the viewer to experience how it felt to
+be in that city during the 30 Years’ War in the 17th century. These
+applications are the most inspiring for our current research as they
+provide experience and understanding of peoples responses to a
+city augmented with fiction.
+
+1)
+
+Treasure hunts
+
+2)
+
+Jig-saw puzzles
+
+3)
+
+Dominos
+
+4)
+
+Scrabble
+
+5)
+
+Collecting butterflies
+
+These are described in detail below.
+
+3.1 Five Metaphors for Fictional Guides
+3.1.1 Treasure hunts
+“Treasure hunts” are linear
+stories characterized by a fixed
+series of parts or chapters,
+which the receiver has to read
+or listen to in correct sequence,
+as prescribed by the author, in
+order to get to the end. As
+when finding a hidden treasure
+from a map, they have to
+follow the correct path on the
+treasure map to get from a
+designated starting point to the
+place marked by the red X.
+
+Anecdotally, people’s desire for storytelling and important aspects
+of that fiction can be seen in popular stories of our time. Many
+best-selling novels illustrate the appeal of blurring of boundaries
+between fact and fiction, supporting the need for the “suspension
+of disbelief’” in story telling. The Da Vinci Code [6] sold over
+60.5 million copies, was translated into 44 languages world-wide,
+is the thirteenth best selling book of all time, and inspired a
+feature-length movie which was the second highest grossing
+movie of 2006, world-wide. The Da Vinci Code establishes its
+sense of intrigue and allurement from a clever interweaving of
+things that we know to be historical facts and real places with
+“believable” stories involving these elements. Crime fiction
+becomes all the more evocative when it locates its scenes in
+places that we are familiar with, and invites us to believe that this
+has happened in that location. For example, crime stories by the
+prolific Melbourne writer, Kerry Greenwood, about a Melbourne
+baker [9][10][11] walks us through the streets of Melbourne and
+possibilities of dark happenings that we are unaware might be
+occurring in the city we think we know so well. This technique is
+also brought into play in several location-based storytelling
+applications, for example, Riot! [5] Hopstory [17] and Geist [15],
+all bring this technique into play.
+
+Applying the “treasure hunt” metaphor to the user experience of a
+fictional mobile guide, this means that users have to move
+physically from place to place, in the correct sequence, in order to
+get through the story as envisioned by the author. The story has a
+fixed starting location as well as a fixed end location. This
+provides the author with a large degree of control over the
+narrative in terms of classic principles of storytelling such as
+creating a plot, building up tension, deciding, introducing key
+characters at key times, etc. However, because each fragment of
+the “treasure hunt” story is linked to a specific physical location,
+the author furthermore gains an opportunity to use features of this
+location as a powerful backdrop for their story (e.g. visuals,
+sounds, smells, buildings, typical people etc.). At the same time,
+of course, this also makes the story sensitive to the dynamics of
+physical space, for example, throughout the day and the night and
+across the different seasons of the year. From a user experience
+point of view, “treasure hunt” types of fiction in the city require a
+
+Further supporting our understanding that people are looking for
+aural input while on the move is the meteoric rise in popularity of
+the iPod, mp3 players generally, and now mobile phones with
+audio listening capabilities to supplement and even disconnect
+people from their daily realities. This has recently been extended
+beyond music to the downloading of pod-casts and e-books to add
+
+2
+
+high level of mobility and interaction in the physical world, but
+provide a low level of interactivity with the actual narrative both
+in terms of its content and in terms of its composition.
+
+can be paired by means of similarity from one to another. The first
+piece limits the number of possible subsequent pieces, and only
+through specific other pieces can some others now be fitted.
+
+Uncle Roy All Around You [3] is an example of this type of
+fictional mobile guide, where you need to follow pre-scripted
+clues to get to a specific end point, with clues attached to specific
+locations.
+
+Applying the “dominos” metaphor to the user experience of a
+fictional mobile guide, when people pick up a story in a place, the
+next story given to them will have some sort of link with this one.
+As an example, entering a café may trigger a story about a murder
+in this place, which could then trigger a story about a related
+murder on a ship when subsequently going to the docks. Starting
+at the docks, however, could trigger a story about a sailor
+discharging from his ship, which could then trigger a story about a
+love affair between a sailor and a barmaid when subsequently
+going to the café. Each story is loosely related to the previous one
+but the author does not predetermine pairing them. From the
+author’s point of view, this gives complete control over each short
+story in terms of storytelling, and each story can be tailored to
+match the backdrop of a particular physical location. Through
+careful selection of keywords for pairing of stories, the author can
+to some extend influence the possible sequences by which stories
+can be put together. From a user experience perspective,
+“dominos” types of fiction in the city have limited interactivity in
+terms of controlling what story is presented where, but at the same
+time each user interaction along the way has a large impact on
+future discourse. Associations between each specific story provide
+the thread through the overall experience.
+
+3.1.2 Jig-saw puzzles
+“Jig-saw puzzles” are nonlinear stories characterized
+by consisting of a number
+of parts or chapters that the
+receiver may read or listen
+to in any order they like in
+order to create the whole
+story. Just like assembling a
+jigsaw puzzle, the user has
+to work out which pieces fit together in order to create a
+meaningful whole. Any piece can be picked up at any time, but
+each piece only makes sense in relation to particular other pieces.
+The sequence of assembly does not affect the outcome in itself but
+may influence peoples’ experience of the story. All pieces have to
+be considered in order to complete the picture.
+Applying the “jigsaw puzzle” metaphor to a fictional mobile
+guide, users are free to pick up the different pieces of a story
+located around the city in any sequence they like, but have to find
+all the pieces, and put them together themselves, in order to
+complete the story as thought of by the author. The story has no
+fixed starting location and no fixed end location. Obviously, this
+takes some of the author’s control away in respect to the flow of
+the narrative, and requires the author to create meaningful
+fragments that can be read or listened to individually and in
+random order. However, from a user experience point of view,
+“jigsaw puzzle” types of fiction in the city increase the level of
+interactivity in terms of composition, and have a built-in quality
+for exploration in terms of finding the next piece as well as
+putting the pieces together. For example, one story fragment may
+inspire what pieces to look for next, and contain clues about
+where in the city to find them.
+
+Hopstory [17] with its linear plot, delivered from different
+character viewpoints, provides a collection of scenes, which are
+interesting entities in themselves. They are collected at specific
+locations but in any order, and can be strung together at the end of
+the experience to create an ordered story, which is loosely
+controlled by time thereby exhibiting the characteristics of a
+“dominos” type fictional mobile guide. Backseat Playground [12]
+can also be regarded as this type of guide as its linear plot allows
+user interaction with the system to influence the story to branch in
+different directions.
+
+3.1.4 Scrabble
+“Scrabble” describes stories that
+have
+a
+high
+interactive
+complexity and, for example,
+consists
+of
+many
+small
+fragments, which can be put
+together in a large number of
+ways
+(with
+and
+without
+meaning). Similar to playing
+scrabble, the user is offered a
+number of random pieces, which may be put together to a larger
+whole. Each piece has very limited meaning on its own, but
+together they can make up meaningful constellations. As an
+example, a “scrabble” type of fiction in the city could take place
+on board a tram or bus and not only respond to the precincts
+moving past the windows but also to the people getting on and off
+during the journey sensed through, for example, Bluetooth phones
+and personal profiles. Every time a new passenger boards the
+tram, information from his or her profile is used to give the stories
+offered to the other passengers a new possible direction.
+
+Riot! [5] can be regarded as fictional mobile guide of this type, as
+it uses a collection of separate vignettes, all about one central
+story, which can be collected at controlled locations and pieced
+together by the listener to create a cohesive picture of the entire
+drama.
+
+3.1.3 Dominos
+“Dominos” are selections of selfcontained short stories related to
+physical locations where the next
+possible story depends on the
+current one. There is no overall
+storyline, and not necessarily an
+end (unless all the pieces have
+been used), and the sum of the
+pieces does not necessarily make
+up a greater whole (as with the
+jigsaw puzzle). However, each
+step of the way there a link from one story to the next by means of
+some similarity between them. The meaning lies in the transition.
+Similar to playing dominos, each piece is a separate entity, but
+
+From the authors’ point of view, applying the “scrabble”
+metaphor makes it highly challenging to create meaningful stories
+by traditional means of storytelling because most of the control is
+left either in the hands of the users or in the hands of the
+serendipity of events taking place around them. As with all highly
+
+3
+
+dynamic and interactive narratives, this, of course, also makes
+“scrabble” type of fictional mobile guides highly challenging to
+implement. At the same time, however, it also opens up for highly
+immersive and engaging user experiences with a high level of
+interactivity as well as intriguing uncertainty about what and who
+it is in their surroundings that influences the course of a story.
+
+similar kind. The resulting collection is a highly individual
+patchwork of entities put together in a way that makes sense to
+each individual person.
+The “collecting butterflies” metaphor provides a relatively simple
+approach to creating a fictional mobile guide. When a person
+enters a particular place, he or she is offered a number of stories
+that fit this location. When moving to another place, he or she is
+offered different stories. Staying at the same place for a longer
+period of time may cause more stories to appear or some stories to
+disappear. As for “dominos”, the “collecting butterflies” metaphor
+gives the author full narrative control over each short story in
+terms of sequence and relation to particular physical surroundings.
+However, control in terms of the creation of an overall picture is
+in the hands of the user. This results in a user experience that is
+highly interactive and exploratory on one side, but at the same
+time is also opaque and constrained.
+
+A mobile fictional guide experience that exemplifies this
+metaphor is Geist [15]. From an availability of many different
+story pieces, the player uses pieces of stories collected from
+different locations to put together their own, personally unique
+story by the end of the experience. They also collect pieces of
+history and information along the way that do not necessarily
+form part of that final story, but are interesting pieces themselves.
+
+3.1.5 Collecting Butterflies
+“Collecting butterflies” are
+selections of self-contained
+short stories related to
+physical locations but with
+no predetermined relation
+to each other. Hence, as
+with “dominos”, there is
+not a greater storyline
+beyond the whole created
+by the receivers themselves. Similar to collecting butterflies,
+people are free to explore the physical space around them in
+pursuit of stories they like to collect. They may pick up an
+interesting story that they have spotted in their surroundings, take
+a closer look at it, keep it, let it go, or go looking for others of a
+
+Urban Tapestries [13] is a mobile fictional guide where the user
+can “collect butterflies” by roaming the city and collecting
+autonomous individual stories and histories which are overlaying
+the city in pertinent places.
+
+4. A PRELIMINARY DESIGN IDEA
+As a preliminary study, we are exploring the “collecting
+butterflies” approach to fiction in the city through the design of a
+simple prototype application. The idea of the system is to provide
+the reader with audio short stories related to their physical
+location, but at the same time to also provide the listener with
+some means of interaction influencing what story they are given
+
+Figure 1. An example of “collecting butterflies” type of fiction in the city combined with ambiguous user interaction. By taking a
+picture with her mobile phone camera of a particular part of a painting situated in the park, the user will receive an audio short
+story related to this location and the particular motive captured. It could, for example, involve the old clock tower.
+4
+
+in a way that is playful, ambiguous [8] and opaque rather than
+goal-oriented and transparent. Technically, we wanted the design
+to be lightweight, use off-the-shelf mobile technologies (i.e.
+mobile phones with a built-in camera, MMS, and audio playback
+capabilities), and not require dedicated software to be installed.
+
+systems embodying other metaphors described in order to
+investigate their strengths and weaknesses, we also wish to
+investigate which different types and genres of stories fit well
+with each of the described metaphors.
+
+REFERENCES
+
+Firstly, a number of salient locations around the city area of
+Aalborg are selected, and classified by location keywords (e.g.
+“waterfront”, “inner city”, “park”, “backstreets” etc.). Secondly,
+each physical location is captured in a painting with strong
+colours, which is digitised, printed as a large poster, and installed
+in a visible position at the depicted location. Each poster
+installation is given a unique ID number visible on the front along
+with a phone number for the storytelling service. Thirdly, around
+a hundred selected short stories (5-10 min) are recorded digitally,
+and classified by the same keywords used for classifying
+locations. Each story is also colour coded in terms of its general
+“mood”, after Marcus [16] (e.g. in Western culture, black = fear,
+red = passion, blue = calm, green = safety, yellow = happiness,
+white = purity). Thus, stories are related to locations and are also
+indirectly linked to the colours of the paintings.
+
+[1] Abowd, G., Atkeson, C., Hong, J., Long, S., Kooper, R., and
+Pinkerton, M. Cyberguide: A mobile context-aware tour
+guide. Wireless Networks, 3 (1997), 421-433.
+[2] Benford, S., Crabtree, A., Flintham, M., Drozd, A., Anastasi,
+R., Paxton, M., Tandavanitj, N., Adams, M., and Row-Farr,
+J. Can You See Me Now? ACM TOCHI, 13, 1 (2006), 100133.
+[3] Benford, S., Seager, W., Flintham, M., Anastasi, R.,
+Rowland, D., Humble, J., Stanton, D., Bowers, J.,
+Tandavanitj, N., Adams, M., Row-Farr, J., Oldroyd, A., and
+Sutton, J. (2004) The error of our ways: the experience of
+self-reported position in a location-based game, Proceedings
+of UbiComp 2004, Springer, London, 2004, 70—87.
+[4] Bjork, S., Falk, J., Hansson, R., Ljungstrand, P. Pirates!
+Using the Physical World as a Game Board. In Proceedings
+of Interact 2001. IOS Press, Netherlands, 2001.
+
+The envisioned user experience of the system is as follows. When
+people wander around, they identify fictionally augmented areas
+by spotting the painting installations set up around the city. They
+can then walk up to one of these installations, take a picture of a
+given part of the painting with their phone-camera, and send this
+picture along with the ID number as an MMS to the phone
+number specified. The service then sorts out the location of the
+listener, and also analyses the picture for prominent colours (or a
+predefined “hot spot” in the painting). In response, a short story is
+selected that matches the location of the reader, and the colours
+(or hot spot) of the posted picture. This is then returned to the
+listener as audio attachment to an MMS message, who can now
+take the story with them and listen to it through their headset. At
+any time, the listener can repeat the process; take another picture,
+send it to the storytelling service, and receive a new short story.
+By logging the phone numbers used to post MMS messages, the
+service makes sure that the same story is not returned to a listener
+more than once.
+
+[5] Blythe, M., Reid, J., Wright, P., and Geelhoed, E.
+Interdisciplinary criticism: analysing the experience of riot! a
+location-sensitive digital narrative. Behaviour & Information
+Technology, 25, 2 (2006), 127-139.
+[6] Brown, D. The Da Vinci Code. Bantam Books, UK, 2003.
+[7] Cheverst, K., Davies, N., Mitchell, K., Friday, A., and
+Efstratiou, C. Developing a Context-aware Electronic Tourist
+Guide: Some Issues and Experiences. In Proceedings of CHI
+2000. ACM Press, New York, 2000, 17-24.
+[8] Gaver, W., Beaver, J., and Benford, S. Ambiguity as a
+Resource for Design. In Proceedings of CHI 2003. ACM
+Press, New York, 233-240.
+[9] Greenwood, K. Earthly Delights. Allen & Unwin, Australia,
+2004.
+
+As an alternative to MMS over GPRS, file exchange could be
+done via Bluetooth through access points embedded into the
+installations around the city. Audio file download could also be
+done over the 3G network or through WiFi.
+
+[10] Greenwood, K. Heavenly Pleasures. Allen & Unwin,
+Australia, 2005.
+[11] Greenwood, K. Devil’s Food. Allen & Unwin, Australia,
+2006.
+
+5. SUMMARY
+
+[12] Gustafsson, A., Bichard, J., Brunnberg, L., Juhlin, O., and
+Combetto, M. Believeable environments – Generating
+interactive storytelling in vast location-based pervasive
+games. In Proceedings of ACE 06. ACM Press, New York,
+2006, Article no. 24.
+
+We have proposed the concept of “augmenting the city with
+fiction” as an approach to mobile guide services that presents their
+users with stories related to their physical surroundings rather than
+with facts about it. In an attempt to characterise different types of
+possible fictional mobile guides, we have proposed five
+metaphors describing different levels of narrative structure and
+possible interactivity. Embodying one of these metaphors, the
+metaphor of “collecting butterflies”, we have described a
+preliminary design idea for a prototype installation, which offers a
+collage of audio short stories through mobile phones in response
+to the listeners’ location and their “opaque” interaction with the
+service through picture-taking with their mobile phones.
+
+[13] Jungnickel, K. Urban Tapestries: Sensing the City and other
+Stories. Proboscis "Cultural Snapshot" no. 8, available at
+http://urbantapestries.net/ (2004).
+[14] Kjeldskov J. and Paay J. Public Pervasive Computing:
+Making the Invisible Visible. IEEE Computer 39, 9 (2006),
+60-65.
+[15] Malaka, R., Schneider, K., and Kretschmer, U. Stage-Based
+Augmented Edutainment. In LCNS 3031 (2004), 54-65.
+
+Our future work involves the detailed design and implementation
+of this idea into a solid service that allows for longitudinal use by
+a large number of people. Future work also involves the
+development of design ideas and prototype fictional mobile guide
+
+[16] Marcus, A. Graphic Design for Electronic Documents and
+User Interfaces. ACM Press, New York, 1991.
+
+5
+
+[17] Nisi, V., Wood, A., Davenport, G., and Oakley, I. Hopstory:
+an Interactive, Location-based Narrative Distributed in Space
+and Time. In Proceedings of TIDSE 2004. Springer, Berlin,
+2004, 132-141.
+
+[20] Piekarski, W. and Thomas, B. ARQuake: The Outdoors
+Augmented Reality System. Communcations of the ACM, 45,
+1 (2002), 36-38.
+[21] Starner, T., Liebe, B., Singletary, B., and Pair, J. MINDWARPING: Towards Creating a Compelling Collaborative
+Augmented Reality Game. In Proceedings of IUI 2000.
+ACM Press, New York, 2000, 256-259.
+
+[18] Oppermann, R. and Specht, M. A Context-sensitive Nomadic
+Information System as an Exhibition Guide. In Proceedings
+of HUC2K. Springer-Verlag, London, 2000, 127-142
+[19] Paulos, E and Beckman, C. Sashay: Designing for
+Wonderment. In Proceedings of CHI 2006. ACM Press, New
+York, 2006, 881-884.
+
+6
+
+

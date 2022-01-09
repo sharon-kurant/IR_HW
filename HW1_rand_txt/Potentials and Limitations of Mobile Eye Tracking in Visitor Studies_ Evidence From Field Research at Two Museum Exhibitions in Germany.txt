@@ -1,0 +1,1012 @@
+Article
+
+Potentials and Limitations of
+Mobile Eye Tracking in Visitor
+Studies: Evidence From Field
+Research at Two Museum
+Exhibitions in Germany
+
+Kira Eghbal-Azar1 and Thomas Widlok2
+
+Social Science Computer Review
+31(1) 103-118
+ª The Author(s) 2013
+Reprints and permission:
+sagepub.com/journalsPermissions.nav
+DOI: 10.1177/0894439312453565
+sscr.sagepub.com
+
+Abstract
+The main goal of this article is to demonstrate the potentials and limitations of mobile eye tracking
+(MET) in visitor studies and other social science research. We provide empirical examples of MET
+research in the context of a comparative study of two exhibitions at two museums in Germany. The
+article underlines the potentials of MET in combination with other methods and in comparison with
+conventional forms of observation and interviewing. On the basis of our case material we provide
+recommendations for social scientists who consider integrating mobile eye-tracking in their field
+research.
+
+Keywords
+cognitive science, mobile eye tracking, observation, visitor studies, field research
+
+Introduction: Background and Characterization of Mobile Eye-Tracking
+
+One goal of this article is to demonstrate the potentials and limitations of mobile eye tracking (MET)
+in museum visitor studies. Another goal is to provide empirical examples of visitor research and
+draw some conclusions about the potentials and limitations for future prospects of MET in museum
+visitor studies and in social science field research more generally. Thereby we hope to put anthro-
+pologists and other social scientists engaged in field research into the position to make an informed
+decision as to whether and how they may apply MET technology in their future research. We provide
+background information on the available MET tools and what is required to make good use of MET
+in field research. We then discuss the potentials and limitations of MET for visitor studies, first in
+general and second in terms of our own study at two museum exhibitions in Germany. We present
+MET results that provide us with an inventory of visitors’ scan patterns that can be used in a
+
+1 Knowledge Media Research Center, Tuebingen, Germany
+2 Radboud University Nijmegen, The Netherlands, and University of Cologne, Germany
+
+Corresponding Author:
+Kira Eghbal-Azar, Knowledge Media Research Center (KMRC) Tuebingen, Schleichstraße 6 D-72076 Tuebingen, Germany.
+Email: k.eghbal-azar@iwm-kmrc.de
+
+104
+
+Social Science Computer Review 31(1)
+
+bottom-up fashion to construct a ‘‘script’’ or ‘‘schema’’, in this case of museum exhibition visits but
+with potentially wider applications. We conclude by suggesting MET as a complementary tool for
+social science research on culture and cognition.
+
+As a first step toward understanding MET technology and the kind of data that it provides, some
+background knowledge about visual perception in action is essential. The way we perceive things
+visually differs depending on the context, for instance when being seated in an armchair reading a book
+or when sitting in front of a screen watching videos or looking at images - or when strolling through a
+museum gallery. Seeing things while being involved in bodily action involves more parts of the brain
+than in a position of rest, and it is connected especially to the ‘‘executive’’ of our ‘‘working memory’’
+(Baddeley, 2007) and to our procedural long-term memory (Land & Tatler, 2009).1 The implicit or
+procedural knowledge involved in visual perception in action is stored in schemata/scripts and is in
+a great measure unconscious in nature so that agents themselves find it hard to verbalize and manip-
+ulate their behavior (Land & Tatler, 2009; cf. Schank & Abelson, 1977 about scripts).
+
+The discussion of visual perception relies on three important technical terms which are also
+important for our assessment of MET, namely ‘‘fixations,’’ ‘‘saccades,’’ and ‘‘scan patterns’’. Our
+vision consists of so-called eye movement patterns or scan patterns or gaze patterns that are made
+of combined ‘‘saccade and fixate’’ strategies. Fixations can be explained as very short ‘‘stops’’ of
+eye movements indicating that attention is being resided somehow. Saccades are very rapid eye
+movements between fixations that are done spontaneously and that can vary in duration. During
+saccades we can hardly perceive anything, we are basically ‘‘blind.’’ Hence, eye movements are
+not done smoothly but in an apparently zigzag fashion that seem to be done very unsystematically
+at first (Land & Tatler, 2009). Eye-tracking technology records these movements and it is the first
+task of MET data analysis to distinguish fixations from saccades and then to investigate correla-
+tions between the observed patterns, meanings and the goals of attention (cf. Holmqvist, Nystro¨m,
+Andersson, Dewhurst, Jarodzka, & van de Weijer, 2011).
+
+Whereas stationary eye trackers require participants to be seated in front of a screen, METs can be
+mounted on the participants’ head while they move around freely engaging in various tasks. There are
+a number of head-mounted eye tracking devices available. We have used the ASL MobileEye and the
+Locarna PT Mini (see below) but many of the following points refer to MET technology in general.
+All of these devices generally work with two cameras (see Figure 1): a scene camera that records
+the scene and the environment from the participant’s perspective and an eye camera that records his
+or her eye movements using harmless infrared lights, the so-called dark pupil tracking. The two cam-
+eras are mounted on frames of a pair of eyeglasses but most devices only record one eye of the par-
+ticipant. These glasses sometimes are mounted on a cap or even on a helmet. As Figure 1 shows,
+most devices today still need to be fixed in a very stable manner on the participants’ head. However,
+the current trend is to produce MET devices that are worn like regular glasses by the participant and
+that can track both eyes (so-called binocular eye-tracking) which reduces the parallax error of our
+two-eyed vision that is more pronounced when relying on MET technology that tracks only one eye
+(cf. www.eyetracking-glasses.com or http://www.tobii.com/en/analysis-and-research/global/ and cf.
+Holmqvist et al., 2011, p. 60 for parallax error).
+
+Since both separately recorded videos have to be brought together and processed into a single
+video by a computer after recording has taken place, the calibration of the cameras is essential. What
+processing does is to synchronize the two recordings so that we receive a single video with a marker
+(a fixation cross or circle) that is permanently shown while we watch the recorded scene from the
+participant’s perspective. This video indicates eye movements in action based on the eye camera
+together with the picture of the three-dimensional space through which the participant has moved
+(cf. Mayr, Knipfer, & Wessel, 2009 and the manuals of MET devices). This process makes MET
+rather complex to use in field research, making some preparatory training with this technology nec-
+essary (Holmqvist et al., 2011, p. v-vi, 1).2
+
+Eghbal-Azar and Widlok
+
+105
+
+Figure 1. Calibration of a mobile eye tracker (photo: Kira Eghbal-Azar).
+
+One of the reasons why eye tracking has not yet played a role in the social sciences is that in its
+stationary version it requires a typical experiment-like setting, cutting out the social context and
+the context of agency. With MET becoming more readily available, this limitation is less severe
+today.3 We therefore suggest MET as a new feasible method for social scientists conducting field
+research, but we are also aware that a number of problems still remain that researchers need to take
+account of.
+
+Pros and Cons of Mobile Eye Tracking Technology in the Context of
+Visitor Studies
+
+In their summary of visitor studies methodology Yalowitz and Bronnenkant (2009) are expressing
+the dominant view when they stress that the main method regarding visitor studies is still observa-
+tion, no matter how observation data are collected: e.g. by the paper-and-pencil technique or through
+videotaping or other tracking technologies.4 The same probably holds more generally since many
+social scientists, especially anthropologists, who are conducting field research all over the world,
+continue to apply the paper-and-pencil technique for observation in the field. We do not expect that
+MET technology will completely replace these other forms of observation but that it will be com-
+plementary - in what ways remains to be seen.
+
+Mayr et al. (2009) provide a pioneering exploratory MET study with ‘‘first insights into informal
+learning in museums’’ (p. 195.). However, they neglect that visitors are not simply ‘‘integrating
+information that is spatially distributed’’ (p. 190.) but are engaged in what could be called ‘‘appro-
+priating’’ the exhibition. Appropriating exhibitions means that visitors are not only gathering infor-
+mation but are also actively looking for an emotional and aesthetical experience (Hein, 2000) in a
+particular social setting (Falk, Koran, & Dierking, 1986), a point to which we shall return below. In
+their summary Mayr et al. (2009) list four potentials of MET as a recording device (p. 196-197.)
+which can be taken as a useful point of departure:
+
+106
+
+Social Science Computer Review 31(1)
+
+Figure 2. Mobile eye tracking (MET) study at the Linden-Museum Stuttgart ‘‘Pacific Oases’’ exhibition (photo:
+Kira Eghbal-Azar).
+
+1.
+
+‘‘Data richness’’ through the inclusion of information about the environment (e.g., other visitors
+present, the visibility, or approachability of objects and media).
+
+2. High external ‘‘data validity’’ because data are recorded ‘‘objectively’’ by cameras (p. 196),
+reducing perspective errors and providing more ecological validity due to applicability in nat-
+ural settings.
+
+3. Providing a ‘‘nonreactive measurement,’’ because eye movements can hardly be manipulated
+due to its unconsciousness (see above) so that it can be usefully related independently to con-
+scious reflection (see below).
+
+4. Allowing statistical analysis, depending on the sample size and research question.
+
+Mayr et al. (2009) then go on to list eight limitations of MET (pp. 198–200):
+
+1. No recording of ‘‘covert attention and mental spotlight’’ since eye fixations per se do not tell us
+
+anything about the goal of the visitor’s attention.
+
+2. Only ‘‘limited conclusions about cognitive processing’’ are possible because the conclusions
+that we arrive at through MET are typically ‘‘interpretations of eye-tracking data that are often
+based on assumptions and heuristics about underlying cognitive processes’’ (p. 198).
+
+3. Some ‘‘obtrusiveness of measurement’’ as data might be distorted because visitors are aware of
+
+4.
+
+5.
+
+being evaluated by the MET or are simply irritated by wearing it.
+‘‘Selective sampling’’ in the sense that not everyone can wear an MET device since visitors with
+corneal dysfunctions (that prohibit reflections of the infrared lights) or who wear regular glasses
+are disqualified (Since then devices have become available, e.g., from Locarna, that allow wear-
+ing regular glasses in addition to the eye tracker).
+‘‘Limited temporal and spatial accuracy’’: There is (currently) a time limitation due to the
+temporal resolution of eye trackers that has to be divided for the recording of two videos at
+the same time (hence 50 Hz in fact mean 25 Hz), so that very short fixations might be
+
+Expert
+Expert
+Expert
+Expert
+Novice
+Novice
+Novice
+Novice
+
+Expert
+Expert
+Expert
+Expert
+Novice
+Novice
+Novice
+Novice
+
+Eghbal-Azar and Widlok
+
+107
+
+Table 1. Sample of the Mobile Eye Tracking (MET) Study at the Linden-Museum Stuttgart ‘‘Pacific Oasis’’
+Exhibition: Visitors’ Social Data.
+
+Visitor Category
+
+Gender
+
+Age
+
+Profession
+
+Male
+Female
+Female
+Female
+Male
+Male
+Male
+Female
+
+25
+24
+24
+24
+36
+29
+25
+19
+
+Student of cultural anthropology
+Student of cultural anthropology
+Student of cultural anthropology
+Student of cultural anthropology
+Mechanical engineer
+Student of English philology
+Student of technology management
+Student of linguistics
+
+Table 2. Sample of the Mobile Eye Tracking (MET) Study at the LiMo ‘‘Nexus’’ Exhibition in Marbach: Visitors’
+Social Data.
+
+Visitor Category
+
+Gender
+
+Age
+
+Profession
+
+Male
+Female
+Male
+Male
+Female
+Male
+Male
+Male
+
+23
+24
+27
+24
+23
+43
+24
+32
+
+Teacher trainee for German
+Teacher trainee for German
+Master degree in German studies
+Student of philology
+Student of Roman philology and history
+Technician for machine tools
+Student of software engineering
+Student of philosophy and industrial mechanic
+
+missed. If distances between the visitor and objects often differ from the calibrated distance
+the spatial accuracy is not given at all times (p. 199; the parallax error, see above). Like
+every single lens camera the scene camera only records one part of the world and is more
+limited than our vision.
+‘‘Laborious data analysis’’ is required because data analysis has still to be done largely manually
+by the researcher due to the mobile setting that allows visitors to walk individually through gal-
+leries so that the stimuli and scenes change all the time.5
+
+6.
+
+7. Costs: METs are very expensive (each of the devices we used in our study costs around 25 000
+
+Euro, binocular mobile eye-trackers are currently sold at around 40.000 Euro).
+
+8. New ‘‘ethical concerns’’: Because participants can hardly manipulate or hide their eye move-
+ments, a point that has to be included in procedures of consent and at the same time this is one
+of the important assets of this technology.
+
+In conclusion, Mayr et al. (2009) suggest combining MET with other methods such as interviews,
+questionnaires, or verbal reports to gain valid interpretations of scan patterns. One of the reasons
+why MET needs to be combined with other methods is that the marker (based on the eye camera)
+that is permanently shown in the processed MET video data cannot be equalized all the time with
+actual attention to the object or scene captured by the scene camera. While past research assumed
+a strong ‘‘eye-mind hypothesis’’ (Just & Carpenter, 1980) as if eye movements would provide a
+direct insight into cognition, current research does not assume that we can draw simple conclusions
+from fixations and scan patterns to the goals of attention and to the underlying cognitive processes
+(Mayr et al., 2009; Land & Tatler, 2009). Complementary to MET there are three different kinds of
+verbal reportings which may be selected according to the research question or the task at hand and
+
+Social Science Computer Review 31(1)
+
+108
+
+Tasks
+
+Table 3. Estimated Time Effort for Preparing and Analyzing the Mass of Data.
+
+Details
+
+Total time (min)a
+
+Transcription of all reports
+
+10 min transcription time for one min
+
+Connecting all audio recording of reporting
+
+Approx. 30 min for one video
+
+audio recording
+
+with corresponding MET videos
+
+(estimated)b,e
+
+MET manual data analysis without audio
+
+Estimated 1 min recording ¼ 5–20 min
+
+4420–17,680
+
+MET manual analysis with audio (estimated)c,e
+
+Estimated 1 min recording ¼ 10–25 min
+
+8,650–21,625
+
+Transcription of all interviews
+
+10 min transcription time for 1 min
+
+8,650
+
+480
+
+3,460
+
+540
+
+Estimated time requirement for preparing
+
+Corresponds to 11-22 weeks of full-
+
+26,200–52,435
+
+manual data analysis
+
+manual data analysis
+
+audio recording
+
+time work
+
+Connecting all interviews with
+
+corresponding questionnaires
+
+data for analysis and analyzing all
+16 videos with and without audio
+completely on the microleveld
+
+Note. aData analysis is not yet fully completed. Results mentioned in this article are preliminary results to provide potentials of
+MET.
+bCalculation based on MET recording.
+cCalculation based on audio recordings of cued retrospective reporting.
+dMicrolevel ¼ all 10 distinct scan patterns that have been found exemplarily in both MET studies so far. Time requirement
+excluding needed breaks during manual data analysis and excluding analysis of Interview/questionnaires.
+eData analysis of MET data depends on visitors’ behavior, level of analysis, number of displayed exhibits, and given information
+in the exhibition, size of the exhibition area, kind of analysis (with or without audio), and the experience of the researcher.
+These time efforts are estimations because the 16 tests are not yet fully analyzed. The preliminary results mentioned in this
+article are based on manual video data analysis concerning systematic, repeating, and eye-catching scan patterns.
+
+with respect to the relevant memory system. These are concurrent, retrospective or cued retrospec-
+tive reporting (cf. van Gog, Paas, van Merrienboer, & Witte, 2005; van Someren, Barnard, &
+Sandberg, 1994; Ericsson & Simon, 1993):
+
+—Concurrent reporting means verbal reporting while doing a particular task.
+—Retrospective reporting means verbal reporting in retrospection after completing the task.
+—Cued retrospective reporting means verbal reporting after completing a particular task with a
+
+cue, in this case typically while watching the processed recording.6
+
+In our own study, described in more detail below, we have chosen for cued retrospective reporting
+since it promises to lead to more exact and controlled results as the given cue (a processed eye track-
+ing video) triggers more exact memories which would otherwise be constructed without the assis-
+tance of a cue (cf. van Gog et al., 2005).
+
+Mobile Eye-Tracking in the Field: Two Exhibitions at Two Museums as a
+Comparative Test Case
+
+The potentials and limitations outlined above were arrived at through a single study that consisted of
+an exhibition set up solely for the purposes of exploring MET with three participants (Mayr et al.,
+2009). We now report on research in two settings that were natural in the sense that the two com-
+parative case studies were carried out at museums with regular exhibitions that were set up by cura-
+tors with a conventional training in their field for just plain visitors who frequent these museums.
+
+Eghbal-Azar and Widlok
+
+109
+
+Table 4. Time Effort Conducting the Two Comparative Mobile Eye Tracking (MET) Studies.
+
+Tasks (chronologically)
+
+Details
+
+Total time (Min)
+
+Test setups at the museums
+Calibrations
+MET recordings
+
+60 min/test
+Varied from 5 min to 30 min (including breaks)
+Varied from 12 min 52 sec to 1 hr 16 min 30
+
+sec (excluding breaks)
+Equates appr. recording time
+
+MET data processings
+Cued retrospective reportinga
+(separate audio recording)
+Interviewsb
+Removals of test setups at the museum 60 min/test
+Time requirement for the 16 tests
+Time schedule for data collectionc
+
+One day of work for each test
+
+960
+240
+884
+
+884
+
+865
+346
+960
+5,139
+16 days
+
+Note. aPure reporting time without preparation and instruction time. Differentiates from MET recording time due to time
+spent in exhibition and time spent reporting.
+bStandardized interviews based on a questionnaire with open and closed questions. These interviews have been recorded
+completely. Closed questions had been documented on the questionnaires as well.
+cNote that five tests did not work out due to technical issues. So in fact data collection took much longer to get the complete
+sample size of n ¼ 16.
+
+Putting the MET at work in these ‘‘wild’’ conditions is a more realistic test case of this tool for inter-
+ested field researchers. The results that constitute our empirical examples are preliminary as they
+await full analysis in a forthcoming PhD thesis (Eghbal-Azar, forthcoming). The two exhibitions
+concerned were the temporary exhibition: ‘‘Pacific Oases: Living and Surviving in the West
+Pacific’’ (at the Linden-Museum Stuttgart, Figure 2, cf. Heermann, 2009) and the permanent exhi-
+bition: ‘‘nexus’’ at the Museum of Modern Literature (LiMo) in Marbach (cf. Gfrereis, 2009). The
+overall project covers a broad range of issues to do with the distinction of the culturally close (mod-
+ern German literature in Marbach) and the culturally distant (Pacific ethnography in Stuttgart) with
+regard to the visitors who are resident in Germany. Other issues of comparison concern the modes of
+the exhibitions (temporary versus permanent exhibition) and particular presentation styles of dis-
+playing objects and modes of implementing the use of various digital and non-digital media in cor-
+respondence with the particular intentions of the curators. Furthermore the two exhibitions are
+placed in institutions that are very different in terms of their histories and buildings (old versus
+newly established) and with regard to their subject matter. Despite these differences there is one
+common feature that is very relevant in the context of MET studies, namely that both exhibitions
+do not suggest a single or main pathway for visitors.
+
+Two different eye trackers were used in the two exhibitions: We applied the ASL MobileEye eye
+tracker (designed 2004; http://www.asleyetracking.com/Site/Products/MobileEye/tabid/70/Default.
+aspx) for the MET study at the Linden-Museum Stuttgart (see Figure 2) and the Locarna PT Mini
+(designed 2010; http://www.locarna.com/products.html) at the LiMo in Marbach. Our sample size
+was eight visitors in each of both MET studies (n ¼ 16 in sum). These were in each case four
+‘‘experts’’ (visitors with prior knowledge of the subject matter, e.g., students of German studies
+or cultural anthropology) and four ‘‘novices’’ (with only cursory or even no prior knowledge of the
+subject matter). At this stage we have not yet fully analyzed differences between ‘‘experts’’ and
+‘‘novices’’. As far as the authors know, these two comparative MET studies to date had the largest
+sample size for examining regular exhibitions applying MET technology. For more information
+about both samples see Tables 1 and 2.
+
+All visitors had been first-time visitors to the exhibitions and had no prior knowledge about
+these exhibitions or how to navigate through them. We applied MET in both cases in an
+
+110
+
+Social Science Computer Review 31(1)
+
+exploratory fashion, to help documenting and analyzing the scan patterns of visitors, i.e. what vis-
+itors ‘‘really viewed’’ as they moved freely through the exhibition. According to Land & Tatler
+(2009, p. 41) ‘‘free-viewing’’ allows the visitor ‘‘to select their own high-level approaches to look-
+ing at scenes’’. Consequently, by recording free viewing as detailed as possible we were aiming to
+find their implicit scripts and strategies or what one may consider their natural, habitual way of
+appropriating exhibitions. All visitors got the following open and standardized instruction for their
+exhibition visit after calibrating the MET: ‘‘Please view the exhibition naturally at your own
+speed, following your own wishes and needs. There are no further specifications, even no time
+specification on how to carry out this visit. Your knowledge acquisition about the exhibition will
+not be tested afterwards’’.
+
+Since we wanted to find out what the visitors actually attended to during their visit we used cued
+retrospective reporting to elicit their goals of attention, avoiding priming effects as much as possible.
+After the exhibition visit all visitors were asked to watch their own processed eye-tracking video and
+to verbalize with this cue in retrospection. At that stage, we gave the following standardized instruc-
+tion: ‘‘Now I present you the video recorded by the MET during your visit of the exhibition. While
+watching the video, please describe spontaneously what you viewed, perceived, thought and felt at
+various points and what you paid attention to.’’ We also conducted interviews directly after the
+reporting.7
+
+The figures we provide give an overview about the procedure, the time effort for conducting and
+analyzing these MET studies and the mass of data that even such a small sample produces (see
+Tables 3 and 4).
+
+Mayr et al. (2009, see above) listed twice as many limitations than potentials of MET for
+visitor studies. The first lesson suggested by our examples is that it is worthwhile to first dis-
+cuss the actual qualities of MET potentials before starting to compare potentials and limitations
+by counting them. What are, in fact, the benefits of applying MET in our research? After all,
+the costs (time, money, energy) are considerable. Is MET really worth doing? If MET as an
+objective measurement cannot measure aesthetical experiences, as it has been criticized
+(Kaube, 2010), why bother?
+
+Here are some details of our research that speak to these broad questions:
+
+Eye movements in action are very rapid (Land, & Tatler, 2009). For example, a sequence of one
+visit to the literature exhibition that lasted about 10 sec included no less than eight distinct scan pat-
+terns that the MET recorded! There is no way that applying conventional observation methods could
+record such a large number of rapid changing behavioral patterns in such a detailed manner over a
+long period. The observer is likely to miss out some patterns because observation depends on the
+acute awareness of the observer (with no rewind option). By contrast, exploratory MET data can
+be stored and then analysed repeatedly.
+
+Detail 1:
+
+Detail 2:
+
+In conventional observation, head and body movements can be treated as a proxy for scan pat-
+terns, but there are eye movements that are done without moving the head or the rest of the body
+which do show up in the MET record but which otherwise would remain undetected (cf. Mayr
+et al., 2009). For example, we observed an ‘‘alternating gaze’’ between two tiny exhibits that are
+positioned very close to each other so that the visitor does not even have to move his or her head
+but only the eyes.8 Without MET these gazes would be undetected because there are no indicators
+from which an observer could conclude the visitors’ gaze.
+
+Eghbal-Azar and Widlok
+
+Detail 3:
+
+111
+
+Conditions in the museum gallery can make observation difficult or even impossible due to an
+obstructed view caused by the particular style of the presentation or simply by too many other vis-
+itors being in the way, by light reflections or by relative darkness. At the LiMo, this forced us to drop
+conventional observations at the level of objects in close proximity within the showcases in favour of
+the larger scale only, while the MET allowed us to include the participants’ perspective at all levels.
+The often unpredictable and uncontrollable obstructions that make conventional observation diffi-
+cult were bypassed applying MET.
+
+Detail 4:
+
+Even when eye movements can be observed, fixations never can due to their very nature (cf. Mayr
+et al. 2009). In the example given earlier in Detail 1, eight fixations were made within 10 sec. Two of
+these eight fixations were directed at a pistol that was exhibited. While these fixations indicate that
+attention is being arrested, we still do not know the goal of attention and the reasons for paying atten-
+tion until we combine MET data with other methods. MET therefore also serves a function as an
+exploratory tool and not just as a tool for quantifying observations and for testing assumptions as
+might be expected. It does not exclude other approaches to aesthetical experiences but it may com-
+plement them in interesting ways.
+
+Implication of Mobile Eye Tracking Data for Current Controversies in
+Visitor Studies
+
+From these details we may draw some intermediate conclusions, the most important one being the
+need for combining MET with other methods. These combinations may be similar to what Mayr
+et al. (2009) suggest but other, additional ideas for further possible combinations emerge from our
+case material. On the basis of these empirical examples, we may revisit the issue of MET
+potentials.9
+
+Firstly, equipped with MET data we may reconsider some of the unresolved controversies in visi-
+tor studies. For instance, can we equate stopping or the time spend looking at an exhibit with attend-
+ing to this exhibit (Serell, 1997; Yalowitz & Bronnenkant, 2009)? The visitor who had given
+attention to the pistol (note it is the only pistol displayed in the literature exhibition) not only spent
+time viewing it and fixating it but also reported on it afterwards. However, there were many other
+exhibits that this visitor viewed much longer but without reporting on them. By applying MET we
+might be able to conclude that more quantity (length of time and number of stops) that we spend
+looking at exhibits, or more generally at exhibitions for that matter, do not necessarily translate into
+a qualitative difference - as Serell (1997) and other visitor researchers seem to assume. Serell (1997)
+found out that most visitors only spend about 20 minutes at an exhibition and only view one third of
+the displayed objects. There is a considerable amount of empirical research about visitors’ move-
+ment patterns in exhibitions that has been carried out since the beginning of tracking studies (without
+applying MET). The results are partially contradictory. One attempt to deal with these contradictory
+results in terms of underlying universal principles is the general value principle that assumes that
+visitors are ‘‘saving steps’’ (Bitgood, 2006). In other words, the assumption is that visitors walk
+as little as necessary in order to minimize their costs for getting more value from their visit. Since
+they do not have control over the benefits offered in exhibitions (i.e. the design of the exhibition and
+the level of information provided) they concentrate on their ‘‘costs’’ in order to arrive at an optimal
+visit (Bitgood, 2006 and Rounds, 2004). Unfortunately, ‘saving steps’ as a principle cannot explain
+every phenomenon encountered in exhibitions. Moreover, it does not account for the most important
+
+112
+
+Social Science Computer Review 31(1)
+
+and distinguishing feature that characterizes a museum exhibition visit in comparison to other forms
+of information gathering: The classical way of appropriating exhibitions compared to watching a
+movie or reading a book is ‘‘strolling and viewing’’ (‘‘gehen und sehen’’ Korff & Thiemeyer,
+2008, p. 137; cf. Korff, 2003), i. e. the ability to go off and to explore in multiple possible ways and
+from a number of perspectives. This is what makes museum exhibition visits such a unique experi-
+ence and arguably this is the main attraction that museums hold. The agendas that we have set for
+ourselves during a visit and that influence our attention (Falk, Moussouri, & Coulson, 1998) may
+override the time that we devote to a particular object and the ‘‘cost’’ factor more generally. Discuss-
+ing alternative explanations of visitor behaviour has a much better basis once we have good data on
+both, the time spent on particular objects, the fixations that go with an exhibition visit and other data
+from other sources - allowing for a triangulation of methods as George E. Hein (1998, p. 75.)
+proposed it long ago.
+
+Secondly, with MET data we may also contribute more specifically to the debate as to whether
+there is an underlying universal principle that explains the behavior of visitors and whether it con-
+sists of the type of behavioural rules that have been suggested (cf. Bitgood, 2006 and Rounds, 2004).
+In other words, we can discuss whether there is an ‘‘exhibition visit script’’ - as one may want to call
+it - for appropriating and experiencing exhibitions. On the basis of MET data we suggest that it is
+possible to reconstruct this script ‘‘bottom-up’’ by looking at distinct scan patterns that may form
+a repertoire of subscripts from which visitors draw as they combine these subscripts for their com-
+plex navigation strategies that help them to successfully meet the goals and agendas at the superor-
+dinate level (cf. Holmquist et al., 2011 and cf. Falk et al., 1998). MET data thereby allows us to flesh
+out the presumed script and add substance to the assumption that exhibition visits are guided by
+scripts.
+
+On the basis of some preliminary, manual analysis of MET videos recorded in the ‘‘Pacific
+Oasis’’ exhibition, we were able to compile a list of systematic and repetitive behavioral patterns
+that may be considered distinctive key elements of an ‘‘exhibition visit script’’. So far, this list con-
+sists of 14 scan patterns (scanning the objects and scenes displayed) that we have observed,
+described, labeled and classified (cf. Holmquist et al. 2011, p. 253-285 on the theory of scanpaths).
+However, this list is probably incomplete and it is likely that in further analysis other scan patterns
+will emerge or that closely associated scan patterns will be bundled together. Twelve of these 14
+scan patterns were operationalized for quantitative analysis so that we were able to successfully dou-
+ble check them with systematic conventional observation at the level of the nine selected sections
+within the ‘‘Pacific Oases’’ exhibition at Stuttgart. This in turn allows us to claim that there is some
+robustness of this list across different methods of observation. Ten out of these 12 patterns were also
+evident in the MET data recorded in the ‘‘nexus’’ exhibition at Marbach. This is remarkable because
+these two exhibitions are very different in many respects so that it is not trivial to ask whether there is
+a similar script at work in visits to these two exhibitions.
+
+On the basis of our preliminary data, we can now safely assume that at least these 10 distinctive
+scan patterns are very frequent in the way that visitors appropriate and experience exhibitions. They
+are good candidates for being part of the larger, general ‘‘exhibition visit script’’ that researchers
+have long assumed to be at work without having the detailed record to show what it consists of.
+
+Some of the above mentioned scan patterns appear to be particularly representative for the prac-
+tices of ‘‘looking and acting’’ (Land & Tatler, 2009) or ‘‘gehen und sehen’’ (strolling and viewing;
+Korff & Thiemeyer, 2008) in a three-dimensional gallery space. For the purposes of our discus-
+sion, here a few examples will suffice:
+
+Changing perspective: We define this pattern as sequentially and systematically viewing an
+exhibit from a number of different vantage points or perspectives, a characteristic feature
+front side/back side) of an
+that
+
+the three-dimensional space (right/left, up/down,
+
+Eghbal-Azar and Widlok
+
+113
+
+exhibition allows. For this scan pattern, visitors also have to move their head and some-
+times even their body. This provides us with indicators that are more readily observable.
+There are typical indicators from the cued retrospective response that go together with the
+visitor doing a ‘‘change of perspective’’, e.g. visitor statements such as wanting to know
+‘‘how this mask was put up’’ on the wall.
+
+Insight: We define this as looking inside an object (not necessarily from above). To realize this
+‘‘insight’’ visitors have to move closer to the exhibits first with their body and second with their
+head before they can gain a look inside. For example ‘‘insights’’ were often recorded when vis-
+itors approached the men’s house model from Palau that was part of the ‘‘Pacific Oases’’ exhi-
+bition. One participant reported about the specific characteristics of its floor structure that was
+only visible when taking the ‘‘insight’’, providing matching verbal evidence that an ‘‘insight’’
+took place.
+
+Backward gaze: Following Mayr et al. (2009) we define this pattern, typically part of an initial
+(‘‘selection of information and visual research’’, p. 195) orientation in a gallery space, as one
+that visitors employ to orientate themselves again after viewing a gallery as they gaze back-
+wards before they leave a gallery. This includes at least a combined eye and head movement
+and sometimes even an eye-head-body movement (cf. Holmqvist et al., 2011, pp. 264-265 for a
+comparable event also called look-back, return or refixation).
+
+Social gaze: We define this pattern as a gaze directed toward other persons in the environ-
+ment. Sometimes a ‘‘social gaze’’ only consists of an eye-movement but mostly it is a
+combined eye and head movement and sometimes even an eye-head-body movement.
+When visitors reported that they felt affected by staff or foreign visitors like school
+classes (their closeness or noise) they often changed their direction and moved away.
+Sometimes this report was accompanied by a ‘‘social gaze’’ which underlines that social
+factors, and other senses such as hearing, are also influencing visitors’ movement patterns
+and not only the visual affordances of the displayed objects or the presentation style.
+
+Thirdly, we note that an ‘‘exhibition visit script’’, whatever its particular form, is not made up of a
+collection of gazes and scan patterns alone. Rather, we suggest that this may be an example of what
+Hutchins (1995) has called ‘‘distributed cognition’’ since it involves aspects of the materialized exhi-
+bition, above all the ‘‘affordances’’ of objects that allow insights or of the exhibition structures that
+channelize ‘‘social gazes’’ in a certain way (cf. Gibson, 1986, pp. 127-143). Building on the earlier
+work by Mayr et al. (2009), Eghbal-Azar (forthcoming) aims to provide a first comprehensive gen-
+eric classification of museum visitors’ eye movement patterns connected to affordances in exhibi-
+tions based on mobile eye-tracking that is lacking so far. The observed scan patterns are of
+course not limited to exhibitions but form a subsection of a larger repertoire of scan patterns used
+in everyday life. The ‘‘exhibition visit script’’ would denote a particular bundle, sequence and fre-
+quency of scan patterns. Similarly the scan patterns are related to expectations (some personal,
+others publicly debated) of what there is to see in an exhibition (including the ‘‘must-sees’’).
+Although cognitive visitor research defines an exhibition visit as an ‘‘open-ended task’’ (Mayr et
+al., 2009, p. 191.), the motivations attributed to visitors are usually those of informal learning and
+receiving information. These appear to be rather passive strategies given that, in most cases, visitors
+are not allowed to act upon objects but only to view them. By contrast, the MET data supports the
+view that visitors are much more active than they otherwise may appear to be. Visitor research by
+social scientists tries to accommodate motivations and goals that go beyond effective information
+gathering, considering visitors as appropriating and experiencing exhibitions in an active and embo-
+died fashion (MacDonald, 2002, p. 219).
+
+We can therefore organize our MET observations not only in terms of a list of gazes employed by
+visitors looking for information. Rather, the observed scan patterns are also employed as navigation
+
+114
+
+Social Science Computer Review 31(1)
+
+strategies looking for emotional and aesthetical experiences and with reference for social aspects to
+do with the presence of other persons. On the basis of our results we think it is plausible (and likely)
+that an ‘‘exhibition visit script’’ typically includes a number of navigation strategies and can flexibly
+accommodate a spectrum of agendas (see above). With this conclusion we can also deal with raised
+eye-brows towards MET that criticizes the inclusion of an ‘‘objective’’ measuring device as being
+reductionist. Applying MET does not entail that exhibition visits are reduced to information gather-
+ing strategies guided by principles of optimality and rational choice (cf. Bitgood, 2006 and Rounds,
+2004) since the observed scan patterns may result from different - and at times conflicting -
+motivations and contextual conditions. Milekic (2010) has noted that MET in visitor studies
+provokes controversies between the disciplines concerned because ‘‘the major problem in adopting
+these technologies is the divide that exists between traditional notions of Art and Science.’’ We
+suggest that including the technology into different interdisciplinary approaches may help to design
+more integrated research questions and to arrive at more satisfying answers.
+
+Conclusion: The Potentials and Limitations of Mobile Eye Tracking and
+Prospects for its Use in Field Research
+
+MET in combination with other methods can provide us with new insights into very individual
+experiences, appropriation strategies, and goals of visitors. It can get us a step closer toward ‘‘strol-
+ling and viewing’’ an exhibition from the visitor’s perspective. It may also help us to detect and out-
+line unconscious ‘‘exhibition visit script(s)’’ that usually can hardly be verbalized by the agents
+themselves. These potential benefits matter to social scientists because MET opens the door toward
+an investigation that links unconscious aspects with socially and culturally constituted forms of
+embodied knowledge. It adds to our knowledge about what people look at, what they look for and
+why (cf. Land & Tatler, 2009, p. 222). Cultural schemata and scripts, whether they apply to museum
+exhibition visits or to other practices are notoriously difficult to investigate through external obser-
+vations or through videotaping alone. The strength of MET is that it can help to break down funda-
+mental questions of cognition and practice into very precise queries such as ‘‘What do persons look
+at while they are interacting with other persons and why?’’, ‘‘What do persons communicate with
+their words and what do they communicate with their eyes?’’ The answers to such precise questions
+can then be aggregated into more general ones such as ‘‘How robust is the scan pattern that an indi-
+vidual uses to view a particular scene?’’ and ‘‘How similar is this scan pattern between
+individuals?.’’
+
+MET not only generates very detailed and precise data outside the laboratory but it also allows us
+to store that data so that it can be analysed again and again quantitatively or qualitatively with many
+possible variations depending on the research question. A single MET recording thereby potentially
+provides much more data than conventional observation. As with any other method, MET, too, is
+limited in what it can provide. For instance, there are technical limitations to do with the fact that
+our visual perception is only partially captured by a camera and that applying MET presupposes the
+availability of electronic gadget also under adverse field conditions. Future technical developments
+might reduce some of these technical limitations.
+
+In the social sciences, we will want to combine MET with other methods such as field diary notes,
+interviews, questionnaires and cued retrospective reporting that provide help when trying to link our
+observations to the agents’ goals of attention. MET does not replace the investigator’s sense of
+understanding the particulars of a research setting, rather it presupposes such an underlying under-
+standing because only on this basis can we tune its application to the requirements of the research
+context and the particular research question at hand. Applying MET is often laborious, certainly at
+this stage as we are lacking a software tool for comprehensive automatic analysis. However, the real
+
+Eghbal-Azar and Widlok
+
+115
+
+challenge is the integration of this technique and the data that it produces into a social science
+research agenda that by its very nature will always rely on a number of complementary methods.
+
+Authors’ Note
+We would like to thank the German Federal Ministry of Education and Research (BMBF) for funding this
+project. We thank two anonymous reviewers who commented on an earlier version of this article, sole
+responsibility for the content of the article rests with the authors. We also thank Prof. Dr. Stephan Schwan,
+Dr. Daniel Wessel, and our student assistants, Linda Greci and Marie-Luise Saile, as well as the Media
+Technology Department of the KMRC for their support. This research would not have been possible without
+the cooperation of the Linden-Museum Stuttgart, especially Dr. Ingrid Heermann, and the German
+Literature Archive (DLA), and its Museum of Modern Literature, especially Dr. Heike Gfrereis and the
+visitors who agreed to participate in the study. We would also like to thank Prof. Dr. Thomas Thiemeyer,
+Yvonne Schweizer, and Felicitas Hartmann.
+
+Declaration of Conflicting Interests
+The authors declared no potential conflicts of interest with respect to the research, authorship, and/or
+publication of this article.
+
+Funding
+The authors disclosed receipt of the following financial support for the research, authorship, and/or publication
+of this article: This article has been generated within the research project ‘‘knowledge&museum: archive –
+exhibit – evidence’’ that is funded by the German Federal Ministry of Education and Research (BMBF) license
+number 01UB0909.
+
+Notes
+
+1. According to Land and Tatler (2009, pp. 221–223 & pp. 4–5), it involves four different systems: The visual
+system for bottom–up information about the environment; the motor system for actions within this environ-
+ment; the gaze system for deciding which information is important or needed for the task at hand; the scheme
+control system for top–down agendas of where to look, what to look for, and what to do. Visual perception of
+museum visitors is therefore a clear case of what is now called embodied knowledge in anthropology
+(Scheper-Hughes, 1994).
+
+2. Holmqvist et al. (2011) is the first guide available for eye-tracking beginners. It provides comprehensive
+information collected over many years and across many eye-tracking studies but with the clear focus on
+remote (stationary) eye-tracking for experimental lab conditions.
+
+3. Although MET devices have been commercially available since the 1980s, it took another decade before it
+became realistic to study people ‘‘outside the laboratory’’. While remote eye-tracking in labs is still favored
+(Land & Tatler, 2009, p. vii & p. 9.) ‘‘the role of vision during action can usefully be studied only during the
+performance of action itself, preferably in conditions that are as unconstrained as possible’’ (Land & Tatler,
+2009, p. vii-viii.). As mentioned above, visual perception in actions works differently from settings in front
+of computer screens. So far, MET has been commonly applied in research conducted by biologists, psycho-
+linguistics, psychologists, and cognitive scientists (Land & Tatler, 2009).
+
+4. Yalowitz and Bronnenkant (2009) provide an excellent overview about tracking studies in museums but they
+do not mention MET technology. Few experiences have been published on this new method. Mayr et al. (2009)
+conducted the first exploratory MET study in ‘‘a small exhibition about nanotechnology’’ (pp. 191–192) at the
+Knowledge Media Research Center (KMRC). Milekic (2010, webpaper) was one of the first authors who
+claimed that ‘‘eye- and gaze-tracking technologies have matured enough to be considered for use in a physical
+museum/gallery setting’’ and that ‘‘eye-tracking technologies can play a vital role in museum studies.’’
+5. We may add here that this apparent disadvantage also provides some advantages because manual analysis
+includes possibilities for the researchers who are free to define what duration is counted as a fixation and
+how to classify scan patterns. If this was done automatically, we would lose an opportunity for altering
+
+116
+
+Social Science Computer Review 31(1)
+
+parameters and comparing results which may lead to new insights in the process. In the meantime some
+devices include software that allows some semi-automatic analysis, for example the Locarna PT Mini pro-
+vides the annotator tagging tool and the SMI Eye Tracking Glasses provides the BeGaze software. However,
+it is likely that researchers will always want to do some analysis manually for the reasons just mentioned.
+6. Holmqvist et al. (2011, p. 256) talk of this technique as ‘‘cued retrospective thinking aloud’’ as an increas-
+ingly common technique ‘‘to show the scanpath to a participant just after his data has been recorded, and ask
+him to retell what he was thinking of during the initial inspection of the stimulus.’’
+
+7. After completing the MET studies, we also conducted systematic ‘‘conventional’’ observations of particular
+behavioural patterns of regular visitors. At the Linden-Museum Stuttgart this included a study of nine
+selected sections within the exhibition, while at the LiMo in Marbach we observed the complete tour that
+visitors took through the gallery. This was due to pragmatic reasons since in the latter case the relative dark-
+ness (50 Lux) of tiny lights in the showcases created many reflections that did not allow a more detailed
+observation at the level of individual showcases.
+
+8. Note that Mayr et al. (2009) already described the ‘‘alternate fixation of objects’’ (p. 194) by which visitors
+compare objects they view. It seems that this ‘‘alternating gaze’’ is in fact crucial for much information pro-
+cessing in exhibition settings. We found a number of forms of ‘‘alternating gazes’’: Some visitors
+made frequent and different kinds of ‘‘alternating gazes’’ (with eye movements but also with eye-head-
+movements and even with eye-head-body movements) between two objects, the corresponding labels, expla-
+natory texts and illustrations in order to gain more information about what to them were intriguing unknown
+objects (in this case Pacific navigation maps made of sticks).
+
+9. In our example it was the combination of MET with cued retrospective reporting that allowed us to say
+something about the goal of attention: The visitor in detail four (above) said ‘‘There was a pistol; very inter-
+esting’’ but still we do not know why he was interested in pistols (in general or in the particular context of
+this exhibition). For this we need more information about the person in question, information that is usually
+generated through interview data. In this particular case it was information not only about the interest of this
+visitor but also about his disinterest, namely an apparent disinterest in literature and its most typical man-
+ifestations (such as books, handwritings and typo scripts). Interview data and field diary notes show that the
+visitor had little exposure to literature in his school education and professional life. Note that motivation,
+interest, prior knowledge and attention are considered to be necessary factors for informal learning in
+museums (Hein, 1998; cf. also Falk et al., 1998 about visitors’ agendas). Information on these highly rele-
+vant aspects cannot be gained through observation alone, be they conventional or technology-assisted. It is
+important to underline, therefore, that reporting and other methods should be combined with MET. On the
+basis of the empirical examples given above, we may revisit the issue of MET potentials and formulate some
+implications for the field of visitor studies:
+
+References
+
+Curator, 49, 463–475.
+
+Baddeley, A. (2007). Working memory, thought and action. Oxford, England: Oxford University Press.
+Bitgood, S. (2006). An analysis of visitor circulation: Movement patterns and the general value principle.
+
+Eghbal-Azar, K. (Forthcoming). Affordances, Appropriation and Experience at Museum Exhibitions: From
+
+(Eye) Movement Patterns to Exhibition Visit Scripts. PhD thesis to be submitted.
+
+Ericsson, K. A., & Simon, H. A. (1993). Protocol analysis. Verbal reports as data (rev. ed.). Cambridge: MIT Press.
+Falk, J. H., Koran, J. J. R., & Dierking, L. D. (1986). The things of science: Assessing the learning potential of
+
+science museums. Science Education, 70, 503–508.
+
+Falk, J. H., Moussouri, T., & Coulson, D. (1998). The effect of visitors ‘ Agendas on Museum Learning.
+
+Curator, 41, 107–120.
+
+Gfrereis, H. (2009). Didaktik des Schweigens: Das Literaturmuseum der Moderne des Deutschen Literaturarch-
+
+ivs Marbach. Der Deutschunterricht, 2009, 20–29.
+
+Gibson, J. J. (1986). The Ecological Approach to Visual Perception. Hillsdale: Lawrence Erlbaum.
+
+Eghbal-Azar and Widlok
+
+117
+
+Heermann, I. (2009). Su¨dsee-Oasen. Leben und U¨berleben im Westpazifik Begleitbuch zur Sonderausstellung
+im Linden-Museum Stuttgart (5. Dezember 2009 – 6. Juni 2010). Linden-Museum Stuttgart/Neustadt/Wstr:
+Nino Druck.
+
+Hein, G. E. (1998). Learning in the museum. London, England: Routledge.
+Hein, H. S. (2000). The museum in transition: A philosophical perspective. London, England: Smithsonian
+
+Institution Press.
+
+Holmqvist, K., Nystro¨m, M., Andersson, R., Dewhurst, R., Halszka, J., & van de Weijer, J. (2011). Eye
+
+tracking: A comprehensive guide to methods and measures. Oxford University Press.
+
+Hutchins, E. (1995). Cognition in the wild. Cambridge: MIT Press.
+Just, M. A., & Carpenter, P. A. (1980). A theory of reading: From eye fixation to comprehension. Psychological
+
+Review, 87, 329–354.
+
+Kaube, J. (2010). Richtige Betrachtung: Marbach blinzelt. Frankfurter Allgemeine Zeitung 26th August 2010.
+Retrieved from http://www.faz.net/artikel/C30108/richtige-betrachtung-marbach-blinzelt-30302784.html
+
+Korff, K. (2003). Staging science. Museumskunde, 68, 67–72.
+Korff, K., & Thiemeyer, T. (2008, October). Authentizita¨t versus Szenografie. Wie das Museum das Bild des
+Krieges vera¨ndert. Paper presented at the 47. Deutschen Historikertag in Dresden 2008. Proceeding
+retrieved from http://books.google.de/books?id¼k9Hj1Uyt5r4C&pg¼PA137&lpg¼PA137&dq¼"gehenþ
+undþsehen"þThiemeyer&source¼bl&ots¼FIzLsqjv5L&sig¼gbjWJoR2ku4n3uVWmla9e-M77Bw&hl¼
+de&ei¼HIkG
+
+Land, M. F., & Tatler, B. W. (2009). Looking and acting: Vision and eye movement in natural behaviour. New
+
+York, NY: Oxford University Press.
+
+MacDonald, S. (2002). Behind the scenes at the science museum. Oxford, England: Berg.
+Mayr, E., Knipfer, K., & Wessel, D. (2009). In-sights into mobile learning: An exploration of mobile eye tracking
+methodology for learning in museums. In G. Vavoula, N. Pachler, & A. Kukulska-Hulme (Eds.), Researching
+mobile learning: Frameworks, tools and research designs (pp. 189–204). Oxford, England: Peter Lang.
+Milekic, S. (2010). Inside your head: Use of eye-tracking for museum installations and websites. Retrieved
+
+from http://www.uarts-eyetracking.org/wp-content/uploads/2010/11milekicNodemPaper.pdf
+
+Rounds, J. (2004). Strategies for the curiosity-driven museum visitor. Curator, 47,389–412.
+Schank, R. C., & Abelson, R. P. (1977). Scripts, plans, goals and understanding: An inquiry into human knowledge
+
+structures. Hillsdale, NJ: Lawrence Erlbaum.
+
+Scheper-Hughes, N. (1994). Embodied Knowledge. In R. Borofsky (Ed.), Assessing Cultural Anthropology.
+
+Serell, B. (1997). Paying attention: The duration and allocation of visitors‘ time in museum exhibitions.
+
+New York: Graw-Hill, 229–242.
+
+Curator, 40, 108–125.
+
+van Gog, T., Paas, F., van Merrie¨nboer, J. J. G., & Witte, P. (2005). Uncovering the problem solving process:
+Cued retrospective reporting versus concurrent and retrospective reporting. Journal of Experimental
+Psychology: Applied, 11, 237–244.
+
+van Someren, M. W., Barnard, Y. F., & Sandberg, J. A. C. (1994). The think aloud method: A practical guide to
+
+modeling cognitive processes. London, England: Academic Press.
+
+Yalowitz, S. S., & Bronnenkant, K. (2009). Timing and tracking: Unlocking visitor behavior. Visitor Studies,
+
+12, 47–64.
+
+Author Biographies
+
+Kira Eghbal-Azar is a research scientist associated with the Knowledge Media Research Center (KMRC)
+Tuebingen as part of the interdisciplinary cooperation project ‘‘knowledge & museum: archive - exhibit -
+evidence’’ in the Cybermedia lab (Professor S. Schwan). She is currently preparing her PhD thesis entitled
+‘‘Affordances, Appropriation and Experience at Museum Exhibitions: From (Eye) Movement Patterns to
+
+118
+
+Social Science Computer Review 31(1)
+
+Exhibition Visit Scripts’’. Her main interest is combining anthropological and psychological theories and
+methods in visitor studies. She can be reached at k.eghbal-azar@iwm-kmrc.de.
+
+Thomas Widlok is a professor for social and cultural anthropology at Radboud University Nijmegen and a
+research associate at the University of Cologne. He received his PhD at the London School of Economics and
+has previously taught at
+the universities of London, Heidelberg, Durham, Zurich, and Cologne. His
+specializations include the hunter–gatherer studies, the anthropology of mobility, and cognitive anthropology.
+He can be reached at t.widlok@maw.ru.nl.
+
+

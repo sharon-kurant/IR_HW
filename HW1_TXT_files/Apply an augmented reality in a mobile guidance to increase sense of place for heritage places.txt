@@ -1,0 +1,1096 @@
+Accelerat ing t he world's research.
+
+Apply an augmented reality in a
+mobile guidance to increase sense of
+place for heritage places
+Yao-ting Sung, Ida Chang
+
+Related papers
+
+Download a PDF Pack of t he best relat ed papers 
+
+Teaching Cult ural Herit age using Mobile Augment ed Realit y
+Daniele Agost ini
+
+Effect s of Gamiﬁed Augment ed Realit y in Public Spaces
+At t e Oksanen, Yu Xiao
+Chapt er: Springer Series on Cult ural Comput ing Museum Experience Design Crowds, Ecosyst ems and …
+maria mort at i
+
+Apply an augmented reality in a mobile guidance to increase sense of
+place for heritage places
+Yu-Lien Chang
+Assistant Professor, Department of Tourism & Leisure,
+Lunghwa University of Science and Technology
+300, Section 1, Wanshou Road, Gui Shan, Taoyuan, Taiwan
+Tel: +886282093211
+Fax: +886282096862
+idachang@mail.lhu.edu.tw
+
+Huei-Tse Hou
+Associate professor, Graduate Institute of Applied Science and Technology,
+National Taiwan University of Science and Technology, Taipei, Taiwan
+#43 Keelung Road, Section 4, Taipei, Taiwan
+Tel: +886227303609
+Fax: +88627303733
+hthou@mail.ntust.edu.tw
+
+Chao-Yang Pan
+Professor, Department of Geography
+National Taiwan Normal University, Taipei, Taiwan
+#162, Heping East Road Section 1, Taipei, 106, Taipei, Taiwan
+Tel: +886223622841
+Fax: +886223512772
+t24012@cc.ntnu.edu.tw
+
+Yao-Ting Sung
+Professor, Department of Educational Psychology and Counseling
+National Taiwan Normal University, Taipei, Taiwan
+#162, Heping East Road Section 1, Taipei, 106, Taipei, Taiwan
+Tel: +886223952445
+Fax: +886223413865
+sungtc@ntnu.edu.tw
+
+Kuo-En Chang* (Corresponding Author)
+Professor, Graduate Institute of Information and Computer Education,
+National Taiwan Normal University, Taipei, Taiwan
+#162, Heping East Road Section 1, Taipei, 106, Taipei, Taiwan
+Tel: +886223622841
+Fax: +886223512772
+kchang@ntnu.edu.tw
+Abstract
+Based on the sense of place theory and the design principles of guidance and interpretation, this study
+developed an augmented reality mobile guidance system that used a historical geo-context-embedded
+visiting strategy. This tool for heritage guidance and educational activities enhanced visitor sense of place.
+This study consisted of 3 visitor groups (i.e., AR-guidance, audio-guidance, and no-guidance) composed of
+87 university students. A quasi-experimental design was adopted to evaluate whether augmented reality
+guidance more effectively promoted sense of place and learning performance than the other groups. The
+1
+
+results indicated that visitors who used AR guidance showed significant learning and sense of place effects.
+Interviews were also employed to determine the possible factors that contribute to the formation of sense of
+place. Finally, a majority of the visitors who participated in the study demonstrated positive attitudes
+toward the use of the AR-guidance system.
+
+Keywords: Sense of place, Augmented reality, Mobile guidance, Informal learning
+
+2
+
+Introduction
+Application of sense of place and augmented reality in informal learning
+Sense of place (SOP) is the combination of feelings of attachment, dependence, concern, identity, and
+belonging that people develop regarding a place. Since 1970, SOP has been applied in the fields of
+geography (Tuan, 1974; Relph, 1976; Kaltenborn, 1998; Galliano & Leoffler, 1999). SOP is also applicable
+in environmental psychology (Altman & Low, 1992; Jorgensen & Stedman, 2001; Nielsen-Pincus, Hall, &
+Force, 2010), tourism, and leisure (Williams, Patterson, Roggenbuck, & Watson, 1992; Kyle & Mowen,
+2005). The various applications of SOP indicate that SOP helps establish how visitors personally
+experience the significance of a location (Kaltenborn, 1998). For informal learning and education (i.e., field
+learning and visiting heritage sites), increased SOP enables learners to develop attachment and interest
+toward places, which promotes learning motivation (Altman & Low, 1992; Lewicka, 2005). Furthermore,
+numerous scholars (Jorgensen & Stedman, 2001; Kyle & Mowen, 2005; Nielsen-Pincus et al., 2010) have
+indicated that the SOP concept encompassed visitors’ affections toward and cognitions about a place.
+Based on previous studies defining SOP (Jorgensen & Stedman, 2001; Nielsen-Pincus et al., 2010), the
+following three constructs for SOP were incorporated in this study: 1) place attachment (PA), 2) place
+dependence (PD), and 3) place identity (PI), which represent the affective, behavioral, and cognitive
+relationships, respectively, that people develop with places.
+In studies on heritage tourism, Prentice, Guerin, and McGugan (1998) indicated that visitors’ affective and
+cognitive experiences regarding heritage sites were associated with the quality of the interpretative media
+provided for those places. Specifically, interpretations of heritage sites promote the development of PI
+(Uzzell, 1996), and interpretive activities at recreation sites enhance SOP formation and encourage the
+conservation of local cultural heritage (Stewart, Hayward, & Devlin, 1998). Furthermore, Knudson, Cable,
+and Beck (2003) suggested that the aim of interpretation is to assist visitors in developing SOP. Overall,
+high-quality historical and geographical guidance and interpretive activities in a place enhance SOP
+formation. Since visiting heritage sites is a common informal learning activity, heritage-site visiting
+activities designed based on the SOP theory are expected to promote learners’ interest toward heritage sites
+and enhance learners’ motivation to learn about such sites.
+Researchers have often stressed enhancing the functions of museums, such as designing educational
+projects connected to both learners’formal classroom education and informal out-of-school learning,
+(Cox-Petersen, Marsh, Kisiel, & Melber, 2003; Dierking, Falk, Rennie, Anderson, & Ellenbogen, 2003).
+Technology is currently used extensively in heritage site and museum guidance. Specifically, augmented
+reality (AR) is one of the primary technological applications used to assist historical site or museum
+guidance activities. AR is the combination of virtual and real objects in a real environment (Azuma, Baillot,
+Behringer, Feiner, Julier, & MacIntyre, 2001; Chang, Chang, Hou, Sung, Chao, & Lee, 2014; Zhang, Sung,
+Hou, & Chang, 2014). AR is the technology that overlays digital information on objects or places in a real
+world for the purpose of enhancing the user experience (Berryman, 2012; Chang et al., 2014; Zhang et al.,
+2014). Studies have shown that visitors perceive AR guidance activities as interesting, fun, challenging,
+and a method of achieving first-hand experience. Consequently, AR guidance activities may increase
+people’s motivation to visit and learn knowledge (Dunleavy, Dede, & Mitchell, 2008; Klopfer & Squire,
+2008; Mulloni, Wagner, & Schmalstieg, 2008; Liu, Tan, & Chu, 2009; Priestnall, 2009; Luckin & Stanton
+Fraser, 2011; Chang et al., 2014; Zhang et al., 2014).
+AR enhances location-based learning because AR helps learners connect historical sites with their prior
+knowledge and provides additional new knowledge relevant to the sites. For example, AR enables visitors
+to observe and experience comparisons between cultural artifacts that have disappeared and existing
+artifacts in a site. This may enhance visitors’ understanding of the history of cultural heritage and increases
+the level of immersion (Portalés, Lerma, & Pérez, 2009; McCall, Wetzel, Löschner & Braun, 2011). AR
+technology includes information on people and buildings on the site and allows users to switch between
+historical periods and observe the different appearances of a city throughout time. This combination of
+additional information and actual scenes enhances people’s senses of reality and presence in a certain place.
+However, the application of AR in guidance activities demonstrates areas for improvement (Billinghurst et
+3
+
+al., 2003; Dunleavy et al., 2008; Wang & Chen, 2009; McCall et al., 2011). To ensure that visitors view the
+additional information presented through AR in a specific visual field, the technology is designed to attract
+visitor attention. Hence, visitors tend to focus excessively on the content of the AR system and the
+additional information in the AR, thereby neglecting the physical surroundings and environment
+(Billinghurst et al., 2003; Dunleavy et al., 2008; Wang & Chen, 2009). McCall et al. (2011) contended that
+for some visitors, the sense of presence shaped by the AR environment decreases and cannot be preserved
+after a guidance activity is completed and vanishes as visitors proceed to their next destination.
+Human–computer–context interaction and historical geo-context-embedded visiting
+
+Sung, Chang, Hou and Chen (2010a) indicated that the planning and application of a mobile guide should
+accommodate the overall learning context of the guided environment, taking into consideration the visitor,
+the visitor’s companions, historical exhibits, and the cultural or social implications of the exhibits. The
+interface and content of a mobile guide plays a significant role in effectively increasing participative
+behaviors (e.g., visitors pay more attention to exhibits and spend more time at them). The design of the
+mobile guide should fully support the interaction between the visitors and these aforementioned aspects,
+thus forming a “human–computer–context” interaction (HCCI) (Sung et al., 2010a). This study proposes an
+HCCI framework to design a mobile guide for enhancing interactions and stimulate motivation. The HCCI
+framework has two features. The first emphasizes that the design and application of the mobile guide
+should encompass the situation within a learning environment, including the visitors, the exhibits, and the
+cultural or social meanings behind the exhibits (Falk & Dierking, 2000). Secondly, a mobile guide, as a tool
+with embedded information, is intended to facilitate a visitor’s interaction with all aspects of the context
+about the exhibits. There are two types of interaction. The traditional type is the
+visitor–computer interaction, in which visitors may retrieve or save information in the mobile device.
+However, the potential for the mobile device to connect the exhibits and learners is minimized if it only
+provides a visitor–computer interaction. The other type is the human–computer–context interaction. In this
+type of interaction the visitors not only pay attention to the physical features of the exhibits, but also
+interact with the historical background or cultural context, which provides a more in-depth visiting
+experience (Bain & Ellenbogen, 2002). Therefore, this type of mobile guide not only support the
+interaction between visitors and exhibits, but it also reinforces the interaction between the visitors and the
+context behind the exhibits (e.g., being aware of historic and social perspectives when viewing the heritage
+site).
+Situated cognition is the theoretical foundation for mobile guidance systems based on the HCCI framework.
+Situated cognition assumes that knowledge and learning are produced through a cognitive learning process
+as visitors interact within a given context (i.e., the surrounding social or physical environmental context)
+(Brown, Collins, & Duguid, 1989; Greeno, Collins, & Resnick, 1996). The mobile leaning guidance with
+HCCI can enrich visitor experience by increasing their interactions when interpreting cultural or historical
+contexts and situational or artistic conceptions of exhibit (Beck & Cable, 2002). In light of this, the
+limitation underlying the planning for AR mobile guide activities lies in the inability to balance a visitor’s
+attention distribution between the additional information provided by AR and the physical scenes, causing
+them to focus their attention on the “human–computer (guide system)” excessively, and to ignore the more
+important human-context (exhibition and local context)” in the real environment. In other words, it cannot
+induce the HCCI. The design of an AR mobile guide for exhibitions should therefore emphasize the
+coupling the information provided through AR and the actual environment (Klopfer & Squire, 2008; Cheng
+& Tsai, 2013) ; that is, enhance the interaction between the additional information and the real physical
+scenes.
+To develop a guidance system that incorporates HCCI for heritage learning, this study adopted a historical
+geo-context-embedded visiting (HGCEV) guidance strategy. The first step of HGCEV is to find out the
+past geographical and historical information about the heritage site, and then to establish its geographical
+and historical context. When visitors visit the heritage site, the context allows them to feel interested in and
+interact with the heritage site, and further to establish the interaction among visitors, the heritage site itself,
+and the geographical and historical context of the heritage site. This is the purpose of using the HGCEV
+strategy to achieve HCCI. The HGCEV strategy may involve the integration of affective experience,
+4
+
+conative behavior, and cognitive knowledge of history and geography with guidance regarding heritage
+sites. This is accomplished by constructing the historical narratives and local implications of the heritage
+sites into the AR system. This accentuates the individuality of different places, immerses and integrates
+visitors in the local context, increases visitor interest, improves visitor familiarity with, sense of belonging
+to, and identity with the geographical location, and facilitates the active exploration of the significance and
+value of heritage places.
+These features compensate for the disadvantages of AR guidance application by establishing HCCI
+(Dunleavy et al., 2008). Few studies have examined the use of AR as a guidance tool to increase SOP and
+learning performance. This study integrates the HGCEV strategy into a mobile AR guidance system to
+construct a HCCI guidance model and applies this model to heritage guidance and interpretive activities. In
+addition to guidance system development, the experimental objectives of this study are as follows:
+1.
+Examine the differences in the learning achievement effects for visitors who used the AR
+mobile-guidance device, audio guidance, or no assistive guidance during a heritage visit.
+2.
+Examine and analyze the different effects of the three guidance modes on the three SOP constructs
+(PA, PD, and PI) and overall SOP during a heritage visit.
+3.
+Use interviews to understand the attitudes of visitors toward the three guidance modes and the
+possible contributing factors in the formation of the three constructs of SOP (PA, PD, and PI).
+
+System design
+The AR guidance system on heritage places was developed by integrating HGCEV strategy which
+promotes the PA, PD, and PI constructs of SOP. In investigating these three constructs, qualitative study
+with contextual analysis and in-depth interviews was conducted. The purposive sampling method was
+applied to conduct interviews with 21 residents (9 women and 12 men) and 18 visitors (9 women and 9
+men) to heritage sites in Tamsui District in Taiwan to identify possible factors of SOP constructs. The
+factors about PA, PD, and PI are listed in Table 1. For example, for the PA construct, the factors include
+place affection and place interest.
+Table 1.
+Constructs
+
+Theoretical Framework for the AR-guidance System
+
+Nature of
+content
+
+Formation
+factors
+
+Interpretive principles
+
+Place affection
+PA
+(Place
+Attachment)
+
+Affective
+
+SOP
+(Sense
+of
+Place)
+
+Place interest
+
+Place
+uniqueness
+PD
+(Place
+Dependence)
+
+Ensuring that visitors
+associate personal
+characteristics and
+experiences with heritage
+at the site and creating an
+affective bond between
+visitors and the heritage
+site
+Increasing visitor interest
+and allowing visitors to
+experience the joy of
+understanding a place
+
+Demonstrating the
+uniqueness of a place
+
+Conative
+Behavior
+Encouraging visitors to
+actively explore and create
+meaning and significance
+
+Encourages
+active
+5
+
+The presentation
+media and styles
+Movie images and
+songs related to past
+living experiences in a
+place are used.
+
+Images, audios, and
+texts that interact with
+the physical
+environment of a place
+are provided.
+Images, audios, and
+texts associated with
+natural, cultural, and
+unique atmosphere of a
+place and landscapes
+during colonial periods
+are shown.
+Texts, audios, and
+images associated with
+the characteristics of a
+place are provided,
+
+thereby creating a bond
+with the visitors.
+
+exploration
+
+Historical and
+geographical
+implications
+PI
+(Place
+Identity)
+
+Cognitive
+
+Inspires PI
+
+Representing historical and
+geographical information
+and revealing its
+fundamental significance to
+enhance the connection
+between historical and
+geographical evolution and
+on-site heritage
+
+Texts, audios, and
+images illustrating the
+geographical and
+environmental shifts
+and historical context
+of heritage sites are
+presented.
+
+Encouraging visitors to
+perceive their self-worth
+and understand the
+relationship of on-site
+heritage to a place or
+setting and inspiring PI
+
+Texts, audios, and
+images are combined
+with the heritage site to
+depict its geographical
+and environmental
+shifts and historical
+background.
+
+To effectively construct the additional information displayed by AR during a guidance activity, it is
+presented according to the interpretation principles results shown in Table 1 proposed by Tilden (1977) and
+Beck and Cable (2002). For example, the presentation of additional information to promote PA factors was
+based on two interpretation principles: 1) ensuring that visitors associate personal characteristics and
+experiences with the heritage on site and creating an affective bond between visitors and heritage site; and
+2) increasing visitors’ interest and allowing them to experience the joy of understanding a place. The forms
+of media used to present the supplemental information are also described in Table 1. For example, in place
+affection, films, images, and songs related to past living experiences were used to promote visitor
+attachment to the place.
+In this study, the mobile carrier hardware used for the AR mobile guidance system was the ASUS Eee Pad
+Transformer TF101 (Android 3.2). The streamlined viewport strategy algorithm developed by Zhang, Hou,
+and Chang (2012) was employed as the identification method of the AR guidance system. It has the
+capacity to load additional information or interpretations regarding historical or geographical contexts
+when visitors aim the camera of a tablet computer at a historical site. This enables convenient operation for
+the visitors. The proposed system includes the following functions:
+1.
+Historical site guidance: This function enables visitors to identify the historical site or heritage site
+using the device’s camera and to browse or listen to guidance content that corresponds to the
+historical site. The Figure. 1a depicts a visitor using the AR system to identify an image of the
+historical structure, and the Figure. 1b shows the visitor using the AR system to view and listen to the
+information provided by the system after the structure has been identified. Figure 2. shows how
+students read the information of AR system about a historical site. The location selected for this study
+was the Tamsui District, which is a location in Taiwan that contains numerous historical sites and
+heritage sites. The system contains 14 guidance and interpretation locations. The guidance and
+interpretation principles and presentation style were developed according to the guidelines presented
+in Table 1, and the contents were reviewed and assessed by two experts on the Tamsui historical sites,
+both historical site museum curators.
+2.
+Historical site observation: This function guides visitors in identifying specific parts or areas of the
+historical site. The “Zoom in” and “Zoom out” functions of the device interface enable the
+observation of specific areas of the historical site and provide detailed interpretive information on the
+areas. Figure 3 presents a schematic of how the system guides visitors to employ the zoom-in and
+zoom-out functions to view specific areas of the historical site.
+
+6
+
+Figure 1. A visitor using the AR system to identify a historical site (1a) and viewing the
+information provided by the AR system (Former British consular residence, 1b)
+
+Figure 2. Students read the information on the AR system about the historical site
+
+7
+
+Figure 3. The Zoom in and Zoom out functions for observing specific areas of the historical site
+
+Methodology
+This study examined the effects that visitor use of AR guidance systems had on overall SOP effects; PA,
+PD, and PI effects; and learning achievement effects before and after experimental processing. This study
+also investigated the potential factors that contribute to the formation of SOP in visitors and their attitudes
+toward using guidance systems.
+Participants
+The participants in this study were 87 first-year university students of the Department of Tourism and
+Leisure from three classes in Taiwan. Among these, 31 were male and 56 were female subjects, and the
+average age was 19 years. Participants were grouped via random sampling. Students in experimental group
+1 used the AR mobile guidance system (the AR-guidance group; 31 students). Students in experimental
+group 2 used audio guidance (the audio-guidance group; 32 students). Students in the control group did not
+use any guidance (no-guidance group; 24 students). The difference between the AR-guidance and
+audio-guidance groups was that the audio-guidance group was provided with audio guidance only, although
+the content was identical to that provided to the AR-guidance group. Conversely, the AR-guidance group
+received both visual and audio guidance simultaneously.
+Experimental design
+The study employed a quasi-experimental design. The independent variable was the guidance mode group
+(AR-guidance group, audio-guidance group, and no-guidance group). The dependent variables were
+learning achievement, the three SOP constructs (PA, PD, and PI), and overall SOP effect. This study also
+employed interviews to understand visitor attitudes toward the guidance system and the factors that
+contribute to SOP formation. Participants in experimental groups 1 and 2 used the AR-guidance system and
+the audio-guidance system, respectively. They operated the devices independently for 90 minutes by
+following the system instructions. Participants without the assisting guidance devices visited the historical
+8
+
+sites for 90 minutes.
+Prior to the experiment, all participants completed a SOP scale survey and a learning achievement pretest
+regarding Tamsui cultural and historical sites (the duration for each test was 15 minutes). Participants in the
+experimental groups received additional training in operating the guidance system and were able to adjust
+the device appropriately (approximately 15 minutes). This procedure ensured that the effects of technology
+barrier factors were removed. Subsequently, the three groups proceeded with their independent visiting
+activities (90 minutes for each group). After the tour, all groups were required to take the learning
+achievement posttest and complete the SOP scale. Twenty visitors from each group were randomly
+sampled for a follow-up interview.
+
+Instruments
+Learning achievement test
+The learning achievement test was a paper-and-pencil test that was conducted both as a pretest and a
+posttest. The purpose was to examine whether participants had increased factual knowledge of the
+historical sites and heritage of Tamsui and to determine learning achievement effects after employing
+various guidance modes. The test contained 15 multiple-choice questions. A Tamsui historical site and
+heritage expert and a university teacher currently teaching courses related to guidance in travel culture
+provided opinions and revisions regarding the proposed test questions. The contents of the pretest and
+posttest were identical. The same test was used for the pilot test, which was conducted with 50 first-year
+university students. The coefficient of the reliability analysis was 0.503 with an internal consistency.
+SOP scale survey
+This study used the 5-point (1 to 5) SOP scale proposed by Jorgensen and Stedman (2001) to measure each
+SOP construct and the overall SOP effects in all participants following historical site and heritage guidance.
+These items were modified based on previous research on the measurement items used for the three place
+constructs (Jorgensen & Stedman, 2001; Kyle & Mowen, 2005; Nielsen-Pincus et al., 2010). This scale was
+piloted with 50 first-year university students, and the reliability coefficients of SOP, PA, PD, and PI were
+0.85, 0.712, 0.687, and 0.731, respectively.
+Interview questions
+Interview opinions and feedback were employed to understand the potential factors that contribute to the
+formation of SOP and the system participant attitudes of the various groups after the guidance activity. The
+portion of the interview regarding SOP formation factors was designed to understand the affective
+experience, conative behavior, and cognitive knowledge that the participants developed during the visiting
+activity. In addition, the interview questioned participants regarding the influence that encountering certain
+scenarios or conditions had during the activity process, and participant attitudes toward using the system
+were also examined. The interview questions included the degree to which the visitors enjoyed the activity
+or using the system, whether the activity or system increased their level of interest, and whether
+participants increased their knowledge. In addition, questions concerning learning motivation and opinions
+regarding the visit were included.
+
+Results
+Learning achievement effects analysis
+A one-way analysis of covariance (one-way ANCOVA) was performed to compare the posttest scores of
+the experimental groups and the control group after the influence of the pretest scores was removed. The
+results are presented in Table 2. After the effect of the pretest scores on the posttest scores was removed,
+the between-group scores were significantly different (F ＝10.497, p < 0.05). The results of the ANCOVA
+9
+
+indicated that after the experimental processing, the different guidance modes had a significant effect on
+the learning achievements of the participants, and the learning achievements among the three groups
+differed significantly. A pairwise least significant difference (LSD) test was conducted. The results
+demonstrated that the posttest scores of the no-guidance and audio-guidance group were not significantly
+different (F ＝10.497, p > 0.05) but that the posttest score of the AR-guidance group was significantly
+higher than those of the no-guidance group (F ＝10.497, p < 0.05) and the audio-guidance group (F ＝
+10.497, p < 0.05). These results indicate that the participants in the AR-guidance group demonstrated
+superior learning achievements.
+Table 2.
+Variables
+
+Learning effects
+
+One-way ANCOVA on the learning achievement test
+Mean score
+AR-guidance group Audio-guidance group No-guidance group
+(n = 31)
+(n = 32)
+(n = 24)
+Pretest
+Posttest
+Pretest
+Posttest
+Pretest
+Posttest
+39.41
+
+65.84
+
+45.47
+
+56.28
+
+43.33
+
+55.31
+
+F
+
+10.497*
+
+*p <0.05
+Analysis of the SOP effect
+The SOP scale results for the three groups were used to analyze the effects for the three SOP constructs
+(PA, PD, and PI) and the overall SOP. A one-way ANCOVA was conducted to examine the differences in
+the SOP-scale posttest scores of the three groups after the effect of the SOP pretest scores was removed.
+The results of the ANCOVA are presented in Table 3. The results show that guidance mode did not have a
+significant influence on PA, and no significant differences between the groups were found (F ＝ 1.622, p
+> 0.05). A pairwise LSD test was performed on the PD scores, but no significant difference was found
+between the posttest scores of the no-guidance group and the audio-guidance group (F ＝ 3.410, p > 0.05).
+However, the posttest scores of the AR-guidance group were significantly higher than those of the
+audio-guidance and no-guidance groups (F ＝ 3.410, p < 0.05; F ＝ 3.410, p < 0.05). These results
+indicate that the AR-guidance group experienced greater PD effects. In addition, a pairwise LSD test was
+performed on the PI scores, but no significant difference was found between the posttest scores of the
+no-guidance and audio-guidance groups (F ＝ 4.793, p > 0.05). Nevertheless, the posttest scores of the
+AR-guidance group were significantly higher than those of the audio-guidance and no-guidance groups (F
+＝ 4.793, p < 0.05; F ＝ 4.793, p < 0.01). These results indicate that the AR-guidance group experienced
+a greater PI effect. Finally, a pairwise LSD test was performed on the overall SOP scores, but no significant
+differences were found between the posttest scores of the audio-guidance and no-guidance groups (F ＝
+4.306, p > 0.05). The posttest scores of the AR-guidance group were significantly higher than those of the
+audio-guidance and no-guidance groups (F ＝ 4.306, p < 0.05; F ＝ 4.306, p < 0.05). These results
+indicate that the AR-guidance group experienced a greater overall SOP effect.
+Table 3.
+
+One-way ANCOVA on the effects of PA, PD, and PI constructs and overall SOP
+Mean score
+Variables
+AR-guidance
+Audio-guidance group(n = 32)
+No-guidance
+F
+group (n = 31)
+group (n = 24)
+Pretest Posttest
+Pretest
+Posttest
+Pretest Posttest
+PA
+
+3.5376
+
+3.8387
+
+3.5104
+
+3.5625
+
+3.6111
+
+3.7083
+
+1.622
+
+PD
+
+3.1720
+
+3.7742a
+
+3.0521
+
+3.3542
+
+3.0417
+
+3.3056
+
+3.410*
+
+PI
+
+3.1097
+
+3.6839
+
+3.0813
+
+3.3250
+
+3.0417
+
+3.2500
+
+4.793*
+
+SOP
+
+3.2434
+
+3.7507
+
+3.1903
+
+3.3977
+
+3.1970
+
+3.3902
+
+4.306*
+
+*p <0.05
+10
+
+Analysis of the interview results
+According to Table 1, the formation factors of SOP are elements of its three constructs, PA, PD, and PI,
+and other nature content. The interviews examined the whether different factors formed SOP, as shown in
+Table 4. The interview results were categorized into several contributing factors and then computed (Table
+4). For example, 20 visitors from the AR-guidance group were interviewed, 18 indicated that place
+uniqueness contributed to their SOP formation. Therefore, place uniqueness has a 90% possibility of
+contributing to SOP formation. The results shown in Table 4 suggest that, compared to the audio-guidance
+and no-guidance group, more participants in the AR-guidance group indicated “place uniqueness”,
+“historical and geographical implications”, and “inspires place identity” as possible contributing factors for
+SOP.
+Table 4. Potential factors that contribute to SOP formation
+SOP constructs
+PA
+PD
+PI
+Historical
+Encourages
+Formation
+Place
+Place
+Place
+and
+Inspires
+active
+factors
+affection interest uniqueness
+geographical
+PI
+exploration
+implications
+AR-guidance
+20
+20
+18
+19
+18
+18
+group (n = 20)
+(100%) (100%)
+(90%)
+(95%)
+(90%)
+(90%)
+Response (%)
+Audio-guidance
+20
+20
+6
+18
+5
+2
+group (n = 20)
+(100%) (100%)
+(30%)
+(90%)
+(25%)
+(10%)
+Response (%)
+No-guidance
+20
+20
+2
+18
+5
+2
+group (n = 20)
+(100%) (100%)
+(10%)
+(90%)
+(25%)
+(10%)
+Response (%)
+Total
+%
+
+60
+(100%)
+
+60
+(100%)
+
+26
+(43%)
+
+55
+(92%)
+
+28
+(47%)
+
+22
+(37%)
+
+To understand the attitudes of visitors in different groups, the interviews were organized and subsequently
+analyzed using one-way analysis of variance to obtain independent samples. The results indicated
+significant between-group differences regarding attitudes, including the level of enjoyment, interest,
+knowledge acquired, and learning motivation (F = 125.659, p=0.000 < 0.05; F = 98.335, p=0.000 < 0.05; F
+= 129.408, p=0.000 < 0.05; F = 91.791, p=0.000 < 0.05; Table 5). Multiple comparison analysis and post
+hoc comparisons with the LSD test were performed to examine agreement levels for the four attitudes
+among visitors from each group. The results showed that visitors in the AR-guidance group exhibited
+greater levels of agreement compared with that of the visitors in the audio-guidance and no-guidance
+groups (Table 6).
+
+Variables
+
+Table 5. ANOVA of the participant attitudes
+Mean score
+AR-guided group
+Audio-guided group
+No-guided group
+(n=20)
+(n=20)
+(n=20)
+
+F
+
+Enjoyment
+
+4.9
+
+3.5
+
+3.0
+
+125.659*
+
+Interest
+
+4.8
+
+2.5
+
+3.25
+
+98.335*
+
+4.95
+
+2.75
+
+3.2
+
+129.408*
+
+4.95
+
+3.45
+
+2.8
+
+91.791*
+
+knowledge
+acquired
+learning
+motivation
+*p＝0.000
+
+11
+
+Table 6. Post-hoc comparisons of the participant attitudes
+Average
+Standard
+Dependent variable (I) group
+(J) group difference
+P
+error
+(I–J)
+Audio-guided
+1.4**
+0.124
+0.000
+group
+AR-guided
+group
+No-guided
+1.9**
+0.124
+0.000
+group
+AR-guided
+-1.4** 0.124
+0.000
+group
+Audio-guided
+Enjoyment
+group
+No-guided
+0.5**
+0.124
+0.000
+group
+AR-guided
+-1.9** 0.124
+0.000
+group
+No-guided
+group (n=20) Audio-guided
+-0.5** 0.124
+0.000
+group
+Audio-guided
+2.3**
+0.167
+0.000
+group
+AR-guided
+group
+No-guided
+1.55** 0.167
+0.000
+group
+AR-guided
+-2.3** 0.167
+0.000
+group
+Audio-guided
+Interest
+group
+No-guided
+-0.75** 0.167
+0.000
+group
+AR-guided
+-1.55** 0.167
+0.000
+group
+No-guided
+group (n=20) Audio-guided
+0.75** 0.167
+0.000
+group
+Audio-guided
+2.20** 0.167
+0.000
+group
+AR-guided
+group
+No-guided
+1.75** 0.144
+0.000
+group
+AR-guided
+-2.2** 0.144
+0.000
+group
+knowledge
+Audio-guided
+acquired
+group
+No-guided
+-0.45* 0.144
+0.003
+group
+AR-guided
+-1.75** 0.144
+0.000
+group
+No-guided
+group (n=20) Audio-guided
+0.45*
+0.144
+0.003
+group
+Audio-guided
+1.5**
+0.162
+0.000
+group
+AR-guided
+group
+No-guided
+2.15** 0.162
+0.000
+group
+AR-guided
+-1.5** 0.162
+0.000
+group
+Audio-guided
+learning motivation
+group
+No-guided
+0.65** 0.162
+0.000
+group
+AR-guided
+-2.15** 0.162
+0.000
+group
+No-guided
+group (n=20) Audio-guided
+-0.65** 0.162
+0.000
+group
+*p<0.01;
+
+**p=0.000
+12
+
+Discussion and conclusions
+In the study, the experimental processing of the three groups of visitors using different guidance modes
+confirmed that different guidance modes produced varying learning achievements. Among the groups,
+participants in the AR-guidance group appeared to learn more than other groups. Moreover, the analysis of
+the interviews showed that learning results increased because the majority of the participants in the
+AR-guidance group indicated that the guidance system helped them acquire greater knowledge of the
+historical sites and increased their learning motivation. The AR-guidance system provided audio
+interpretations and integrated supplemental information, including text and images pertaining to the history
+and geography of the sites. This mode effectively increases visitors’ knowledge of historical sites, enhances
+their motivation to learn, and facilitates interaction among the visitors, the guidance system, and historical
+sites (Klopfer & Squire, 2008). It also helps visitors construct a memory of the place. These results confirm
+the necessity of human–computer–context interaction (Sung et al., 2010a; Sung, Hou, Liu, & Chang,
+2010b). Numerous studies have indicated that AR-assisted teaching tools promote learning performance
+(Dunleavy et al., 2008; Liu et al., 2009; Chang et al., 2014; Zhang et al., 2014). AR encourages users to
+participate and constructs a learning environment that integrates supplemental information and reality. In
+addition, this learning environment is realistic and innovative and is integrated with supplemental
+information (Dunleavy et al., 2008; Klopfer & Squire, 2008; Mulloni et al., 2008; Luckin & Stanton Fraser,
+2011). Consistent with the results of previous studies, the system developed in the study showed significant
+facilitation effects on the overall learning achievements of the participants.
+Regarding the SOP effects, the results of this study indicate that, aside from the PA construct, participants
+in the AR-guidance group scored higher on the PD and PI constructs and the overall SOP than the
+participants of the audio-guidance and no-guidance groups. Furthermore, the posttest scores between the
+audio-guidance group and no-guidance group were not significantly different. Nevertheless, the PA effect
+did not differ between the three groups, which seems inconsistent with the findings of Altman & Low
+(1992) and Lewicka (2005). In those studies, PA was enhanced with increases in knowledge about a city’s
+past. However, the PA conceptualized in these two studies was a compound concept that incorporated the
+PA and PI constructs described in the study. The findings of the study concur with the results of Altman &
+Low (1992) and Lewicka (2005) when the increased PI construct effect determined in this study is
+considered. This study has determined that the students of AR-guidance group using AR system designed
+based on the HGCEV strategy experienced a greater PD and PI. Students are likely to focus and acquire
+additional knowledge about a place when they perceive the site as being unique or when they develop
+increased site attachment and identification. This promotes learning motivation and positively influences
+learning achievements. The analysis of learning effects performed in this study revealed that the learning
+achievement effects were superior in students in the AR-guidance group than in students in the other
+groups.
+Regarding factors that contribute to SOP formation, 100% of the participants in the AR-guidance group
+responded positively regarding place affection and place interest. Most (90%) of the visitors in the
+AR-guidance group stated that Tamsui was unique and irreplaceable. Moreover, 95% of visitors were
+willing to engage in active exploration. The AR-guidance group expressed more significantly positive
+responses than the audio-guidance and no-guidance groups.
+In summary, this study found that AR enhanced learner SOP and learning achievements (including learning
+motivation and learning achievements in knowledge of local history), and effectively improved learning
+achievements when applied in learning related to heritage sites. This tool can therefore be applied to
+enhance learning achievements. These findings are consistent with those of numerous previous studies that
+applied AR to improve learning achievements (Ibáñez et al., 2014; Zhang et al., 2014; Dunleavy et al., 2008;
+Liu et al., 2009; Martín-Gutiérrez et al., 2010).
+Other issues that warrant consideration include ergonomic or human-factor concerns, including the
+sensitivity of AR to light, camera angles of the portable, handheld devices. These challenges must be
+overcome in the future development of mobile AR application devices. Furthermore, this study identified a
+crucial effect of AR-guidance during visits: when focusing on historical site interpretations during outdoor
+activities, visitors were susceptible to distractions from external objects and engaged in fewer discussions
+13
+
+and interactions about the historical sites with their companions. Consequently, the system tested in this
+study limited interpersonal interactions during visits to historical and heritage sites. Therefore,
+incorporating a systemic, planned question and answer strategy and other learning strategies into future AR
+guidance and integrating appropriate cooperative learning, situated tasks (Bruner, 1985; Sánchez &
+Olivares, 2011) is suggested to encourage interactions among visitors and ensure peer–computer–context
+interaction (Sung et al., 2010a; Sung et al., 2010b).
+Future studies may continue to apply and extend the HGCEV strategy in AR-guidance systems to improve
+learning and SOP effects. Additional interactive strategies (e.g., games and role-playing) can be
+incorporated to enhance the first-hand experiences and interactions of users.
+
+Acknowledgments
+This study was supported by grants from the National Science Council, Taiwan, Republic of China
+(Contract
+Numbers:
+NSC-102-2511-S-011-001-MY3,
+NSC-100-2628-S-011-001-MY4,
+NSC-99-2511-S-003-026-MY3
+and
+NSC-99-2511-S-011-007-MY3)
+and
+"The International
+Research-Intensive Center of Excellence program" (NSC103-2911-I-003-301) of the National Taiwan
+Normal University and the National Science Council, Taiwan, R.O.C. We also appreciate Mr. Jia Zhang
+and Ms. Chia-Tzu Chang for their assistance of related experimental procedures.
+
+References
+Altman, I., & Low, S. (1992). Place Attachment. New York, Plenum Press.
+Azuma, R., Baillot, Y., Behringer, R., Feiner, S., Julier, S. & MacIntyre, B. (2001). Recent advances in
+augmented reality. IEEE Computer Graphics and Applications 21(6), 34–47.
+Bain, R., & Ellenbogen, K. M. (2002). Placing objects within disciplinary perspectives: Examples from
+history and science. In S. G. Paris (Ed.), Perspective on object-centered learning in museums (pp.
+153–170). Mahawah, NJ: Lawrence Erlbaum Associates.
+Berryman, D. R. (2012). Augmented Reality: A Review. Medical Reference Services Quarterly 31(2),
+212–218.
+Billinghurst, M., Belcher, D., Gupta, A., & Kiyokawa, K. (2003). Communication behaviors in colocated
+collaborative AR interfaces. International Journal of Human-Computer Interaction 16(3), 395–423.
+Beck, L., & Cable, T. T. (2002). Interpretation for the 21st century: Fifteen guiding principles for
+interpreting nature and culture (2nd ed.). Champaign: Sagamore.
+Brown, J. S., Collins, A. & Duguid, P. (1989). Situated Cognition and the Culture of Learning. Educational
+Researcher 18, 32–42.
+Bruner, J. (1985). Vygotsky: An historical and conceptual perspective. Culture, communication, and
+cognition: Vygotskian perspectives. London: Cambridge University Press.
+Chang, K. E., Chang, C. T., Hou, H. T., Sung, Y. T., Chao, H. L. & Lee, C. M. (2014). Development and
+behavioral pattern analysis of a mobile guide system with augmented reality for painting appreciation
+instruction in an art museum. Computers & Education 71, 185–197.
+Cheng, K. H., & Tsai, C. C. (2013). Affordances of augmented reality in science learning: Suggestions for
+future research. Journal of Science Education and Technology 22(4), 449–462.
+14
+
+Cox-Petersen, A. M., Marsh, D. D., Kisiel, J., & Melber, L. M. (2003). Investigation of guided school tours,
+student learning, and science reform recommendations at a museum of natural history. Journal of
+Research in Science Teaching 40, 200–218.
+Dierking, L. D., Falk, J. H., Rennie, L., Anderson, D., & Ellenbogen, A. (2003). Policy statement of the
+informal science education
+ad hoc committee. Journal of Research in Science Teaching 40,
+108–111.
+Dunleavy, M., Dede, C., & Mitchell, R. (2008). Affordances and limitations of immersive participatory
+augmented reality simulations for teaching and learning. Journal of Science Education and
+Technology 18(1), 7–22.
+Falk, J. H., & Dierking, L. D. (2000). Learning from museums: Visitors experiences and the making of
+meaning. Walnut Creek, CA: AltaMira.
+Galliano, S. J., & Loeffler, G. M. (1999). Place assessment: how people define ecosystems. Gen. Tech. Rep.
+PNW-GTR-462. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest
+Research Station.
+Greeno, J. G., Collins, A. M. & Resnick, L. B. (1996). Cognition and Learning. In Berliner, D. C. & Calfee,
+R. C. (eds.), Handbook of Educational Psychology. New York: Prentice Hall.
+Ibáñez, M. B., Serio, Á. D., Villarán, D., & Kloos, C. D. (2014). Experimenting with electromagnetism
+using augmented reality: Impact on flow student experience and education effectiveness. Computers &
+Education 71, 1–13.
+Jorgensen, B. S., & Stedman, R. C. (2001). Sense of place as attitude: Lakeshore owner’s attitudes towards
+their properties. Journal of Environmental Psychology 21, 233–248.
+Kaltenborn, B. P. (1998). Effects of sense of place on responses to environmental impacts. Applied
+Geography 18(2), 169–189.
+Klopfer, E., & Squire, K. (2008). Environmental Detectives--The Development of an Augmented Reality
+Platform for Environmental Simulations. Educational Technology Research and Development 56(2),
+203–228.
+Knudson, D., Cable, T., & Beck, L. (2003). Interpretation of cultural and natural resources (2nd ed.). State
+College, PA: Venture Publishing.
+Kyle, G., & Mowen, A. J. (2005). An Examination of the Leisure Involvement-Agency Commitment
+Relationship. Journal of Leisure Research 37(3), 342–363.
+Lewicka, M. (2005). Ways to make people active: Role of place attachment, cultural capital and
+neighborhood ties. Journal of Environmental Psychology 4, 381–395.
+Liu, T. Y., Tan, T. H., & Chu, Y. L. (2009). Outdoor Natural Science Learning with an RFID-Supported
+Immersive Ubiquitous Learning Environment. Educational Technology & Society 12 (4), 161–175.
+Luckin, R., & Stanton Fraser, D. (2011). Limitless or pointless? An evaluation of augmented reality
+technology in the school and home. International Journal of Technology Enhanced Learning 3(5),
+510–524.
+Martín-Gutiérrez, J., Contero, M., Alcañiz, M., Pérez-López , D. C., & Ortega, M. (2010). Design and
+validation of an augmented book for spatial abilities development in engineering students. Computers
+& Graphics 34(1), 77–91.
+15
+
+McCall, R., Wetzel, R., Löschner, J., & Braun, A. K. (2011). Using presence to evaluate an augmented
+reality location aware game. Personal and Ubiquitous Computing 15(1), 25–35.
+Mulloni, A., Wagner, D., & Schmalstieg, D. (2008). Mobility and social interaction as core gameplay
+elements in multi-player augmented reality. 3rd international conference on Digital Interactive Media
+in Entertainment and Arts (DIMEA '08) (pp. 472–478). New York, NY, USA: ACM.
+Nielsen-Pincus, M., Hall, T., & Force, J. E. (2010). Sociodemographic effects on place bonding. Journal of
+Environmental Psychology 30, 443–454.
+Portalés, C., Lerma, J. L., & Pérez, C. (2009). Photogrammetry and augmented reality for cultural heritage
+applications. The Photogrammetric Record 24(128), 316–331.
+Prentice, R. C., Guerin, S., & McGugan, S. (1998). Visitor Learning at a Heritage Attraction: A Case Study
+of Discovery as a Media Product. Tourism Management 19(1), 5–23.
+Priestnall, G. (2009). Landscape Visualization in Fieldwork. Journal of Geography in Higher Education
+33(1), S104–S112.
+Relph, E. (1976). Place and placeness (London, Pion Ltd).
+Sánchez, J., & Olivares, R. (2011). Problem solving and collaboration using mobile serious games.
+Computers & Education 57, 1943–1952.
+Stewart, E. J., Hayward, B. M., & Devlin, P. (1998). The "place" of interpretation: a new approach to the
+evaluation of interpretation. Tourism Management 19(3), 257–266.
+Sung, Y. T., Chang, K. E., Hou, H. T., & Chen, P. F. (2010a). Designing an electronic guidebook for
+learning engagement in a museum of history. Computers in Human Behavior 26, 74–83.
+Sung, Y. T., Hou, H. T., Liu, C. K., & Chang K. E., (2010b). Mobile Guide System using Problem-solving
+Strategy for Museum Learning: A Sequential Learning Behavioral Pattern Analysis. Journal of
+Computer Assisted Learning 26, 106–115.
+Tilden, F. (1977). Interpreting Our Heritage, (3rd ed.). North Carolina Press, North Carolina. (First
+published 1957)
+Tuan, Y. F. (1974). Topophilia: A study of environmental perception, attitudes, and values (Englewood
+liffs, NJ: Prentice-Hall).
+Uzzell, D. (1996). Creating place identity through heritage interpretation. International Journal of Heritage
+Studies 1(4), 219–228.
+Wang, X., & Chen, R. (2009). An experimental study on collaborative effectiveness of augmented reality
+potentials in urban design. CoDesign 5(4), 229–244.
+Williams, D.R., Patterson, M.E., Roggenbuck, J.W., & Watson, A.E. (1992). Beyond the commodity
+metaphor: Examining emotional and symbolic attachment to place. Leisure Sciences 14, 29–46.
+Zhang, J., Hou, H. T., & Chang, K. E. (2012). Designing a Streamlined Viewport Strategy System to
+Enhance Performance in Context Awareness in Mobile Learning Environments. The 1st IIAI
+International Conference on Learning Technologies and Learning Environments, (pp. 72–76).
+Fukuoka.
+Zhang, J., Sung, Y. T., Hou, H. T., & Chang, K. E. (2014). The development and evaluation of an
+16
+
+augmented reality based armillary sphere for astronomical observation instruction. Computers &
+Education 73, 178–188.
+
+17
+
+

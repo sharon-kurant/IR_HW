@@ -1,0 +1,871 @@
+Accelerat ing t he world's research.
+
+Context-aware risk management for
+architectural heritage using historic
+building information modeling and
+virtua...
+Jong Wook Lee
+Journal of Cultural Heritage
+
+Cite this paper
+
+Downloaded from Academia.edu 
+
+Get the citation in MLA, APA, or Chicago styles
+
+Related papers
+
+Download a PDF Pack of t he best relat ed papers 
+
+HBIM for Conservat ion: A New Proposal for Informat ion Modeling
+Nazarena Bruno
+
+Virt ual t ours and informat ional modeling for conservat ion of cult ural herit age sit es
+Rebecca Napolit ano
+Net working Hist oric Environment al St andards t o Address Modern Challenges for Sust ainable Conserv…
+Oriel Prizeman
+
+Journal of Cultural Heritage 38 (2019) 242–252
+
+Available online at
+
+ScienceDirect
+www.sciencedirect.com
+
+Original article
+
+Context-aware risk management for architectural heritage using
+historic building information modeling and virtual reality
+Jongwook Lee a , Junki Kim b , Jaehong Ahn a , Woontack Woo a,∗
+a
+b
+
+Graduate School of Culture Technology, Korea Advanced Institute of Science and Technology, 291 Daehak-ro, Yuseong-gu, Daejeon 34141, South Korea
+Culture Technology Research Institute, Korea Advanced Institute of Science and Technology, 291 Daehak-ro, Yuseong-gu, Daejeon 34141, South Korea
+
+a r t i c l e
+
+i n f o
+
+Article history:
+Received 16 July 2018
+Accepted 3 December 2018
+Available online 4 February 2019
+Keywords:
+Risk management
+Architectural heritage
+HBIM
+Virtual reality
+Context-awareness
+
+a b s t r a c t
+This research proposes a data structure for context-aware risk management for architectural heritage
+using Historic Building Information Modeling (HBIM) and Virtual Reality (VR). In cultural heritage domain,
+risk management plays a key role in the preservation and intervention of the heritage. For effective risk
+management, it is important to share enriched data between people who monitor and diagnose heritages
+and people who recognize the context of information. The 5W1H (what, when, where, who, why, and
+how) model-based metadata structure for context-awareness and the framework for linking the HBIM
+with VR environment which enables sharing and retrieving of risk management information are proposed
+in this research. Two prototypes were created; an on-site VR application for the heritage managers and a
+remote VR application for the conservators. The effectiveness of the applications was verified through an
+experiment including a user survey to compare the paper-based and the VR-based methods regarding onsite VR application, and a focus-group interview regarding the remote VR application. This study enabled
+to integrate risk management information scattered across a variety of sources and formats, provide
+contextualized information. Thereby it shortens the time and effort spent to find and share information
+by heritage managers and conservators.
+© 2019 Elsevier Masson SAS. All rights reserved.
+
+1. Introduction
+In the architectural risk management field, researches on methods and tools to help conservation and management planning
+decisions have been carried out by many cultural heritage organizations. Risk management can be defined as the process of identifying,
+assessing and analyzing possible damage or establishing a strategy
+to reduce the damage of cultural heritage [1]. However, risk management of architectural heritage is more complicated due to the
+combination of structural instability and component degradation
+[2]. So, new methods and tools are necessary to assess, analyze
+and establish a strategy to reduce damages for risk management of
+architectural heritage.
+In this research, a new form of metadata and a risk management framework that use Historic Building Information Modeling
+(HBIM) data in a virtual environment for risk management of architectural heritage is suggested. For this purpose, it is important to
+share enriched data between the people who monitor and diagnose
+heritages and people who recognize the context of information. Our
+method enables efficient risk management by connecting HBIM and
+
+∗ Corresponding author.
+E-mail address: wwoo@kaist.ac.kr (W. Woo).
+https://doi.org/10.1016/j.culher.2018.12.010
+1296-2074/© 2019 Elsevier Masson SAS. All rights reserved.
+
+VR, and providing contextualized information. Specifically, it consolidates risk management information scattered across a variety of
+sources and formats, provides contextualized information, thereby
+shortens the time and effort spent to find and share information by
+people monitor and diagnose heritage.
+There have been several problems in the field of risk management of architectural heritage. First, HBIM, a tool for managing
+information on architectural heritage, could not utilize enriched
+data. Information that can be stored and managed by HBIM has
+recently become enriched with non-geometric data, but its use is
+limited due to the proprietary issues with external systems [3]. Second, metadata for cultural heritage information management does
+not provide information appropriate to the user’s context [4]. The
+existing metadata does not reflect the context of risk management
+because it is intended to archive and manage information [5]. Third,
+the on-site heritage manager and the conservator who diagnoses
+the risks were not able to share information efficiently.
+In this study, we proposed following method to overcome the
+limitations. We present the 5W1H (what, when, where, who, why,
+and how) model-based metadata structure for context-awareness,
+and suggest the framework for linking the HBIM with VR application which enables sharing and retrieving of the risk and historical
+information. The use of metadata in this research provides contextualized information that is relevant to the context of the subject,
+
+J. Lee, J. Kim, J. Ahn, et al. / Journal of Cultural Heritage 38 (2019) 242–252
+
+the user, and the interaction in the virtual environment. In particular, we defined metadata based on the 5W1H model, describing a
+situation that uses sensors, service, and the user’s points of view for
+generic purposes [6]. Therefore, the model can provide the basis for
+context-awareness and for secure extensibility to provide further
+contextualized information [7].
+We developed two prototypes, an on-site VR application for heritage managers and a remote VR application for conservators, and
+conducted a user survey to verify the effectiveness of the applications. Our findings can be summarized as follows. First, the VR
+method proved to reduce the time to perform risk management
+tasks compared to the traditional paper method. Second, the VR
+method also showed that it reduces the frustration of the user compared to the traditional method. Third, the VR method had some
+difficulties navigating in a virtual environment but proved to be
+more effective than diagnosing risks on site.
+2. Related works
+2.1. HBIM for risk management
+The HBIM system is a management system that integrates the
+historical information of the architectural heritage and builds the
+risk information into a database linked to the 3D model. Although
+the data structure of HBIM is not fully suitable for browsing
+risk management information and updating conditions of cultural
+heritages on site [8], the HBIM system has an advantage in the
+integration of heritage information such as historical documents,
+monitoring data, structural data, and conservation states for use
+in conserving and monitoring works [9]. So far, researchers have
+tried to apply HBIM to support conservation and monitoring works
+related to architectural heritage [10].
+Initially, HBIM was used for archiving and visualizing geometric and non-geometric information. Several researchers have used
+a parametric library of HBIM to convert architectural heritages’
+point cloud and photogrammetry data of into 3D models [11–17].
+Because geometric information alone lacks the diversity of information available for cultural heritage management, it has recently
+included non-geometric information. Researchers have suggested
+the integration of non-geometric information to utilize HBIM in
+architectural heritage management; this has enabled data enrichment [18–23].
+In order to take full advantage of HBIM’s rich information, it
+needs to be connected to an external system, which has been difficult due to the proprietary issue of HBIM software. Several systems
+have connected with BIM through GIS and semantic technology
+[3,24]. Dore (2012) imported the HBIM model into GIS and converted it to CityGML [24]. And Quattrini (2017) used semantic
+technology to enable HBIM data to be used in web-based browsing
+systems and VR application. [3].
+These existing systems contained contextual information essential to information management but did not reflect contextual
+information in terms of risk management. It is because the systems
+were intended for the archiving and browsing of information on
+the web. However, contextual information in risk management is
+critical for understanding and judging the state of a risk. In order to
+retrieve and provide context information suitable for risk management in a system connected with HBIM, a specialized data structure
+is needed.
+2.2. Metadata for context-awareness in risk management
+Metadata can be defined as structured information that makes
+it easy to search, describe, use, and manage information resources
+[25]. So far, many European governments and institutions have
+
+243
+
+defined their own metadata and accumulated monument records
+accordingly. For example, The CARARE metadata schema includes
+3D models in its digital resources related to architectural heritage
+[4].
+However, these existing metadata have three limitations. First,
+the metadata of existing digital applications cannot guarantee that
+these applications will have suitable features for the virtual management of 3D models and information [26]. Second, the metadata
+lack descriptions of users and situations because they are mainly
+designed for the documentation and management of heritage information [5]. Third, the metadata cannot reflect local features and
+problems related to regional diversity and variation. Therefore, a
+unified context model is necessary to define the metadata structure
+for information management and for context-aware information
+retrieval.
+Context is defined as any information that can be used to characterize a situation of an entity. The Entity means a person, a place,
+an object and an application that is relevant to the interaction [27].
+Until now, various context-aware applications have emerged based
+on this definition and have been categorized as one of the following: the presentation of information and services to a user, the
+automatic execution of a service, or the tagging of context for later
+information retrieval [28]. However, most ways of modeling context were specific to the service or give undue value to particular
+information [6].
+Therefore, to overcome this limitation, the metadata structure and the metadata is proposed for the risk management of
+architectural heritage using a unified 5W1H model in a contextaware application design. Context-awareness, such as recognizing
+the spatiotemporal background of a risk, is important in the
+risk management of architectural heritage because it enables an
+effective response to the given status of risks. Therefore, contextaware application in the risk management domain should include
+metadata that describe various contexts to ensure the effective
+presentation and retrieval of information.
+The 5W1H unified model supports applications that perceive the
+users’ situations in various environments by sorting complex contexts into six categories (what, when, where, who, why, and how).
+The unified context has several advantages for context-awareness.
+First, it provides a basic set of elements with a user-centric context.
+Second, it enables the generation of various situations involving the
+sensor such as GPS, the user, and the service according to the 5W1H
+semantic structure. Third, it has a context hierarchy for dynamically
+generating context. Finally, it is easy to utilize when developing all
+application in any environment, because it has structured elements
+[6,7]. These advantages of 5W1H model are beneficial for redefining and organizing information structures in systems such as VR
+applications.
+2.3. VR for risk management
+In the construction domain, VR technologies have been used for
+visualization of geographic data to support decision making and
+management of maintenance data in real time [29,30]. In the architectural heritage domain, VR technology is a valid cognitive tool and
+is a fundamental medium through which a user can interact with
+virtual heritage and heritage information in a virtual environment
+[31]. VR applications in the architectural heritage domain are meant
+for preservation, documentation, research, education, reconstruction, and exploration [32]. In these applications, VR technology has
+been primarily applied to intuitively share and visualize information and to provide the latest 3D model information for heritage
+buildings [33–37].
+In detail, the use of VR technology in the field of risk management of architectural heritage also has some advantages; first, it
+allows to people to interact, intuitively share critical information
+
+244
+
+J. Lee, J. Kim, J. Ahn, et al. / Journal of Cultural Heritage 38 (2019) 242–252
+
+and schedule repair operations. Second, it enables many professionals to conduct collaborative work in a virtual environment. Few
+VR applications have dealt with the use of VR and interactions for
+the risk management of architectural heritage. These applications
+allowed experts to view and record integrated data for decision
+making on risk management [10,33,37–39].
+Meanwhile, if VR is linked to HBIM system, which is an efficient
+tool for risk information management, the advantages of VR can be
+maximized. HBIM data have been utilized in virtual environments
+since the 2010s to address issues such as heterogeneous data sharing and communication between managers and experts [33,35–37].
+Because HBIM includes various types of information in conjunction
+with the database which can be integrated into a VR environment,
+it allows users to integrate, manage and retrieve information.
+As mentioned above, when the HBIM system reflects the context through the metadata structure, it becomes easy to search
+for and share contextual information in the VR application. Existing commercial VR applications have not provided user support
+such as context-aware information retrieval. For example, A360
+visualized virtual models in a virtual environment but did not support information management and retrieval. However, if contextual
+information based on the 5W1H model can be utilized in the VR
+environment, heritage managers and conservators can respond to
+the risks more quickly and accurately.
+
+define the component taxonomy of Korean wooden architectural
+heritage which devoted description and semantic structuring, we
+referred to architectural books, repair reports, and expert interviews. And we applied CIDOC Conceptual Reference Model (CRM)
+standards and vocabularies which was designed for cultural heritage information and the metadata of a portal system of the
+Korean Cultural Heritage Administration. For the ontology model,
+we applied the Monument Damage Information System (MONDIS)
+to represent cause-effect relation of damages. [41].
+The heritage building information package is divided into building and component classes (Fig. 2). The building and component
+class is defined in accordance with the 5W1H model showing basic
+description and properties for risk management. The taxonomy
+of building information includes the classifications of age, usage,
+and architectural style. Category 1 attribute in Component information class is divided into 5 group (base group, frame group,
+bracket group, Roof group, and decoration group), and Category
+2 attribute is divided into 18 components according to taxonomy
+of Korean wooden architectural heritage (Fig. 2). Repair property
+of the building and component includes risk management information, which can be classified into manifestation of damage, risk
+management type, risk management history, risk factor, risk severity, risk response, and response method. It is used to describe risk
+management information and to establish a cause-effect relation
+between damage and risk.
+
+3. Methodology
+
+3.2. Framework for VR based risk management
+
+3.1. Metadata for contextual information retrieval in risk
+management
+
+A framework that makes the risk management process fully
+available in a virtual environment is proposed in this research.
+Existing risk management process is as follows. The heritage manager checks the damage to the component, takes a picture of it, and
+records the component’s status on paper. Then the data recorded
+by the manager is transferred to the conservator. The conservators
+analyze and diagnose the damage, judge its cause, and decide on the
+proper action after discussion based on the data. All processes are
+recorded in reports (on paper). The proposed framework enables
+this process to be performed in a virtual environment.
+The proposed framework consists of a content database, an
+HBIM system, a user interface including a mobile device and a Head
+Mounted Display (HMD), and a server (Fig. 3). The workflow of this
+framework can be described as the process of transferring information from an on-site VR application to a remote VR application. In
+the on-site VR application, the mobile device’s sensor (GPS) first
+recognizes the heritage manager’s location and then selects the
+specific building. The application next queries the content database
+through the server so that it can provide the heritage manager
+with the building’s historical information. The mobile device then
+uploads the checklist and the photo of the damage to the content
+database.
+The remote VR application downloads the previously uploaded
+information from the content database. Then, the application
+queries the database and provides the conservator with historical and on-site risk information, as well as the heritage managers’
+comments to the conservators. With the provided information,
+the conservator then diagnoses the damage in the virtual environment. He also analyses and diagnoses the risk factors and suggests
+responses to repair the damage. The accumulated information can
+be used to plan future repairs or applied to other situations.
+Meanwhile, in the framework, the server plays the role in connecting on-site and remote VR applications with transferring the
+information. The content database is created to store and deliver
+information regarding on-site risk, past management, and history
+for the VR applications. This database not only delivers and accumulates risk-management information; it also provides historical
+information from HBIM to the VR applications. The data and media
+
+In the cultural heritage domain, context metadata provides
+information that can be used to characterize an entity such as
+a person, a place, or any other relevant object in the interaction
+between a user and an application [40]. In this paper, the metadata
+plays an important role in context-aware information retrieval in
+the Virtual environment. The metadata defines the context of data
+as attributes and the metadata structure serves to structure entities for context-awareness. The metadata structure consists of PoI,
+anchor and content. And they are classified using the 5W1H model.
+The PoI includes information on the real space; the visualized VR
+content; and the anchor, which contains the instructions for the VR
+visualization. The content is classified into three layers according
+to type. The geographic information layer contains information on
+the space. The entity layer includes several types of information:
+building, component, and so on; in this case, the anchor can retrieve
+contents which is connected with PoIs. The asset layer means media
+content and data files, which can include text, drawings, photos,
+videos and 3D models (Fig. 1).
+The linker plays an important role in providing information
+necessary for decision making in risk management. First, the
+linker class connects data and has relation properties representing the semantics of relationships among entities. For example, this
+connects the component and multiple management data as a management history record. Second, the linker can express hierarchy
+of instances by connecting instances between different layers and
+classes. For example, it expresses the relationship between a frame
+group and a column (Fig. 1). Third, it can also represent the semantics relationship between entities; in particular, domain knowledge
+can be reflected through cause-effect relationships. For example, in
+the case of column component corrosion, it can be connected to the
+floor component.
+For definition of the heritage Building Information content,
+building and component class of Korean wooden architectural heritage is defined for representing structure of architectural heritage
+and relationships among components and risks (Fig. 2). In order to
+
+J. Lee, J. Kim, J. Ahn, et al. / Journal of Cultural Heritage 38 (2019) 242–252
+
+245
+
+Fig. 1. 5W1H model-based metadata structure for risk management.
+
+in the content database and those in the HBIM system share the
+common properties of the 5W1H model’s metadata.
+4. Evaluation
+4.1. Prototyping
+The prototype was built for the for the Gwandeokjeong building,
+which is located on Jeju Island, Korea. It is the oldest wooden building in Jeju Island and is designated as a National Treasure by Korean
+government. However, the building is exposed to artificial risk, such
+as vibration, and natural risk from wind and humidity. Because this
+building needed continuous risk management, we decided to apply
+the proposed VR-based risk management method to this building.
+The virtual building is modeled using 3 ds Max software. Because
+Korean wooden buildings are assembled with many components,
+it is difficult to know the exact shape before dismantling. So,
+drawings in repair reports, CAD blueprints and photographs were
+used for creating the virtual building. And then it was converted
+
+using SketchUP software to build the HBIM data available in Revit
+software (Fig. 4). Component families is created according to the
+component taxonomy using Revit software. Each component has
+each parameters which is defined based on 5W1H model-based
+metadata of Korean wooden architectural heritage (Fig. 2). The risk
+management information is inserted to each component by reference to the repair report and checklist.
+Although interworking between BIM system and the external
+database is essential for utilizing BIM data, most BIMs and external databases are synchronized manually [42]. To overcome these
+limitations, several approaches were reported to semantically link
+the HBIM system with the VR application [43–45]. Oreni (2014)
+converted BIM data to ISO 10303 standard for linking a different
+application such as finite element analysis (FEA) software [43].
+Pauwels (2014) used semantic technology to convert BIM data into
+an RDF graph, so that 3D model and related information can be visualized in virtual environment [44]. Furthermore, Quattrini (2018)
+conducted semantic modeling for visualization of BIM data and
+proposed the viewer to interact directly with the 3D model [45].
+
+246
+
+J. Lee, J. Kim, J. Ahn, et al. / Journal of Cultural Heritage 38 (2019) 242–252
+
+Fig. 2. Building and component class (top) and taxonomy of Korean wooden architectural heritage (bottom).
+
+This study presents the metadata to enable to link BIM system,
+database and VR application. This linkage is performed in the following steps: 1) HBIM data is converted in excel format through
+DB link plug-in and 2) The data is exported to MySQL database;
+3) The URL address are imported to MySQL database; 4) Related
+information is exported to VR application, when user selects the
+PoI in virtual environment (Fig. 4). There are two advantages in data
+
+interaction between a BIM system and a VR application using metadata. Because most of the BIM system studies only support defining
+relationships among PoIs and among contents using parameters
+and families, it is far easier to define relationships between Linker
+classes. This enables Linker classes to reflect domain knowledge
+on risk management by connecting related PoIs and contents. Second, only the required information of BIM data can be retrieved by
+
+J. Lee, J. Kim, J. Ahn, et al. / Journal of Cultural Heritage 38 (2019) 242–252
+
+247
+
+Fig. 3. Framework of risk management using HBIM and VR.
+
+Fig. 4. Process of linking BIM system, Database and VR application.
+
+supporting metadata editing depending on the type of risk management. However, such benefits comes with a drawback. While
+non-geometric data can be updated automatically in the VR application and the BIM system, 3D models have to be updated manually
+in each system.
+The content database of VR application is designed on Maria
+DB which is a relational database for the storage and management
+of data and related media. To apply the metadata to the relational database, Tables are divided into the PoI, anchor, linker, and
+assets. The assets consist of media asset, building, component, and
+management tables (Fig. 5). Every table has a unique number (id
+column) and URL connected with the HBIM database for checking
+additional BIM data (Fig. 5).
+Each application was implemented for use with the following
+processes. First, in the on-site VR application, the heritage manager who accesses to the architectural heritage can browse that
+heritage’s basic information, check the potential risks of each component, and review the building’s risk management history using
+the on-site VR application. The heritage manager can also refer to
+multimedia content by clicking the multimedia icons. In the onsite VR application, the manager can take pictures and check off
+
+items on the checklist at the same time. Second, in the remote VR
+application, the conservator checks the condition information of
+components, and the surroundings. Then, the conservator determines and records the building’s condition, its risk factors, the
+severity of the damage, and the appropriate risk response. Finally,
+he or she records a text or voice comment on the virtual components to describe any necessary response work, such as repairs
+(Fig. 6).
+4.2. User study
+4.2.1. Experiment design for the on-site VR applications
+For the participants, heritage managers whose careers in the
+domain were more than 1-year long were recruited. A total 13
+architectural heritage managers (11 male and 2 female) were in
+various age groups (aged between 20 and 69), and 61.6% of them
+had more than 3 years of architectural heritage management experience. They performed tasks in two methods; the paper-based
+method and on-site VR method. Tasks involved checking and
+recording the damaged components using the management manuals and reports, checking off items on the checklists, and taking
+
+248
+
+J. Lee, J. Kim, J. Ahn, et al. / Journal of Cultural Heritage 38 (2019) 242–252
+
+Fig. 5. Content database structure.
+
+Fig. 6. Screenshots of Interface (top), On-site VR application (middle) and remote VR application (bottom).
+
+J. Lee, J. Kim, J. Ahn, et al. / Journal of Cultural Heritage 38 (2019) 242–252
+
+249
+
+Fig. 7. Paper-based method (left), VR-based method (right).
+
+pictures of the damaged part. The participants used a Samsung
+Galaxy Note 8 (162.5 × 74.8 × 8.6 mm) (Fig. 7).
+We conducted a survey to evaluate the user experience for both
+methods. At the end of each task, the participants filled out the
+questionnaires about the method. For the measurement of mental
+stress level and physical load, the NASA Task Load Index [46], which
+is widely used, subjective, and multidimensional assessment tool
+was used to rate a perceived workload. For the measurement of the
+proposed system’s usability, an index of interactive 3D information
+system’s usability was used [47].
+4.2.2. Results of the experiment for on-site VR applications
+In the comparison of the time to complete the task, the VR
+method took 145 seconds fewer than the paper method. In the
+paper method, the user needed to retrieve and photograph information from various sources, and the VR method seemed to take
+less time because the search and the documentation could be done
+using a single device. Comparing the time required to perform tasks
+and the ages of the participants, the task took 143 seconds on average for those under 50 years and 92 seconds on average for those
+over 50 years. This seems to be due to the differences in familiarity
+with on-site VR-based interactions across age groups (Fig. 8).
+The results for the users’ mental stress levels and physical load
+showed that the participants experienced much less frustration
+when using the VR method than when using the paper method
+(Fig. 9). This seems to be because they were familiar with entering text and storing digital data because they commonly use digital
+devices such as smartphones. Another item that showed a big difference from the paper method was physical demand. This seems
+to be due to the fact that the paper method has the burden that
+the user must deliver the document directly and find the necessary information. Because the mobile environment is widespread,
+mobile immersive technology can be utilized in architectural heritage management.
+In the usability questionnaire, the highest average score (3.9
+points) was about information insertion (Fig. 10). We presume
+that using the virtual keyboard on the mobile device is familiar.
+And it means that managers had a hard time to check and leave
+
+comments on the checklist and taking pictures with a camera.
+Overall understanding recorded high average score (3.7 points)
+than other indexes. This is because the application provides integrated information on risk management stored in HBIM. The lowest
+average score (3.2 points) for correct answers for actions seem to
+be attributed to older managers who are unfamiliar with touchscreens. This seems to be because the smartphone screen size was
+too small for them.
+4.2.3. Focus-group interview results for the remote VR application
+The focus-group interviews for evaluation of remote VR application were conducted twice for the experts of the national cultural
+heritage research Institute (four persons), the government’s cultural heritage research institute, and the Daejeon city heritage
+management center (four persons), a cultural heritage management agency of the local government. Each interview lasted for
+approximately one and a half hours.
+Four conservators (two male in the 40 s and 50 s, and two female
+in the 30 s) from the National Cultural Heritage Research Institute
+were recruited. Two male interviewees have more than 10 years of
+working experience in the heritage domain, and the working years
+of the two female participants are varied from three to five years.
+They regularly check architectural heritages every five year and
+conduct Precision safety inspection. And four conservators (two
+male and two female in their 30 s) with over 10 years of working experience at the Heritage Management Center in Daejeon,
+Korea are recruited. They serve to diagnose the results of routine
+management by non-experts.
+In the focus-group interviews of the experts at the National
+Cultural Heritage Research Institute, one mentioned that it is
+important for risk analysts to identify external environmental
+factors, and that the 360-degree image is helpful for the purpose. Another expert said that the remote VR application is useful
+because experts do not need to physically visit the site. There is also
+a negative response that the text size in the HMD application is too
+small to read.
+In the focus-group interview of experts in a Daejeon Cultural
+Heritage Management Agency, most of the conservators were sat-
+
+250
+
+J. Lee, J. Kim, J. Ahn, et al. / Journal of Cultural Heritage 38 (2019) 242–252
+
+Fig. 8. Comparison of time taken to complete the tasks in paper-based method and VR-based method (seconds).
+
+Fig. 9. Task Load Index between Paper method and VR method.
+
+Fig. 10. Result of usability test.
+
+251
+
+J. Lee, J. Kim, J. Ahn, et al. / Journal of Cultural Heritage 38 (2019) 242–252
+Table 1
+Result of the focus-group interviews.
+ExpertNo.
+
+Affiliation
+
+Age
+/Sex
+
+Career(year)
+
+Advantages of proposed
+application
+
+Disadvantages of proposed
+application
+
+Key suggestions
+
+1
+
+National cultural
+heritage research
+Institute
+
+40–50
+Male
+
+Over 20
+
+The usefulness of
+visualizing related
+components
+
+Dizziness
+The difficulty of navigation
+and manipulation
+
+2
+
+National cultural
+heritage research
+Institute
+
+40–50
+Male
+
+Over 20
+
+3
+
+National cultural
+heritage research
+Institute
+National cultural
+heritage research
+Institute
+City heritage
+management
+center
+
+30–40
+Female
+
+Over 10
+
+Accessing
+difficult-to-access
+components (e.g. roofs) to
+verify information
+Checking environmental
+information
+
+30–40
+Female
+
+Over 10
+
+saving time and money for
+diagnosis
+
+Dizziness
+The difficulty of navigation
+The difficulty to accurately
+assess the condition
+Dizziness
+The difficulty of navigation,
+Insufficient resolution
+Dizziness
+The difficulty of navigation
+
+It is necessary to improve
+the comment input method
+Since the number of
+components is too large,
+group-level management is
+useful.
+It may be useful to
+visualize numerical
+information on a 3D model
+
+30–40
+Female
+
+Over 10
+
+saving time and money for
+diagnosis
+
+Dizziness
+The difficulty of navigation
+
+4
+
+5
+
+6
+
+City heritage
+management
+center
+
+30–40
+Female
+
+Over 10
+
+Remote diagnostics will
+save time and money
+
+Dizziness
+The difficulty of navigation
+Level of information
+
+7
+
+City heritage
+management
+center
+
+30–40
+Male
+
+Over 10
+
+Remote diagnostics will
+save time and money
+
+Dizziness
+The difficulty of navigation
+
+8
+
+City heritage
+management
+center
+
+30–40
+Male
+
+Over 10
+
+Remote diagnostics will
+save time and money
+
+Dizziness
+The difficulty of navigation
+
+isfied with the historical and on-site information provided by the
+VR application. However, one noted that some of the basic information is not necessarily provided because conservators typically are
+experts in the heritage domain. According to two focus-group interviewees, the need for the system to remotely analyze the state of
+the heritage building is verified by experts. However, they are often
+uncomfortable with the devise, due to the dizziness and difficulty
+of manipulation in VR using HMD (Table 1).
+
+5. Conclusion
+In this paper, the context-aware risk management method using
+HBIM and VR is proposed. First, the metadata for contextualized
+information retrieval in risk management is designed. This metadata provided contextual information using the 5W1H model in a
+risk management context. Second, the framework for VR-based risk
+management is suggested. This framework enabled HBIM information and media to be used in a context-aware VR application,
+thereby integrating the scattered information sources to allow the
+sharing of information in the VR environment. For the evaluation,
+two VR applications with different interfaces have been developed
+to provide appropriate information according to risk management
+types.
+In this study, thirteen on-site managers and eight conservators
+participated in the experiments and the focus interviews. In the
+future, it will be crucial to continue to conduct additional field
+experiments so as to improve the effectiveness of the application
+with increasing the number of samples. Moreover, additional test
+
+Desktop-based VR will be
+advantageous for risk
+analysis.
+It will be more meaningful
+to update the VR content
+frequently
+The teleporting to a
+particular location would
+be better than giving
+freedom
+It will be useful to provide
+information that is difficult
+to access, such as
+information on the roof
+using a drone
+Basic information is not
+necessarily provided
+because experts typically
+have domain expertise
+It is necessary to set
+priorities of which
+components should be
+checked first in the
+application
+Environmental information
+(humidity, temperature,
+etc.) of the site should be
+recorded and provided.
+
+is planned for comparison with a mobile application that does not
+support context-aware methods is planned. And an application is
+being prepared for involving public in identifying and recording the
+risk of architectural heritage as a volunteer.
+The VR application in this research has some limitations in terms
+of risk management. First, the application cannot recognize heritage manager’s intention beyond user’s location. Second, it does
+not allow users to compare the real object in the field with the past
+virtual component on a single screen. Third, it does not allow users
+to operate the camera in a separate window to document heritage’s
+condition.
+Using an augmented reality (AR) application can be an improvement in this respect, it helps to recognize user’s intention where the
+user looks at and interacts with object and information. Specifically,
+it helps user localization using GPS and IMU sensors (accelerometers and gyroscopes) with computer vision technology using
+cameras. And it also enables users to compare actual site and virtual objects on a single screen. Lastly, it supports users to browse
+information and record heritage’s condition on a single screen. As
+a remaining work, we plan to build an on-site AR application. The
+application will be designed to detect components on the spot and
+to offer related information and media on the overlay of them.
+
+Acknowledgment
+This research is supported by Ministry of Culture, Sports and
+Tourism (MCST) and Korea Creative Content Agency (KOCCA) in the
+Culture Technology (CT) Research & Development Program 2017.
+
+252
+
+J. Lee, J. Kim, J. Ahn, et al. / Journal of Cultural Heritage 38 (2019) 242–252
+
+References
+[1] K. Van Balen, Challenges that Preventive Conservation poses to the Cultural
+Heritage documentation field, ISPRS 42 (2017).
+[2] X. Romão, E. Paupério, N. Pereira, A framework for the simplified risk analysis
+of cultural heritage assets, J. Cult. Herit. 20 (2016) 696–708.
+[3] R. Quattrini, et al., Conservation-oriented HBIM. The bimexplorer web tool,
+ISPRS 42 (2017).
+[4] R. Paola, F. Niccolucci, A. D’Andrea, Built Heritage metadata schemas and the
+integration of architectural datasets using CIDOC-CRM, Built Herit. Conf. (2013).
+[5] Y.N. Yen, K.H. Weng, H.Y. Huang, Study on information management for the
+conservation of traditional Chinese architectural heritage-3d modelling and
+metadata representation, ISPRS 1 (2013) 331–336.
+[6] J. Seiie, E.-J. Ko, W. Woo, Unified user-centric context: who, where, when,
+what, how and why, Personalized Context Modeling Management UbiComp
+Applications 149 (2005) 26–34.
+[7] J. Seiie, W. Woo, Ubi-UCAM: a unified context-aware application model, International and Interdisciplinary, Conference on Modeling and Using Context
+(2003).
+[8] F.I. Apollonio, et al., A 3D-centered information system for the documentation
+of a complex restoration intervention, J. Cult. Herit. 29 (2018) 89–99.
+[9] Apollonio F.I., et al., A Reality Integrated BIM for Architectural Heritage Conservation, Handbook of Research on Emerging Technologies for Architectural and
+Archaeological Heritage, IGI Global, Hershey, USA, 2017, 31-65.
+[10] L. Barazzetti, et al., HBIM and augmented information: towards a wider user
+community of image and range-based reconstructions, ISPRS 40.5 (2015).
+[11] C. Chevrier, et al., Parametric documenting of built heritage: 3D virtual reconstruction of architectural details, Int. J. Archit. Comput. 8.2 (2010) 135–150.
+[12] L. De Luca, et al., A semantic-based platform for the digital analysis of architectural heritage, Comput. Graphics 35.2 (2011) 227–241.
+[13] D. Oreni, et al., Towards a methodology for 3D content models: The reconstruction of ancient vaults for maintenance and structural behaviour in the logic of
+BIM management, Virtual Systems and Multimedia (VSMM) 2012, 18th Int.
+Conf. IEEE (2012).
+[14] S. Boeykens, Using 3D Design software, BIM and game engines for architectural
+historical reconstruction, Designing Together-CAADfutures 2011 (2011).
+[15] A. Baik, et al., Jeddah Historical Building Information ModelingJ̈HBIMÖld
+Jeddah-Saudi Arabia, ISPRS 2 (2013) 73–78.
+[16] S. Fai, et al., Building information modelling and heritage documentation, CIPA
+(2011).
+[17] M. Murphy, E. McGovern, S. Pavia, Historic building information modelling
+(HBIM), Struct. Survey 27.4 (2009) 311–327.
+[18] R. Brumana, D. Oreni, A. Raimondi, A. Georgopoulos, A. Bregianni, From survey
+to HBIM for documentation, dissemination and management of built heritage,
+Proc. Digit. Herit. Int. Congr. 1 (2013) 497–504.
+[19] L. Fregonese, L. Taffurelli, 3D model for the documentation of cultural heritage:
+the wooden domes of St. Mark’s Basilica in Venice, ISPRS 38 (2009).
+[20] É. Meyer, et al., A web information system for the management and the dissemination of Cultural Heritage data, J. Cult. Herit. 8.4 (2007) 396–411.
+[21] S. Boeykens, et al., Improving architectural design analysis using 3D modeling and visualization techniques, Digit. Herit. Proc. 14th Int. Conf. Virtual Syst.
+Multimedia (2008).
+[22] R. Quattrini, et al., Knowledge-based data enrichment for HBIM: Exploring high-quality models using the semantic-web, J. Cult. Herit. 28 (2017)
+129–139.
+
+[23] Y. Zhang, et al., Integration application system of Chinese wooden architecture
+heritages based on BIM, LISS 2016 Int. Conf. IEEE (2016).
+[24] C. Dore, et al., Integration of Historic Building Information Modeling (HBIM)
+and 3D GIS for recording and managing cultural heritage sites, VSMM 2012
+18th Int. Conf. IEEE (2012).
+[25] G. Alemu, Metadata enrichment for digital heritage: users as co-creators, Int.
+Inf. Libr. Rev. 50 (2) (2018) 142–156.
+[26] M. Felicetti, et al., Metadata and tools for integration and preservation of cultural heritage 3D information, Geoinformatics (2011) 118–124.
+[27] Abowd, Gregory D., et al., Towards a better understanding of context and
+context-awareness, International symposium on handheld and ubiquitous
+computing. Springer, Berlin, Heidelberg, 1999.
+[28] E. Kim, J. Kim, W. Woo, Metadata schema for context-aware augmented reality applications in cultural heritage domain, Digit. Herit. 2015 IEEE (2015)
+283–290.
+[29] R. Pierdicca, et al., Smart maintenance of riverbanks using a standard data layer
+and augmented reality, Comput.Geosci. 95 (2016) 67–74.
+[30] B. Naticchia, A. Corneli, A. Carbonari, A. Bonci, M. Pirani, Mixed reality approach
+for the management of building maintenance and operation, ISARC (2018).
+[31] M.K. Bekele, et al., A survey of augmented, virtual, and mixed reality for cultural
+heritage, JOCCH 11.2 (2018).
+[32] F. Chionna, et al., Integrating building information modeling and augmented
+reality to improve investigation of historical buildings, Conserv. Sci. Cult. Herit.
+15.1 (2015) 133–163.
+[33] F. Bruno, et al., From 3D reconstruction to virtual reality: A complete methodology for digital archaeological exhibition, J. Cult. Herit. 11.1 (2010) 42–49.
+[34] F. Fassi, et al., VR for cultural heritage, international conference on augmented
+reality, virtual reality and computer graphics, Springer (2016).
+[35] F. Chiabrando, et al., Historical buildings models and their handling via 3D
+survey: from points clouds to user-oriented HBIM, ISPRS (2016) 633–640.
+[36] A. Fonnet, et al., Heritage BIM integration with mixed reality for building preventive maintenance, EPCGI (2017).
+[37] J.O. Wallgrün, et al., Immersive Technologies and Experiences for Archaeological Site Exploration and Analysis, Int. Conf. Spatial Inf. Theory Springer (2017).
+[38] A. Osello, G. Lucibello, F. Morgagni, HBIM and virtual tools: a new chance to
+preserve architectural heritage, Buildings 8.1 (2018) 12.
+[39] F.I. Apollonio, et al., A 3D-centered information system for the documentation
+of a complex restoration intervention, J. Cult. Herit. (2017).
+[40] L. Roffia, et al., Context awareness in mobile cultural heritage applications,
+Interaction 4 (2005) 11.
+[41] R. Cacciotti, B. Miroslav, V. Jaroslav, A diagnostic ontological model for damages
+to historical constructions, J. Cult. Herit. 16.1 (2015) 40–48.
+[42] D.P. Pocobelli, et al., BIM for heritage science: a review, Heritage Science 6.1
+(2018) 30.
+[43] D. Oreni, et al., Survey turned into HBIM: the restoration and the work involved
+concerning the Basilica di Collemaggio after the earthquake (L’Aquila), ISPRS
+2.5 (2014) 267.
+[44] P. Pauwels, D. Di Mascio, Interpreting metadata and ontologies of virtual heritage artefacts, Int. J. Herit. Digit. Era 3.3 (2014) 531–555.
+[45] R. Quattrini, C. Battini, R. Mammoli, HBIM to VR. Semantic awareness and data
+enrichment interoperability for parametric libraries of historical architecture,
+ISPRS 42.2 (2018).
+[46] S.G. Hart, et al., Development of NASA-TLX (Task Load Index): results of empirical and theoretical research, Adv. Psychol. 52 (1988) 139–183.
+[47] L. Pecchioli, et al., ISEE: Information access through the navigation of a 3D
+interactive environment, J. Cult. Herit. 12.3 (2011) 287–294.
+
+

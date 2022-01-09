@@ -1,0 +1,1305 @@
+Current Issues in Tourism
+
+ISSN: (Print) (Online) Journal homepage: https://www.tandfonline.com/loi/rcit20
+
+Measuring perceived beauty of the Great Barrier
+Reef using eye-tracking technology
+
+Noel Scott, Dung Le, Susanne Becken & Rod M. Connolly
+
+To cite this article: Noel Scott, Dung Le, Susanne Becken & Rod M. Connolly 
+(2020) Measuring
+perceived beauty of the Great Barrier Reef using eye-tracking technology, 
+Current Issues in
+Tourism, 23:20, 2492-2502, DOI: 10.1080/13683500.2019.1626812
+
+To link to this article:  https://doi.org/10.1080/13683500.2019.1626812
+
+View supplementary material
+
+Published online: 18 Jul 2019.
+
+Submit your article to this journal
+
+Article views: 615
+
+View related articles
+
+View Crossmark data
+
+Citing articles: 7 View citing articles
+
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=rcit20
+
+
+CURRENT ISSUES IN TOURISM
+2020, VOL. 23, NO. 20, 2492–2502
+
+https://doi.org/10.1080/13683500.2019.1626812
+
+CURRENT ISSUES IN METHOD AND PRACTICE
+
+Measuring perceived beauty of the Great Barrier Reef using eye-
+tracking technology
+
+Noel Scottᵃ, Dung Leᵇ, Susanne Beckenᵇ and Rod M. Connollyᶜ
+
+ᵃSustainability Research Centre, University of Sunshine Coast, Sippy Downs, 
+Australia; ᵇGriﬃth Institute for Tourism,
+Griﬃth University, Gold Coast, Australia; ᶜSchool of Environment and Science, 
+Australian Rivers Institute – Coast and
+Estuaries, Griﬃth University, Gold Coast, Australia
+
+
+ABSTRACT
+
+The purpose of this research is to test the usefulness of eye-tracking in
+measuring the perceived beauty of photos of the Great Barrier Reef. Eye-
+tracking  is  used  to  measure  visual  attention  (ﬁxation  count,  ﬁxation
+duration)  to  21  photos  ranked  in  the  degree  of  perceived  beauty.
+Results  indicate  signiﬁcant  diﬀerences  in  visual  attention  to  
+‘beautiful’
+and   ‘ugly’  photos   and   a   signiﬁcant   correlation   between   average
+perceived beauty and attention measures. This study provides evidence
+that eye-tracking can be used to measure the relative perceived beauty
+of natural images reﬂecting the attention given to ‘attractive’ images.
+
+ARTICLE HISTORY
+
+Received 4 May 2018
+
+Accepted 28 May 2019
+
+KEYWORDS
+
+Aesthetics; perceived beauty;
+attention; eye-tracking; Great
+Barrier Reef; World Heritage
+
+Introduction
+
+The importance of aesthetic characteristics of a destination is well recognized 
+in tourism literature as
+natural beauty is one of the key reasons for tourists to visit a place 
+(Kirillova, Fu, Lehto, & Cai, 2014;
+Todd, 2009; Yoon & Uysal, 2005). The aesthetic qualities of a destination aﬀect 
+tourists’ experience in
+that place, their satisfaction, loyalty and revisit intentions (Chi & Qu, 2008; 
+Lee, Jeon, & Kim, 2011;
+O’Leary & Deegan, 2003; Tan & Kuo, 2014). Indeed, tourist perceived beauty of a 
+destination plays
+a  critical  role  in  destination  choice  process  (Vogt,  Fesenmaier,  &  
+MacKay,  1994).  For  example,
+UNESCO World Heritage Listed Regions such as the Great Barrier Reef (GBR) 
+attracts millions of tour-
+ists to North Queensland because of their aesthetic reputation (Johnston, 
+Smith, & Dyke, 2013; Packer,
+Ballantyne, & Hughes, 2014).
+
+The GBR Marine Park application for listing as a World Heritage Area states 
+that it is a region of
+‘natural  beauty’  that  ‘contains  superlative  natural  phenomena  or  areas  
+of  exceptional  natural
+beauty  and  aesthetic  importance’  (Great  Barrier  Reef  Marine  Park  
+Authority,  2014,  p.  93).  This
+natural  beauty  extends  ‘above  and  below  the  water’ (Great  Barrier  Reef 
+ Marine  Park  Authority,
+2014, p. 280). However, The Great Barrier Reef Outlook Report 2014 (Great 
+Barrier Reef Marine Park
+Authority, 2014, p. 100) indicates the underwater beauty of the GBR is under 
+threat due to a reduction
+in coral cover and reduced water clarity.
+
+The [GBR] Region generally continues to be an area of great natural beauty; 
+however, coastal infrastructure,
+marine debris [especially on beaches], reduced water clarity and declining 
+coral cover, especially in southern
+and central inshore areas, have reduced underwater aesthetic values.
+
+Given the importance of maintaining the natural beauty of places such as the 
+GBR, it is somewhat
+surprising that there is no agreed approach to evaluating perceived beauty. 
+Some prior work has
+
+CONTACT  Dung Le       dung.le@griﬃthuni.edu.au
+
+Supplemental data for this article can be accessed 
+http://doi.org/10.1080/13683500.2019.1626812.
+
+© 2019 Informa UK Limited, trading as Taylor & Francis Group
+
+
+made recommendations, but no objective assessment method is as yet available 
+(Context Pty Ltd,
+2013).  Development  of  an  objective  approach  to  the  measurement  of  
+perceived  beauty  would
+enable aesthetic assessments to be included into destination management and 
+conservation plan-
+ning,  allowing  changes  in  the  beauty  of  the  GBR  to  be  monitored  
+(Marshall,  Marshall,  &  Smith,
+2017). This paper reports on research conducted to develop an objective method 
+to monitor the per-
+ceived underwater scenic beauty of the GBR.
+
+The method is based on the idea of beauty as a subjective mental evaluation of 
+a perceived object
+(i.e. a visual scene or picture) (Berlyne, 1973; Lothian, 1999). Individual 
+aesthetic evaluations of an
+object will diﬀer due to variations in expertise or preferences, but an 
+individual’s evaluation of an
+object’s beauty is correlated to subconscious visual attention processes and 
+the eye-movements
+they direct (Calvo & Lang, 2004; Nummenmaa, Hyönä, & Calvo, 2006). Such 
+eye-movements can
+be  tracked,  and  their  important  characteristics  such  as  ﬁxations  and  
+saccades,  measured  using
+eye-tracking equipment (Leder, Mitrovic, & Goller, 2016; Scott, Zhang, Le, & 
+Moyle, 2017). Therefore,
+certain characteristics of an individual’s eye-movements when exposed to a 
+series of images provide
+an indicator of the subject’s relative aesthetic evaluation of those images.
+
+The aim of this paper then is to provide a method for evaluating the relative 
+beauty of a series of
+images of the coral, ﬁsh and other underwater characteristics of the GBR. The 
+method was tested by
+examining the relationship between eye-tracking measures and respondent beauty 
+scores. Speciﬁ-
+cally, sixty-six respondents were asked to rank the beauty of 21 underwater 
+photographs on a 10-
+point scale. The averages of these rankings were correlated with visual 
+attention measures of the
+same images obtained using eye-tracking methods in a laboratory setting (Scott, 
+Green, & Fairley,
+2016). The paper contributes to the literature by demonstrating the potential 
+of using eye-tracking
+technology in aesthetic research: signiﬁcant correlations between average 
+perceived beauty rankings
+and average eye-tracking measures were conﬁrmed.
+
+Literature review
+
+Aesthetic experience and beauty
+
+The conceptualization of beauty may be grouped into objective and subjective 
+approaches (Lothian,
+1999). The ﬁrst considers that beauty is an objective and intrinsic 
+characteristic of an object. In this
+view  beauty  is  ‘an  aspect  of  the  experience  of  idealisation  in  which 
+ an  object(s),  sound(s),  or
+concept(s) is believed to possess qualities of formal perfection’ (Hagman, 
+2002, p. 661). Interaction
+with,     or  experience  of,  objects  with  this  property  leads  to  
+recognition  of  their  intrinsic  beauty.
+Indeed the ability to recognize beauty is an important human capacity, and the 
+‘subjective experi-
+ence of beauty leads to a sublime and exalted state that is unique, 
+psychologically signiﬁcant and
+desirable’ (Hagman,  2002,  p.  661).  The  sense  of  beauty  is  often  found 
+ in  nature  and  associated
+with      a feeling of wholeness, pleasure, a lessening of anxiety, awe, joy, 
+excitement, relaxation and con-
+tentment (Kirillova & Lehto, 2016; Lynn, Chen, Scott, & Benckendorﬀ, 2017; 
+Todd, 2009).
+
+The phrase ‘beauty is in the eye of the beholder’ reﬂects an alternative 
+subjective approach to the
+conceptualization of beauty. This means that an object can have no objective 
+property of beauty and
+that  it  is  the  person’s  perception  and  interpretation  of  the  object  
+that  determines  its  perceived
+beauty. This subjective view considers that recognition of beauty is ‘a 
+pleasure which is experienced
+through  the  perception  of  an  object’  (Lothian,  1999,  p.  190).  This  
+study  adopts  the  subjective
+approach to beauty treating it as a human reaction that varies across diﬀerent 
+viewers and cultures
+(Hekkert & Leder, 2008). Such human reactions are measurable and such 
+measurements can provide
+an objective measure of ‘beauty’. This second approach is consistent with the 
+empirical aesthetics of
+Berlyne (1973) whereby neuroscientiﬁc evidence is considered to strengthen, 
+complement, and con-
+strain explanation of beauty at the psychological level (Cela-Conde, Agnati, 
+Huston, Mora, & Nadal,
+2011; Leder & Nadal, 2014). Thus, the perceived beauty of a landscape is 
+derived from perceptual
+responses of respondents (Kara, 2013; Karmanov, 2009).
+
+
+Compared to beauty, the more general term of aesthetics deals with the 
+‘experience of objects
+which  provide  the  consumer  with  an  element  of  beauty’  (Charters,  
+2006,  p.  239).  Therefore,
+objects  which  are  perceived  as  beautiful  are  experienced  as  
+pleasurable  through  an  aesthetic
+process. This aesthetic experience of human beauty inﬂuences subsequent 
+judgements, favouring
+the beautiful. (Lindell & Lindell, 2014). Hence, objects, or images, which are 
+pleasing to the eye,
+are of considered of higher value in terms of their aesthetic beauty (Haas et 
+al., 2015). In this way,
+the concept of perceived beauty is similar to attractiveness (Lindell & 
+Lindell, 2014, p. 768).
+
+Prior research has found that aesthetic appreciation of art relies on the 
+brain’s reward processes
+involved in reward representation, prediction and anticipation, aﬀective 
+self-monitoring, emotions,
+and the generation of pleasure (Leder & Nadal, 2014). This suggests that reward 
+(i.e. wanting the aes-
+thetic experience) triggers aesthetic preference, judgment, and subsequently 
+decision (Leder, Belke,
+Oeberst,  &  Augustin,  2004;  Reimann,  Zaichkowsky,  Neuhaus,  Bender,  &  
+Weber,  2010).  Cognitive
+appraisal  describes  the  process  by  which  individuals  evaluate  whether  
+an  encounter  with  the
+environment  is  relevant  to  their  well-being  (Lazarus,  1991).  The  type  
+and  intensity  of  aesthetic
+response  to  an  object  depend  on  the  degree  of  expertise  of  the  
+viewer.  In  a  comparison  of
+experts and non-experts (measured by facial EMG and several rating scales), 
+experts gave distinctively
+diﬀerent evaluations, not only to the artworks but also to a control set of 
+emotional images (Leder &
+Nadal, 2014). This suggests that expert evaluations of scenery and images may 
+vary from those of lay
+people. The aesthetic evaluation processes that allow the identiﬁcation of an 
+object as having the
+attribute of beauty are based on sensory (usually visual) perception (Ross, 
+2016). Human visual per-
+ception allows attentional processes a major function in selecting relevant 
+stimuli for detailed exam-
+ination (Nummenmaa et al., 2006).
+
+Tourism and beauty
+
+Beauty is recognized as an important characteristic of tourism destinations and 
+experiences (Beza,
+2010; Breiby & Slåtten, 2015; Horng, Chou, Liu, & Tsai, 2013; Kirillova et al., 
+2014; Kirillova & Lehto,
+2016;  Knudsen,  Metro-Roland,  &  Rickly,  2015),  albeit  from  a  
+traditionally  British  perspective
+(Andrews, 1989). Beauty is often associated with natural scenery (Beza, 2010), 
+emotional reactions
+(Breiby  &  Slåtten,  2015),  and  subsequently  beneﬁts  including  
+restoration  (Kaplan,  1995).  Breiby
+(2014, p. 171) found that experts considered that the aesthetics of 
+nature-based tourism involved
+key concepts of ‘perception, structure, senses, beauty, and pleasant’. However, 
+as in the literature
+of  consumer  behaviour  (Patrick  &  Peracchio,  2010),  psychology  (Arnheim, 
+ 1966;  Leder  &  Nadal,
+2014)  and  nature  research  (Carlson,  2009),  the  principal  perspective  
+on  aesthetic  appreciation
+found in the tourism-related literature is objective in nature, that is that 
+the beauty of a scene is con-
+nected to the characteristics of a destination rather than the observer’s 
+evaluation (Kirillova, 2015;
+Kirillova et al., 2014; Kirillova & Lehto, 2016).
+
+Again, despite the importance of sun and sea tourism, the literature of marine 
+aesthetics and coral
+reefs is restricted (Cracknell, White, Pahl, & Depledge, 2017; White et al., 
+2010). Pocock (2002) and
+Johnston and Smith (2014) have discussed the aesthetic values of the GBR 
+highlighting the signiﬁ-
+cance of beauty for World Heritage listing. Other studies have looked at 
+people’s preferences for,
+aﬀective responses to, and the restorative potential of, diﬀerent types of 
+public aquaria exhibits
+(Cracknell et al., 2017). Dinsdale (2009) showed that human visual evaluations 
+provided a consistent
+judgment of coral reef status regardless of their previous knowledge or 
+exposure to these particular
+ecosystems. There is evidence that the evaluations of images of the pristine or 
+damaged coral reefs
+can be in terms of pleasant or ugly. Coral reef photographs are associated with 
+the ‘good’ end of the
+evaluation dimension (Dinsdale, 2009).
+
+In summary, the beauty of a photo is considered here a personal judgment based 
+on pleasant
+emotional  reactions  to  the  photo.  The  perception  of  beauty  causes  a  
+reorientation  of  attention
+towards the object that is perceived as beautiful. Therefore, the study 
+proposes that there will be
+
+
+signiﬁcant correlations between attention to and perceived beauty/ugliness of 
+images of underwater
+coral reefs and scenes. The following hypotheses are to be tested:
+
+H1: Viewers will pay more attention (measured by ﬁxation count, ﬁxation 
+duration and total time visit) to beautiful
+pictures than ugly pictures of natural scenes.
+
+H2: There is a signiﬁcant relationship between eye-tracking measures (ﬁxation 
+count, ﬁxation duration and total
+time visit) and perceived beauty of natural scenes.
+
+Methodology
+
+There have been a number of methods used to study the perceived pleasantness or 
+aesthetic reac-
+tion to landscape scenery and underwater images. These include photograph 
+viewing and rating of
+pleasantness (Cracknell et al., 2017; Locher, Krupinski, Mello-Thoms, & Nodine, 
+2007) evaluations of
+attractiveness and emotion (White et al., 2010), and use of psychophysical 
+approaches to assessment
+of aesthetic quality of natural environments (Chang, Hammitt, Chen, Machnik, & 
+Su, 2008). Existing
+methods used to determine scenic preference often depend on rating the 
+perceived beauty of an
+image holistically or in terms of presence or absence of visual elements such 
+as buildings or trees
+(DEHP, 2017). Photo rating is a standard method with a long tradition in both 
+landscape architecture
+and environmental psychology and is useful when looking at components of a 
+scene (Van den Berg,
+Koole, & Van der Wulp, 2003).
+
+More recently, eye-tracking techniques have been used for the assessment of 
+landscape charac-
+teristics (Nordh, 2012). Eye-tracking techniques can measure visual attention 
+processes in terms of
+the number or duration of eye-ﬁxations on images. Eye-tracking has been used to 
+measure preferen-
+tial attention to emotional pictures (Calvo & Lang, 2004) and videos (Teixeira, 
+Wedel, & Pieters, 2012).
+These studies indicate that an emotional picture, either pleasant or 
+unpleasant, is more likely to be
+ﬁxated than a neutral picture (Simola, Le Fevre, Torniainen, & Baccino, 2015). 
+Emotional pictures
+capture attention during the early stages of picture processing by our brain 
+(Nummenmaa et al.,
+2006).  Similar  eﬀects  have  been  observed  between  facial  attractiveness  
+and  ﬁxation  duration
+(Leder  et  al.,  2016).  Similarly,  EEG  studies  indicate  that  attention  
+is  captured  automatically  by
+emotional images (Hajcak, MacNamara, & Olvet, 2010). A recent meta-analysis 
+shows an attentional
+bias for positive as compared with neutral stimuli (Pool, Brosch, Delplanque, & 
+Sander, 2016). Empiri-
+cal research has noted diﬀerences in attention as measured by eye ﬁxations to 
+pleasant and unplea-
+sant scenes (Calvo & Lang, 2004). Interestingly, eye-tracking studies have 
+noted that expert and lay
+viewers look at diﬀerent parts of a landscape scene (Dupont, Antrop, & Van 
+Eetvelde, 2015). This study
+uses two methods to evaluate 21 images of underwater reef scenes; eye-tracking 
+provides a measure
+of attention while self-completion questions were used to rate images and 
+obtain an average beauty
+rating of each picture. This will allow the correlation between these two 
+methods to be established.
+Each of the variables to be measured is discussed below.
+
+Image rating: There are varieties of diﬀerent measurement items used to 
+evaluate the perceived
+
+beauty of a scene or image. These include ratings of pleasantness (Locher et 
+al., 2007) and beauty
+(Arriaza,  Cañas-Ortega,  Cañas-Madueño,  &  Ruiz-Aviles,  2004).  For  
+example,  (Beza,  2010)  used  a
+bipolar rating scale, based on the semantic diﬀerential of ‘beautiful’ and 
+‘ugly’. The overall ranking
+of perceived beauty (rather than about aesthetic dimensions of beautiful 
+scenes) is measured by
+questions about attractiveness or beauty (Cracknell et al., 2017; Tan & Kuo, 
+2014; Wang, Zhao, &
+Liu, 2016). A 10-point scale is common  in aesthetic research (Cracknell et 
+al., 2017; White et al.,
+2010)  which  provides  comparable  and  transferable  data  in  comparison  
+with  other  5-  or  7-point
+scales  (Dawes,  2008).  Hence,  a  self-report  item  was  used  in  this  
+study  evaluating  the  beauty  of
+each picture (1-Not beautiful at all, 10-Very beautiful).
+
+Attention and beauty: Eye tracking is a useful technique for objective 
+measurement of attention
+(Scott et al., 2017) by determining when an individual’s eye pauses to examine 
+or interpret a com-
+ponent of an advertisement or image (Rayner, Rotello, Stewart, Keir, & Duﬀy, 
+2001). Eye-tracking
+
+
+has been used to measure preference for advertising (Scott et al., 2016), and 
+interest in parts of a
+landscape image (De Lucio, Mohamadian, Ruiz, Banayas, & Bernaldez, 1996). The 
+number of discrete
+ﬁxations (in a given region over the course of scene viewing) is related to the 
+rated informativeness of
+the region, with regions rated more informative receiving more ﬁxations 
+(Henderson & Hollingworth,
+1999). In the present study, the ﬁxation count, ﬁxation duration and total time 
+visit were used to
+measure attention, considered here as to the degree of attraction for the 
+observer (i.e. a measure
+of beauty).
+
+Procedure: The study was conducted in April and May 2017 under the ethical 
+approval GU 2017/
+
+537. Respondents provided informed consent before their participation. Tobii 
+T60 Eye Tracker model
+2013 equipment was used to collect eye-tracking data. Respondents sat in a 
+chair in an upright pos-
+ition and viewed images on a computer monitor in a quiet laboratory.  A 
+convenience sampling
+method was applied to facilitate data collection. Sixty-six participants were 
+recruited after a cali-
+bration process in order to exclude subjects with eyes problems. During the 
+calibration procedure,
+subjects were asked to look at speciﬁc points on the screen, also known as 
+calibration dots while
+their eye movements were collected and analyzed (‘Tobii Pro online guidelines,’ 
+2019). Next, partici-
+pants were asked to look at images of the GBR. Participants were free to look 
+at each picture on the
+screen as long as they want during which time their eye ﬁxations were recorded. 
+The order of pictures
+was randomized to avoid any possible eﬀect related to picture order. After 
+viewing a picture, respon-
+dents rated the picture beauty on a 10-point scale (1-Not beautiful at all, 
+10-Very beautiful).
+
+Analysis: The Tobii eye-tracker provides a record of the direction of the 
+respondent’s gaze some 60
+times per second and ‘maps’ this onto a location on the image being viewed. 
+Subsequently, these
+mapped points were analyzed to determine ﬁxation count and duration data. In 
+the study, the criteria
+for ﬁxation was 200 ms which is the standard in eye-tracking research (Jacob & 
+Karn, 2003; Pan,
+Zhang, & Smith, 2011; Wang & Sparks, 2016). Eye-tracking data including ﬁxation 
+count, ﬁxation dur-
+ation, and total time visit were estimated by Tobii eye-tracking software. The 
+eye-tracking data and
+image beauty evaluations for each photo were then exported to IBM SPSS version 
+24 where t-tests
+and correlation analyses were conducted. All pictures used in the eye-tracking 
+experiment, their
+average beauty scores and heat maps showing participants’ attention are 
+provided in the appendix.
+
+Results
+
+Descriptive statistics were used to analyse the demographic proﬁle of the whole 
+sample of respon-
+dents (n = 66) (Table 1). A reasonable balance was achieved between male and 
+female respondents.
+Most subjects were under 35 years old (63 participants) and are students (59 
+participants).
+
+The research hypotheses were tested through several steps of data analysis. 
+First, the scores for
+the 21 selected pictures were grouped and their average beauty scores used to 
+identify beautiful
+(beauty scores ≥5) and ugly pictures (beauty scores <5). The results show that 
+13 pictures were
+
+Table 1. Characteristics of participants in the eye-tracking experiment.
+
+Characteristics                                                                 
+                                      Number
+
+Gender
+
+Male                                                                            
+                                                     31
+
+Female                                                                          
+                                                   35
+
+Age (years)
+
+18–25                                                                           
+                                       53
+
+26–35                                                                           
+                                       10
+
+36–45                                                                           
+                                         3
+
+Profession
+
+Student                                                                         
+                                                   59
+
+Staﬀ                                                                            
+                                                        6
+
+Managers                                                                        
+                                                   1
+
+Others                                                                          
+                                                      0
+
+
+Table 2. Independent T-test of picture groups (beautiful versus ugly).
+
+
+Pbeauty     N      Mean
+
+Std.
+Deviation
+
+Std. Error
+Mean
+
+Independent samples
+test
+
+Levene’s test
+Sig. (p)
+
+T-test Sig. (2-
+tailed)
+
+
+PFDuration        ≥5         8      7.56          1.773               .627      
+    Equal variances
+
+assumed
+
+< 5          13      5.16          1.131               .314          Equal 
+variances not
+
+assumed
+PFCount                                                                      ≥5 
+        8    28.14          5.106             1.805          Equal variances
+
+assumed
+
+< 5          13    20.07          3.754             1.041          Equal 
+variances not
+
+assumed
+PTimeVisit                                                                      
+                                                                 ≥5         8   
+   7.9242       1.90587            .67383       Equal variances
+
+assumed
+
+< 5          13      5.4317       1.18105            .32756       Equal 
+variances not
+
+assumed
+
+.211                  .001
+
+.006
+
+.139                  .001
+
+.002
+
+0.173                  .001
+
+.007
+
+Note: PBeauty: Picture beauty scores rated by participants (from 1 to 10 
+points). PFDuration: Fixation duration in the picture (i.e. the
+average length of all ﬁxations during all recordings in the whole picture). A 
+longer ﬁxation means that the object is more enga-
+ging in some way. PFCount: Fixation count in the picture (i.e. the average 
+number of ﬁxations in the picture). PTimeVisit: Total
+time visit for a picture (i.e. the average time participants spent looking at a 
+picture).
+
+rated as ugly and 8 pictures were considered as beautiful. An independent 
+t-test was conducted to
+determine whether there is a signiﬁcant diﬀerence in the eye-tracking measures 
+between beautiful
+and ugly photos. All eye-tracking measures were signiﬁcantly diﬀerent between 
+two groups of pic-
+tures.  Beautiful  pictures  have  higher  means  for  three  eye-tracking  
+measures  including  picture
+ﬁxation duration, picture ﬁxation count and picture total time visit in 
+comparison with ugly pictures
+(with beauty rating under 5) (Table 1). This initial result conﬁrms hypothesis 
+1 that beautiful pictures
+attract more attention than ugly pictures.
+
+Next, a correlation analysis was conducted to verify whether self-report beauty 
+evaluation and
+eye-tracking  measures  are  correlated  (Table  2).  The  results  indicate  
+that  eye-tracking  measures
+(i.e.  ﬁxation  count,  ﬁxation  duration,  total  time  visit)  were  
+signiﬁcantly  correlated  with  picture
+beauty  rating.  Results  of  correlation  analysis  provided  a  basis  for  
+the  next  step  of  testing
+regression  models  to  verify  the  relationship  between  eye-tracking  
+measures  and  perceived
+beauty.
+
+Three regression models were separately conducted using the three eye-tracking 
+measures that
+were  correlated  with  picture  beauty  (Table  4).  Because  picture  ﬁxation 
+ duration,  picture  ﬁxation
+count  and  picture  total  visit  time  were  also  correlated  (Table  3),  
+they  were  not  included  in  the
+same regression model. All three single regression models were found to predict 
+picture beauty.
+Of the three eye-tracking measures, picture ﬁxation count is the most reliable 
+indicator of picture
+beauty  explaining  45.1%  of  variations  in  picture  beauty  (Adjusted  R² = 
+0.451,  p < 0.01).  Hence,
+tourist attention paid to a natural picture as measured by eye-tracking device 
+reﬂects their beauty
+evaluation. Based on this, hypothesis 2 is conﬁrmed.
+
+Table 3. Correlations between averages of variables (all pictures).
+
+PBeauty                           PF duration                           PF 
+count                           PTime visit
+
+
+PBeauty                               1                                        
+0.613*
+
+0.003
+
+0.692**
+
+0.001
+
+0.603**
+
+0.004
+
+
+PFDuration                                                                     
+1                                       0.968**
+
+0.000
+
+0.999**
+
+0.000
+
+PFCount                                                                         
+                                         1                                      
+ 0.966**
+
+0.000
+
+PTimeVisit                                                                      
+                                                                                
+                   1
+
+*Correlation is signiﬁcant at the 0.05 level (2-tailed).
+
+**Correlation is signiﬁcant at the 0.01 level (2-tailed).
+
+
+Table 4. Single regression models of picture beauty using eye-tracking 
+measures.
+
+Model summary
+
+
+Model
+
+Adjusted R square            ANOVA sig.
+
+Unstandardized coeﬃcients            Coeﬃcients Sig.
+
+1            (Constant)                      0.343                         
+0.003                              −0.352                                   
+.827
+
+PFDuration                                                                      
+                        0.850                                   .003
+
+2            (Constant)                      0.451                         
+0.001                              −2.131                                     
+0.228
+
+PFCount                                                                         
+                         0.300                                     0.001
+
+3            (Constant)                      0.330                         
+0.004                              −0.257                                     
+0.874
+
+PTimeVisit                                                                      
+                         0.794                                     0.004
+
+Dependent variable: picture beauty
+
+Discussion
+
+This research has tested an innovative eye-tracking method to measure the 
+relative perceived beauty
+of images taken of underwater scenes from the Great Barrier Reef. In this 
+study, beautiful pictures
+which are pleasant to the eyes will attract more attention than ugly pictures 
+(H1 conﬁrmed). On
+average,  participants  spend  about  8  seconds  viewing  a  beautiful  
+picture  in  comparison  for  5.4
+seconds per ugly picture. Our research outcome supports for aspects of Leder et 
+al.’s (2004) ﬁve-
+stage  model  of  aesthetic  appreciation  and  aesthetic  judgment.  The  ﬁrst 
+ three  stages  involve
+bottom-up perceptual processes to recognize and analyse pictorial features 
+(i.e. perceptual analyses),
+its profotypicality and familiarity (i.e. implicit memory integration) and its 
+style and content (i.e. expli-
+cit classiﬁcation). Normally, these automatic processing stages could occur 
+rapidly and automatically
+in the ﬁrst 3 seconds of looking at a picture (Locher et al., 2007). Hence, 
+people are able to make a
+rapid evaluation of a picture’s content and aesthetic appeal at ﬁrst glance 
+(after the ﬁrst 3 seconds)
+(Rasche  &  Koch,  2002).  The  fourth  and  ﬁfth  stages  of  aesthetic  
+experience  involving  self-related
+interpretation  and  aesthetic  appreciation  are  more  deliberate  (i.e.  
+top-down)  processes.  Viewers
+can decide to stop or spend more time looking at a picture depending on its 
+aesthetic pleasure
+(Locher et al., 2007). Our research outcome conﬁrms the importance of using 
+beautiful and pleasant
+images in tourism marketing to capture and retain tourist attention (Wang & 
+Sparks, 2016). Because
+tourists are exposed to thousands of visual stimuli per day, audience attention 
+to a tourism marketing
+message is a key success factor (Scott et al., 2017).
+
+Moreover, it was found that eye-tracking measures (i.e. ﬁxation count, ﬁxation 
+duration and total
+time visit) can be used as reliable indicators of perceived beauty of natural 
+scenes (H2 conﬁrmed).
+Aesthetic value is an important criterion of natural attractions like the Great 
+Barrier Reef and its
+World  Heritage  listing.  To  date,  there  is  no  systematic  and  
+consistent  methodology  on  how  to
+assess the ‘natural beauty or aesthetic value’ (as articulated as part of 
+Criterion vii in the statements
+of Outstanding Universal Value) within the World Heritage Convention (Mitchell, 
+Migon, Denyer, &
+Leitão, 2013). This study contributes to the development of such a methodology. 
+The eye-tracking
+method suggests a means for objective measurement of the relative beauty of 
+natural images and
+potentially for monitoring the aesthetics of environments such as underwater 
+coral reefs. Use of
+this method may allow the tracking of beauty over time and hence contribute to 
+monitoring the sus-
+tainability of world heritage areas (de Fauconberg, Berthon, & Berthon, 2018). 
+Based on our research
+ﬁndings, eye-tracking technology could also be applied by tourism marketers in 
+market research to
+compare and identify the most beautiful and attractive images of a natural 
+attraction for tourism pro-
+motion purpose.
+
+The results of this research provide further evidence of the usefulness of 
+eye-tracking methods
+
+speciﬁcally  and  of  cognitive  psychology  theory  and  methods  generally  
+in  informing  tourism
+research.  Previous  studies  primarily  applied  retrospective  self-reported  
+measures  of  attention
+(Dowray,  Swartz,  Braxton,  &  Viera,  2013;  Mackison,  Wrieden,  &  
+Anderson,  2010;  Verbeke  &
+Ward, 2006) which are likely biased operationalization of identifying true 
+attention (Bialkova &
+van  Trijp,  2011).  Hence,  researchers  have  recently  begun  to  apply  
+eye-tracking  methods  to
+study  the  actual  attention  of  tourists  paid  to  tourism  marketing  
+stimuli,  for  example,  images
+
+
+for hotels and airline marketing (Babakhani, Ritchie, & Dolnicar, 2017; Wang, 
+Tsai, & Tang, 2018).
+Eye-tracking can be beneﬁcial in investigating many further topics including 
+evaluation of spon-
+sorship (Breuer & Rumpf, 2012), advertising eﬀectiveness (Scott et al., 2016) 
+and wayﬁnding (Xia,
+Arrowsmith,  Jackson,  &  Cartwright,  2008).  Mobile  eye-tracking  technology 
+ is  also  available  for
+future  research  to  track  individual  eye  movements  at  real-life  tourism 
+ attractions  such  as  a
+national park or art exhibition.
+
+Moreover, we highly recommend further use of other advanced research 
+technologies such as
+heart rate, skin conductance, EEG in advancing tourism research (Li, Scott, & 
+Walters, 2015). These
+technologies are nowadays available at reasonable costs and have great 
+potential to reduce research
+bias due to memory-based measures. Combining these research tools to examine 
+the nature and
+relationships  between  tourist  attention  (eye-tracking),  emotion  (heart  
+rate  or  skin  conductance),
+involvement and information processing (EEG) is very promising in moving the 
+tourist behaviour
+ﬁeld forward.
+
+This research is an initial study only and has several limitations. First, only 
+one item was used to
+measure respondents self-reported beauty ranking, and it may also be useful to 
+use other scales
+such as visual appeal (Mathwick, Malhotra, & Rigdon, 2001). Further research is 
+needed to develop
+this  method  and  compare  its  results  with  the  expert-based  judgment  of 
+ aesthetic  value  (Beza,
+2010; Schirpke, Timmermann, Tappeiner, & Tasser, 2016) especially of coral 
+reefs (Goldman, 1990;
+Johnston & Smith, 2014). Second, this study is limited in terms of the number 
+of images used (21
+photos).  The  method  needs  retesting  using  larger  numbers  of  photos  – 
+perhaps  60  pictures  or
+more.  Third,  picture  elements  were  not  investigated  in  this  study.  
+However,  it  was  found  that
+photos with brightly coloured coral, multiple ﬁsh species, clear water and 
+iconic species such as
+turtles  were  found  more  attractive.  Photos  rated  as  less  attractive  
+typically  showed  man-made
+objects such as discarded cans or bottles or expanses of white coral, less 
+clear water and less ﬁsh.
+Therefore, beauty factors such as the quality of images, including factors such 
+as colour composition,
+saturation and brightness (Seresinhe, Preis, & Moat, 2017) and special research 
+methods such as con-
+joint  analysis  may  be  useful  to  determine  the  contribution  of  image  
+elements  to  aesthetic
+assessment.
+
+Forth, only basic eye-tracking measures were employed in this study, but a 
+variety of other eye-
+
+tracking metrics and techniques are available to measure attention such as 
+gaze-entropy (Raptis et al.,
+2017) and scan-path length (Katsini et al., 2018). Hence, more sophisticated 
+eye-tracking experiments
+should be set up in future studies. Fifth, only Australian participants were 
+employed for this study. It
+would be useful to examine respondents from diﬀerent cultural backgrounds (Asia 
+vs Western) to
+determine if there are diﬀerences in their aesthetic perception. There is some 
+evidence to suggest
+that there are diﬀerences in ﬁxations on areas of interest in an image (Wang & 
+Sparks, 2016) and vari-
+ations in eye-movements during scene perception related to the culture of the 
+subject (Chua, Boland,
+& Nisbett, 2005).
+
+Acknowledgement
+
+This study was conducted within a NESP-Tropical Water Quality Hub project 
+(3.2.3) on the ‘Monitoring aesthetic value of
+the Great Barrier Reef by using artiﬁcial intelligence to score photos and 
+videos’.
+
+Disclosure statement
+
+No potential conﬂict of interest was reported by the authors.
+
+Funding
+
+This work was supported by National Environment Science Program Tropical Water 
+Quality Hub [grant number NESP-
+Tropical Water Quality Hub project (3.2.3)].
+
+
+References
+
+Andrews, M. (1989). The search for the picturesque: Landscape aesthetics and 
+tourism in Britain, 1760–1800. Aldershot:
+Gower Publishing.
+
+Arnheim, R. (1966). Toward a psychology of art: Collected essays (Vol. 242). 
+Berkeley, CA: University of California Press.
+Arriaza, M., Cañas-Ortega, J. F., Cañas-Madueño, J. A., & Ruiz-Aviles, P. 
+(2004). Assessing the visual quality of rural land-
+
+scapes. Landscape and Urban Planning, 69(1), 115–125. 
+doi:10.1016/j.landurbplan.2003.10.029
+
+Babakhani, N., Ritchie, B. W., & Dolnicar, S. (2017). Improving carbon 
+oﬀsetting appeals in online airplane ticket purchas-
+ing: Testing new messages, and using new test methods. Journal of Sustainable 
+Tourism, 25(7), 955–969.
+
+Berlyne, D. (1973). Aesthetics and psychobiology. New York: 
+Appleton-Century-Crofts. doi:10.2307/429334
+
+Beza, B. (2010). The aesthetic value of a mountain landscape: A study of the 
+Mt. Everest Trek. Landscape and Urban
+Planning, 97(4), 306–317.
+
+Bialkova, S., & van Trijp, H. C. (2011). An eﬃcient methodology for assessing 
+attention to and eﬀect of nutrition infor-
+mation displayed front-of-pack. Food Quality and Preference, 22(6), 592–601.
+
+Breiby, M. A. (2014). Exploring aesthetic dimensions in a nature-based tourism 
+context. Journal of Vacation Marketing, 20
+(2), 163–173. doi:10.1177/1356766713514243
+
+Breiby, M., & Slåtten, T. (2015). The eﬀects of aesthetic experiential 
+qualities on tourists’ positive emotions and loyalty: A
+case of a nature-based context in Norway. Journal of Quality Assurance in 
+Hospitality & Tourism, 16(4), 323–346.
+
+Breuer, C., & Rumpf, C. (2012). The viewer’s reception and processing of 
+sponsorship information in sport telecasts.
+
+Journal of Sport Management, 26(6), 521–531.
+
+Calvo,  M.,  &  Lang,  P.  (2004).  Gaze  patterns  when  looking  at  
+emotional  pictures:  Motivationally  biased  attention.
+
+Motivation and Emotion, 28(3), 221–243.
+
+Carlson, A. (2009). Nature and landscape: An introduction to environmental 
+aesthetics. New York: Columbia University Press.
+Cela-Conde, C., Agnati, L., Huston, J., Mora, F., & Nadal, M. (2011). The 
+neural foundations of aesthetic appreciation.
+
+Progress in Neurobiology, 94(1), 39–48. doi:10.1016/j.pneurobio.2011.03.003
+
+Chang, C.-Y., Hammitt, W. E., Chen, P.-K., Machnik, L., & Su, W.-C. (2008). 
+Psychophysiological responses and restorative
+values of natural environments in Taiwan. Landscape and Urban Planning, 85(2), 
+79–84.
+
+Charters, S. (2006). Aesthetic products and aesthetic consumption: A review. 
+Consumption, Markets and Culture, 9(3), 235–
+255.
+
+Chi, C., & Qu, H. (2008). Examining the structural relationships of destination 
+image, tourist satisfaction and destination
+loyalty: An integrated approach. Tourism Management, 29(4), 624–636.
+
+Chua, H., Boland, J., & Nisbett, R. (2005). From the cover: Cultural variation 
+in eye movements during scene perception.
+
+Proceedings of the National Academy of Sciences, 102(35), 12629–12633.
+
+Context  Pty  Ltd.  (2013).  Deﬁning  the  aesthetic  values  of  the  Great  
+Barrier  Reef.  Canberra:  Minister  for  Sustainability,
+Environment, Water, Population and Communities.
+
+Cracknell, D., White, M., Pahl, S., & Depledge, M. (2017). A preliminary 
+investigation into the restorative potential of public
+aquaria exhibits: A UK student-based study. Landscape Research, 42(1), 18–32.
+
+Dawes, J. (2008). Do data characteristics change according to the number of 
+scale points used? An experiment using 5-
+point, 7-point and 10-point scales. International Journal of Market Research, 
+50(1), 61–104.
+
+de Fauconberg, A., Berthon, P., & Berthon, P. (2018). Rethinking the marketing 
+of world heritage sites: Giving the past a
+sustainable future. Journal of Public Aﬀairs, 18(2), e1655.
+
+DEHP. (2017). Determiningscenic preference in the coastal zone. Brisbane: 
+Department of Environment and Science. Retrieved
+from 
+https://environment.des.qld.gov.au/coastal/development/pdf/gl-cd-scenic-preferen
+ce-coastal-zone.pdf
+
+De Lucio, J., Mohamadian, M., Ruiz, J., Banayas, J., & Bernaldez, F. (1996). 
+Visual landscape exploration as revealed by eye
+movement tracking. Landscape and Urban Planning, 34(2), 135–142.
+
+Dinsdale, E. (2009). Linking ecological and perceptual assessments for 
+environmental management: A coral reef case
+study. Ecology and Society, 14(2), 1–17.
+
+Dowray, S., Swartz, J. J., Braxton, D., & Viera, A. J. (2013). Potential eﬀect 
+of physical activity based menu labels on the
+calorie content of selected fast food meals. Appetite, 62, 173–181.
+
+Dupont, L., Antrop, M., & Van Eetvelde, V. (2015). Does landscape related 
+expertise inﬂuence the visual perception of land-
+scape  photographs?  Implications  for  participatory  landscape  planning  and 
+ management.  Landscape  and  Urban
+Planning, 141, 68–77.
+
+Goldman, A. (1990). Aesthetic qualities and aesthetic value. The Journal of 
+Philosophy, 87(1), 23–37.
+
+Great Barrier Reef Marine Park Authority. (2014). Great Barrier Reef outlook 
+report 2014. Townsville: GBRMPA.
+
+Haas,  A.,  Guibert,  M.,  Foerschner,  A.,  Co,  T.,  Calhoun,  S.,  George,  
+E., … Rohwer,  F.  (2015).  Can  we  measure  beauty?
+
+Computational evaluation of coral reef aesthetics. PeerJ, 3, e1390. 
+doi:10.7717/peerj.1390
+Hagman, G. (2002). The sense of beauty. The International Journal of 
+Psychoanalysis, 83(3), 661–674.
+
+Hajcak, G., MacNamara, A., & Olvet, D. (2010). Event-related potentials, 
+emotion, and emotion regulation: An integrative
+review. Developmental Neuropsychology, 35(2), 129–155.
+
+Hekkert, P., & Leder, H. (2008). Product aesthetics. In H. N. J. Schiﬀerstein & 
+P. Hekkert (Eds.), Product experience (pp. 259–
+285). Amsterdam: Elsevier.
+
+
+Henderson, J. M., & Hollingworth, A. (1999). High-level scene perception. 
+Annual Review of Psychology, 50(1), 243–271.
+Horng, J.-S., Chou, S.-F., Liu, C.-H., & Tsai, C.-Y. (2013). Creativity, 
+aesthetics and eco-friendliness: A physical dining environ-
+
+ment design synthetic assessment model of innovative restaurants. Tourism 
+Management, 36, 15–25.
+
+Jacob, R., & Karn, K. (2003). Eye tracking in human-computer interaction and 
+usability research: Ready to deliver the prom-
+ises. In R. Radach, J. Hyönä, & H. Deubel (Eds.), The mind’s eye: Cognitive and 
+applied aspects of eye movement research
+(pp. 573–605). Amsterdam: Elsevier.
+
+Johnston, C., & Smith, A. (2014). Beautiful one day: Assessing the world 
+heritage aesthetic values of the Great Barrier Reef.
+
+Historic Environment, 26(2), 54–71.
+
+Johnston, C., Smith, A., & Dyke, J. (2013). Deﬁning the aesthetic values of the 
+Great Barrier Reef. Retrieved from http://hdl.
+handle.net/11017/2855
+
+Kaplan,  S.  (1995).  The  restorative  beneﬁts  of  nature:  Toward  an  
+integrative  framework.  Journal  of  Environmental
+Psychology, 15(3), 169–182.
+
+Kara, B. (2013). Landscape design and cognitive psychology. Procedia - Social 
+and Behavioral Sciences, 82, 288–291.
+Karmanov, D. (2009). Feeling the landscape: Six psychological studies into 
+landscape experience (Unpublished doctoral dis-
+
+sertation). Wageningen University, Wageningen.
+
+Katsini, C., Fidas, C., Raptis, G., Belk, M., Samaras, G., & Avouris, N. 
+(2018). Inﬂuences of human cognition and visual behavior
+on password strength during picture password composition. Paper presented at 
+the proceedings of the 2018 CHI con-
+ference on human factors in computing systems, Montreal, Canada.
+
+Kirillova, K. (2015). Destination aesthetics and aesthetic distance in tourism 
+experience. Journal of Travel and Tourism
+Marketing, 32(8), 1051–1068. doi:10.1080/10548408.2014.958608
+
+Kirillova, K., Fu, X., Lehto, X., & Cai, L. (2014). What makes a destination 
+beautiful? Dimensions of tourist aesthetic judg-
+ment. Tourism Management, 42, 282–293.
+
+Kirillova, K., & Lehto, X. (2016). Aesthetic and restorative qualities of 
+vacation destinations: How are they related? Tourism
+Analysis, 21(5), 513–527.
+
+Knudsen,  D.,  Metro-Roland,  M.,  &  Rickly,  J.  (2015).  Tourism,  
+aesthetics,  and  touristic  judgment.  Tourism  Review
+International, 19(4), 179–191.
+
+Lazarus, R. (1991). Emotion and adaptation. New York: Oxford University Press.
+
+Leder, H., Belke, B., Oeberst, A., & Augustin, D. (2004). A model of aesthetic 
+appreciation and aesthetic judgments. British
+Journal of Psychology, 95(4), 489–508.
+
+Leder, H., Mitrovic, A., & Goller, J. (2016). How beauty determines gaze! 
+Facial attractiveness and gaze duration in images
+of real world scenes. i-Perception, 7(4), 2041669516664355
+
+Leder, H., & Nadal, M. (2014). Ten years of a model of aesthetic appreciation 
+and aesthetic judgments: The aesthetic
+episode–developments and challenges in empirical aesthetics. British Journal of 
+Psychology, 105(4), 443–464.
+
+Lee, S., Jeon, S., & Kim, D. (2011). The impact of tour quality and tourist 
+satisfaction on tourist loyalty: The case of Chinese
+tourists in Korea. Tourism Management, 32(5), 1115–1124.
+
+Li, S., Scott, N., & Walters, G. (2015). Current and potential methods for 
+measuring emotion in tourism experiences: A
+review. Current Issues in Tourism, 18(9), 805–827.
+
+Lindell, A., & Lindell, K. (2014). Beauty captures the attention of the 
+beholder. Journal of Cognitive Psychology, 26(7), 768–
+780. doi:10.1080/20445911.2014.963111
+
+Locher, P., Krupinski, E., Mello-Thoms, C., & Nodine, C. (2007). Visual 
+interest in pictorial art during an aesthetic experience.
+
+Spatial Vision, 21(1), 55–77.
+
+Lothian, A. (1999). Landscape and the philosophy of aesthetics: Is landscape 
+quality inherent in the landscape or in the
+eye of the beholder? Landscape and Urban Planning, 44(4), 177–198.
+
+Lynn, I., Chen, L., Scott, N., & Benckendorﬀ, P. (2017). Mindful tourist 
+experiences: A Buddhist perspective. Annals of
+Tourism Research, 64, 1–12.
+
+Mackison, D., Wrieden, W., & Anderson, A. (2010). Validity and reliability 
+testing of a short questionnaire developed to
+assess consumers’ use, understanding and perception of food labels. European 
+Journal of Clinical Nutrition, 64(2),
+210–217.
+
+Marshall, N., Marshall, P., & Smith, A. (2017). Managing for aesthetic values 
+in the Great Barrier Reef: Identifying indicators
+and linking Reef aesthetics with Reef health. Cairns: Reef and Rainforest 
+Research Centre Limited.
+
+Mathwick, C., Malhotra, N., & Rigdon, E. (2001). Experiential value: 
+Conceptualization, measurement and application in the
+catalog and Internet shopping environment. Journal of Retailing, 77, 39–56.
+
+Mitchell, N., Migon, P., Denyer, S., & Leitão, L. (2013). Study on the 
+application of criterion (vii): Considering superlative
+natural phenomena and exceptional natural beauty within the world heritage 
+convention. Gland: International Union
+for Conservation of Nature.
+
+Nordh, H. (2012). Quantitative methods of measuring restorative components in 
+urban public parks. Journal of Landscape
+Architecture, 7(1), 46–53.
+
+Nummenmaa, L., Hyönä, J., & Calvo, M. G. (2006). Eye movement assessment of 
+selective attentional capture by emotional
+pictures. Emotion, 6(2), 257–268.
+
+O’Leary, S., & Deegan, J. (2003). People, pace, place: Qualitative and 
+quantitative images of Ireland as a tourism destina-
+tion in France. Journal of Vacation Marketing, 9(3), 213–226.
+
+
+Packer, J., Ballantyne, R., & Hughes, K. (2014). Chinese and Australian 
+tourists’ attitudes to nature, animals and environ-
+mental issues: Implications for the design of nature-based tourism experiences. 
+Tourism Management, 44, 101–107.
+doi:10.1016/j.tourman.2014.02.013
+
+Pan, B., Zhang, L., & Smith, K. (2011). A mixed-method study of user behavior 
+and usability on an online travel agency.
+
+Information Technology & Tourism, 13(4), 353–364.
+
+Patrick, V. M., & Peracchio, L. A. (2010). “Curating” the JCP special issue on 
+aesthetics in consumer psychology: An intro-
+duction to the aesthetics issue. Journal of Consumer Psychology, 20(4), 
+393–397.
+
+Pocock, C. (2002). Sense matters: Aesthetic values of the Great Barrier Reef. 
+International Journal of Heritage Studies, 8(4),
+365–381.
+
+Pool, E., Brosch, T., Delplanque, S., & Sander, D. (2016). Attentional bias for 
+positive emotional stimuli: A meta-analytic
+investigation. Psychological Bulletin, 142(1), 79–106.
+
+Raptis, G., Katsini, C., Belk, M., Fidas, C., Samaras, G., & Avouris, N. 
+(2017). Using eye gaze data and visual activities to infer
+human cognitive styles: Method and feasibility studies. Paper presented at the 
+proceedings of the 25th conference on
+user modeling, adaptation and personalization, Bratislava, Slovakia.
+
+Rasche,  C.,  &  Koch,  C.  (2002).  Recognizing  the  gist  of  a  visual  
+scene:  Possible  perceptual  and  neural  mechanisms.
+
+Neurocomputing, 44, 979–984.
+
+Rayner, K., Rotello, C. M., Stewart, A. J., Keir, J., & Duﬀy, S. A. (2001). 
+Integrating text and pictorial information: Eye move-
+ments when looking at print advertisements. Journal of Experimental Psychology: 
+Applied, 7(3), 219–226.
+
+Reimann, M., Zaichkowsky, J., Neuhaus, C., Bender, T., & Weber, B. (2010). 
+Aesthetic package design: A behavioral, neural,
+and psychological investigation. Journal of Consumer Psychology, 20(4), 
+431–441. doi:10.1016/j.jcps.2010.06.009
+
+Ross, M. (2016). The aesthetic impulse. Oxford: Elsevier.
+
+Schirpke,  U.,  Timmermann,  F.,  Tappeiner,  U.,  &  Tasser,  E.  (2016).  
+Cultural  ecosystem  services  of  mountain  regions:
+Modelling the aesthetic value. Ecological Indicators, 69, 78–90.
+
+Scott, N., Green, C., & Fairley, S. (2016). Investigation of the use of eye 
+tracking to examine tourism advertising eﬀective-
+ness. Current Issues in Tourism, 19(7), 634–642.
+
+Scott, N., Zhang, R., Le, D., & Moyle, B. (2017). A review of eye-tracking 
+research in tourism. Current Issues in Tourism, 1–18.
+doi:10.1080/13683500.2017.1367367
+
+Seresinhe, C. I., Preis, T., & Moat, H. S. (2017). Using deep learning to 
+quantify the beauty of outdoor places. Royal Society
+Open Science, 4(7), 170170.
+
+Simola, J., Le Fevre, K., Torniainen, J., & Baccino, T. (2015). Aﬀective 
+processing in natural scene viewing: Valence and
+arousal interactions in eye-ﬁxation-related potentials. NeuroImage, 106, 21–33. 
+doi:10.1016/j.neuroimage.2014.11.030
+Tan, W.-K., & Kuo, C.-Y. (2014). The eﬀect of aesthetic-image value of travel 
+expert blogs on the intention to travel: An
+
+exploratory study. Current Issues in Tourism, 17(8), 657–665. 
+doi:10.1080/13683500.2013.840270
+
+Teixeira, T., Wedel, M., & Pieters, R. (2012). Emotion-induced engagement in 
+internet video advertisements. Journal of
+Marketing Research, 49(2), 144–159.
+
+Tobii  Pro  online  guidelines.  (2019).  Retrieved  from  
+https://www.tobiipro.com/learn-and-support/learn/eye-tracking-
+essentials/what-happens-during-the-eye-tracker-calibration/
+
+Todd, C. (2009). Nature, beauty and tourism. In J. Tribe (Ed.), Philosophical 
+issues in tourism (pp. 154–170). Bristol: Channel
+View Publishing.
+
+Van den Berg, A. E., Koole, S. L., & Van der Wulp, N. Y. (2003). Environmental 
+preference and restoration: (How) are they
+related? Journal of Environmental Psychology, 23(2), 135–146.
+
+Verbeke, W., & Ward, R. W. (2006). Consumer interest in information cues 
+denoting quality, traceability and origin: An
+application of ordered probit models to beef labels. Food Quality and 
+Preference, 17(6), 453–467.
+
+Vogt, C., Fesenmaier, D., & MacKay, K. (1994). Functional and aesthetic 
+information needs underlying the pleasure travel
+experience. Journal of Travel & Tourism Marketing, 2(2-3), 133–146. 
+doi:10.1300/J073v02n02_09
+
+Wang, Y., & Sparks, B. (2016). An eye-tracking study of tourism photo stimuli: 
+Image characteristics and ethnicity. Journal
+of Travel Research, 55(5), 588–602.
+
+Wang, T.-C., Tsai, C.-L., & Tang, T.-W. (2018). Restorative quality in tourist 
+hotel marketing pictures: Natural and built
+characteristics. Current Issues in Tourism, 22(14), 1679–1685.
+
+Wang, R., Zhao, J., & Liu, Z. (2016). Consensus in visual preferences: The 
+eﬀects of aesthetic quality and landscape types.
+
+Urban Forestry & Urban Greening, 20, 210–217. doi:10.1016/j.ufug.2016.09.005
+
+White, M., Smith, A., Humphryes, K., Pahl, S., Snelling, D., & Depledge, M. 
+(2010). Blue space: The importance of water for
+preference, aﬀect, and restorativeness ratings of natural and built scenes. 
+Journal of Environmental Psychology, 30(4),
+482–493. doi:10.1016/j.jenvp.2010.04.004
+
+Xia, J. C., Arrowsmith, C., Jackson, M., & Cartwright, W. (2008). The wayﬁnding 
+process relationships between decision-
+making and landmark utility. Tourism Management, 29(3), 445–457.
+
+Yoon, Y., & Uysal, M. (2005). An examination of the eﬀects of motivation and 
+satisfaction on destination loyalty: A struc-
+tural model. Tourism Management, 26(1), 45–56. 
+doi:10.1016/j.tourman.2003.08.016
+

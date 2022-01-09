@@ -1,0 +1,578 @@
+Differences  of  Field  Dependent/Independent
+Gamers  on  Cultural  Heritage  Playing:
+Preliminary  Findings  of  an  Eye–Tracking  Study
+
+George E. Raptis¹, Christos A. Fidas², and Nikolaos M. Avouris¹
+
+¹HCI Group, Electrical and Computer Engineering Department
+²Department of Cultural Heritage Management and New Technologies
+University  of Patras, Greece
+
+raptisg@upnet.gr
+
+{fidas,avouris}@upatras.gr
+
+Abstract.  Based  on  a  large  number  of  different  cognitive  theories  on
+information  processing  procedure,  suggesting  that  individuals  have  dif-
+ferent  approaches  in  the  way  they  forage,  retrieve,  process,  store  and
+recall information, this paper investigates the effect of field dependence/
+independence with regards to visual attention of gamers in the context
+of a cultural heritage game. Gaze data were collected and analysed from
+fourteen participants, who were classified as field dependent or indepen-
+dent  according  to  Group  Embedded  Figures  Test  (GEFT),  a  cognitive
+style elicitation instrument. The collected data were analysed quantita-
+tively to examine visual attention in terms of fixation count and fixation
+impact.  The  results  revealed  statistically  significant  differences  in  
+both
+fixation  count  and  fixation  impact  towards  interactive  game  elements.
+Statistically significant differences were also measured for specific types
+of game elements. Findings are expected to provide insights for design-
+ers and researchers aiming to design more user–centric cultural heritage
+games.
+
+Keywords:  Field Dependence/Independence; Cognitive Style; Cultural
+Heritage; Games; Eye–Tracking; Visual Attention; Game Design
+
+1    Introduction
+
+In the past few years a lot of research on video games in the cultural heritage
+context has been conducted [2][7][10][17], since they can enrich visitors’ 
+experi-
+ence and contribute towards a much desired learning outcome. To achieve this,
+game designers aim to include information processing tasks through game mech-
+anisms that guide users to seek and comprehend information and to acquire and
+recall knowledge. Information processing is closely related to cognitive 
+character-
+istics, therefore it seems worth investigating the impact of cognitive 
+differences
+on  game  playing  in  cultural  heritage  contexts.  The  theoretical  
+background  of
+this work is based on cognitive theories [15][26], suggesting that individuals 
+have
+different  habitual  approaches  in  information  seeking,  processing  and  
+retrieval,
+
+
+which are related to their individual cognitive characteristics such as skills 
+and
+abilities, e.g. visual attention. High–level cognitive processes, such as 
+cognitive
+styles, have been the focus of many research endeavours explaining empirically
+the observed differences in information processing tasks [1][15][23][26]. One 
+of the
+most  well  established,  credible  and  validated  [3][5]  cognitive  style  
+is  the  Field
+Dependence/Independence style [26]. It is a single dimension model having the
+field dependence on the one side and the field independence on the other. Ac-
+cording to this model, the individuals are classified as field dependent (FD) or
+field independent (FI). FD individuals tend to prefer a more holistic way when
+processing information, have difficulties in identifying details from 
+information
+in  complex  schemes  and  perform  better  on  inductive  tasks  [26].  On  
+the  other
+hand,  FI  individuals  tend  to  prefer  impersonal  orientation,  prefer  a  
+more  an-
+alytical  way  when  processing  information,  pay  attention  to  details  and 
+ easily
+separate simple elements and structures from the surrounding context [26].
+
+2    Related Work
+
+Several  studies  [4][18][19][24]  have  investigated  the  effect  of  
+cognitive  styles  in
+various application domains, such as e-learning, industrial engineering and mar-
+keting,  using  eye–tracking  tools.  Focusing  on  FD/FI  cognitive  style,  
+research
+revealed  a  correction  between  the  FD/FI  style  and  eye  movement  and  
+atten-
+tion patterns, with FD users exemplifying a more disoriented and disorganised
+eye motion activity and generating a greater number of fixations and FI users
+following a more oriented and organised scan strategy when performing visual
+exploration and web search tasks [18][19]. Shinar et al. [24] examined the rela-
+tionship between field dependence and on–the–road visual search behaviour and
+revealed that FD individuals require more time to process the available visual
+information  and  are  less  effective  in  their  visual  search  pattern.  
+Despite  that
+a  number  of  application  domains  has  been  researched,  to  the  best  of  
+the  au-
+thors’ knowledge no other eye–tracking study has been reported on the gamers’
+cognitive differences on cultural heritage game playing.
+
+3    Eye–tracking Study
+
+3.1     Methodology
+
+Experimental  Design  and  Procedure  We designed an eye–tracking exper-
+iment  to  investigate  the  effect  of  cognitive  styles  on  visual  
+attention  during  a
+cultural heritage game. To increase the validity of our study we recruited 
+partic-
+ipants who were a) engaged with online gaming activities more than twelve hours
+per week; b) had no previous experience in playing Time Explorer; and c) had
+never taken the Group Embedded Figures Test (GEFT) before. During the study
+session the players were firstly asked to complete a short demographic question-
+naire; then they undertook the GEFT test; and finally they played the game. To
+test the study environment and instruments and make any adjustments, a pilot
+study was carried out prior to the main study.
+
+
+Apparatus   The  eye  tracking  experiment  was  performed  on  Tobii  T60  Eye
+Tracker,  integrated  into  a  17”  TFT  monitor  (96  dpi)  at  a  screen  
+resolution  of
+1280x1024 pixels. We used the browser Google Chrome v.51 with a window size
+of 1040x996 pixels. Tobii T60 Eye Tracker has a tracking frequency of 60 Hz and
+an accuracy of 0.5ᵒ of visual angle. The analysis of the collected gaze data was
+performed using the software Tobii Pro Studio.
+
+Participants  Twenty one undergraduate students were recruited to take part
+in the eye–tracking study during the spring semester of 2016. However, only 
+four-
+teen of them produced valid eye–tracking data, two females (14.3%) and twelve
+males (85.7%). They ranged in age between 18 and 23 years (M = 20.500, SD
+
+= 1.852). All the participants met the requirements discussed in Experimental
+Design and Procedure section.
+
+Group  Embedded  Figures  Test   To  determine  the  participants’  cognitive
+styles, the Group Embedded Figures Test (GEFT) [20] was used. The test con-
+sisted of three sections, and during each of them, the participants had to 
+identify
+simple forms within complex patterns in a given time. The first section was in-
+troductory.  The  next  two  sections  were  the  main  ones  and  they  
+consisted  of
+nine   items each; five minutes were allocated to each. The score is calculated 
+by
+adding the number of simple forms identified correctly in the second and third
+section,  thus  the  score  range  is  between  0  and  18.  During  the  
+administration
+and  scoring  of  the  GEFT,  the  directions  about  the  materials,  the  
+test  proce-
+dure, scoring and time limits described in the scoring template [27] were firmly
+followed. Participants’ average score on GEFT was 11.714 (median = 12, SD =
+2.894), distributed normally according to Shapiro–Wilk test (p = 0.471 > 0.05).
+The classification of participants into field dependent (FD) or field 
+independent
+(FI) is based on a cut–off score, which however is not identified in the 
+original
+work [20]. However, a number of classification procedures have been developed
+[8][16] and for the scope of this study the median score was adopted as the cut–
+off score, i.e. 12. The participants who scored 12 or lower were classified as 
+FD,
+and those who scored 13 or higher as FI. Eight participants were classified as 
+FD
+and six as FI. The users’ scores on the GEFT test in our sample is comparably
+similar  to  general  public  GEFT  test  scores  as  shown  in  several  
+studies  which
+embraced individuals with different demographics [3][14].
+
+Game  The game we selected for this study was Time Explorer; a well-known
+and  multiple  award  winning  game  of  British  Museum,  which  requires  
+players
+to perform several information processing tasks through game–play in order to
+complete their objectives. Time Explorer has four different levels, each related
+to            an  ancient  civilisation.  For  the  scope  of  this  study,  we 
+ used  Aztec  Mexico
+level.  In  order  to  complete  the  game  successfully,  the  players  had  
+to  rescue  a
+mystical mosaic mask and deliver it to the tribe priest. To redeem the mask, the
+players needed to overcome challenges; solve problems; find and decode hidden
+
+
+messages. Hidden items and knowledge artefacts, e.g. bonus facts and objects,
+were scattered throughout the game, which would not only provide information
+about each civilization to the players, enhancing their knowledge, but they 
+could
+also increase their score. In particular, the formula that calculates the final 
+game
+score is formed by three main parameters: the total level completion time, the
+total in–game puzzle solution time and the number of hidden facts and objects
+collected.  The  hidden  elements  of  the  game  are  divided  into  two  
+major  types:
+helpful  objects  and  bonus  items  (objects  and  facts).  The  collection  
+of  helpful
+objects is mandatory in order for the player to proceed in the game or complete
+it,  while  the  collection  of  bonus  items  is  optional,  since  they  do  
+not  provide
+information crucial to game progress, but they provide general information about
+the    Aztec civilisation.
+
+Measures  For our analysis we wanted to know how visual attention on interac-
+tive game elements is distributed among players with different cognitive styles.
+Therefore, we assigned gaze data to areas of interest (AOIs) on the interactive
+game elements. Twelve AOIs were identified for the Aztec level, representing all
+the interactive game elements. The collected gaze data are based on fixations,
+which  were  detected  using  the  built–in  algorithms  of  Tobii  Studio.  
+The  algo-
+rithms generate a fixation if recorded gaze locations of at least 100ms are 
+close
+to each other (radius 35 pixels). Fixations assign the entire count or duration 
+to
+the AOIs that contain the centre point of the fixation, and fixations projected 
+on
+the foveal area of the eyes may be lost. Hence, we used a technique introduced
+by Buscher et al. [4], which takes into consideration fixations that are close 
+to
+the fixation centre using a Gaussian distribution. We used two metrics:
+
+–  Fixation  count: the number of fixations a participant has within an AOI,
+taking into consideration visits and re–visits to the AOI.
+
+–  Fixation  impact:  a  modified  version  of  fixation  duration,  introduced 
+ by
+Buscher et al. [4].
+
+3.2     Results
+
+Fixation Count  An independent–samples t–test was run to determine if there
+were differences in fixation count to any interactive object between FD and FI
+players. Fixation count for each group was normally distributed, as assessed by
+Shapiro–Wilk’s test (FD: 0.227 > 0.05 and FI: 0.590 > 0.05), and there was ho-
+mogeneity      of variances, as assessed by Levene’s test for equality of 
+variances (p =
+
+0.169 > 0.05). The FI players had a total greater fixation count (M = 47.167, 
+SD
+
+= 17.291) than FD players (M = 24.625, SD = 9.303), a statistically significant
+difference, M = 22.542, 95% CI [6.973, 38.110], t(12) = 3.155, p = 0.003 < 
+0.05.
+
+Nonetheless, not all the interactive objects of the game were mandatory for the
+players in order to proceed in the game, as we discussed previously. Therefore, 
+we
+investigate whether there are differences in fixation count regarding each type 
+of
+interactive  game  elements.  An  additional  independent–samples  t–test  was  
+run
+
+
+for  each  element  type  to  determine  if  there  were  differences  in  
+fixation  count
+between  FD  and  FI  players.  Regarding  the  helpful  objects,  fixation  
+count  for
+each  group  was  normally  distributed,  as  assessed  by  Shapiro–Wilk’s  
+test  (FD:
+
+0.184 > 0.05 and FI: 0.819 > 0.05), and there was homogeneity of variances, as
+assessed by Levene’s test for equality of variances (p = 0.513  > 0.05). The FI
+players had greater fixation count to helpful objects (M = 5.167, SD = 3.656)
+than FD players (M = 2.875, SD = 2.997), but there is no statistically 
+significant
+difference, M = 2.292, 95% CI [-1.577, 6.160], t(12) = 1.291, p = 0.221 > 0.05.
+However,  there  is  a  statistically  significant  difference  for  both  
+bonus  items  ac-
+cording to independent–samples t–test. In particular, the FI players had greater
+fixation count to bonus items (M = 42.500, SD = 13.172) than FD players (M
+
+= 20.500, SD = 7.910) a statistically significant difference, M = 22.000, 95% CI
+[9.727, 34.273], t(12) = 3.906, p = 0.002 < 0.05. Fixation count for each group
+and each game element type were normally distributed, as assessed by Shapiro–
+Wilk’s test, and there was homogeneity of variances, as assessed by Levene’s 
+test
+for equality of variances.
+
+Fixation Impact  An independent–samples t–test was run to determine if there
+were differences in fixation impact to any interactive game element between FD
+and  FI  players.  Fixation  impact  for  each  group  was  normally  
+distributed,  as
+assessed by Shapiro–Wilk’s test (FD: 0.651 > 0.05 and FI: 0.145 > 0.05), and
+there  was  homogeneity  of  variances,  as  assessed  by  Levene’s  test  for  
+equality
+of  variances  (p  =  0.488  > 0.05).  The  FI  players  had  a  total  greater 
+ fixation
+impact (M = 25.422, SD = 8.484) than FD players (M = 16.708, SD = 5.909),
+
+a  statistically  significant  difference,  M  =  8.714,  95%  CI  [0.364,  
+17.065],  t(12)
+
+=  2.274,  p  =  0.042  < 0.05.  Likewise  fixation  count,  we  investigate  
+the  effect
+of cognitive style in the fixation impact of each game element type. Hence, an
+additional  independent–samples  t–test  was  run  for  each  type  to  
+determine  if
+there  were differences in fixation impact between FD and FI players. Fixation
+impact for each group was normally distributed, as assessed by Shapiro–Wilk’s
+test  (FD:  0.057  > 0.05  and  FI:  0.149  > 0.05),  and  there  was  
+homogeneity  of
+variances,  as  assessed  by  Levene’s  test  for  equality  of  variances  (p  
+=  0.882  >
+0.05). The FI players had greater fixation impact towards helpful objects (M =
+3.283, SD = 2.462) than FD players (M = 2.428, SD = 2.845), but there is no
+statistically  significant  difference,  M  =  0.855,  95%  CI  [-2.313,  
+4.022],  t(12)  =
+0.588,              p  =  0.568  > 0.05.  Regarding  the  bonus  items,  
+fixation  impact  for  each
+group was normally distributed, as assessed by Shapiro–Wilk’s test (FD: 0.250 >
+
+0.05 and FI: 0.301 > 0.05), and there was homogeneity of variances, as assessed
+by Levene’s test for equality of variances (p = 0.867 > 0.05). The FI players 
+had
+greater  fixation  impact  towards  bonus  items  (M  =  22.139,  SD  =  7.277) 
+ than
+FD players (M = 14.279, SD = 5.890), a statistically significant difference, M =
+7.860, 95% CI [-0.206, 15.513], t(12) = 2.237, p = 0.045 < 0.05.
+
+
+4    Discussion and Interpretation
+
+Eye–tracking analysis revealed significant differences between the game–playing
+approaches of FD and FI individuals. There was a significant difference on both
+fixation  count  and  fixation  impact  towards  the  interactive  game  
+elements.  FI
+players had greater fixation count and fixation impact than FD players, a 
+finding
+that was anticipated as FI individuals tend to focus more easily on details and
+separate them from the background, whereas FD individuals are typically aware
+of       the whole field, paying less attention to details [9][26]. Therefore, 
+the FI players
+looked more times and for longer time periods at the interactive game elements,
+and they interacted more times with them [21][22].
+
+Focusing on the different types of the game elements, no significant difference
+was  found  on  the  fixation  count  and  fixation  impact  towards  helpful  
+objects.
+Since,  the  collection  of  such  objects  was  mandatory  in  order  for  the 
+ players
+to  proceed  and  complete  the  game,  the  fact  that  no  differences  
+between  FD
+and FI players observed was anticipated. However, there was a significant effect
+regarding the fixation count and fixation impact toward bonus items. FD players
+observed less times and for shorter time periods the bonus items, as they tend
+to  follow a more intrinsic approach and be less inclined in detecting details 
+[26],
+having in mind to complete the game faster [22]. On the other hand, FI players
+tend  to  develop  self–defined  goals  and  be  more  analytical  [26],  and  
+thus  they
+observed bonus items more often and for longer time periods.
+
+In both cases, the fact that FI players had greater fixation count and fixation
+impact  towards  bonus  elements  than  FD  players,  would  lead  them  to  
+interact
+with these elements more often [21][22] and thus the game would provide them
+more  information  about  Aztec  civilisation.  Therefore,  FI  players  would  
+more
+likely get involved in learning activities by acquiring information related to 
+Aztec
+history, while FD players would process less information. Design wise there is a
+risk  for game designers of unintentionally favouring players with specific 
+cogni-
+tive styles. Therefore, cognitive differences should play a role in both the 
+design
+and  the  play  phase  of  the  games.  Our  study  reinforces  the  belief  
+that  FI/FD
+users  develop  different  gaming  strategies  and  suggests  that  research  
+on  play-
+ers cognitive styles could reveal a lot about their interacting behaviour during
+game play. Hence, designing games that implicitly recognise the users cognitive
+style and adapts seem to be engraving a new promising path, especially in new
+emerging environments, such as augmented and virtual reality, where embedding
+eye-tracking mechanisms is feasible.
+
+In terms of generalisability, we expect that similar effects will derive in 
+differ-
+ent game genres as long as they involve information processing tasks. In 
+cultural
+heritage contexts, given the large diversity of the visitors in terms of 
+culture and
+the   fact that there is a correlation between the culture and the different 
+cognitive
+skills and styles [6][13], we believe that adaptive and personalising mechanisms
+should be proposed, to ensure better visiting experience for all audiences.
+
+
+5    Conclusion
+
+The  aim  of  this  study  was  to  investigate  the  effects  of  FD/FI  
+cognitive  style
+on gamers’ visual attention when playing a cultural heritage game. A main ef-
+fect  of  cognitive  differences  on  the  fixation  count  and  fixation  
+impact  towards
+interactive game elements was found. In particular, FI players had greater fix-
+ation count and fixation impact towards the total game elements and elements
+that were not crucial for completing the game. On the other hand, no effect was
+found regarding the fixation count and fixation impact towards objects that were
+mandatory to be collected by the players in order to proceed in the game. Our
+study   had limitations such as the rather small sample and the non–varying par-
+ticipants’ profiles. However, its distribution was normal towards GEFT scores,
+reflecting the general public distribution. The participants’ age range was also
+limited,  but  taking  into  consideration  that  high–level  cognitive  
+characteristics
+rarely  change  throughout  adult  lifespan  [25],  the  observed  main  
+effects  of  the
+eye–tracking  study  would  possibly  apply  for  other  age  groups.  In  our  
+sample
+there      was an imbalance in terms of gender distribution, which was not 
+reflected
+to  the  GEFT  scores  as  they  followed  a  normal  distribution.  
+Researchers  have
+argued  for  and  against  a  correlation  between  the  gender  and  the  
+FD/FI  clas-
+sification  [11][12];  the  analysis  of  our  results  has  not  revealed  any 
+ correlation
+between  the  two.  Nonetheless  more  intensive  research  should  be  
+conducted  in
+order   to  gain  a  deeper  understanding  on  how  cognitive  factors  are  
+related  to
+players’ visual attention in games on a cultural heritage context.
+
+References
+
+1.  C. W. Allinson and J. Hayes.  The cognitive style index: A measure of 
+intuition-
+analysis  for  organizational  research.   Journal of Management studies,  
+33(1):119–
+135, 1996.
+
+2.  E. F. Anderson, L. McLoughlin, F. Liarokapis, C. Peters, P. Petridis, and 
+S. de Fre-
+itas.   Developing  serious  games  for  cultural  heritage:  a  
+state–of–the–art  review.
+Virtual reality, 14(4):255–275, 2010.
+
+3.  C.  Angeli,  N.  Valanides,  and  P.  Kirschner.   Field  
+dependence–independence  and
+instructional–design  effects  on  learners’  performance  with  a  
+computer–modeling
+tool.  Computers in Human Behavior, 25(6):1355–1366, 2009.
+
+4.  G. Buscher, E. Cutrell, and M. R. Morris.  What do you see when you’re 
+surfing?:
+Using  eye  tracking  to  predict  salient  regions  of  web  pages.  In  
+Proceedings of the
+SIGCHI  Conference  on  Human  Factors  in  Computing  Systems,  CHI  ’09,  
+pages
+21–30, New York NY, USA, 2009. ACM.
+
+5.  D. M. Chapman and J. G. Calhoun.  Validation of learning style measures: 
+impli-
+cations for medical education practice.  Medical education, 40(6):576–583, 
+2006.
+
+6.  L.-H. Chiu. A cross–cultural comparison of cognitive styles in chinese and 
+american
+children.  International Journal of Psychology, 7(4):235–242, 1972.
+
+7.  T.  Coenen,  L.  Mostmans,  and  K.  Naessens.   Museus:  Case  study  of  
+a  pervasive
+cultural heritage serious game.  J. Comput. Cult. Herit., 6(2):8:1–8:19, May 
+2013.
+
+8.  E. E. Cureton.  The upper and lower twenty–seven per cent rule.  
+Psychometrika,
+22(3):293–296, 1957.
+
+
+9.  M. Ehrman and B. L. Leaver.  Cognitive styles in the service of language 
+learning.
+
+System, 31(3):393–415, 2003.
+
+10.  J. Froschauer, D. Merkl, M. Arends, and D. Goldfarb. Art history concepts 
+at play
+with thiatro.  J. Comput. Cult. Herit., 6(2):7:1–7:15, May 2013.
+
+11.  C. J. Hamilton.  Beyond sex differences in visuo-spatial processing: The 
+impact of
+
+gender trait possession.  British Journal of Psychology, 86(1):1–20, 1995.
+
+12.  R.  N.  Hughes.    Sex  differences  in  group  embedded  figures  test  
+performance  in
+relation to sex-role, state and trait anxiety.  Current Psychological Research, 
+1(3-
+4):227–234, 1981.
+
+13.  S. Joy and D. A. Kolb. Are there cultural differences in learning style? 
+International
+
+Journal of intercultural relations, 33(1):69–85, 2009.
+
+14.  M. Khatib and R. M. Hosseinpur.  On the validity of the group embedded 
+figure
+test (geft).  Journal of Language Teaching and Research, 2(3):640–648, 2011.
+
+15.  M. Kirton. Adaptors and innovators: A description and measure. Journal of 
+applied
+
+psychology, 61(5):622, 1976.
+
+16.  M. Maghsudi. The interaction between field dependent/independent learning 
+styles
+and learners’ linguality in third language acquisition.  Interactive Multimedia 
+Elec-
+tronic Journal of Computer-Enhanced Learning, 7(5):1–23, 2007.
+
+17.  M.  Mortara,  C.  E.  Catalano,  F.  Bellotti,  G.  Fiucci,  M.  
+Houry-Panchetti,  and
+
+P.  Petridis.    Learning  cultural  heritage  by  serious  games.    Journal  
+of  Cultural
+Heritage, 15(3):318–325, 2014.
+
+18.  E. A. Nisiforou and A. Laghos. Field dependence–independence and eye 
+movement
+
+patterns: Investigating users differences through an eye tracking study. 
+Interacting
+with Computers, page iwv015, 2015.
+
+19.  E. A. Nisiforou, E. Michailidou, and A. Laghos.  Using eye tracking to 
+understand
+
+the  impact  of  cognitive  abilities  on  search  tasks.  In  International 
+Conference on
+Universal Access in Human-Computer Interaction, pages 46–57, Heraklion, Greece,
+2014. Springer.
+
+20.  P. K. Oltman, E. Raskin, and H. A. Witkin.  Group Embedded Figures Test.  
+Con-
+
+sulting Psychologists Press, Palo Alto CA, USA, 1971.
+
+21.  G. E. Raptis, C. A. Fidas, and N. M. Avouris.  Do field 
+dependence-independence
+differences of game players affect performance and behaviour in cultural 
+heritage
+games?    In ACM SIGCHI Annual Symposium on Computer-Human Interaction in
+Play (CHI PLAY), Austin TX, USA, 2016. ACM.
+
+22.  G. E. Raptis, C. A. Fidas, and N. M. Avouris. A qualitative analysis of 
+the effect of
+
+wholistic-analytic cognitive style dimension on the cultural heritage game 
+playing.
+In  Proc. 7th International Conference on Information, Intelligence, Systems and
+Applications (IISA), Chalkidiki, Greece, 2016. IEEE.
+
+23.  R. J. Riding and I. Cheema.  Cognitive styles–an overview and integration. 
+ Edu-
+
+cational psychology, 11(3-4):193–215, 1991.
+
+24.  D. Shinar, E. D. McDowell, N. J. Rackoff, and T. H. Rockwell.  Field 
+dependence
+and  driver  visual  search  behavior.   Human  Factors:  The  Journal  of  the 
+ Human
+Factors and Ergonomics Society, 20(5):553–559, 1978.
+
+25.  H.  A.  Witkin,  D.  R.  Goodenough,  and  S.  A.  Karp.   Stability  of  
+cognitive  style
+
+from childhood to young adulthood.  Journal of personality and social 
+psychology,
+7(3p1):291, 1967.
+
+26.  H. A. Witkin, C. A. Moore, D. R. Goodenough, and P. W. Cox.  
+Field–dependent
+
+and  field–independent  cognitive  styles  and  their  educational  
+implications.   ETS
+Research Bulletin Series, 1975(2):1–64, 1975.
+
+27.  H. A. Witkin, P. K. Oltman, E. Raskin, and S. A. Karp.  Group Embedded 
+Figures
+
+Test – Scoring Template.  Consulting Psychologists, Palo Alto CA, USA, 1971.
+
+View publication stats
+

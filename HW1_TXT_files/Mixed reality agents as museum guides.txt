@@ -1,0 +1,796 @@
+Accelerat ing t he world's research.
+
+Mixed reality agents as museum
+guides
+Gregory O'Hare
+ABSHL’06: Agent-Based Systems for Human Learning, AAMAS 2006 Workshop
+
+Related papers
+
+Download a PDF Pack of t he best relat ed papers 
+
+Fusing Realit ies in Human-Robot Social Int eract ion
+Gregory O'Hare, T homas Holz
+Facilit at ing ubiquit ous int eract ion using int elligent agent s
+Gregory O'Hare
+Social int eract ion bet ween robot s, avat ars & humans
+Gregory O'Hare
+
+Mixed Reality Agents as Museum Guides
+Thomas Holz, Mauro Dragone,
+Gregory M.P. O’Hare, Alan Martin
+
+Brian R. Duffy
+Institut Eurécom
+2229 Route des Crêtes, BP 193
+F 06904, Sophia-Antipolis, France
++33 (0)4 93 00 29 31
+
+University College Dublin
+Belfield, Dublin 4, Ireland
++353 (0)1 716 2483
+
+thomas.holz@ucd.ie, mauro.dragone@ucd.ie,
+gregory.ohare@ucd.ie, alan.martin@ucd.ie
+ABSTRACT
+This paper details a framework for mixed reality agents, i.e. agents
+that exist in both the real and virtual space. These agents combine
+the physical presence of a robot with the adaptability and
+expressivity of a virtual character. The objective is to blur the
+traditional boundaries between the real and the virtual and provide
+a standardised methodology for intelligent agent control
+specifically designed for social interaction. We show how this
+architecture can be employed in the context of a mobile
+collaborative mixed reality environment that is cohabited by both
+robots and humans. As an example application we describe how
+the framework can be applied to a museum guide that takes
+advantage of the physical and virtual presence of the mixed reality
+agent to convey an individual and personalised learning
+experience. A mobile robot with associated virtual persona is the
+gateway to this mixed reality experience. The physical robot
+navigates the museum, while its virtual persona, which is unique
+and can be personalised for each observer, explains the exhibits
+and adapts its appearance to match the current context.
+
+brian.duffy@eurecom.fr
+
+ubiquitous devices with intelligent behaviour, and thus creating
+intelligent environments, is termed ambient intelligence [1]. It is
+our thesis that mobile robotics are a compelling instance of those
+artefacts which comprise and deliver the ambient space,
+particularly in application domains where mobility and physical
+context awareness is important, such as museum spaces.
+A museum is viewed as a place dedicated to the acquisition,
+conservation, study, exhibition, and educational interpretation of
+objects having scientific, historical, and/or artistic value. Core to
+this is the ability to provide an ease of accessibility of information
+to its visitors. Current advances have looked to employ
+autonomous mobile robots as museum guides, for example, the
+International Conference on Intelligent Robots and Systems 2002
+dedicated a workshop to the topic of “Robots in Exhibitions”.
+
+Categories and Subject Descriptors
+I.2.11 [Distributed Artificial Intelligence] Multiagent systems,
+intelligent agents, coherence and coordination, languages and
+structures; I.2.9 [Robotics] autonomous vehicles
+
+General Terms
+Design, Experimentation
+
+Keywords
+Agent and multi-agent architectures, agent-oriented software
+engineering and agent-oriented methodologies, autonomous
+
+1. INTRODUCTION
+Today an ever-growing amount of human activities rely on digital
+technology. Trends such as inexpensive internet access and the
+diffusion of wireless computing devices have made ubiquitous or
+pervasive computing a practical reality. Endowing these
+Permission to make digital or hard copies of all or part of this work for
+personal or classroom use is granted without fee provided that copies are
+not made or distributed for profit or commercial advantage and that
+copies bear this notice and the full citation on the first page. To copy
+otherwise, or republish, to post on servers or to redistribute to lists,
+requires prior specific permission and/or a fee.
+AAMAS’06, May 8–12, 2006, Hakodate, Japan.
+Copyright 2004 ACM 1-58113-000-0/00/0004…$5.00.
+
+Figure 1. Virtual snow in the real world
+The recent pervasiveness of robotic platforms for human-robot
+interaction (HRI) has acted as a catalyst for a large body of
+research investing HRI in different interactive scenarios, including
+such museum environments. Research has shown that humans
+treat computers as social partners if they behave in a socially
+competent manner [37] which facilitates natural interaction, a key
+factor in ambient intelligence [1]. To fulfil this goal, robots need
+to exhibit social and emotional intelligence, not only for the
+
+benefit of the human but also for that of the robot [7]. A museum
+offers a compelling environment for the study of human-computer
+as well as human-robot interaction. It offers an abundance of short
+term interaction with unskilled users as well as providing robot
+developers with a prime test bed for a lot of everyday problems,
+such as localisation, mapping, obstacle avoidance and path
+planning.
+As these features have proven to be very difficult problems to
+both realise and manage, this work adopts a different perspective,
+notably to embrace (rather than be constrained by) the machine
+capabilities of the robot through augmented reality technologies.
+Augmented reality provides the ability to allow a much more
+enhanced user experience which is not necessarily constrained to
+either human-centred or physical reality capabilities (gravity
+becomes optional within virtual reality).
+A key objective of previous work has often been the replacement
+of a human counterpart rather than necessarily a means to develop
+beyond traditional paradigms for information dissemination. Our
+idea is not to replace the human guide per se, but rather to
+develop something with a different capability set than a human,
+thereby allowing the dynamic visualisation of user-centred
+demonstrations. These use augmented reality enactments related
+to an exhibit, even all around the user, but fundamentally centred
+about the physical robot (for user tracking and localisation). A
+simple example to illustrate: in explaining the climate in northern
+Russia, the robot can become an AR snowman and it can snow
+virtually all around the user - an example of how the AR
+experience can engage the user in a more encompassing manner
+(see Figure 1).
+The following paper details a number of fundamental issues
+involved with the development of MiRA, the Mixed Reality
+Agent Guide, moving about a museum and providing context
+dependent information to visitors. It jointly exploits of gaze
+tracking, positional awareness and virtual avatars in mixed reality
+agents employed in this human-robot collaborative scenario.
+
+2. THE HUMAN & THE AGENT
+As this work discusses the fusion of both the real and the virtual,
+we begin by clarifying a number of terms that are common to
+these two domains, but often interpreted differently. The very
+term agent can be somewhat ambiguous and conveys different
+meanings depending upon the research in question. Within this
+research, we see agents as software entities characterised by the
+attributes of autonomy, social ability, reactivity and pro-activity
+[44]. Key to the operation of such agents is the notion of
+embodiment. Embodiment is defined to be the strong provision of
+environmental context, both physical and social. An agent is said
+to be embodied if it is equipped with a body, located within its
+environment, through which it senses and interacts with the
+environment and other individuals located within that
+environment. The predominant view within the AI community is
+that an agent must be equipped with some form of body if it is to
+be considered intelligent [9].
+Agents can be further classified based upon how they are
+embodied. Physical agents are generally embodied in a robotic
+form, using sensors and actuators to perceive and act upon the
+physical world. Virtual Agents, on the other hand, are embodied
+using a graphical representation of the agent, referred to as the
+
+agent’s avatar, which often takes an anthropomorphic form. They
+have been employed within graphical environments such as
+Collaborative Virtual Environments (CVEs), as well as within
+user interfaces.
+Within the context of agent-enabled museum guides, there are a
+number of different approaches which can be coarsely separated
+into two categories, virtual agents and physical agents, which the
+following two sections will briefly discuss.
+
+2.1 Virtual Agents
+Virtual agents offer a number of advantages when compared to
+physical robots. They are capable of exhibiting a high degree of
+anthropomorphism [27], the can possess a highly expressive
+interface [35] and they can be adjusted and personalised for each
+user. This can be carried out at a fraction of the cost of a robotic
+interface. They are also capable of actions that are impossible in
+the real world, such as mutating the form of their avatar [30].
+On the other hand, the virtual approach introduces a number of
+problems, most notably how to display the virtual avatar. This
+may be achieved through the installation of a special screen within
+the museum, making the agent an exhibit itself [27]. Alternatively
+the avatar can be rendered on a handheld device that the user
+carries [38]. In both cases the virtual avatar’s actions are limited
+to the device upon which it is displayed. It is not possible for the
+agent to leave the screen and wander the museum freely or to
+interact with physical objects in the real world. The agent also
+needs sensors placed in the environment to perceive the real world
+(cameras, etc.), constraining him even further.
+
+2.2 Physical Agents
+Physical agents allow robots to be deployed within a museum,
+where they may serve different purposes. They may act as a guide
+for physically present visitors [33][17] or as a telepresent body for
+remote visitors [31][28][10]. They may also do both, such as in
+the case of MINERVA [41], a robot that guides visitors through
+the Smithsonian’s National Museum of American History and that
+can also be used, via a web interface, to explore the museum
+remotely.
+Robots offer distinct advantages over their virtual counterparts.
+As a logical conclusion of living within the dynamic and
+unpredictable real world, they are equipped with the ability to
+sense the environment and react accordingly. This makes it easier
+for developers to harness that information and use it for richer
+interaction with the guide. Also, as pointed out by Breazeal et al.
+[8], presence is an important aspect in human interaction. It has
+been shown that humans prefer a real robot to an animated version
+in one-on-one interactions, as they are more engaging and offer a
+higher sense of presence to the user [24]. Robots are also free to
+move within the environment, and may lead a user towards a
+particular exhibit, rather than requiring the user to initiate the
+action.
+Finally, since virtual agents are inherently constrained to a display
+device, they can only instruct the user to go to a different part of
+the museum. The robot, on the other hand, will go autonomously
+thus pushing the user for a reaction - to follow or to stay behind instead of burdening the user with initiating the action [33].
+
+On the other hand, physical agents have a number of drawbacks
+when compared to virtual agents that are not insignificant either.
+Once a robot is built, it is more or less fixed in its appearance,
+which cannot be tailored to the individual user. Additionally, the
+complex mechanical requirement of robots results in high initial
+and maintenance costs. As a result of this, museums usually limit
+their investment to one robot per group of people. While this
+results in a shared experience, it also limits the ability of
+personalising the content to the audience.
+
+2.3 Fusing the Physical and the Virtual
+We believe that the logical conclusion is to combine the two
+worlds, virtual and physical, and reap the advantages of both
+while trying to avoid the pitfalls of each. We developed the notion
+of a mixed reality agent to account for this combination.
+A first incarnation of this principle is the addition of a screen to
+the robot. This has been widely used as a form of telepresence in
+remote conferencing scenarios [45], but we believe this approach
+suffers some crucial drawbacks. The screen can only be seen from
+one angle and cannot be adapted for each individual user.
+Furthermore, the characters and their actions are still limited to
+the screen.
+On the other hand, using an augmented reality display, e.g. a Head
+Mounted Display (HMD), offers some compelling advantages, as
+the virtual avatar is now only constrained by the user’s field of
+view. As the agent is embodied in the real and the virtual world it
+can manipulate both and can interact with physical as well as with
+virtual objects. This interaction transcends the boundaries
+between the real and the virtual world; the virtual avatar can, for
+example, point at real things, while the physical robot can steer
+around virtual obstacles. As the virtual part is rendered
+individually on each user’s equipment, it offers the compelling
+possibility of personalising the content for each user.
+A distinct disadvantage, at the moment, is the cumbersome and
+expensive hardware imposed on each user. However, this is likely
+to change in the near future as displays become cheaper and less
+invasive [26].
+This work therefore employs the term Mixed Reality Agent1
+(MiRA) to refer to agents embodied with both physical and virtual
+form which can sense and act upon both worlds.
+
+2.4 Expressivity
+An additional motivation for employing this mixed reality
+approach is the resulting expressive flexibility of the agent. A
+fundamental aspect of social interaction is the ability of both the
+human and the machine to understand and anticipate each other’s
+intentions [7][42]. Humans convey this information through
+explicit communication as well as an array of non-verbal cues
+[25], which have been studied, among others, by traditional
+digital animators who have developed a set of principles based on
+their observations, e.g. anticipation (providing cues to an action
+before undertaking it) [40]. Van Breemen [42] argues that
+1
+
+The term mixed reality, rather than augmented reality, is used
+because our agents can be realized over the whole spectrum of
+Milgram’s Virtuality Continuum [32], whereas augmented
+reality only refers to part of it
+
+applying such tried and tested concepts can help humans
+understand a robot’s intention. Bartneck has shown that affective
+expressions of machines can appear to humans as convincing as
+those of a human – regardless of the level of abstraction – as long
+as the expressions remain distinct from each other [5] and
+consistent with user expectations [39].
+However, due to physical constraints expressional capabilities of
+robots remain restricted when compared to humans (see [4] for a
+recent review of robotic user interfaces) and thus fail to convey
+subtler meanings of intention or emotion. First steps towards
+building a realistic human-like companion with rich visual
+expressiveness have been taken [20][19], but still suffer from
+limitations and high cost.
+In stark contrast however virtual characters, can offer highly
+expressive interfaces that are convincing to humans [5], are
+comparably cheap and can be easily adapted and personalized. As
+such, this work seeks to seamlessly integrate both the real and the
+virtual into a coherent functional whole.
+We believe that mixed reality offers a potential solution to this
+discrepancy between HCI and HRI. Only by availing of the real
+and virtual world can the gap between the two be bridged. The
+following section details the technical mechanisms required.
+
+3. MIRA: THE MIXED REALITY AGENT
+In this work we try to seamlessly integrate physical robots in realworld environments with virtual characters overlaid on their
+physical hardware through augmented reality interfaces. Virtual
+and real elements form a hybrid system that ought to exhibit
+cohesion and behavioural consistency to the observer.
+In order to be a believable component of the mixed reality agent,
+the behaviour of the virtual character needs to exhibit a degree of
+awareness of its (real) surroundings, comparable to a robot being
+physically embodied through an array of physical sensors and
+actuators. In addition, for effective robot-human interaction the
+mixed reality agent needs to behave in a socially competent
+manner [37].
+
+3.1 System Architecture
+3.1.1 Overview
+The system architecture behind mixed reality agents can be
+described as a distributed multi agent system. Both virtual
+characters and real robots are autonomous agents inter-connected
+by a wireless communication media.
+Since the rendering of the virtual component is performed on the
+wearable computers attached to the users’ HMD, there is a virtual
+character agent in every user’s computer for each physical robot
+present in the environment.
+It has been claimed that the capability set of a virtual avatar is
+limited by the form of that avatar [29], for example, the use of a
+particular facial expression requires the inclusion of a face in the
+avatar. While the mixed reality agent's real world presence
+provides it with additional capabilities when compared to a virtual
+agent, we do not advocate limiting the agent's virtual avatar to one
+specific form. Consequentially, the agent is provided with a
+library of avatar forms, each with their own associated set of
+animation, and hence their own capability set. The agent is free to
+
+mutate its virtual avatar over time according to the capabilities
+and expressions that it wishes to utilise.
+
+the user is encapsulated in a virtual sensor that augments the usual
+capabilities of the robot.
+
+Deliberative agent control is paramount to the effectiveness and
+believability of these mutations. Hence, in this architecture, the
+choice of avatar form is controlled by the agent's deliberative
+mechanism. The agent is informed of the possible avatar forms
+and their associated capabilities and animations. Based upon this
+information it may judiciously select the avatar form most
+associated with the required task.
+
+By carrying the markers, the robot acts as gateway for the mobile
+augmented reality experience. Fully autonomously localised
+robots can also satisfy the requirements for location awareness of
+the application, by automatically localising every user observing
+them.
+
+In order to harmonise the virtual with the real and to create the
+impression of one holistic agent, the virtual characters are
+animated in line with their behaviour and the state of their real
+robotic counterparts. Correspondingly, the robot’s physical
+behaviour is responsive to the state of the associated virtual
+characters. Instrumental to this synchronism are update
+information streams that robots and virtual characters exchange in
+order to coordinate their actions and notify each other about
+meaningful events or other data related to their reasoning process.
+
+In delivering the agent components in the architecture we
+commission the Social Situated Agent Architecture (SoSAA)
+[14], an agent-based middleware for the development of
+distributed autonomous systems based upon Agent Factory
+(AF) [12].
+
+An important component of this data relates to spatial
+information. Specifically, the robot may inform the virtual
+characters of its position in relation to objects of interest thus
+enabling the enacting of deictic gestures (e.g. pointing to the
+objects perceived by the robot’s camera or the other on-board
+sensors) and anticipatory animations [40]. In case the robot knows
+its position in an absolute frame of reference, e.g. by using an
+autonomous localisation system, this information is also passed to
+the virtual characters. Correspondingly, the virtual character may
+inform the robot about the location and viewpoint of the user so
+that the robot can harness this knowledge during its activity.
+Other information passed from the virtual character to the robot
+includes the profile of the users, reporting, for example, their age,
+identity and application-specific preferences.
+
+3.1.2 Tracking and Localisation
+The knowledge of the user’s viewpoint derives from the positional
+tracking supporting the overlay between real and virtual character
+in the user’s HMD. To this end, we adopted a simple markerbased tracking using ARToolkit [23]. Once a marker is recognised
+in the image captured from the HMD camera, the application
+deduces the user’s viewpoint in relation to the robot’s egocentric
+frame of reference.
+In order to improve the accuracy of the tracking and increase the
+visibility of the markers we equipped each robot with five markers
+aligned in a cube, so that the camera in the user’s HMD can
+observe at least one marker from all angles (see Figure 4 (left)).
+Multiple observations are merged with a Kalman Filter [22] to
+further improve the accuracy. With these mechanisms in place, the
+cubes can be tracked up to six meters.
+This simple device allows overlaying stable avatars on top of the
+tracked cubes. For mixed reality agents, the avatars usually cover
+some of the robot’s hardware (see Figure 4 (right)) so that the
+transition between real and virtual looks as natural as possible.
+The egocentric (robot-centric) tracking simplifies the
+communication between users and robot. Since the user’s location
+and orientation is deduced by the tracking effort, this information
+may be passed to the robot [15] to influence its behaviour and to
+spatially reference virtual and real objects. The data coming from
+
+3.1.3 Agents
+
+AF implements a Belief-Desire-Intention (BDI) [36] model of
+agency. BDI agents use the mental attitudes of Beliefs, Desire and
+Intentions in order to represent, respectively, the information,
+motivational, and deliberative states of the agents. The role of
+these attributes is to provide the agent with a usable description of
+both present and future states of the agent’s environment. AF
+agents employ practical reasoning techniques to deliberate upon
+their perceived situation, update their mental state and select a
+future line of action in pursuance of system goals.
+AF defines an interface layer based upon abstract actuator and
+perceptor modules that are used to connect the reasoning engine
+with domain specific systems. This mechanism is instrumental for
+the ability to create hybrid robotic systems combining deliberative
+components with behaviour-based controllers [2] and also for
+controlling both real and virtual agents (e.g. simulated robots or
+virtual characters) [14].
+To enable collaboration among any type of agents within a
+specific application, AF agents make use of a FIPA
+(http://www.fipa.org) compliant Agent Communication Language
+(ACL). Through ACL directives such as request, inform, propose,
+or reject, the agents can influence each other’s conduct. Indeed,
+most of the coordination between real robot and virtual character
+is achieved through high-level requests from the robot agent to the
+character agent (e.g. <greet the user>) or communication of
+intentions (e.g. <committed turn-right>) rather than low-level
+directions (e.g. <move your arms up and wave 3 times>) which
+require more data and use up much of the robot’s attention.
+
+3.1.4 Virtual Robotic Workbench
+The connectivity for the realisation of mixed reality agents is
+based upon the multicast, multi-channel messaging service of the
+Virtual Robotic Workbench (VRW) [13] an agent-based
+Collaborative Virtual Environment (CVE) for social robotic
+agents.
+CVEs represent distributed virtual spaces in which people can
+meet and interact with others. Current CVE systems are the result
+of a convergence of research interest within the VR and
+Computer-Supported Cooperative Work (CSCW) communities.
+Within the CSCW community, the ability of CVEs to simulate the
+physical presence of users in a shared environment has been
+instrumental in enabling complex social interactions which has
+previously eluded technologies such as audio and videoconferencing and shared desktop applications. For efficient
+
+collaborative work, CVE systems necessitate Human-Computer
+Interaction (HCI) techniques as well as specific instruments
+facilitating the coordination and the social engagement between
+participants. Increasingly more systems also incorporate agentbased techniques [43][21][11] to improve the usability of the
+system. Agents act as virtual representatives of human users and
+as fully autonomous intelligent entities co-habiting the sameshared space.
+The core features of the VRW are the immersion of both robots
+and humans in a networked collaborative environment in support
+of robot-robot and human-robot interaction.
+For this purpose, the VRW contains an XML protocol for the
+transport of both ACL directives and telemetry information (i.e.
+sensor, positional and tracking updates). The XML tagging
+mechanism is easily extendable and can naturally support data
+streaming at different rates and of different content type.
+The VRW messaging service includes a default channel, operating
+on a pre-configured multicast address, which is used to transmit
+priority data as well as an index for other available channels.
+SoSAA agents can use the VRW as any other resource in their
+possession. The messaging service is embedded in their sensorial
+apparatus and they can act upon it through dedicated actuators.
+Once tuned on the default channel, an agent may, for example,
+open a secondary channel and advertise it in the VRW index.
+Secondary channels are usually used for private, peer-to-peer
+conversations or for publishing static content (e.g. user profiles,
+maps of the environment, 3D models…).
+
+In this work, an abstract interface is defined between the BDI
+agent and the behavioural rendering in the form of perceptors and
+actuators, to be used by the virtual character agent. This design
+favours a smooth transition to a more sophisticated behaviourspecification system [3]. Our current implementation is based
+upon OpenVRML [34], an open source C++ library enabling a
+programmatic access to the VRML model.
+In order to meet our objectives and to achieve a compromise
+between speed, simplicity and behavioural realism, our design
+allows the use of both pre-stored and run-time animations by
+handling them with, respectively, synchronous and asynchronous
+actuator modules. In addition, in order to approximate a desired
+behaviour, we segment each animation allowing both sequenced
+and parallel activation of such actuators.
+
+4. EXAMPLE APPLICATION
+As an example of the type of situation where this system could be
+applied, consider MiRA. MiRA is a Mixed Reality Agent guide to
+a museum, and is physically embodied within the museum as a
+robot. This robot travels around the museum guiding visitors and
+providing information about the different exhibits. Furthermore,
+when the user is equipped with a head-mounted display (HMD),
+the agent’s virtual embodiment, an avatar overlaid on the robot (as
+shown in Figure 2), can be seen. Together, this forms MiRA, the
+mixed reality guide, combining the advantages of an expressive
+virtual agent with the physical presence of a robot.
+
+It is through the VRW that robots can know which other robots
+are present in the environment before seeing them. For Mixed
+Reality Agents, the default channel is also exploited for the
+dynamic discovery of peer observers (in case the shared tracking
+is used) and for advertising static data concerning the avatars and
+the marker cubes thus fully distributing the configuration of the
+application.
+
+3.1.5 Behavioural Rendering
+This virtual character agent is responsible for monitoring state
+information and events transmitted by the robot through the VRW
+and to keep the behaviour of the virtual character in line with the
+current activity. This is achieved by activating a set of animations
+(e.g. hand gestures and facial expressions) available to the avatar,
+a degree of flexibility difficult to achieve on non-augmented
+platforms. Using an agent in this context avoids the need for a
+statically pre-defined mapping, enabling instead a more reasoned,
+and more easily definable control over the avatar’s appearance.
+For example, the virtual character agent may use the stereotype
+identity description for the robot and the avatar (see [16] for more
+details) as well as a profile of the observer (i.e. his identity and
+preferences) in order to personalise the form of the avatar and
+dynamically bind classes of events to the specific visual clues and
+animations.
+
+3.1.6 Avatars, Models and Animations
+The mixed reality agents have access to a library containing a
+number of avatar forms they can use as their virtual component.
+For human-like avatar forms we employ the H-Anim 1.1 (VRML
+Humanoid Animation working group) standard [18].
+
+Figure 2. The avatar can use gestures and other non-verbal
+expressions to interact with the user
+As a result of this combination of the physical and the virtual,
+MiRA is capable of complex virtual expression, while being
+physically present within the environment. Furthermore, the
+virtual avatar can be tailored to the user’s personal model. For
+example, an adult may see the avatar as an adult whereas a child
+may see a child avatar (see Figure 3).
+
+agent control also allows for the creating of a more dynamic, and
+hence more believable, agent interaction.
+
+Figure 3. Adult visitors are greeted by and adult avatar form
+while kids are greeted by a child avatar form.
+MiRA acts as a guide to the museum, directing the user towards
+different exhibits and providing information regarding them. As it
+moves around within the physical space, the virtual avatar
+animates to help point out key items. For instance, in Figure 4
+(right), the avatar points, and directs its gaze, towards a ball. It
+should be noted that, as the avatar is 3D, the object that it is
+pointing out can be easily discerned by the user.
+
+Figure 5. The guide adopts a lion avatar form at an exhibit of
+carnivore skulls
+
+Figure 4. View of the same scene with and without the virtual
+avatar
+As MiRA guides the user around the museum, it can also mutate
+the form of its virtual avatar to help the user visualise the points
+that it is illustrating. As an example of this, MiRA’s operation
+within a natural history museum is shows in Figure 6.
+Specifically, these show MiRA’s appearance as it approaches two
+exhibits, one containing a comparison of carnivore skulls, the
+other a skeleton of a Giant Irish Elk. At each exhibit, MiRA
+augments its discussion of the exhibit by adopting an appropriate
+avatar form. In this case, it mutates into a lion while discussing
+the carnivore skulls (Figure 5) and a stag while discussing the Elk
+(Figure 6, right).
+Throughout the course of MiRA’s interaction with the user, its
+actions are controlled by the agent’s deliberative mechanism.
+Decisions on where to move the robot, which avatar form to
+adopt, and which animation to carry out are made based upon the
+agent’s BDI reasoning. This allows the agent to respond to
+changes in the environment. When a user becomes disinterested in
+a particular exhibit and moves away, MiRA may adopt its actions
+and change its discussion in order to reflect this. Deliberative
+
+Figure 6. The guide changes its form to a stag when discussing
+the Giant Irish Elk
+
+5. CONCLUSION
+This work has successfully introduced the notion of a mixed
+reality agent, i.e. an agent that is embodied in the physical and the
+virtual world at the same time. The SoSAA framework in
+conjunction with the Virtual Robotic Workbench provides the
+flexibility and adaptivity required in such participant centred
+
+spaces. The advantages of the relatively static nature of the
+exhibits within museums is both an advantage for system
+development as well as an opportunity to expand to a more
+dynamic experience through the MiRA technology presented here.
+A specific feature of the systems developed is their ease of
+portability across hardware platforms. The system has the capacity
+to adapt to robots of different configurations, both in size and
+functionality.
+With the increasing ubiquity of computational devices, our
+connectivity with the both the physical and digital spaces around
+us is evolving. Our visits to museums showing ancient animals
+and civilisations become a truly immersive experience.
+
+6. ACKNOWLEDGMENTS
+This research is based upon works supported by the Science
+Foundation Ireland under Grant No. 03/IN.3/1361.
+
+7. REFERENCES
+[1] Aarts, E. Ambient Intelligence: A Multimedia Perspective,
+IEEE Multimedia, 11 (2004), 12-19
+[2] Arkin, R. C. Behavior-Based Robotics. Cambridge,
+Massachusetts: The MIT Press, 1998
+
+[12] Collier, R.W. Agent Factory: A Framework for the
+Engineering of Agent-Oriented Applications. Ph.D. Thesis,
+University College Dublin, Ireland, 2001
+[13] Dragone, M., Duffy, B.R. & O’Hare, G.M.P. Social
+Interaction between Robots, Avatars and Humans. Proc. of
+the 14th IEEE International Workshop on Robot and Human
+Interactive Communication (RO-MAN ‘05), Nashville, TN,
+USA, August 2005
+[14] Dragone, M., Holz, T., Duffy, B. R., O’Hare, G.M.P. Social
+Situated Agents in Virtual, Real and Mixed Reality
+Environments. Proc. of the International Working
+Conference on Intelligent Virtual Agents (IVA ‘05), Kos,
+Greece, September 2005
+[15] Dragone, M., Holz, T., O’Hare, G.M.P. Mixing Robotic
+Realities, Proc. of the International Conference on
+Intelligent User Interfaces (IUI 2006), January, 29 –
+February, 1, Sydney, Australia, 2006
+[16] Duffy, B.R. Social Embodiment in Autonomous Mobile
+Robotics, International Journal of Advanced Robotic
+Systems, 2004
+
+[3] Balci, K. Xface: MPEG-4 based open source toolkit for 3d
+facial animation, Advance Visual Interfaces, 2004
+
+[17] Graf, B. & Barth, O. Entertainment Robotics: Examples, Key
+Technologies and Perspectives, Proc. of the IEEE/RSJ IROS
+2002 Workshop on Robots in Exhibitions, Lausanne,
+Switzerland, October 2002
+
+[4] Bartneck, C. & Okada, M. Robotic User Interfaces. Proc. of
+the Human and Computer Conference (HC'01), 2001, 130140
+
+[18] H-Anim, The Humanoid Animation Working Group,
+Available online at: http://www.h-anim.org, (accessed 12 Jan
+2006)
+
+[5] Bartneck, C. Affective Expressions of Machines. Proc. of the
+ACM Conference on Human Factors in Computing Systems
+(CHI '01), 2001, 189-190
+
+[19] Hanson, D., Olney, A., Prilliman, S., Mathews, E., Zielke,
+M., Hammons, D., Fernandez, R. & Stephanou, H.E.
+Upending the Uncanny Valley. Proc. of the 20th National
+Conference on Artificial Intelligence and the 17th Innovative
+Applications of Artificial Intelligence Conference, 2005,
+1728-1729.
+
+[6] Billinghurst, M., Kato, H., Weghorst, S., & Furness, T. A. A
+Mixed Reality 3D Conferencing Application. Technical
+Report R-99-1, Seattle: Human Interface Technology
+Laboratory, University of Washington, 1999
+[7] Breazeal, C. Social interactions in HRI: the robot view.
+Trans. on Systems, Man, and Cybernetics, 34 (2004), 81186
+[8] Breazeal, C., Brooks, A. G., Gray, J., Hancher, M., McBean,
+J., Stiehl, W. D. & Strickon, J. 2003. Interactive robot
+theatre. Proc. of the International Conference on Intelligent
+Robots and Systems, Las Vegas, NV, USA, October 2003
+[9] Brooks, R.A. A Robust Layered Control System for a Mobile
+Robot, IEEE Journal of Robotics and Automation, 2:14-23.
+1986
+[10] Burgard, B & Trahanias, P. TOURBOT and WebFAIR:
+Web-Operated Mobile Robots for Tele-Presence in
+Populated Exhibitions, Proc. of the IEEE/RSJ IROS 2002
+Workshop on Robots in Exhibitions, Lausanne, Switzerland,
+October 2002
+[11] Cobelm J. & Harbison, K. MAVE: A multi-agent
+architecture for virtual environments, Proc. of the 11th
+International Conference on Industrial and Engineering
+Applications of Artificial Intelligence and Expert Systems,
+LNAI, Vol.1415, Springer Verlag, 1998
+
+[20] Ishiguro, H. Interactive Humanoids and Androids as Ideal
+Interfaces for Humans, Proc. of the International Conference
+on Intelligent User Interfaces (IUI 2006), January, 29 –
+February, 1, Sydney, Australia, 2006
+[21] Johnson, L., & Rickel, J. Virtual humans for team training in
+VR”, Proc. 9th World Conference on AI in Education, July
+1999, pp578-585
+[22] Kalman, R. E. A new approach to linear filtering and
+prediction problems. Journal of Basic Engineering, 1960,
+35-45
+[23] Kato, H., Billinghurst, M. & Poupyrev, I. ARToolKit.
+Technical report, Hiroshima City University, 2000
+[24] Kidd, C. Sociable robots: The role of presence and task in
+human-robot interaction, Master's thesis, MIT Media Lab,
+Cambridge, MA, June 2003.
+[25] Kidd, C.D., Lockerd, A., Hoffman, G., Berlin, M. &
+Breazeal, C. Effects of nonverbal communication in humanrobot interaction. Proc. of IEEE/RSJ international
+Conference on Intelligent Robots and Systems (IROS ’05),
+Edmonton, Alberta, Canada, 2005
+
+[26] Kleweno, C.P., Seibel, E.J., Viirre, E.S., Kelly, J.P. &
+Furness, T.A. The virtual retinal display as a low-vision
+computer interface: A pilot study, Journal of Rehabilitation
+Research and Development, Vol. 38 No. 4, July/August
+2001, Pages 431-442
+[27] Kopp, S., Gesellensetter, L., Krämer, N.C., Wachsmuth, I. A
+Conversational Agent as Museum Guide - Design and
+Evaluation of a Real-World Application, Proc. of the 5th
+International Working Conference on Intelligent Virtual
+Agents (IVA ’05), September 12-14, 2005, Kos, Greece
+[28] Maeyama, S. Mobile Robots in Art Museum for Remote
+Appreciation via Internet, Proc. of the IEEE/RSJ IROS 2002
+Workshop on Robots in Exhibitions, Lausanne, Switzerland,
+October 2002
+[29] Martin, A., O'Hare, G.M.P., Duffy, B.R., Schoen, B. &
+Bradley, J.F. Maintaining the Identity of Dynamically
+Embodied Agents, Proc. of the 5th International Working
+Conference on Intelligent Virtual Agents (IVA 2005),
+September 12-14, 2005, Kos, Greece
+[30] Martin, A., O'Hare, G.M.P., Duffy, B.R., Schön, B. &
+Bradley, J.F. Intentional Embodied Agents, Proc. of the 18th
+International Conference on Computer Animation and
+Social Agents (CASA ’05),Hong Kong, October 2005
+[31] McKee, G. Online Robot Teacher Kits for Museum Field
+Trips, Proc. of the IEEE/RSJ IROS 2002 Workshop on
+Robots in Exhibitions, Lausanne, Switzerland, October 2002
+
+Principles of Knowledge Representation & Reasoning
+(1991), 473-484
+[37] Reeves, B. & Nass, C. The media equation: how people treat
+computers, television, and new media like real people and
+places. Cambridge University Press, 1998.
+[38] Rocchi, C., Stock, O., Zancanaro, M., Kruppa, M. &
+Krueger, A. The Museum Visit: Generating Seamless
+Personalized Presentations on Multiple Devices. Proc. of the
+International Conference on Intelligent User Interfaces (IUI
+2004), Madeira, January 2004.
+[39] Scholtz, J. & Bahrami, S. Human-Robot Interaction:
+Development of an evaluation methodology for the bystander
+role of interaction. Proc. of the Systems, Man, and
+Cybernetics Conference (SMC ’03), Washington D.C., 2003
+[40] Thomas, F. & Johnson, O. The Illusion of Life. Disney
+Animation, Walt Disney Productions, 1981
+[41] Thrun, S.; Bennewitz, M.; Burgard, W.; Cremers, A.;
+Dellaert,F.; Fox, D.; Hahnel, D.; Rosenberg, C.; Roy, N.;
+Schulte, J.; & Schulz, D. 1999. MINERVA: A second
+generation mobile tour-guide robot. Proc. of the IEEE
+International Conference on Robotics and Automation
+(ICRA ‘99), Detroit, Michigan, May 10-15, 1999
+[42] Van Breemen, A. Bringing Robots to Life: Applying
+Principles of Animation to Robotics. CHI'04 Workshop on
+Shaping Human-Robot Interaction, 2003
+
+[32] Milgram, P. & Kishino, F. A taxonomy of mixed reality
+visual displays, IEICE Transactions on Information Systems,
+Vol. E77-D, No. 12, December 1994
+
+[43] Vosinakis, S., Anastassakis, G., & Panayiotopoulos, T.
+DIVA: Distributed Intelligent Virtual Agents, Proc. of the
+VA99 Workshop on Intelligent Virtual Agents, UK,
+September 1999
+
+[33] Nourbakhsh, I., Kunz, C. & Willeke, T. The Mobot Museum
+Robot Installations: A Five Year Experiment, Proc. of the
+IEEE/RSJ IROS 2002 Workshop on Robots in Exhibitions,
+Lausanne, Switzerland, October 2002
+
+[44] Wooldridge, M. & Jennings, N.R. Intelligent Agents: Theory
+and Practice, Knowledge Engineering Review, 10(2):115152, 1995
+
+[34] OpenVRML. Available online at: http://www.openvrml.org,
+(accessed 12 January 2006)
+
+[45] Yeung, J. & Fels, D.I. A remote telepresence system for high
+school classrooms, Proc of the Canadian Conference on
+Electrical and Computer Engineering, pp. 1447-1450
+
+[35] Poggi, I., Pelachaud, C., de Rosis, F., Carofiglio, V., De
+Carolis, B. GRETA. A Believable Embodied Conversational
+Agent, O. Stock and M. Zancarano, eds, Multimodal
+Intelligent Information Presentation, Kluwer, 2005
+[36] Rao, A.S., Georgeff M.P. Modelling Rational Agents within
+a BDI Architecture. Proc. of the 2nd Int. Conference on
+
+

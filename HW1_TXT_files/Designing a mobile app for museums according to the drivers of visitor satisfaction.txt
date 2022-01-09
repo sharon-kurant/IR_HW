@@ -1,0 +1,1128 @@
+Recent Advances in Business Management and Marketing
+
+Designing a mobile app for museums according to the drivers of visitor
+satisfaction i
+FEDERICA PALUMBO
+Department of Management - Sapienza University of Rome
+ITALY
+federica.palumbo@uniroma1.it
+GANDOLFO DOMINICI
+Department S.E.A.S. - University of Palermo
+ITALY
+gandolfo.dominici@libero.it
+GIANPAOLO BASILE
+University of Salerno
+ITALY
+gibasile@unisa.it
+Abstract: The aim of this study is to identify the key factors as antecedents of visitor satisfaction for the design
+of a mobile app for museums. To our aim we use the Kano model that allows to categorize service attributes
+according to how they are perceived by customers and to estimate their impact on customer satisfaction. We
+collected qualitative data trough 300 questionnaires administered to tourists visiting the Sicilian cities of
+Palermo and Trapani over a period of 3 months (October- December 2012). The results of our analysis can be
+relevant for museum and public managers to plan strategic and operative activities, for researcher in the field of
+touristic marketing, for application developers, and for all those concerned with touristic and cultural heritage
+issues.
+Key-Words: Museum Marketing, Mobile App, Mobile Tourism, Mobile App Marketing, Kano Model,
+Customer Satisfaction, Cultural Tourism, Museum Technology.
+tools to get in touch and keep the relations with a
+growing number of customers.
+The new “mobile economy” has relevant
+implications for Internet marketing strategies. The
+adoption of a mobile marketing strategy allows the
+organization to follow the client/user along the
+whole relationship cycle.
+In the tourism sector this opens a wide range of
+opportunities to attract and gain the fidelity of
+visitors. “Mobile tourists” can go through a new
+way of travelling as “virtual tourists” for which the
+travelling experience is empowered by the
+information and entertainment coming “also” (but of
+course not exclusively) from their new “travel
+buddy”: the mobile technology device.
+Tourist attractions like museums must not lose this
+chance and need to find new ways to get the
+attention of this new kind of tourists, becoming
+“Museum 2.0”.
+Mobile apps have the potential to personalize the
+users’ museum experience whenever and wherever
+they like, integrating collections, exhibitions and
+
+1 Introduction
+In spite of the global economic crisis, the mobile
+internet devices sector (including smartphones,
+tablet and similar hybrids) is among the few sector
+experiencing a continuous and fast growth.
+At a global level we have today about 1.5 millions
+of mobile app, 500,000 tablets’ apps and over 60
+billions of mobile apps downloaded by smartphones
+and tablets [1]. In the United States about 119.3
+million people (51% of mobile phone users) own a
+smartphone [2]. In Italy, according to estimates,
+about 32 million of smartphones, 2.5 million of
+Internet TVs users and 2.9 million of tablet have
+been sold by the end of 2012. Forecasts say that in
+2015 the sales of smartphones will overcome those
+of Personal Computers (in Italy 49 million versus 47
+million) [1]. These devices are becoming a daily
+presence in the life of people who want to be
+“always connected”. This represents a great
+opportunity for the software industry that can
+exploit a fast growing market, as well as for any
+kind of firm that can take advantage of these new
+
+ISBN: 978-960-474-306-3
+
+159
+
+Recent Advances in Business Management and Marketing
+
+personalized products which better satisfy their
+desires, needs and expectations [7][8]. If the
+museum gives “voice” to the visitors and realizes
+their desires, it will probably gain a strong
+competitive advantage. Several studies have focused
+on the identification and interpretation of the most
+empirical elements considered as relevant by
+visitors [9][10][11][12][13][14][15][16][17][18].
+Among these studies, Kuo et al. focused on tourists’
+interpretation experiences of a museum applying the
+Kano’s model and the Importance-Performance
+Analysis (IPA) [18]. The authors conducted two
+empirical studies in Mainland China and Taiwan in
+order to identify service elements considered as
+most important by visitors. Burton et al. identified
+the attributes of choice in repeat museum visitation
+conducting a research in the two major museums of
+Australia [15].
+However, involving the visitors in the design of the
+offer is not sufficient to maintain a competitive
+advantage over time. In order to be competitive,
+museums should also “stimulate the desire to
+know” [19], offering to the visitor an “info-culturaltainment” experience, characterized by the
+interaction among leisure, entertainment, culture,
+education and socialization [20].
+Towards this goal, interactive technology can
+represent an important tool able to reinforce and to
+integrate
+both
+museum
+marketing
+and
+communication strategies. Through the power of
+technology, the museum can reach a great number
+of virtual visitors, that could potentially become real
+visitors [21]. Interactive technologies can enhance
+the current and potential visitors’ experience,
+allowing them to become more involved in their
+tour along the museum galleries [22][23].
+A considerable amount of research has been done
+with regard to the role of interactive technology in
+museum management [21][22][23][24][25][26][27]
+[28][29]. Nevertheless, there has been little research
+conducted specifically on the role of “mobile
+applications for museums”. This is probably due to
+the fact that the wide diffusion of this new
+technology is very recent.
+As Hume and Mills [23] pointed out, only few kinds
+of interactive technologies have currently been
+adopted in museums, such as internet, handhelds
+and touch screens [30][31][32]. However, they are
+optimistic about the future: “many new and
+emergent technologies including social media,
+online storage and e-commerce are available and
+will advance interactive and online services in the
+future.” [23].
+We believe that mobile application technology is
+one of the main successful emergent technology and
+
+other offerings into a much broader range of usecase scenarios than we have ever imagined.
+Geo-referenced information can to attract tourists
+inviting them to visit the closest museum and
+maintain the relation after the trip, thus getting more
+chances of repeated visits.
+The challenge for these services is to be able to
+rapidly supply customer oriented content at low cost
+(or for free) following the growing expectations of
+customers/users.
+Hence,
+understanding
+the
+antecedents of the user experience becomes pivotal.
+Functional aspects are not enough to overcome the
+new challenges; a very good app in functional terms
+could result useless to reach the target. Therefore, it
+is necessary to design apps according to users’
+expectations and desires so that they can be able to
+establish and keep the virtual relation.
+In this study we apply the Kano Model[3] to a
+cluster of Sicilian museum visitors in order to
+design a user oriented mobile app for museum.
+The island of Sicily (Italy) for its geographic
+position, historical heritage and mild weather has a
+strong cultural touristic vocation that still has not
+been fully exploited. Sicilian museums are
+frequently undervalued and barely visible on the
+web. Mobile application technology, due to the low
+costs of diffusion, can enhance significantly the
+Sicilian museum offer, but unfortunately most of the
+Sicilian of museums are badly managed by local
+government, which does not invest enough financial
+resources and is not able to innovate and understand
+the advantage of web based services. The reason
+why of this study is to show the potential of Sicilian
+cultural tourism and how it could be exploited by a
+more enlightened governance of the sector.
+
+2 Theoretical background
+The role of the museum has become increasingly
+complex in the last years.
+Authors as Kotler [4] and McLean [5] stated that
+museum marketing should adopt a visitors-focus
+approach oriented to design an offer able to meet
+visitors’ expectations. Hence, first of all, it is crucial
+to know which are needs and expectations of
+visitors and their actual level of customer
+satisfaction/dissatisfaction. Furthermore, museum
+managers should conceive the visitor experience as
+a way to establish a symbiotic relationship between
+the visitor and the cultural resource [6]. The visitororiented approach should, indeed, involve the
+visitors to participate to the design of the offer.
+Consumers have become more demanding, more
+informed and, at the same time, more willing to
+supply information in exchange for more
+
+ISBN: 978-960-474-306-3
+
+160
+
+Recent Advances in Business Management and Marketing
+
+the product or service?” (Functional form of the
+question), “How would you feel if requirement X
+were not present in the product/service?”
+(Dysfunctional form of the question). For each
+functional and dysfunctional question, the
+customer can select one of five alternative
+answers as expressions of different degrees of
+perception: 1. I like it that way; 2. It must be that
+way; 3. I’m neutral; 4. I can live with it that way;
+5. I dislike it that way. The answers to each
+functional-dysfunctional question pair are crossreferenced using a matrix formulated by Kano
+(fig. 1), and the perceptions are thus evaluated
+into
+quality
+dimensions
+(M:
+must-be
+requirement; I: indifferent; R: reverse; O: onedimensional; A: attractive; Q: questionable
+requirements).
+
+its managerial implications could be considered a
+new fascinating field of study; nonetheless the
+marketing implications of the implementation of
+these technologies to museums has been scarcely
+covered in the literature.
+With this research we aim to fill this literature gap
+and to stimulate some reflections about the
+potentiality of this new technology for museums.
+
+3 The Kano Model
+In this study we apply the model proposed in 1984
+by Noriaki Kano. The main change introduced by
+the Kano model, compared with traditional
+customer satisfaction measurement methods, is the
+idea that not all features of a product/service have
+the same impact on customer satisfaction. On the
+basis of this assumption, the Kano model lists the
+attributes of a product/service in five categories,
+depending on the quality perceived by
+customers/users and the capacity to meet
+their
+expectations:
+• Must-be (dissatisfiers or basic factors): their
+presence will not increase the satisfaction level
+significantly, while their absence will cause
+extreme dissatisfaction.
+• One-dimensional (performance factors): these
+factors cause satisfaction when their performance
+is high, and dissatisfaction when their
+performance is low. The company should try to
+be competitive here.
+• Attractive (satisfiers or excitement factors):
+these requirements cause customer satisfaction if
+delivered, while they do not cause dissatisfaction
+if they are not delivered. Their presence
+strengthens the competitive advantage of the firm
+because such factors increase the value of the
+product or service as perceived by the customer.
+• Indifferent: the customer does not care about
+whether this feature is present or not.
+• Reverse: the customer does not desire this kind
+of product requirement, and its presence causes a
+great level of dissatisfaction; its absence
+determines satisfaction.
+The execution of measurement in the Kano Model
+follows four steps:
+1. Identification of the customer’s needs: it can
+be implemented via individual interviews or
+through focus-group interviews with members
+who already know the product or service.
+2. Development of the Kano questionnaire: The
+Kano questionnaire is characterized by pairs of
+questions for each customer requirement: “How
+would you feel if requirement X were present in
+
+ISBN: 978-960-474-306-3
+
+Fig. 1 - Kano Evaluation matrix (adapted from
+Kano et al., 1984).
+Answers to dysfunctional
+question
+
+Answers
+to
+functional
+question
+
+1.
+2.
+3.
+4.
+5.
+
+1.
+Q
+R
+R
+R
+R
+
+2.
+A
+I
+I
+I
+R
+
+3.
+A
+I
+I
+I
+R
+
+4.
+A
+I
+I
+I
+R
+
+5.
+O
+M
+M
+M
+Q
+
+3. Administration of interviews.
+4. Interpretation and evaluation of the results.
+
+4 The application of the Kano model
+to Sicilian museums
+We apply the Kano Model to identify express and
+latent needs of cultural tourists and to design a
+mobile app for museum according to the ideal
+characteristics that better satisfy their expectations.
+Our research is related to the segment of visitors of
+Sicilian museums located in the provinces of
+Palermo and Trapani. We followed the four steps
+proposed by Noriaki Kano’s model.
+Prior to distributing the questionnaires to the
+cultural tourists, we held three focus-group
+interviews (groups of seven people) with people
+who had experience with mobile apps for museums
+in order to identify explicit and latent needs and
+expectations.
+Using their answers and the debate that followed,
+we have been able to identify twenty expected
+features that we have grouped into four main areas,
+as shown in Table 1.
+
+161
+
+Recent Advances in Business Management and Marketing
+
+declared they had a bachelor’s degree, 36% had a
+high-school diploma, 17% had a master’s degree,
+and 3% had a Ph.D., while 4% had a middle-school
+diploma. With regard to professions, 40% of the
+sample were employees, 17% were retirees, 28%
+were self-employed, 5% were students, and 10%
+were unemployed. 63% of the respondents owned
+mobile devices (smart phone and/or tablet/hybrid
+devices, etc.) and the 35% of them has downloaded
+and experienced at least one museum app.
+
+Tab. 1 - The requirements of a mobile app for
+museums identified by users
+MUSEUM
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+
+How to get to the museum
+Description of the museum structure
+Time of opening and closing
+Tickets booking and/or purchasing
+Additional services (café, restaurant, museum
+information
+Contacts
+Timetable of planned exhibitions, events and tours.
+Real-time news on new products and events
+ARTWORKS
+
+shop)
+
+4.1 The interpretation and evaluation of the
+results
+
+Museum artworks photo-gallery
+Audio-guides with detailed information about each artwork
+Explanatory files of the artworks
+3D virtual tour
+Virtual tour bookmarks
+MAP
+
+The last phase in the development of the Kano
+Model is the interpretation and evaluation of the
+results. After the data collection, we proceeded to
+the classification of the nature of each requirement.
+We calculated the total number of responses for
+each requirement, using the Kano evaluation matrix
+(Fig. 1) to identify the categories according to the
+questionnaire responses. There are several methods
+to interpret and evaluate results of Kano model [33].
+We have chosen the “evaluation by frequency” to
+identify the nature of each requirement and the
+“M>O>A>I rule” to interpret results of the research.
+
+14. Museum map
+15. Suggestions for guided tours
+ACCESSIBILITY AND USABILITY
+16.
+17.
+18.
+19.
+20.
+
+Multilingual option
+Available off-line
+Friendly and efficient user interface
+Free download
+Accessible on any device (Mac, Android, and so on)
+
+Following the identification of the requirements, we
+prepared the questionnaire in order to discover the
+nature of these requirements. Our questionnaire
+consisted of two parts:
+- Personal information (gender, age, qualification,
+profession, place of origin), mobile devices
+ownership and experience.
+- 40 questions in functional and dysfunctional
+form investigating the nature of the 20
+requirements identified in step 1. The questions
+were grouped in classes to facilitate the overall
+comprehension of the survey.
+After that, we administered 300 questionnaires to a
+sample of cultural tourists of Sicilian museums. The
+questionnaires were administered in printed form
+and were available in the museums receptions over a
+period of 3 months between October and December
+2012. After a screening of the questionnaires
+collected, 287 (out of 300) questionnaires were
+considered valid (96%), of which 198 (69%) in the
+province of Palermo and 89 (31%) questionnaires in
+the province of Trapani.
+The total sample consisted of people who were
+visitors of the selected Sicilian museums.
+The sample of respondents consisted of 205 (71%)
+Italian guests (52 Sicilians and 153 non-Sicilian
+Italians) and by 82 (29%) foreigners.
+As for sex distribution, 41% of the respondents were
+male, and 59% female. The average age of
+respondents was 50 years old. About the level of
+education in our sample 40% of respondents
+
+ISBN: 978-960-474-306-3
+
+4.1.1 Evaluation by frequency
+We used the “evaluation by frequency” method to
+determine the category of each requirement on the
+basis of the maximum frequency obtained, as shown
+in Table 2. Questionable results (Q) have very low
+frequencies, thus the questionnaire had a high level
+of reliability.
+Table 2 - Classification of requirements in
+accordance with evaluation by frequency method.
+Requirement
+How to get to the museum
+Description of the
+museum
+Time of opening and
+closing
+Tickets booking and/or
+purchasing
+Additional services
+information
+Contacts
+Timetable of planned
+exhibitions, events and
+tours
+Real-time news
+Museum artworks photogallery
+Audio-guides
+Explanatory files of the
+artworks
+3D virtual tour
+Virtual tour bookmarks
+Museum map
+Suggestions for guided
+tours
+
+162
+
+O
+80
+
+M
+106
+
+A
+13
+
+I
+54
+
+R
+33
+
+Q
+1
+
+45
+
+33
+
+139
+
+59
+
+11
+
+-
+
+124
+
+67
+
+73
+
+19
+
+3
+
+1
+
+152
+
+63
+
+24
+
+23
+
+25
+
+-
+
+69
+
+37
+
+136
+
+43
+
+2
+
+-
+
+81
+
+143
+
+13
+
+28
+
+21
+
+1
+
+136
+
+23
+
+103
+
+14
+
+11
+
+-
+
+23
+
+12
+
+18
+
+178
+
+54
+
+2
+
+43
+
+121
+
+19
+
+89
+
+15
+
+-
+
+115
+
+67
+
+84
+
+18
+
+3
+
+-
+
+23
+
+16
+
+21
+
+189
+
+58
+
+-
+
+23
+17
+46
+
+12
+5
+148
+
+83
+19
+26
+
+52
+156
+43
+
+116
+88
+24
+
+1
+2
+-
+
+37
+
+20
+
+164
+
+43
+
+23
+
+-
+
+Recent Advances in Business Management and Marketing
+
+Multilingual option
+Available off-line
+Friendly and efficient user
+interface
+Free download
+Accessible on any device
+
+73
+143
+
+157
+48
+
+15
+43
+
+34
+39
+
+7
+14
+
+1
+-
+
+48
+
+156
+
+19
+
+62
+
+2
+
+-
+
+101
+57
+
+5
+27
+
+80
+178
+
+76
+22
+
+23
+3
+
+2
+-
+
+connection. This requirement is very important for
+foreign tourists, which usually do not have a
+subscription to the Italian telephone/internet
+companies. The last one-dimensional requirement is
+the free download: people are not willing to pay to
+buy a museum app. On the other hand, museum
+represents a special form of nonprofit organizations
+in the service sector. Hence, the museum can
+recover the costs of the app increasing the price of
+tickets, but not through the selling of the app.
+The results show that visitors have considered 4
+requirements as attractive. Museums are free to
+decide whether to include these requirements in
+their apps, as their absence does not decrease the
+level of customer satisfaction, their presence would
+strongly increase it. This kind of requirements are
+useful to differentiate a museum app offer from that
+of competitors and to increase the perceived value
+of the app. The first attractive requirement is the
+description of the museum structure (on the
+building, on the architect who designed it, on the
+past history, and so on). Another attractive
+requirement is the list of the additional services
+offered in the museums - such as the presence of a
+café, restaurant, museum gift shop, a place for
+smokers, toilets – and their localization in the map.
+One additional attractive requirement related to the
+visit is the suggestion for guided tours. The app
+should fulfill information about the guides, their
+remuneration, their specialization, their availability
+and the possibility to customize the visit to the
+museum according to the visitors’ main interests.
+The last attractive requirement is the accessibility
+from any kind of devices (Mac, Android, and so on)
+in order to allow the use of the app by the majority
+of users.
+Museum should not invest in fulfilling indifferent
+requirements because they have not any impact on
+customer satisfaction. We found 3 indifferent
+requirements. The first of them is the presence of
+real time news on new products, such as ongoing
+and planned exhibitions, announcements, events,
+and artworks temporarily not visible to the public.
+Visitors prefer to have only the complete timetable
+with scheduled events. The second indifferent
+requirement is the presence of explanatory files of
+the artworks which deepens the contents of audioguides. Visitors believe that these additional
+contents may be excessive and may slow their visit
+too much. The last indifferent requirement is the
+possibility to put a bookmark on interesting
+artworks during the virtual tour. Visitors are not
+attracted by this requirement, maybe because it
+seems to be too difficult to use, or because they do
+
+According to the results of our study, there are 6
+requirements which are considered must-be by
+respondents, hence their presence is mandatory. A
+museum smart app should always fulfill details
+about how to get to the museum (subway, bus, train,
+car, taxi), but also contacts of the museum (phone
+number, e-mail). Furthermore, a museum app
+should include a photo-gallery of the main
+important artworks of the museum (in this way the
+visitor can view in advance if the museum arouses
+his interest or not) and a map of the museum, with
+different itineraries and the location of the main
+artworks. The last two must-be requirements are
+related to the accessibility and usability of the app:
+an app for museum should have the multilingual
+option in order to allow to different tourists to use it
+(usually museums have a high proportion of foreign
+visitors) and it also should have a friendly and
+efficient user interface, in order to spread the app
+also among less experienced users. All these
+requirements are mandatory, so their presence is
+strongly recommended, otherwise they will cause
+high dissatisfaction levels. However their presence
+does not increase the level of customer satisfaction
+because users take them for granted.
+In the study we found 6 one-dimensional
+requirements. The presence of these requirements
+increases proportionally the level of customer
+satisfaction, hence the museum app should hold
+them. The first two of them are the time of opening
+and closing and the possibility to book and/or
+purchase tickets online. They are very important
+requirements for people who want to plan in detail
+their visit to the museum. Another important
+requirement is the presence of an updated timetable
+of planned exhibitions, events and tours. This
+requirement allows visitors to carefully choose the
+day they prefer to visit the museum. One
+requirement that is able to increase the pleasure of
+the visit at the museum is the possibility to
+download audio-guides with detailed information
+about each artwork: visitors prefer to hear audioguides in their own devices rather than renting
+devices used by many other people. The last two
+one-dimensional requirements are related to the
+features of accessibility and usability of the smart
+app. The first is the availability off-line of the app:
+this feature guarantee the possibility to utilize the
+app even if the museum does not offer a free Wi-Fi
+
+ISBN: 978-960-474-306-3
+
+163
+
+Recent Advances in Business Management and Marketing
+
+Museum managers should avoid investing resources
+in the indifferent requirements—namely real-time
+news on new products; explanatory files of the
+artworks; virtual tour bookmarks — and must
+definitely avoid to waste resources to implement the
+reverse requirement: the 3D virtual tour.
+
+not need to use these bookmarks to remember
+interesting things to visit.
+The only reverse requirement is the opportunity to
+take a virtual tour of the museum from the device.
+Even if this requirement could give the opportunity
+to everyone to visit the museum from their homes,
+the majority of respondents did not like this
+requisite for two main reasons:
+1. The virtual tour could be too heavy and slow
+down the application.
+2. Visitors think that the virtual tour might ruin the
+excitement of the real visit.
+Respondents are adverse to the presence of this
+requirement, hence the museum should not include
+it (also because its cost is very high).
+
+5 Limitations of the study and further
+research
+Even if we believe our findings are useful to supply
+practical suggestions for the design of a mobile app
+for museums, we are aware of the limitations of this
+research.
+The main limit is that our analysis has been
+conducted in an underdeveloped region (Sicily is
+among the poorest and less developed regions in
+EU), where the museums offer is retarded and
+undervalued. This may imply that the visitors
+interviewed through the questionnaires in the
+museums had a low level of expectations, or were
+not used to this kind of software (in the case of
+Sicilian visitors). However, since our aim was to
+find the prerequisites to design a mobile app for
+museums our results may be of some interest also
+for museums managers and software developers
+located in more advanced regions.
+The second limit of this study is that our sample was
+limited in space and time. If data could be obtained
+from a wider range of individuals and places, in a
+longer period of time, the results would have been
+more significant.
+We aim to develop future research by analyzing
+museums that already implemented mobile apps, in
+order to point out how and if these apps create
+greater levels of visitors’ satisfaction.
+
+4.1.2 M>O>A>I rule
+The M>O>A>I rule is a hierarchical rule of qualitycategory importance that can be used to design a
+product or service. According to that rule, the most
+important requirements that cannot be lacking in a
+product or service are the must-be requirements,
+then the one-dimensional ones, then the attractive
+ones, and least importantly, the indifferent
+requirements. The M>O>A>I rule can be conceived
+as a useful guideline for efficiently directing
+investments in order to design the features of a
+museum smart app.
+By analyzing the results of the evaluation by
+frequency and applying the hierarchical rule of
+M>O>A>I, some practical indications emerge. If
+managers wish to design a museum app according to
+visitors’ needs, they will first of all ensure the
+presence of the must-be requirements: details on
+how to get to the museum; contacts; museum
+artworks photo-gallery; museum map; multilingual
+option; friendly and efficient user interface.
+Once that must-be requirements have been fulfilled,
+museum managers should then invest their financial
+resources
+to
+fulfill
+the
+one-dimensional
+requirements previously indicated: time of opening
+and closing; tickets booking and/or purchasing;
+timetable of planned exhibitions, events and tours;
+audio-guides with detailed information about each
+artwork; available off-line; free download. The
+presence of these features, together with the must-be
+requirements, is a necessary condition to ensure the
+sufficient level of customer satisfaction.
+If additional resources are available, the museum
+offer could be enriched by the several attractive
+requirements we identified: description of the
+museum structure; additional services information
+(café, restaurant, museum shop); suggestions for
+guided tours; accessibility with any device (Mac,
+Android, Windows, etc).
+
+ISBN: 978-960-474-306-3
+
+References:
+[1] School of Management del Politecnico di
+Milano, Mercati Digitali Consumer e Nuova
+Internet, Smau Milan 2012 Conference, Milan,
+October 17-19, 2012.
+[2] ComScore, 2012 Mobile Future in Focus,
+Retrieved
+26/03/2013
+from
+http://www.comscore.com/
+[3] Kano N., Seraku N., Takahashi F., Tsuji S.,
+Attractive quality and must-be quality,
+Hinshitsu: The Journal of the Japanese Society
+for Quality Control, Vol.14, No.2, 1984, pp.
+39–48.
+[4] Kotler P., Marketing Management: Analysis,
+Planning, Implementation and Control,
+Prentice Hall, 1991.
+
+164
+
+Recent Advances in Business Management and Marketing
+
+Business and Accountancy, Vol.1, No.1, 2010,
+pp. 20-31.
+[17] Lau P.M., Badaruddin M., Service Quality,
+Visitor
+Satisfaction
+And
+Behavioural
+Intentions: Pilot Study At A Museum In
+Malaysia, Journal of Global Business and
+Economics, Vol.1, No.1, 2010, pp. 226-240.
+[18] Kuo N.T., Lai C.H., Chang K.C., Cheng Y.S.,
+The Critical Service Quality of Museum
+Interpretation-A Comparative Study of Tourists
+from Mainland China and Taiwan, 2011
+International Conference on Management and
+Service Science (MASS), 12-14 Aug. 2011, pp.
+1-6.
+[19] Donald J.G., The Measurement of Learning in
+the Museum, Canadian Journal of Education,
+Vol.16, No.3, 1991, pp. 371-382.
+[20] Rojas M.C., Camarrero M.C., Experience and
+Satisfaction of Visitors to Museums and
+Cultural Exhibitions, International Review on
+Public and Non Profit Marketing, Vol.3, No.1,
+2006, pp. 49-65.
+[21] Bonacasa N., Il museo online. Nuove
+prospettive per la museologia, Digitalia, 2011.
+[22] Vom D., Lehn D., Heath C., Accounting for
+New Technology in Museum Exhibitions,
+International Journal of Arts Management,
+Vol.7, No.3, 2005, pp. 11–21.
+[23] Hume M., Mills M., Building the sustainable
+iMuseum: is the virtual museum leaving our
+museums virtually empty?, International
+Journal of Nonprofit and Voluntary Sector
+Marketing, Vol.16, No.3, 2011, pp. 275–289.
+[24] Marty P.F., Museum informatics and
+collaborative technologies: The emerging
+socio-technological dimension of information
+science in museum environments, Journal of
+the American Society for Information Science,
+Vol.50, No.12, 1999, pp. 1083–1091.
+[25] Lagrosen S., Online service marketing and
+delivery: the case of Swedish museums,
+Information Technology & People, Vol.16,
+No.2, 2003, pp. 132–156.
+[26] Knell S.J., The shape of things to come:
+museums in the technological landscape,
+Museum and society, Vol.1, No.3, 2003, pp.
+132–146.
+[27] Nickerson M.F., Online Multimedia museum
+exhibits: a case study in technology and
+collaboration, Library Hi Tech, Vol.22, No.3,
+2004, pp. 270–276.
+[28] Lachaud I.C., Passebois J., Do Immersive
+Technologies Add Value to the Museumgoing
+Experience? An Exploratory Study Conducted
+at France’s Paléosite, International Journal of
+
+[5] McLean K., Planning for People in Museum
+Exhibitions, Malloy Lithographing, 1996.
+[6] McArthur S., Hall C.M., Heritage management
+in Australia and New Zealand. The human
+dimensions, Oxford University Press, 1996.
+[7] Dominici G., Demand Driven Supply Chain ed
+Innovazione: il sistema logisitico-produttivo
+per la soddisfazione del cliente, In Purpura A.,
+Fazio G. (Eds.), Economia e Gestione
+dell’Innovazione nelle PMI: Percorsi tematici
+ed esperienze formative del Master EGI,
+FrancoAngeli, 2008, pp. 100-114.
+[8] Dominici G., Palumbo F., Decoding the
+Japanese Lean Production System according to
+a Viable Systems Perspective, Systemic
+Practice and Action Research, online first: doi:
+10.1007/s11213-012-9242-z, 2012.
+[9] Rowley J., Measuring Total Customer
+Experience in Museums, International Journal
+of Contemporary Hospitality Management,
+Vol.11, No.6, 1999, pp. 303-308.
+[10] Goulding C., The Museum Environment and
+the Visitor Experience, European Journal of
+Marketing, Vol.34, No.3/4, 2000, pp. 261-278.
+[11] Gilmore A., Rentschler R., Changes in
+Museum Management: A Custodial or
+Marketing Emphasis?, Journal of Management
+Development, Vol.20, No.10, 2002, pp. 745760.
+[12] Phaswana-Mafuya N., Haydam N., Tourists’
+Expectations and Perceptions of the Robben
+Island Museum – A World Heritage Site,
+Journal of Museum Management and
+Curatorship, Vol.20, No.2, 2005, pp. 149-169.
+[13] Saleh F.A., The Determinants of the Quality of
+the Service Experience: An Empirical Study of
+a Heritage Park, University of Sharjah Journal
+of Pure & Applied Sciences, Vol.2, No.2, 2005,
+pp. 75-102.
+[14] Hume M., Mort G.S., Winzar H., Exploring
+repurchase intention in a performing arts
+context: who comes? And why do they come
+back?, International Journal of Nonprofit and
+Voluntary Sector Marketing, Vol.12, No.2,
+2007, pp. 135-148.
+[15] Burton C., Louviere J., Young L., Retaining the
+visitor, enhancing the experience: identifying
+attributes of choice in repeat museum
+visitation, International Journal of Nonprofit
+and Voluntary Sector Marketing, Vol.14, No.1,
+2009, pp. 21-34.
+[16] Chan J.K.L., Yeoh E., The Experiential
+Dimensions of Museum Experiences: The
+Visitors’ Perspectives, International Journal of
+
+ISBN: 978-960-474-306-3
+
+165
+
+Recent Advances in Business Management and Marketing
+
+Arts Management, Vol.11, No.1, 2008, pp. 6071.
+[29] Hogsden C., Poulter E.K., The real other?
+Museum objects in digital contact networks,
+Journal of Material Culture, Vol.17, No.3,
+2012, pp. 265-286.
+[30] Kotler N., Creativity and Interactivity: New
+ways to experience, market and manage
+museums, 2003, Retrieved 26/03/2013 from
+http://www.fuel4arts.com/files/attach/NeilKotle
+r_Museums0404031.pdf
+[31] Hawkey
+R.,
+Learning
+with
+Digital
+Technologies in Museums, Science Centers and
+Galleries, Futurelab Series, 2004, Retrieved
+from
+http://www.futurelab.org.uk/resources/docume
+nts/lit_reviews/Museums_Galleries_Review.pd
+f.
+[32] Yeh J., Lin C., Museum Marketing and
+Strategy: Directors’ Perception and Belief,
+Journal of the American Academy of Business,
+Vol.6, No.2, 2005, pp. 279–284.
+[33] Matzler K., Hinterhuber H.H., How to make
+product development projects more successful
+by integrating Kano’s model of customer
+satisfaction into quality function deployment,
+Technovation, Vol.18, No.1, 1998, pp. 25–38.
+
+Endnote:
+i
+To conform with Italian regulations on academic
+publishing, even though the article is the joint work
+of all authors, we attribute the contribution of each
+author as follows: sections 1 and 5 can be credited
+to Gandolfo Dominici, section 2 to Gianpaolo
+Basile, sections 3 and 4 to Federica Palumbo.
+
+ISBN: 978-960-474-306-3
+
+166
+
+

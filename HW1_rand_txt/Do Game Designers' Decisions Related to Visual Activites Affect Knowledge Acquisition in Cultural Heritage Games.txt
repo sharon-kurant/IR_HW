@@ -1,0 +1,2290 @@
+Do Game Designers’ Decisions Related to Visual Activities Affect
+Knowledge Acquisition in Cultural Heritage Games? An Evaluation
+From       a Human Cognitive Processing Perspective
+
+GEORGE E. RAPTIS, CHRISTOS FIDAS, and NIKOLAOS AVOURIS, University of Patras
+
+In the cultural heritage domain, games have been used to engage users into an 
+active state of learning through immersive
+and playful interactions that include visually enriched interaction contexts. 
+There is evidence that individual differences in
+the inherent way people search, process, analyze, comprehend, store, and 
+retrieve visual information in their surrounding
+environment are reflected in their performance, experience, effectiveness, and 
+efficiency in such environments. Despite the
+fact        that cultural heritage game designers favor learning experiences in 
+such contexts, current design and evaluation prac-
+tices of cultural heritage games barely consider the gamers’ individual 
+differences in visual information processing. This can
+be attributed to a deficiency in understanding and modeling the effects among 
+users’ visual behavior, gameplay behavior,
+and cognitive styles in cultural heritage games toward knowledge acquisition, 
+resulting in insufficient methods of creating
+cognition-centered user models and considering such human cognitive factors 
+practically, within current state-of-the-art
+design                and evaluation approaches. To address this gap, we 
+selected three known cultural heritage games, adopted a credible
+cognitive style theory, and performed, over a 6-month period, three separate 
+evaluation user studies (N = 127) following a
+between-subject, eye-tracking based, experimental design. The results of the 
+evaluation studies revealed that game designers’
+decisions, related to visual search, unintentionally favored users with 
+specific cognitive characteristics by influencing their
+visual and consequently gameplay behavior, resulting in differences in 
+knowledge acquisition. The results of the evalua-
+tion studies also revealed correlation effects during gameplay among individual 
+differences in visual information processing,
+users’ visual behavior strategies, and gameplay behavior. The findings 
+necessitate the consideration of cognitive characteris-
+tics as evaluation and design factors when delivering cultural heritage 
+activities that are based on visual search tasks. Their
+consideration will help us better understand and explain the different 
+information processing approaches in cultural heritage
+contexts   and will drive the design of adaptive mechanisms for delivering 
+personalized cultural heritage activities, tailored to
+the users’ unique cognitive characteristics.
+
+CCS Concepts: • Human-centered computing → Human computer interaction (HCI); • 
+Social and professional                        4
+
+topics → User characteristics;
+
+Additional Key Words and Phrases: Individual cognitive differences, cultural 
+heritage gaming, visual behavior
+
+Authors’ addresses: G. E. Raptis and N. Avouris, HCI Group, Department of 
+Electrical and Computer Engineering, University of Patras,
+Greece; emails: raptisg@upnet.gr, avouris@upatras.gr; C. Fidas, Department of 
+Cultural Heritage Management and New Technologies, Uni-
+versity of Patras, Greece; email: fidas@upatras.gr.
+
+Permission to make digital or hard copies of all or part of this work for 
+personal or classroom use is granted without fee provided that
+copies are not made or distributed for profit or commercial advantage and that 
+copies bear this notice and the full citation on the first page.
+Copyrights for components of this work owned by others than the author(s) must 
+be honored. Abstracting with credit is permitted. To copy
+otherwise, or republish, to post on servers or to redistribute to lists, 
+requires prior specific permission and/or a fee. Request permissions
+from permissions@acm.org.
+
+© 2019 Copyright held by the owner/author(s). Publication rights licensed to 
+ACM.
+1556-4673/2019/02-ART4 $15.00
+
+https://doi.org/10.1145/3292057
+
+
+ACM Reference format:
+
+George E. Raptis, Christos Fidas, and Nikolaos Avouris. 2019. Do Game 
+Designers’ Decisions Related to Visual Activities
+Affect Knowledge Acquisition in Cultural Heritage Games? An Evaluation From a 
+Human Cognitive Processing Perspective.
+ACM J. Comput. Cult. Herit. 12, 1, Article 4 (February 2019), 25 pages.
+
+https://doi.org/10.1145/3292057
+
+1    INTRODUCTION
+
+A plethora of research has been conducted in the cultural heritage domain 
+aiming to scaffold cultural heritage
+learning activities and improve users’ experience through immersive cultural 
+heritage games [4, 66, 72]. The
+main objective of game designers is to engage the users in playful cultural 
+heritage activities in which they ac-
+tively explore the educational content rather than passively receive it [72]. 
+In this context, knowledge acquisition
+and learning are anticipated to occur by triggering the users’ curiosity [28, 
+103], teamwork, collaboration, and
+competitiveness [20, 112], thus encouraging the construction of knowledge and 
+the building of meaning through
+playful        and immersive activities [72]. However, people differ in the way 
+we perceive and process visual infor-
+mation [69, 79, 99, 127]. Several researchers have attempted to understand and 
+explain such differences from
+a cognitive styles’ perspective [52, 99]. A fundamental cognitive style is the 
+Field Dependence-Independence
+(FD-I) style [127], which is a credible and validated framework [6, 65], and 
+the cornerstone of other cognitive
+styles [99]. According to FD-I theory, people are classified either as field 
+dependent (FD) or as field independent
+(FI), based on their ability to extract information in visually complex scenes. 
+FDs tend to prefer a holistic way
+when processing and organizing visual information, and they have difficulties 
+in identifying details in complex
+visual scenes [127]. However, FIs tend to prefer an analytical information 
+processing approach, pay attention to
+details, and easily separate simple structures from the surrounding visual 
+context [127]. Therefore, FD-I theory
+underpins cognitive differences in visual perceptiveness and in handling 
+contextual information either holisti-
+cally      or analytically [76, 91].
+
+Even though several studies have highlighted the effect of FD-I on visual 
+processing activities [46, 68, 76, 93,
+106], gameplay behavior [1, 21, 23, 42, 63, 70, 90, 92], and knowledge 
+acquisition/learning [7, 25, 60, 77, 107, 131]
+and considering that FDs and FIs differ in the way they search, process, and 
+comprehend information [52, 99,
+127], current state-of-the-art game design and evaluation methods do not 
+consider users’ FD-I style as either
+a design or an evaluation factor. The reason for this is that the underlying 
+mechanics of such effects have not
+been investigated in depth, resulting in an insufficient understanding on how 
+to consider such cognitive factors
+practically, within current state-of-the-art cultural heritage game design and 
+evaluation approaches. Hence, our
+research question is to investigate whether and which game designers’ decisions 
+related to visual information
+processing favor or hinder individuals with specific cognitive characteristics 
+toward knowledge acquisition.
+
+Stimulated by the aforementioned reasoning and considering that, especially 
+within the cultural heritage do-
+main, activities that include information processing tasks are favored, we 
+investigate whether users with dif-
+ferent cognitive styles follow different strategies when interacting with such 
+activities, whether these strategies
+are reflected in the users’ behavior, and whether this behavior can be 
+correlated with the acquired knowledge.
+The interplay among the aforementioned factors (i.e., human cognition, 
+interactive behavior, and knowledge
+acquisition) has not been investigated in depth in cultural heritage contexts, 
+and thus there is a deficiency in un-
+derstanding the underlying mechanics of the effects among these factors. Hence, 
+answering the aforementioned
+research objectives will provide a new perspective for evaluators to consider 
+individual cognitive characteristics
+as      an important evaluation parameter. Considering human cognition as an 
+evaluation parameter will help the
+evaluators reveal and explain user behaviors that could not been explained when 
+the cognition factor is omitted,
+better understand how specific activity factors can be tailored to individual 
+cognitive preferences and needs, and
+raise issues and make suggestions that support the design-for-all principles 
+aiming for wider user diversity and
+inclusion.
+
+
+To investigate the aforementioned research objectives, we selected three 
+popular cultural heritage games,
+which were developed by expert game designers and were deployed by professional 
+cultural heritage institutions
+and industry, aiming to capture a representative range of game mechanics and 
+genres in the cultural heritage
+domain. We recruited, over a 6-month study, 127 individuals who participated in 
+a between-subjects eye-tracking
+evaluation study. Our goal was to investigate the underlying mechanics and 
+interdependencies among users’
+behavior (both gameplay and visual behavior) and FD-I cognitive style toward 
+knowledge acquisition; thus, we
+aim       to feature the importance of considering human cognition as an 
+evaluation factor that could drive the design
+of personalized games adjusted to users’ cognitive characteristics.
+
+The remainder of the article is structured as follows. First, we analyze the 
+related work. Next, we present the
+motivation of this research endeavor. Thereafter, we describe the context and 
+the method of the user studies,
+followed by an analysis of results and discussion of the main findings. 
+Finally, we outline the implications of the
+reported research and conclude the article.
+
+2    RELATED WORK
+
+The design of cultural heritage games is a challenging endeavor, given that 
+several design factors need to be con-
+sidered, such as game characteristics, players’ characteristics, and 
+contextual/organizational factors [10]. With
+regard to the game per se, the design factors include the learning objectives 
+(e.g., knowledge [37, 74], comprehen-
+sion [10]), the cognitive skills they wish to trigger (e.g., observation or 
+reflection [18]), the degree of complexity
+(e.g., mini-games or complex-games [19]), the number of players (e.g., single 
+player [12, 122], multiplayer [81,
+122]), the theme/genre (e.g., simulation [74, 119], adventure [38, 85, 103], 
+action [82, 87, 130]), the mode (e.g.,
+
+interactive or adaptive [8], collaborative [50]), the audience (e.g., museum 
+visitors [27, 85], city visitors [61, 81],
+web/computer users [37, 119]), the game characteristics and mechanics (e.g., 
+trivia-based missions [18, 57], trea-
+sure hunt [48, 108], objective completion [66, 81]), the user interaction type 
+(e.g., voice/visual [81, 122], haptic/
+
+tangible [13, 84]), and the technology (e.g., desktop computers [37, 74, 85], 
+mobile and tablet devices [15, 27, 56,
+
+78, 108], augmented/virtual/mixed reality [58, 82, 87, 104, 130], domes [44]). 
+The contextual/organizational design
+factors are related to which information the game should provide about a given 
+cultural heritage institution (e.g.,
+archaeological site [11], museum [85, 115]), cultural heritage policies [30], 
+available resources like personnel and
+development budget, and the main goals set by the institution for the use of 
+the developed games by its audience,
+as            well measurable outcomes [10].
+
+With regard to the human factors, the game designers must comply with the 
+diversity of users who commonly
+have different goals, motivations, information processing styles, and cognitive 
+abilities [10], which is extremely
+challenging in the case of first-time users, such as tourists who visit a 
+cultural heritage site for the first time (and
+maybe   the only time in their life). The majority of the end-users in the 
+cultural heritage domain are occasional
+and non-expert players, and due to the nature of the cultural heritage 
+experiences (e.g., the users are engaged
+in  a cultural activity only a few times, the users have limited time), the 
+end-users cannot benefit from the gam-
+ing learning curve (related to game mechanics, tools, etc.) to achieve their 
+goals (e.g., knowledge acquisition)
+efficiently. Therefore, finding the optimal balance between the effort and time 
+required to learn the game and
+the knowledge acquisition is a challenge that the game designers have to deal 
+with, aiming to provide cultural
+heritage games best suited to the players’ characteristics. Game designers 
+consider several player characteristics,
+which are based on several factors, such as personality factors (e.g., 
+personality type [39, 67, 73], age [16, 71],
+language and interests [53, 102, 111]), visitor type factors (e.g., 
+social-behavioral types [29, 64], spatial-temporal
+based types [54, 55, 129]), and other situational factors (e.g., time of the 
+day, players’ previous knowledge and
+experience, players’ tiredness levels, players’ time constraints and 
+availability [10]).
+
+Human cognition factors are not considered as design factors, although several 
+researchers have acknowl-
+edged existing effects toward visual behavior, gameplay behavior, and knowledge 
+acquisition. Researchers have
+revealed such effects for both elementary cognitive factors, such as working 
+memory [51, 118, 124], and more
+
+
+complex ones, such as cognitive styles [68, 76, 96]. Cognitive styles are of 
+particular interest, as they represent
+the individuals’ preferred mode of thinking and solving a problem, and they 
+influence the approach an indi-
+vidual follow to process and represent information [52]. In this context, a 
+credible and validated cognitive style
+framework [6, 65] is the FD-I style [127], which is highly related to visual 
+exploration and search tasks. Scholars
+have investigated the effects of FD-I cognitive style toward gameplay behavior, 
+visual behavior, and knowledge
+acquisition, as discussed next.
+
+Regarding the gameplay behavior in cultural heritage contexts, our preliminary 
+works [90, 92] revealed that
+FDs needed less time to complete a game, whereas FIs interacted with more game 
+items while playing. Naudet
+et al. [73] revealed the effect of such cognitive differences through gameplay 
+scenarios on a social network game
+playing in a cultural heritage environment. Effects of cognitive factors have 
+also been revealed for users playing
+cultural heritage mini-games of varying characteristics [9, 10]. In addition to 
+cultural heritage contexts, research
+has shown that FDs demonstrate a general reluctance toward using games for 
+learning activities [70]; FIs tend
+to make fewer movements to solve puzzle tasks [42]; FIs perform better when 
+playing games related to drawing,
+identification, terminology, and comprehension [21]; FDs prefer social game 
+playing, whereas FIs prefer to play
+in        relative isolation [26]; FDs perform better in terms of frustration 
+tolerance when playing collaborative games
+[23]; and FDs are more effective in handling problem-solving strategies when 
+playing in collaborative contexts
+[63].
+
+Regarding the visual behavior, FIs tend to pay attention to more critical game 
+items than FDs and for longer
+time periods [89]. Moreover, FDs tend to follow a more holistic approach when 
+visually exploring a game scene,
+whereas FIs prefer a more analytical and systematic approach [94]. In item 
+identification and pattern recognition
+tasks, which are common in cultural heritage games [27, 37], FIs produce more 
+[45, 46, 68] and longer [45, 46,
+132] fixations on the areas of interest covering large distance [46]; FDs 
+produce more random fixations than
+FIs [76], especially in complex tasks [93, 96]; FDs scan the scenes 
+unsystematically in an unarticulated way with
+many short fixations to nearly all regions [125]; FDs produce slower fixations 
+[106]; FDs produce more left shifts,
+whereas FIs produce a majority of right shifts [43]; and FIs have stronger eye 
+convergence than FDs [109].
+
+Regarding the knowledge acquisition, several researchers have studied the 
+effects of FD-I on knowledge acqui-
+sition and learning. According to Witkin et al. [127], FD-I has important 
+implications for an individual’s cognitive
+behavior and for his or her interpersonal behavior. FIs tend to be more 
+autonomous in relation to the develop-
+ment    of cognitive restructuring skills and less autonomous in relation to 
+the development of interpersonal skills
+[120]. Conversely, FDs tend to be more autonomous in relation to the 
+development of high interpersonal skills
+and less autonomous in relation to the development of cognitive restructuring 
+skills. Furthermore, FIs generally
+are analytical in their approach, whereas FDs are more holistic in their 
+perceptions and have difficulty separat-
+ing the part from the complex organization of the whole. Additionally, FIs tend 
+to be intrinsically motivated and
+enjoy individualized learning, whereas FDs tend to be extrinsically motivated 
+and enjoy cooperative learning.
+In the recent years, several studies have been conducted regarding the effect 
+of FD-I on knowledge acquisition
+and learning and confirm that, among the different cognitive styles identified 
+in the literature, FD-I has had the
+widest application to research related to knowledge acquisition and learning 
+[35].
+
+In particular, FDs tend to face more difficulties in abstracting relevant 
+information from instruction support-
+ing more difficult learning tasks [22]; FIs tend to absorb more efficiently 
+formal-science [121] or multimedia
+
+[60] material, whereas FDs tend to be more efficient on social-oriented courses 
+[59, 127]; FIs benefit most from
+the use of highly structured materials on the knowledge-acquisition process, 
+whereas FDs benefit most from
+low-structured materials [113]; FD and FI learners perform better in situated 
+learning than traditional learning,
+whereas     the instructional condition can significantly influence both FD and 
+FI learners’ performance [131]; FI
+individuals are faster and more efficient solvers when undertaking complex 
+learning problems [101]; FI learners
+tend       to outperform FD learners when engaged with a playful educational 
+activity based on glass-box (model-
+transparent) simulations [7]; FI learners can efficiently use computer tools to 
+solve complex problems within an
+educational context, as they tend to follow a more systematic and goal-directed 
+approach than FDs [5]; FDs and
+
+
+Fig. 1.  Research model adopted to investigate the interplay among human 
+cognition, visual behavior, gameplay behavior,
+and knowledge acquisition when playing cultural heritage games.
+
+FIs follow different learning strategies that influence their learning outcome 
+[107]; training environments (e.g.,
+based on metacognitive strategies) influence FDs and FIs toward knowledge 
+acquisition differently [77]; and FIs
+tend to perform better than FIs toward knowledge acquisition on virtual 3D 
+environments [128].
+
+2.1    Motivation
+
+Based on the aforementioned literature review, we conclude that there are 
+sporadic research attempts underpin-
+ning that FD-I influences users’ visual behavior, gameplay behavior, and 
+knowledge acquisition. However, the
+interplay among the aforementioned factors have not been investigated in depth 
+in cultural heritage contexts,
+and there is still a deficiency in understanding the underlying mechanics of 
+the effects among visual behavior,
+game playing activities, and human cognition toward knowledge acquisition 
+within cultural heritage games. As
+a result, cognitive styles are not considered as a design factor for cultural 
+heritage games, although many of them
+include visual search activities, such as MuseUs [27], ThIATRO [37], and 
+TombSeer [82]. Consequently, human
+cognition is not considered either as an evaluation factor, despite the wide 
+range of factors used currently for
+the evaluation of digital cultural heritage resources, such as cultural 
+presence [88], users’ perception [33], and
+emotions [83]. Therefore, in this articloe, we target the following research 
+questions:
+
+QA:  We investigate whether and which game designers’ decisions, related to 
+visual search and exploration
+activities, favor FD users or FI users. Investigating QA will highlight the 
+relation between certain visual
+design decisions, regarding search and exploration, and FD-I cognitive style 
+factors.
+
+QB:  We investigate the interplay among FD-I cognitive style, visual behavior, 
+and gameplay behavior toward
+knowledge acquisition. Investigating QB  will reveal the interaction effects 
+among these factors within
+cultural heritage contexts.
+
+QC :  We investigate the correlation effects among the aforementioned factors. 
+Investigating QC  will allow us
+reason about the underlying mechanics and whether we can leverage on 
+eye-gaze–driven differences of
+FD-I users aiming to create cognitive-centered user models for personalizing 
+cultural heritage games.
+
+To investigate the research questions and interpret the derived research 
+results, we propose and adopt a mul-
+tilayered research and interaction analysis model that is based on the 
+interplay of three pillars: human cognition
+(e.g., individual cognitive characteristics), visual behavior (e.g., eye-gaze 
+metrics), and game playing (e.g., game
+performance metrics), with knowledge acquisition as the heart of the model. The 
+model is depicted in Figure 1.
+
+
+Table 1.  Cultural Heritage Games Used in Our Studies
+
+Visual Search
+
+Game                            Institution       Civilization                 
+Genre                      Task Type                       Users
+
+
+Time Explorer               British
+Museum
+
+Aztec                   Action, adventure,
+puzzle
+
+Free                             300,000+ users
+annually
+
+
+Escape From the
+Mummy’s Tomb
+
+Liverpool
+Museum
+
+Ancient Egypt     Quiz, puzzle                 Structured                   
+200,000+ users
+
+annually
+
+HoloTour                       Microsoft           Inca Empire         Action, 
+adventure        Free                             100+ downloads
+
+3    METHOD
+
+3.1    Hypotheses
+
+To investigate the research questions QA, QB , and QC , we developed the 
+following null hypotheses:
+
+H0₁:  There is no significant difference in visual behavior between FD and FI 
+individuals when playing cultural
+heritage games, which favor either free or structured visual search tasks 
+(related to QA).
+
+H0₂:  There is no significant difference in gameplay behavior between FD and FI 
+individuals when playing
+cultural heritage games, which favor either free or structured visual search 
+tasks (related to QA).
+
+H0₃:  There is no significant difference in knowledge acquisition between FD 
+and FI individuals after playing
+cultural heritage games, which favor either free or structured visual search 
+tasks (related to QB ).
+
+H0₄:  There is no correlation between knowledge acquisition, gameplay behavior, 
+and visual behavior of FD and
+FI individuals when playing a cultural heritage game (related to QC ).
+
+3.2    The Games
+
+We selected three popular games that are representative of the most common 
+cultural heritage game mechanics
+and genres (i.e., action/adventure and quiz/puzzle according to Mortara et al. 
+[72]), and they are based on varying
+types of visual search tasks. The selected games are Time Explorer, Escape From 
+the Mummy’s Tomb, and HoloTour.
+All games include item collection tasks, which is a common characteristic of 
+cultural heritage games [27, 37, 82,
+85, 103]. The item collection tasks can be either mandatory for the users to 
+finish the game or optional, as the
+users can finish the game without collecting all the game items. The mandatory 
+item collection tasks are related
+with a structured visual search approach, whereas the optional item collection 
+tasks are related with a free visual
+search approach. Time Explorer and HoloTour are based on free visual search 
+tasks, whereas Escape From the
+Mummy’s Tomb is based on structured visual search tasks.
+
+All games have been designed and developed by industry experts in collaboration 
+with museum and cultural
+heritage institutions. Time Explorer and Escape From the Mummy’s Tomb are 
+web-based games deployed by the
+British and Liverpool museums, respectively, with more than 200,000 players 
+worldwide per year for each game.
+HoloTour is a cultural heritage game based on mixed reality technology, 
+provided by Microsoft. The aim of the
+designers of each game is to engage the users within a playful activity and 
+learn about a civilization (Time
+Explorer: Ancient Egypt, Roman Empire, Imperial China, and Aztec Mexico (Aztec 
+civilization was used for the
+scope  of our study); Escape From the Mummy’s Tomb: Ancient Egypt; and 
+HoloTour: Roman civilization and Inca
+Empire (Inca Empire was used for the scope of our study)). An overview of the 
+games is displayed in Table 1.
+
+3.2.1    Time Explorer Provided  by  the  British  Museum. Time  Explorer  
+(Figure  2,  left)  is  a  multiple  award–
+winning  web-based single-player  game  provided  by  the  British  Museum.  It 
+ is  a  multilevel  platform  action/
+adventure game based on free visual search tasks. The objective of the player 
+is to reach the final level and
+obtain a valuable item, related to the Aztec civilization, by solving a riddle. 
+While the players navigate through
+the scene, aiming to reach the final level, they interact with various 
+knowledge items, which provide them with
+
+
+Fig. 2.  The games used in the studies: Time Explorer (left), Escape From the 
+Mummy’s Tomb (middle), and HoloTour (right).
+
+information about the Aztec civilization. Through the visual exploration of the 
+scene, the players identify game
+items as possible knowledge items, interact with them, and collect them. When 
+the players collect an item, a
+pop-up window is displayed. The window provides visual and textual information 
+about the collected item. The
+comprehension of the visual/textual information will help the players learn 
+more about the Aztec civilization,
+and                  it might be helpful when trying to solve the final riddle, 
+to obtain the treasure and complete the game. Ob-
+viously, the more knowledge items the players collect, the more information 
+about Aztec civilization they have
+access to.
+
+3.2.2    Escape From the Mummy’s Tomb Provided by the Liverpool Museum. Escape 
+From the Mummy’s Tomb
+(Figure 2, middle) is a point-and-click adventure game provided by the 
+Liverpool Museum. The game is based
+on structured visual search tasks and consists of two stages. At the first 
+stage, the player’s goal is to visually
+explore a scene to find and collect nine knowledge items related to Ancient 
+Egypt. When the users identify an
+item as a knowledge item, they click on it and collect it. After collecting an 
+item, a pop-up window provides
+visual and textual information about the collected item. The comprehension of 
+the visual/textual information
+will help the players complete the second stage and finish the game. At the 
+second stage, the players navigate
+through the museum virtual scene, where they visually search for the case of 
+each collected item. When clicking
+on a case, they are asked to match the corresponding item. After placing an 
+item into its case, the players answer
+a question about the meaning of the item for the afterlife beliefs of Ancient 
+Egyptians.
+
+3.2.3    HoloTour by Microsoft. Microsoft HoloTour (Figure 2, right) is an 
+audio-visual three-dimensional virtual
+tourism application that allows the users to see and explore mixed reality 
+environments for experiencing physical
+places in space and time without physically traveling there. HoloTour users 
+visit one of the available locations and
+visually explore past and present scenes, enriched with digital content, 
+providing a playful way to learn about the
+civilization. In each location, there are hidden in-game assets that provide 
+information about the Inca civilization.
+When     the Inca world model loads, the players visually explore the 3D 
+360-degree scene naturally. They visually
+search for hidden items, and when they identify an item as a possible knowledge 
+item, they interact with it via
+voice command or gesture. When a knowledge item is activated, the players 
+receive audio-visual information
+about the meaning of the revealed item and its relation to the Inca and the 
+Peruvian culture and traditions. Like
+Time Explorer, HoloTour is based on free visual search tasks, as the collection 
+of knowledge items by the players
+is not mandatory for proceeding to the next levels.
+
+3.3    Gameplay and Visual Behavior Metrics
+
+As discussed, the games include visual search tasks; hence, the players’ 
+behavior can be discerned as game-
+play and visual behavior. To measure the gameplay behavior, various metrics can 
+be used, depending on the
+genre and the mechanics of the game (e.g., completion time, number of collected 
+items, score). Time Explorer
+is an action/adventure game that requires users to collect a number of items to 
+build their knowledge and solve
+
+
+Fig. 3.  In Time Explorer, there are several objects scattered within the game 
+scene that represent knowledge items (e.g., Eagle
+Warrior, stone owl, ceremonial knife). These items are the AOIs for our study, 
+as they provide meaningful information about
+the Aztec civilization when collected.
+
+the final riddle in a given amount of time. Escape From the Mummy’s Tomb is a 
+quiz/puzzle game that requires
+users to place all collected items into their cases. HoloTour is an exploration 
+game in which the players are en-
+gaged in item search tasks. All games have item collection tasks; therefore, 
+the primary gameplay metric is the
+number of collected knowledge items.
+
+Regarding the visual behavior metrics, we focused on fixations, which are the 
+recommended eye movements
+for visual exploration and search tasks [91], like the tasks in the study 
+games. Fixations occur while individuals’
+eyes are kept aligned with the target for a certain duration, allowing for the 
+visual scene details to be processed.
+Considering the nature of each game and following common practice [91], the 
+visual behavior metrics are the
+number    of fixated knowledge items and the fixation duration on those items. 
+Each knowledge item provides
+information about the civilization presented in each game, and thus it is 
+critical for the knowledge acquisition
+process,    as the players collect information about the civilization through 
+finding and revealing such items. For
+example, in Time Explorer, there is a game item that represents the Eagle 
+Warrior. When the players click on
+it,     they receive graphical and textual information about this special class 
+of infantry soldier in the Aztec army.
+Therefore, in our studies, each knowledge item is considered as an area of 
+interest (AOI), in which the discussed
+eye-tracking metrics are applied. As an example, we illustrate three such AOIs 
+of Time Explorer in Figure 3.
+
+3.4    Participants
+
+We recruited 127 participants (Time Explorer: N = 46; Escape From the Mummy’s 
+Tomb: N = 45; HoloTour: N = 36)
+of varying age and gender (Table 2). Nineteen more participants were recruited, 
+but they were removed due to
+eye-tracking calibration or recording difficulties (Time Explorer: N = 4; 
+Escape From the Mummy’s Tomb: N = 5;
+HoloTour:   N = 10). To determine whether a participant is either FD or FI, we 
+used the Group Embedded Figures
+Test (GEFT) tool, which is the original FD-I elicitation instrument. The GEFT 
+is a time-administered tool that
+consists of a set of pattern recognition tasks of diverse complexity, in which 
+the users are asked to identify and
+
+
+Table 2.  Study Participants’ Demographics
+
+Game                                                       Technology          
+FD-I Group      N        Gender              Age            GEFT Score
+
+Time Explorer                                       Desktop computer            
+ FD             22       8 f/14 m       23.08 ± 4.76       8.58 ± 2.67
+
+FI              24       9 f/15m       26.00 ± 5.74      14.69 ± 2.02
+
+46     17 f /29 m     24.60 ± 5.44      11.76 ± 3.86
+
+Escape From the Mummy’s Tomb        Tablet computer              FD             
+23      10 f/13 m      27.32 ± 2.25       7.82 ± 2.08
+
+FI              22      11 f/11 m      25.91 ± 3.82      14.91 ± 2.23
+
+45     21 f /24 m     26.71 ± 2.98      11.24 ± 4.20
+
+HoloTour                                                   Mixed reality        
+         FD             18       8 f/10 m       29.58 ± 5.68       8.05 ± 2.79
+
+FI              18       6 f/12m       31.84 ± 4.81      14.00 ± 1.81
+
+                                                                                
+                                          36     14 f /22 m     31.10 ± 5.41    
+  11.03 ± 3.81
+
+outline simple shapes within complex figures. The test consists of two main 
+sections. Each section consists of nine
+pattern recognition tasks, which the participants have to solve in 5 minutes. 
+The score is calculated by summing
+the correctly identified patterns; thus, the score range is between 0 and 18. 
+The higher the score, the more FI the
+subject is. Each of the participants undertook the GEFT; their scores ranged 
+between 1 and 18 (Table 2), and they
+were normally distributed according to the Shapiro-Wilk normality test (Time 
+Explorer: p = .122; Escape From
+the Mummy’s Tomb: p = .139; HoloTour: p = .472). The classification of each 
+participant into either the FD or the
+FI group was based on a cut-off score. The cut-off score was the mean score 
+(i.e., 11), which has been widely used
+in practice [17, 42, 90]. Therefore, the participants who scored 11 or lower 
+were classified as FD and those who
+scored from 12 to 18 as FI. At this point, we should mention that despite the 
+sample limitations, the age span
+and the gender distribution of the study sample reflect the age span and the 
+gender distribution of the majority
+of the gamers [75]. Moreveor, the GEFT scores are comparably similar to the 
+general public across populations
+with varying demographics [46, 47, 100].
+
+3.5    Procedure
+
+To investigate the null hypotheses, we conducted three experiments in a 6-month 
+period study (from March to
+September 2017). Each experiment consisted of seven stages: participants’ 
+recruitment, cognitive style elicitation,
+FD-I classification, pre-test knowledge, game playing, post-test knowledge, and 
+data analysis.
+
+Participants’ recruitment. We recruited the study participants using various 
+methods, including personal
+contacts, email requests, and social media announcements, aiming to engage 
+people with different educational
+and professional background, age, and interests. The study participants had to 
+meet a set of minimum require-
+ments: have never taken the GEFT; older than 18 years; know little or nothing 
+about Aztec, Egyptian, and Inca
+civilizations; have never played the games before; and have no vision problems. 
+All the participants were in-
+formed about the study and signed a consent form.
+
+Cognitive style elicitation. We scheduled cognitive style elicitation sessions 
+at times convenient to the par-
+ticipants. The individuals in each session were first asked to complete a short 
+questionnaire about demographic
+information, and then they proceeded to the GEFT test session, which was 
+facilitated by the researchers and had
+a      duration of 15 minutes. During the administration of the GEFT test, the 
+directions about the materials, the test
+procedure, and the time limits described in the official scoring template were 
+firmly followed.
+
+FD-I classification. We analyzed the GEFT responses and calculated the raw 
+scores for each participant.
+Depending on their raw scores, the participants were classified either as FD or 
+FI (Table 2). During the scoring of
+the    GEFT test, we firmly followed the directions about the scoring as 
+described in the official scoring template.
+Pre-test knowledge: To measure the knowledge of the individuals regarding each 
+civilization (i.e., Aztec,
+Egyptian,  and  Inca  civilizations),  we  followed  a  pre-test/post-test  
+questionnaire-based  design  approach.  We
+
+
+developed a pre-test/post-test questionnaire for each game. The questions in 
+each questionnaire reflected on
+the information about the civilization presented in the game and provided 
+during the gameplay (e.g., through
+pop-up windows). The questionnaires had a high level of internal consistency 
+(Time Explorer: .877; Escape From
+the Mummy’s Tomb: .791; HoloTour: .802), according to the questionnaire ordinal 
+alpha reliability analysis.
+
+Game playing. Each game was played on the interaction device on which the game 
+was intended to be played
+
+seamlessly, aiming to improve our study validity. Hence, Time Explorer was 
+played on a desktop computer (Intel
+Core i7-4500U processor at 1.80GHz, 8GB installed RAM, LG Monitor 22-inch 
+22MP48D at a screen resolution
+of 1920  1080 pixels and frequency 50Hz); Escape From the Mummy’s Tomb was 
+played on a tablet device (Sam-
+sung Galaxy Tab 3.8 8-inch tablet at a screen resolution of 1280  800 pixels); 
+HoloTour was played on Microsoft
+HoloLens. To capture the participants’ eye-gaze behavior, we used Tobii Pro 
+Glasses 2, which recorded the eye
+movements with gaze sampling frequency at 50Hz. The fixations were extracted 
+using the velocity threshold
+identification (I-VT) algorithm provided by Tobii. A game playing session 
+followed for each participant with no
+time       limit. The study participants wore the Tobii Pro 2 glasses, and they 
+were taken through the setup and cali-
+bration process as described in the Tobii Pro 2 Glasses manual [117]. To 
+improve the quality of the eye-tracking
+analysis, we set a threshold of .85 for the gaze samples (calculated by 
+dividing the number of eye tracking sam-
+ples  that were correctly identified by the theoretical maximum), which is 
+considered a good indicator for data
+quality [41]. The data collected from participants who had difficulties during 
+the calibration process or had a low
+gaze-samples ratio were excluded from the analysis. All participants were 
+explicitly informed about the options
+they        had while playing. Next, they played the game (Aztec level for the 
+Time Explorer game, the full game for
+Escape From the Mummy’s Tomb, and Inca level for the HoloTour game).
+
+Post-test knowledge . We used a post-test questionnaire to measure the 
+knowledge that each participant
+gained after playing the assigned game. Following common practice [2, 23, 24, 
+126], the post-test and pre-test
+questionnaires had similar questions. To avoid memorization and bias effects, 
+the post-test questionnaire was
+performed      1 week after the game playing session, which is an adequate time 
+period to limit such effects [31, 34].
+The participants were not aware that they would be asked to complete the 
+post-test questionnaire.
+
+Data analysis. We analyzed the collected data toward our research questions 
+following statistical methods.
+
+3.6    Study Validity
+
+Regarding the internal validity, the study environment and the study procedure 
+remained the same for all partic-
+ipants. The statistical tests met all the required assumptions, as discussed in 
+the next section, despite the rather
+limited size of the sample. As discussed in Section 3.4, the age span and the 
+gender distribution of the study
+sample reflect the age span and the gender distribution of the majority of the 
+gamers. Focusing on the study
+instruments, we used the GEFT test to classify an individual as either FD or 
+FI, based on a cut-off score. Con-
+sidering  that the GEFT test highlights cognitive differences along a continuum 
+scale, the use of a cut-off might
+not classify correctly individuals who fall in between the two endpoints; thus, 
+several studies [3, 6, 14, 63] use a
+third dimension called field mixed to characterize individuals with a GEFT 
+score close to the mean score of the
+study sample. However, the dichotomous approach that adopts the mean score as 
+the cut-off score is widely used
+in the literature [17, 42, 46, 68, 70, 80]. Regarding the external validity, it 
+is worth mentioning that several cul-
+tural heritage activities are based on visual search and item collection tasks 
+[27, 37, 82, 103]; thus, we anticipate
+that similar findings will be replicated in the contexts of different 
+activities. Regarding the ecological validity of
+our studies, the game playing sessions took place at times and on days 
+convenient for each participant. The lab
+was transformed into a playroom, considering all the required technological 
+resources (desktop computer, tablet
+device, mixed reality apparatus, stable and high-speed Internet connection). 
+The devices were powerful enough
+to support the games and did not affect participants’ experience in the shade 
+of poor performance. Regarding
+HoloLens, none of the participants had previous experience with it, so they 
+undertook a quick tutorial on how to
+use         it. Regarding the eye-tracking apparatus, the individuals do not 
+typically use such equipment when playing,
+
+
+Fig. 4.  FIs fixated on more items than FDs when the game included free visual 
+search tasks. When the game was based on
+structured visual search tasks, no differences were revealed.
+
+but the fact that the equipment was wearable glasses made them feel more 
+comfortable after a while, as they
+could interact with the system as they would normally do. At this point, we 
+should mention that we removed
+some participants from the analysis due to difficulties during the calibration 
+process or poor quality of their
+collected gaze samples, as discussed in Section 3.5. The research team 
+conducted the study following the ACM
+Code    of Ethics.
+
+4    RESULTS
+
+4.1    The Effect of FD-I on Visual Behavior
+
+To investigate H0₁, we performed statistical tests toward visual behavior 
+metrics: number of fixated game items
+and fixation duration. Regarding the number of fixated game items (Figure 4), 
+we performed a Mann-Whitney
+U test for each game. The distributions of the number of fixated game items for 
+FDs and FIs were similar, as
+assessed by visual inspection. The analysis of results revealed that for Time 
+Explorer, the median fixated game
+items were significantly more for FIs (10) than FDs (8) (U = 179.500, z =   
+2.598, p = .009, r = .383). FIs fixated
+on 9.638    2.671 game items, whereas FDs fixated on 7.667    2.751 game items. 
+For HoloTour, the median fixated
+game items were significantly more for FIs (39) than FDs (33) (U = 43.000, z =  
+ 3.781, p < .005, r = .630). FIs
+fixated on 38.833    3.445 game items, whereas FDs fixated on 33.445    3.126 
+game items. No differences were
+found for Escape From the Mummy’s Tomb, as the players had to collect all 9 
+game items; thus, they fixated on
+all   of them.
+
+Regarding the fixation duration per game item (Figure 5), we performed an 
+independent-samples t-test for
+
+each game. After normalizing the fixation duration values for HoloTour 
+according to the procedure provided by
+Templeton [114], each test met the required assumptions. The analysis revealed 
+that FIs fixated on the game
+items for significantly longer time periods than FDs when playing Time Explorer 
+(FIs: 4.291 ± 1.672 minutes,
+FDs: 2.872 ± 2.031 minutes, t = 3.019, p = .028, d = .763), Escape From the 
+Mummy’s Tomb (FIs: 8.036 ± 2.023
+
+minutes, FDs: 6.637 ± 1.050 minutes, t = 2.875, p = .007, d = .870), and 
+HoloTour (FIs: 27.217 ± 4.151 minutes,
+
+FDs: 23.614 ± 4.007 minutes, t = 2.630, p = .014, d = .883).
+
+4.2    The Effect of FD-I on Gameplay Behavior
+
+To investigate H0₂, we performed a Mann-Whitney U test for each game (Figure 
+6), which met all the required
+assumptions. The analysis of the results revealed that for Time Explorer, the 
+median collected items were signif-
+icantly   more for FIs (8) than FDs (7) (FIs: 7.960    3.039 items, FDs: 6.292  
+  2.596 items, U = 210.000, z =   2.000,
+p      = .036, r = .295). For HoloTour, the median collected items were 
+significantly more for FIs (37) than FDs (31)
+
+
+Fig. 5.  FIs fixated on the game items for longer time periods than FDs for 
+both free and structured visual search tasks,
+indicating deeper visual information processing.
+
+Fig. 6.  FIs collected significantly more items than FDs when the collection of 
+the items was not mandatory for game progress.
+
+(FIs: 37.173     3.683 items, FDs: 31.004     3.997 items, U = 37.000, z =   
+3.976, p < .005, r = .663). There was no
+
+difference between FDs and FIs who played Escape From the Mummy’s Tomb, as it 
+was mandatory, by the game
+rules, to collect all 9 knowledge items.
+
+4.3    The Effect of FD-I on Knowledge Acquisition
+
+To investigate H0₃, we performed a Mann-Whitney U test for each game (Figure 
+7), which met all the required
+assumptions. The analysis revealed that for Time Explorer, the median correct 
+answers were significantly more
+for         FIs (7) than FDs (5) (FDs: 5.583     1.248 correct answers, FIs: 
+6.436     1.294 correct answers, U = 209.500,
+z =   2.049, p = .040, r = .302). For Escape From the Mummy’s Tomb, the median 
+correct answers of FIs (5) and
+FDs (5) were not different (FDs: 5.167     1.090 correct answers, FIs; 5.333    
+ 1.065 correct answers, U = 234.000,
+z   =   .426, p = .670). For HoloTour, the median correct answers were 
+significantly more for FIs (7) than FDs (6)
+(FDs: 5.722     .894 correct answers, FIs: 6.831     1.227, U = 79.500, z =   
+2.708, p = .008, r = .451). Therefore,
+FIs performed better than FDs in the knowledge post-test for games that are 
+based on free visual search tasks,
+whereas there was no significant difference for the game that is based on 
+structured visual search tasks.
+
+It is worth mentioning that regarding the knowledge that each participant had 
+about the civilization presented
+in the game they were assigned to play, both FDs and FIs showed low prior 
+knowledge according to the analysis
+of the pre-test questionnaire answers, as expected. FDs and FIs did not differ 
+significantly in all game cases, as
+assessed by Mann-Whitney U tests, which met all the required assumptions (Time 
+Explorer: FIs: .402 ± .316, FDs:
+
+
+Fig. 7.  For each game, the knowledge acquisition (in terms of correct answers) 
+in the pre- and post-test are displayed. The
+pre-test showed that the individuals had minimum knowledge of the history and 
+culture of each civilization, whereas the
+post-test showed that FIs performed better than FDs.
+
+.541 ± .505, U = 297.000, z = .380, p = .704; Escape From the Mummy’s Tomb: 
+FIS: .762 ± .623, FDs: .750 ± .727,
+
+U = 297.000, z = .170, p = .861; HoloTour: FIS: 1.077 ± .854, FDs: .583 ± .468, 
+U = 55.000, z = 1.342, p = .225).
+
+4.4    Correlation Between Visual Behavior, Gameplay Behavior, and Knowledge 
+Acquisition
+
+To investigate H0₄, we performed a Pearson correlation test, which met all the 
+required assumptions, for each
+game. The results of the test for each game (Table 3) are discussed next.
+
+Regarding Time Explorer, there is a strong correlation (r = .571, p = .006) 
+between the gameplay behavior and
+
+the knowledge acquisition. That means that the more items players collected, 
+the more correct answers they
+had on the post-test. The knowledge acquisition was also associated with the 
+players’ visual behavior, as there
+was a moderate correlation between the number of fixated items and the number 
+of correct answers (r = .324,
+p  = .022), and between fixation duration and the number of correct answers (r 
+= .301, p = .034). Hence, the more
+and longer fixations players performed on the game items, the more correct 
+answers they had in the post-test
+questionnaire. Moreover, the visual behavior is strongly associated with the 
+gameplay behavior, as the more
+fixations players developed, the more items they collected (r = .753, p = 
+.002).
+
+Regarding  Escape  From  the  Mummy’s  Tomb,  there  is  a  moderate  
+correlation  (r = .331, p = .028)  between
+
+the fixation duration and the knowledge acquisition. This means that the longer 
+fixations players applied on
+the Egyptian artifacts, the more likely they were to provide a correct answer 
+to the post-test questions, thus the
+more knowledge they would acquire about the beliefs and traditions of Ancient 
+Egyptians about the afterlife.
+
+Regarding HoloTour, there is a moderate correlation (r = .332, p = .038) 
+between the number of the collected
+
+items and the number of fixated items, meaning that the more items players 
+fixated on, the more they collected.
+Moreover, there is a strong correlation (r = .507, p = .002) between the number 
+of the collected items and the
+number of the correct answers in the post-test, meaning that the more items 
+players collected, the more likely
+they were to provide a correct answer to the post-test questions, thus the more 
+knowledge they would acquire
+about Inca civilization and Peruvian culture.
+
+5    INTERPRETATION OF THE RESULTS
+
+The findings discussed next are in correspondence with the research model 
+illustrated in Figure 1. Thus, they are
+presented in terms of the interplay among human cognition and visual behavior, 
+human cognition and gameplay,
+visual behavior and gameplay, and all factors on the knowledge acquisition. The 
+inter-relationship among the
+factors is depicted in Figure 8.
+
+
+— Game designers’ decisions related to visual search tasks influenced FDs’ and 
+FIs’ visual behavior. FDs and
+FIs followed different visual strategies while playing free visual search games 
+(i.e., games that expect
+users to visually search a scene and identify cultural assets without being 
+compulsory). FIs fixated on
+more cultural game items (Figure 4) and for longer periods (Figure 5) than FDs; 
+our findings reinforce
+and validate the results of other studies [76, 91] and our work on cultural 
+heritage gaming [89, 92, 94].
+This behavior is a result from the FIs’ analytic nature and their skill to 
+visually identify details within the
+surrounding context [127], as they tend to follow a more investigative visual 
+search approach, scanning
+most           of the game scene. More and longer fixations imply better 
+memorability [62, 123], higher volume of
+information extracted and accumulated [123], and attention [98] in visual 
+search tasks. Considering that
+FIs             are more efficient at retrieving items from memory [3] than 
+FDs, the fact that they produced more and
+longer fixations on the critical game objects helped them focus more on and 
+have a better comprehension
+of   the information provided for each culture.
+
+— Game designers’ decisions related to visual search tasks influenced FDs’ and 
+FIs’ gameplay behavior. FDs and
+FIs followed different game playing approaches (Figure 6). FIs collected more 
+items than FDs when the
+game included free visual search tasks, as they followed an analytical 
+approach. FIs have an inherent skill
+to identify critical visual information, as they tend to pay attention to 
+details and can easily separate details
+from the surrounding context [86]. While playing the free visual search games, 
+FIs were interested in
+exploring the game levels following an intrinsic self-motivated strategy, which 
+is a result of their tendency
+to develop self-structured objectives and perform independently out of the 
+given rules [86]. However, FDs
+did not interact with many game objects when the collection of the items was 
+not mandatory to finish
+the game. This could be attributed to the fact that FDs tend to strictly follow 
+the guidelines and objectives
+of the game (e.g., proceed to the final level and solve the riddle); thus, FDs 
+collected fewer items than
+FIs because it was not the main objective of the game and because of their 
+holistic information search
+approach [86].
+
+— FDs’ and FIs’ visual behavior influenced their gameplay behavior. In free 
+visual search tasks, the users’
+visual behavior influenced their gameplay behavior (Table 3). The more 
+knowledge items they fixated on,
+the more items they collected, as they interacted with game items that drew 
+their attention. Moreover,
+the longer a player fixated on a game item, the more likely they were to 
+interact with it and collect it,
+as increased fixation duration timings indicate increased focus and attention 
+[99, 123]. Therefore, the
+designers’ decision to include knowledge items that draw the visual attention 
+of the players for long time
+periods influenced their gameplay behavior and helped them have wider access to 
+knowledge, leading to
+an increasing knowledge acquisition and implying a better learning outcome.
+
+— Visual and gameplay behavior influenced knowledge acquisition on both 
+cognitive style groups, but FIs were
+unintentionally favored toward knowledge acquisition within free visual search 
+and exploration game de-
+signs. In free visual search games, FIs learned significantly more about 
+ancient civilizations than FDs, as
+they answered more post-test questions correctly (Figure 7). Users’ performance 
+in the post-test was in-
+fluenced by both the gameplay behavior and the visual behavior (Table 3). The 
+design decision to include
+free visual search tasks and the inherent difficulty of FDs to identify simple 
+details within complex visual
+context led FDs to fixate on and collect fewer crucial knowledge game items and 
+thus hindered them
+toward knowledge acquisition and, eventually, learning gain.
+
+6    DISCUSSION AND IMPLICATIONS
+
+Our research findings suggest that specific design decisions related to digital 
+visual activities unintentionally af-
+fected the interactive behavior and thus the knowledge acquisition of 
+individuals with different cognitive char-
+acteristics. Considering that the increasing use of digital technologies in the 
+cultural heritage domain makes
+the evaluation process necessary, it is important for evaluation studies, such 
+as the reported ones here, to take
+
+
+
+Table 3.  Correlation Matrix
+
+Time Explorer
+
+Metric Type                              Metric                            (1)  
+               (2)                 (3)           (4)
+
+1     Visual behavior                 Number of fixated images                  
+  1
+
+2                                                Fixation duration              
+         r = .182                   1
+
+p = .
+
+3     Gameplay behavior           Number of collected items          r = .753   
+    r = .132                    1
+
+p = .               p = .
+
+4     Knowledge acquisition      Number of correct answers       r = .324       
+ r = .301        r = .571        1
+
+p = .              p = .             p = .
+
+Escape From the Mummy’s Tomb
+
+Metric Type                     Metric                                          
+   (1)                 (2)                 (3)           (4)
+
+1     Visual behavior                 Number of fixated images                 
+1
+
+2                                                Fixation duration              
+             n/a                       1
+
+3     Gameplay behavior           Number of collected items             n/a     
+              n/a                1
+
+4     Knowledge acquisition      Number of correct answers           n/a        
+    r = .331            n/a            1
+
+p = .028*
+
+Microsoft HoloTour
+
+Metric Type                                      Metric           (1)           
+      (2)                 (3)           (4)
+
+1     Visual behavior                 Number of fixated images                  
+   1
+
+2                                                Fixation duration              
+         r = .136                   1
+
+p = .431
+
+3     Gameplay behavior           Number of collected items         r = .332    
+    r = .147
+
+p = .028*       p = .392                     1
+
+4     Knowledge acquisition      Number of correct answers       r = .294       
+ r = .179        r = .507
+
+p = .082        p = .297      p = .002**      1
+
+*. Correlation is significant at the 0.05 level (2-tailed).
+
+**. Correlation is significant at the 0.01 level (2-tailed).
+
+n/a. Cannot be computed because at least one of the variables is constant.
+
+Fig. 8.  Players’ characteristics toward FD-I influenced their visual and 
+gameplay behavior and consequently had an impact
+on the knowledge acquisition process.
+
+
+into account the multidimensional nature of the cultural heritage domain and 
+the cognitive characteristics of
+its users (e.g., visitors) to guide the research in undiscovered paths. 
+Considering human cognition as an evalua-
+tion factor unravels the underlying reasons for imbalances in knowledge 
+acquisition when individuals perform
+cultural heritage activities that include information processing tasks. 
+Therefore, evaluators are expected to ben-
+efit when performing a cognition-centered evaluation by taking into account the 
+visitors’ individual cognitive
+characteristics, as it helps them better evaluate a cultural heritage activity 
+toward its objectives. Focusing on the
+evaluation studies discussed in this article, if we had not considered the FD-I 
+cognitive style as an evaluation
+factor,   we would have observed an average knowledge acquisition in free 
+visual search tasks, but we would not
+have been able to understand the underlying reasons for the observed outcome. 
+This could lead not only to inac-
+curate interpretation of the findings but also to wrong design recommendations 
+and guidelines (e.g., avoid free
+visual search tasks). By considering cognitive characteristics as an evaluation 
+factor, we revealed a new dimen-
+sion of the individuals’ diversity and gained a deeper understanding of the 
+reasons an activity meets (or not) its
+objectives.
+
+The “one-size-fits-all” approach is not the optimal way to deliver meaningful 
+cultural experiences to the end-
+users (e.g., visitors), and through the cognition-centered evaluation, cultural 
+heritage stakeholders will not only
+identify the differences in knowledge acquisition between users with different 
+cognitive characteristics when in-
+teracting with cultural heritage resources but will also understand the 
+underlying reasons for these differences
+and better interpret them. Therefore, the cognition-centered evaluation points 
+out the importance of considering
+what task types (e.g., free or structured visual search) would fit better to 
+each activity context and user cognitive
+profile within the cultural heritage domain. However, there are cases where the 
+imbalance of the knowledge ac-
+quisition may not relate only to the visualization of the content or the task 
+type but to other factors as well, such
+as      the content per se. For example, for individuals who process visual 
+information more efficiently than verbal
+information (e.g., Visualizer-Verbalizer cognitive style), the content should 
+be provided in graphical form; for in-
+dividuals who process verbal information more efficiently, the content should 
+be provided in textual form [97].
+The activity type (e.g., games vs. narratives) should also be considered as an 
+evaluation parameter, as different
+types of activities favor individuals with different cognitive characteristics 
+[116]. It is worth mentioning that the
+discussed implications apply not only to games but also to cultural heritage 
+activities that include information
+processing tasks, such as virtual tours and guides, which have also been shown 
+to be influenced by cognitive
+characteristics [95]. Moreover, in our studies, we focused only on visual 
+interactions; however, cultural heritage
+activities    can also include audio-based and spatial interactions, such as 
+storytelling and location-aware applica-
+tions. Hence, there is a need for investigating whether other cognitive 
+characteristics (e.g., auditory cognitive
+styles) influence visitors’ behavior and experience in such contexts. The 
+summarized lessons learned from our
+research are as follows:
+
+— Cognition-centered evaluation of digital cultural heritage activities and 
+resources helped us better un-
+derstand the underlying reasons for explaining the different behavioral 
+patterns among individuals with
+different cognitive characteristics.
+
+— Cognition-centered evaluation interconnects diverse aspects of the 
+information processing approach (e.g.,
+visual information seeking, comprehension of information) with human cognition 
+(e.g., style, skills), and
+thus it helps us effectively assess the end-users’ experience and propose ways 
+to improve it based on the
+end-users’ cognitive preferences and needs.
+
+— Cognition-centered evaluation points out the importance of considering what 
+task types (e.g., free or
+structured visual search) would fit better to each activity context and user 
+cognitive profile within the
+cultural heritage domain.
+
+— Cognition-centered evaluation takes into consideration various aspects of the 
+cultural heritage resources,
+as it is strongly associated not only with the task types but also with the 
+visualization mechanisms, the
+high-level activity types, the modes of interaction, and so forth.
+
+
+— Cognition-centered evaluation contributes to the better and deeper 
+understanding of the importance and
+the necessity of the evaluation process to assess and aim for a better impact 
+on the end-users’ experience
+(e.g., visitors’ experience) both in the short- and the long term, considering 
+that cognitive characteristics
+(e.g., cognitive style) rarely change throughout the life span.
+
+In human-centered design, evaluation is used, among others, to drive the design 
+or the refinement of informa-
+tion systems. Therefore, the interpretation of the findings of our evaluation 
+studies could lead to the formation or
+optimization of specific sets of recommendations and rules for designing and 
+adapting cultural heritage activities
+to      support the diverse information processing requirements of users with 
+different cognitive characteristics and
+best serve them toward information comprehension and knowledge acquisition. 
+Focusing on the FD-I cognitive
+style, FDs have difficulties in recognizing details in complex visual contexts, 
+and thus they might miss valuable
+information, such as items that provide information about an ancient 
+civilization, when performing free visual
+search  tasks. Therefore, in activities that are based on free visual search 
+tasks, the system should aim to help FDs
+access such information. This can be achieved by adopting various techniques:
+
+— Considering that FDs benefit when the information is provided with light 
+recoloring [32] or a saliency
+effect [49], such an alternative visualization could be provided for the 
+activity items/regions that provide
+critical information about the civilization/culture presented in the activity.
+
+— To increase fixation duration and keep the users’ attention within critical 
+areas of interest, the whole
+scene could be blurred, except the knowledge items. The blur effect is an 
+adequate technique to keep
+users’ focus on specific areas of interest [46], and it can be activated when 
+an FD user approaches a
+knowledge item within a predefined distance.
+
+— The system could support a sequential dual approach for activities that 
+support both structured and free
+search tasks. In this approach, all the tasks are based on structured search, 
+until a threshold is reached.
+The threshold can be the collection of specific items, the collection of a 
+predefined number of items, and
+so forth. After the threshold is reached, the tasks are transformed into visual 
+free search tasks, aiming to
+trigger self-efficacy and autonomy of the users, which help the knowledge 
+acquisition process [105, 133].
+
+— In item collection activities, there are items that are important for users 
+to build knowledge and items
+that are complementary. Therefore, the collection of the important items could 
+be based on structured
+search, whereas the collection of the complementary could be based on free 
+search.
+
+Therefore, evaluation studies like those reported herein provide insights into 
+which mechanisms better en-
+able users with different cognitive characteristics to meet the activity’s 
+objective. Considering that specific task
+types may not benefit users with specific cognitive characteristics [96], 
+suitable assistive mechanisms can be
+introduced to ensure that the users will discover the intended content. To 
+support such diverse mechanisms, tai-
+lored       to specific cognitive characteristics, the cultural heritage 
+designers should provide adaptive interventions
+for personalized access to cultural information. The cultural heritage activity 
+should be adapted to the cogni-
+tive characteristics of each user. The adaptation can be achieved through the 
+use of varying techniques, such
+as rules-based adaptation. Following a rules-based adaptation approach, the 
+rules implement visual information
+functionalities and content presentation mechanics, tailored to the users’ 
+cognitive characteristics. The rules
+derive     from studies like those reported herein. For example, in free visual 
+search tasks, recoloring or saliency
+effects could be applied to the knowledge items when an FD user performs the 
+activity. Therefore, the cognition-
+centered evaluation builds the rules set that can be used to adapt the cultural 
+activity to the unique cognitive
+preferences and needs of each user.
+
+Considering the nature of the cultural heritage domain where many end-users are 
+considered as first-time
+users, as they interact with a digital cultural heritage resource for the first 
+time (and maybe the only time in
+their life), we point out the importance of runtime and dynamic adaptation of 
+cognition-centered interventions
+in digital cultural heritage activities. To deliver such runtime 
+cognition-centered personalized activities, it is
+
+
+essential not only to adapt the cultural heritage activity in runtime (which 
+has been adequately addressed in
+other works in the cultural heritage domain, such as in Stock et al. [110]) but 
+also to elicit the user’s cognitive
+profile (e.g., cognitive style) in real time within the very first stages of 
+the activity, when the user experience is
+not yet fully shaped, to adapt the content adequately and seamlessly and ensure 
+that the adaptation mechanism
+does not affect the user experience after it is established. Considering that 
+the current elicitation tools (e.g., the
+GEFT) are not practical for runtime adaptation, as they are based on explicit 
+and time-consuming processes that
+require human interference, we can use eye-tracking methods [96] to elicit the 
+users’ cognitive profiles implicitly
+in the very early stages of the activity, given that our research showed that 
+there is a correlation between the
+visual behavior and the cognitive characteristics. The elicitation can be 
+performed in tutorial levels before the
+users play the cultural heritage game, so as to not influence the gaming 
+experience.
+
+Finally, the high-level implication of our research is that there is a 
+necessity to adopt a cognition-centered
+framework for both design and evaluation purposes, which (a) elicits, stores, 
+and maintains cognition-centered
+user models through implicit elicitation and (b) adapts cultural activities 
+based on recommendations and rules
+exported by evaluation studies such as those reported herein aiming to deliver 
+the most optimized personalized
+cultural heritage experience to each individual user. The cognition-centered 
+framework will help the (a) eval-
+uators effectively assess digital cultural heritage activities and resources to 
+craft a better understanding of the
+end-users’ interactive behavior and stress out differences in information 
+seeking approaches, which could lead
+to imbalances toward the activity objectives; (b) designers to craft 
+personalized cultural heritage activities that
+are tailored to the end-users’ unique cognitive characteristics; and (c) 
+end-users to have an enhanced experience,
+a better comprehension of the presented information, an increased knowledge 
+acquisition, and, eventually, an
+increased learning gain. Considering that several stakeholders are involved in 
+the cultural heritage domain (e.g.,
+visitors, evaluators, designers, curators, institutions), the 
+cognition-centered framework is expected to identify
+the needs and interests of each stakeholder in the ecosystem, along with the 
+interdependencies, and provide the
+best-fitted and most influential cultural heritage activities and resources.
+
+7    CONCLUSION
+
+In this article, we evaluated whether and how game designers’ decisions related 
+to visual search activities affect
+knowledge acquisition in cultural heritage games by adopting a human cognitive 
+perspective. We conducted
+three between-subjects eye-tracking user studies. In total, 127 participants 
+were classified as either FD or FI,
+based on their performance on the GEFT. For each study, the participants formed 
+two groups, according to their
+cognitive style, and played a popular cultural heritage game (Time Explorer: N 
+= 46; Escape From the Mummy’s
+Tomb: N = 45; HoloTour N = 36). The quantitative analysis revealed that game 
+designers’ decisions with regard
+to visual search favored FIs and hindered FDs toward knowledge acquisition. In 
+particular, FDs and FIs followed
+different approaches to process visual information in free visual search tasks 
+(i.e., tasks where the users visually
+explore a scene and interact with items without being compulsory by the 
+activity rules), which led to an un-
+intentional knowledge acquisition imbalance. However, in structured visual 
+search tasks (i..e, the activity rules
+force     the players to visually search and collect a specific number of 
+items), there was no knowledge imbalance
+between FDs and FIs, as all users were enforced to collect the same items and 
+thus access the same level of critical
+information.
+
+The findings of the study highlight the effects of human cognition on visual 
+information search within cul-
+tural heritage contexts and necessitate the support of individuals with 
+specific cognitive characteristics (e.g.,
+FDs) in playful interaction activities that include information search and 
+comprehension tasks. Cultural heritage
+stakeholders should consider the individual cognitive characteristics both in 
+the design phase and the evalua-
+tion      phase when delivering cultural activities, aiming to provide their 
+users with personalized access to cultural
+information and help them improve their learning gain and experience. We 
+envision that cognition-centered
+personalization mechanisms could be used by cultural heritage stakeholders to 
+adapt cultural experiences to the
+
+
+cognitive characteristics of their users (e.g., museum visitors). Such 
+personalization mechanisms would mitigate
+the observed imbalance and would help the users improve their knowledge 
+acquisition gain when engaged with
+cultural heritage activities. Considering that we move toward more immersive 
+technologies (e.g., mixed reality),
+we anticipate that such cognition-centered personalized experiences will help 
+the users even more, as they have
+been found to amplify the effects of cognitive differences [36, 40, 94].
+
+REFERENCES
+
+[1]   Sultan A. Alharthi, George E. Raptis, Christina Katsini, Igor Dolgov, 
+Lennart E. Nacke, and Zachary O. Toups. 2018. Toward under-
+standing the effects of cognitive styles on collaboration in multiplayer games. 
+In Companion of the 2018 ACM Conference on Computer
+Supported Cooperative Work and Social Computing (CSCW’18). ACM, New York, NY, 
+169–172. DOI:https://doi.org/10.1145/3272973.
+3274047
+
+[2]   Panagiota  Altanopoulou,  Nikolaos  Tselios,  Christos  Katsanos,  Maria  
+Georgoutsou,  and  Maria-Antonia  Panagiotaki.  2015.  Wiki-
+mediated activities in higher education: Evidence-based analysis of learning 
+effectiveness across three studies. Journal of Educational
+Technology and Society 18, 4 (Oct. 2015), 511–522.
+
+[3]   Arif Altun and Mehtap Cakan. 2006. Undergraduate students’ academic 
+achievement, field dependent/independent cognitive styles
+and attitude toward computers. Educational Technology and Society 9, 1 (2006), 
+289–297.
+
+[4]   Eike Falk Anderson, Leigh McLoughlin, Fotis Liarokapis, Christopher 
+Peters, Panagiotis Petridis, and Sara de Freitas. 2010. Developing
+serious games for cultural heritage: A state-of-the-art review. Virtual Reality 
+14, 4 (Dec. 2010), 255–275. DOI:https://doi.org/10.1007/
+s10055-010-0177-3
+
+[5]   Charoula Angeli. 2013. Examining the effects of field 
+dependence-independence on learners’ problem-solving performance and inter-
+action with a computer modeling tool: Implications for the design of joint 
+cognitive systems. Computers and Education 62 (Mar. 2013),
+221–230. DOI:https://doi.org/10.1016/j.compedu.2012.11.002
+
+[6]   Charoula Angeli, Nicos Valanides, and Paul Kirschner. 2009. Field 
+dependence-independence and instructional-design effects on
+learners’ performance with a computer-modeling tool. Computers  in  Human  
+Behavior  25, 6 (Nov. 2009), 1355–1366. DOI:https://
+doi.org/10.1016/j.chb.2009.05.010
+
+[7]   Charoula Angeli, Nicos Valanides, Eirini Polemitou, and Elena 
+Fraggoulidou. 2016. An interaction effect between young children’s
+field dependence-independence and order of learning with glass-box and 
+black-box simulations: Evidence for the malleability of
+cognitive style in computer-supported learning. Computers in Human Behavior 61 
+(Aug. 2016), 569–583. DOI:https://doi.org/10.1016/
+j.chb.2016.03.060
+
+[8]   Angeliki Antoniou, Dimitris Diakakis, George Lepouras, and Costas 
+Vassilakis. 2011. Towards a methodological framework for the
+cognitive-behavioural evaluation of educational E-Games. International Journal 
+of Learning Technology 6, 3 (Nov. 2011), 263–287.
+
+DOI:https://doi.org/10.1504/IJLT.2011.043580
+
+[9]   Angeliki Antoniou and George Lepouras. 2010. Modeling visitors’ profiles: 
+A study to investigate adaptation aspects for museum
+learning technologies. ACM Journal on Computing and Cultural Heritage 3, 2 
+(Sep. 2010), 1–19. DOI:https://doi.org/10.1145/1841317.
+1841322
+
+[10]   Angeliki Antoniou, George Lepouras, Stavroula Bampatzia, and Hera 
+Almpanoudi. 2013. An approach for serious game development
+for cultural heritage: Case study for an archaeological site and museum. ACM 
+Journal on Computing and Cultural Heritage 6, 4 (Nov.
+2013), 1–19. DOI:https://doi.org/10.1145/2532630.2532633
+
+[11]   Carmelo Ardito and Rosa Lanzilotti. 2008. ”Isn’t this archaeological 
+site exciting!”: A mobile system enhancing school trips. In Pro-
+ceedings of the Working Conference on Advanced Visual Interfaces (AVI’08). ACM, 
+New York, NY, 488–489. DOI:https://doi.org/10.1145/
+1385569.1385670
+
+[12]   Sylvester Arnab, Panagiotis Petridis, Ian Dunwell, and Sara de Freitas. 
+2011. Enhancing learning in distributed virtual worlds through
+touch: A browser-based architecture for haptic interaction. In Serious Games 
+and Edutainment Applications, M. Ma, A. Oikonomou,
+and   L. C. Jain (Eds.). Springer London, London, UK, 149–167. 
+DOI:https://doi.org/10.1007/978-1-4471-2161-9_9
+
+[13]   Sylvester Arnab, Panagiotis Petridis, Ian Dunwell, and Sara De Freitas. 
+2011. Tactile interaction in an ancient world on a web browser.
+
+International Journal of Computer Information Systems and Industrial Management 
+Applications 3, 2011, 687–695.
+
+[14]   Mehmet Bahar and Mike H. Hansell. 2000. The relationship between some 
+psychological factors and their effect on the performance
+of grid questions and word association tests. Educational Psychology 20, 3 
+(Sep. 2000), 349–364. DOI:https://doi.org/10.1080/713663739
+
+[15]   Rafael Ballagas, André Kuntze, and Steffen P. Walz. 2008. Gaming 
+tourism: Lessons from evaluating REXplorer, a pervasive game
+for tourists. In Pervasive Computing, J. Indulska, D. J. Patterson, T. Rodden, 
+and M. Ott (Eds.). Springer, Berlin, Germany, 244–261.
+
+DOI:https://doi.org/10.1007/978-3-540-79576-6_15
+
+[16]   Stavroula Bampatzia, Ioannis Bourlakos, Angeliki Antoniou, Costas 
+Vassilakis, George Lepouras, and Manolis Wallace. 2016. Serious
+games: Valuable tools for cultural heritage. In Games and Learning Alliance, R. 
+Bottino, J. Jeuring, and R. C. Veltkamp (Eds.). Springer
+International Publishing, Cham, Switzerland, 331–341. 
+DOI:https://doi.org/10.1007/978-3-319-50182-6_30
+
+
+[17]   Marios Belk, Christos Fidas, Panagiotis Germanakos, and George Samaras. 
+2017. The interplay between humans, technology and user
+authentication: A cognitive processing perspective. Computers in Human Behavior 
+76, C (Nov. 2017), 184–200. DOI:https://doi.org/10.
+1016/j.chb.2017.06.042
+
+[18]   Francesco Bellotti, Riccardo Berta, Alessandro De Gloria, Annamaria 
+D’ursi, and Valentina Fiore. 2012. A serious game model for
+cultural heritage. ACM Journal on Computing and Cultural Heritage 5, 4 (Oct. 
+2012), 1–27. DOI:https://doi.org/10.1145/2399180.2399185
+
+[19]   Francesco Bellotti, Riccardo Berta, Alessandro De Gloria, and Victor 
+Zappi. 2008. Exploring gaming mechanisms to enhance knowl-
+edge acquisition in virtual worlds. In Proceedings of the 3rd International 
+Conference on Digital Interactive Media in Entertainment and
+Arts (DIMEA’08). ACM, New York, NY, 77–84. 
+DOI:https://doi.org/10.1145/1413634.1413653
+
+[20]   Jorge Simarro Cabrera, Henar Muñoz Frutos, Adrian G. Stoica, Nikolaos 
+Avouris, Yannis Dimitriadis, Georgios Fiotakis, et al. 2005.
+Mystery in the museum: Collaborative learning activities using handheld 
+devices. In Proceedings of the 7th International Conference
+on Human Computer Interaction With Mobile Devices and Services (MobileHCI’05). 
+ACM, New York, NY, 315–318. DOI:https://doi.org/
+10.1145/1085777.1085843
+
+[21]   Brian Cameron and Francis Dwyer. 2005. The effect of online gaming, 
+cognition and feedback type in facilitating delayed achievement
+of different learning objectives. Journal of Interactive Learning Research 16, 
+3 (2005), 243–258.
+
+[22]   James J. Canelos, William D. Taylor, and Robin B. Gates. 1980. The 
+effects of three levels of visual stimulus complexity on the in-
+formation processing of field-dependents and field-independents when acquiring 
+information for performance on three types of
+instructional objectives. Journal of Instructional Psychology 7, 2 (1980), 
+65–70.
+
+[23]   Ben Chang, Sherry Y. Chen, and Sin-Ni Jhan. 2015. The influences of an 
+interactive group-based videogame: Cognitive styles vs. prior
+ability. Computers and Education 88, C (Oct. 2015), 399–407. 
+DOI:https://doi.org/10.1016/j.compedu.2015.08.006
+
+[24]   Kuo-En Chang, Chia-Tzu Chang, Huei-Tse Hou, Yao-Ting Sung, Huei-Lin 
+Chao, and Cheng-Ming Lee. 2014. Development and be-
+havioral pattern analysis of a mobile guide system with augmented reality for 
+painting appreciation instruction in an art museum.
+
+Computers and Education 71 (Feb. 2014), 185–197. 
+DOI:https://doi.org/10.1016/j.compedu.2013.09.022
+
+[25]   Sherry Y. Chen and Xiaohui Liu. 2008. An integrated approach for 
+modeling learning patterns of students in web-based instruction:
+A cognitive style perspective. ACM Transactions on Computer-Human Interaction 
+15, 1 (May 2008), Article 1, 28 pages. DOI:https://
+doi.org/10.1145/1352782.1352783
+
+[26]   Susan Coates, Mae Lord, and Evelyn Jakabovics. 1975. Field 
+dependence-independence, social-non-social play and sex differences in
+preschool children. Perceptual and Motor Skills 40, 1 (Feb. 1975), 195–202. 
+DOI:https://doi.org/10.2466/pms.1975.40.1.195
+
+[27]   Tanguy Coenen, Lien Mostmans, and Kris Naessens. 2013. MuseUs: Case 
+study of a pervasive cultural heritage serious game. ACM
+Journal on Computing and Cultural Heritage 6, 2 (May 2013), Article 8, 19 
+pages. DOI:https://doi.org/10.1145/2460376.2460379
+
+[28]   Guillaume Denis and Pierre Jouvelot. 2005. Motivation-driven educational 
+game design: Applying best practices to music education.
+In Proceedings of the 2005 ACM SIGCHI International Conference on Advances in 
+Computer Entertainment Technology (ACE’05). ACM,
+
+New York, NY, 462–465. DOI:https://doi.org/10.1145/1178477.1178581
+
+[29]   Eyal Dim and Tsvi Kuflik. 2014. Automatic detection of social behavior 
+of museum visitor pairs. ACM Transactions on Interactive
+Intelligent Systems 4, 4 (Nov. 2014), 1–30. DOI:https://doi.org/10.1145/2662869
+
+[30]   Antoaneta L. Dimitrova and Bernard Steunenberg. 2017. The power of 
+implementers: A three-level game model of compliance with
+EU policy and its application to cultural heritage. Journal of European Public 
+Policy 24, 8 (2017), 1211–1232. DOI:https://doi.org/10.
+1080/13501763.2016.1223156
+
+[31]   Anne L. Dunnewold. 2014. Thought field therapy efficacy following large 
+scale traumatic events. Current Research in Psychology 5, 1
+(Jan. 2014), 34–39. DOI:https://doi.org/10.3844/crpsp.2014.34.39
+
+[32]   Francis M. Dwyer and David M. Moore. 1992. Effect of color coding on 
+visually and verbally oriented tests with students of dif-
+ferent field dependence levels. Journal of Educational Technology Systems 20, 4 
+(June 1992), 311–320. DOI:https://doi.org/10.2190/
+T0EY-KF0H-0RTV-X5DG
+
+[33]   Maria Economou and Laia Pujol-Tost. 2011. Evaluating the use of virtual 
+reality and multimedia applications for presenting the
+past. In Handbook of Research on Technologies and Cultural Heritage. IGI 
+Global, Hershey, PA, 223–239. DOI:https://doi.org/10.4018/
+978-1-60960-044-0.ch011
+
+[34]   Warwick B. Elley. 1989. Vocabulary acquisition from listening to 
+stories. Reading Research Quarterly 24, 2 (1989), 174–187. DOI:
+
+https://doi.org/10.2307/747863
+
+[35]   Carol Evans, John T. E. Richardson, and Michael Waring. 2013. Field 
+independence: Reviewing the evidence. British Journal of Educa-
+tional Psychology 83, 2 (June 2013), 210–224. 
+DOI:https://doi.org/10.1111/bjep.12015
+
+[36]   Joseph R. Fanfarelli and Rudy McDaniel. 2015. Individual differences in 
+digital badging: Do learner characteristics matter?Journal of
+Educational Technology Systems 43, 4 (June 2015), 403–428. 
+DOI:https://doi.org/10.1177/0047239515588165
+
+[37]   Josef Froschauer, Dieter Merkl, Max Arends, and Doron Goldfarb. 2013. 
+Art history concepts at play with ThIATRO. ACM Journal on
+Computing and Cultural Heritage 6, 2 (May 2013), Article 7, 15 pages. 
+DOI:https://doi.org/10.1145/2460376.2460378
+
+[38]   Josef Froschauer, Ingo Seidel, Markus Gartner, Helmut Berger, and Dieter 
+Merkl. 2010. Design and evaluation of a serious game for
+immersive cultural training. In Proceedings of the 16th International 
+Conference on Virtual Systems and Multimedia (VSMM’10). IEEE,
+Los Alamitos, CA, 253–260. DOI:https://doi.org/10.1109/VSMM.2010.5665978
+
+
+[39]   Dina Goren-Bar, Ilenia Graziola, Fabio Pianesi, and Massimo Zancanaro. 
+2006. The influence of personality factors on visitor atti-
+tudes towards adaptivity dimensions for mobile museum guides. User Modeling and 
+User-Adapted Interaction 16, 1 (Mar. 2006), 31–62.
+
+DOI:https://doi.org/10.1007/s11257-006-9004-7
+
+[40]   David Hecht and Miriam Reiner. 2007. Field dependency and the sense of 
+object-presence in haptic virtual environments. CyberPsy-
+chology and Behavior 10, 2 (Apr. 2007), 243–251. 
+DOI:https://doi.org/10.1089/cpb.2006.9962
+
+[41]   Kenneth Holmqvist, Marcus Nyström, and Fiona Mulvey. 2012. Eye tracker 
+data quality: What it is and how to measure it. In Proceed-
+ings of the Symposium on Eye Tracking Research and Applications (ETRA’12). ACM, 
+New York, NY, 45–52. DOI:https://doi.org/10.1145/
+2168556.2168563
+
+[42]   Jon-Chao Hong, Ming-Yueh Hwang, Ker-Ping Tam, Yi-Hsuan Lai, and Li-Chun 
+Liu. 2012. Effects of cognitive style on digital jigsaw
+puzzle performance: A gridware analysis. Computers in Human Behavior 28, 3 
+(2012), 920–928. DOI:https://doi.org/10.1016/j.chb.2011.
+12.012
+
+[43]   Ming-Shiunn Huang and Brian Byrne. 1978. Cognitive style and lateral eye 
+movements. British Journal of Psychology 69, 1 (Feb. 1978),
+85–90. DOI:https://doi.org/10.1111/j.2044-8295.1978.tb01635.x
+
+[44]   Jeffrey Jacobson. 2011. Digital dome versus desktop display in an 
+educational game: Gates of Horus. International Journal of Gaming
+and Computer-Mediated Simulations 3, 1 (2011), 13–32. 
+DOI:https://doi.org/10.4018/jgcms.2011010102
+
+[45]   Christina Katsini, Christos Fidas, Marios Belk, Nikolaos Avouris, and 
+George Samaras. 2017. Influences of users’ cognitive strategies
+on graphical password composition. In Proceedings of the 2017 CHI Conference 
+Extended Abstracts on Human Factors in Computing
+Systems (CHI EA’17). ACM, New York, NY, 2698–2705. 
+DOI:https://doi.org/10.1145/3027063.3053217
+
+[46]   Christina Katsini, Christos Fidas, George E. Raptis, Marios Belk, George 
+Samaras, and Nikolaos Avouris. 2018. Influences of human
+cognition and visual behavior on password strength during picture password 
+composition. In Proceedings of the 2018 CHI Conference on
+Human Factors in Computing Systems (CHI’18). ACM, New York, NY, Article 87, 14 
+pages. DOI:https://doi.org/10.1145/3173574.3173661
+
+[47]   Mohammad Khatib and Rasoul Mohammad Hosseinpur. 2011. On the validity of 
+the group embedded figure test (GEFT). Journal of
+Language Teaching and Research 2, 3 (May 2011), 640–648. 
+DOI:https://doi.org/10.4304/jltr.2.3.640-648
+
+[48]   Hayun Kim, Sungeun An, Sangeun Keum, and Wontack Woo. 2015. H-treasure 
+hunt: A location and object-based serious game for
+cultural heritage learning at a historic site. In Learning and Collaboration 
+Technologies, P. Zaphiris and A. Ioannou (Eds.). Springer
+International Publishing, Cham, Switzerland, 561–572.
+
+[49]   Kyung-Sun Kim. 2001. Implications of user characteristics in information 
+seeking on the World Wide Web. International Journal of
+Human-Computer Interaction 13, 3 (Sep. 2001), 323–340. 
+DOI:https://doi.org/10.1207/S15327590IJHC1303_3
+
+[50]   Eric Klopfer, Judy Perry, Kurt Squire, Ming-Fong Jan, and Constance 
+Steinkuehler. 2005. Mystery at the museum: A collaborative
+game for museum education. In Proceedings of the 2005 Conference on Computer 
+Support for Collaborative Learning: Learning 2005: The
+Next 10 Years! (CSCL’05). 316–320. 
+http://dl.acm.org/citation.cfm?id=1149293.1149334
+
+[51]   Chih-Hung Ko, Gin-Chung Liu, Sigmund Hsiao, Ju-Yu Yen, Ming-Jen Yang, 
+Wei-Chen Lin, et al. 2009. Brain activities associated with
+gaming urge of online gaming addiction. Journal of Psychiatric Research 43, 7 
+(Apr. 2009), 739–747. DOI:https://doi.org/10.1016/j.
+jpsychires.2008.09.012
+
+[52]   Maria Kozhevnikov. 2007. Cognitive styles in the context of modern 
+psychology: Toward an integrated framework of cognitive style.
+
+Psychological Bulletin 133, 3 (May 2007), 464–481. 
+DOI:https://doi.org/10.1037/0033-2909.133.3.464
+
+[53]   Tsvi Kuflik, Oliviero Stock, Massimo Zancanaro, Ariel Gorfinkel, Sadek 
+Jbara, Shahar Kats, et al. 2011. A visitor’s guide in an active
+museum: Presentations, communications, and reflection. ACM Journal on Computing 
+and Cultural Heritage 3, 3 (Mar. 2011), 1–25.
+
+DOI:https://doi.org/10.1145/1921614.1921618
+
+[54]   Joel Lanir, Peter Bak, and Tsvi Kuflik. 2014. Visualizing 
+proximity-based spatiotemporal behavior of museum visitors using tangram
+diagrams. Computer Graphics Forum 33, 3 (June 2014), 261–270. 
+DOI:https://doi.org/10.1111/cgf.12382
+
+[55]   Joel Lanir, Tsvi Kuflik, Julia Sheidin, Nisan Yavin, Kate Leiderman, and 
+Michael Segal. 2017. Visualizing museum visitors’ behavior:
+Where do they go and what do they do there?Personal and Ubiquitous Computing 
+21, 2 (Apr. 2017), 313–326. DOI:https://doi.org/10.
+1007/s00779-016-0994-9
+
+[56]   Joel Lanir, Alan J. Wecker, Tsvi Kuflik, and Yasmin Felberbaum. 2016. 
+Shared mobile displays: An exploratory study of their use in a
+museum setting. Personal and Ubiquitous Computing 20, 4 (Aug. 2016), 635–651. 
+DOI:https://doi.org/10.1007/s00779-016-0931-y
+
+[57]   Nicola Lercari, Michela Mortara, and Maurizio Forte. 2014. Unveiling 
+California history through serious games: Fort Ross virtual
+warehouse. In Games  and  Learning  Alliance, A. De Gloria (Ed.). Springer 
+International Publishing, Cham, Switzerland, 236–251.
+
+DOI:https://doi.org/10.1007/978-3-319-12157-4_19
+
+[58]   Fotis Liarokapis, Panagiotis Petridis, Daniel Andrews, and Sara de 
+Freitas. 2017. Multimodal serious games technologies for cultural
+heritage. In Mixed Reality and Gamification for Cultural Heritage, M. 
+Ioannides, N. Magnenat-Thalmann, and G. Papagiannakis (Eds.).
+
+Springer International Publishing, Cham, Switzerland, 371–392. 
+DOI:https://doi.org/10.1007/978-3-319-49607-8_15
+
+[59]   Tze Wei Liew and Sazilah Salam. 2012. The effects of visual cues and 
+learners’ field dependence in multiple external representations
+environment for novice program comprehension. Journal of Interactive Learning 
+Research 23, 2 (2012), 165–189.
+
+[60]   Tze Wei Liew, Su-Mae Tan, and Rouzbeh Seydali. 2014. Learners’ field 
+dependence and the effects of personalized narration on learners’
+computer perceptions and task-related attitudes in multimedia learning. Journal 
+of Educational Technology Systems 42, 3 (Mar. 2014),
+255–272. DOI:https://doi.org/10.2190/ET.42.3.e
+
+
+[61]   María  Teresa  Linaza,  David  Marimón,  Paula  Carrasco,  Roberto  
+Álvarez,  Javier  Montesa,  Salvador  Ramón  Aguilar,  et  al.  2012.
+Evaluation of mobile augmented reality applications for tourism destinations. 
+In Information and Communication Technologies in
+Tourism  2012,  M.  Fuchs,  F.  Ricci,  and  L.  Cantoni  (Eds.).  Springer  
+Vienna,  Vienna,  Austria,  260–271.  DOI:https://doi.org/10.1007/
+978-3-7091-1142-0_23
+
+[62]   Geoffrey R. Loftus. 1972. Eye fixations and recognition memory for 
+pictures. Cognitive Psychology 3, 4 (Oct. 1972), 525–551. DOI:
+
+https://doi.org/10.1016/0010-0285(72)90021-7
+
+[63]   Chin-Hsieh Lu, Jon-Chou Hong, and Pei-Hsiu Huang. 2007. The effects of 
+individual characteristics on children’s problem solving
+performances in the context of game-based learning. In Proceedings of 
+Redesigning Pedagogy: Culture, Knowledge and Understanding
+Conference.
+
+[64]   Fei Lu, Feng Tian, Yingying Jiang, Xiang Cao, Wencan Luo, Guang Li, et 
+al. 2011. ShadowStory: Creative and collaborative digital
+storytelling inspired by cultural heritage. In Proceedings of the SIGCHI 
+Conference on Human Factors in Computing Systems (CHI’11).
+
+ACM, New York, NY, 1919–1928. DOI:https://doi.org/10.1145/1978942.1979221
+
+[65]   Dane M. Chapman and Judith G. Calhoun2006. Validation of learning style 
+measures: Implications for medical education practice.
+
+Medical Education 40, 6 (May 2006), 576–583. 
+DOI:https://doi.org/10.1111/j.1365-2929.2006.02476.x
+
+[66]   Irini Malegiannaki and Thanasis Daradoumis. 2017. Analyzing the 
+educational design, use and effect of spatial games for cultural
+heritage: A literature review. Computers and Education 108 (May 2017), 1–10. 
+DOI:https://doi.org/10.1016/j.compedu.2017.01.007
+
+[67]   Stefano Mastandrea, Gabriella Bartoli, and Giuseppe Bove. 2009. 
+Preferences for ancient and modern art museums: Visitor experiences
+and personality characteristics. Psychology of Aesthetics, Creativity, and the 
+Arts 3, 3 (Aug. 2009), 164–173. DOI:https://doi.org/10.1037/
+a0013142
+
+[68]   Franco Mawad, Marcela Trías, Ana Giménez, Alejandro Maiche, and Gastón 
+Ares. 2015. Influence of cognitive style on informa-
+tion processing and selection of yogurt labels: Insights from an eye-tracking 
+study. Food Research International 74 (Aug. 2015), 1–9.
+
+DOI:https://doi.org/10.1016/j.foodres.2015.04.023
+
+[69]   Richard E. Mayer and Laura J. Massa. 2003. Three facets of visual and 
+verbal learners: Cognitive ability, cognitive style, and learning
+preference. Journal of Educational Psychology 95, 4 (Dec. 2003), 833–846. 
+DOI:https://doi.org/10.1037/0022-0663.95.4.833
+
+[70]   Rudy McDaniel and Robert Kenny. 2013. Evaluating the relationship 
+between cognitive style and pre-service teachers’ preconceived
+notions about adopting console video games for use in future classrooms. 
+International Journal of Game-Based Learning 3, 2 (2013),
+55–76. DOI:https://doi.org/10.4018/ijgbl.2013040104
+
+[71]   Zdenek Mikovec, Pavel Slavik, and Jiri Zara. 2009. Cultural heritage, 
+user interfaces and serious games at CTU Prague. In Proceedings
+of the 15th International Conference on Virtual Systems and Multimedia 
+(VSMM’15). IEEE, Los Alamitos, CA, 211–216. DOI:https://
+doi.org/10.1109/VSMM.2009.38
+
+[72]   Michela Mortara, Chiara Eva Catalano, Francesco Bellotti, Giusy Fiucci, 
+Minica Houry-Panchetti, and Panagiotis Petridis. 2014. Learn-
+ing cultural heritage by serious games. Journal of Cultural Heritage 15, 3 
+(2014), 318–325. DOI:https://doi.org/10.1016/j.culher.2013.
+04.004
+
+[73]   Yannick Naudet, Angeliki Antoniou, Ioanna Lykourentzou, Eric Tobias, 
+Jenny Rompa, and George Lepouras. 2015. Museum person-
+alization based on gaming and cognitive styles. International Journal of 
+Virtual Communities and Social Networking 7, 2 (Apr. 2015),
+1–30. DOI:https://doi.org/10.4018/IJVCSN.2015040101
+
+[74]   João N. Neto, Ricardo Silva, João P. Neto, João Madeiras Pereira, and 
+João Fernandes. 2011. Solis’curse—A cultural heritage game
+using voice interaction with a virtual agent. In Proceedings of the 3rd 
+International Conference on Games and Virtual Worlds for Serious
+Applications (VS-Games’11). IEEE, Los Alamitos, CA, 164–167. 
+DOI:https://doi.org/10.1109/VS-GAMES.2011.31
+
+[75]   Newzoo. 2017. Gamer Consumer Insights. Technical Report. Newzoo.
+
+[76]   Efi Nisiforou and Andrew Laghos. 2016. Field dependence-independence and 
+eye movement patterns: Investigating users’ differences
+through an eye tracking study. Interacting with Computers 28, 4 (June 2016), 
+407–420. DOI:https://doi.org/10.1093/iwc/iwv015
+
+[77]   Mania Nosratinia and Shirin Adibifar. 2014. The effect of teaching 
+metacognitive strategies on field-dependent and independent
+learners’ writing. Procedia: Social and Behavioral Sciences 98 (May 2014), 
+1390–1399. DOI:https://doi.org/10.1016/j.sbspro.2014.03.557
+
+[78]   Jeni Paay, Jesper Kjeldskov, Anders Christensen, Andreas Ibsen, Dan 
+Jensen, Glen Nielsen, et al. 2008. Location-based storytelling in
+the urban environment. In Proceedings of the 20th Australasian Conference on 
+Computer-Human Interaction Designing for Habitus and
+Habitat (OZCHI’08). ACM, New York, NY, 122–129. 
+DOI:https://doi.org/10.1145/1517744.1517786
+
+[79]   Allan Paivio. 1990. Mental Representations: A Dual Coding Approach. 
+Oxford University Press, Oxford, UK.
+
+[80]   Ruth A. Palmquist and Kyung-Sun Kim. 2000. Cognitive style and on-line 
+database search experience as predictors of web search
+performance. Journal of the American Society for Information Science and 
+Technology 51, 6 (Mar. 2000), 558–566. DOI:https://doi.org/
+10.1002/(SICI)1097-4571(2000)51:6 558::AID-ASI7 3.0.CO;2-9
+
+[81]   Konstantinos Papangelis, Melvin Metzger, Yiyang Sheng, Hai-Ning Liang, 
+Alan Chamberlain, and Vassilis-Javed Khan. 2017. “Get off
+my lawn!”: Starting to understand territoriality in location based mobile 
+games. In Proceedings of the 2017 CHI Conference Extended
+Abstracts on Human Factors in Computing Systems (CHI EA’17). ACM, New York, NY, 
+1955–1961. DOI:https://doi.org/10.1145/3027063.
+3053154
+
+
+[82]   Isabel Pedersen, Nathan Gale, Pejman Mirza-Babaei, and Samantha Reid. 
+2017. More than meets the eye: The benefits of augmented
+reality and holographic displays for digital cultural heritage. ACM Journal on 
+Computing and Cultural Heritage 10, 2 (Mar. 2017), 1–15.
+
+DOI:https://doi.org/10.1145/3051480
+
+[83]   Sara Elizabeth Perry, Maria Roussou, Maria Economou, Hilary Young, and 
+Laia Pujol. 2017. Moving beyond the virtual museum:
+Engaging visitors emotionally. In Proceedings of the 2017 23rd International 
+Conference on Virtual System Multimedia (VSMM’17). IEEE,
+
+Los Alamitos, CA, 1–8. DOI:https://doi.org/10.1109/VSMM.2017.8346276
+
+[84]   Daniela Petrelli and Sinead O’Brien. 2018. Phone vs. Tangible in 
+museums: A comparative study. In Proceedings of the 2018 CHI
+Conference on Human Factors in Computing Systems (CHI’18). ACM, New York, NY, 
+Article 112, 12 pages. DOI:https://doi.org/10.1145/
+3173574.3173686
+
+[85]   Panagiotis Petridis, Ian Dunwell, Fotis Liarokapis, George Constantinou, 
+Sylvester Arnab, Sara de Freitas, et al. 2013. The Herbert
+Virtual Museum. Journal of Electrical and Computer Engineering 2013 (2013), 
+1–8. DOI:https://doi.org/10.1155/2013/487970
+
+[86]   Robert T. Pithers. 2002. Cognitive learning style: A review of the field 
+dependent-field independent approach. Journal of Vocational
+Education and Training 54, 1 (Mar. 2002), 117–132. 
+DOI:https://doi.org/10.1080/13636820200200191
+
+[87]   Christina Pollalis, Whitney Fahnbulleh, Jordan Tynes, and Orit Shaer. 
+2017. HoloMuse: Enhancing engagement with archaeological
+artifacts through gesture-based interaction with holograms. In Proceedings of 
+the 10th International Conference on Tangible, Embedded,
+and Embodied Interaction (TEI’17). ACM, New York, NY, 565–570. 
+DOI:https://doi.org/10.1145/3024969.3025094
+
+[88]   Laia Pujol-Tost. 2018. Cultural presence in virtual archaeology: An 
+exploratory analysis of factors. Presence: Teleoperators and Virtual
+Environments 26, 3 (2018), 247–263. DOI:https://doi.org/10.1162/pres_a_00296
+
+[89]   George E. Raptis, Christos A. Fidas, and Nikolaos M. Avouris. 2016. 
+Differences of field dependent/independent gamers on cultural
+heritage playing: Preliminary findings of an eye–tracking study. In Digital 
+Heritage. Progress in Cultural Heritage: Documentation,
+Preservation, and Protection, M. Ioannides, E. Fink, A. Moropoulou, M. 
+Hagedorn-Saupe, A. Fresa, G. Liestøl, et al. (Eds.). Springer
+International Publishing, Cham, Switzerland, 199–206. 
+DOI:https://doi.org/10.1007/978-3-319-48974-2_22
+
+[90]   George E. Raptis, Christos A. Fidas, and Nikolaos M. Avouris. 2016. Do 
+field dependence-independence differences of game players
+affect performance and behaviour in cultural heritage games? In Proceedings of 
+the 2016 Annual Symposium on Computer-Human
+Interaction in Play (CHI PLAY’16). ACM, New York, NY, 38–43. 
+DOI:https://doi.org/10.1145/2967934.2968107
+
+[91]   George E. Raptis, Christos A. Fidas, and Nikolaos M. Avouris. 2016. 
+Using eye tracking to identify cognitive differences: A brief
+literature review. In Proceedings of the 20th Pan-Hellenic Conference on 
+Informatics (PCI’16). ACM, New York, NY, Article 21, 6 pages.
+
+DOI:https://doi.org/10.1145/3003733.3003762
+
+[92]   George E. Raptis, Christos A. Fidas, and Nikolaos M. Avouris. 2017. 
+Cultural heritage gaming: Effects of human cognitive styles
+on players’ performance and visual behavior. In the Adjunct Publication of the 
+25th Conference on User Modeling, Adaptation, and
+Personalization (UMAP’17). ACM, New York, NY, 343–346. 
+DOI:https://doi.org/10.1145/3099023.3099090
+
+[93]   George E. Raptis, Christos A. Fidas, and Nikolaos M. Avouris. 2017. On 
+implicit elicitation of cognitive strategies using gaze transition
+entropies in pattern recognition tasks. In Proceedings of the 2017 CHI 
+Conference Extended Abstracts on Human Factors in Computing
+Systems (CHI EA’17). ACM, New York, NY, 1993–2000. 
+DOI:https://doi.org/10.1145/3027063.3053106
+
+[94]   George E. Raptis, Christos A. Fidas, and Nikolaos M. Avouris. 2018. 
+Effects of mixed-reality on players’ behaviour and immersion in a
+cultural tourism game: A cognitive processing perspective. International 
+Journal of Human-Computer Studies 114 (June 2018), 69–79.
+
+DOI:https://doi.org/10.1016/j.ijhcs.2018.02.003
+
+[95]   George E. Raptis, Christos A. Fidas, Christina Katsini, and Nikolaos M. 
+Avouris. 2018. Towards a cognition-centered personalization
+framework for cultural-heritage content. In Extended Abstracts of the 2018 CHI 
+Conference on Human Factors in Computing Systems
+(CHI EA’18). ACM, New York, NY, Article LBW011, 6 pages. 
+DOI:https://doi.org/10.1145/3170427.3190613
+
+[96]   George E. Raptis, Christina Katsini, Marios Belk, Christos A. Fidas, 
+George Samaras, and Nikolaos Avouris. 2017. Using eye gaze data
+and visual activities to infer human cognitive styles: Method and feasibility 
+studies. In Proceedings of the 25th Conference on User
+Modeling, Adaptation, and Personalization (UMAP’17). ACM, New York, NY, 
+164–173. DOI:https://doi.org/10.1145/3079628.3079690
+
+[97]   George E. Raptis, Christina Katsini, Christos A. Fidas, and Nikolaos 
+Avouris. 2018. Visualization of cultural-heritage content based
+on individual cognitive differences. In Proceedings of the 2018 AVI-CH Workshop 
+on Advanced Visual Interfaces for Cultural Heritage
+(AVI-CH’18). http://ceur-ws.org/Vol-2091/paper9.pdf.
+
+[98]   Keith Rayner. 1977. Visual attention in reading: Eye movements reflect 
+cognitive processes. Memory and Cognition 5, 4 (July 1977),
+443–448. DOI:https://doi.org/10.3758/BF03197383
+
+[99]   Richard Riding and Indra Cheema. 1991. Cognitive styles—An overview and 
+integration. Educational Psychology 11, 3–4 (1991), 193–
+215. DOI:https://doi.org/10.1080/0144341910110301
+
+[100]   Kent A. Rittschof. 2010. Field dependence-independence as visuospatial 
+and executive functioning in working memory: Implica-
+tions for instructional systems design and research. Educational Technology 
+Research and Development 58, 1 (Feb. 2010), 99–114. DOI:
+https://doi.org/10.1007/s11423-008-9093-6
+
+[101]   Richard J. Robertson and Patricia Alfano. 1985. Field dependence as a 
+limiting factor in solving a complex learning problem. Perceptual
+and Motor Skills 61, 1 (Aug. 1985), 276–278. 
+DOI:https://doi.org/10.1177/003151258506100101
+
+
+[102]   Cesare Rocchi, Oliviero Stock, Massimo Zancanaro, Michael Kruppa, and 
+Antonio Krüger. 2004. The museum visit: Generating seam-
+less personalized presentations on multiple devices. In Proceedings of the 9th 
+International Conference on Intelligent User Interface
+(IUI’04). ACM, New York, NY, 316–318. DOI:https://doi.org/10.1145/964442.964517
+
+[103]   Irene Rubino, Claudia Barberis, Jetmir Xhembulla, and Giovanni Malnati. 
+2015. Integrating a location-based mobile game in the
+museum visit: Evaluating visitors’ behaviour and learning. ACM Journal on 
+Computing and Cultural Heritage 8, 3 (May 2015), Article
+15, 18 pages. DOI:https://doi.org/10.1145/2724723
+
+[104]   Kaapo Seppälä, Olli I. Heimo, Timo Korkalainen, Juho Pääkylä, Jussi 
+Latvala, Seppo Helle, et al. 2016. Examining user experience
+in an augmented reality adventure game: Case Luostarinmäki Handicrafts Museum. 
+In Technology and Intimacy: Choice or Coercion,
+
+D. Kreps, G. Fletcher, and M. Griffiths (Eds.). Springer International 
+Publishing, Cham, Switzerland, 257–276. DOI:https://doi.org/10.
+1007/978-3-319-44805-3_21
+
+[105]   Kennon M. Sheldon and Vincent Filak. 2010. Manipulating autonomy, 
+competence, and relatedness support in a game-learning context:
+New evidence that all three needs matter. British Journal of Social Psychology 
+47, 2 (Dec. 2010), 267–283. DOI:https://doi.org/10.1348/
+014466607X238797
+
+[106]   Licheng Shi, Yuling Hu, and Jiali Wang. 2016. Effects of cognitive 
+styles on eye fixations: Evidence from drivers’ eye movements.
+
+International Journal of Psychology 51, S1 (July 2016), 1153.
+
+[107]   Vandana Singh. 2017. Exploring the relationship between cognitive style 
+and learning style with academic achievement of elementary
+school learners. Educational Quest 8 (Aug. 2017), 413–419. 
+DOI:https://doi.org/10.5958/2230-7311.2017.00084.8
+
+[108]   Christos Sintoris, Adrian Stoica, Ioanna Papadimitriou, Nikoleta 
+Yiannoutsou, Vassilis Komis, and Nikolaos Avouris. 2010. Museum-
+Scrabble: Design of a mobile game for children’s interaction with a digitally 
+augmented cultural space. International Journal of Mobile
+Human Computer Interaction 2, 2 (2010), 53–71. 
+DOI:https://doi.org/10.4018/jmhci.2010040104
+
+[109]   Maria Solé Puig, Laura Puigcerver, J. Antonio Aznar-Casanova, and Hans 
+Supèr. 2013. Difference in visual processing assessed by eye
+vergence movements. PLoS One 8, 9 (Sep. 2013), 372041. 
+DOI:https://doi.org/10.1371/journal.pone.0072041
+
+[110]   Oliviero Stock, Massimo Zancanaro, Paolo Busetta, Charles Callaway, 
+Antonio Krüger, Michael Kruppa, et al. 2007. Adaptive, intel-
+ligent presentation of information for the museum visitor in PEACH. User 
+Modeling and User-Adapted Interaction 17, 3 (July 2007),
+257–304. DOI:https://doi.org/10.1007/s11257-007-9029-6
+
+[111]   Yasuyuki Sumi and Kenji Mase. 2002. Supporting the awareness of shared 
+interests and experiences in communities. International
+Journal of Human-Computer Studies 56, 1 (Jan. 2002), 127–146. 
+DOI:https://doi.org/10.1006/ijhc.2001.0518
+
+[112]   Han-Yu Sung and Gwo-Jen Hwang. 2013. A collaborative game-based 
+learning approach to improving students’ learning performance
+in science courses. Computers and Education 63 (Apr. 2013), 43–51. 
+DOI:https://doi.org/10.1016/j.compedu.2012.11.019
+
+[113]   Rhoada K. Tannenbaum. 1982. An Investigation of the Relationship(s) 
+Between Selected Instructional Techniques and Identified Field
+Dependent and Field Independent Cognitive Styles as Evidenced Among High School 
+Students Enrolled in Studies of Nutrition. Ph.D.
+Dissertation. St. John’s University, Queens, NY.
+
+[114]   Gary F. Templeton. 2011. A two-step approach for transforming 
+continuous variables to normal: Implications and recommendations
+for is research. Communications of the Association for Information Systems 28, 
+1 (2011), 41–58.
+
+[115]   Marinos  Theodorakopoulos,  Nikos  Papageorgopoulos,  Andriana  Mourti, 
+ Angeliki  Antoniou,  Manolis  Wallace,  George  Lepouras,
+et al. 2017. Personalized augmented reality experiences in museums using Google 
+Cardboards. In Proceeding of the 12th Interna-
+tional  Workshop  on  Semantic  and  Social  Media  Adaptation  and  
+Personalization  (SMAP’17). IEEE, Los Alamitos, CA, 95–100. DOI:
+https://doi.org/10.1109/SMAP.2017.8022676
+
+[116]   Anastasios Theodoropoulos, Angeliki Antoniou, and George Lepouras. 
+2016. How do different cognitive styles affect learning pro-
+gramming? Insights from a game-based approach in Greek schools. ACM 
+Transactions on Computing Education 17, 1 (Jan. 2016), Article
+3,             25 pages. DOI:https://doi.org/10.1145/2940330
+
+[117]   Tobii AB. 2017. Tobii Pro Glasses 2: User Manual. Tobii AB.
+
+[118]   Dereck Toker, Cristina Conati, Ben Steichen, and Giuseppe Carenini. 
+2013. Individual user characteristics and information visual-
+ization: Connecting the dots through eye tracking. In Proceedings of the SIGCHI 
+Conference on Human Factors in Computing Systems
+(CHI’13). ACM, New York, NY, 295–304. 
+DOI:https://doi.org/10.1145/2470654.2470696
+
+[119]   Tomas Trescak and Anton Bogdanovych. 2017. Case-based planning for 
+large virtual agent societies. In Proceedings of the 23rd ACM
+Symposium on Virtual Reality Software and Technology (VRST’17). ACM, New York, 
+NY, Article 33, 10 pages. DOI:https://doi.org/10.
+1145/3139131.3139155
+
+[120]   Evangelos Triantafillou, Andreas Pomportsis, and Stavros Demetriadis. 
+2003. The design and the formative evaluation of an adap-
+tive educational system based on cognitive styles. Computers and Education 41, 
+1 (Aug. 2003), 87–103. DOI:https://doi.org/10.1016/
+S0360-1315(03)00031-9
+
+[121]   Sheila Vaidya and Norman M. Chansky. 1980. Cognitive development and 
+cognitive style as factors in mathematics achievement.
+
+Journal of Educational Psychology 72, 3 (1980), 326–330. 
+DOI:https://doi.org/10.1037/0022-0663.72.3.326
+
+[122]   William R. Watson, Christopher J. Mong, and Constance A. Harris. 2011. 
+A case study of the in-class use of a video game for teaching
+high school history. Computers and Education 56, 2 (Feb. 2011), 466–474. 
+DOI:https://doi.org/10.1016/j.compedu.2010.09.007
+
+
+[123]   Michel Wedel and Rik Pieters. 2000. Eye fixations on advertisements and 
+memory for brands: A model and findings. Marketing Science
+
+19, 4 (Nov. 2000), 297–312. DOI:https://doi.org/10.1287/mksc.19.4.297.11794
+
+[124]   Wen Wen, Toru Ishikawa, and Takao Sato. 2010. Working memory in spatial 
+knowledge acquisition: Differences in encoding processes
+and sense of direction. Applied Cognitive Psychology 25, 4 (Aug. 2010), 
+654–662. DOI:https://doi.org/10.1002/acp.1737
+
+[125]   James L. C. Wijnen and Cees J. Groot. 1984. An eye movement analysis 
+system (EMAS) for the identification of cognitive pro-
+cesses on figural tasks. Behavior Research Methods, Instruments, and Computers 
+16, 3 (May 1984), 277–281. DOI:https://doi.org/10.
+3758/BF03202402
+
+[126]   Mathias Wilde and Detlef Urhahne. 2008. Museum learning: A study of 
+motivation and learning achievement. Journal of Biological
+Education 42, 2 (Mar. 2008), 78–83. 
+DOI:https://doi.org/10.1080/00219266.2008.9656115
+
+[127]   Herman A. Witkin, Carol Ann Moore, Donald R. Goodenough, and Patricia 
+W. Cox. 1977. Field-dependent and field-independent
+cognitive styles and their educational implications. Review of Educational 
+Research 47, 1 (Mar. 1977), 1–64.
+
+[128]   Isil Yildirm and Rengin Zengel. 2014. The impact of cognitive styles on 
+design students’ spatial knowledge from virtual environments.
+
+Turkish Online Journal of Educational Technology 13, 3 (July 2014), 210–215.
+
+[129]   Yuji Yoshimura, Stanislav Sobolevsky, Carlo Ratti, Fabien Girardin, 
+Juan Pablo Carrascal, Josep Blat, et al. 2014. An analysis of visitors’
+behavior in the Louvre Museum: A study using Bluetooth data. Environment and 
+Planning B: Planning and Design 41, 6 (Dec. 2014),
+1113–1131. DOI:https://doi.org/10.1068/b130047p
+
+[130]   Daniel Yule, Bonnie MacKay, and Derek Reilly. 2015. Operation Citadell: 
+Exploring the role of docents in mixed reality. In Proceedings
+of the 2015 Annual Symposium on Computer-Human Interaction in Play (CHI 
+PLAY’15). ACM, New York, NY, 285–294. DOI:https://
+doi.org/10.1145/2793107.2793135
+
+[131]   Robert Zheng. 2010. Effects of situated learning on students’ knowledge 
+acquisition: An individual differences perspective. Journal of
+Educational Computing Research 43, 4 (Dec. 2010), 467–487. 
+DOI:https://doi.org/10.2190/EC.43.4.c
+
+[132]   Shi Zhuomin and Zheng Wanyi. 2014. An eye-tracking study on the 
+differences between two cognitive styles of individuals in reading
+advertising. Journal of Marketing Science 10, 3 (2014), 128–145.
+
+[133]   Barry J. Zimmerman. 2000. Self-efficacy: An essential motive to learn. 
+Contemporary Educational Psychology 25, 1 (Jan. 2000), 82–91.
+
+DOI:https://doi.org/10.1006/ceps.1999.1016
+
+Received January 2018; revised November 2018; accepted November 2018
+

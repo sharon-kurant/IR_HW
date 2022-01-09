@@ -1,0 +1,549 @@
+DISPLACING THE OBJECT: MOBILE
+TECHNOLOGIES AND INTERPRETIVE
+RESOURCES
+Dirk vom Lehn & Christian Heath
+Work, Interaction and Technology Research Group (WIT)
+The Management Centre - King’s College London, UK
+
+ICHIM 03 – Virtual & Real Galleries / Galeries Virtuelles et Réelles
+
+Abstract
+In recent years there has been a growing interest in using
+new techniques and technologies to enhance interpretation
+in fine art museums and galleries. There is an interest for
+example in exploring the ways in which mobile
+technologies ranging from the basic mobile phone through
+to personal digital assistants, could provide visitors with
+access to a range of information which would be tailorable
+with regard to an individual's interests concerns and the
+like. These developments are accompanied however by a
+growing concern, amongst curators and museum managers,
+that new technologies can undermine the character of the
+gallery and the ability of visitors to contemplate and enjoy
+an aesthetic encounter with the object. Developments and
+innovations need to balance an interest to enrich the
+interpretive resource with a commitment to preserving and
+enhancing aesthetic experience. This brief paper discusses
+the ways in which visitors to a contemporary art gallery
+used Personal Digital Assistants (PDA) to navigate and
+explore an exhibition. The PDAs provided the visitor with
+'content'- including text, audio and images concerning a
+selected number of objects. Our own observations are
+based upon video-based field studies of the ways in which
+ordinary visitors used the devices during their visit to the
+gallery. The paper addresses the ways in which visitors
+used the device and the material it made available to
+examine objects, both alone and with others, and the
+consequences of the PDA for how people organised their
+visit. It concludes with a brief discussion of possible
+implications of the observations on the design, deployment
+and evaluation of novel interpretation devices.
+Keywords: Interpretation devices, Personal Digital Assistant (PDA), Social Interaction,
+Art Museum and Gallery, Ethnography, Technology Design
+
+Introduction
+
+In recent years, there has been a growing interest in exploring how digital and
+communication technologies might enhance the interpretation of fine art museums and
+galleries. It has been suggested that new technologies may provide more flexible and
+'tailorable' resources; resources that enable visitors to experience and discover art
+© Archives & Museum Informatics Europe, 2003
+
+2
+
+ICHIM 03 – Virtual & Real Galleries / Galeries Virtuelles et Réelles
+unparalleled by more traditional solutions such as gallery cards, audio guides, catalogues
+and labels. There is for example a growing commitment to using digital display
+technologies to provide information concerning particular works, and an interest in
+exploring the ways in which mobile technologies, ranging from the basic mobile phones
+through to personal digital assistants (PDAs), can be used to enhance the range of material
+available to visitors as they examine exhibits and navigate exhibitions. These
+developments however are generating some debate and discussion. Many curators and
+museum managers are concerned that these new technologies may not only undermine the
+aesthetic of the gallery but provide resources that distract from, or even displace, the
+object. Indeed, it is increasingly recognised that in developing support for visitors to fine
+art museums and galleries, it is critical that we preserve the primacy of the object and
+aesthetic encounter whilst simultaneously enhancing the resources available for its
+interpretation. Balancing these two demands may not be unproblematic.
+
+In this brief paper, we wish to discuss the ways in which visitors to a contemporary art
+gallery used novel interpretation devices to navigate an exhibition to explore particular
+works of art. The devices in question were Personal Digital Assistants and provided with
+visitor with 'content'- including text, audio and images concerning a selected number of
+objects. Our own observations are based upon video-based field studies of the ways in
+which ordinary visitors used the devices during their visit to the gallery. In this paper, we
+wish to address the ways in which visitors used the device and the material it made
+available to examine objects, both alone and with others, and the consequences of the
+PDA for how people organised their visit. The paper concludes with a brief discussion on
+possible implications of the observations on the design, deployment and evaluation of
+novel interpretation devices.
+
+Background
+
+There is growing pressure on museum and galleries to legitimise their funding and to
+demonstrate their effectiveness both in attracting visitors and in enhancing information
+and learning. Science museums and centres have responded to these constraints by
+renewing and developing exhibition areas and providing where relevant visitors with a
+© Archives & Museum Informatics Europe, 2003
+
+3
+
+ICHIM 03 – Virtual & Real Galleries / Galeries Virtuelles et Réelles
+more interactive and participatory experience. New technologies have supported and
+encouraged these initiatives. To a large extent, this movement towards interactivity, has
+been based upon basic computing technologies, in particular the conventional
+workstation, but more innovative developments, including systems that support
+interaction and collaboration amongst visitors, have also been deployed. Surprisingly
+perhaps, given audio-guides, gallery cards and catalogues and the like, all of which are
+portable, until recently there has been less interest in exploring the ways in which mobile
+technologies can enhance the visit, whether in art museums and galleries or science
+centres and museums.
+
+In general however, despite the growing interest in deploying novel interpretation devices
+in museums and galleries, and the substantial body of research concerned with 'visitor
+behaviour', there are relatively few studies that examine how visitors, both alone and with
+others, use new technologies when examining exhibits and exploring exhibitions. There
+are however a number of important exceptions that raise some interesting issues and
+challenges concerning the design and deployment of innovate solutions for use in
+museums and galleries. Some studies are highly positive. For example Screven (1986)
+argues that interactive interpretation devices can enhance a visitor’s ability to examine
+and make sense of exhibits and extend dwell time. Other studies find for example, that
+despite the opportunities these new technologies offer they can intimidate and frustrate
+visitors and undermine the effectiveness of exhibitions (Serrell et al. 1992a). However, in
+reviewing these and other studies, it is important to not only differentiate the different
+types of technology that are used and the circumstances under which the experiments
+were undertaken and the evaluation methods employed, but also the design and display of
+the content and the types of visitors that frequent the institutions in question. It is also
+critical to bear in mind, that despite important exceptions (in particular, Aoki et al. 2002),
+the technology and the content is designed to enhance an individual's encounter with the
+object, rather than communication and interaction between visitors with regard to exhibits
+and the exhibitions. An 'individualistic' conception of the visitor appears to underlie many
+of these experiments and the solutions that support them. This stands in marked contrast
+to the findings of recent studies of visitor behaviour (Falk et al. 2000b; Leinhardt et al.
+2002; Paris 2002; vom Lehn et al. 2001a).
+
+© Archives & Museum Informatics Europe, 2003
+
+4
+
+ICHIM 03 – Virtual & Real Galleries / Galeries Virtuelles et Réelles
+
+The Experiment and Field Observation
+
+The discussion in this paper is based on field observation and video-recording collected in
+a contemporary art museum where a team of museum educators and technologists
+experimented with the deployment of a PDA over a number of weeks in the Summer of
+2002. Visitors were provided with the opportunity to use a PDA when visiting a particular
+collection of galleries. The device was a conventional PDA with a headphone that
+delivered information concerning one exhibit in each room of the gallery. Depending on
+the exhibit the device delivered information either as text-, audio- or video-file.
+
+The experiment was published as “multimedia tour”. Staff explained the functionality of
+the device, aspects of the content delivered throughout the tour and how visitors might
+deal with possible technical problems. At the beginning of the experiment, there were
+difficulties with the technology; the device frequently crashed when impatient visitors
+attempted to repeat operations and overloaded the system. The design team dealt with
+these technical problems within the first week or so and this made it much easier and less
+frustrating for people to use.
+
+Data collection consisted of field observation and audio-visual recording of people using
+the system as they visited the galleries. Data collection was undertaken over a four week
+period and generated a substantial corpus of naturalistic observations and materials; data
+that included visitors of different ages, those alone and with others, and visitors who came
+on different days and at different times. In undertaking video-recording, we spoke to
+visitors as they arrived at the desk and inquired whether they were prepared to participate
+in the research. We would then ask to wear a small microphone and arranged to
+unobtrusively follow them on their tour of the galleries. Visitors who agreed to
+participate in the investigation were informed that they could approach the researcher at
+any point if they decided to terminate their participation in the study. Analysis of the
+materials draws on recent methodological developments in the social sciences concerned
+with the social and interactional organisation of human conduct and interaction (see for
+example, Heath et al. 2000c).
+
+© Archives & Museum Informatics Europe, 2003
+
+5
+
+ICHIM 03 – Virtual & Real Galleries / Galeries Virtuelles et Réelles
+
+Navigation Patterns
+
+In the traditional modern museum human guides were a common means to organise
+visitors’ navigation and examination of the galleries. Visitors were not allowed to
+navigate the museum in their own pace and the guide defined the navigation path and
+pace as well as the information provision in the galleries (e.g. Hudson 1975).
+
+As
+
+museums developed to become educational institutions labels were introduced to
+accompany original objects and the number of guided tours was limited to special events
+at set times. Visitors themselves decided the path through the exhibition and the time they
+spent with exhibits. Written labels sometimes associated with pictorial information,
+offered visitors information about the exhibits. Some 19th century scholars even argued
+that labels should be the predominant form of educational device that illustrated by
+exhibits. “An efficient educational museum may be described as a collection of instructive
+labels, each illustrated by a well-selected specimen” (Goode in Alexander 1996: 12).
+Others contend that the original objects are the critical source material for the museum
+experience whilst labels and other interpretation resources pollute it.
+
+In recent years, the importance of the educational agenda of museums has stimulated the
+development and deployment of novel, often hi-tech interpretation resources in
+exhibitions. They are devised to provide visitors with information about and instruct their
+examination of exhibits. Investigations of the success of information kiosks indicate that
+they can increase the “effectiveness of exhibits” (most recently, Shettel 2001).
+Information kiosks can motivate visitors to approach and spend more time with exhibits
+and by providing visitors with a vast amount of content in different media formats such as
+text, images, audio and video they can enhance the communication power of exhibits (e.g.
+Exploratorium 2001; Screven 1986; Serrell 1992). However, the deployment of stationary
+systems like information kiosks is not unproblematic. Through their design and placement
+by an exhibit the position where additional information about an exhibit can be received is
+predetermined. Therefore, the installation of an information kiosk creates a second
+activity area besides the exhibit. Visitors who arrive by the exhibit can adopt two
+positions, one where they use and view the kiosk and another where they examine the
+original object.
+© Archives & Museum Informatics Europe, 2003
+
+6
+
+ICHIM 03 – Virtual & Real Galleries / Galeries Virtuelles et Réelles
+
+PDAs are a very different technology. In the case at hand, the PDA is introduced as a
+device that organises their navigation of the gallery as a “multimedia tour”. As part of the
+experiment, the content that visitors receive from the device is limited to one exhibit per
+room of the gallery. A visitor who uses the device normally holds the PDA in her/his
+hands and wears the headphones. When s/he enters the first room s/he waits for
+information displayed on the PDA and then orients to the respective exhibit featured by
+the device. S/he attends to the information delivery by the PDA and at least occasionally
+looks at and inspects the exhibit. As the delivery of content is completed visitors further
+explore the room and glance at the other exhibits. The dwell-time at the exhibits that are
+not covered by the device is remarkably shorter than at the one featured by the device.
+This observation reflects the “tour character” of the visit. The PDA becomes a surrogate
+tour guide that highlights the important and relevant aspects of the exhibition that are
+viewed exemplary for the theme of the room. Visitors who use the PDA examine this
+particular exhibit in some detail and only briefly attend to the other exhibits in the room
+that seem to only further illustrate the theme of the room in different ways.
+
+These observations suggest that the deployment of PDAs fundamentally transforms the
+museum visit and configures the way in which visitors navigate exhibitions. Visitors
+normally navigate exhibitions and approach exhibits they become interested through their
+looks and events happening in their locale. The PDA and the information it delivers can
+change visitors’ navigation path and the time they spend with exhibits. It can help
+increase the attracting and holding power of exhibits and communicate information about
+them. The PDA can help increase the “effectiveness” of exhibits as measured by
+attracting, holding and communication power, which are the conventional indicators
+developed in visitor studies (see for example, Shettel 2001).
+
+The increased dwell-time at the by the use of the device raises questions concerning the
+actions and activities visitors carry out while being in the locale of an exhibit featured in
+the information delivery. With respect to visitors’ use of stationary information kiosks we
+have observed that visitors receive the information from the device and then move on
+either to look at the original object or elsewhere. In many cases, the information kiosk
+was used as a substitute for the exhibit (i.e. Heath et al. 2003). Surprisingly, visitors who
+© Archives & Museum Informatics Europe, 2003
+
+7
+
+ICHIM 03 – Virtual & Real Galleries / Galeries Virtuelles et Réelles
+use the PDA also often spend more time with looking at and operating the device than
+with the original object. In the case at hand, we have observed that even when the device
+delivers audio information visitors often looked at the screen rather than at the exhibit. A
+similar observation has been made by Walter (1996) who studies the use of electronic
+audio-guides in the Roman Bath Museum. Its mobile characteristics are not able to
+resolve this problem that concerns curators and museum managers and has been observed
+with the deployment of stationary information kiosks. However, the possibility to retrieve
+information whilst remaining mobile stimulates visitors to choose a position at the
+exhibit-face when they use the device and retrieve information. Despite having adopted a
+position by the exhibit visitors do not necessarily view and examine it. The PDA often
+substitutes the original object.
+
+Interpretation Devices in Action
+
+Art perception and experience is often characterised as a disembodied, cognitive
+accomplishment. Scholars argue that artworks have characteristics the viewer can
+“decode” (e.g. Arnheim 1974; Gibson 1986) or that the viewer individually constructs
+meaning from what they see based on prior knowledge and the like (e.g. Hein 1995).
+However, it is being acknowledged that in order to make sense of exhibits as intended by
+their designers viewers need information and knowledge that facilitates the ‘correct’
+decoding of the cultural object (e.g. Bourdieu 1990). Interpretation resources as they are
+currently being deployed into museums contribute to this perspective. They are designed
+to provide the individual viewer with information that enables him/her to understand the
+exhibit.
+
+In the case at hand, the PDAs deployed in the contemporary art museum are being
+designed to allow visitors to carry with them information they can use to navigate the
+gallery and make sense of the displays. Our observations suggest that despite being
+mobile devices the PDAs are used and consulted for information mainly in stationary
+positions. A visitor with a PDA adopts a position where s/he can view and examine the
+exhibit. The position that the visitor adopts is influenced by the information that the
+device delivers about the exhibit. The visitor then visually orients to the device whilst
+© Archives & Museum Informatics Europe, 2003
+
+8
+
+ICHIM 03 – Virtual & Real Galleries / Galeries Virtuelles et Réelles
+remaining in this position. For example, when the device informs the visitor about a
+particular exhibit feature the visitor adopts a position where s/he can best see this feature.
+As the PDA conveys further information the visitor changes her/his position and views
+other exhibit features featuring in the information delivery by the device. However, after a
+brief glance or look at the exhibit the visitor shifts her/his orientation to the device whilst
+remaining in the position at the exhibit-face. S/he occupies a position at the exhibit
+although their principal involvement is with the PDA.
+
+Viewing exhibits and using interpretation devices are embodied activities. Visitors who
+navigate exhibitions look at and experience exhibits whilst moving past them. And when
+having taken a position they not only look at the exhibit in front of them but also at other
+exhibits in the locale. Through movement, looking and other kinds of activities visitors
+step-by-step produce the context in which each object is seen (see vom Lehn at al. 2001).
+The information provided by the PDA in the contemporary art museum primarily
+provided information about individual exhibits and support individual visitors viewing
+and experiencing them. However, they support only to a small extent the wide range of
+activities that visitors carry out when navigating and exploring exhibitions.
+
+Furthermore, when exploring an exhibition and examining exhibits the embodied
+activities of visitors, their movements and ways of looking are visible to all those in
+perceptual range. In previous investigations we have begun to show how visitors use
+others’ postures, visual orientation and activities in material environments as a resource to
+coordinate their conduct in and orientation to exhibitions. The visibility of actions and
+activities allows all those in “perceptual range of the event” (Goffman 1981: 3) to
+anticipate each other’s trajectory of actions (e.g. Heath et al. 2000; vom Lehn et al.
+2001ab). Visitors who use the PDA are often predominantly oriented to its screen. Other
+visitors encounter and see the user of a PDA as someone engaged with a small, portable
+device. They cannot see or hear the information the user of the PDA is engaged with and
+have difficulties in assessing the state of her/his activity and in making judgements about
+the trajectory of that activity. They also cannot assess how the ongoing involvement with
+the PDA is related to the exhibit the user is standing at. Will s/he stay at the exhibit for
+much longer or will s/he soon move on? Therefore, it seems that the deployment of PDAs
+may have significant influences on the ways in which visitors socially organise their
+© Archives & Museum Informatics Europe, 2003
+
+9
+
+ICHIM 03 – Virtual & Real Galleries / Galeries Virtuelles et Réelles
+navigation and exploration of the gallery. The devices configure not only the navigation
+pattern of the user but also influence the ways in which others navigate and explore the
+exhibition.
+
+PDAs and Social Interaction
+
+Museums are public places that people navigate and explore together with others, both
+those they are with and others who happen to be there at the same time. In the past few
+years, a growing number of investigations have begun to show how the experience of
+exhibits and exhibitions is produced in social interaction and discussion between visitors
+(e.g. Leinhardt 2001; vom Lehn et al. 2001a). Investigations also highlight that visitors
+learn about and experience exhibits by virtue of other people’s orientation to and
+experience of them (e.g. Bitgood 1993; vom Lehn 2001a).
+
+Despite these findings in visitor studies and sociology novel interpretation devices are
+normally designed for individual visitors and users.
+
+It seems that designers and
+
+developers of such devices believe that through appropriate provision of information the
+individual experience of exhibits can be maintained “pure” and “unpolluted”. The gallery
+where the PDAs have been deployed normally is relatively busy. Visitors who navigate
+and explore the exhibition without the device coordinate their examination of the displays
+with other people and orient to those exhibits that at the moment are not attended to by
+others. When visitors use the PDA they turn to the exhibit that is featured on the device
+and adopt a position that they occupy for the duration of the information delivery. They
+obstruct access to the exhibit features for other visitors as long as they keep the position at
+the artefact.
+
+Furthermore, the deployment of the PDA in the exhibition undermines visitors’ ability to
+coordinate their actions and activities with others in the same space. The user of the PDA
+is secluded and desensitised from events in the locale through the headphones and the
+small screen. These features, the headphones and the small screen, make it difficult for
+the user to participate in actions other visitors carry out around her/him. Other visitors
+have difficulties to anticipate the navigation path and orientation of the user of a PDA
+© Archives & Museum Informatics Europe, 2003
+
+10
+
+ICHIM 03 – Virtual & Real Galleries / Galeries Virtuelles et Réelles
+because they do not have access to what the user of the PDA sees, hears or orients to. In
+many cases visitors pass by without stopping at and examining an exhibit that is occupied
+by the user of the PDA. This is particularly unfortunate because the user of the PDA often
+stands at the exhibit whilst operating and examining the device. Therefore, the
+deployment of the PDA not only substitutes the object for its user but also undermines
+other visitors’ experience of the exhibit who navigate and explore the same gallery.
+
+Previous investigations have shown that visitors continually remain sensitive to and
+peripherally aware of events in their local environment when examining exhibits (e.g.
+vom Lehn et al. 2001a). They often find out and learn about exhibits and their features
+through the actions of others. The small screen does not allow other visitors to see what
+the user of the PDA is orienting to and assess when and where s/he will be moving to
+next. The headphones prohibit visitors to overhear others and make sense of an exhibit by
+virtue of other people’s talk and judgement about it. Therefore, it seems peripheral
+participation in others’ actions and activities which plays a critical part in visitors’
+experience of museums is undermined by the design of PDAs.
+
+Social interaction and talk are increasingly viewed critically important for visitors’
+museum experience (e.g. Falk et al. 2000b; Leinhardt et al. 2002). The design of the PDA
+undermines the emergence of opportunities for social interaction between visitors. The
+small screen and the headphones separate the user from her/his companions. S/he cannot
+seamlessly participate in their action and interaction because s/he cannot see or hear what
+they are attending to. And the companions cannot easily become engage in talk and
+interaction with the user because they do not have access to the information s/he is
+currently receiving from the PDA. Yet, the design of the PDA does not stop visitors from
+trying to make the device work for them in the gallery. Visitors take off the headphones to
+display that they are ready to talk and make other attempts to engage in social interaction
+and talk. In one case, for example, we have observed that a couple tried to connect a
+second headset to one PDA in order to listen to the information delivery together.
+
+© Archives & Museum Informatics Europe, 2003
+
+11
+
+ICHIM 03 – Virtual & Real Galleries / Galeries Virtuelles et Réelles
+
+Discussion and Implications
+The design and deployment of PDAs largely is tailored to the needs of the individual
+visitor as user and learner. Museums are public environments that are normally populated
+by multiple visitors at the same time. Visitors experience exhibits in social situations and
+coordinate their actions with others and engage in social interaction and talk.
+Investigations increasingly demonstrate that the concept of the individual visitor as
+viewer, user and learner is a misconceived. The museum experience is produced in social
+interaction amongst all those who inhabit a gallery at the same time. Highly contingent
+forms of participation emerge at and around exhibits through which visitors coordinate
+their involvement with and produce their experience of exhibits. Visitors remain
+continually sensitive to and peripherally aware of events in their local environment. They
+experience and learn about exhibits through the action and experience of other people’s
+they have not come with to the museum and through social interaction with companions.
+
+Furthermore, social interaction and talk between companions are critical for the museum
+experience. Attempts to separate and seclude visitors from events in their local
+environment through the layout of exhibitions, the design of exhibits or the deployment of
+interpretation devices designed for individuals undermine the effectiveness of exhibitions.
+These findings from recent investigations in visitor studies suggest that the development
+of novel interpretation techniques and technologies that facilitate highly contingent forms
+of participation and support and maybe even engender social interaction and talk between
+visitors can enhance the experience of and learning from exhibits and exhibitions.
+
+This investigation has concentrated on the deployment of a multimedia tour based on
+PDA technology in a contemporary art museum. The observations discussed in this paper
+may have some implications for the design, deployment and evaluation of interpretation
+resources developed to enhance visitors’ experience of art exhibitions. PDAs can become
+surrogate tour guides that can direct the navigation path of the visitor and point out
+interesting aspects of the exhibition. When using such a device visitors tend to spend
+more time with exhibits featured by the device than with other exhibits in the same
+exhibition. Hence, it seems the content delivery through such devices can help organise
+and manage the museum visit.
+© Archives & Museum Informatics Europe, 2003
+
+12
+
+ICHIM 03 – Virtual & Real Galleries / Galeries Virtuelles et Réelles
+
+Guiding visitors’ experience of a museum is a social activity. Current PDA technology
+and content are based on the concept of an individual visitor whose experience of
+exhibits, can be increased by strengthening the relation between the individual user and
+the individual exhibits. Our observations suggest that in many cases, the screen of the
+PDA becomes the focal area of the visitor’s attention and the interpretation device
+becomes a substitute to the original exhibit. The device work best for the visitors when it
+provided them with sufficient clues and incentives to turn away from the technology and
+to the exhibits, for example when audio- and visual information stimulate the visitor to
+alternate his gaze between the device and the exhibit and to compare the information s/he
+receives from the PDA with aspects of the original exhibit.
+
+The design of interpretation resources can benefit from taking into consideration that
+visitors embed devices like labels, information kiosks or PDAs in their action and
+interaction. Devices that are designed without consideration of the social environment of
+their use tend to undermine peripheral participation and impoverish social interaction
+between visitors. Therefore, they weaken rather than enhance the effectiveness of the
+exhibition.
+
+Designers of interpretation devices can exploit this observation and provide visitors with
+content that not only informs them about the exhibition but also gives them directions in
+the exhibition whilst remaining sensitive to the movement of other people in the same
+gallery. It seems critical for the effectiveness of interpretation devices deployed into
+museums that they are not only tailored to the needs of individual users but also support
+and exploit people’s awareness of events in the local environment (with respect to shared
+workspaces see, Dourish et al. 1992). Such systems could aid the coordination of visitors’
+navigation and examination of exhibitions and enhance their museum experience by
+delivering content that is tailored to the current social environment of the gallery.
+
+Our observations also suggest that people, even when they use a device designed for an
+individual user, enjoy talking to others and sharing their experience of the exhibition with
+them. They suggest that people’s enjoyment and experience of exhibitions can be
+enhanced when interpretation devices provide them with opportunities to communicate
+© Archives & Museum Informatics Europe, 2003
+
+13
+
+ICHIM 03 – Virtual & Real Galleries / Galeries Virtuelles et Réelles
+what each other is seeing and orienting to. In the recent past, experiments have been
+undertaken that try to accommodate the context of social interaction through the design of
+PDAs that allow visitors to participate in each others’ activity with their devices (see,
+Aoki et al. 2002; Woodruff et al. 2001). Others have used portable interpretation
+resources to create records of the visit and facilitate and stimulate communication about
+the exhibition after the visit at home or at school (see, Fleck et al. 2002).
+
+The observations in this paper also may have some implications for the deployment and
+evaluation of novel interpretation resources in museums and galleries. Many experiments
+with novel interpretation resources are carried out under experimental conditions. They
+concentrate on the usability of the device and people’s satisfaction with its use. The
+present investigation demonstrates the importance of experiments with novel devices
+under “naturalistic conditions” where visitors use the new technology whilst others act
+and interact in the same space. In order to make decisions about the design and
+deployment of novel interpretation resources museum managers require detailed
+knowledge about the ways in which visitors experience and make sense of exhibits. The
+publicness of museums makes it necessary to understand how visitors participate with and
+around exhibits in social interaction with their companions and others who happen to be
+in the same space. Devoid of such an understanding of the museum experience that is
+supported by novel interpretation devices their deployment into the exhibition may end in
+failure despite the seeming success in the experiments.
+
+In the future we will continue our investigation of the deployment and use of novel
+interpretation devices, both hi- and low-tech, in museums and galleries. In collaboration
+with museum managers, designers and evaluators of interpretation resources we will
+explore the possibilities to develop techniques and technologies that allow visitors to
+concentrate on the original object rather than on the interpretation device when examining
+exhibits in the public environment of museums and galleries. We are particularly
+interested in experiments that consider social interaction between people not as disturbing
+or distracting influence but as means and catalyst of their museum experience.
+
+© Archives & Museum Informatics Europe, 2003
+
+14
+
+ICHIM 03 – Virtual & Real Galleries / Galeries Virtuelles et Réelles
+
+References
+Alexander, E. P. (1996). Museums in Motion : An Introduction to the History and Functions of Museums,
+Altamira Press.
+Aoki, P. M., R. E. Grinter, et al. (2002). Sotto Voce: Exploring the Interplay of Conversation and Mobile
+Audio Spaces. Chi 2002, Minneapolis, ACM-Press.
+Arnheim, R. (1974). Art and Visual Perception: A Psychology of the Creative Eye: The New Version.,
+University of California Press.
+Bourdieu, P. (1990). Distinction: A Social Critique of the Judgement of Taste. London, Routledge.
+Dourish, P. and V. Bellotti (1992). Awareness and Coordination in Shared Workspaces. Computer
+Supported Cooperative Work (CSCW) 1992, Toronto, Canada, ACM.
+Exploratorium (2001). Electronic Guidebook Forum. San Francisco, Exploratorium.
+Falk, J. and L. Dierking (2000b). Learning from Museums. Visitor Experiences and the Making of Meaning.
+Walnut Creek, Lanham, New York and Oxford, Alta Mira Press.
+Fleck, M., M. Frid, et al. (2002). From Informing to Remembering:Deploying a Ubiquitous System in an
+Interactive Science Museum. Palo Alto.
+Gibson, J. J. (1986). The Ecological Approach to Visual Perception. Hillsdale, NJ and London, Lawrence
+Erlbaum Associates.
+Heath, C. and P. Luff (2000c). Technology in Action. Cambridge, Cambridge University Press.
+Hein, G. (1995). "The Constructivist Museum." Journal of Education in Museums (GEM) 16.
+Hudson, K. (1975). A Social History of Museums. New Jersey, Humanities Press.
+Leinhardt, G., K. Crowley, et al., Eds. (2002). Learning Conversations in Museums, Lawrence Erlbaum
+Assoc.
+Paris, S., Ed. (2002). Perspectives on Object-Centered Learning in Museums. Mahwah, NJ and London,
+Lawrence Earlbaum Associates.
+Screven, C. G. (1986). "Exhibitions and information centers: some principles and approaches." Curator
+29(2): 109-137.
+Serrell, B. and B. Raphling (1992a). "Computers on the Exhibit Floor." Curator 35(3): 181-189.
+Shettel, H. (2001). "Do we know how to define exhibit effectiveness?" Curator 44(4): 327-334.
+vom Lehn, D., C. Heath, et al. (2001a). "Exhibiting Interaction: Conduct and Collaboration in Museums and
+Galleries." Symbolic Interaction 24(2): 189-216.
+Walter, T. (1996). "From museum to morgue? Electronic guides in Roman Bath." Tourism Management
+17(4): 241-245.
+Woodruff, A., P. M. Aoki, et al. (2001). Electronic Guidebooks and Visitor Attention. Proc. 6th Int'l
+Cultural Heritage Informatics Meeting,, Milan, Italy.
+
+© Archives & Museum Informatics Europe, 2003
+
+15
+
+

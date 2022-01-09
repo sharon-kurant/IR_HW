@@ -1,0 +1,697 @@
+IOP Conference Series: Materials Science and Engineering
+
+
+PAPER • OPEN ACCESS
+
+A Multi-Sensory Approach to Cultural Heritage:
+The Battle of Pavia Exhibition
+
+To cite this article: Virginio Cantoni et al 2018 IOP Conf. Ser.: Mater. Sci. 
+Eng. 364 012039
+
+View the article online for updates and enhancements.
+
+You may also like
+
+- Geant4 studies of the CNAO facility
+system for hadrontherapy treatment of
+uveal melanomas
+
+A Rimoldi, P Piersimoni, M Pirola et al.
+
+- Heavy-ion effects: from track structure to
+DNA and chromosome damage
+
+F Ballarini, D Alloni, A Facoetti et al.
+
+- Measuring the stopping power of  particles
+in compact bone for BNCT
+
+L Provenzano, L M Rodríguez, D Fregenal
+et                                                                 al.
+
+This content was downloaded from IP address 109.67.67.52 on 28/11/2021 at 14:48
+
+
+A Multi-Sensory Approach to Cultural Heritage: The Battle of
+Pavia Exhibition
+
+Virginio Cantoni¹, Piercarlo Dondi²,³, Luca Lombardi¹, Nahumi
+Nugrahaningsih⁴, Marco Porta¹*, Alessandra Setti¹
+
+¹ University of Pavia, Department of Electrical, Computer and Biomedical 
+Engineering,
+Via A. Ferrata 5 – 27100 – Pavia, Italy
+
+² University of Pavia, CISRiC, Arvedi Laboratory of Non-Invasive Diagnostics,
+Via Bell'Aspa 3 – 26100 – Cremona, Italy
+
+³ University of Pavia, Department of Civil Engeneering and Architecture,
+Via Ferrata 3 – 27100 – Pavia, Italy
+
+⁴ University of Palangkaraya, Department of Informatics, Palangkaraya,
+
+Kampus Unpar Tunjung Nyaho, Jl. Yos Sudarso – Palangkaraya 73112, Indonesia
+
+* Corresponding author’s e-mail address: marco.porta@unipv.it
+
+Abstract.  In  the  last  years,  several  museums  and  exhibits  have  
+adopted  new  kinds  of
+interactive  installations  that  present  artworks  in  more  attractive  
+ways,  especially  for  young
+visitors.  At  the  same  time,  new  communication  technologies  have  been  
+introduced  to  allow
+vision  and  motion  impaired  people  to  visit  arts  centers.  In  this  
+work,  we  present  the  multi-
+sensory solutions we have implemented for the “Battle of Pavia” Exhibition, a 
+collateral event
+of Milan Expo 2015. The installation combined different interaction methods to 
+achieve two
+main  goals:  providing  visitors  with  engaging  experiences  and  allowing  
+blind  and  partially
+sighted  people  to  appreciate  the  exposed  artworks.  The  used  
+technologies  include  gesture
+communication,  gaze-based  interaction,  3D  character  reconstruction,  
+virtual  avatars,  and  3D
+tactile images. This work can be also viewed in the context of digital 
+humanities for cultural
+heritage. To the best of our knowledge, this is the first exhibit to gather 
+such a high number of
+interactive technologies in a single installation. The positive response from 
+visitors is a great
+spur to continue our research in this direction.
+
+1.  Introduction
+
+Digital technologies for enhancing the fruition of museums and exhibits are 
+becoming an important
+research field, with the main aim to connect people, culture, and technologies 
+[1][2].
+
+Multimodal visits of exhibitions have the purpose to enhance the visitor’s 
+experience by inspiring
+self-motivated learning. This promotes creativity and engagement, but also 
+requires new approaches to
+be  developed  for  the  design  and  implementation  of  digital  spaces.  
+Through  different  technologies,
+users can now interact with computers by means of gestures, voice, and eye 
+input. Although the full
+potential  of  these  Natural  User  Interfaces  (NUIs)  has  not  been  
+achieved  yet,  their  fast  and  steady
+enhancements are leading to cheap and reliable tools for content manipulation. 
+NUIs, that can be also
+viewed    in the context of digital humanities for cultural heritage, can offer 
+new experiential ways to
+enhance the visit experience, and be an important support for disabled 
+visitors.
+
+Content from this work may be used under the terms of the Creative Commons 
+Attribution 3.0 licence. Any further distribution
+of this work must maintain attribution to the author(s) and the title of the 
+work, journal citation and DOI.
+
+Published under licence by IOP Publishing Ltd                                   
+    1
+
+
+In this paper, we present a case study related to the exhibition “1525–2015. 
+Pavia, la Battaglia, il
+Futuro.  Niente  fu  come  prima”  (“1525-2015.  Pavia,  the  Battle,  the  
+Future.  Nothing  was  the  same
+again”) held at the Visconti Castle of Pavia (Italy) from 14ᵗʰ June to 29ᵗʰ 
+November 2015. Over 11,000
+people visited the exhibition (10,556 tickets sold, including at least 400 
+family tickets).
+
+The “Battle of Pavia Tapestries” are a collection of seven tapestries, each one 
+describing a scene of
+the  battle,  permanently  exposed  at  the  “Museo  di  Capodimonte”  in  
+Naples  (Italy).  However,  as  a
+satellite event of Milan Expo 2015, one of them was presented in the exhibit at 
+the Visconti Castle of
+Pavia. This paper describes our contribution to the exhibition, which, in 
+addition to the real tapestry,
+included  3D  printed  characters,  3D  “tactile  images”  for  blind  people,  
+and  virtual  avatars.  Visitors
+could  also  interact  with  virtual  versions  of  the  tapestries  using  
+gesture-based  and  gaze-based
+communication.  Our  work  goes  in  the  direction  of  NUIs,  towards  a  
+more  active  and  engaging
+involvement of visitors.
+
+2.  Gesture-Based Interaction
+
+Interacting with computers through gestures and body movements has now become 
+an almost frequent
+practice [3], and also museums and exhibitions can exploit gesture 
+communication (both explicit and
+implicit [4]) to create more engaging experiences for visitors. To be really 
+effective, explicit gestures
+should  be  as  intuitive  and  comfortable  as  possible,  so  as  to  
+maximize  the  quality  of  the  user
+experience.
+
+2.1.  Related Work
+
+One of the first uses of gesture-based interfaces in the cultural heritage 
+context was a finger tracking
+method proposed by Malerczyk [5]. The release of Microsoft Kinect in 2010 
+significantly increased
+the number of this kind of applications. For example, the combination of Kinect 
+and RFID sensors was
+adopted by Cafaro et al. [6] to track and identify visitors in a museum. In the 
+same year, an augmented
+reality application was developed which exploited the Kinect to allow users to 
+gesturally manipulate
+3D  models  of  archaeological  pieces  from  the  Museo  Regional  de  
+Huajuapan  [7].  A  Kinect-based
+application allowing visitors to perform a gesture interaction with virtual 
+copies of historical relics was
+installed at the K2R International Expo in Rome, Italy [8]. Yoshida et al. [9] 
+created an immersive
+environment, to teach paleontology to children. A similar approach was used by 
+Soga [10] to allow
+visitors     to “walk” through a 3D representation of the Shogo-in Temple.
+
+2.2.  Gesture Interaction at the Battle of Pavia Exhibition
+
+For  the  Battle  of  Pavia  Exhibition,  we  exploited  the  Microsoft  Kinect 
+ sensor  to  allow  visitors  to
+control the computer through hand gestures (Figure 1). The system consisted of 
+a personal computer, a
+24”  full  HD  monitor,  and  a  Kinect  v1  sensor.  In  its  “slideshow  
+stand-by  mode”,  the  program
+repeatedly displayed, in sequence, the seven tapestries. As soon as a visitor 
+was detected in front of the
+device, the “interaction mode” could be started by simply holding a hand out, 
+with the palm facing the
+sensor. By moving the screen cursor with the hand, visitors could select the 
+tapestries and surf them.
+Besides tapestries, it was also possible to explore the map of the battle area. 
+Visitors could select one
+of the seven tapestries or the map of the location of the battle in the screen 
+shown in Figure 2.
+
+By virtually “pushing” one of the eight rectangular areas in Figure 2, the 
+corresponding enlarged
+version of the tapestry or of the map was displayed. Since pictures were big 
+and only partially visible,
+the visitor could scroll them by clenching the fist and moving the hand in the 
+four directions.
+
+3.  Gaze-Based Interaction
+
+Human gaze can be exploited as an input channel to control the computer and 
+other digital appliances.
+Eye  input  is  the  result  of  an  eye  tracking  process  carried  out  by  
+eye  trackers,  i.e.,  devices  that  can
+detect the user’s gaze direction [11].
+
+
+
+Figure   1.   A   visitor   browsing   a
+tapestry with his hand.
+
+Figure 2. Screen for tapestry or battle map selection.
+
+Basically, an eye tracker finds where the user is looking at and records the 
+related gaze coordinates.
+Eye movements occur as sequences of saccades (lasting less than 100 ms) and 
+fairly steady fixation
+periods (with durations normally between 100 and 600 ms). Eye tracking has been 
+applied in a variety
+of contexts, from advertising (e.g., [12]) to accessibility (e.g., [13]) and 
+biometrics (e.g., [14]). Among
+others, Milekic [15] provides an overview of gaze-based interaction and its 
+potential applications in
+the context of museums and exhibitions.
+
+In the Battle of Pavia Exhibition, we exploited eye tracking to allow visitors 
+to expand and shrink
+high-resolution  pictures  of  the  tapestries.  In  addition,  it  was  
+possible  to  scroll  the  images  and  see
+contextual  descriptions  displayed  when  specific  characters  or  elements  
+were  observed.  All  these
+actions  were  performed  without  using  the  mouse  or  keyboard,  but  
+simply  by  means  of  gaze  input.
+After  the  interaction  with  the  virtual  tapestries,  visitors  could  also 
+ watch  their  “gaze  replays”  and
+download their “gazeplots”.
+
+3.1.  Related Work
+
+There are few examples of previous works in which eye tracking has been 
+exploited within museums
+or exhibitions.
+
+Buquet et al. [16] describe one of the first cases in which visitors’ gaze 
+behavior was assessed in a
+museum, specifically at the Cite des Sciences et l’Industrie de la Villette in 
+Paris, in September 1986.
+Wooding et al. [17] employed an eye tracker in the “Telling Time” exhibition at 
+the National Gallery
+of London, from 18ᵗʰ October 2000 to 14ᵗʰ January 2001. Mobile eye tracking was 
+experimented by
+Wessel  et  al.  [18]  through  a  wearable  device  similar  to  glasses.  
+Museum  Guide  2.0  was  an
+experimental  project developed by  Toyama  et al.  [19] as  a virtual  museum 
+guide. Eghbal-Azar  and
+Widlok  [20]  studied  the  use  of  a  mobile  eye  tracker  in  two  German  
+exhibitions.  More  recently,
+Calandra et al. [21] employed E.Y.E C.U., an eye tracker to be placed below an 
+artwork and tested in a
+museum of Naples (Italy).
+
+3.2.  Eye Tracking at the Battle of Pavia Exhibition
+
+The  eye  tracking  system  for  the  Battle  of  Pavia  Exhibition  was  
+developed  to  be  robust  and
+autonomous, as the interaction had to occur without any intervention from 
+museum operators.
+
+The  employed  eye  tracking  device  was  the  ‘Eye  Tribe’  (theeyetribe.com, 
+ company  acquired  by
+Facebook-Oculus  in  December  2016),  a  very  cheap  tool  providing  an  
+accuracy  of  about  0.5  to  1
+degrees and working at a 30 Hz sampling rate. The eye tracker was positioned 
+below a 24’’ Full HD
+screen (Figure 3). Unlike other eye tracking implementations, no further input 
+tool was provided. The
+interaction could occur in Italian or English, and initial instructions were 
+delivered both textually and
+through audio messages. Three eye tracking workstations were available at the 
+exhibition (Figure 4).
+Gaze data was automatically synchronized with a remote server through an FTP 
+module.
+
+
+
+Figure  3.  A visitor  interacting  with  the
+eye tracking system.
+
+Figure  4.  The  three  eye  tracking  workstations  at  the
+exhibition.
+
+After  a  short  initial  calibration  procedure,  a  Tutorial  module  allowed 
+ visitors  to  undergo  a  brief
+interactive training procedure explaining how to browse tapestries by means of 
+the eyes (Figure 5). A
+zoomed-in tapestry image could be scrolled in the four directions by simply 
+looking at the four screen
+edges. A visual menu composed of four “control icons” was displayed whenever a 
+screen point was
+fixated for two seconds (Figure 5). Zooming operations (in and out) were 
+performed by fixating the
+‘plus’ or ‘minus’ lens icons of the menu for two seconds. Three zooming levels 
+were available, which
+enabled visitors to closely observe the details of tapestries. To display 
+another tapestry, the visitor had
+simply to look at the upper icon (the one with six squares). Each tapestry 
+picture also contained four
+“sensitive  areas”,  corresponding  to  “notable  elements”  (mainly  
+characters).  Sensitive  areas  were
+highlighted  by  means  of  a  semi-transparent  yellow  rectangle  as  soon  
+as  the  visitor’s  gaze  was
+perceived  on  them.  Immediately  after  that,  a  small  rectangle  
+containing  a  brief  description  of  the
+watched  element  appeared.  Looking  at  the  ‘Stop’  control  icon  in  the  
+visual  menu  caused  the
+interaction  with  the  system  to  end.  Visitors  could  then  watch  their  
+own  “gaze  replay”,  i.e.,  an
+animation where gradually expanding circles represent fixations and straight 
+lines between fixations
+indicate  saccades.  At  the  end  of  the  interaction  with  the  system,  
+visitors  could  download  their
+gazeplots (i.e., graphical representations of fixations superimposed on the 
+tapestry images) from the
+website   http://vision.unipv.it/arazzi/,   by   means   of   a   code   
+displayed   once   the   interaction   was
+concluded. In total, 1,053 visitors performed a “full interaction” with one of 
+the eye tracking systems,
+going  through  the  three  steps  of  calibration,  tutorial,  and  free  
+tapestry  surfing.  About  half  of  these
+visitors  (51.02%)  browsed  only  one  tapestry,  i.e.,  the  first  tapestry  
+loaded  when  the  visitor  was
+detected in front of the eye tracker.
+
+The gazeplot (Figure 6) that visitors could download at the end of the 
+interaction (through the code
+they were provided with) is a graphical representation that shows the position 
+of fixations (depicted
+with circles with areas are proportional to their durations).
+
+Compared  to  previously  developed  eye  tracking  solutions  for  museums  
+and  exhibitions,  the
+implemented system allows a much more complex interaction, purely based on gaze 
+input.
+
+Figure 5. A phase of the tutorial.                                        
+Figure 6. Gazeplot produced by a visitor while
+watching the first tapestry.
+
+
+4.  3D Characters and Objects from the Tapestries
+
+3D  printing  is  a  practical  way  to  create  copies  of  artworks  that  
+cannot  be  displayed  directly,  for
+example   because   they   are   not   easily   available,   manageable,   or   
+accessible   [22].     These   3D
+reconstructions can be also useful for partially sighted or blind people, who 
+cannot enjoy the visual
+appearance of the treasures cultural heritage offers.
+
+At  the  Battle  of  Pavia  Exhibition,  several  3D  reconstructions  of  
+characters  and  items  from  the
+tapestries’ scenes were on display. The models were created by the students of 
+the Computer Vision
+course of the Master’s degree in Computer Engineering of the University of 
+Pavia using the CINEMA
+4D  and  Mixamo  Fuse  Character  Creator  software  tools.  Figure  7  shows  
+the  3D  printing  of  five
+characters.
+
+5.  Virtual Avatars
+
+Avatars  are  often  exploited  in  historical  exhibitions  to  provide  
+computer-generated  experiences  in
+which visitors can play virtual roles. For example, the TOURBOT project [23] 
+was one of the first
+works going in this direction.
+
+In  the  Battle  of  Pavia  Exhibition,  some  characters  mimicked  the 
+visitor’s  facial  expressions  and
+head  movements,  in  real-time  (Figure  8).  The  application  was  developed 
+ by  means  of  the  facial
+capture and animation technologies provided by Mixamo Face Plus.
+
+
+Figure  7.  Some  character  models  (bottom)  and  their
+3D printings (top) made with a ProJet 460Plus (color)
+printer.
+
+Figure  8.  A  user  interacting  with  the
+avatar.
+
+6.  Tactile Images
+
+The  possibility  to  touch  artworks  or  their  reconstructions  is  very  
+important  for  blind  and  partially
+sighted visitors of museums and exhibitions. Tactile images are 3D 
+transpositions of pictures so that
+they can be read and interpreted by touch.
+
+6.1.  Related Work
+
+Giving  to  visually-impaired  people  the  possibility  to  visit  museums  
+and  appreciate  artworks  is  a
+complex task. Typical solutions involve the use of audio devices, which provide 
+descriptions of the
+objects on display (e.g., [24]). However, also haptic interfaces have been 
+deeply studied [25]. These
+implementations require technologies such as 3D scanning and modeling, 
+sometimes combined with
+ad hoc devices. However, haptic interfaces are not directly applicable to 
+two-dimensional artworks,
+such as paintings. In this case, it is necessary to create tactile images, sort 
+of 3D representations of the
+original creations. Typical solutions can be summarized as variations of two 
+main approaches: tactile
+diagrams,  where  only  the  main  edges  in  the  painting’s  elements  are  
+exploited  [26],  and  bas-reliefs
+[27].  In  the  last  years,  the  availability  of  relatively  cheap  3D  
+printing  technology  has  definitively
+increased the interest in this field. Carfagni et al. [28] compared four 
+different transformation methods
+from  the  original  2D  artwork  to  its  tactile  representation.  Furferi  
+et  al.  [29]  proposed  a  systematic
+
+
+method for semi-automatic generation of 2.5D models from paintings. Albertazzi 
+et al. [30] tested for
+the existence of cross-modal visual and tactile associations in abstract art.
+
+6.2.  Tactile Images at the Battle of Pavia Exhibition
+
+The Battle of Pavia Exhibition proposed tactile versions of the seven 
+tapestries for partially sighted
+and  blind  visitors  (Figures  9  and  10).  The  tapestry  images  were  
+digitized,  simplified,  adapted,
+reconstructed  as  three-dimensional  models,  and  printed  in  3D  so  that  
+they  could  be  read  through
+fingertips.
+
+
+Figure   9.   Tactile   images   at   the
+Battle of Pavia Exhibition.
+
+Figure 10. A tactile tapestry.
+
+The  tapestry  modeling  process  for  3D  printing  was  developed  in  
+several  phases,  namely:  (1)  A
+segmentation  process  was  performed  using  the  DoG  filter  to  extract  
+relevant  parts  [31];  (2)  The
+extracted  contours  were  then  selected  based  on  their  relevance  for  
+proper  scene  comprehension.
+Segments could be either “full” (i.e., represented as high-relief areas) or 
+“empty” (i.e., implemented as
+low  reliefs).  The  CINEMA  4D  software  was  used  to  process  tapestries  
+and  create  3D  models  with
+three depth levels; (3) In each segment, a Braille  alphabet letter (repeated 
+in  a regular pattern) was
+used to indicate the specific character or element ─ a Braille legend described 
+such associations; (4)
+Finally, the tactile images were printed with a ProJet 460Plus full color 3D 
+printer. Compared to other
+solutions, this kind of tactile images are much more informative.
+
+7.  Conclusions
+
+In this paper, we have described the technological solutions we have 
+implemented for the exhibition
+“1525–2015. Pavia, la Battaglia, il Futuro. Niente fu come prima” (“1525-2015. 
+Pavia, the Battle, the
+Future. Nothing was the same again”) held at the Visconti Castle of Pavia 
+(Italy) from 14ᵗʰ June to 29ᵗʰ
+November 2015.
+
+Our main goal was to study, also from a practical point of view, the 
+opportunities offered by digital
+media for  museums and exhibitions, in order to develop approaches, procedures, 
+and tools that can
+maximize their benefits in such settings.
+
+Although  museums  and  exhibits  increasingly  exploit  novel  technologies,  
+such  as  Natural  User
+Interfaces,  their  number  is  still  very  low.  It  is  only  by  promoting  
+the  use  of  new  technologies  in
+cultural  settings  that  it  will  be  possible  to  really  assess  their  
+value,  both  as  a  way  to  create  more
+engaging  experiences  for  visitors and  to  provide  disabled  people  
+(especially  those  who  are  visually
+and motion impaired) with alternative manners to access art.
+
+As digital humanities point out, digital tools applied to the study of 
+humanities foster collaborative
+and transdisciplinary research activities, enlarging the way of knowledge 
+dissemination, and enriching
+the production of applications and techniques for cultural heritage.
+
+
+The “Battle of Pavia” Exhibition can be considered a successful event, and the 
+number of visitors
+went beyond expectations. The solutions proposed included gesture communication 
+by means of the
+Kinect  sensor  (one  workstation),  gaze-based  interaction  (three  
+workstations),  3D  full-color  element
+reconstruction  and  printing  (six characters,  a  cannon,  and  two prints  
+of  the  city  of  Pavia),  a  virtual
+avatar     (one workstation), and seven full-color tactile images.
+
+Our research goes in the direction shown by Natural User Interfaces, with the 
+purpose to involve
+visitors more effectively and create positive experiences, also in relation to 
+accessibility. To the best of
+our  knowledge,  no  previous  single  art  exhibition  has  been  
+characterized  by  a  so  high  number  of
+multimedia and multimodal solutions.
+
+References
+
+[1]      Bautista S S 2014 Museums in the Digital Age: Changing Meanings of 
+Place, Community, and
+Culture (Altamira Press, USA)
+
+[2]      Din H and Wu S (Eds) 2014 Digital Heritage and Culture: Strategy and 
+Implementation (edited
+by Din H and Wu S, World Scientific Publishing, Singapore)
+
+[3]      Dondi P, Lombardi L and Porta M 2014 Development of Gesture-Based HCI 
+Applications by
+Fusion of Depth and Colour Video Streams IET Computer Vision Vol. 8 No. 6 pp 
+568-578
+
+[4]      Porta M. 2002 Vision-based User Interfaces: Methods and Applications 
+International Journal of
+Human-Computer Studies Vol. 57 pp 27-73
+
+[5]      Malerczyk   C   2004   Interactive   Museum   Exhibit   Using   
+Pointing   Gesture   Recognition
+
+Proceedings of the 12ᵗʰ International Conference in Central Europe on Computer 
+Graphics,
+
+Visualization and Computer Vision pp 165–171
+
+[6]      Cafaro  F,  Panella  A,  Lyons  L,  Roberts  J  and  Radinsky  J  2013 
+ I  see  you  there!:  developing
+identity-preserving  embodied  interaction  for  museum  exhibits  Proceedings  
+of  the  SIGCHI
+Conference       on Human Factors in Computing Systems (CHI '13) pp 1911-1920
+
+[7]      Ramos  E,  Ramírez  M,  Nila  E,  Figueroa  D,  Hernández  J,  García  
+M  and  Pérez  E  2013  Based
+Kinect Application to Promote Mixtec Culture Procedia Technology 7 pp 344-351
+
+[8]      Fanini  B,  D'Annibale  E,  Demetrescu  E,  Ferdani  D  and  Pagano  A 
+ 2015  Engaging  and  shared
+gesture-based  interaction  for  museums  the  case  study  of  K2R  
+international  expo  in  Rome
+Proceedings of Digital Heritage, Granada pp 263-270
+
+[9]      Yoshida R, Tamaki H, Sakai T, Nakadai T, Ogitsu T, Takemura H, 
+Mizoguchi H, Namatame M,
+Saito M, Kusunoki F, Kamiyama S, Yamaguchi E, Inagaki S, Takeda Y, Sugimoto M 
+and
+Egusa  2015  Novel  application  of  Kinect  sensor  to  support  immersive  
+learning  within
+museum for  children  Proceedings  of  9th  International  Conference  on  
+Sensing  Technology
+(ICST), Auckland pp 834-837
+
+[10]    Soga A 2015 Virtual Show, Go In!: Walk-Through System and VR Goggles of 
+a Temple for
+Museum Exhibits Proceedings of the International Conference on Culture and 
+Computing
+(Culture Computing), Kyoto pp 199-200
+
+[11]    Duchowski  A  T  2007  Eye  Tracking  Methodology  –  Theory  and  
+Practice  (2nd  Ed.  London:
+Springer-Verlag)
+
+[12]    Porta M, Ravarelli A and Spaghi F 2013 Online Newspapers and Ad 
+Banners: an Eye Tracking
+Study on the Effects of Congruity Online Information Review Vol. 37 No. 3 pp, 
+405-423
+
+[13]    Porta  M  2015  A  Study  on  Text  Entry  Methods  Based  on  Eye  
+Gestures  Journal  of  Assistive
+Technologies Vol. 9, No. 1 pp 48-67
+
+[14]    Cantoni V, Galdi C, Nappi M, Porta M and Riccio D 2015 GANT: Gaze 
+ANalysis Technique
+for Human Identification Pattern Recognition Vol. 48, No. 4 2015 pp 1027-1038
+
+[15]    Milekic S 2010 Gaze-Tracking and Museums: Current Research and 
+Implications Proceedings
+of Museums and the Web 2010 Toronto: Archives & Museum Informatics (March 31)
+
+[16]    Buquet C, Charlier J R and Paris V 1988 Museum application of an eye 
+tracker Med. Biol. Eng.
+
+Comput. Vol. 26 No. 3 pp 277–281
+
+[17]    Wooding  D  S,  Mugglestone  M  D,  Purdy  K  J  and  Gale  A  G  2002  
+Eye  movements  of  large
+
+
+populations: I. Implementation and performance of an autonomous public eye 
+tracker Behav.
+
+Res. Methods Instrum. Comput. Vol. 34, No. 4 pp 509–517
+
+[18]    Wessel D, Mayr E and Knipfer K 2007 Re-viewing the museum visitor’s 
+view Proceedings of
+the Workshop ‘Research Methods in Informal and Mobile Learning’, Institute of 
+Education,
+
+London, UK
+
+[19]    Toyama T, Kieninger T, Shafait F and Dengel A 2011 Museum Guide 2.0 - 
+An Eye-Tracking
+Based  Personal  Assistant  for  Museums  and  Exhibits  Proceedings  of  Int.  
+Conf.  on  Re-
+
+Thinking Technology in Museums
+
+[20]    Eghbal-Azar  K  and  Widlok  T  2013  Potentials  and  Limitations  of  
+Mobile  Eye  Tracking  in
+Visitor Studies Evidence From Field Research at Two Museum Exhibitions in 
+Germany Soc.
+
+Sci. Comput. Rev. Vol. 31 No. 1 pp 103–118
+
+[21]    Calandra D M, Mauro D D, D’Auria D and Cutugno F 2016 E.Y.E. C. U.: an 
+Emotional eYe
+trackEr for Cultural heritage sUpport (in Empowering Organizations, Torre T, 
+Braccini A M
+and Spinelli R, Eds Springer International Publishing pp 161–172)
+
+[22]    Mazura M, Horjan G, Vannini C, Antlej K and Cosentino A 2015 eCult 
+Vademecum - A Guide
+for Museums to Develop a Technology Strategy & Technology Providers to 
+understand the
+Needs   of   Cultural   Heritage   Institutions   (available   
+http://www.ecultobservatory.eu/sites/
+ecultobservatory.eu/files/documents/Vademecum_PDF_V2.0.pdf, visited 19 December 
+2016)
+
+[23]    Tourbot  2000  TOURBOT  –  Interactive  Museum  Tele-presence  Through  
+Robotic  Avatars
+(available http://www.ics.forth.gr/tourbot/, visited 10 January 2017)
+
+[24]    Picinali  L,  Afonso  A,  Denis  M  and  Katz  B  F  G  2014  
+Exploration  of  architectural  spaces  by
+blind  people  using  auditory   virtual  reality   for  the  construction  of  
+spatial  knowledge
+International Journal of Human-Computer Studies 72, 4 pp 393-407
+
+[25]    McLaughlin  M  L,  Sukhatme  G,  Shahabi  C,  Hespanha  J,  Ortega  A  
+and  Medioni  G  2000  The
+haptic museum Proceedings of 2000 EVA Conference on Electronic Imaging and the 
+Visual
+Arts
+
+[26]    Axel  E  S  and  Levent  N  S  2003  Art  Beyond  Sight:  A  Resource  
+Guide  to  Art,  Creativity,  and
+Visual Impairment (Amer Foundation for the Blind Press)
+
+[27]    Oouchi  S,  Yamazawa  K  and  Secchi  L  2010  Reproduction  of  
+tactile  paintings  for  visual
+impairments utilized three-dimensional modeling system and the effect of 
+difference in the
+painting  size  on  tactile  perception  Proceedings  of  the  12ᵗʰ  
+International  Conference  on
+Computers  Helping  People  with  Special  Needs  (ICCHP’10)  Vol.  6180  
+Springer  Berlin  pp
+527–533
+
+[28]    Carfagni  M,  Furferi  R,  Governi  L,  Volpe  Y  and  Tennirelli  G  
+2012  Tactile  Representation  of
+Paintings:  An  Early  Assessment  of  Possible  Computer  Based  Strategies  
+Proceedings  of
+Progress  in  Cultural  Heritage  Preservation,  EuroMed  2012  (Lecture  Notes 
+ in  Computer
+Science, Springer, vol. 7616) pp 261-270
+
+[29]    Furfer R, Governi L, Volpe Y, Puggelli L, Vanni N and Carfagni M 2014 
+From 2D to 2.5D i.e.
+from painting to tactile model (2014) Graphical Models 76 (6) pp 706–723
+
+[30]    Albertazzi  L,  Bacci  F,  Canal  L  and  Micciolo  R  2016  The  
+tactile  dimensions  of  abstract
+paintings: A cross-modal study Perception, 45(7) pp 805-822
+
+[31]    Cantoni V, Levialdi S, Zavidovique B 2011 3C VISION: Cues, Context and 
+Channels (Elsevier
+London)
+

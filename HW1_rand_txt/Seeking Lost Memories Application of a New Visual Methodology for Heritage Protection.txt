@@ -1,0 +1,1622 @@
+See discussions, stats, and author profiles for this publication at: 
+https://www.researchgate.net/publication/338729240
+
+Seeking Lost Memories: Application of a new visual methodology for heritage
+protection
+
+Article  in  Geographical Review · January 2020
+
+DOI: 10.1080/00167428.2020.1715800
+
+
+CITATIONS
+
+4
+
+READS
+
+117
+
+6 authors, including:
+
+
+Meiting Zhao
+University of Glasgow
+
+2 PUBLICATIONS    4 CITATIONS
+
+Lin Mingliang
+
+East China Normal University
+
+7 PUBLICATIONS    4 CITATIONS
+
+SEE PROFILE                                                                     
+                                                                                
+                                                      SEE PROFILE
+
+
+Wei Cao
+
+South China Normal University
+
+6 PUBLICATIONS    56 CITATIONS
+
+Huilin Zhu
+
+Sun Yat-Sen University
+
+24 PUBLICATIONS    217 CITATIONS
+
+SEE PROFILE                                                                     
+                                                                                
+                                                      SEE PROFILE
+
+All content following this page was uploaded by Ning An on 12 August 2021.
+
+The user has requested enhancement of the downloaded file.
+
+
+Geographical Review
+
+ISSN: (Print) (Online) Journal homepage: https://www.tandfonline.com/loi/utgr20
+
+SEEKING LOST MEMORIES: APPLICATION OF A
+NEW VISUAL METHODOLOGY FOR HERITAGE
+PROTECTION
+
+Min Wang , Meiting Zhao , Mingliang Lin , Wei Cao , Huilin Zhu & Ning An
+
+To cite this article: Min Wang , Meiting Zhao , Mingliang Lin , Wei Cao , 
+Huilin Zhu
+& Ning An (2020) SEEKING LOST MEMORIES: APPLICATION OF A NEW VISUAL
+
+METHODOLOGY FOR HERITAGE PROTECTION, Geographical Review, 110:4, 556-574, DOI:
+10.1080/00167428.2020.1715800
+
+To link to this article:  https://doi.org/10.1080/00167428.2020.1715800
+
+View supplementary material
+
+Accepted author version posted online: 21
+Jan 2020.
+
+Published online: 20 Feb 2020.
+
+Submit your article to this journal
+
+Article views: 75
+
+View related articles
+
+View Crossmark data
+
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=utgr20
+
+
+SEEKING LOST MEMORIES: APPLICATION OF A NEW
+VISUAL METHODOLOGY FOR HERITAGE PROTECTION
+
+MIN WANG, MEITING ZHAO   , MINGLIANG LIN   , WEI CAO, HUILIN ZHU
+
+and NING AN
+
+ABSTRACT. A society’s cultural heritage is its inheritance of physical 
+artifacts and intangible
+attributes,  and  their  maintenance,  protection,  and  continuation  for  
+future  generations.
+The meaning of cultural heritage is, however, constantly changing in light of 
+globalization
+and  rapid  urbanization.  To  better  understand  interactions  between  
+people  and  cultural
+heritage  in  daily  life,  and  return  cultural  heritage  to  its  sense  
+of“place,”we  present
+
+a  visual  methodology  for  heritage  protection.  Considering  the  Guangzhou 
+ overseas-
+Chinese community (OCC) as a case study, we apply pictorial assessment, 
+eye-tracking,
+and  interview  methods  to  identify  meanings  of  a  returned  
+overseas-Chinese  inhabited
+area. Proposing a hybrid visual method, we aim to focus on the public’s 
+interpretation of
+cultural heritage with regard to safeguarding it. Results indicate that the 
+cultural heritage
+of the overseas-Chinese site has weakened over time due to its increasing 
+importance as
+a metropolitan area. In accordance with our results, this paper offers insights 
+for protec-
+tion  measures  with  a  focus  on  architectural  details,  activities,  and  
+publicities.  From  the
+perspective of“neural turn,”we also propose a new method for cultural heritage 
+protec-
+tion    that can effectively answer non-representational geographical questions 
+and discuss
+cultural heritage protection in a fluid, embodied, and abstract 
+context.Keywords: Visual
+analysis, Neuroscience, Eye-tracking, Cultural heritage, Overseas-Chinese 
+culture.
+
+Cultural heritage is a product of social history that is brought into the 
+present
+by  the  past  (Nikielska-Sekula  2019),  and  represents  people’s  place  
+memory
+(Brunson  1993).  Memories  from  life  in  the  past  are  expressions  of  
+individual
+life  experiences  (Burk  2003);  the  assemblage  of  individual  experiences  
+thus  be-
+
+comes the collective memory of social groups. These memories are contained in
+specific  social  spaces  and  interact  with  the  place  (Hoelscher  2004).  
+However,
+complexity   and   mobility   of   contemporary   urban   society   puts   
+pressure   on
+collective  memories  stored  by  a  society,  rendering  them  vulnerable  to  
+reinter-
+pretation and loss. Scholars have considered various nuanced meanings of col-
+lective  memory:  according  to  Paul  Shackel  and  Dwight  Pitcaithley  
+(2003),
+collective memory is essentially the expression of discourse influenced by poli-
+tical and economic relations; Karen Till (1999) discusses collective memory as 
+the
+result of mutual consultation among different subjects, which is reflected in 
+the
+
+MIN   WANG   South  China  Normal  University,  No.55,  Zhongshan  Avenue  
+West,  South  China  Normal
+University,  Guangzhou,  China.        MEITING  ZHAO  South  China  Normal  
+University,  No.55,  Zhongshan  Avenue
+West,  South  China  Normal  University,  Guangzhou,  China.        MINGLIANG  
+LIN  East  China  Normal  University
+No.500, Dongchuan Road, East China Normal University, Shanghai, China.        
+WEI  CAO  Centre for Optical and
+Electromagnetic Research, South China Academy of Advanced Optoelectronics, 
+South China Normal University
+No.55, Zhongshan Avenue West, South China Normal University, Guangzhou, China.  
+      HUILIN  ZHU  Children
+Developmental & Behavioral Center, Third Affiliated Hospital of Sun Yat-Sen 
+University No.600, Tianhe Road,
+Third  Affiliated  Hospital  of  Sun  Yat-Sen  University,  Guangzhou,  China.  
+      NING  AN  Guangzhou  University
+No.230, Outer Ring Road, Guangzhou University City, Guangzhou, China; [ 
+ning_ann@126.com]
+
+Geographical Review110(4):556–574,2020
+
+DOI:10.1080/00167428.2020.1715800
+
+Copyright ©2020by the American Geographical Society of New York
+
+
+performance  of  a  cultural  landscape;  Don  Mitchell  (2001)  argues  that  
+cultural
+landscape is the discourse expression in people’s long-term power struggles. F-
+rom these perspectives, cultural heritage is the result of politicization 
+impacting
+the  reconstruction  of  collective  memory  (Whelan  2005).  Cultural  
+heritage  pro-
+
+tectors  are,  therefore,  naturally  motivated  to  ask“Whose  memory  should  
+be
+
+protected?”
+
+Controversy  surrounding  cultural  heritage  originates  from  its  political  
+and
+economic  value.  Scholars  such  as  Brian  Graham  (2002)  and  Rodney  
+Harrison
+(2015) assert that cultural heritage is produced in a process of remembering and
+forgetting. Furthermore, the value of cultural heritage will change over time 
+with the
+prevalent social demands of that period (Harvey 2001; Graham 2002). That which 
+is
+inherited from previous generations may not be maintained or esteemed for the
+
+benefit of future generations. On one hand, cultural heritage will present 
+different
+content, representations, and interpretations of discourse, symbols, and texts 
+from
+the  perspective  of  different  interests.  Cultural  heritage  can  reflect  
+the  symbolic
+significance  of  a  country,  nation,  race,  class,  and  even  power  
+struggles.  In
+
+a representation of political discourse, Janet Blake (2000) as well as Del Pozo 
+and
+Gonzalez (2012) argue that cultural heritage can affect the cognition and 
+identity of
+citizens,  social  groups,  and  nations.  Simultaneously,  as  cultural  
+capitals,  cultural
+
+heritage can be  used to  stimulate  urban economic  growth, for  example, 
+cultural
+heritage tourism (García-Hernández and others 2017; Su and others 2018). In this
+context, cultural heritage is transformed into an urban“brand”; urban marketing
+
+strategies  help  not  only  to  create  a  unique  urban  image,  but,  with  
+increasing
+globalization,  also  make  cities  more  competitive  (Kavaratzis  2004;  
+Bowitz  and
+Ibenholt  2009). According  to  Graham  (2002),  the  content  of cultural  
+heritage  is
+the result of a selection of particular values and concepts of the city in 
+present time.
+
+Therefore, the protection of cultural heritage involves the interaction of 
+different
+power  structures  and  relationships  (Harvey  2001).  The  construction  of  
+cultural
+heritage entails the creation, destruction, and reconstruction of cultural 
+symbols—
+a political process of power (Marschall 2006).
+
+Regardless, the meanings of symbols depend on how they are interpreted by
+people (Buckley 1998). Different spatio-temporal individuals have different 
+under-
+standings  of“mapping  meaning”from  the  cultural  landscape.  Cultural  
+heritage
+has obvious place characteristics that are closely related to everyday life. In 
+other
+
+words,  cultural  heritage is  a“witness”to  the  human  past.  For  example,  
+cultural
+heritage can help migrations maintain their sense of belonging and feel secure 
+in
+their  concept  of“home”(Nikielska-Sekula     2016).  It  can  also  influence  
+residents’
+
+daily behaviors and weaken place identity and attachments (Amin 2018). However,
+
+Del  Pozo  and  Gonzalez  (2012)  assert  that  residents  are  not  interested 
+ in  the
+cultural resources of their industrial heritage due to the lack of a routine 
+connec-
+
+tion to these resources. The aforementioned studies indicate that cultural 
+heritage
+is the result of human practices  in a particular place, and that  the 
+protection of
+
+
+cultural  heritage  should  also  return  to  humans  themselves  (McDowell  
+2008).
+Protection of cultural  heritage extends not only  to  the material objects,  
+but  also
+to  intangible  objects,  such  as  memories,  emotions,  cultural  
+performances,  and
+activities (Lenzerini 2011). The existence and death of cultural heritage means 
+that
+one’s cognition of a place has changed. The making of meaning in regard to 
+place,
+
+according   to   Daniel   Stokols  and   Sally   Shumaker  (1981)  as  well  as 
+ Richard
+Steadman (2002), is the inner psychological construction and perception process
+of  the  social  life  of  people  who  have  lived  in  one  location  over  a 
+ long  time.
+Therefore,  this  paper  hopes  to  return  cultural  heritage  to  a“place”in  
+order  to
+
+better understand daily interactions between people and cultural heritage, and 
+to
+also offer effective suggestions for the protection of cultural heritage.
+
+In  general,  the  meaning  of  culture  depends  on  how  people  interpret  
+it.
+The sense of sight is a significant way to“read”cultural landscapes, especially
+ongoing  unconscious“seeing”(Lowenthal       1985).  The  cultural  meaning  of
+daily  life  is  constructed  through  vision,  so  the  methods  used  to  
+investigate
+visual  symbols,  including  content  analysis,  semiology,  psychoanalysis,  
+and
+discourse  analysis  (Rose  2002)  could  be  used  in  cultural  heritage  
+protection.
+
+The visual process is the performance of the body. The body has increasingly
+become an important research object of cultural geography, particularly embo-
+died  cognition,  affects  and  practices  (Longhurst  1997).  In  the  context 
+ of  this
+paper,  affects  are  not  specifically“you,  it,  subject,  object,”but  
+rather,  relations
+
+between  things.  We  agree  that  when  researchers  tap  into  implicit  
+attitudes
+(Greenwald  and  Banaji  1995),  the  vision  of  cultural  landscape  
+contains“more-
+than-representational”significance   (Lorimer      2005).   With   regard   to  
+ Non-
+Representation  Theory  (NRT),  Nigel  Thrift  (2007,7)  writes  that“we  
+should
+
+also  pay  more  attention  to  the  precognitive.  This  roiling  mass  of  
+nerve  volleys
+prepare the body for action in such a way that intentions or decisions are made
+before the conscious self is even aware of them.”NRT methods of experimenta-
+tion,  picturing,  and  sensing  have  been  enriched  by  Lorimer  (2005)  in  
+order  to
+further   account   for   intricacies   and   unfolding   relations   in   
+individual   lives
+(Vannini  2015;  Dowling  and  others  2018).  This  includes  the  biological  
+body
+and  innovations  such  as  biosensors,  which  are  now  incorporated  into  
+studies
+(Spinney 2015; Osborne and Jones 2017).
+
+Due to the popularity of NRT and body research, the term“neural turn”has
+gained credence in human geography (Korf 2008; Pykett 2018). Neuroscience 
+increas-
+ingly provides new perspectives and methods for geography. It helps with 
+indefinable
+“affect” (Davidson and Sutton 1995; Barnett 2010), memory (Dadvand and others
+2018),  and  perception  (Proffitt  2006)  attributed  to  the  brain  and/or  
+physiological
+
+activities; it provides direct evidence that can be described. There are many 
+applica-
+tions of neuroscience in geography studies. Widely used in the present study, 
+eye-
+tracking is alsoo applied in other works to study tourists’imaginings of 
+destination
+images (Wang and Sparks 2016), cognitive patterns related to finding one’s way 
+in
+
+
+cities (Kiefer and others 2012), and cognitive differences in the sensation of 
+environ-
+ment between urban and rural residents (Bodor and Illes 2008).
+
+With the use of eye-tracking, researchers have been able to specifically observe
+saccadic  eye  movement,  gaze  fixation,  and  pupil  response  (Roberts  and  
+others
+2016). Using this tool allows the recording of people’s visual perceptions to 
+better
+understand   cognitive   and   emotional   changes   as   they   view   
+specific   images.
+Ultimately this neuroscientific approach may provide a first-person private 
+experi-
+ence  of“seeing,”offer insights  into  the  relationship  between  body  and  
+environ-
+ment, and yield useful quantified measurements when examining that relationship
+(Osborne  and  Jones  2017;  Beljaars  2018).  The  eye-tracking  test  helps  
+us  to  more
+effectively  comprehend  how  humans  see,  including  how  we  focus  and  
+process
+stimuli from the external world into the human brain (Berger 2008).
+
+In  effect,  this  paper  proposes  a  hybrid  visual  method  in  which  we  
+pay
+attention to the public’s interpretation of cultural heritage and the need for 
+its
+protection. We suggest that it is not sufficient to only study neural processes,
+but that underlying social and cultural significance should also be examined. It
+does not sever the relationship between nature and the humanities; however, it
+does  oppose  the  tendency  towards  neural  reductionism.  We  agree  with  
+Des
+Fitzgerald  and  Felicity  Callard  (2015)  that  knowledge  of  the  
+humanities  can
+supplement  the  surplus  theoretical  space  of  neuroscience.  Therefore,  we 
+ do
+not abandon the first-person (subjective) analytical method, but rather intend
+to  simultaneously  provide  verification  from  the  third-person  
+perspective.
+
+The contribution of this paper is to provide a hybrid visual research method for
+cultural heritage protection from the perspective of the body and NRT. In the 
+body
+performance-visual process, the NRT method is helpful to learn individual 
+perception
+of cultural heritage protection and to better understand interactions between 
+people
+and  cultural  heritage  in  everyday  life.  We  aim  to  retrieve  the  
+collective  memory
+contained in the negotiation process of different power structures and return 
+it to
+the relationship between“human”and“place,”and also offer suggestions for 
+cultural
+heritage protection.
+
+Using Guangzhou OCC as our case study, we apply pictorial assessment, eye-
+tracking, and individual interviews to identify the place meanings of a returned
+overseas-Chinese inhabited area.
+
+CASE  STUDY: THE  OVERSEAS-CHINESE  COMMUNITY  IN  GUANGZHOU
+
+During  the  nineteenth  and  twentieth  centuries,  the  Chinese  economy  
+fell  into
+a  deep  slump  on  account  of  prolonged  wars,  and  many  Chinese  
+individuals—
+mainly  from  the  south—were  forced  to  migrate  to  Southeast  Asia,  North
+America,  Europe,  and  Latin  America.  However,  upon  the  creation  of  the
+People’s  Republic  of  China  (PRC)  in1949,  China’s  political  and  economic
+situation began to stabilize. At that time, the PRC provided strong policy 
+support
+in    its effort to attract overseas Chinese migrants back to China to help 
+develop
+
+
+the domestic economy (Fitzgerald 1972). In response, returned overseas Chinese,
+known asguiqiao, moved back and resettled in China. With continued support,
+the OCC became widespread in South China from1950to1959, and comprised
+the unique geopolitical and geo-economic landscapes of China.
+
+Our  case  study  focuses  on  the  OCC  located  in  Guangzhou,  one  of  the  
+few
+“villa  districts”in  this  city.  Built  in  the1950s  as  thefirstreturned  
+overseas-
+Chinese  inhabited  area  after  the  PRC  was  founded,  it  was  designed  
+with  the
+intention  of  taking  good  care  of  the  overseas-Chinese  community  and  
+their
+families who had returned from Southeast Asia, effectively becoming the embo-
+diment  and  material  carriers  of  China.  Overseas  Chinese  culture  is  
+the  fusion
+and  connection  of  overseas  culture  and  local  culture.  During  the  
+Cultural
+Revolution  of  the1960s,  which  stimulated  and  accelerated  political  and  
+class
+struggles,  some  overseas  Chinese  once  again  began  moving  away  from  
+China
+(Peterson 2013). Years later, after an increase in real estate transactions in 
+urban
+areas  on  account  of  post-open  and  reformed  China,  property  rights  
+exchanges
+accelerated,  and  thus,  the  functional  transformation  of  the  OCC  
+occured.  The
+landscapes did not change drastically (Zhao and Wang 2016) despite the fact that
+the OCC areas were transformed largely by restaurants, bars, and Small Office &
+Home Office(SOHO) areas. A small section of property is still reserved for the
+returned  overseas  Chinese  to  occupy.  In  the  meanwhile,  urban  planners  
+have
+been  keen  to  incorporate  history  into  the  contemporary  development  of  
+cities.
+For  instance,  the  Guangzhou  OCC  became  the  first  batch  of  historical  
+and
+cultural protection areas in2000(Guangzhou Local Records Committee    2009).
+
+The  Guangzhou  Famous  City  Office  officially  introduced  
+theOverseas-Chinese
+
+Heritage  Historical  Cultural  Protection  Area  Protecting  Planin2004,   and
+announced  its  official  implementation  in  one  area  of  Guangzhou  in2006
+(Guangzhou Famous City Office 2006).
+
+On the whole, policy support for the Guangzhou OCC has had a profound
+influence on the social and cultural meaning of these landscapes. Their geopo-
+litical  and  geo-economic  significance  remains  in  the  collective  memory  
+of  the
+OCC as the repository of valuable historical and cultural relics. It is 
+noteworthy
+that the uniqueness of the OCC is that it still retains the function of 
+residence,
+but  new  dwellers  over  the  years  have  gifted  it  with  additional  and  
+different
+meanings. The question remains as to whether the community’s corresponding
+spatial connotation will continue as cultural heritage going into the future. 
+For
+the  ongoing  protection  of  historical  returned  overseas-Chinese  habitats, 
+ it  is
+critical  that  the  collective  memory  and  social  life—a  process  
+requiring  close
+attention  to  everyday  activities—be  preserved.  We  endeavored  to  
+understand
+the  relationship  between  cultural  heritage  and  place,  and  to  learn  
+more  about
+how it influences people’s perceptions.
+
+
+STUDY  DESIGN
+
+The  paper  uses  a  hybrid  visual  analysis  method  to  explore  perceptions 
+ of
+residents  and  nonresidents.  The  visual  analysis  of  the  OCC  was  
+conducted  in
+three  parts:  pictorial  assessment,  eye-tracking  experiment,  and  
+interview.  The
+research was conducted in five steps, as discussed below.
+
+Step1:  Theme  selection.  In  mid-February2015,  the  keywords“overseas-
+Chinese  community”and“Huan  Shi  Dong  Road”were  entered  into  an  online
+search  engine  (www.baidu.com).  From  the  research  the  themes“villa  
+district,”
+“bar street,” “fashion place,” “rich district,” “small Western-style villa,” 
+“natural
+oxygen  bar,”and“15-minute  living  circle,”came  to  the  fore.  After  
+in-person
+investigation  and  interviews  with  returned  overseas-Chinese  residents  in 
+ the
+Guangzhou OCC, we added“paradise of returned overseas Chinese,” “historical
+and cultural preservation district,”and“celebrity gathering place”to the list. 
+In
+all,  ten  themed  groups  were  selected:“villa  district,”  “bar  
+street”(Group2),
+“fashion place,” “paradise of returned overseas Chinese,” “historical and 
+cultural
+preservation district,” “rich district,” “small Western-style villa,” “natural 
+oxygen
+bar,”  “15-minute   living  circle,”and“celebrity   gathering  place.”    ¹  
+The   study
+recorded  residents’and  nonresidents’impressions  and  identification  with  
+the
+
+OCC.
+
+Step2: Choice of photographs. In accordance with the ten themed groups,44
+photos were chosen to represent the OCC (Fig.1 ). The photos were provided by
+
+village residents, taken from historical files, and newer images were shot by 
+the
+author.
+
+Step3:  Photo  assessment.  In  all,88residents  of  the  OCC  were  invited  to
+assess the photos in Figure1  based on3categories: familiarity, pleasure & 
+beauty,
+and  excitement  &  interest.  A  five-point  Likert  scale  was  applied  to  
+obtain  an
+index  for  measuring  the  degree  of  perception  (1for  lowest,5for 
+highest).  The
+first  category,  familiarity,  refers  to  participants’experience  with,  and 
+ comfort
+
+level  towards  the  environment  depicted  in  the  photos.  Second,  pleasure 
+ and
+beauty refers to participants’possible pleasant joyful moods and overall mental
+status  while  observing  the  photos;  hence,  the  pleasure  &  beauty  
+category  cap-
+tures both positive and negative emotions (Hu and Lin 2006). Third, excitement
+&  interest  refers  to  the  degree  to  which  the  selected  photographs  
+arouse  an
+emotional response and some level of arousal based on environmental stimulus.
+
+Step4:  Eye-tracking  experiment.  Next,44nonresidents  of  the  OCC  were
+invited to participate in an eye-movement test consisting of former observation
+length, first fixation, fixation count, and heatmaps. These data were collected 
+and
+participants were interviewed based on the results of their eye-tracking test. 
+The
+study used Tobii X3-120Eye Trackers and Tobii Studio software to collect and
+
+¹ Fuzzy  membership  function  method:  positive  indicator,  use  half  liter  
+trapezoidal  fuzzy  membership
+function  to  standardize  so  that  Xi  standardize  =  (Xi-Xmin)/(Xmax-Xmin); 
+ negative  indicator,  use  half  liter
+trapezoidal fuzzy membership function to standardize so that Xi standardize = 
+(Xmax–Xi)/(Xmax-Xmin).
+
+
+FIG.1—The44photos for visual analysis
+
+record data. To ensure data robustness, we conducted the test in a quiet room.
+The resolution of the computer monitor was1080p and the distance between the
+monitor   and   participant   was   approximately60cms,   which   was   deemed
+comfortable.
+
+Step5: Data analysis. Our analysis method of pictorial assessment was Mean
+Value and Multiple Comparison Test of the photo groups. The analysis method
+of the eye-tracking test involved sorting the sums of former observation length,
+first fixation, and fixation count, and the heatmaps.
+
+Interview. Interviews were held throughout the research process, both before
+selecting  themes,  and  after  the  photo  assessment  and  eye-tracking  
+experiment.
+The  interviewees  included  returned  overseas  Chinese,  new  residents,  and 
+ non-
+residents of the Guangzhou OCC.
+
+RESULTS  OF  PHOTO  ASSESSMENT
+
+After  completing  assessments  of  the44chosen  photos,  we  obtained  two  
+main
+results.  First,  in  the  sorting  (see  Table  a  in  Figure2  ),  
+Group4(paradise  of
+returned  overseas  Chinese)  and  Group5(historical  and  cultural  
+preservation
+district)  displayed  a  low  score  in  all  three  dimensions  (the  lowest  
+group  was
+Group2),  indicating  that  residents  may  have  a  low  cognition  degree  
+towards
+“historical and cultural preservation district”and“paradise of returned overseas
+Chinese,”which  strongly  represents  the  overseas-Chinese  culture  of  the  
+OCC.
+Whereas   three  of  the  highest  emotional  arousal  degree  groups  were  
+Group9
+(15-minute  living  circle),  Group8(natural  air  oxygen  bar),  and  
+Group6(rich
+
+
+FIG.2—The results and graphical depiction of the mean value of the3emotional 
+dimensions
+
+district). These findings show noteworthy differences in the perception of resi-
+dents and nonresidents of the OCC since the1950s.
+
+oxygenAs  of1979,  Guangzhou  real  estate  transactions  recovered  from  the
+economic downturn, and people were to freely trade their property rights (or
+homes)  on  the  market.  By1984,  the  OCC  had  begun  the  process  of  
+property
+rights  change.  Along  with  these  changes,  residents  and  architectural  
+forms
+were  also  dramatically  changed.  A  first  significant  difference  is  the  
+gradual
+shift  in  the  type  of  inhabitants  from  the  returned  overseas  Chinese  
+of  the
+1950s   to   the1990s,   to   foreigners   and   high-income   white-collar   
+workers
+(present  day);  therefore,  we  did  not  expect  the  history  of  the  
+returned  over-
+seas Chinese to resonate with new entrants. Second, the current heterogeneity
+of  residents  in  the  OCC  also  leads  to  differences  in  values  and  
+lifestyles
+among them. In addition, heterogeneity weakens the identity of new entrants
+into  the  community,  in  that  they  are  unlikely  to  take  the  initiative 
+ to  engage
+with  other  residents.  If  new  neighborhood  contacts  cannot  be  
+successfully
+established,   this   could   lead   to   minimal   or   a   total   lack   of  
+ neighborhood
+contact  and  communication.
+
+We (the returned Overseas Chinese and new neighbors) do not know each other 
+now. How
+can we know when the new neighbor’s door is closed?
+
+—Interview L, one returned Overseas Chinese who had returned in the1960s;
+September9,2014
+
+Thus, we suspect that new entrants are unlikely to encounter returned overseas
+Chinese in regard to their special activities, unique narratives, or by way of 
+daily
+neighborhood  interaction.  The  special  history  of  the  OCC  is  likely  to 
+ be  mis-
+understood   during   oral   or   neighborhood   contacts,   even   if   they   
+occur.
+Furthermore, physical forms of buildings have also changed as occupants have
+changed,  but  in  order  for  memories  of  attachment  to  place  to  be  
+recalled,  the
+material  structure  must  still  be  standing.  However,  major  alterations  
+have
+
+
+already  occurred;  changes  to  the  surrounding  architectural  environment  
+no
+longer  directly  reflect  the  history  of  the  returned  overseas  Chinese’s 
+ special
+period during the1950s. Residents of the OCC are therefore unable to compre-
+hend the relevant history of the place by observing the physical environment of
+the OCC. This finding is verified in our photo analysis.
+
+Our second main result in the pictorial analysis involved the use of Multiple
+Comparison Test, where we estimated the degree of differences between groups
+by  applying  a  one-way  analysis  of  variance.  We  found  significant  
+differences
+between  Group2and  Group6,  Group2and  Group8,  Group2and  Group9,
+
+Group3and Group9, Group4and Group9, and Group5and Group9(p<0.01).
+
+Thereafter, the weight of each photograph in its group was calculated using the
+entropy method, and each photo’s score was weighted. Next, the weighted data
+of the three dimensions were estimated in Multiple Comparison Tests using the
+Least Significant Difference (LSD) method. After the pair-by-pair comparison of
+the mean value of the three dimensions, we estimated the degree of significant
+differences between them. The Multiple Comparison Test results are presented
+in Table1 .
+
+Based  on  statistics  of  differences  among  groups  in  the  pictorial  
+analysis
+results, the dimension of familiar–strange showed the widest differences between
+groups  and  residents,  respectively:  Group9(15-minute  living  circle)—Group2
+(bar  street),  Group9(15-minute  living  circle)—Group4(paradise  of  returned
+overseas Chinese), Group8(natural oxygen bar)—Group2(bar street), Group9
+
+(15-minute living circle)—Group5(historical and cultural preservation district),
+and Group9(15-minute living circle)—Group3(fashion place).
+
+In the dimension of pleasure–disgust, the main differences between the groups
+and residents, respectively, were Group9(15-m   inute living circle)—Group2(bar
+street), Group8(natural oxygen bar)—Group2(bar street), Group9(15-minute
+
+TABLE  1—THE  RESULT  OF  MULTIPLE  COMPARISONS  OF  FAMILIARITY, PLEASURE  AND 
+ EXCITEMENT
+
+GROUP                                                  FAMILIARITY              
+                             PLEASURE                                           
+EXCITEMENT
+
+
+GROUP
+
+(I)
+
+GROUP
+
+(J)
+
+MEAN  DIFFERENCE
+
+(I–J)                SIG.
+
+MEAN  DIFFERENCE
+
+(I–J)                SIG.
+
+MEAN  DIFFERENCE
+
+(I–J)                SIG.
+
+6                  2                   0.89              0.000              
+0.79              0.000              0.85              0.000
+
+8                   2                    1.35              0.000              
+0.93              0.000              0.89              0.000
+
+9                  2                    1.93              0.000              
+1.26              0.000              1.24              0.000
+
+3                    1.31               0.000              0.89              
+0.000              0.86              0.000
+
+4                    1.73              0.000              0.84              
+0.000              0.81              0.000
+
+5                    1.34              0.000              0.87              
+0.000              0.82              0.000
+
+The mean difference is significant at the0.01level.
+
+
+living circle)—Group3(fashion place), Group9(15-minute living circle)—Group5
+(historical and cultural preservation district), and Group9(15-minute living 
+circle)
+
+—Group4(paradise of returned overseas Chinese).
+
+Finally, in the dimension of exciting–boring, the biggest differences between
+the groups and the residents, respectively, were Group9(15-minute living 
+circle)
+
+—Group2(bar  street),  Group8(natural  oxygen  bar)—Group2(bar  street),
+Group9(15-minute  living  circle)—Group3(fashion  place),  Group6(rich
+district)—Group2,  and  Group9(15-minute  living  circle)—Group5(historical
+
+and cultural preservation district).
+
+The main finding of the pictorial analysis revealed that the15-minute living
+circle  is  the  most  familiar  group,  because  it  reflects  daily  routines 
+ of  OCC
+residents.  A  shopkeeper  reported  that  the  customers  were  mostly  
+white-collar
+workers  employed  in  close  proximity.  The  study  also  revealed  that  
+residents
+seldom  patronize  bars  and  restaurants  (Interviews,  OCC  on11,12,14,  and
+
+15September2014),  and  therefore,  were  ambiguous  with  in  regard  to  bars 
+ and
+
+restaurants. The strongest comparison of familiar–strange landscape is apparent
+in  the“15-minute  living  circle”and“bar  street.”The  wide  differences  
+between
+groups in the dimension of exciting-boring as aforementioned (“15-minute living
+circle,” “natural oxygen bar,” “bar street,”and“historical    and cultural 
+preserva-
+tion district”) are due to minimal contact among residents in their daily 
+lives.
+
+Our   results   from   the   three-dimension   analysis   confirm   that,   
+after   the
+Guangzhou  real  estate  market  began  to  strengthen  in1979,  and  as  the  
+returned
+overseas Chinese in the OCC engaged in property rights change, these new circum-
+stances  meant  that  the  residents  as  well  as  the  material  forms  of  
+OCC  would
+correspondingly  alter.  The  number  of  overseas  Chinese  began  to  
+diminish  and
+younger entrants increased to the extent that the history of the returned 
+overseas
+Chinese  barely  resonates  in  present  day.  Moreover,  the  heterogeneity  
+of  main
+groups of current residents in the OCC has led to strong differences in values 
+and
+leisure modes, weakening the shared identity of new entrants in relation to 
+other
+residents.  The  implication  here  is  that  residents  are  now  less  
+willing  to  initiate
+contact with neighbors and other residents who are nearby. As a result, 
+residents in
+low-rise garden-style houses have almost no neighborhood communication.
+
+RESULTS  OF  EYE-TRACKING  EXPERIMENT
+
+With regard to eye-tracking data analysis and pictorial assessment, we obtained
+three noteworthy results.
+
+Result One. The sorting result of the sum of former observation length, first
+fixation, and fixation count (standardization).
+
+First,  we  standardized  data  of  the  former  observation  length,  first  
+fixation,
+and  fixation  count  using  the  Fuzzy  membership  function  method¹,  which  
+we
+then summed and sorted (Table2 ). The analysis once again revealed that Groups
+4and5ranked  almost  last  in  the  eye-tracking  test  (     Table3  ),  
+placing  fifth  and
+
+
+TABLE  2—THE  RESULT  OF  THE  EYE-TRACKING  TEST  AND  THE  SORTING
+
+
+SORT                                              GROUP
+
+FORMER  OBSERVATION
+LENGTH
+
+FIRST
+FIXATION
+
+FIXATION
+
+COUNT            SUM
+
+1Group6(rich district)                                                      
+0.704                  0.754           0.909       2.367
+
+2Group2(bar street)                                                         
+1.000                  1.000           0.000       2.000
+
+3Group3(fashion place)                                                    0.991 
+                 0.874           0.094        1.959
+
+4Group1(villa district)                                                      
+0.751                  0.776           0.146        1.673
+
+
+5Group4(paradise of returned Overseas
+Chinese)
+
+0.293                  0.692           0.508        1.493
+
+6Group10(celebrity gathering place)0.183                  0.673           0.636 
+       1.491
+
+7Group7(small western-style villa)0.000                  0.556           0.893  
+      1.448
+
+
+8Group5(historical and cultural
+preservation district)
+
+0.476                  0.684           0.239        1.398
+
+9Group9(15-minute living circle)0.630                  0.456           0.101    
+     1.187
+
+10Group8(natural oxygen bar)0.014                  0.000           1.000        
+1.014
+
+TABLE  3—THE  EYE-TRACKING  ANALYSIS  RESULT  OF  GROUPS  4 AND  5
+
+
+SORT                                        PHOTO
+
+1        5.6Historical and cultural
+preservation district
+
+2        5.2Historical and cultural
+preservation district
+
+3        5.1Historical and cultural
+preservation district
+
+THE  SUM  OF  FORMER  OBSERVATION  LENGTH, FIRST  FIXATION
+AND  FIXATION  COUNT
+
+3.16
+
+2.47
+
+2.30
+
+4       4.2Housewarming banquet                                                 
+          2.16
+
+5        4.1The home of Overseas Chinese                                        
+       2.07
+
+6       4.4New Year hall                                                        
+                   1.99
+
+7        4.5Birthday banquet                                                    
+                   1.98
+
+
+8       5.5Historical and cultural
+preservation district
+
+9       5.4Historical and cultural
+preservation district
+
+1.70
+
+1.52
+
+10      4.3Visiting                                                             
+                         1.37
+
+
+11       5.3Historical and cultural
+preservation district
+
+0.49
+
+
+eighth respectively, indicating that nonresidents expressed a measurable degree
+of low emotional awakening to the place meaning of“returned overseas-Chinese
+inhabited  area.”When  we  combined  data  of  pictorial  assessment  and  the  
+eye-
+tracking  experiment,  we  noticed  that  the  public  may  have  a  low  
+identification
+with  the  place  meaning  of“returned  overseas-Chinese  inhabited  area”and
+oversea-Chinese  culture.  Our  study,  revealed  that  despite  being  a  
+historically
+protected  area since2004, the OCC does not promote the history of China and
+
+the  returned  overseas  Chinese  to  the  extent  that  the  connection  
+to“country”
+
+community   is   high   and   inspires   very   strong   attachment   the   to  
+ country.
+Therefore, at present, the OCC are inadequately protected.
+
+We observed that Groups6,2, and3showed the highest emotional awakening
+degree of  nonresidents having  hardly  any  connection  to  the  OCC.  On  one 
+ hand,
+photos  of“villa  district,” “bar  street,”and“fashion  place”depicted  a  
+colorful  and
+exaggerated  architectural  style  that  stimulated  conspicuous  visual  
+responses  and
+strong emotions in nonresidents during the eye-tracking experiment.
+
+Group2and  Group3(“bar  street”and“fashion  place”)  are  notable.  Groups3,6,  
+and7
+(“fashion place”/“rich  district”/“small  Western-style villa”) represent  the 
+formation  of this
+place.  For  example,  the  structures  in  these  areas  are  not  like  the  
+modern  community
+buildings  which  look  identical.  Instead,  every  house  has  its  own  
+style  and  combines  both
+Chinese  and  foreign  architectural  features.  This  type  of  photo  
+stimulates  my  curiosity—I
+want to  know  the story  of the  owner of  the house and  guess the countries  
+he has  visited
+
+before.
+
+—Interview C, a nonresident in Guangzhou; October11,2017
+
+The unfamiliar architectural styles have sparked the curiosity of some nonresi-
+dents,  and  such  strong  visual  impacts  have  redirected  their  attention  
+and
+deepened their imagination about“the rich district,” “bar street,”and“fashion
+place,”thereby  further  exacerbating  the  concealment  of  overseas-  Chinese
+culture.        The  image  conveyed  to  the  public  and  the  media  in  
+response  to  the
+OCC  is“a  low-key  luxury  in  downtown,”so  the“villa  district,” “bar  
+street,”
+“fashion place,”and“rich district”more closely match their  imagination. It  is
+noteworthy  that  the  everyday  life  facilities  function  of  the  OCC  does 
+ not
+stimulate  high  levels  of  emotional  arousal  within  nonresidents,  unlike  
+the
+grouping  of  the  entertainment  and  restaurant  function  (that  has  closer 
+ daily
+life  connection  and  body  connection).  Therefore,  nonresidents  had  a  
+higher
+emotional awakening degree to“villa district,” “bar street,” “fashion place,”and
+“rich district.”
+
+On the other hand, according to Predictive Coding Theory, the brain will use
+prior  knowledge  and  experience  to  generate  models  in  order  to  reduce  
+uncer-
+tainty in the cognition system (Clark 2013; Gładziejewski 2016). In other words,
+a person focuses on the thing that conforms to his or her representation system
+and then attempts to code it. Through the promotion of media,“villa district,”
+“bar  street,” “fashion  place,”and“rich  district”become  the  participant’s  
+first
+
+
+impression   of   the   OCC.  Indeed,   during   the   eye-tracking   test,  
+participants
+focused more on these photos because of predictive coding.
+
+Furthermore,  when  compared  to  Group5,  Group4and  Group10elicited
+
+a higher degree of emotional awakening, although all these groups exhibit over-
+seas-Chinese  culture.  Group4and Group10contained  human activities; how-
+ever,  Group5did  not.  To  satisfy  the  need  for  social  activities,  
+people  will
+typically  focus  on  the  human  form:  people’s  faces,  expressions,  and  
+behavior
+(Hall and others2015; Gregory and others2019). The actions of people produce
+meaning  and  people  also  comprehend  space  through  movement  (Thrift  
+2000).
+Therefore, environments containing humans and human activity attracted more
+
+attention than empty spaces.
+
+The findings for nonresidents indicate that they cannot be expected to spread
+overseas-Chinese culture for the following reasons: (1) although the 
+architecture
+style  of  the1950s  OCC  is  special,  newer  building  styles  are  more  
+colorful  and
+attractive;  (2)  propaganda  about  overseas-Chinese  culture  and  the  
+historically
+protected area is insufficient to pique their interest. As a result of 
+consumerism,
+the discourse constructed by the Internet and media—related to for example, the
+villa  district—gradually  overwhelms  the  official  propaganda  discourse;  
+and  (3)
+the OCC has rarely given presentations of overseas-Chinese culture to commu-
+nicate its history. Hence,“overseas-Chinese culture”has been subsumed, even-
+
+tually assuming labels such as“villa district,” “rich district,”and others. At 
+the
+same  time,  boundaries  between  different  forms  of  culture  have  
+increasingly
+blurred.  The  analysis  found  that  the  indistinctness  of  physical  forms  
+and  the
+diversification of labels has led to vague cognition by residents and 
+nonresidents
+with   regard   to   the   existence   of   the   Guangzhou   OCC   and   its   
+historical
+significance.
+
+Result Two. The sorting result of the former observation length, first fixation,
+and fixation count sums after standardization.
+
+The result indicates that the group of people who have place experience can
+successfully focus on key elements in their everyday lives, including memories 
+of
+the past—for example, architecture which reflects the special history of the 
+OCC
+
+of the1950s.  For  returned overseas-Chinese  residents  of Guangzhou,  the  
+green
+roof in Photo5.3is one of the most powerful representative places of collective
+memory,  not  just  for  its  distinctive  architecture,  but  because  it  was 
+ also  the
+
+gathering place for childhood play. However, nonoverseas-Chinese residents and
+the  general  public  do  not  share  similar  experiences.  Therefore,  in  
+contrast  to
+returned  overseas-Chinese  residents,  they  exhibit  a  low  emotional  
+response  to
+the photograph depicting the green roof.
+
+Result Three: The Heatmap
+
+The Heatmap component of the eye-tracker reflects the level of participants’
+attraction to specific videos and photos. It maps the former observation length
+and  fixation  count  as  a  visual  parameter.  The  length  of  the  duration 
+ of  the
+
+
+FIG.3—The Heatmaps and photos of architecture
+
+participant’s observation at a preset amount of time, directly corresponds to 
+the
+darkness  level  of  the  area  (Holmqvist  2015).  Excluding  the  invalid  
+Heatmap
+(where focus is hot scattered, attention is on the text and middle of the 
+trees),
+we derived16robust Hotspot maps, of which12were mainly for buildings, and
+four  for  community  activities.  Four  examples  of  our  Hotspot  maps  are  
+below
+presented in Figure3 .
+
+Our findings indicate that nonresidents were inclined to focus on windows
+and doors in the architecture photos.
+
+I always feel that private villas are very mysterious. When I see their doors 
+and windows,
+I am tempted to snoop.
+
+—Interview C, a nonresident in Guangzhou; October18,2017
+
+Windows  and  doors  are  the  junctures  between  two  spaces,  and  according 
+ to
+Thwaites  and  Simkins  (2007),  they  are  likely  to  instinctively  
+stimulate  people’s
+curiosity and imagination about another unknown space. As a cultural phenom-
+enon, architecture has a“society brand”—it transmits social values of an era and
+reveals spatial responses to political, economic, and other lifestyles across 
+history
+(Lees 2001; Jacobs and others2007). The“paradise of returned overseas Chinese”
+and“historical  and  cultural  preservation  district”photos  portray  the  
+physical
+environment  and  landscape  around  buildings  up  until  the1950s.  As  
+aesthetic
+tastes changed over decades, so did architectural elements representing 
+overseas
+
+
+culture combined with local culture. The fusion of cultural elements is 
+difficult
+for residents to understand if they are unaware of the special history of the 
+OCC.
+Examples of the fusion of Chinese returned culture and Lingnan culture include
+larger porches with a large, semicircular  balconies, flat roofs, and roof 
+gardens
+
+(Guan and others1997). A unique Western courtyard view is also indicative of
+the fusion of OCC and Lingnan culture (Wang and Zhao 2015). As a result, new
+residents do not experience appreciative emotional feelings linked to buildings 
+as
+
+symbols of a past era. Instead, the overall result reflects diverse 
+interpretations of
+space  for  different  people  and  newcomers.  Eye-tracking  experiment  data  
+and
+interviews  confirm  that  the  focus  of  people  with  place  experience  is  
+different
+from those without.
+
+SUMMARY  AND  SUGGESTIONS
+
+The OCC is an important cultural heritage space for returned overseas Chinese,
+loaded with the historical spirit and collective memory of the overseas Chinese.
+However, our study  has uncovered pitfalls in  its protection. Between2004and
+
+2019,  due   to   urban   development   and   the   departures   of  returned   
+overseas
+
+Chinese, the cultural significance of the OCC has weakened to a large extent.
+
+This  result  is  deplorable,  yet,  at  the  same  time  we  can  provide  
+some  prag-
+matic suggestions for the protection of the OCC. First, architectural features 
+that
+can  be  protected  include  (1)  places  reflecting  the  collective  life  of 
+ returned
+
+overseas Chinese;  (2)  characteristics of  housing architecture  that  are  
+important
+
+stimuli;  (3)  windows  and  doors  of  buildings,  which  are  critically  
+important.
+Features  (1)  and  (2)  can  potentially  awaken  the  collective  memory  of  
+returned
+the    overseas    Chinese,    and    (3)    is    what    people    will    
+pay    attention    to
+physiologically.  Second,  depending  on  if  the  OCC  is  a“living”museum  
+(for
+
+example,  that  overseas  Chinese  still  reside  in  communities),  more  
+relevant
+Chinese  activities  should be  organized in  the  OCC  to  inspire current  
+residents
+to  appreciate  and  better  understand  oversea-Chinese  culture  and  the  
+places  it
+inhabits.  Third,  heritage  as  a“brand  space”needs  to  be  promoted  via  
+news-
+papers, social media, and government propaganda.
+
+CONCLUSION
+
+Using the sense of vision as our main approach, we have applied photo assess-
+ment,  eye-tracking  experiments,  and  interviews  to  explore  the  
+social-spatial
+meaning of the Guangzhou“returned overseas Chinese inhabited area”in con-
+temporary  China.  The  study  of  the  OCC  presented  here  illustrates  that 
+ the
+significance  of  cultural  heritage  exists  not  only  in  political  or  
+economic  dis-
+course, but  is also embodied; in  our case,  we have  particularly emphasized 
+the
+sense organ of vision, which was applied in a bottom-up construction of cultural
+heritage  significance.  However,  cultural  heritage  is  not  immutable—it  
+interacts
+with  everyday  life,  impacting  place  characteristics  and  infusing  
+meaning.  This
+
+
+paper  has  provided  a  vision-based  mixed  method  in  an  attempt  to  
+address
+perception  issues  in  cultural  heritage  protection.  Results  show  that  
+in  cultural
+heritage protection, the visual research method can find or enlarge neglected or
+weakened elements, which are often hidden in people’s cognition, emotion, and
+memory, presenting rhythmic body performance. This is conducive to  a better
+balance  between  stakeholders  and  preserve  the  original  cultural  
+significance  of
+cultural heritage.
+
+Inspired by“neural turn,”this paper uses the method of eye-tracking experi-
+ments that  can allow the body to communicate proactively and transform emo-
+tions  from  abstract  into  concrete  (Spinney  2015),  so  that  researchers  
+can  obtain
+participants’implicit and unconscious true attitudes from a first-person 
+perspec-
+
+tive.  It  can  effectively  respond  to  the  research  trend  of  NRT  and  
+embodied
+cognition  in  human  geography  and  help  to  closely  examine  to  the  
+unconscious
+mind behind the cultural landscape. While eye-tracking experiments can discover
+the  physical  reactions  of  people  in  the  geographical  environment,  they 
+ do  not
+attribute consciousness, thinking, emotion, and memory to essentialism. Instead,
+they discuss the neural process in the context of social culture. Place can 
+influence
+
+neural  activities  (Lengen  and  Kistemann  2012;  Pykett  2018).  The  
+epistemology
+
+provided  by  neuroscience  and  its  impact  on  society  are  worthy  of  
+attention,
+especially   for   the   study   of   human’s   implicit,   flowing,   and   
+abstract   factors.
+Changes  in  the  cultural  landscape  can  be  reflected  in  people’s  
+perception  and
+behavior, and the perception process of different groups can also reflect 
+differences
+and inequality of social rights (Gagen 2015). At the same time, innovation of 
+this
+method can re-understand the relationship between humans and the environment,
+set  the  environment  in  a  flowing  and  constantly  changing  cultural  
+context,  and
+highlight place characteristics in the environment (Pykett 2018).
+
+ACKNOWLEDGMENT
+
+The author would like to thank editors and anonymous reviewers who give comments
+for the earlier draft of this paper. All errors remain to ourselves.
+
+FUNDING
+
+This work was supported by the National Natural Science Foundation of China 
+[41871127,
+
+41701149,81601533].
+
+NOTES
+
+“Villa district”means that all the houses located in this district are large 
+and luxurious.
+
+“Bar street”is a place where bars are clustered.
+
+“Fashion place”is a place with a stylish environment and atmosphere.
+
+“Paradise of returned overseas Chinese”is a place in which the returned 
+overseas Chinese and
+their families will have a happy life.
+
+“Historical and cultural preservation district”is an area that needs protection 
+of its appearance
+and culture.
+
+
+“Rich district is where wealthy people live.
+
+“Small Western-style villa”emphasizes that the form of villa in that place is 
+of Western style.
+“Natural oxygen bar”is a place formed in natural conditions to provide 
+sufficient oxygen for
+people.
+
+“15-minute living circle”is the area in which residents walk within a15- minute 
+period.
+
+“Celebrity gathering place”is where many celebrities live.
+
+REFERENCES
+
+Amin,  H.  M.  T.  M.  2018.  The  Impact  of  Heritage  Decline  on  Urban  
+Social  Life.Journal  of
+Environmental Psychology55:34–47.
+
+Barnett, C. 2010. Political Affects in Public Space: Normative Blind-spots in 
+Non-representational
+Ontologies.Transactions of the Institute of British Geographers33(2):186–200.
+
+Beljaars,  D.  2018.Geographies  of  Compulsive  Interactions:  Bodies,  
+Objects,  Spaces.  PhD  thesis,
+
+Cardiff University.
+
+Berger, J. 2008.Ways of Seeing. London: British Broadcasting Corporation.
+
+Blake, J. 2000. On Defining the Cultural Heritage.International and Comparative 
+Law Quarterly49
+
+(1):61–85.
+
+Bodor, P., and A. Illes. 2008. Possibilities of Analyzing Visual Conduct with 
+an Eye Tracker Device:
+Searching for Visual Dialects.PoznańStudies in Contemporary 
+Linguistics44(2):197–213.
+
+Bowitz,   E.,   and   K.   Ibenholt.   2009.   Economic   Impacts   of   
+Cultural   Heritage:   Research  and
+Perspectives.Journal of Cultural Heritage10(1):1–8.
+
+Buckley, A. D., ed. 1998.Symbols in Northern Ireland. Belfast: Institute of 
+Irish Studies.
+Burk, A. L. 2003. Private griefs, public places.Political 
+Geography22(3):317–333.
+
+Brunson,  M.  W.,  and  B.  Shelby.  1993.  Recreation  Substitutability:  A  
+Research  Agenda.Leisure
+Sciences15(1):    67–74.
+
+Clark,   A.   2013.   Expecting   the   World:   Perception,   Prediction,   
+and   the   Origins   of   Human
+Knowledge.The Journal of Philosophy110(9):469–496.
+
+Creswell,  J.  W.,  and  V.  L.  P.  Clark.2007.Designing and Conducting Mixed 
+Methods Research.
+
+London: Sage.
+
+Dadvand,  P.,  J.  Pujol,  D.  Macià,  G.  Martínez-Vilavella,  L.  
+Blanco-Hinojo,  M.  Mortamais,  and
+
+M.   López-Vicente.   2018.   The   Association   between   Lifelong   
+Greenspace   Exposure   and
+3-dimensional    Brain    Magnetic    Resonance    Imaging    in    Barcelona   
+ Schoolchildren.
+Environmental Health Perspectives126(2):027012.
+
+Davidson,  R.  J.,  and  S.  K.  Sutton.  1995.  Affective  Neuroscience:  The  
+Emergence  of  a  Discipline.
+
+Current Opinion in Neurobiology5(2):0–224.
+
+Del Pozo, P. B., and P. A. Gonzalez. 2012. Industrial Heritage and Place 
+Identity in Spain: From
+Monuments to Landscapes.Geographical Review102(4):446–464.
+
+Dowling,  R.,  K.  Lloyd,  and  S.  Suchet-Pearson.  2018.  Qualitative  
+Methods  III:  Experimenting,
+Picturing, Sensing.Progress in Human Geography42(5):779–788.
+
+Fitzgerald,  D.,  and  F.  Callard.  2015.  Social  Science  and  Neuroscience  
+beyond  Interdisciplinarity:
+Experimental Entanglements.Theory, Culture & Society32(1):3–32.
+
+Fitzgerald, S. 1972.China and the Overseas Chinese: A Study of Peking’s 
+Changing Policy,1949–1970.
+
+Cambridge: Cambridge University Press.
+
+Gagen, E. A. 2015. Governing Emotions: Citizenship, Neuroscience and the 
+Education of Youth.
+
+Transactions of the Institute of British Geographers40(1):140–152.
+
+García-Hernández, M., M. de la Calle-Vaquero, and C. Yubero. 2017. Cultural 
+Heritage and Urban
+Tourism: Historic City Centres under Pressure.Sustainability9(8):1346.
+
+Gładziejewski, P. 2016. Predictive Coding and 
+Representationalism.Synthese193(2):559–582.
+
+Guan,  D.,  C.  Qin,  Y.  Chen,  and  Y.  Xie.1997.  Tree  and  Landscape  of  
+the  House  Gardens  in  a
+Low-density Residential Quarter of Huaqiao Xincun of Guangzhou.Geographical 
+Research16
+(4):63–70.
+
+Guangzhou Famous City Office. 2006.Overseas-Chinese Village Historical Cultural 
+Protection Area
+Protecting Plan. Guangzhou Municipal Planning and Natural Resouces Bureau 
+[https://www.
+gzlpc.gov.cn/gzlpc/ywpd_cxgh_ghxg_ztgh/200608/553d1182ea3042e6afcb78584807bb9d.s
+html]
+
+
+Guangzhou   Local   Records   Committee.   2009.Guangzhou  History.   
+Guangzhou:   Guangzhou
+Publishing House.
+
+Graham, B. 2002. Heritage as Knowledge: Capital or Culture?Urban 
+Studies39(5–6):1003–1017.
+Greenwald,  A.  G.,  M.  R.  and  Banaji.  1995.  Implicit  Social  Cognition:  
+Attitudes,  Self-esteem,  and
+
+Stereotypes.Psychological Review102(1):4–27.
+
+Gregory, N. J., H. Bolderston, and J. V. Antolin.2019. Attention to Faces and 
+Gaze-following in
+Social Anxiety: Preliminary Evidence from a Naturalistic Eye-tracking 
+Investigation.Cognition
+and Emotion33(5):931–942.
+
+Hall, S. S., M. C. Frank, G. T. Pusiol, F. Farzin, A. A. Lightbody, and A. L. 
+Reiss.2015. Quantifying
+
+Naturalistic  Social  Gaze  in  Fragile  X  Syndrome  Using  a  Novel  
+Eye-tracking  Paradigm.
+
+American Journal of Medical Genetics Part B: Neuropsychiatric 
+Genetics168(7):564–572.
+
+Harvey, D. C. 2001. Heritage Pasts and Heritage Presents: Temporality, Meaning 
+and the Scope of
+Heritage Studies.International Journal of Heritage Studies7(4):319–338.
+
+Harrison,  R.  2015.  Heritage  and  Globalisation.  InThe  Palgrave  Handbook  
+of  Contemporary
+Heritage  Research,  edited  by  E.  Waterton  and  S.  Watson,297–312.  
+Basingstoke:  Palgrave
+Macmillian.
+
+Hoelscher,   S.,   and   D.   H.   Alderman.   2004.   Memory   and   Place:   
+Geographies   of   a   Critical
+Relationship.Social & Cultural Geography5(3):347–355.
+
+Holmqvist,  K.  2015.Eye-tracking:  A  Comprehensive  Guide  to  Methods  and  
+Measures  .  Oxford:
+
+Oxford University Press.
+
+Hu, Z., and Y. Lin. 2006.Environmental Psychology. Beijing: China Architecture 
+& Building Press.
+Jacobs, J. M., S. Cairns, and I. Strebel.2007. A Tall Storey, but a Fact just 
+the Same: The Red Road
+
+High-rise as a Black Box.Urban Studies44(3):609–629.
+
+Kavaratzis, M. 2004. From City Marketing to City Branding: Towards a 
+Theoretical Framework for
+Developing City Brands.Place Branding1(1):58–73.
+
+Kiefer, P., F. Straub, and M. Raubal. 2012.Location-aware Mobile Eye-tracking 
+for the Explanation
+of  Wayfinding  Behavior.  AGILE’2012International  Conference  on  Geographic  
+Information
+Science. Avignon: France. April.
+
+Korf,  B.  2008.  A  Neural  Turn?  On  the  Ontology  of  the  Geographical  
+Subject.Environment and
+Planning A40(3):715–732.
+
+Lees,  L.  2001.  Towards  a  Critical  Geography  of  Architecture:  The  Case 
+ of  an  Ersatz  Colosseum.
+
+Ecumene8(1):51–86.
+
+Lengen, C., and T. Kistemann. 2012. Sense of Place and Place Identity: Review 
+of Neuroscientific
+Evidence.Health & Place18(5):1162–1171.
+
+Lenzerini, F. 2011. Intangible Cultural Heritage: The Living Culture of 
+Peoples.European Journal of
+International Law22(1):101–120.
+
+Longhurst, R. 1997. (Dis)embodied Geographies.Progress in Human Geography21(4   
+ ):486–501.
+Lorimer,   H.  2005.  Cultural  Geography:   The  Busyness  of   Being  
+More-than-representational.
+
+Progress in Human Geography29(1):83–94.
+
+Lowenthal,  D.  1985.The  Past  Is  a  Foreign  Country  Revisited.  Cambridge, 
+ U.K.:  Cambridge
+University Press.
+
+Marschall,  S.  2006.  Visualizing  Memories:  The  Hector  Pieterson  Memorial 
+ in  Soweto.Visual
+Anthropology19(2):145–169.
+
+McDowell,  S.  2008.  Heritage,  Memory  and  Identity.  InThe  Ashgate  
+Research  Companion  to
+Heritage and Identity. Edited by B. Graham andP. Howard,37–53. Aldershot: 
+Ashgate.
+
+Mitchell,  D.  2001.  The  Lure  of  the  Local:  Landscape  Studies  at  the  
+End  of  a  Troubled  Century.
+
+Progress in Human Geography25(2):269–281.
+
+Nikielska-Sekula,  K.  2016.  The  Role  of  Cultural  Heritage  in  the  
+Development  of  the  Sense  of
+Belonging  among  Young  Norwegian-Turks:  Boundary  Making  and  Crossing.The  
+Age  of
+Human Rights Journal7:96–119.
+
+            2019.  Migrating  Heritage?  Recreating  Ancestral  and  New  
+Homeland  Heritage  in  the
+Practices of Immigrant Minorities.International Journal of Heritage 
+Studies:1–15.
+
+Osborne, T. and P. Jones. 2017. Biosensing and Geography: A Mixed Methods 
+Approach.Applied
+Geography87:160–169
+
+Peterson, G. 2013.Overseas Chinese in the People’s Republic of China. London: 
+Routledge.
+
+
+Proffitt,   D.   R.   2006.   Embodied   Perception   and   the   Economy   of  
+ Action.Perspectives  on
+Psychological Science1(2):110–122.
+
+Pykett,  J.  2018.  Geography  and  Neuroscience:  Critical  Engagements  with  
+Geography’s‘Neural
+Turn.’Transactions of the Institute of British Geographers43(2):154–169.
+
+Roberts, A. C., G. I. Christopoulos, J. Car, C. K. Soh, and M. Lu. 2016. 
+Psycho-biological Factors
+
+Associated  with  Underground  Spaces:  What  Can  the  New  Era  of  Cognitive 
+ Neuroscience
+Offer to Their Study?Tunnelling and Underground Space Technology55:118–134.
+
+Rose,  G.  2002.Visual  Methodologies:  An  Introduction  to  Researching  with 
+ Visual  Materials.
+
+London: Sage.
+
+Shackel, P. A., and D. T. Pitcaithley. 2003.Memory in Black and White: Race, 
+Commemoration, and
+the Post-Bellum Landscape. Walnut Creek, Calif.: AltaMira Press.
+
+Spinney, J. 2015. Close Encounters? Mobile Methods, (Post)Phenomenology and 
+Affect.Cultural
+Geographies22(2):231–246.
+
+Steadman, R. C. 2002. Toward a Social Psychology of Place: Predicting Behavior 
+from Place-based
+Cognitions, Attitude, and Identity.Environment and Behavior34:561–581.
+
+Stokols,  D.,  and  S.  A.  Shumaker.  1981.  People  in  Places:  A  
+Transactional  View  of  Settings.  In
+Cognition, Social Behavior, and the Environment, edited by J. H. 
+Harvey,441–488. Hillsdale, N.
+J.: Erlbaum.
+
+Su,  R.,  B.  Bramwell,  and  P.  A.  Whalley.  2018.  Cultural  Political  
+Economy  and  Urban  Heritage
+Tourism.Annals of Tourism Research68:30–40.
+
+Thrift, N. 2000. Afterwords.Environment and Planning D: Society and 
+Space18(2):213–255.
+
+           2007.Non-Representational Theory: Space, Politics, Affect. London: 
+Routledge.
+
+Thwaites,  K.,  and  I.  Simkins.  2007.Experiential  Landscape:  An  Approach  
+to  People,  Place  and
+Space. London: Routledge.
+
+Till, K. E. 1999. Staging the Past: Landscape Designs, Cultural Identity and 
+Erinnerungspolitik at
+Berlin’s Neue Wache.Ecumene6(3):251–283.
+
+Vannini, P. 2015. Non-representational Ethnography: New Ways of Animating 
+Lifeworlds.Cultural
+Geographies22(2):317–327.
+
+Wang, M., and Zhao, M. 2015. The Historic Quarter’s Revitalization from the 
+Perspective of Spatial
+
+Production  Theory:  Case  Study  of  the  Overseas  Chinese  Village  in  
+Guangzhou.Journal of
+South China Normal University (Natural Science Edition)47(2):124–133.
+
+Wang,  Y.,  and  Sparks,  B.  A.  2016.  An  Eye-tracking  Study  of  Tourism  
+Photo  Stimuli:  Image
+Characteristics and Ethnicity.Journal of Travel Research55(5):588–602.
+
+Whelan,  Y.  F.  2005.  Mapping  Meanings  in  the  Cultural  Landscape.  
+InSenses of Place, Senses of
+Time, edited by G. J. Ashworth,61–72. London: Ashgate Publishing Ltd.
+
+Zhao, M., and M. Wang. 2016. Overseas Chinese Architecture Morphology and 
+Reconstruction of
+Patriarchal  Clan  Locality:  A  Study  on  Architectural  Geography  of  Chen  
+Cihong’s  Former
+Residence.Tropical Geography36(2):     198–207.
+
+View publication stats
+

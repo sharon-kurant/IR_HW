@@ -1,0 +1,1031 @@
+Accelerat ing t he world's research.
+
+Bridging the gap between the digital
+and the physical
+Areti Damala
+Proceedings of the 3rd international conference on Digital Interactive Media in Entertainment and Arts
+- DIMEA '08
+
+Cite this paper
+
+Downloaded from Academia.edu 
+
+Get the citation in MLA, APA, or Chicago styles
+
+Related papers
+
+Download a PDF Pack of t he best relat ed papers 
+
+Bridging t he gap bet ween t he digit al and t he physical: design and evaluat ion of a mobile augm…
+Aret i Damala
+
+Exploring t he Affect ive Museum Visit ing Experience: Adapt ive Augment ed Realit y (A2R) and Cult ural H…
+Aret i Damala, Isabel M. Rodríguez-Marco, Jorge Escrivá, Tobias Schuchert
+Tailoring t he Adapt ive Augment ed Realit y (A2R) Museum Visit : Ident ifying Cult ural Herit age Professio…
+Aret i Damala
+
+120
+
+DIMEA 2008
+
+Bridging the Gap between the Digital and the Physical:
+Design and Evaluation of a Mobile Augmented Reality
+Guide for the Museum Visit
+Areti Damala, Pierre Cubaud
+
+Anne Bationo, Pascal Houlier, Isabelle Marchal
+
+CNAM-CEDRIC
+Orange Labs
+292, rue St Martin, 75003, Paris, France
+Cesson-Sévigné, France
+{damala, cubaud@cnam.fr}
+{anne.bationo, pascal.houlier, isabelle.marchal}@orange-ftgroup.com
+
+ABSTRACT
+Can Augmented Reality (AR) techniques inform the design and
+implementation of a mobile multimedia guide for the museum
+setting? Drawing from our experience both on previous mobile
+museum guides projects and in AR technology, we present a fully
+functional prototype of an AR-enabled mobile multimedia
+museum guide, designed and implemented for the Museum of
+Fine Arts in Rennes, France. We report on the life cycle of the
+prototype and the methodology employed for the AR approach as
+well as on the selected mixed method evaluation process; finally,
+the first results emerging from quantitative evaluation are
+discussed, supported by evidence and findings from the
+qualitative part of the assessment process. We conclude with
+lessons learned during the full circle of conception,
+implementation, testing and assessment of the guide.
+
+Categories and Subject Descriptors
+H.5.1 [Multimedia Information Systems]: Artificial, augmented,
+and virtual realities. H.5.2 [User interfaces]: ergonomics,
+evaluation/methodology, graphical user interfaces, prototyping
+theory and methods, user-centered design. J.5 [Arts and
+Humanities]: Fine Arts. K.3.1 [Computer and Education]:
+Computer-assisted instruction.
+
+General Terms
+Performance, Design, Experimentation, Human Factors.
+
+Keywords
+Museum handheld devices, mobile augmented
+participatory design, evaluation, edutainment
+
+reality,
+
+1. INTRODUCTION
+1.1 Mobile guides in the museum setting
+Museum affinities with new technologies are not recent. Ever
+since the World Wide Web boom, museums and other cultural
+heritage institutions have been progressively investing not only on
+cutting edge documentation and information systems, but also on
+multimedia technologies fostering long-lasting relationships with
+Permission to make digital or hard copies of all or part of this work for
+personal or classroom use is granted without fee provided that copies are
+not made or distributed for profit or commercial advantage and that
+copies bear this notice and the full citation on the first page. To copy
+otherwise, or republish, to post on servers or to redistribute to lists,
+requires prior specific permission and/or a fee.
+DIMEA’08, September 10–12, 2008, Athens, Greece.
+Copyright 2008 ACM 978-1-60558-248-1/08/09…$5.00.
+
+their visitors. In this context, the transition from analog to digital
+audio guides can be considered as one of the new age revolutions
+that drastically changed the interpretation media landscape. Yet,
+another advent would occur, as an increasing number of cultural
+institutions around the globe offer a new alternative to their
+visitors: mobile, light weight, multimedia-capable devices that
+provide in situ interpretation material, traditionally residing on
+diverse media, such as books, audio guides, multimedia kiosks or
+even internet web sites, that promise to accompany the visitor
+throughout the visit; mobile multimedia museum guides are also
+capable of delivering personalized content depending on user
+preferences, age or learning abilities with the potential benefit of
+limitless multimedia delivery through wireless networks. From
+the side of museum professionals, this way of delivering
+information presents also advantages, like monitoring visiting
+patterns, real time communication with the visitors and linking of
+the museum visit with the pre and post-visit phases.
+
+1.2 Physical
+Orientation
+
+vs.
+
+Digital
+
+Navigation
+
+and
+
+Ever since the introduction of mobile guides in the museum
+setting, several issues have aroused, mainly related with content
+authoring, content update and content delivery. However, despite
+of the choices made, location awareness positions itself as a
+central issue in every mobile museum guide project, while it
+qualifies both as a technological and a design challenge. Visitors
+using mobile multimedia guides, need constantly not only to
+“locate” themselves by navigating in the interactive application
+but also in the exhibition’s physical space, in a synchronised
+manner, as both actions occur at the same time. Consequently, the
+two most susceptible questions museum visitors may pose
+themselves when using mobile multimedia museum guides are:
+-
+
+Where can I find the object for which I can see there is
+relevant content?
+
+Or
+-
+
+Where / how can I find information for this particular
+exhibition object I just happened to see?
+
+Both of these substantial questions share a common characteristic:
+they demand from the visitor to navigate from the digital to the
+physical space and vice versa. Simple geolocalization capabilities
+in this case are not enough, except if they are combined with 3D
+orientation-aware software or hardware.
+Despite remarkable advances in mobile applications
+geolocalization issues, orientation in indoor spaces remains an
+open question. Wi-Fi and Bluetooth have been employed in the
+museum context for geolocalization but are inappropriate for
+
+3rd International Conference on Digital Interactive Media in Entertainment and Arts
+
+Virtual Exhibitions and Museums
+
+educated guesses about orientation, while RFID and Infrared have
+also been tested but mostly in a trigger-like manner for delivering
+or bookmarking appropriate multimedia content [17]. In addition,
+unlike Wi-Fi and Bluetooth, RFID and Infrared require line of
+sight, difficult to achieve in the sometimes heavily crowded
+museum spaces. It is therefore not surprising that commercial
+solutions employed by museums such as the Tate Modern Gallery
+in London [18], the Van Gogh museum in Amsterdam and lately
+the Louvre in Paris [13] opted for a more conventional but easy to
+implement solution: providing the visitor with a floor plan of the
+exhibition space on the mobile museum guide, while physically
+annotating commented objects and works of art with an audioguide-like manner. The visitor has to tap on the touch-sensitive
+screen the number corresponding to the exposed exhibit. As plans
+are not always very easy to decipher and use by a non
+experienced visitor, the audio guide-approach seems to follow a
+fair, straightforward and coherent conceptual model [15] that is
+easy to understand and use in the museum context. In “Mobivisit”
+project a declarative geolocalization model was used. The visitor
+had to fill in four data base fields and then wait to see the results
+of the query [6]. In “DANAE” project, Wi-Fi was used in order to
+determine in which part of the exhibition the visitors found
+themselves but the appropriate content was only displayed after
+the visitors’ explicit demand, confirming that the change of
+position was not accidental but intentional [3]. That was not the
+case in the Cite des Sciences, “That’s Canada” exhibition. The
+environment was dark enough so as to facilitate the infrared
+triggering but often enough the visitor could not control the
+application. Infrared was also used in the Carrara marble museum
+[5] and the Cinema museum in Italy.
+
+1.3 AR for navigation, orientation and
+interaction in mobile guides for the museum
+setting
+A different approach has been employed by researchers in Xerox
+PARC, proposing a visual interface composed by photos of
+surrounding walls with “hyperlinked” objects indicating that the
+visitor can get further information about them [24]. However this
+solution was implemented in the less complex environment of an
+historic house. In the museum context, a much more
+straightforward approach would be to use the mobile guide as a
+“magic mirror”, scanning the surrounding environment for
+spatially annotated objects; this is exactly one of the promises of
+Augmented Reality [2] applications, proposing to augment the
+physical space by blending it with virtual information, ranging
+from text to image or even 3d characters as recently proposed in
+Chrystiegården Oslo, Norway [9].
+Cultural heritage has been inspiring the AR community ever since
+the last started to be thought also as a medium rather than only as
+a new technology. For example the ARCHEOGUIDE [22] and
+LIFEPLUS [20] projects have been exploring the use of Mobile
+AR in historical and archaeological sites using either head
+mounted displays or handheld devices. AR has also appeared in
+form of fixed installations in historical sites in Portugal and in
+Belgium’s Ename Center [16] helping visitors to visualize how an
+actual site might have once looked like. Some museums, like the
+Limerick Museum in Ireland [10], have been also experimenting
+with mixed and AR installations intramuros. Another possibility
+was offered by the ARCO project [23], proposing to museum
+curators the creation of virtual replicas of the exposed and non
+
+121
+
+exposed objects. An interesting “virtual” AR scenario was
+provided in 2003 by the DinoHunter project of the Senckenberg
+paleontological museum in Germany, where young visitors
+visiting the museum’s web site could start a (virtual) mystery tour
+manipulating a (virtual) PDA that augmented the dinosaurs’
+skeletons, reconstituting how they would have been like [19]. One
+year earlier, Sparaccino published the “Museum Wearable”. The
+augmentation however was provided by means of a video
+presentation displayed in front on one of both eyes using standard
+infrared location identification sensors [21].
+
+2. PROJECT BACKGROUND
+Augmented Reality has the potential to provide an interesting
+alternative for navigation, interaction and orientation in the
+museum setting as the full surrounding environment can be
+transformed in an interaction surface [7]. Tracking and
+registration in 3D -both essential components of AR applicationscan be used not only for recalculating the exact position of the
+virtual objects that will be inserted, but also for the visitors’
+localization and orientation both in the exhibition space and the
+AR application. The ideal displays in this case would be either
+mobile devices or AR goggles. In this context, the “connect”
+project [1] is probably the most relative indoor experimentation
+carried out in a museum setting; it set as a goal exploring Mobile
+AR in science museums, providing also a comprehensive
+framework for the pre and post visit phase. Yet the equipment the
+pupils had to wear included a laptop attached to a backpack and a
+rather bulky headset, with an overall weight exceeding 5 kilos,
+while large markers had to be placed in the museum sites. A
+considerably “lighter” solution was proposed by the AR group in
+Bauhaus university, Weimar, where mobile phones were tested
+for museum guidance together with Bluetooth emitters and neural
+network-based computer vision for the identification of museum
+objects by means of taking a photo of the desired object [4].
+However there was no communication on the full range of
+implemented augmentations, neither on assessment of user
+experience regarding orientation and navigation in the physical
+and digital space by using the guide.
+As navigation and orientation in both digital and physical space
+remains largely unexplored, particularly in the mobile and
+multimedia museum guide context, we undertook the creation of a
+first AR mobile museum guide prototype based on a marker based
+approach, but one that instead of adding markers in the exhibition
+space would rather use the actual museum objects as markers.
+This approach does not demand any additional installations in the
+museum premises, apart from the visitor terminals, and therefore
+qualifies as a both more discrete and less costly solution in terms
+of necessary museum infrastructure.
+The design process of the very first prototype included the
+definition of educational scenarios and a possible functions’ list,
+as well as a first pilot application based on a simple, marker-based
+approach. Demos were subsequently presented and discussed both
+with information technologies specialists and museum
+professionals. We then took a step forward, contacting the local
+Museum of Fine Arts in Rennes, Brittany, in order to make a
+proposal of a common project for the conception and
+implementation of an AR enabled mobile multimedia guide that
+the museum kindly accepted. Numerous on-site tests were
+subsequently conducted in the museum premises in order to verify
+to which extent the already used algorithms were effective under
+
+3rd International Conference on Digital Interactive Media in Entertainment and Arts
+
+122
+
+DIMEA 2008
+
+the real museum conditions. An initial list of a dozen paintings
+was dressed; all of them had characteristics enabling an easy and
+accurate tracking that would not risk frustrating museum visitors.
+As AR is a relatively new computer scientific discipline, one of
+the design challenges was to assist stakeholders with a non
+technical background in expressing their needs in terms of AR
+based scenarios. We were helped however by the museum’s prior
+experience in the FRAME project that resulted in the
+development of an interactive internet game for children, “The
+Room of Wonders” [12, 14]. As several brainstorming sessions
+were organized with the participation of interaction designers,
+ergonomists, Virtual and Augmented Reality engineers and
+museum curators and educators, progressively, the museum
+stakeholders started to feel more at ease regarding the
+technologies that would be employed and ready to propose their
+own AR scenarios and ideas.
+From the museum point of view, the AR approach can provide a
+more intuitive and discrete way for interaction with the displayed
+objects, while for the AR scientific community, museums provide
+contextually rich indoor environments for experimentations with
+AR applications, which as opposed with others, are open to a
+wide public, of different Information Technologies (IT) skills and
+backgrounds. In addition, as AR remains a computer science
+discipline with many technical challenges to overcome, an indoor
+environment -in our case the museum- is usually much easier to
+control and therefore less error prone than an outdoor
+environment. Eventually, a successful solution could then be
+modified and implanted in many other indoor environments, like
+exhibitions or other attractions.
+
+3. DESIGN PROCESS
+3.1 Design and content creation in the
+museum
+
+An evaluation methodology, favoring a mixed method evaluation
+process was also proposed to the museum stakeholders. In order
+to prepare the content for authoring in the lab, regular meetings
+were held in the museum, at the convenience of the museum
+professionals. The primary source of information came from the
+physical archive of the museum. This element proved important
+for further evolving the visit scenario, as, in many cases, nondigitized documentation material further inspired the creation of
+scenarios around the visit in sometimes unexpected ways.
+
+3.2 Design and content creation in the lab
+However, the downfall of this approach was that almost all
+application content (more than 80%) had to be built from scratch.
+That mainly happened in the lab, where “rough” digital material
+(including text and illustrations), as well as the visiting scenarios
+were transferred for content authoring. The different media
+employed were text, audio, video, slideshows as well as 2D and
+3D digital overlays in order to create the illusion that elements
+and details of the pictured “jumped out” of the paintings (Figure
+1c).
+The interface design and the overall “look and feel” of the
+application were kept simple. A three layer navigation scheme
+was employed. At the first level, once a painting was detected,
+visitors could navigate in the five defined themes –“description”,
+“technique”, iconography”, “context” and “artist”- which were
+represented as simple 3D ellipsoid overlays with inlaid text
+(Figure 1a-1b). At a second level, once a theme was activated,
+familiar media pictograms (Figure 1b-1d) represented the nature
+of the available for consultation interpretation material. Finally,
+once at the top-down navigation level, visitors could pause,
+forward or go back in the 2D and 3D multimedia presentations.
+
+Because of the experimental character of this first, on-field,
+intervention, the target group for which the application would be
+designed was put forward by all stakeholders from the very
+beginning. The museum team suggested that we profile and target
+young people, in between 18 and 30 years old, an age group
+considered as a critical public for many museums and thought as
+presumably more at ease with IT.
+Regarding the guide content, four paintings were finally retained,
+forming a thematic visit related with the iconography of costumes
+and dressing. It was also necessary to agree on the themes that
+would be presented in each painting. Museum professionals were
+advised at an early stage to try to think of presentation scenarios
+consistent with all of the selected paintings. The five themes that
+were eventually selected were the following:
+-
+
+A “Description” theme, providing a detailed description
+of the painting.
+
+-
+
+A “Technique” theme, including the technique
+employed as well as restoration interventions.
+
+-
+
+An “Iconography” theme, treating the depicted theme
+while highlighting affinities with other paintings.
+
+-
+
+A “Context” theme, gathering information relative with
+the artistic and social context of the examined period.
+
+-
+
+An “Artist” theme, containing all relevant artist
+information.
+
+Figure 1a-1d: Navigating in a painting’s themes and in
+available interpretation media
+
+4. MAIN COMPONENTS OF THE SYSTEM
+The evaluation testbed used for the experimentation consisted of
+three elements: The mobile AR prototype, a system to record and
+later observe users’ actions with the prototype and a system to
+observe users’ behavior during the evaluation sessions.
+The AR prototype was executed on an Ultra Mobile PC (UMPC)
+Samsung Q1 running on Windows XP and equipped with an
+ordinary webcam (Figure 2a, 2d). The AR system is powered by
+the MAGIC Engine software framework (“Mobile Augmented
+Reality for Indoor Collections”), built on top of OpenCV for
+video acquisition, ARToolkitPlus for tracking the paintings,
+OGRE3D for the insertion of the virtual objects, Open AL for the
+
+3rd International Conference on Digital Interactive Media in Entertainment and Arts
+
+Virtual Exhibitions and Museums
+
+audio output and XERCES for xml document parsing. During the
+visit, the visitor holds the AR prototype system in such a way that
+the attached webcam (Figure 2d) is directed towards the paintings.
+The captured video is displayed in real time on the screen of the
+UMPC (Figure 2c), augmented with 2D or 3D virtual objects
+(Figure 1a-1d) with an observed frame rate of about 15
+frames/second. The user can access these objects interactively
+either by using the UMPC buttons or the touch-sensitive screen
+thus giving access to other digital documents (text, audio, video,
+2D and 3D graphics), arranged in a tree structure as described in
+section 3.2. Provided that the painting is entirely visible on the
+screen, the system is robust enough to entirely support the
+augmented visit and all of the available presentations.
+
+123
+
+to be designed carefully and had to include research questions that
+would also arouse in the evaluation of a non AR mobile museum
+guide. For the same reason, employing qualitative methods, such
+as the direct observation of the visitors interacting both with the
+paintings and the mobile guide was judged necessary as well as
+conducting a semi-structured interview right after the visit. The
+post visit protocol would also include a survey and two
+workshops to which consenting students would participate. At the
+same time, the exploratory nature of the study as well as the
+protocol retained, favored a sample consisting from about 10 to a
+maximum of 16 museum visitors. Twelve participants were
+finally recruited from two different local university faculties, the
+School of Fine Arts and the Department of Social Sciences. This
+profiling further refined the age profile of our sample from 18 to
+30 to 18 to 22 years old. Unlike many other AR user-based
+studies, an equal representation of male and female participants
+was achieved.
+
+5.2 Before and during the visit
+In the time span of approximately two weeks, 12 visitors were
+observed, interviewed and video recorded (Figure 3a-3d). After
+meeting the research team and following a short tutorial, the
+necessary additional equipment -the head camera and the belt bag
+containing the ARCHOS player- was appropriately adjusted.
+
+Figures 2a-2d: The equipment used for the experimentations.
+The belt bag (2b) contains the multimedia recorder (2c)
+A digital video camcorder on a tripod centering the whole scene
+was used so as to record and further analyze users’ interaction
+with the AR system, the painting and the museum space (Figure
+3b). Finally, in order to capture in detail the interaction of the
+users with the AR prototype, an ARCHOS 404 multimedia
+recorder (Figure 2c) placed on a belt bag (Figure 2b) was used,
+equipped with a mini cam attached on a headband strap (Figure
+3c). Because of this additional equipment that had to be adjusted
+on the participants, the design choice made regarding the audio
+was to use the UMPC speakers and not a headset for the audio
+delivery.
+
+Despite the fact that all sessions were recorded both by the video
+camera as well as by the ARCHOS recorder, all participants were
+also observed throughout the full visit by one of the researchers
+(Figure 3b). The first task visitors were asked to perform was to
+locate the works for which further resources were available. Once
+the painting was detected, the visitors were asked to freely
+navigate in the content according to their preferences and
+preferably exactly as they would do if they were alone. The
+duration of the visits ranged between 25 and 60 minutes according
+to visitors particular interests. A 15-minute interview then
+followed. The first interview questions helped as a warm-up and
+included general questions regarding museum visiting while the
+second part focused more on their visitors’ impressions while
+using the guide. Interviews were also very helpful in reshaping
+the issues that would be later treated during the focus group
+sessions.
+
+5. ASSESSMENT OF THE AR GUIDE
+5.1 Methodological considerations regarding
+the evaluation process
+The evaluation of the mobile AR guide had many inherent
+difficulties. The first one is related with a major issue observed in
+the field of AR, where user studies are still clearly underutilized.
+Gabbard and Swan report that in a total of 1,104 articles on AR
+recessed, only 2% included a user based study [11]. This creates
+an enormous hiatus in between AR as a computer science
+discipline informed by a continuous progress in engineering, and
+AR as an emerging technology that has a potentially tremendous
+impact not only on the way we interact with computers but also
+with our environment and with each other.
+The second difficulty, and one more challenging, was relevant
+with the assessment of the AR interface, as our target group was
+neither familiar with the notion of AR nor had ever used other
+mobile multimedia guides. Therefore, the evaluation protocol had
+
+Figure 3a-3d: Observing the user experience and positioning
+of the main actors (3b)
+
+3rd International Conference on Digital Interactive Media in Entertainment and Arts
+
+124
+
+DIMEA 2008
+
+5.3 After the visit
+A few days before the focus group sessions, the survey was
+posted on the web and participants were reminded to fill it in, if
+possible before our second meeting. The questionnaire was
+composed by 45 questions divided roughly in 5 parts and took
+approximately 5 to 10 minutes to fill in. The questionnaire
+sections largely reflect the presentation of the results in sections
+6.2 to 6.5.
+The last phase of the experimentations, the two workshops, took
+place one and a half month after the museum visits. Both focus
+group sessions were video recorded. Because of the limited time
+available (approximately an hour and a half) the discussion had to
+be moderated so as include some of the major issues that had been
+observed or discussed during the interviews, like the implications
+resulting from the multimedia nature of the guide, users’
+navigation in both the museum and the application, and the
+simultaneous interaction with the guide, the painting and the
+museum space. Students were encouraged to express all the
+positive or negative feelings this mediated visit provoked (Figure
+4a-4d).
+
+Figure 4a-4d: The focus group sessions; attributes of an ideal
+guide provided by the participants (4d)
+Shortly before leaving the room, all participants were asked to
+write on sticky notes one or more of the characteristics they
+would like the ideal guide to include or not, creating a collage that
+provided spontaneous and interesting in nature feedback (Figure
+4d).
+
+6. ACCEPTANCE OF THE AR GUIDE
+6.1 Methodological considerations
+In order to test the usability and acceptance of the AR guide, it
+was sometimes necessary to use more than one way in
+formulating the questions. For this part of the study, we opted –
+when judged essential- for a psychometric, summative, Likertlike, 4-point scale. The 4-point scaled was preferred over a 5point, as the 5-point scale -which includes a neutrality statementmay create confusion between the statements “I am neutral” or “I
+don’t have an opinion”. Therefore, our scale consisted of the
+“Mostly Agree” statement, followed by the “Somewhat Agree”,
+“Somewhat Disagree” and “Mostly Disagree” statements that
+during the analysis were attributed a 1 to 4 score. Attention was
+
+given in alternating the positively and negatively worded
+statements, in order to control the “acquiescence” effect.
+
+6.2 Participants and New Technologies
+All participants own a mobile phone that they obtained from the
+age of 15/16 years old. Despite the fact that the majority stated
+using a PC every day, there is a slight gender cap, with males
+using more often a PC in their everyday life in comparison with
+female participants. As Augmented Reality is a relatively newly
+coined term, the term “Virtual Reality” was used as a reference
+point, during the presentation of the study, mainly as a mean of
+comparison with “Augmented Reality”. However, the answers of
+the participants turned out to put in question our assumption, as
+more than half stated not having heard of the term “Virtual
+Reality” before. Less surprisingly, all participants were certain
+that they had never heard the term “Augmented Reality” before.
+
+6.3 Participants and museum visiting
+Inspecting the relation of participants with museum visiting was
+equally import, in order to examine whether already established
+visiting patterns or habits are related with user acceptance of the
+mobile museum guide. The answers in this section, validated the
+initial assumption that our target group rather belonged to the
+category of the “frequent museum goers”, as almost 58.3% of the
+sample claimed visiting museums four or more times per year; it
+is worth noticing however that this result is influenced by the
+answers of the students in Fine Arts, who stated visiting museums
+very often in their totality, as compared with a corresponding
+16.7% of the second group. As many visitor studies report that
+visiting a museum is also a social experience [8], participants
+were also asked whether they prefer visiting museums alone, with
+friends/family, or in a group. This assumption was found to be
+more coherent with the students of the Social Sciences, two thirds
+of whom answered that they prefer visiting with family or friends,
+compared to the other group where five out of the six participants
+stated that they prefer visiting alone. Of course the results
+obtained in these last questions do not imply that one or the other
+group is more social in nature but rather that one of the two
+groups maybe frequents museums more often because of the
+specific nature of the undertaken studies.
+A strong polarity was observed in the answers given as to whether
+participants generally use or not interpretation material
+throughout the visit; only half of the participants answered that
+they always do so. The answers were equally divided both
+between the two university groups as well as in between male and
+female. However all participants chose to fill in the question
+regarding the interpretation material they are more susceptible to
+use. As to the nature of the interpretation material used, text
+provided by the museum comes in 1st place with 60%, followed
+by on site multimedia kiosks, museum web sites and printed
+guides of a museum’s collection (20%), and finally audio guides
+(10%). No student opted for the guided visit answer.
+
+6.4 Usability and content effectiveness of the
+AR guide
+6.4.1 Ease of use and navigation
+Interestingly, the best score obtained in this section was related
+with the ease of spatial identification and localization of the
+commented works of art in the gallery space (mean=3.4), obtained
+by a 58.3% of the participants that strongly agreed, with the
+
+3rd International Conference on Digital Interactive Media in Entertainment and Arts
+
+Virtual Exhibitions and Museums
+
+remaining 41.7% mostly agreeing. Good scores were also
+obtained regarding the easiness of navigation (mean=3.25). A
+somewhat lower score was obtained when participants were asked
+to judge the overall easiness of use of the guide (mean=3.08); we
+believe however that the additional equipment used for the study,
+might have somewhat influenced the obtained score. The lowest
+score in this section was observed in the statement regarding
+whether the “augmentation” of the true objects with virtual ones
+facilitated the access to the content. Despite the fact that this
+question is strongly linked with the much better performing
+assertions of the two first questions, the mean obtained was only
+2.25, with participants equally divided in between the “strongly
+agree”, “somewhat agree” and “somewhat disagree” statements.
+This is a good example of the importance in the formulation of the
+research questions and the impact this can have in the results and
+findings of surveys.
+
+6.4.2 Content Effectiveness
+The question regarding the intuitive comprehension of the
+included thematic axes, ranked 1st in this section with a score of
+3.5. Next followed the quality of the audio recordings together
+with the quality of the multimedia presentations (mean=3.16). A
+polarity was observed in the question regarding the length of the
+audio comments, which in most cases exceeded the standard 1.30
+minute audio guide comment: half of the participants found the
+audio recordings to be too long and the other half satisfactory.
+This second group is mainly composed by male students and
+Social Sciences students. Unanimity is observed as to the length
+of the provided texts and multimedia presentations with 91.7% of
+the participants judging them satisfactory. Another interesting
+question was relevant with the ways participants used the
+multimedia guide and its content. Despite the fact that all the
+media provided were eventually used by the students, the audio
+content as well as the reference 2D and 3D images came in top
+with 66.7%, followed by the texts (41.7%), the 2D or 3D
+multimedia presentations (33%) and the video (25%).
+
+6.5 Attentional balance and post visit effects
+The last part of the questionnaire was composed of statements
+regarding the interplay between the museum object and the guide
+as well as some questions regarding the post visit effect.
+Participants were asked whether the reference images used for the
+multimedia presentations in 2D or 3D interfered with their
+appropriation of the painting contemplated or helped them better
+approach the painting, having as a third possibility to give their
+own answer. Half of them answered that they were helped, while
+the other half was equally divided between the “interference”
+choice and the open ended answer, to which all implicated
+participants answered that they were sometimes helped and some
+other not.
+The next arduous question demanded from participants to position
+themselves on the negatively worded statement of interference of
+the guide with their contemplation of a work of art. Opinions were
+also divided, with 25% of the participants choosing the “mostly
+agree” option, 33.3% the “somewhat agree” option, 33.3% the
+“somewhat disagree” option and 8.3% the “mostly disagree”
+option, giving an average score of 2.25. However further analysis
+indicated that frequent museum goers, felt more distracted (score
+3.4) in comparison with participants visiting museum less often,
+who felt much less distracted by the use of the guide (score 1.8).
+Also, students using a PC very often marked in a more
+
+125
+
+pronounced way their distraction from the real work of art (3.0
+versus 2.25 for the rest of the participants) as well as male in
+comparison with female (2.2 versus 3.3) . The statement asking
+participants whether they found the use of the guide playful
+provoked less division, achieving one of the best scores of the
+survey (3.5) with all participants either mostly or somewhat
+agreeing. It is also interesting to check the answers on the
+statement “Using the guide helped me better approach and
+appreciate the paintings”, where 91.7% mostly or somewhat
+agreed with the remaining 8.33% somewhat disagreeing (score:
+3.1). The same results were also obtained when participants were
+asked whether they think having learned more using the guide
+rather than if they hadn’t used it at all.
+We were also interested in including some questions regarding the
+post visit effect, like for example the number of works included in
+the guide. Almost six weeks after the visit, 75% of the
+participants were able to remember correctly. However even
+participants who didn’t remember correctly could name one or
+more of the subjects depicted and/or the artists represented.
+Despite the altercation in the responses of several of the questions
+of the survey, all participants answered that they would use a
+similar guide of it was available in a museum; 44%
+unconditionally, and 64 % adding some personal criteria ( “yes, if
+I was alone”, “yes, but according to the featured exhibition”,
+“certainly, if it was free of charge”).
+
+6.6 Lessons learned during the field study
+It would be useful to highlight some of the main interesting points
+of the field study as they provide additional key points susceptible
+to have a positive or negative impact on these first –quantitative
+in nature- results.
+The first important remark concerns the surrounding
+environmental conditions during the guided visits of the
+participants. The affluence of many school visits, observed
+principally during the morning testing sessions, sometimes
+deprived participants of choosing their own itinerary towards the
+one suggested by the researchers, waiting for the galleries to get
+calmer. For the same reason, audio, delivered by means of the
+UMPC integrated speakers, was sometimes hard to hear. Visitors’
+opinion against this deficiency found its way to us, despite the
+fact that there was no particular question on the survey: the
+problem was reported during the interviews and was included in
+some of the survey answers.
+Another crucial remark is that visitors demanded even more
+consistency regarding the multimedia presentations. This was
+discovered by means of an intentional inconsistency regarding
+whether the included in the multimedia presentation texts were
+transcripts of the audio content or not. All of the participants that
+happened to first discover that the text was the same with the
+audio they had previously listened, made the reasonable
+assumption that whenever a text and an audio comment were both
+included, they revealed the same information.
+In terms of content presentation many participants indicated that
+the somewhat more playful presentation approach employed in
+one of the four paintings appealed a lot to them. It is of course not
+by a hazard that this particular painting benefited by the direct
+input of the museum educators. As far as the adaptation in
+maneuvering the application is concerned, it soon became obvious
+that stressed visitors, particularly those that considered themselves
+
+3rd International Conference on Digital Interactive Media in Entertainment and Arts
+
+126
+
+DIMEA 2008
+
+not having a “considerable” ease in using such a guide, usually
+needed more adaptation time than the more confident -regarding
+IT- students, usually not exceeding a couple of minutes. This
+initial difficulty did not influence in a negative way the
+participants as it was this last group that found considerably more
+rewarding the use of the guide.
+
+7. DISCUSSION
+Clearly, some of the findings of the survey need further
+discussion. For example, it turned out that despite common
+assumptions about museum visiting as a primarily social activity,
+in our sample, a strong proportion of participants visit museums
+alone. Another polarity observed was that interpretation material
+is not consistently used during museum visiting, but when this is
+the case, the students use interpretation means coming from the
+full spectrum of available material, with museum provided texts
+coming first, though other interpretation media, like multimedia
+kiosks, audio guides, web sites or books are also used during or
+following the visit. These remarks, suggest that even within a
+stratified sample like ours, the need for personalization of the
+multimedia application according to different profiles is more
+than a necessity.
+Concerning the use of the Augmented Reality approach the results
+are very encouraging. All of the participants indicated either a
+moderate or a strong positive attitude as to whether the
+identification of the commented works was an easy task. The
+same holds true regarding the ease of navigation in the
+application, based consistently on the Augmented Reality
+metaphor, at all levels of information retrieval. It is characteristic
+that one of the visitors mentioned, both during the interview as
+well as during the focus group, that the detection was far too easy
+and that a more “difficult” or playful way of discovery should
+maybe be present. As to whether the guide and the reference
+multimedia material provided interfered with visitors’ own
+appropriation of the work of art, frequent museum goers as well
+as those of the participants using a PC very often -meaning at
+least daily for the needs of our survey- indicated being more
+distracted than the rest of the participants. The slight gap between
+male and female is here reversed in comparison with the
+frequency with which participants use new technologies, as
+female participants indicated being distracted much less
+(mean=2.2) than male participants (mean=3.3). These findings
+could indicate that whenever there is a well established pattern of
+interaction, being it with a PC or a museum object, one is more
+hesitant in adapting a new, alternative strategy of apprehension
+and communication. But the positive side of this remark is that it
+seems probable that new audiences could be attracted in the
+museum premises if a variety of interpretation means was to be
+provided. Additional evidence pointing towards this direction is
+that despite the fact that half of the visitors indicated using textual
+information when visiting museums over other interpretation
+media, the predominant use of text over other media is not at all
+reflected in the answer presented in section 6.4.2, where visitors
+were invited to explain how they used the multimedia guide. This
+finding is quite significant as it could indicate that whenever and
+wherever alternative material is proposed it does not risk not to be
+appropriated by museum visitors.
+
+8. PERSPECTIVES
+Despite the fact that mobile museum guides are sometimes
+suspected for distracting visitors’ attention, our study proved that
+visitors were very careful as to what they saw and listened while
+using the mobile museum guide. It also became apparent that
+using alternative interpretation media might have the potential of
+attracting new publics. The non-familiarity with IT applications
+proved not to be a drawback in the overall appreciation of the AR
+assisted mobile guide. Additionally, visitors strongly expressed
+themselves putting in question aspects of the overall design, like
+for example the design choice concerning the audio delivery.
+Another important finding of the full experimentation was that
+despite the fact that constant cross disciplinary collaboration can
+considerably stretch the time needed for the design and
+implementation phases, it was principally the mostly benefited
+from this approach content that came first in the list of visitors’
+preferences.
+However it seems that the most important finding is that AR
+assisted interfaces can indeed successfully facilitate visitors
+intuitively switch their focus and attention from the physical to
+the digital space and vice versa, even in the complex context of
+the museum space. Apart the results of the survey, the direct
+observation of the visitors proved the AR interface not only to be
+intuitive but also accompanied by a fast learning curve, even
+though none of the participants had either used a mobile museum
+guide before or a UMPC. Another important element is that the
+solution proposed is discrete and non-invasive regarding the
+museum ecology, as apart from visitors’ terminals, no other
+particular equipment or IT infrastructure is needed in the museum
+premises for a successful navigation, orientation and interaction
+both with the physical and the digital environment. These findings
+get even more encouraging as the sample consisted by
+participants who did not have prior experience or knowledge on
+AR and AR applications.
+Future work includes the full analysis and formalization of the
+qualitative part of the research, in order to extract the most
+regarding the enhancements that can be brought to a new
+prototype and address all elements that might favor or slow down
+the acceptance of mobile AR enabled multimedia applications.
+Based on a detailed analysis of all results, a new prototype will
+also be implemented and tested in the same context, with the
+ambition to come closer to a guide which should ideally be
+“playful”, “accessible for a larger public”, “original”,
+“motivating” “interactive”, “curious”, “surprising”, but also
+“subjective” and “sensitive”, some only of the adjectives
+attributed by the participants during the focus group sessions.
+With the continuous advent in computer processing power and
+size, the intrusion of mobile technologies in all aspects of our
+everyday life, and the constant evolution of AR technologies, it
+seems probable that in the maybe not so distant future, museum
+visitors might have the possibility to enjoy a rich multimedia but
+also emotional experience, using their self-owned mobile, ARenabled devices, providing thus museums educators and curators
+with an alternative method of delivering rich and diverse exhibitrelated, in situ, interpretation material.
+
+9. AKNOWLEDGEMENTS
+Our thanks go to all the personnel of the Museum of Fine Arts in
+Rennes for their sincere engagement in all stages of the project.
+
+3rd International Conference on Digital Interactive Media in Entertainment and Arts
+
+Virtual Exhibitions and Museums
+
+We would particularly like to thank Laurence Imbernon, our
+corresponding museum curator in the Museum of Fine Arts in
+Rennes, as well as the inspiring team of museum educators.
+Finally, we would like to thank Charlotte, Marine, Marlene,
+Marie-Laure, Elise, Florence, Florian, Benjamin, Benjamin L.,
+Julien, Simon and Johan for their enthusiastic participation in all
+stages of this long evaluation process.
+The experimentations benefited from the France Telecom
+Research and Development PhD internship program, while the
+data mining and analysis of the results were conducted in
+CEDRIC, Conservatoire National des Arts et Métiers, Paris,
+France.
+
+[12]
+[13]
+[14]
+
+[15]
+[16]
+
+10. REFERENCES
+[1]
+
+[2]
+[3]
+
+[4]
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+[9]
+[10]
+
+[11]
+
+Anastopoulou, S. and Sotiriou, S. (eds.). Connect:
+Designing the Classroom of Tomorrow by using
+Advanced Technnologies to connect formal and
+informal learning environments. Implementation Guide.
+Epinoia S.A, Athens, Greece, 2005.
+Azuma, R., A Survey of Augmented Reality. Presence:
+Teleoperators and Virtual Environments,6 (4), 355-385
+Brelot, M., Cotarmanach, A., Damala, A. and
+Kockelcorn, H., Nomadic computing in indoor cultural
+settings: Intelligent connectivity, context awareness and
+the mobile museum experience. In Proceedings of
+International Cultural Heritage Informatics Meeting
+2005, (Paris, 2005), Archives and Museum Informatics
+Europe.
+Bruns, E., Brombach, B., Zeidler, T., Bimber, O.,
+Enabling Mobile Phones to Support Large Scale
+Museum Guidance, in IEEE Multimedia 14, 2, 16-25.
+Ciavarella, C. and Paternò, F. The design of a handheld,
+location aware guide for indoor environments. Pers.
+Ubiquit. Comput. 8. 82-91. DOI=
+http://doi.acm.org/10.1145/1152215.1152256
+Damala, A., Le Coq, C. and Bouguet, S., Mobivisit: A
+field study in the Museum of Fine Arts, Lyon. In
+Proceedings of International Cultural Heritage
+Informatics Meeting 2005, (Paris, 2005), Archives and
+Museum Informatics Europe.
+Damala, A., Marchal, I. and Houlier, P., Merging
+Augmented Reality Based Features in Mobile
+Multimedia Museum Guides. In CIPA 2007,
+Anticipating the Future of the Cultural Past, (Athens,
+Greece, 2007), ICOMOS, 259-264.
+Dierking, L., Falkon, J., The museum experience,
+Whalesback books, Washington, 1992
+Dimmen, P., Ny virkelighet gjennom avanserte briller,
+Computerworld (PC World Norway), February 22 2007.
+Ferris, K., Bannon, L., Ciolfi, L., Gallagher, P., Hall, T.
+and Lennon, M. Shaping experiences in the Hunt
+museum: a design case study. In Proceedings of the
+2004 conference on Designing Interactive Systems:
+Processes, Practices, Methods, and Techniques
+(Cambridge, MA, USA, August 01 - 04, 2004). DIS '04.
+ACM, New York, NY, 205-214. DOI=
+http://doi.acm.org/10.1145/1013115.1013144
+Gabbard, J., Swan. E., Usability Engineering for
+Augmented Reality: Employing User-Based Studies to
+
+[17]
+
+[18]
+
+127
+
+Inform Design. IEEE Transactions on Visualization and
+Computer Graphics 14, 3 (May-June 2008), 513-525
+http://www.framemuseums.org/sites/room of
+wonders/index
+Louvre. Le guide multimédia du museé de Louvre,
+Présentation à la presse, 12 février 2008, Paris, 2008.
+Moonan, W. Where in the World is that Exotic Roof
+Ornament? The New York Times, New York, August 17
+2007.
+Norman, D. The Design of Future Things. Basic Books,
+New York, 2007.
+Owen, R., Buhalis, D. and Pletinckx, D., Visitors㺰
+Evaluations of ICTs Used in Cultural Heritage. In VAST
+2005, The 6th International Symposium on Virtual
+Reality, Archaeology and Intelligent Cultural Heritage,
+(Pisa, Italy, 2005), Eurographics Association, 129-137.
+Proctor, N., Off base or On Target? Pros and Cons of
+wireless and location aware applications in the
+museums. In Proceedings of International Cultural
+Heritage Informatics Meeting, (Paris, 2005), Archives
+and Museum Informatics Europe.
+Proctor, N. and Burton, J., Tate Modern Multimedia
+Tour Pilots 2002-2003. In M Learn 2003: Learning
+
+with mobile devices (UK, London, 2003), 54-55.
+[19]
+
+[20]
+
+[21]
+
+[22]
+
+[23]
+
+[24]
+
+Sauer, S. and Goebel, S., Dinohunter: Game based learn
+experience in Museums. In Proceedings of International
+Cultural Heritage Informatics Meeting 2003, (Paris,
+2003), Archives and Museum Informatics Europe.
+Sforza, F., Scagliarini, D., Coralini, A., Vecchietti, E.,
+Cinotti, T.S., Roffia, L., Galasso, S., Malavasi, M.,
+Pigozzi, M. and Romagnoli, E. Exciting understanding
+in Pompeii through on-site parallel interaction with dual
+time virtual models. In Proceedings of the 2001
+conference on Virtual Reality, Archeology, and Cultural
+Heritage, ACM Press, 2001, 83-90.
+http://doi.acm.org/10.1145/584993.585007
+Sparacino, F., The Museum Wearable: real-time sensordriven understanding of visitors㺰 interests for
+personalized visually-augmented museum experiences.
+in Museums and the Web 2002, (Boston, USA, 2002),
+Archives and Museum Informatics.
+Vlahakis, V., Demiris, A., Bounos, E. and Ioannidis, N.,
+A novel approach to context sensitive guided e-tours in
+Cultural sites: Light augmented reality on PDA's. In
+VAST 2004, 5th International Symposium on Virtual
+Reality, Archaeology and Intelligent Cultural Heritage,
+(Bruxelles, 2004), 57-66.
+White, M., Liarokapsis, F., Darcy, J., Mourkoussis, N.,
+Petridis, P. and Lister, P.F., Augmented Reality for
+Museum Artefact Visualization. In Proceedings of the
+4th Irish Workshop on Computer Graphics,
+Eurographics Ireland Chapter, (Coleraine, Northern
+Ireland, 2003), 75-80.
+Woodruff, A., Aoki, M.P., Hurst, A. and Szymanski,
+M.H., Electronic Guidebooks and Visitor Attention. In
+International Cultural Heritage Informatics Meeting
+2001, (Milano, Italy, 2001), Archives and Museum
+Informatics Europe, 437-452.
+
+3rd International Conference on Digital Interactive Media in Entertainment and Arts
+
+

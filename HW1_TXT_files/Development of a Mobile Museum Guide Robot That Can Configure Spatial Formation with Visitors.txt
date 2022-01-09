@@ -1,0 +1,497 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/278715213
+
+Development of a Mobile Museum Guide Robot That Can Conﬁgure Spatial
+Formation with Visitors
+Conference Paper · July 2012
+DOI: 10.1007/978-3-642-31588-6_55
+
+CITATIONS
+
+READS
+
+15
+
+41
+
+5 authors, including:
+Mohammad Abu Yousuf
+
+Yoshinori Kobayashi
+
+Jahangirnagar University
+
+Saitama University
+
+68 PUBLICATIONS 291 CITATIONS
+
+153 PUBLICATIONS 1,825 CITATIONS
+
+SEE PROFILE
+
+SEE PROFILE
+
+Akiko Yamazaki
+Tokyo University of Technology
+51 PUBLICATIONS 1,161 CITATIONS
+SEE PROFILE
+
+Some of the authors of this publication are also working on these related projects:
+
+PhD Research View project
+
+Observing People’s Behaviors in Public Spaces for Initiating Proactive Human-Robot Interaction by Social Robots View project
+
+All content following this page was uploaded by Mohammad Abu Yousuf on 18 July 2021.
+The user has requested enhancement of the downloaded file.
+
+Development of a Mobile Museum Guide Robot
+That Can Configure Spatial Formation with Visitors
+Mohammad Abu Yousuf1, Yoshinori Kobayashi1,2, Yoshinori Kuno1,
+Akiko Yamazaki3, and Keiichi Yamazaki1
+1
+
+2
+
+Saitama University, Saitama, Japan
+Japan Science and Technology Agency (JST), PRESTO, Kawaguchi, Japan
+3
+Tokyo University of Technology, Hachioji, Japan
+{yousuf,yosinori,kuno}@cv.ics.saitama-u.ac.jp,
+ayamazaki@media.teu.ac.jp, BYI06561@nifty.com
+
+Abstract. Museum guide robot is expected to establish a proper spatial formation known as “F-formation” with the visitors before starting its explanation of
+any exhibit. This paper presents a model for a mobile museum guide robot that
+can establish an F-formation appropriately and can employ “pause and restart”
+depending on the situation. We began by observing and videotaping scenes of
+actual museum galleries where human guides explain exhibits to visitors. Based
+on the analysis of the video, we developed a mobile robot system that can guide
+multiple visitors inside the gallery from one exhibit to another. The robot has
+the capability to establish the F-formation at the beginning of explanation after
+arriving near to any exhibit. The robot can also implement “pause and restart”
+depending on the situation at certain moment in its talk to first elicit the visitor’s attention towards the robot. Experimental results suggest the efficacy of
+our proposed model.
+Keywords: F-formation, human-robot interaction, mobile guide robot, pause
+and restart.
+
+1
+
+Introduction
+
+Museum guide robots are one of the important application areas considered in research in human robot interaction [1-2]. In the case of a museum guide robot, both
+robot and visitor should have equal, direct, and exclusive access to the space where
+the target exhibit exists. In our previous research, we investigated some non-verbal
+actions of museum guide robots during explanation of exhibits [3]. In our previous
+research, however, we considered only the situations that occur after the robot starts
+its explanation. We assumed that the visitors were already in the proper position to
+enjoy the explanation. However, guide robots need to bring about such situations in
+order to really work as guides effectively. This paper, therefore, is concerned with the
+issue of initiating explanation in a natural human-robot interaction.
+D.-S. Huang et al. (Eds.): ICIC 2012, LNCS 7389, pp. 423–432, 2012.
+© Springer-Verlag Berlin Heidelberg 2012
+
+424
+
+M.A. Yousuf et al.
+
+Kendon’s analysis on spatial formation known as F-formation explains that “An Fformation arises whenever two or more people sustain a spatial and orientational relationship in which the space between them is one to which they have equal, direct, and
+exclusive access [4].” In human-human interaction, when people group themselves,
+they automatically form an F-formation. In human-robot interaction, if a proper Fformation is not formed during the initiation to talk, the robot should do some actions
+to establish an F-formation. Goodwin [5] also showed some systematic ways in which
+speakers obtain the attention of a recipient. When a current speaker begins to utter a
+sentence and if s/he finds recipients are not gazing towards him or her, the speaker
+can use “restart” and/or “pause” in the delivery of the utterance.
+There have been several studies about robot’s controlling the position of people
+during interaction with them. Hüttenrauch et al. found that people follow the Fformation in their interacting with robots [6]. Although their observations revealed
+that humans formulate O-space toward a robot, they did not study how a robot should
+formulate its spatial relationship. Tasaki et al. utilized Hall’s proximity theory [7] to
+determine a combination of sensors and robot behavior along with the current distance from the interacting person [8]. Kuzuoka et al. studied the effect of body orientation and gaze in controlling the F-formation [9]. Yamaoka et al. focused on the positions and body orientations to implement their information presenting robot [10].
+While this research is impressive, so far very few studies have revealed how a robot
+should behave to initiate interaction with multiple visitors before starting its explanation. In this paper, we focus on how a guide robot establishes an appropriate Fformation to initiate interaction with multiple visitors. We also examine how “pause
+and restart” plays an important role to attract the attention of visitors.
+
+2
+
+Interaction between Human Guide and Visitors at Museum
+
+In order to develop our museum guide robot, we analyzed some video footage recorded at the National Japanese American Museum in Los Angeles. The videos record
+human guides explaining exhibits to a small group of visitors. Transcript (1) and Figs.
+1(a) to 1(e) convey a typical fragment of such human guide behavior at the museum.
+In transcript (1), MG moves to another exhibit (Fig. 1(a)). MG clears his throat in the
+3rd line. “Clearing throat” is one kind of indication that he is waiting for the visitors to
+come to the exhibit. In line 4, MG employs a pause of 5.0 seconds. By this time the
+visitors are following MG (Figs. 1(b), 1(c)). MG deploys “restart” and a “pause” of
+0.2 seconds (6th line) while asking an involvement question to the visitors (“Have you
+all heard picture bri:des?”). At line 8, some visitors move their head vertically in response to the MG’s question. From lines 10-13, V1, V2, and V3 offer verbal responses to MG’s question. In lines 14 and 15, MG asks the visitors to come closer
+(Fig. 1(d)), an indication that they should form a proper F-formation (Fig. 1(e)).
+From this analysis, two interaction patterns are derived to design our robot system:
+1) Robots should have the capability to establish a proper F-formation.
+2) Robots should deploy “pause and restart” depending on the situation.
+
+Development of a Mobile Museum Guide Robot That Can Configure Spatial Formation
+
+425
+
+Transcript (1) (Picture bride) Data:Collected at National Japanese American Museum
+MG: Guide, V1,V2, V3: Visitors
+Symbols Used in the Transcript
+1 MG: Okay, let’s come over here
+(( ))
+Vocalizations which are
+2
+((Guide moves to another exhibit))
+difficult to convey in text
+3 MG: ((clears his throat)
+(5.0) (2.0)
+Pauses are timed in seconds
+(0.8) (0.2)
+and inserted within paren4
+(5.0) ((people follow MG))
+theses
+5 MG: Okay, so you: ah: heard of uh picture bri::des?
+,
+Slight rising tone
+6
+<Have you all heard picture bri:des? (0.2) See the
+:
+Stretched sound
+7
+picture up the::re, those are picture bri::des.
+<
+Speeding up the pace of
+8
+(2.0) ((some people moves their head vertically))
+delivery
+9 MG: You all heard of- you never heard of picture bri::des,
+?
+Final rising tone which
+10 V1: No:::,=
+may(or may not) indicate a
+11 V2: =(Not me.)
+question
+12
+(0.8)
+Short untimed pause within
+an utterance
+13 V3: [Uh-huh.
+=
+Overlap
+14 MG: [Or if you wanna come closer this way so that other (.)
+(did)
+Guess at unclear word
+15
+people could leave uh: on the other side.s
+[
+.
+
+Simultaneous utterances
+Stopping fall in tone, with
+some sense of completion
+
+Fig. 1. Human guide and visitors’ interaction at an actual museum
+
+3
+
+Mobile Museum Guide Robot System
+
+Based on our findings, we developed a mobile museum guide robot system utilizing a
+humanoid robot Robovie-R Ver.3 (Overview is shown in Fig. 2). The robot can move
+via wheels installed on the bottom, and can move its head and arms by controlling its
+joints. Its head, which incorporates eye cameras and an ear microphone, moves along
+three axes (Yaw, Roll and Pitch) like a human head. Our system utilizes two generalpurpose PCs, connected by a wired network. In our vision system, we incorporate
+three Logicool USB cameras and two laser range sensors. The three USB cameras are
+attached to a pole installed on the back of the robot, and can detect and track visitors’
+faces and their face directions. The two laser range sensors are attached to another
+long pole which is kept at a fixed position just in front of the experimental area. One
+of the two laser range sensor detects the ellipsoidal marker which is attached to the
+robot’s body to obtain the position and orientation of the robot, while the other laser
+range sensor is used to track the position and body orientation of the visitors.
+Our system consists of four software units: the face detection & tracking unit, the
+body tracking unit, the robot’s position tracking unit and the robot control unit. During its explanation of exhibits, the robot performs predetermined bodily non-verbal
+actions, such as facing towards the visitors, gesturing with its hands, and pointing to
+the exhibits.
+
+426
+
+M.A. Yousuf et al.
+
+Fig. 2. System overview of our mobile guide robot
+
+4
+
+Proposed Modeling of Interaction
+
+4.1
+
+Model of F-Formation
+
+For establishing a proper F-formation, we consider the following parameters:
+• Distance between the robot and the visitors: Ranges from 90cm to 120cm (Fig
+3(a)).
+• Distance between the robot and the exhibits: About 110 cm, fixed in all cases for
+all exhibits (Fig 3(a)).
+• Visitor’s body orientation: Should be in the direction between the robot and the
+exhibit (Fig 3(b)).
+• Visitor’s face direction: Should be towards the robot or the exhibit.
+• Robot’s body orientation: The robot turns its body 300 towards the exhibit to explain the exhibit (Fig 3(c)).
+• Robot’s field of view (FOV): Set at a limit of 1500 (Fig 3(c)).
+After arriving at an appropriate position for explanation of the exhibit, the robot
+should examine whether or not a proper F-formation has been established.
+
+Fig. 3. Standing position of the robot and the visitors to establish an F-formation
+
+Development of a Mobile Museum Guide Robot That Can Configure Spatial Formation
+
+4.2
+
+427
+
+Model of “Pause and Restart” to Achieve Mutual Gaze
+
+The robot observes the visitors’ face direction and body orientation before beginning
+its explanation of any exhibit. If, at the beginning of the speaker’s (robot) turn, the
+face direction is detected as not directed toward the robot or exhibit, or body orientation is detected as not in the direction between the robot and the exhibit, the robot
+employs the “pause and restart” strategy. The format of “pause and restart” which is
+implemented in our system is as follows:
+[Beginning] + [pause] + [new Beginning]
+..………..X_________
+In this format, the solid line below the sentence structure indicates that the recipient is
+gazing toward the speaker, no line indicates that the recipient is gazing elsewhere, and
+the ‘X’ marks the point at which the recipient’s gaze reaches the speaker. The dotted
+line represents the time required for the recipient to move his/her gaze from some
+other position to the speaker. In order to implement “pause and restart,” we consider
+the first sentence of each script explaining the exhibits, as in the following:
+Script 1: First sentence for explaining the first exhibit, “Te Nave Nave Fenua”
+Robot: This is a- (2.0) This is a famous work of Gauguin.
+In our proposed model, the guide robot deploys “pause and restart” depending on the
+situation. In all scripts, a restart with a preceding pause of 2 seconds is used.
+
+5
+
+Experiment with Humanoid Robot
+
+To test the robot’s effectiveness, an experiment was performed in the laboratory. Four
+paintings were placed in the area as shown in Fig. 4.
+
+Fig. 4. (a) Overview of the experimental area. (b) Mobile guide robot and four paintings
+
+A total of 16 graduate students (8 groups with 2 members in each group) participated in the experiment. Among the 8 groups, Group A (groups no. 1, 3, 5, and 7)
+participated in the sessions where the robot explained the first two paintings as the
+proposed guide robot system outlined above, and the remaining two paintings as a
+robot not equipped with the capacity to form an F-formation. On the other hand,
+Group B (groups no. 2, 4, 6, and 8) participated in the sessions where the robot did
+this in reverse order. Participants were not informed of which robot was which.
+
+428
+
+M.A. Yousuf et al.
+
+Initially, the robot with the proposed system waits in the middle of the experimental area. A schematic diagram of the main tasks performed by the robot is given in
+Fig. 5. The order of these main tasks is as follows:
+1) When the robot finds visitors coming into its immediate vicinity, it says, “May
+I explain these paintings to you?” If the visitors’ gaze turns toward the robot’s
+direction for three seconds, the robot system considers the visitors to be highly
+interested in the exhibits (Fig. 5(a)).
+
+Fig. 5. Schematic diagram of main tasks
+
+2) The robot then guides the visitors to the first exhibit (Fig. 5(b)).
+3) After arriving at the predefined position near the first exhibit, the robot follows
+the following steps to establish a proper F-formation.
+i) First, the robot verifies the distance between itself and the visitors.
+ii) If the visitors are not within range, the robot turns its head towards the
+visitor and says to them, “Please come closer” or “Please move back a
+little” depending on the situation.
+iii) Next, the robot turns 300 clockwise to orient towards the first exhibit.
+iv) Then, the robot verifies the body orientation of the visitors.
+v) If the visitor’s body orientation is not in the direction between the robot and the exhibit, the robot turns its head towards the visitor and
+starts its explanation using “pause and restart”.
+vi) Next, the robot verifies the direction of the visitors’ faces.
+vii) If the face direction is towards the robot or the exhibit, the robot begins to explain the first exhibit. If not, the robot starts its explanation
+with a “pause and restart”.
+4) After completing its explanation, the robot moves to the next exhibit and at the
+same time invites the visitors to follow along (Fig. 5(c), 5(d), 5(e)).
+5) The robot repeats task (3) to explain the next exhibit.
+6) Finally after explaining all four exhibits, the robot returns to its initial position
+and waits for more visitors to arrive (Fig. 5(f)).
+In the experiment, the robot based on our proposed model was compared with a robot
+that did not employ the proposed model.
+a) Proposed Robot: Robot behaves based on the model outlined in this paper.
+b) Conventional Robot: Robot begins its explanation after finding the faces of
+visitors. It does not care whether or not a proper F-formation is formed, nor
+does it utilize the ‘pause and restart’ strategy. It explains the exhibits with
+the same preprogrammed nonverbal behaviors as the proposed robot.
+
+Development of a Mobile Museum Guide Robot That Can Configure Spatial Formation
+
+429
+
+We videotaped all sessions. In addition, we recorded all laser range finder and camera
+data so that we could obtain the exact motions of the robot and the participants for
+later analysis. After the experiments, we asked participants to subjectively rate the
+robot’s effectiveness on a seven-point Likert scale, with the range: 1-very ineffective,
+2-ineffective, 3-somewhat ineffective, 4-undecided, 5-somewhat effective, 6effective, 7-very effective. The questionnaire items were as follows:
+1) Did you think that the robot attended to you adequately during explanation?
+2) Did you think that the robot was able to attract your attention to listen to its
+explanation?
+3) Overall evaluation about the robot.
+
+6
+
+Experimental Results
+
+We have examined the experimental results from the following three viewpoints.
+1)
+2)
+3)
+6.1
+
+Autonomous capability of the robot: Can the robot correctly judge the situation
+and behave properly according to our proposed model? (Sections 6.1, 6.2 & 6.3)
+Effectiveness of the robot actions: Can the robot’s actions make the participants
+form a proper F-formation and attract their attention? (Sections 6.1, 6.2, & 6.3)
+Subjective evaluation: Do the participants prefer proposed robot? (Section 6.4)
+Control of Visitors’ Standing Position
+
+We recorded the sensor data from all sessions in the experiment for analysis. As
+covered in section 5, the robot explained the first two paintings as the proposed robot
+and the remaining two as the conventional robot to Group A (groups no. 1, 3, 5, and7)
+and in the reverse order to Group B (groups no. 2, 4, 6, and 8). We found from the
+sensor data that there were 11cases (5 cases for Group A, 6 cases for Group B) where
+some visitors were not in proper position. The robot took the initiative to control
+visitors’ standing position in all 11 cases. Thus, the success rate of robot’s decisions
+was 100%.
+In the 5 cases for Group A, out of 10 participants 6 were out of proper F-formation
+range, and after the robot’s action 5 of these 6 moved inside the range. In the 6 cases
+for Group B, out of 12 participants 9 were out of proper range, and after the robot’s
+action, 6 of these 9 moved inside the range. The total success rate was thus 73% (the
+robot corrected 11 out of 15).
+On the other hand, when the robot explained the paintings as a conventional robot,
+we found from the sensor data that 17 participants in both groups (7 in Group A, 10 in
+Group B) were out of range. Of the total of 17 participants, only 6 moved inside the
+range to form a proper F-formation when the robot began its explanation. The “success rate” for the conventional robot was thus 35% (6 out of 17, although here we
+only use the term “success rate” for convenience since the robot did not try to correct
+the visitors).
+6.2
+
+Control of Visitors’ Body Orientation
+
+From the recorded sensor data, we counted the number of visitors who successfully
+changed their body orientation to a direction towards (meaning, oriented to the space
+
+430
+
+M.A. Yousuf et al.
+
+between) the robot and the painting after the robot’s employed a “pause and restart” at
+the beginning of its explanation. In 2 out of 8 cases in Group A and 3 out of 8 cases
+in Group B, the robot noticed that some visitors’ body orientations were not in the
+direction between the robot and the painting. The robot employed “pause and restart” in all 5 cases, meaning its success rate at deploying the strategy was 100%.
+In 2 cases among those of Group A, the robot noticed 2 out of 4 participants’ orientations were not in the direction between the robot and the painting, while in 3 cases
+among those of Group B it noticed 3 out of the 6 participants were incorrectly orientated. After the robot’s actions, both of the incorrectly oriented participants in Group
+A and 2 of the 3 in Group B changed their body orientations appropriately. The total
+success rate was therefore 80% (the robot corrected 4 out of 5).
+On the other hand, when the robot explained the paintings as a conventional robot
+would, we found from the recorded sensor data that 3 out of 16 participants in Group
+A and 1 out of the 16 participants in Group B were not oriented towards the robot and
+the painting. Out of a total 4 incorrectly orientated participants, 2 changed their body
+orientations towards the robot and the painting just after the robot started its
+explanation. The conventional robot thus scored a “success rate” of 50% (2 out of 4).
+Fig. 6 shows a typical example of a visitor changing his body orientation in the direction between the robot and the painting after the robot’s use of “pause and restart.”
+In Fig. 6(a), the robot noticed that the visitor’s (V1) body orientation was not in the
+direction between the robot and the painting. It then turned its head towards V1 and
+employed “pause and restart” to attract the visitors’ attention (Fig. 6(b)). V1 turned
+his body towards the robot and mutual gaze was established (Fig. 6(c)). V1 fully
+turned his body towards the robot (Fig. 6(d)).
+
+Fig. 6. A participant changing his body orientation after the robot’s use of “pause and restart”
+
+6.3
+
+Control of Visitors’ Face Direction
+
+Here we examined those visitors whose body orientations were in the direction between the robot and the painting but whose faces were directed elsewhere. We
+counted the number of such visitors from the recorded sensor data. When performing
+as the proposed model, the robot noticed 2 cases out of 8 in Group A and 4 cases out
+of 8 in Group B where some visitors’ face directions were not towards the robot or the
+painting. The robot employed “pause and restart” in all 6 cases, so its deployment
+success rate was 100%.
+In the 2 cases in Group A, the robot noticed 3 out of 4 participants’ face directions
+were not towards itself or the painting, while in the 4 cases in Group B it noticed 4 out
+of the 8 participants’ face were directed elsewhere. After the robot’s actions, 2 of the
+
+Development of a Mobile Museum Guide Robot That Can Configure Spatial Formation
+
+431
+
+3 participants with faces directed elsewhere in Group A and 3 out of the 4 in Group B
+changed their face directions towards the robot or the painting. The total success rate
+was therefore 71% (the robot corrected 5 of the 7 participants).
+On the other hand, when the robot explained the paintings as a conventional robot,
+2 out of 16 participants in Group A and 3 out of 16 participants in Group B had faces
+not directed towards the robot or the painting. Out of the total of 5 whose face directions were not towards the robot or the paintings, only 1 shifted his face appropriately
+just after the robot started its explanation for a “success rate” of 20% (1 out of 5).
+Although the number of cases is small and we cannot yet draw any definite conclusion, the results suggest that the “pause and restart” strategy can have a logical effect.
+6.4
+
+Subjective Evaluation
+
+We conducted a subjective evaluation of the experiment among the participants, the
+results of which are as follows. For the question “Did you think that the robot attended to you adequately during explanation?” (Fig. 7(a)), repeated measures of
+ANOVA revealed a significant difference between the two conditions
+(F(1,15)=15.08, p=0.0014). The same was true of the question “Did you think that
+the robot was able to attract your attention to listen to its explanation?” (Fig. 7(b)),
+where repeated measures of ANOVA also showed a significant difference between
+the two conditions (F(1,15)=8.59, p=0.0103). Finally the participants’ overall evaluation (Fig. 7(c)), here too repeated measures of ANOVA showed a significant difference between the two conditions (F(1,15)=6.03, p=0.0266).
+
+Fig. 7. Results of subjective evaluation
+
+7
+
+Discussion and Conclusion
+
+In this paper, we proposed a museum guide robot that can establish a proper Fformation and employ the “pause and restart” depending on the situation. Based on
+our analysis of videos collected at real museums, we have found that a human guide
+and visitors always create an F-formation and moreover that if the visitors are not
+ready to listen to the presentation then the human guide may repeat sentences and/or
+deploy pauses during his/her explanation. Based on this, we developed a museum
+guide robot system that is able to move from one exhibit to another in a museum gallery, to appropriately formulate an F-formation system, and also to employ the “pause
+and restart” if necessary. We verified the effectiveness of our system in experiments
+
+432
+
+M.A. Yousuf et al.
+
+using human participants. In future work, we plan to conduct experiments in an actual
+museum to further confirm the effectiveness of our robot system.
+Acknowledgement. This work was supported in part by the Ministry of Education,
+Culture, Sports, Science and Technology under the Grant-in-Aid for Scientific Research (KAKENHI 21300316,23252001) and JST, CREST.
+
+References
+1. Nieuwenhuisen, M., Gaspers, J., Tischler, O., Behnke, S.: Intuitive Multimodal Interaction
+and Predictable Behavior for The Museum Tour Guide Robot Robotinho. In: Proceedings
+of the 10th IEEE-RAS International Conference on Humanoid Robots (Humanoids), pp.
+653–658 (2010)
+2. Faber, F., Bennewitz, M., Eppner, C., Görög, A., Gonsior, C., Joho, D., Schreiber, M.,
+Behnke, S.: The Humanoid Museum Tour Guide Robotinho. In: Proceedings of the IEEE
+International Symposium on Robot and Human Interactive Communication (RO-MAN),
+pp. 891–896 (2009)
+3. Yamazaki, A., Yamazaki, K., Kuno, Y., Burdelski, M., Kawashima, M., Kuzuoka, H.: Precision Timing in Human-robot Interaction: Coordination of Head Movement and Utterance. In: Proceedings of the CHI 2008, pp. 131–140. ACM Press (2008)
+4. Kendon, A.: Conducting Interaction–Patterns of Behavior in Focused Encounters. Cambridge University Press (1990)
+5. Goodwin, C.: Restarts, Pauses, and The Achievement of a State of Mutual Gaze at Turn
+Beginning. Sociological Inquiry 50(3-4), 272–302 (1980)
+6. Hüttenrauch, H., Eklundh, K.S., Green, A., Topp, E.A.: Investigating spatial relationships
+in human-robot interactions. In: IEEE/RSJ International Conference on Intelligent Robots
+and Systems (IROS 2006), pp. 5052–5059 (2006)
+7. Hall, E.T.: Proxemics. Current Anthopology 9, 83–108 (1968)
+8. Tasaki, T., Komatani, K., Ogata, T., Okuno, H.: Spatially Mapping of Friendli-ness for
+Human-Robot Interaction. In: Proceedings of the IEEE/RSJ International Conference on
+Intelligent Robots and Systems, Edmonton, pp. 521–526 (August 2005)
+9. Kuzuoka, H., Suzuki, Y., Yamashita, J., Yamazaki, K.: Reconfiguring Spatial Formation
+Arrangement by Robot Body Orientation. In: ACM/IEEE International Conference on
+Human-Robot Interaction (HRI 2010), pp. 285–292 (2010)
+10. Yamaoka, F., Kanda, T., Ishiguro, H., Hagita, N.: How Close? A Model of Proximity Control for Information-presenting Robots. In: Human-Robot Interaction (HRI 2008), pp. 137–
+144 (2008)
+
+View publication stats
+
+
